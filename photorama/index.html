@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO✧RAMA</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: Georgia, serif;
+            background: #0a0a0c;
+            color: #f5f0e8;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: normal;
+            letter-spacing: 0.3em;
+            color: #d4af37;
+            margin-bottom: 1rem;
+        }
+
+        .screen {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hidden { display: none; }
+
+        /* Password screen */
+        #login p {
+            margin-bottom: 2rem;
+            opacity: 0.7;
+        }
+
+        input[type="password"] {
+            background: transparent;
+            border: 1px solid #d4af37;
+            color: #f5f0e8;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        input:focus { outline: none; }
+
+        button {
+            background: #d4af37;
+            border: none;
+            color: #0a0a0c;
+            padding: 0.8rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover { opacity: 0.9; }
+
+        /* Gallery */
+        .photo {
+            width: min(90vw, 480px);
+            aspect-ratio: 1;
+            object-fit: cover;
+            border: 1px solid #333;
+            margin: 1.5rem 0;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+
+        #gallery p {
+            max-width: 400px;
+            margin: 1rem auto;
+            line-height: 1.8;
+            opacity: 0.7;
+            font-style: italic;
+        }
+
+        .signature {
+            color: #d4af37;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="login" class="screen">
+        <h1>PHOTO✧RAMA</h1>
+        <p>Wenn Du das richtige Passwort hast,<br>wünsche ich viel Spaß.</p>
+        <form id="form">
+            <input type="password" id="pw" placeholder="Passwort" maxlength="10"><br><br>
+            <button type="submit">Eintreten</button>
+        </form>
+    </div>
+
+    <!-- Gallery Screen -->
+    <div id="gallery" class="screen hidden">
+        <h1>PHOTO✧RAMA</h1>
+        <img src="pics/pic00.jpg" alt="Foto" class="photo" id="photo" onclick="nextPhoto()">
+        <p>
+            Ein kleines Geschenk für Dich — klicke auf das Bild 
+            für eine neue Überraschung aus unseren gemeinsamen Erinnerungen.
+        </p>
+        <p class="signature">— Dein Robert ♡</p>
+        <p><a href="#" onclick="showInfo(); return false;" style="color: #d4af37;">Info</a></p>
+    </div>
+
+    <!-- Info Window -->
+    <div id="info" class="screen hidden" onclick="hideInfo()">
+        <div style="max-width: 500px; text-align: left; line-height: 1.8;">
+            <h2 style="color: #d4af37; margin-bottom: 1rem;">Liebe Katrin,</h2>
+            <p>Anscheinend hat alles funktioniert und Du siehst hoffentlich rechtzeitig das Geburtstagsgeschenk, das ich Dir „gebastelt" habe.</p>
+            <br>
+            <p>Ich wollte Dir ein Geschenk basteln, das Dir jederzeit und an wirklich fast jedem Ort die Möglichkeit gibt mich zu sehen. Immer wenn Du mich ganz dringend sehen willst, sollst Du eine kleine Überraschung erleben.</p>
+            <br>
+            <p>Diese Webseite wählt aus einem Pool von zahllosen Bildern aus, die Dir vielleicht oft bekannt vorkommen. Da sie Dir aber immer zufällig gemischt gezeigt werden, sollte das nie richtig langweilig werden.</p>
+            <br>
+            <p>So vergisst Du nicht wie ich aussehe und wie Du meine Augen zum Leuchten bringst.</p>
+            <br>
+            <p style="color: #d4af37;"><strong>Alles Liebe zum Geburtstag!</strong><br>Dein Robert, der Dich über alles liebt. ♡</p>
+            <br>
+            <p style="opacity: 0.5; font-size: 0.9rem;">(Klicke irgendwo um zu schließen)</p>
+        </div>
+    </div>
+
+    <script>
+        const MAX = 113;
+        let current = 0;
+
+        // Password check
+        document.getElementById('form').onsubmit = (e) => {
+            e.preventDefault();
+            if (document.getElementById('pw').value.toLowerCase() === 'gudstaf') {
+                document.getElementById('login').classList.add('hidden');
+                document.getElementById('gallery').classList.remove('hidden');
+                playMusic();
+            } else {
+                alert('Falsches Passwort');
+            }
+        };
+
+        // Random photo
+        function nextPhoto() {
+            let next = current;
+            while (next === current) {
+                next = Math.floor(Math.random() * (MAX + 1));
+            }
+            current = next;
+            const num = current.toString().padStart(2, '0');
+            document.getElementById('photo').src = `pics/pic${num}.jpg`;
+        }
+
+        // Info window
+        function showInfo() {
+            document.getElementById('gallery').classList.add('hidden');
+            document.getElementById('info').classList.remove('hidden');
+        }
+        function hideInfo() {
+            document.getElementById('info').classList.add('hidden');
+            document.getElementById('gallery').classList.remove('hidden');
+        }
+
+        // Background music (gapless loop)
+        async function playMusic() {
+            try {
+                const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                const res = await fetch('bg_sound.ogg').catch(() => fetch('bg_sound.mp3'));
+                const buf = await ctx.decodeAudioData(await res.arrayBuffer());
+                const src = ctx.createBufferSource();
+                src.buffer = buf;
+                src.loop = true;
+                src.connect(ctx.destination);
+                src.start();
+            } catch (e) {
+                console.log('Audio failed:', e);
+            }
+        }
+	</script>
+</body>
+</html>

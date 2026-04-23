@@ -1,0 +1,26 @@
+table,td,tr,body,i,div,p,span {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : white;
+}
+
+a:link { font-weight: bold; color: #66CCFF; text-decoration: underline;}
+a:visited { font-weight: normal; color: #66CCFF; text-decoration: underline;}
+a:active {color: #66CCFF; }
+
+
+a.dark:link { font-weight: bold; color: #003366; text-decoration: underline;}
+a.dark:visited { font-weight: bold; color: #003366; text-decoration: underline;}
+a.dark:active { font-weight: bold; color: #003366; }
+
+
+.intro { color: #66CCFF; font-weight: bold;}
+.date { color: #003366; }
+.titlebg { background-color: white;}
+.title { color: #003366; font-weight: bold; }
+.authors { align: right; font-style: italic; color: #003366; }
+.subtitle { font-style: italic;}
+.keywords { font-style: italic; }
+
+
+

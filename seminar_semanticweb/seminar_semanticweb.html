@@ -1,0 +1,1287 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Seminararbeit -Semantic Web</TITLE>
+	<META NAME="GENERATOR" CONTENT="StarOffice 6.0  (Win32)">
+	<META NAME="CREATED" CONTENT="20020324;20101300">
+	<META NAME="CHANGED" CONTENT="20020324;20540437">
+</HEAD>
+<BODY LANG="en-US" TEXT="#000000" LINK="#0000ff" VLINK="#800080">
+<DIV TYPE=HEADER>
+	<CENTER>
+		<TABLE WIDTH=614 BORDER=0 CELLPADDING=5 CELLSPACING=0>
+			<COL WIDTH=429>
+			<COL WIDTH=165>
+			<TR>
+				<TD WIDTH=429 HEIGHT=57>
+					<DL>
+						<DT><P LANG="de-DE"><FONT FACE="MS Reference Sans Serif, Tahoma"><FONT SIZE=2><B>Seminar:
+						Konzepte von Informationssystemen</B></FONT></FONT><DT><P LANG="de-DE">
+						<FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="MS Reference Sans Serif, Tahoma">Ausarbeitung
+						<U>&ldquo;Semantic Web&rdquo;</U></FONT></FONT></FONT><DT><P LANG="de-DE">
+						<FONT FACE="MS Reference Sans Serif, Tahoma"><FONT SIZE=2>Robert
+						S&ouml;semann, Sommer 2001</FONT></FONT></DL>
+				</TD>
+				<TD WIDTH=165 VALIGN=TOP>
+					<P LANG="de-DE" ALIGN=RIGHT><U><IMG SRC="seminar_semanticweb_html_m2840c989.png" NAME="Grafik1" ALIGN=BOTTOM WIDTH=82 HEIGHT=82 BORDER=0></U></TD>
+			</TR>
+		</TABLE>
+	</CENTER>
+	<P LANG="de-DE"><BR>
+</DIV>
+<P LANG="de-DE" ALIGN=CENTER><BR><BR>
+</P>
+<P LANG="de-DE" ALIGN=CENTER><BR><BR>
+</P>
+<P LANG="de-DE" ALIGN=CENTER><BR><BR>
+</P>
+<P LANG="de-DE" ALIGN=CENTER><FONT FACE="Arial"><FONT SIZE=3>WSI f&uuml;r
+Informatik, Universit&auml;t T&uuml;bingen</FONT></FONT></P>
+<P LANG="de-DE" ALIGN=CENTER><FONT FACE="Arial"><FONT SIZE=4><B>Seminar
+&bdquo;Konzepte von Informationssystemen&ldquo;</B></FONT></FONT></P>
+<P LANG="de-DE" ALIGN=CENTER><FONT FACE="Arial"><FONT SIZE=3><U><B>Ausarbeitung:
+Semantic Web</B></U></FONT></FONT></P>
+<P LANG="de-DE" ALIGN=CENTER><FONT FACE="Arial"><FONT SIZE=3>Robert
+S&ouml;semann, 20.06.01</FONT></FONT></P>
+<P LANG="de-DE" ALIGN=CENTER><BR><BR>
+</P>
+<P LANG="de-DE" ALIGN=CENTER><BR><BR>
+</P>
+<P LANG="de-DE" ALIGN=CENTER><BR><BR>
+</P>
+<P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=4><B>Inhaltsverzeichnis</B></FONT></FONT></P>
+<DIV ID="Inhaltsverzeichnis1">
+	<DL>
+		<DL>
+			<DL>
+				<DD><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=3><B>A 
+				Abstract	2</B></FONT></FONT><DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>B  Szenario &ndash; Warum wir
+				ein besseres Web brauchen	2</B></FONT></FONT><DL>
+					<DL>
+						<DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>1 Das WWW heute (2001)	2</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>2 Das WWW morgen (2010)	3</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>3 Motivation	3</B></FONT></FONT></DL>
+				</DL>
+				<DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>C  Das Semantic Web	4</B></FONT></FONT><DL>
+					<DL>
+						<DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>1 Einf&uuml;hrung	4</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>2 Wissensrepr&auml;sentation
+						(Ontology)	5</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>3 Wissensverarbeitung
+						(Logic)	5</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>4 Autom. Beweisf&uuml;hrung
+						(Proof)	6</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>5 Vertrauen/Sicherheit
+						(Trust)	6</B></FONT></FONT></DL>
+				</DL>
+				<DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>D  Technische Umsetzungen	7</B></FONT></FONT><DL>
+					<DL>
+						<DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>1 Ressourcendefinition mit
+						XML/RDF	7</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>2 Ontologien mit RDF
+						Schema/DAML+OIL	9</B></FONT></FONT><DD><P LANG="de-DE">
+						<FONT FACE="Arial"><FONT SIZE=3><B>3 Weitere Umsetzungen (SHOE,
+						Dublin Core)	11</B></FONT></FONT></DL>
+				</DL>
+				<DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>E  Ausblick und Fazit	12</B></FONT></FONT><DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>F  Semantic Web Tools &amp;
+				APIs	13</B></FONT></FONT><DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>G  Literaturangaben	14</B></FONT></FONT><DD><P LANG="de-DE">
+				<FONT FACE="Arial"><FONT SIZE=3><B>H  Empfohlene WWW-Resourcen
+				zum Thema	14</B></FONT></FONT></DL>
+		</DL>
+	</DL>
+</DIV>
+<H1 LANG="de-DE" ALIGN=JUSTIFY><FONT FACE="Arial"><FONT SIZE=3>A  <FONT SIZE=3>Ab</FONT>stract</FONT></FONT></H1>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Das heutige
+	World Wide Web mit seiner HTML-basierten Hypertextstruktur hat die
+	Art und Weise wie Menschen Informationen bereitstellen, beschaffen
+	und benutzen, revolutioniert. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Nie zuvor war es
+	f&uuml;r Privatpersonen, Unternehmen und Organisationen so einfach,
+	auf derart umfangreiche Mengen Information zuzugreifen und sie zu
+	bereichern.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Trotz aller
+	unbestreitbaren Vorz&uuml;ge, deckt gerade das unglaubliche Wachstum
+	der verlinkten Daten und die damit immer schwierigere Suche durch
+	den Menschen, die ernormen Schwachstellen des heutigen WWWs auf.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Die Vision eines semantischen Webs
+	des WWW-Erfinders Tim Berners-Lee will viele dieser Probleme l&ouml;sen
+	und ist deshalb heute auch in aller Munde, wenn die existierende
+	Technik an ihre Grenzen st&ouml;&szlig;t.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Die folgende
+	Seminarausarbeitung soll helfen, den oft zitierten und auch
+	missinterpretierten Begriff des &bdquo;Semantic Web&ldquo; zu
+	durchleuchten, um zu verstehen, was er bedeutet und was nicht.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>In einem einleitenden
+	Zukunftsszenario sollen Vorz&uuml;ge der Technik vorgef&uuml;hrt und
+	anschlie&szlig;end um die dahinter stehenden Ideen vertieft werden.
+	Anschlie&szlig;end werden bereits bestehende Umsetzungen
+	vorgestellt. </FONT></FONT>
+</DL>
+<H1 LANG="de-DE" ALIGN=JUSTIFY><FONT FACE="Arial"><FONT SIZE=3>B  Szenario
+&ndash; Warum wir ein besseres Web brauchen</FONT></FONT></H1>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Das folgende
+	Szenario zeigt die Schw&auml;chen des heutigen Webs und gibt
+	Motivation f&uuml;r eine Verbesserung.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>[ Der Web-Design
+	Freelancer Tim hat ein lukratives Angebot f&uuml;r einen eiligen
+	Auftrag bekommen. Daf&uuml;r ben&ouml;tigt er f&uuml;r sein
+	PC-System schnell bessere Komponenten (Prozessor, Grafikkarte und
+	Monitor). Um Geld und Zeit zu sparen, will er die Teile per Internet
+	bestellen und dann selbst einbauen. Auch der Kauf gebrauchter Teile
+	kommt f&uuml;r ihn in Frage. Um sp&auml;ter bei der Benutzung und
+	beim Einbau keine &Uuml;berraschung zu erleben, will er nur als
+	&bdquo;gut&ldquo;-getestete und zu seinem System kompatible Teile
+	kaufen. Es ergeben sich f&uuml;r den Onlineeinkauf folgende
+	Priorit&auml;ten:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+</DL>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>&Uuml;bereinstimmung
+	mit den geforderten Leitungsmerkmalen</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Kompatibilit&auml;t zum bestehenden
+	System </FONT></FONT>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Hochwertige
+	Qualit&auml;tskomponeten (Testsieger in ihren Klassen)</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Schnelle Lieferbarkeit (am besten
+	&uuml;ber Nacht)</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Niedriger Preis (unter 3000 DM,
+	eventuell auch gebraucht)</FONT></FONT></UL>
+<DL>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Nach der
+	Aufstellung dieses &bdquo;Pflichtenhefts&ldquo; loggt sich Tim ins
+	Internet ein. Wir schreiben den...	</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>1 Das WWW heute (2001)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><I>...20. Mai
+	2001</I>. - F&uuml;r aktuelle, unabh&auml;ngige Testberichte besucht
+	Tim die Webseite der <I>Computerzeitschrift CHIP</I>. Er liest dort
+	alle Bewertungen &uuml;ber die gesuchten Ger&auml;te und
+	durchforstet meterlange Vergleichstabellen. Nach Stunden und einiger
+	Verwirrung &uuml;ber das gro&szlig;e Angebot macht er sich mit je 3
+	Alternativen auf die Suche nach einer zweiten Testmeinung. Nach
+	l&auml;ngerer Suche wird er bei der <I>Stiftung Warentest</I>
+	f&uuml;ndig. Danach bleiben nur noch 2 seiner Alternativen &uuml;brig.
+	Um mit der Kompatibilit&auml;t der Grafikkarte auf Nummer Sicher zu
+	gehen, qu&auml;lt er sich noch durch kryptische Servicesites zweier
+	Hersteller. Mit ungef&auml;hren Preisangaben im Kopf benutzt Tim die
+	Preisvergleichssite <I>DEALTIME</I> , um die preiswertesten Shops zu
+	finden. Zwar erh&auml;lt er dort viele Treffer, allerdings wieder
+	keine Lieferbedingungen. In den folgenden Stunden durchsucht er jede
+	Webseite per Hand nach dem Kriterium &quot;schnelle Lieferbarkeit&quot;.
+	 </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>F&uuml;r zwei
+	der drei Teile erf&uuml;llt der Online Shop <I>ARLT</I> die
+	Vorraussetzungen. F&uuml;r den Monitor muss er noch einmal zur&uuml;ck
+	zu <I>DEALTIME</I>. Trotz guter Lieferzeiten bei H&auml;ndler
+	<I>ALTERNATE</I>, l&auml;sst ein zu hoher Gesamtpreis seine Suche
+	wieder stocken. Ohne zu wissen, welche der Komponenten &uuml;berteuert
+	ist, besucht Tim die Auktionssite EBAY und den Online-Gebrauchtmarkt
+	<I>SPERRM&Uuml;LL</I>. Dort lie&szlig;e sich der Preis dr&uuml;cken,
+	allerdings m&uuml;sste er dann auf ein anderes Monitormodell
+	umsteigen. Um sich der Qualit&auml;t dieses Models sicher zu sein,
+	besucht er wieder die Site von <I>CHIP</I>. Der Monitor wird
+	empfohlen, ist aber allerdings bei Tim&rsquo;s R&uuml;ckkehr schon
+	versteigert. Entnervt entschlie&szlig;t er sich zum Kauf eines viel
+	teureren Monitors bei der Firma <I>ARLT</I>, die ihn mit schnellerer
+	Lieferung ab 3 Teilen lockt. Letztendlich musste Tim bei 4 seiner 5
+	Priorit&auml;ten Abstriche machen.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>2 Das WWW morgen (2010)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><I>...20. Mai
+	2010</I>. &ndash; Tim startet seine <B>Semantic Web Agent Software</B>.
+	Nach kurzer Zeit hat er per einfacher Regeln dem Agent den ersten
+	Auftrag erteilt. Es sollen aktuelle Computertestberichte nach
+	Testsiegern seiner drei Kaufw&uuml;nsche durchsucht werden. Anhand
+	der Bookmarkliste kennt der Agent bereits Tim&rsquo;s favorisierte
+	Sites; solche die er oft besucht und denen er vertraut. Zus&auml;tzlich
+	befragt er noch befreundete Agentenmodule nach weiteren renommierten
+	Testsites. Nach wenigen Sekunden bekommt Tim eine Liste mit je vier
+	Testsiegern f&uuml;r Monitor, Grafikkarte, und Prozessor. Diese
+	Komponenten wurden gleichzeitig von 3 unabh&auml;ngigen Sites als
+	&bdquo;gut&ldquo; eingestuft.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Tim sichtet kurz die
+	Zusammenfassungen, die der Agent aus den gefunden Informationen
+	erstellt hat, und bittet alle Produkte auf ihre Kompatibilit&auml;t
+	abzupr&uuml;fen. Der Agent erfragt beim Betriebssystem die
+	Leistungsdaten des PCs und vergleicht sie mit denen auf den
+	Servicesites der Hersteller. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Da Tim nun nur
+	noch am Resultat interessiert ist, also einer Liste passender
+	Onlineshops, erstellt er einen kompletten Regelsatz mit all seinen
+	Priorit&auml;ten und Vorraussetzungen und verl&auml;sst den Computer
+	f&uuml;r eine Kaffeepause.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Der Agent fragt bei einem
+	Suchservice eine Liste renommierten Computershops ab, durchsucht
+	diese nach den gew&uuml;nschten Modellen, macht Preisvergleiche und
+	&uuml;berpr&uuml;ft die Lieferzeiten.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Auch eventuelle Rabatte beim Kauf
+	mehrerer Komponenten ber&uuml;cksichtigt er. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Als nach
+	etlichen Suchzyklen fast ein Optimum aller Priorit&auml;ten erreicht
+	ist, findet sich bei EBAY in einer Sofortversteigerung ein gleiches,
+	aber preiswerteres Exemplar des Monitors. &Uuml;ber das Mobiltelefon
+	holt sich der Agent bei Tim die Authorisierung um mitzusteigern.
+	Knapp eine Stunde nach dem Tim seinen Agenten beauftragt hat, ist
+	alles abgeschlossen und Tim kann die Bestellung und Lieferung aller
+	Teile bis zum n&auml;chsten Morgen best&auml;tigen. Froh, dass der
+	Gesamtpreis fast 500 DM unter dem Maximum liegt, ruft Tim seinen
+	Auftraggeber an, um seine sofortige Mitarbeit am Projekt
+	anzuk&uuml;ndigen.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>3 Motivation</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Zwar erscheint
+	das Szenario etwas &uuml;berspitzt, ist jedoch der krasse
+	Widerspruch von riesiger &bdquo;theoretisch&ldquo; verf&uuml;gbarer
+	Datenmenge im Web und der Schwierigkeit auch nur die einfachsten
+	Informationen schnell zu finden, nur zu bekannt. Zum Alltag eines
+	jeden Surfers geh&ouml;ren Suchmaschinen, die entweder gar keine
+	oder tausende scheinbar relevante Dokumente finden. Mit zunehmender
+	Gr&ouml;&szlig;e des Webs und der Vielf&auml;ltigkeit der Inhalte
+	zeigt sich, dass das reine Indizieren bzw. Z&auml;hlen von
+	Worth&auml;ufigkeiten selten die echte Bedeutung eines Dokumentes
+	erschlie&szlig;en kann.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Der Grund daf&uuml;r
+	ist, dass die Inhalte im heutigen WWW fast ausschlie&szlig;lich zur
+	Wahrnehmung durch den Menschen gemacht wurden. Sie spiegeln all die
+	Doppeldeutigkeiten und Unklarheiten menschlicher Sprache wider. Mit
+	zunehmender Gr&ouml;&szlig;e wird allerdings die Un&uuml;berschaubarkeit
+	und die Komplexit&auml;t f&uuml;r Menschen immer unhandbarer.
+	Maschinen (Soft- oder Hardware) w&auml;ren daf&uuml;r viel besser
+	geeignet. Heutzutage scheitert dies aber bereits an der
+	Undefiniertheit der Websprache HTML. Logische , also
+	inhaltsbeschreibende und formatierende Tags werden gemischt und
+	teilweise in ihrer eigentlichen Funktion missbraucht. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Die wichtigste
+	Vorraussetzung f&uuml;r eine Verbesserung des WWWs ist also, f&uuml;r
+	Maschinen die Bedeutung (<B>Semantik</B>) einzelner Inhalte
+	erschlie&szlig;bar zu machen. Sie ben&ouml;tigen dazu eine
+	standardisierte, wohldefinierte und damit maschinenlesbare
+	Metabeschreibung der Daten.</FONT></FONT></DL>
+<H1 LANG="de-DE" ALIGN=JUSTIFY>
+<FONT FACE="Arial"><FONT SIZE=3>C  Das Semantic Web</FONT></FONT></H1>
+<H2 LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=3>1 Einf&uuml;hrung</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Der Begriff
+	wurde vom Tim Berners-Lee und anderen Kollegen beim W3C in seiner
+	&bdquo;Roadmap for a semantic web&ldquo; [1] gepr&auml;gt. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Laut dortiger
+	Definition werden im &bdquo;Semantic Web&ldquo;:</FONT></FONT></DL>
+<UL>
+	<LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Daten (Ressourcen) semantisch
+	dargestellt und</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Daten &uuml;ber eindeutige
+	standardisierte Bezeichner identifiziert (sog. <SPAN LANG="fr-FR">URIs
+	&ndash; Uniform Ressource Identifiers) </SPAN></FONT></FONT>
+</UL>
+<DL>
+	<DT><P LANG="fr-FR"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Zus&auml;tzlich
+	zu den Informationen die der Mensch interpretieren kann, soll das
+	WWW der Zukunft auch semantische Metadaten liefern. Diese erkl&auml;ren
+	z.B. was eine Ressource ist, was sie bedeutet und welche
+	Eigenschaften sie hat.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>W&auml;hrend das &bdquo;alte&ldquo;
+	WWW eher mit einem unstrukturierten Text zu vergleichen ist, ist das
+	Semantic Web und seine Datenhaltung &auml;hnlich einer relationalen
+	Datenbank.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>In einzelnen Anwendungsgebieten
+	haben normale Datenbanken gewisse Standardisierungen, z.B. wie
+	Spalten benannt werden, was sie bedeuten und wo sie in der DB
+	stehen. Dies w&auml;re im offenen, jedermann zug&auml;nglichen Web
+	kaum m&ouml;glich. Auch scheint eine Festlegung auf eine einzige
+	g&uuml;ltige Bedeutungsbeschreibung weder realistisch noch
+	w&uuml;nschenswert. Deshalb m&uuml;ssen auch die Gemeinsamkeiten
+	zwischen Datenbanken, die sich in Struktur und Benennung
+	unterscheiden, festgehalten werden. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Nur dann k&ouml;nnte
+	der Softwareagent aus dem Szenario erkennen, dass eine Bewertung
+	&bdquo;empfehlenswert&ldquo; auf der CHIP-Site mit &bdquo;sehr gut&ldquo;
+	bei der Stiftung Warentest vergleichbar ist.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Eine weitere wichtige Vorraussetzung
+	f&uuml;r ein erfolgreiches Semantic Web ist die Allgemeing&uuml;ltigkeit
+	und Universalit&auml;t der Datendarstellung, da sich weder
+	zuk&uuml;nftige Erweiterungen, noch alle Nutzungsarten absch&auml;tzen
+	lassen. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Anhand von
+	Wissen aus den unterschiedlichsten Forschungsgebieten (z.B.
+	Knowledge Representation, Information Retrieval und Logik) haben das
+	WWW Consortium (W3C), namhafte Universit&auml;ten und zahlreiche
+	IT-Firmen verschiedene Standards und Implementierungen dieser
+	Forderungen umgesetzt.</FONT></FONT></DL>
+<P LANG="de-DE" ALIGN=CENTER>
+<BR>
+<P LANG="de-DE" ALIGN=CENTER><IMG SRC="seminar_semanticweb_html_mb26f73d.png" NAME="G1: swlayers" ALIGN=BOTTOM WIDTH=186 HEIGHT=139 BORDER=0><DL>
+	<DT><P LANG="de-DE">
+	<BR>
+</DL>
+<P LANG="de-DE" ALIGN=CENTER><FONT FACE="Arial"><FONT SIZE=2><FONT SIZE=1><U>Abb.
+1:</U> vereinfachtes Layer-Schema der offiziellen W3C-Grafik</FONT></FONT></FONT><P LANG="de-DE" ALIGN=CENTER>
+<BR>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Auf dem Weg vom
+	heutigen WWW zum semantischen Web von morgen, sollen nach
+	Berners-Lee verschiedene aufeinander aufbauende Layer (siehe Grafik)
+	geschaffen werden. Die wichtigsten Stufen werden nachfolgend
+	beschrieben.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>2 Wissensrepr&auml;sentation
+(Ontology)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Wissen ist im
+	allgemeinen die Bechreibung von Objekten und ihren Zusammenh&auml;ngen.
+	Im Semantic Web werden Objekte <B>Ressourcen</B> genannt. Eine
+	Ressource kann alles sein, eine Webseite, eine Firma, eine Person,
+	ein Gegenstand oder ein abstraktes Konzept wie in unserem Szenario
+	die Testwertung.  &bdquo;Wertung&ldquo; hat f&uuml;r verschiedene
+	Menschen und in verschiedenen Kontexten unterschiedliche
+	Bedeutungen. Daher w&uuml;rde eine einheitliche, feste &quot;webweite&quot;
+	Definition keinen Sinn machen. Damit jeder also seine eigene
+	Ressourcebeschreibung festlegen kann, weist man ihnen eine absolute,
+	einheitliche und eindeutige <B>URI (=Uniform Ressource Identifier)</B>
+	zu. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="Arial">Trotz
+	seiner &Auml;hnlichkeit zur URL (=Uniform Ressource Locator), wird
+	bei der URI nicht unbedingt der Hinweis auf den Fundort irgendeiner
+	Datei gegeben. Beispielsweise ist <U><FONT COLOR="#0000ff">http://</FONT></U></FONT><FONT COLOR="#0000ff"><U><A HREF="http://www.chip.de/terms/wertung"><FONT FACE="Arial">www.chip.de/terms/wertung</FONT></A></U></FONT><FONT FACE="Arial">
+	kein Verweis/Zeiger auf eine Datei/Verzeichnis, sondern eine Art
+	Garant, dass es zu dieser Ressource nur eine Definition gibt. Wo
+	diese definiert wird, ist hier noch nicht gesagt. </FONT></FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><U>Bermerkung:</U>
+	Aus den vorliegenden Dokumenten wurde nicht klar, ob es sich bei
+	URIs immer um Pfade mit existierenden Domains und realen Protokollen
+	(wie http) handeln muss. Das W3C empfiehlt aber an anderer Stelle,
+	dass die Person, die Vokabulare in einem bestimmten Namespace
+	definiert, der Eindeutigkeit wegen auch Besitzer der NS-Domain sein
+	sollte. Desweiteren wird empfohlen, mit einer URI auf eine passende
+	Ontologie (z.B. ein RDF Schema) zu verweisen. Damit w&uuml;rden f&uuml;r
+	eine URI, dieselben Konventionen gelten wie f&uuml;r URLs.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um nun Objekten
+	Eigenschaften zuzuweisen und sie zu beschreiben, hat man sich im
+	ersten Schritt des Semantic Webs &ndash; dem <B>Ontology Layer</B> &ndash;
+	auf folgendes einfaches Schema geeinigt.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Man beschreibt einen Zusammenhang
+	wie &bdquo;Iiyama Vision Master wurde bei CHIP als empfehlenswert
+	getestet&ldquo;  in Form eines <B>Tripels</B> von:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+</DL>
+<P LANG="de-DE" ALIGN=CENTER><FONT FACE="Arial"><FONT SIZE=2><B>&lt;Subjekt&gt;&lt;Pr&auml;dikat&gt;&lt;Objekt&gt;</B></FONT></FONT><DL>
+	<DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Dabei sind
+	Subjekt und Objekt auf jeden Fall URIs und das Pr&auml;dikat
+	entweder ein <B>Literal</B> (Zeichenkette) oder auch eine URI. Unser
+	Beispiel k&ouml;nnte also so aussehen:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>&lt;www.iiyama.de/product/visionmster&gt;
+	&lt;www.chip.de/tests/hatWertung&gt;
+	&lt;www.chip.de/tests/empfehlenswert&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Da alle drei
+	Elemente URIs sind ,ist eindeutig garantiert,</FONT></FONT></DL>
+<UL>
+	<LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>welcher &quot;Visionmaster&quot;
+	gemeint ist </FONT></FONT>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>dass es sich um
+	eine Wertung bei CHIP handeln muss</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>dass es sich bei &bdquo;gut&ldquo;
+	um eine Definition von CHIP handeln muss</FONT></FONT></UL>
+<DL>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>In Kapitel 4
+	wird gezeigt, wie mit Hilfe von RDF und XML solche
+	Ressourcenbeschreibungen realisiert werden k&ouml;nnen. </FONT></FONT>
+</DL>
+<H2 LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=3>3 Wissensverarbeitung
+(Logic)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Damit ein
+	derartiges Bedeutungsnetzwerk von Maschinen verarbeitet werden kann,
+	m&uuml;ssen sie nicht in der Lage sein, die echte Bedeutung des
+	Wortes &bdquo;gut&ldquo; oder &bdquo;Wertung&ldquo; zu verstehen. Es
+	reicht ihnen ein Regelwerk, mit dem sie logische R&uuml;ckschl&uuml;sse
+	ziehen k&ouml;nnen (automatic reasoning/inference).  Aus diesem
+	Grund hei&szlig;t die zweite Ebene des Semantic Web auch <B>Logic
+	Layer</B><I>.</I></FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um vergleichen
+	zu k&ouml;nnen, muss die Agenten-Software in unserem Szenario
+	wissen, dass es sich beim Pr&auml;dikat <I>hatWertung
+	&bdquo;empfehlenswert&ldquo;</I><B> </B>auf den <I>CHIP</I>-Seiten
+	um etwas &auml;hnliches handelt, wie bei <I>hatTestergebnis &bdquo;gut&ldquo;</I>
+	bei der <I>Stiftung Warentest </I> und wie sie die beiden Skalen
+	eventuell konvertieren kann.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>So lie&szlig;e sich <I>aus &bdquo;Alle
+	Testsieger haben die Wertung sehr gut&ldquo;</I> <I>und &bdquo;Iiyama
+	ist ein Testsieger.&quot; </I>schlie&szlig;en, dass Iiyama die
+	Wertung &quot;sehr gut&quot; haben muss.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Ein Mittel solche Abh&auml;ngigkeiten
+	und Hierarchien zu definieren bieten sog. <B>Ontologien</B>.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>In Anlehnung an die philosophische
+	Lehre vom Sein, definieren Ontologien f&uuml;r ein eingeschr&auml;nktes
+	Anwendungsgebiet (<B>Domain</B>), Hierarchien von Einheiten und
+	Untereinheiten, Eigenschaften und Relationen. Nur die Verkn&uuml;pfung
+	der &quot;aussagelosen&quot; Daten mit einem solchen Modell erlauben
+	es, Hintergrundwissen zu nutzen und den Kontext der Nutzeranfrage zu
+	verstehen.<FONT SIZE=3> </FONT></FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Es existieren
+	viele Sprachstandards um ontologische Regels&auml;tze zu definieren.
+	Dabei treten Begriffe wie <B>Frame </B>(Objekt/Konzept) und <B>Slot</B>
+	(Untereinheit/Eigenschaft) oder <B>Klasse</B> und <B>Subklasse</B>
+	auf.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>F&uuml;r eine exemplarische
+	Vertiefung siehe auch Kapitel 4.2 &uuml;ber XML-Schema/OIL/DAML.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>4 Autom. Beweisf&uuml;hrung (Proof)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Einen Schritt
+	weiter als nur aus bereits bekannten Regeln logische Schl&uuml;sse
+	zu ziehen, geht die Idee der 3. Stufe des Semantic Web &ndash; dem
+	<B>Proof Layer</B>. Das Verfahren geht dort genau in die andere
+	Richtung.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>F&uuml;r eine Behauptung (=
+	<B>Statement</B>) wie: <I>&bdquo;Iiyama Visionmaster ist mehr als
+	10x Testsieger&ldquo;</I>  w&uuml;rde eine sog. <B>Heuristic Engine</B>
+	solange das Semantic Web nach Regeln und Ontologien durchsuchen, bis
+	die Aussage entweder belegt oder widerlegt werden kann. Das Anwenden
+	und Folgern aus den Regeln &uuml;bernimmt der Logic Layer.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Dabei entstehen
+	mehrere Probleme:</FONT></FONT></DL>
+<UL>
+	<LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>man kann nicht sicher sein, dass
+	sich &uuml;berhaupt ein Beweis erbringen l&auml;sst. Dies ist der
+	Fall, wenn nicht ausreichend Regeln definiert sind.   -&gt; 
+	unendliche Suche</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>es ist schwer, den Zeitpunkt einer
+	L&ouml;sung abzusch&auml;tzen. Selbst bei ausreichenden Regeln, kann
+	es eine undefinierte Zeit dauern, sie im riesigen Web zu finden und
+	abzuarbeiten.  </FONT></FONT>
+</UL>
+<DL>
+	<DD><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>-&gt; L&ouml;sung
+	oft scheinbar unendlich</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Ein
+	automatischer Beweiser findet sich also bis zu einer eventuelle
+	L&ouml;sung in einem undefinierten Zustand. Bis heute gibt es keine
+	Realisierung des Proof Layers und aller Folgelayer des Semantic
+	Webs.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>5 Vertrauen/Sicherheit (Trust)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Einem weitaus
+	realeren Problem versucht der <B>Trust Layer</B> und die <B>Digitale
+	Signatur</B> zu begegnen.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Im Semantic Web kann jeder alles
+	behaupten und definieren. Automatisches Folgern und vorallem das
+	Beweisen machen aber nur dann Sinn, wenn man auch
+	Vertrauensprinzipien und Authentifzierungsmechanismen zu Verf&uuml;gung
+	hat. In unserem Zukunftsszenario muss der Agent z.B. entscheiden
+	k&ouml;nnen, von welchen anderen Agenten er Tips annimmt und von
+	welchen nicht. Ebenso muss er bei der Gleichheitsregel der Wertungen
+	&bdquo;sehr gut&ldquo; und &bdquo;empfehlenswert&ldquo; sicher sein,
+	dass diese wirklich von CHIP und der Stiftung Warentest stammt und
+	nicht von einem sabotierenden Dritten.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um die
+	Echtheit/Unver&auml;ndertheit  einer Information festzustellen,
+	verwendet man Verfahren der Digitalen Signatur. Dabei werden Daten
+	meist mit einem sog. &quot;public-&quot; und &quot;private key&quot;
+	verschl&uuml;sselt und mit einem gepr&uuml;ften Echtheitszertifikat
+	versehen.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um aus dem
+	Semantic Web wirklich Nutzen und neue Informationen zu ziehen,
+	eignet sich als Vertrauensprinzip ein einfaches manuelles Festlegen
+	glaubw&uuml;rdiger Quellen (&uuml;blich bei Sicherheitseinstellungen
+	aktueller Browser) nicht. An dieser Stelle kommt der Begriff <B>&bdquo;Web
+	of Trust&ldquo;</B> ins Spiel. Vorstellbar ist folgendes Beispiel:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><I>Der Agent
+	wei&szlig;, dass Tim der Zeitschrift CHIP vertraut. CHIP wiederum
+	vertraut allen seiner Redakteure und Mitarbeiter, sowie anderen
+	Quellen (z.B. dem Partner Stiftung Warentest).</I></FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><I>Tim vertraut also implizit durch
+	CHIP auch zu einem gewissen Grad der Stiftung Warentest. Tim
+	vertraut auch der Zeitschrift CT, die mit Tests der Stiftung
+	Warentest eher schlechte Erfahrungen hat.</I></FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Aus den
+	unterschiedlichen impliziten und expliziten <B>&bdquo;Trust&ldquo;-
+	und &bdquo;Distrust&ldquo;-Beziehungen</B> errechnet eine
+	Agentensoftware ein gewichtetes Vertrauensnetz, um zu entscheiden
+	oder anzugeben, wie glaubhaft eine Information ist.</FONT></FONT></DL>
+<H1 LANG="de-DE" ALIGN=JUSTIFY>
+<FONT FACE="Arial"><FONT SIZE=3>D  Technische Umsetzungen</FONT></FONT></H1>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Von den eben
+	genannten Stufen ist bisher nur der Ontology-Layer und Teile des
+	Logic-Layers mit Standards und Implementationen umgesetzt. Die
+	wichtigsten dieser Techniken werden im folgenden vorgestellt.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>1 Ressourcendefinition mit XML/RDF</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>XML ist nicht
+	nur im World Wide Web von heute eine grosse Verbesserung, wo es
+	Interoperabilit&auml;t von Daten und eine Erweiterung von HTML
+	erlaubt. XML spielt auch beim Beschreiben von Ressourcen und
+	Definieren von Ontologien im Semantic Web eine grosse Rolle.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>XML macht es
+	einfach, beliebige Daten &uuml;ber das Web auszutauschen. Es erlaubt
+	jederman, eigene Datenformate zu definieren und daraus Dokumente zu
+	erzeugen. Damit die verschiedenen Dokumentenformate von
+	verschiedenen Gruppen verstanden und konvertiert werden k&ouml;nnen,
+	gibt es Document Type Definitions (DTDs), die die Syntax jeder
+	XML-Datei beschreiben. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Wie auch schon
+	HTML, enthalten XML-Dokumente Tags, die die logische Bedeutung
+	bestimmter Dokumentteile auszeichnen. Allerdings kann in XML jeder
+	solche Tags selbst nach seinen Bed&uuml;rfnissen definieren. Eine
+	weiterer Unterschied ist, dass es bei XML keine Tags zur
+	Formatierung des Inhaltes gibt. So wird dort also im Gegensatz zu
+	HTML sinnvollerweise Datenstruktur von Formbeschreibung getrennt.
+	(Die Darstellung bzw. Ausgabe von XML wird durch XSL-Stylesheet
+	geregelt.)</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Der Satz:</FONT></FONT><DL>
+		<DD><P LANG="de-DE">
+		&bdquo;<FONT FACE="Arial"><FONT SIZE=2><B>Der Iiyama Vision Master
+		ist Testsieger bei Chip.&ldquo;</B></FONT></FONT></DL>
+	<DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>k&ouml;nnte in
+	XML so aussehen:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2>...</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;article&gt;</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>Der &lt;products
+	href=&ldquo;www.iiyama.de/vm.htm&ldquo;&gt;Iiyama Vision
+	Master&lt;/products&gt; ist &lt;wertung&gt;Testsieger&lt;/wertung&gt;
+	bei &lt;infosite href=www.chip.de&ldquo;&gt;Chip&lt;/infosite&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;/article&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>...</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Damit die
+	unterschiedlichsten Definitionen und Interpretationen von product
+	klar getrennt werden k&ouml;nnen und um Namenskonflikte bei der
+	sp&auml;teren Verwendung in anderen Systemen zu vermeiden, weist man
+	ihnen sog. <B>XML-Namespaces </B>(xmlns) zu. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="en-GB"><FONT FACE="Arial"><FONT SIZE=2>So legt:</FONT></FONT><DT><P LANG="en-GB">
+	<BR>
+	<DT><P LANG="en-GB"><FONT COLOR="#808080"><FONT FACE="Courier New"><FONT SIZE=2>...</FONT></FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="fr-FR"><FONT COLOR="#808080">&lt;article
+		</FONT>xmlns:iiyama =&quot;http://www.iiyama.de/vm.htm<FONT COLOR="#808080">&quot;
+	</FONT></SPAN></FONT></FONT>
+	<DD><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">xmlns:chip=&quot;http://www.chip.de/terms<FONT COLOR="#808080">&quot;
+	&gt;</FONT></SPAN></FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB"><FONT COLOR="#808080">Der
+	&lt;</FONT>iiyama:<FONT COLOR="#808080">products
+	href=&ldquo;www.iiyama.de/vm&ldquo;&gt;Iiyama Vision
+	Master&lt;/</FONT>iiyama:<FONT COLOR="#808080">products&gt; ist
+	&lt;</FONT>chip:<FONT COLOR="#808080">wertung&gt;Testsieger bei &lt;a
+	href=www.chip.de&ldquo;&gt;Chip&lt;/a&gt;</FONT></SPAN></FONT></FONT><DT><P LANG="de-DE">
+	<FONT COLOR="#808080"><FONT FACE="Courier New"><FONT SIZE=2>&lt;/article&gt;</FONT></FONT></FONT><DT><P LANG="de-DE">
+	<FONT COLOR="#808080"><FONT FACE="Courier New"><FONT SIZE=2>...</FONT></FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>fest, dass
+	product im Namespace von Iiyama und Testsieger bei Chip definiert
+	ist. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>XML allein ist
+	f&uuml;r einen Umsetzung des Ontology-Layers allerdings nicht genug.
+	Viele Forderungen und Einschr&auml;nkungen der XML-Syntax wirken der
+	Vorraussetzung der maximalen Anpassbarkeit (=Scalability) des
+	Semantic Webs entgegen. Mit XML allein w&uuml;rden sich z.B.
+	folgende Probleme ergeben:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+</DL>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>nicht m&ouml;glich,
+	inhaltliche Zusammenh&auml;nge darzustellen</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>syntaktische Variationen (&lt;name&gt;
+	als Element und name= als Attribut) werden nicht erkannt</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>logische Verkn&uuml;pfung von Daten
+	nicht m&ouml;glich </FONT></FONT>
+</UL>
+<DL>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um diesen
+	Problemen zu begegnen und der Forderung nach gr&ouml;&szlig;tm&ouml;glicher
+	Universalit&auml;t nachzukommen, definierte das WWW Consortium das
+	sogenannte <B>Ressource Description Framework (RDF)</B>. Die oben
+	vorgestellten Triplets sind ein Teil davon, da sie wegen ihrer
+	Einfachheit einen &quot;kleinsten gemeinsamen Nenner&quot; aller
+	Metasprachen dastellen. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Mehrere Triplets
+	(Ressourcen und Pr&auml;dikate) lassen sich als RDF-Graph
+	darstellen:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+</DL>
+<P LANG="de-DE" ALIGN=CENTER><IMG SRC="seminar_semanticweb_html_mc5d4c7f.png" NAME="Grafik2" ALIGN=BOTTOM WIDTH=500 HEIGHT=200 BORDER=0><P LANG="de-DE" ALIGN=CENTER>
+<BR>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Da es sich bei
+	RDF aber nur um ein abstraktes, konzeptuelles Framework handelt,
+	braucht es f&uuml;r eine konkrete Umsetzung XML; oder besser
+	RDF/XML. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Eine der
+	m&ouml;glichen Arten, das obige Beispiel in XML/RDF zu schreiben,
+	w&auml;re:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2>&lt;?xml
+	version=&quot;1.0&quot;?&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;rdf:RDF</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>	xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>	xmlns:chip=&quot;http://www.chip.de/terms&quot;</FONT></FONT><DT><P LANG="fr-FR">
+	<FONT FACE="Courier New"><FONT SIZE=2>&gt;</FONT></FONT><DT><P LANG="fr-FR">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;rdf:Description
+	rdf:about=&quot;http://www.iiyama.de/vm.htm&quot;&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="fr-FR">    
+	</SPAN>&lt;chip:hatWertung
+	rdf:resource=&quot;http://www.chip.de/terms/testsieger&quot; /&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;/rdf:Description&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;/rdf:RDF&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>...</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Da RDF XML
+	verwendet, werden alle Daten in das XML-Element &lt;rdf:RDF&gt;
+	eingebettet, das vorher mit seinen Attributen als Namespace
+	definiert wird. Beschreibungen werden in einem oder mehreren
+	&lt;RDF:Description&gt; gekapselt. Im Beispiel beschreibt das
+	Attribut about die Ressource mit einer URI. Der Folgetag , die im
+	chip-Namespace definierte Eigenschaft/Property hatWertung mit dem
+	Wert (Object) Testsieger komplettiert das Triplet.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Ein Triplet aus
+	einer <B>Ressource + Property + Value</B> nennt man in RDF wegen
+	seines Aussage-charakters auch Statement.</FONT></FONT></DL>
+<H2 LANG="de-DE">
+<FONT FACE="Arial"><FONT SIZE=3>2 Ontologien mit RDF Schema/DAML+OIL</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Bis jetzt wurde
+	noch nicht erkl&auml;rt, was sich wirklich hinter den
+	Namespacedefinitionen verbirgt, also wo eigentlich Pr&auml;dikate
+	wie &quot;Testsieger&quot; definiert werden. Auch die Frage wie die
+	RDF-Statements in ein gr&ouml;&szlig;eres System einer Domain
+	eingeordnet werden k&ouml;nnen, ist noch unbeantwortet geblieben. An
+	dieser Stelle kommt <B>RDF Schema (RDFS) </B>und der <B>Ontology
+	Inference Layer (OIL)</B> der<I> </I><B>Darpa Agent Markup Language
+	(DAML)</B> ins Spiel.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2> </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Wie bereits
+	erw&auml;hnt, sind Ontologien Klassifizierungsschemata oder
+	Hierarchien, die wie eine Art Schablone beschreiben, was f&uuml;r
+	eine Domain typisch ist und wie sie funktioniert. So k&ouml;nnte in
+	unserem Szenario eine Produktontologie sagen, was ein Produkt ist
+	und was seine Eigenschaften sind. Solche Einordnungen k&ouml;nnen
+	durch ein Frame-Slot Modell oder auch durch die Untergliederung in
+	Klassen, Unterklassen und ihre Properties getroffen werden.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>In OIL, der
+	Ontologybeschreibungssprache von DAML werden beide Konzepte
+	vermischt. Im fogenden Beispiel ist ausschnitthaft unsere
+	Produktontology in reinem OIL und seiner XML-Form (Serialization)
+	gezeigt:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+</DL>
+<CENTER>
+	<TABLE WIDTH=615 BORDER=1 CELLPADDING=5 CELLSPACING=0>
+		<COL WIDTH=249>
+		<COL WIDTH=344>
+		<TR VALIGN=TOP>
+			<TD WIDTH=249>
+				<DL>
+					<DT><P LANG="de-DE">&hellip;<DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><B>class-def</B><SPAN LANG="en-GB">
+					product</SPAN></FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">	</SPAN><B>slot-constraint</B><SPAN LANG="en-GB">
+					hasPrice</SPAN></FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">	</SPAN><B>value-type</B><SPAN LANG="en-GB">
+					price</SPAN></FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>...</FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><B>class-def</B><SPAN LANG="en-GB">
+					monitors</SPAN></FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">	</SPAN><B>subclass-of</B><SPAN LANG="en-GB">
+					products</SPAN></FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><B>slot-constraint</B><SPAN LANG="en-GB">
+					hasA</SPAN></FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><B>is-value</B><SPAN LANG="en-GB">
+					size</SPAN></FONT></FONT><DT><P LANG="en-GB">
+					&hellip;<FONT FACE="Courier New"><FONT SIZE=2>	</FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><B>class-def</B><SPAN LANG="en-GB">
+					flatscreen</SPAN></FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">	</SPAN><B>subclass-of
+					</B><SPAN LANG="en-GB">monitors</SPAN></FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&hellip;</FONT></FONT><DT><P LANG="de-DE">
+					<FONT FACE="Courier New"><FONT SIZE=2><B>class-def</B><SPAN LANG="en-GB">
+					price</SPAN></FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&hellip;</FONT></FONT></DL>
+			</TD>
+			<TD WIDTH=344>
+				<DL>
+					<DT><P LANG="en-GB">&hellip;<FONT FACE="Courier New"><FONT SIZE=2>&lt;class-def&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&lt;class
+					name=&quot;product&quot;/&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&lt;slot-constraint&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>		&lt;slot
+					name=&quot;hasPrice&quot;&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>		&lt;has-value&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>			&lt;class name=&quot;price&quot;&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>		&lt;/has-value&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&lt;/slot-constraint&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;/class-def&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;class-def&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&lt;class
+					name=&quot;monitors&quot;&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&lt;subclass-of&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>		&lt;class
+					name=&quot;product&quot;&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>	&lt;/subclass-of&gt;</FONT></FONT><DT><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;/class-def&gt; &hellip;</FONT></FONT></DL>
+			</TD>
+		</TR>
+	</TABLE>
+</CENTER>
+<DL>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Da in solchen
+	Ontologien ein fester Wortschatz (also Worte und ihre Bedeutung)
+	definiert wird, spricht man oft auch von sog. <B>Vokabularen(=
+	Vocabularies)</B>. Schemata definieren also f&uuml;r eine Domain
+	Vocabularies.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Ohne Vokabulare m&uuml;sste die
+	Datenhaltung im Semantic Web wie in einer standardisierten Datenbank
+	funktionieren, wo alles mit Abmachungen und Standardisierungen genau
+	festgelegt ist. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>So w&auml;re
+	z.B. in der CHIP-Datenbank f&uuml;r die beste Wertung genau ein
+	einziger g&uuml;ltiger Stringwert in der Spalte &quot;Wertung&quot;
+	erlaubt, n&auml;mlich &quot;Testsieger&quot;. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Beim Sematic Web
+	handelt es sich aber um ein offenes System, wo es vielen, z.B. der
+	Stiftung Warentest m&ouml;glich sein muss, die beste Wertung als
+	<I>&quot;sehr gut&quot;</I> zu definieren.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Damit ein Agent
+	trotz der Unterschiede einen Vergleich, also eine Konvertierung der
+	beiden Ressourcebeschreibungen vornehmen kann, k&ouml;nnte z.B. bei
+	<I>CHIP</I> das folgende RDF-Schema abgelegt sein:</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>@prefix chip:
+	&lt;http://www.chip.de/terms/&gt;.</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>@prefix test:
+	&lt;http://www.stiftungwt.de/tests/&gt;.</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>@prefix rdfs:
+	&lt;http://www.w3.org/2000/01/rdf-schema#&gt;.</FONT></FONT><DD><P LANG="de-DE">
+	<BR>
+	<DD><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2># Ein
+	&quot;Testsieger&quot; bei CHIP kriegt immer &quot;sehr gut&quot;
+	bei TEST:</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>chip:testsieger rdfs:subClassOf
+	test:sehr_gut .</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um die
+	&Auml;hnlichkeit zu zeigen, wurde hier das vordefinierte Pr&auml;dikat
+	subClassOf verwendet. Bei RDF-Schema handelt es sich um eine
+	aktuelle Empfehlung des W3C von M&auml;rz 2000. Dort werden wenige,
+	sehr allgemein gehaltene Pr&auml;dikate (wie subClassOf) definiert. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Dazu geh&ouml;ren
+	auch z.B.</FONT></FONT></DL>
+<UL>
+	<LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><B>rdfs:subPropertyOf</B> =
+	erweitert rdf:Property um Eigenschaftshierarchien (Property=Eltern,
+	Subproperty=Mutter)</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><B>rdfs:Class, rdfs:subClassOf,
+	rdfs:type</B> = Klassen-/Subklassendefinition, Typisierung</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><B>rdfs:domain</B> = beschr&auml;nkt
+	die Anzahl g&uuml;ltiger Dokumente f&uuml;r eine Domain</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><B>rdfs:range</B> = legt fest in
+	welchem Rahmen sich die Werte eines Properties bewegen</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><B>rdfs:Container</B><SPAN LANG="fr-FR">
+	= sog. </SPAN>Utilitykonzept, kapselt Ressourcensammlungen z.B.
+	einer Domain</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><B>rdfs:constraintProperty</B> =
+	legt Einschr&auml;nkungen einer Ressourceeigenschaft fest</FONT></FONT></UL>
+<DL>
+	<DD><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Reichen diese
+	Klassifizierungen f&uuml;r eine Anwendung nicht aus, sind sie
+	beispielsweise zu allgemein, lassen sich eigene, konkretere Schemata
+	definieren.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>So beschreibt z.B. die DARPA Agent
+	Markup Language (Forschungsarbeit des U.S. Defense Advanced Research
+	Project seit 2000), ein Pr&auml;dikat inverse f&uuml;r den folgenden
+	Zweck:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>    <SPAN LANG="en-GB">Um
+	aus:</SPAN></FONT></FONT><DT><P LANG="en-GB">
+	<FONT FACE="Arial"><FONT SIZE=2>    &lt;timbl@w3c.org&gt; is
+	old:inventor of &lt;http://www.w3c.org/worldwideweb&gt; .</FONT></FONT><DT><P LANG="en-GB">
+	<FONT FACE="Arial"><FONT SIZE=2>   </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><SPAN LANG="en-GB">
+	   </SPAN>zu machen:</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>   
+	&lt;http://www.w3c.org/worldwideweb&gt; new:hasInventor
+	&lt;timbl@w3c.org&gt; .</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>    braucht man
+	das Schema:</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>    <SPAN LANG="en-GB"># [X
+	old:inventor Y] is the same as [Y new:hasInventor X]</SPAN></FONT></FONT><DT><P LANG="en-GB">
+	<FONT FACE="Arial"><FONT SIZE=2>    old:inventor daml:inverse
+	new:hasInventor .</FONT></FONT><DT><P LANG="en-GB">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><U>Anmerkung:</U>
+	 </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>In manchen
+	F&auml;llen k&ouml;nnte man die Vocabularies statt mit Schemata auch
+	durch die klassischen DTDs definieren. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>DTDs haben aber
+	einige Nachteile:</FONT></FONT></DL>
+<UL>
+	<LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>fehlende Typisierung (n&uuml;tzlich
+	z.B. bei value-type) </FONT></FONT>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Ber&uuml;cksichtigung
+	der Tag-Reihenfolge (unwichtig bei Ontologien)</FONT></FONT></UL>
+<DL>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Ein weiterer
+	Grund ist die Tatsache, dass die Syntax von DTD selbst nicht in XML
+	ausgedr&uuml;ckt werden kann, was eine Einschr&auml;nkung der
+	Interoperabilit&auml;t von XML ist. Laut W3C sollen daher DTDs
+	langsam komplett durch Schemata ersetzt werden. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+</DL>
+<H2 LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=3>3 Weitere
+Umsetzungen (SHOE, Dublin Core)</FONT></FONT></H2>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Ganz ohne XML
+	kommt <B>SHOE</B> aus.  SHOE, die Simple HTML Ontology Extension,
+	wird seit 1995 als Forschungsprojekt der University of Maryland, USA
+	entwickelt.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Anstatt Standards und Vorschl&auml;ge
+	des W3C abzuwarten, setzte man sich bei SHOE das Ziel, eine einfache
+	semantische Erweiterung normaler HTML-Dokumente zu schaffen. Statt
+	ganz neue Markup-Sprachen zu schaffen, entschied man sich f&uuml;r
+	eine Einbettung von Meta-Tags in HTML.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Der folgende
+	Ausschnitts aus einem SHOE-erweiterten HTML-Dokuments erl&auml;utert
+	die wichtigsten Sprachelemente:</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="en-GB"><FONT FACE="Courier New"><FONT SIZE=2>&lt;HTML&gt;</FONT></FONT><DT><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;HEAD&gt;&lt;TITLE&gt;Iiyama
+	Product Ontology&lt;/TITLE&gt;</FONT></FONT><DT><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>						// Definition des SHOE
+	DTD Fundorts </FONT></FONT>
+	<DD><P LANG="en-GB"><FONT FACE="Courier New"><FONT SIZE=2>&lt;META
+	HTTP-EQUIV=&quot;SHOE&quot; CONTENT=&quot;VERSION=1.0&quot;&gt;&lt;/HEAD&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;BODY&gt;</FONT></FONT><DL>
+		<DL>
+			<DL>
+				<DL>
+					<DL>
+						<DL>
+							<DD><P LANG="de-DE">
+							<FONT FACE="Courier New"><FONT SIZE=2>// Definition einer
+							eindeutigen Ontology mit ID</FONT></FONT></DL>
+					</DL>
+				</DL>
+			</DL>
+		</DL>
+	</DL>
+	<DT><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;ONTOLOGY ID=&quot;
+	iiyama-product-ontology &quot; VERSION=&quot;1.0&quot;&gt;</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><BR>
+	<DL>
+		<DL>
+			<DL>
+				<DL>
+					<DL>
+						<DD><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2>//
+						Verwenden, Erben von anderen Ontol. </FONT></FONT>
+					</DL>
+				</DL>
+			</DL>
+		</DL>
+		<DD><P LANG="en-GB"><FONT FACE="Courier New"><FONT SIZE=2>&lt;USE-ONTOLOGY
+		ID=&quot;base-ontology&quot; VERSION=&quot;1.0&quot; PREFIX=&quot;p&quot;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>URL=&quot;http://www.iiyama.de/SHOE/base.html&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<BR>
+	</DL>
+	<DD><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">				</SPAN>//
+	Kategorien und Hierarchie definieren</FONT></FONT><DL>
+		<DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-CATEGORY
+		NAME=&quot;product&quot; ISA=&quot;p.SHOEentity&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-CATEGORY
+		NAME=&quot;monitor&quot; ISA=&quot;product&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-CATEGORY
+		NAME=&quot;flatscreen&quot; ISA=&quot;monitor&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-CATEGORY NAME=&quot;price&quot;
+		ISA=&quot; p.SHOEentity &quot;&gt;</FONT></FONT><DD><P LANG="de-DE">
+		<FONT FACE="Courier New"><FONT SIZE=2>...</FONT></FONT><DL>
+			<DL>
+				<DL>
+					<DL>
+						<DD><P LANG="de-DE">
+						<FONT FACE="Courier New"><FONT SIZE=2>// Relationen definieren</FONT></FONT></DL>
+				</DL>
+			</DL>
+		</DL>
+		<DD><P LANG="de-DE">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-RELATION
+		NAME=&quot;hasPrice&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-ARG POS=&quot;1&quot;
+		TYPE=&quot;product&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-ARG POS=&quot;2&quot;
+		TYPE=&quot;price&quot;&gt;</FONT></FONT></DL>
+	<DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;/DEF-RELATION&gt;</FONT></FONT><DL>
+		<DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-RELATION &quot;samePrice&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>	&lt;DEF-ARG POS=&quot;1&quot;
+		TYPE=&quot;A&quot;&gt;</FONT></FONT><DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>	&lt;DEF-ARG POS=&quot;2&quot;
+		TYPE=&quot;B&quot;&gt;</FONT></FONT><DD><P LANG="de-DE">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;/DEF-RELATION&gt;</FONT></FONT><DL>
+			<DL>
+				<DL>
+					<DL>
+						<DD><P LANG="de-DE">
+						<FONT FACE="Courier New"><FONT SIZE=2>// explizite Logikregeln
+						definieren</FONT></FONT></DL>
+				</DL>
+			</DL>
+		</DL>
+		<DD><P LANG="de-DE">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;DEF-INFERENCE&gt;</FONT></FONT><DL>
+			<DL>
+				<DD><P LANG="en-GB">
+				<FONT FACE="Courier New"><FONT SIZE=2>&lt;INF-IF&gt;</FONT></FONT><DL>
+					<DD><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;RELATION
+					NAME=&quot;samePrice&quot;&gt;</FONT></FONT><DL>
+						<DD><P LANG="en-GB">
+						<FONT FACE="Courier New"><FONT SIZE=2>&lt;ARG POS=&quot;1&quot;
+						VALUE=&quot;y&quot; VAR&gt;</FONT></FONT><DD><P LANG="en-GB">
+						<FONT FACE="Courier New"><FONT SIZE=2>&lt;ARG POS=&quot;2&quot;
+						VALUE=&quot;x&quot; VAR&gt;</FONT></FONT></DL>
+					<DD><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;/RELATION&gt;</FONT></FONT><DD><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;RELATION
+					NAME=&quot;hasPrice&quot;&gt;</FONT></FONT><DL>
+						<DD><P LANG="en-GB">
+						<FONT FACE="Courier New"><FONT SIZE=2>&lt;ARG POS=&quot;1&quot;
+						VALUE=&quot;x&quot; VAR&gt;</FONT></FONT><DD><P LANG="en-GB">
+						<FONT FACE="Courier New"><FONT SIZE=2>&lt;ARG POS=&quot;1&quot;
+						VALUE=&quot;p&quot; VAR&gt;</FONT></FONT></DL>
+					<DD><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;/RELATION&gt;</FONT></FONT></DL>
+			</DL>
+		</DL>
+		<DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;/INF-IF&gt;</FONT></FONT><DL>
+			<DL>
+				<DD><P LANG="en-GB">
+				<FONT FACE="Courier New"><FONT SIZE=2>&lt;INF-THEN&gt;</FONT></FONT><DL>
+					<DD><P LANG="en-GB">
+					<FONT FACE="Courier New"><FONT SIZE=2>&lt;RELATION
+					NAME=&quot;hasPrice&quot;&gt;</FONT></FONT><DL>
+						<DD><P LANG="en-GB">
+						<FONT FACE="Courier New"><FONT SIZE=2>&lt;ARG POS=&quot;1&quot;
+						VALUE=&quot;y&quot; VAR&gt;</FONT></FONT><DD><P LANG="en-GB">
+						<FONT FACE="Courier New"><FONT SIZE=2>&lt;ARG POS=&quot;2&quot;
+						VALUE=&quot;p&quot; VAR&gt;</FONT></FONT></DL>
+				</DL>
+				<DD><P LANG="en-GB">
+				<FONT FACE="Courier New"><FONT SIZE=2>&lt;/RELATION&gt;</FONT></FONT></DL>
+		</DL>
+		<DD><P LANG="en-GB">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;/INF-THEN&gt;</FONT></FONT><DD><P LANG="de-DE">
+		<FONT FACE="Courier New"><FONT SIZE=2>&lt;/DEF-INFERENCE&gt;...  </FONT></FONT>
+	</DL>
+	<DD><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Um sp&auml;ter
+	Elemente einer HTML Seite in diese Domain sematisch einzuordnen,
+	werden Instanzen der eben definierten Klassen (DEF-CATEGORY)
+	gebildet und den einzelnen Daten zugeordnet.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><U>Anmerkung:</U></FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Da die Entwicklung von SHOE noch vor
+	der Ausarbeitung der &quot;Semantic Web Roadmap&quot; von Tim
+	Berners-Lee begann, sind viele der vorgestellten Schichten des
+	Layermodells hier gar nicht implementiert. Statt einem echten
+	automatischen Schlussfolgern gibt es in SHOE z.B. nur vorgegebene
+	&quot;hart-codierte&quot; Regeln.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>-</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Eher in die
+	Richtung eines konkreten Implementation der W3C Empfehlungen, geht
+	das <B>Dublin Core Metadata Element Set (DCMES)</B> der Dublin Core
+	Metadata Initiative. Seine Vertreter aus Wirtschaft und Forschung
+	erarbeiten dort parallel zu RDF einheitliche Vocabularies bzw.
+	Schemata. In Anlehnung an das Lego-Bauklotzsystem, werden die 15
+	relativ weitgefassten Kategorien von Dublin Core auch als &quot;semantic
+	building blocks of the web&quot; bezeichnet.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Wie RDF benutzt
+	auch Dublin Core XML. Es wird daher im Beispiel auch genauso
+	verwendet. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DD><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2>&lt;?xml
+	version=&quot;1.0&quot;?&gt;</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2>&lt;rdf:RDF</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2> 
+	xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2> 
+	xmlns:rss=&quot;http://purl.org/rss/1.0/&quot;</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2> 
+	xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&gt;</FONT></FONT><DD><P LANG="de-DE">
+	<BR>
+	<DD><P LANG="de-DE"><FONT FACE="Courier New"><FONT SIZE=2> 
+	<SPAN LANG="en-GB">&lt;rss:channel
+	rdf:about=&quot;http://www.xml.com/xml/news.rss&quot;&gt;</SPAN></FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>   
+	&lt;rss:title&gt;XML.com&lt;/rss:title&gt;</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>   
+	&lt;rss:link&gt;http://xml.com/pub&lt;/rss:link&gt;</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>    &lt;dc:description&gt;</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>      XML.com features a rich
+	mix of</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>      information and services
+	for the XML community.</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="en-GB">   
+	</SPAN><SPAN LANG="fr-FR">&lt;/dc:description&gt;</SPAN></FONT></FONT><DD><P LANG="fr-FR">
+	<FONT FACE="Courier New"><FONT SIZE=2>    &lt;dc:subject&gt;XML,
+	RDF, metadata, information</FONT></FONT><DD><P LANG="fr-FR">
+	<FONT FACE="Courier New"><FONT SIZE=2>      syndication
+	services&lt;/dc:subject&gt;</FONT></FONT><DD><P LANG="fr-FR">
+	<FONT FACE="Courier New"><FONT SIZE=2>   
+	&lt;dc:identifier&gt;http://www.xml.com&lt;/dc:identifier&gt;</FONT></FONT><DD><P LANG="de-DE">
+	<FONT FACE="Courier New"><FONT SIZE=2><SPAN LANG="fr-FR">   
+	</SPAN><SPAN LANG="en-GB">&lt;dc:publisher&gt;O'Reilly &amp;
+	Associates, Inc.&lt;/dc:publisher&gt;</SPAN></FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>    &lt;dc:rights&gt;Copyright
+	2000, O'Reilly &amp; </FONT></FONT>
+	<DD><P LANG="en-GB"><FONT FACE="Courier New"><FONT SIZE=2>     
+	Associates, Inc.&lt;/dc:rights&gt;</FONT></FONT><DD><P LANG="en-GB">
+	<FONT FACE="Courier New"><FONT SIZE=2>  &lt;/rss:channel&gt;</FONT></FONT><DD><P LANG="en-GB">
+	<BR>
+	<DD><P LANG="en-GB"><FONT FACE="Courier New"><FONT SIZE=2>&lt;/rdf:RDF&gt;</FONT></FONT><DT><P LANG="en-GB">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Bei dem Beispiel
+	handelt sich es um eine spezielle Anwendung und Erweiterung von
+	Dublin Core durch die RSS-Community (siehe
+	<U><FONT COLOR="#0000ff">http://www.egroups.com/group/rss-dev</FONT></U>)
+	. F&uuml;r die Erstellung komplexer Sitezusammenfassungen und sog.
+	Syndication Services, werden die m&auml;chtigen, modularen
+	F&auml;higkeiten von RDF verwendet, um Semantiken aus Dublin Core
+	mit eigenen Vokabeln (syndication, aggregation, threading) zu
+	erweitern. </FONT></FONT>
+	<DT><P LANG="de-DE"><BR>
+	<DT><P LANG="de-DE"><BR>
+</DL>
+<H1 LANG="de-DE" ALIGN=JUSTIFY><FONT FACE="Arial"><FONT SIZE=3>E  Ausblick
+und Fazit</FONT></FONT></H1>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Viele Ideen und
+	Techniken aus Tim Berners-Lees &bdquo;Roadmap for a semantic web&ldquo;
+	sind nicht neu. Die meisten Ideen und Forschungsergebnisse stammen
+	aus Gebieten wie Knowledge Representation oder Information
+	Retrieval. Der Durchbruch einer neuen Technik wird aber nicht allein
+	durch ihre Machbarkeit bestimmt, sondern zu einem Gro&szlig;teil von
+	ihrer wirtschaftlichen und gesellschaftlichen Akzeptanz.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Tim Berners-Lee hat dies bereits in
+	den Neunzigern f&uuml;r das WWW erkannt und die Prinzipien &bdquo;einfache
+	Technik &ndash; viele M&ouml;glichkeiten&ldquo;, &bdquo;Erweiterbarkeit&ldquo;,
+	und &bdquo;dezentrale Organisation&ldquo; erfolgreich in den
+	HTML/HTTP Standards realisiert. Auch damals hat er das Prinzip
+	Hypertext zwar nicht erfunden, aber es massentauglich gemacht.
+	Dasselbe k&ouml;nnte ihm und seinen Kollegen beim W3C auch jetzt
+	wieder gelingen, da schrittweise Entwicklung und ein - was die
+	Erweiterbarkeit betrifft- nach oben offener Standard die Grundlagen
+	des Semantic Webs darstellen. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Eine gro&szlig;e
+	St&auml;rke ist dabei sicher, dass das Schichtenmodell f&uuml;r das
+	Semantic Web auf den existierenden Standards f&uuml;r XML und
+	XML-Schemata aufbaut, um semantische Informationen auf syntaktischer
+	Ebene zu transportieren. Allerdings wird durch RDF und RDFS die
+	Ausdrucksf&auml;higkeit von XML deutlich erweitert. Auch sind
+	RDF-Schemata durch ihren Ontologiecharakter nicht direkt mit
+	XML-Schemata zu vergleichen.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Die Kritik an Berners-Lees Vision
+	ist jedoch recht gro&szlig;. Sie mahnen an, dass seine
+	Spezifikationen f&uuml;r konkrete Entwicklungen zu unpr&auml;zise
+	seien und RDF f&uuml;r die Massenanwendung zu abstrakt und kryptisch
+	sei. Andere hingegen halten es generell f&uuml;r unm&ouml;glich,
+	Maschinenverst&auml;ndnis ohne &quot;echte&quot; k&uuml;nstliche
+	Intelligenz zu erreichen.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Aber auch ohne
+	die perfekte Simulation menschlicher F&auml;higkeiten wird das
+	Semantic Web M&ouml;glichkeiten bieten, mit Wissen umzugehen.
+	Innovative Softwaretools, wie die Agenten aus dem Szenario, werden
+	entstehen, um dem Menschen die Sucharbeit im Web abzunehmen. Ganz
+	neue Dienste (z.B. ausgereifte Produktvergleichsites) werden Kunden
+	den Onlineeinkauf erleichtern und E-Commerce auf ein neues Niveau
+	heben. </FONT></FONT>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Vor einigen
+	Jahren hat XML viele Schw&auml;chen des damaligen WWW beseitigt. So
+	wird auch das Semantic Web helfen, Probleme, die wiederum mit XML
+	entstanden sind, zu beseitigen. Da in XML eigene propriet&auml;re
+	Dokumentenformate kreiert werden k&ouml;nnen, entstanden mit der
+	Zeit immer mehr zueinander inkompatible Standards. Die eigentlich
+	angestrebte Interoperabilit&auml;t ging damit verloren. Durch die
+	Aufwertung der Dokumente durch Metadaten und Ontologien macht das
+	Semantic Web eine Verkn&uuml;pfung bzw. Konvertierung solcher
+	Datenpools wieder m&ouml;glich und schafft dadurch enormen Mehrwert.</FONT></FONT></DL>
+<H1 LANG="en-GB" ALIGN=JUSTIFY>
+<FONT FACE="Arial"><FONT SIZE=3>F  Semantic Web Tools &amp; APIs</FONT></FONT></H1>
+<DL>
+	<DT><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Bei den meisten
+	derzeit verf&uuml;gbaren Entwicklungen handelt es sich um Tools oder
+	APIs, mit denen Dokumente um semantische Metadaten per RDF und RDFS
+	bereichert werden k&ouml;nnen.</FONT></FONT><DT><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2>Einige interessante Pakete werden
+	hier erw&auml;hnt. Eine vollst&auml;ndigere Liste bietet die
+	RDF-Site des W3C unter <U><FONT COLOR="#0000ff">http://www.w3.org/RDF/</FONT></U>.</FONT></FONT><DT><P LANG="de-DE">
+	<BR>
+</DL>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><B>Redland:</B>
+	RDF APIs f&uuml;r C und Perl im Beta-Stadium. Stellt bereits
+	verschiedene kombinierbare Komponenten (z.B. RDF Parser) zur
+	Verf&uuml;gung. </FONT></FONT>
+</UL>
+<DL>
+	<DD><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><SPAN LANG="it-IT">(Info:
+	<U><FONT COLOR="#0000ff">http://www.redland.opensource.ac.uk/</FONT></U>)</SPAN></FONT></FONT><DD><P LANG="it-IT">
+	<BR>
+</DL>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><B>Redfoot:</B>
+	Python API f&uuml;r verteiltes RDF. Neben Bearbeitung von RDF und
+	RDF-Schemata unterst&uuml;tzt es Peer-to-Peer Austausch von
+	RDF-Daten &uuml;ber das Web.                            <SPAN LANG="it-IT">(Info:
+	<U><FONT COLOR="#0000ff">http://redfoot.sourceforge.net/</FONT></U>)</SPAN></FONT></FONT></UL>
+<DL>
+	<DD><P LANG="it-IT"><BR>
+</DL>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><B>Prot&eacute;g&eacute;
+	2000:</B> Java-basiertes Softwaretool der Uni Stanford bietet unter
+	einheitlicher GUI, Werkzeuge zur Erstellung und Nutzung von
+	Ontologien (Knowledge Bases). Unterst&uuml;tzt RDF, RDF -Schema
+	(Info: <U><FONT COLOR="#0000ff">http://protege.stanford.edu</FONT></U>)</FONT></FONT></UL>
+<DL>
+	<DD><P LANG="de-DE"><BR>
+</DL>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><STRONG><FONT FACE="Arial">Mozilla:</FONT></STRONG><FONT FACE="Arial">
+	Der Open-Source Browser nutzt RDF bei seiner Templatesprache XUL.
+	XUL beschreibt individuell erstellte Skins(Programmoberfl&auml;chen).
+	Zum Manipulieren von XUL steht eine umfangreiche Javascript API zur
+	Verf&uuml;gung. <SPAN LANG="it-IT">(Info: <U><FONT COLOR="#0000ff">http://www.mozilla.org/</FONT></U>)</SPAN></FONT></FONT></FONT></UL>
+<H1 LANG="en-GB" ALIGN=JUSTIFY><FONT FACE="Arial"><FONT SIZE=3>G  Literaturangaben</FONT></FONT></H1>
+<OL>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><SPAN LANG="en-GB">Berners-Lee,
+	Tim: </SPAN><B>A roadmap to the semantic
+	Web					</B><SPAN LANG="en-GB">(<U><FONT COLOR="#0000ff">http://www.w3.org/DesignIssues/Semantic.html</FONT></U>)</SPAN></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="Arial">Champin,
+	Pierre-Antoine: <B>RDF Tutorial</B>
+								(</FONT><FONT COLOR="#0000ff"><U><A HREF="http://www710.univ-lyon1.fr/~champin/rdf-tutorial/"><SPAN LANG="en-GB"><FONT FACE="Arial">http://www710.univ-lyon1.fr/~champin/rdf-tutorial/</FONT></SPAN></A></U></FONT><SPAN LANG="en-GB"><FONT FACE="Arial">)</FONT></SPAN></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="Arial">Decker,
+	Stefan et al.: <B>The Semantic Web - on the Roles of XML and
+	RDF		</B><SPAN LANG="en-GB">(</SPAN></FONT><FONT COLOR="#0000ff"><U><A HREF="http://www-db.stanford.edu/~stefan/paper/2000/xmlrdf.pdf"><SPAN LANG="en-GB"><FONT FACE="Arial">http://www-db.stanford.edu/~stefan/paper/2000/xmlrdf.pdf</FONT></SPAN></A></U></FONT><SPAN LANG="en-GB"><FONT FACE="Arial">)</FONT></SPAN></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Decker, Stefan
+	et al.: <B>Framework for the Semantic Web: An RDF Tutorial</B> +</FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>Ora Lassila: <B>The
+	Resource Description Framework</B></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>IEEE Internet
+	Computing 15(6): 67-73 (November/December 2000)</FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="Arial">Heflin,
+	Hendler, Luke: <B>SHOE: A Prototype Language for the Semantic Web
+			</B>(</FONT><FONT COLOR="#0000ff"><U><A HREF="http://www.ida.liu.se/ext/epa/cis/2001/003/paper.pdf"><SPAN LANG="en-GB"><FONT FACE="Arial">http://www.ida.liu.se/ext/epa/cis/2001/003/paper.pdf</FONT></SPAN></A></U></FONT><SPAN LANG="en-GB"><FONT FACE="Arial">)</FONT></SPAN></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="Arial">Berners-Lee,
+	Hendler, Lassila: <B>The Semantic Web</B> in Scientific American
+	(May
+	2001)	(</FONT><FONT COLOR="#0000ff"><U><A HREF="http://www.scientificamerican.com/2001/0501issue/0501berners-lee.html"><SPAN LANG="en-GB"><FONT FACE="Arial">http://www.scientificamerican.com/2001/0501issue/0501berners-lee.html</FONT></SPAN></A></U></FONT><SPAN LANG="en-GB"><FONT FACE="Arial">)</FONT></SPAN></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT FACE="Arial">Berners-Lee,
+	Hendler: <B>Scientific publishing on the &quot;semantic web&quot;</B>
+	on Nature WebDebates
+	(</FONT><FONT COLOR="#0000ff"><U><A HREF="http://www.nature.com/nature/debates/e-access/Articles/bernerslee.htm"><SPAN LANG="en-GB"><FONT FACE="Arial">http://www.nature.com/nature/debates/e-access/Articles/bernerslee.htm</FONT></SPAN></A></U></FONT><SPAN LANG="en-GB"><FONT FACE="Arial">)</FONT></SPAN></FONT></FONT></P>
+	<LI><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2><B>XML.com</B>:
+	Verschieden Artikel zu Semantic Web, XML, XML-Schema, RDF, Dublin
+	Core</FONT></FONT></P>
+</OL>
+<H1 LANG="de-DE" ALIGN=JUSTIFY><FONT FACE="Arial"><FONT SIZE=3>H  Empfohlene
+WWW-Resourcen zum Thema</FONT></FONT></H1>
+<UL>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://purl.org/swag/whatIsSW"><FONT FACE="Arial">http://purl.org/swag/whatIsSW</FONT></A></U></FONT><FONT FACE="Arial">
+	- Grundsatzdokument der &quot;Semantic Web Agreement Group&quot; </FONT></FONT></FONT>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://www.w3.org/2000/01/sw"><FONT FACE="Arial">http://www.w3.org/2000/01/sw</FONT></A></U></FONT><FONT FACE="Arial">
+	- das Portal zu SW Entwicklungen des W3C</FONT></FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://www.semanticweb.org/"><FONT FACE="Arial">http://www.semanticweb.org/</FONT></A></U></FONT><FONT FACE="Arial">
+	-amerikanisches Wissensportal zum SW (sehr umfangreich)</FONT></FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Arial"><FONT SIZE=2><U><FONT COLOR="#0000ff">http://www.ontoweb.org</FONT></U>
+	- europ&auml;ische Forschung zum Semantic Web</FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://www.netcrucible.com/semantic.html"><FONT FACE="Arial">http://www.netcrucible.com/semantic.html</FONT></A></U></FONT><FONT FACE="Arial">
+	- &uuml;ber m&ouml;gliche Sprachen des Semantic Web</FONT></FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://www.w3.org/RDF/"><FONT FACE="Arial">http://www.w3.org/RDF/</FONT></A></U></FONT><FONT FACE="Arial">
+	- alles &uuml;ber RDF und RDF-Schema</FONT></FONT></FONT><LI><P LANG="de-DE">
+	<FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://www.daml.org/"><FONT FACE="Arial">http://www.daml.org/</FONT></A></U></FONT><FONT FACE="Arial">
+	- alles &uuml;ber die DARPA Agent Markup Language </FONT></FONT></FONT>
+	<LI><P LANG="de-DE"><FONT FACE="Tahoma"><FONT SIZE=2><FONT COLOR="#0000ff"><U><A HREF="http://dublincore.org/"><SPAN LANG="en-GB"><FONT FACE="Arial">http://dublincore.org/</FONT></SPAN></A></U></FONT><FONT FACE="Arial"><SPAN LANG="en-GB">
+	- alles zur</SPAN><SPAN LANG="it-IT"> Dublin Core Metadata
+	Initiative </SPAN></FONT></FONT></FONT>
+</UL>
+<DL>
+	<DT><P LANG="it-IT"><BR>
+	<DT><P LANG="it-IT"><BR>
+	<DD><P LANG="de-DE"><FONT FACE="Arial"><FONT SIZE=2>[Fragen und
+	Anmerkungen zur Ausarbeitung an
+	<U><FONT COLOR="#0000ff">robert.soesemann@student.uni-tuebingen.de</FONT></U>]</FONT></FONT></DL>
+<DIV TYPE=FOOTER>
+	<P LANG="de-DE" ALIGN=CENTER><SDFIELD TYPE=PAGE SUBTYPE=RANDOM FORMAT=PAGE>13</SDFIELD><DL>
+		<DT><P LANG="de-DE">
+		<BR>
+		<DT><P LANG="de-DE"><BR>
+	</DL>
+</DIV>
+</BODY>
+</HTML>
