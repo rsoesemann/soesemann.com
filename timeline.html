@@ -4,39 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Robert Sösemann · Public work</title>
-  <link rel="stylesheet" href="tools/timeline.css">
-  <script src=".archive/exports/timeline-data.js" defer></script>
-  <script src="tools/timeline.js" defer></script>
+  <link rel="stylesheet" href="tools/timeline/timeline.css">
+  <script src=".library/exports/timeline-data.js" defer></script>
+  <script src="tools/timeline/timeline.js" defer></script>
 </head>
 <body>
   <header class="masthead">
     <div class="masthead-inner">
       <div><p class="masthead-label">Public work</p><h1>Robert Sösemann</h1></div>
-      <span class="private-label">Private archive</span>
+      <span class="private-label">Private library</span>
     </div>
   </header>
   <div class="page-scroll" id="page-scroll">
     <main>
       <section class="timeline-section" aria-label="Activity and career timeline">
+        <p class="timeline-hint">Activity & topics <span>Hover for a preview · click to jump to a year</span></p>
+        <div id="wave-legend" class="wave-legend" aria-label="Topics in the activity wave"></div>
         <div class="timeline-axis">
-          <nav id="years" class="years" aria-label="Archived works by year"></nav>
+          <nav id="years" class="years" aria-label="Jump to works by year"></nav>
           <div id="career-bands" aria-label="Employment periods"></div>
         </div>
       </section>
-      <section class="filter-panel" aria-label="Find archived work">
-        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search the archive" placeholder="Search a topic, person, or talk…"></label>
-        <div class="filter-row"><span class="filter-label" id="format-label">Format</span><div id="filters" class="filters" aria-labelledby="format-label"></div></div>
+      <section class="filter-panel" aria-label="Find work in the library">
+        <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search the library" placeholder="Search a topic, person, or talk…"></label>
+        <div class="filter-row"><span class="filter-label" id="format-label">Type</span><div id="filters" class="filters" aria-labelledby="format-label"></div></div>
         <div class="filter-row"><span class="filter-label" id="topic-label">Topic</span><div id="topic-filters" class="filters" aria-labelledby="topic-label"></div></div>
-        <div class="filter-row"><span class="filter-label" id="platform-label">Platform</span><div id="platform-filters" class="filters" aria-labelledby="platform-label"></div></div>
       </section>
-      <section class="collection" aria-label="Selected year">
-        <p id="results" class="sr-only" role="status"></p>
+      <section class="library" aria-label="Works across all years">
+        <p id="results" class="library-summary" role="status"></p>
         <div id="timeline"></div>
         <p id="empty" class="empty" hidden>No matches. Try another topic or format.</p>
         <p id="error" class="error" role="alert" hidden></p>
       </section>
     </main>
   </div>
+  <section id="year-preview" class="year-preview" aria-label="Work previews" hidden></section>
   <dialog id="reader">
     <div class="reader-header"><span id="reader-format"></span><button id="close-reader" aria-label="Close item">✕</button></div>
     <div class="reader-scroll">

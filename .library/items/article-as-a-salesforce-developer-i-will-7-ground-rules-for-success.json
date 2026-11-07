@@ -1,0 +1,72 @@
+{
+  "id": "article-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+  "url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+  "source": {
+    "url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+    "title": "As a Salesforce Developer, I Will - 7 Ground Rules for Success",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Yaroslav Karpinskiy"
+    ],
+    "date": "2022-12-12",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Yaroslav Karpinskiy recaps Robert’s SForce Summit Winter Edition 2022 talk and seven rules. Text is not solely authored by Robert.",
+    "slug": "article-as-a-salesforce-developer-i-will-7-ground-rules-for-success"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:56:52.550517+00:00",
+    "final_url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2022/sforce-poland-7-ground-rules-extended/coverage.html",
+    "title": "As a Salesforce Developer, I Will - 7 Ground Rules for Success",
+    "author": "Yaroslav Karpinskiy",
+    "date": "2022-12-12",
+    "language": null,
+    "text_sha256": "056e364482af346dfc86f8c9169765c077e158c355f100e6906bf075261d3421",
+    "text_path": "library/2022/sforce-poland-7-ground-rules-extended/coverage.txt",
+    "words": 455
+  },
+  "last_success": {
+    "at": "2026-11-06T21:56:52.550517+00:00",
+    "final_url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2022/sforce-poland-7-ground-rules-extended/coverage.html",
+    "title": "As a Salesforce Developer, I Will - 7 Ground Rules for Success",
+    "author": "Yaroslav Karpinskiy",
+    "date": "2022-12-12",
+    "language": null,
+    "text_sha256": "056e364482af346dfc86f8c9169765c077e158c355f100e6906bf075261d3421",
+    "text_path": "library/2022/sforce-poland-7-ground-rules-extended/coverage.txt",
+    "words": 455
+  },
+  "context": {
+    "format": "Article",
+    "where": "Aquiva Labs",
+    "when": "2022-12-12",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Yaroslav Karpinskiy recaps Robert’s SForce Summit Winter Edition 2022 talk and seven rules. Text is not solely authored by Robert."
+  },
+  "grouping_evidence": {
+    "path": "library/2022/sforce-poland-7-ground-rules-extended/coverage.txt",
+    "observation": "In his recent live session during the SForce Summit Winter Edition 2022, Robert shared his 7 Ground rules"
+  },
+  "part_of": "video-sforce-poland-7-ground-rules-extended",
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": ".library/brands/aquiva.com.png"
+  },
+  "library_dir": "library/2022/sforce-poland-7-ground-rules-extended",
+  "file_names": {
+    ".txt": "coverage.txt",
+    ".html": "coverage.html",
+    ".pdf": "coverage.pdf",
+    ".json3": "coverage-captions.json3"
+  }
+}

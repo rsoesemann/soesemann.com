@@ -1,0 +1,97 @@
+{
+  "id": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption",
+  "url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+  "source": {
+    "url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+    "title": "Salesforce Ben Webinar: Agentforce and AI Adoption",
+    "kind": "webinar_listing",
+    "role": "about",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:55:00.415455+00:00",
+    "final_url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2025/agentforce-and-ai-adoption-practical-tips/source-webinar-listing.html",
+    "title": "Agentforce and AI Adoption: Practical Tips",
+    "author": null,
+    "date": "2025-11-04",
+    "language": null,
+    "text_sha256": "ed9ee8b5e7213fcedc30b318e5e5f59a52e3836d5c9600c5151d6bf3402906b8",
+    "text_path": "library/2025/agentforce-and-ai-adoption-practical-tips/source-webinar-listing.txt",
+    "words": 9475,
+    "video_path": "library/2025/agentforce-and-ai-adoption-practical-tips/video.mp4",
+    "audio_path": "library/2025/agentforce-and-ai-adoption-practical-tips/audio.m4a",
+    "media_duration_seconds": 3780.0
+  },
+  "last_success": {
+    "at": "2026-11-06T21:55:00.415455+00:00",
+    "final_url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2025/agentforce-and-ai-adoption-practical-tips/source-webinar-listing.html",
+    "title": "Agentforce and AI Adoption: Practical Tips",
+    "author": null,
+    "date": "2025-11-04",
+    "language": null,
+    "text_sha256": "ed9ee8b5e7213fcedc30b318e5e5f59a52e3836d5c9600c5151d6bf3402906b8",
+    "text_path": "library/2025/agentforce-and-ai-adoption-practical-tips/source-webinar-listing.txt",
+    "words": 9475,
+    "video_path": "library/2025/agentforce-and-ai-adoption-practical-tips/video.mp4",
+    "audio_path": "library/2025/agentforce-and-ai-adoption-practical-tips/audio.m4a",
+    "media_duration_seconds": 3780.0
+  },
+  "context": {
+    "format": "Webinar page",
+    "where": "salesforceben.ondemand.goldcast.io",
+    "when": "2025-11-04",
+    "date_label": "Event",
+    "with_whom": "Peter Chittum and Melissa Hill Dees",
+    "evidence": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "event_date": "2025-11-04"
+  },
+  "grouping_evidence": {
+    "path": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "observation": "November4,2025; Speakers Peter Chittum, Robert Sösemann, Melissa Hill Dees; event/on-demand same webinar"
+  },
+  "part_of": "webinar-listing-agentforce-and-ai-adoption-practical-tips",
+  "library_dir": "library/2025/agentforce-and-ai-adoption-practical-tips",
+  "file_names": {
+    ".txt": "source-webinar-listing.txt",
+    ".html": "source-webinar-listing.html",
+    ".pdf": "source-webinar-listing.pdf",
+    ".json3": "source-webinar-listing-captions.json3"
+  },
+  "media": {
+    "url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+    "source_id": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption",
+    "at": "2026-11-06T23:21:40.160818+00:00",
+    "speaker_status": "unverified; may include hosts and audience",
+    "video_path": "library/2025/agentforce-and-ai-adoption-practical-tips/video.mp4",
+    "video_sha256": "7e8b2d7447a398fa98ba011f5495726f1504e4d3b365e93f1e42c41b5217807a",
+    "video_bytes": 570910490,
+    "audio_path": "library/2025/agentforce-and-ai-adoption-practical-tips/audio.m4a",
+    "audio_sha256": "55ed3e675d7ce8dbddab01b80a9c17712f5b286c174eb23da20f19e72c01ee27",
+    "audio_bytes": 61678283,
+    "status": "saved",
+    "media_duration_seconds": 3780.0,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "error": null,
+    "verification": "ffprobe streams and matching audio/video duration; SHA-256 files; audio copied without re-encoding",
+    "download_url": "https://staticassets.public-pr50.goldcast.io/video_library/c485f717-26a1-4ec6-b420-bbf16d3f141b/vod/hls/1500.m3u8",
+    "download_evidence": "Direct publisher HLS found in saved source-webinar-listing.html; 540p chosen to stay below 600 MB cap."
+  }
+}

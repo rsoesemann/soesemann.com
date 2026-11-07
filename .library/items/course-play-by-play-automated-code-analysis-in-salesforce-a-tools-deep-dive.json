@@ -1,0 +1,92 @@
+{
+  "id": "course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive",
+  "url": "https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce",
+  "source": {
+    "url": "https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce",
+    "title": "Play by Play: Automated Code Analysis in Salesforce — a Tools Deep-Dive",
+    "kind": "course",
+    "role": "interview",
+    "discovered_from": "https://pmd.github.io/pmd/pmd_projectdocs_trivia_news.html",
+    "slug": "course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:54:58.082682+00:00",
+    "final_url": "https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce",
+    "content_type": "text/html;charset=utf-8",
+    "status": "captured",
+    "raw": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/original.html",
+    "title": "Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive",
+    "author": "Don Robins",
+    "date": "2022-07-08",
+    "language": null,
+    "text_sha256": "7f0428200a4bda23186f220bd16b80e8f8cf67eab4667d6ad47f5b203ffd35b0",
+    "text_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/text.txt",
+    "words": 1119
+  },
+  "last_success": {
+    "at": "2026-11-06T21:54:58.082682+00:00",
+    "final_url": "https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce",
+    "content_type": "text/html;charset=utf-8",
+    "status": "captured",
+    "raw": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/original.html",
+    "title": "Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive",
+    "author": "Don Robins",
+    "date": "2022-07-08",
+    "language": null,
+    "text_sha256": "7f0428200a4bda23186f220bd16b80e8f8cf67eab4667d6ad47f5b203ffd35b0",
+    "text_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/text.txt",
+    "words": 1119
+  },
+  "context": {
+    "format": "Video course with Don Robins",
+    "where": "Pluralsight · Play by Play",
+    "when": "2019-06-01",
+    "date_label": "Originally published",
+    "with_whom": "Don Robins and Lorenzo Frattini",
+    "evidence": "https://outformations.my.salesforce-sites.com/ — course card Published date; Pluralsight Last Updated is not original publication.",
+    "related_links": [
+      {
+        "label": "Don Robins’s gallery",
+        "url": "https://outformations.my.salesforce-sites.com/"
+      },
+      {
+        "label": "YouTube trailer (not full course)",
+        "url": "https://youtu.be/5Th40vzPOTc"
+      }
+    ],
+    "access": "Full recording not saved. Gallery Watch links to Pluralsight; Preview links to a YouTube trailer.",
+    "published_at": "2019-06-01",
+    "updated_at": "2022-07-08",
+    "verified_evidence": [
+      {
+        "path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/original.html",
+        "evidence_excerpt_or_field": "Created by Don Robins , Lorenzo Frattini and Robert Sösemann"
+      }
+    ],
+    "topics": [
+      "PMD",
+      "Craftsmanship"
+    ],
+    "platform": "Pluralsight",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert, Lorenzo Frattini, and Don Robins discuss how automated analysis can become part of a Salesforce team’s development process. The course introduces PMD and Clayton.io, connects code quality with technical debt, and describes ways to use, customize, and extend the tools.",
+    "summary_basis": {
+      "source_id": "course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive",
+      "kind": "publisher_description"
+    }
+  },
+  "brand": {
+    "name": "Pluralsight",
+    "domain": "pluralsight.com",
+    "source_page": "https://www.pluralsight.com/authors/robert-sosemann",
+    "logo_url": "https://www.pluralsight.com/etc.clientlibs/ps/clientlibs/clientlib-site/resources/ps-favicon.png",
+    "logo_path": ".library/brands/pluralsight.com.png"
+  },
+  "library_dir": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

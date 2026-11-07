@@ -1,0 +1,77 @@
+{
+  "id": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+  "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+  "source": {
+    "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "role": "authored",
+    "kind": "article",
+    "evidence": "Published byline: Robert Sösemann.",
+    "slug": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:28.902953+00:00",
+    "final_url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/original.html",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps",
+    "author": "Robert Sösemann",
+    "date": "2024-03-13",
+    "language": null,
+    "text_sha256": "2d42523c32309520d5b595d1e616496280f689a474fded0907b9a951eb93c480",
+    "text_path": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/text.txt",
+    "words": 2041
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:28.902953+00:00",
+    "final_url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/original.html",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps",
+    "author": "Robert Sösemann",
+    "date": "2024-03-13",
+    "language": null,
+    "text_sha256": "2d42523c32309520d5b595d1e616496280f689a474fded0907b9a951eb93c480",
+    "text_path": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/text.txt",
+    "words": 2041
+  },
+  "context": {
+    "format": "Article",
+    "where": "Salesforce Ben",
+    "when": "2024-03-13",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Published byline: Robert Sösemann.",
+    "topics": [
+      "AI"
+    ],
+    "platform": "Salesforce Ben",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert describes building three Salesforce AI applications: Document Mess Detector, Ask Your Document, and My Org Butler. The account moves from text evaluation to retrieval from documents and agents that perform tasks, comparing implementation effort, model limitations, and the prospect of native Salesforce alternatives.",
+    "summary_basis": {
+      "source_id": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/coverage.txt",
+    "observation": "Publisher announcement of Robert’s Salesforce Ben article; wrapper should be supporting provenance, not second work."
+  },
+  "brand": {
+    "name": "Salesforce Ben",
+    "domain": "salesforceben.com",
+    "source_page": "https://www.salesforceben.com/are-ai-agents-a-threat-to-technical-salesforce-roles/",
+    "logo_url": "https://www.salesforceben.com/wp-content/uploads/2023/10/cropped-new-favicon-180x180.png",
+    "logo_path": ".library/brands/salesforceben.com.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=salesforceben.com&sz=128"
+  },
+  "library_dir": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

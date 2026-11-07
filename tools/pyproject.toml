@@ -1,6 +1,0 @@
-[project]
-name = "public-persona"
-version = "0.1.0"
-description = "A source-preserving archive of Robert Soesemann's public work"
-requires-python = ">=3.11"
-dependencies = ["requests>=2.32,<3", "trafilatura>=2,<3", "pypdf>=6,<7", "yt-dlp[default]>=2025.1"]

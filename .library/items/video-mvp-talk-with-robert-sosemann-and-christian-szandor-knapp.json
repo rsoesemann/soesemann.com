@@ -1,0 +1,4790 @@
+{
+  "id": "video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp",
+  "url": "https://www.youtube.com/watch?v=ReXiFBH1wi0",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=ReXiFBH1wi0",
+    "title": "MVP Talk with Robert Sösemann and Christian Szandor Knapp",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:54:02.852870+00:00",
+    "title": "MVP Talk w/ Robert Sösemann & Christian Szandor Knapp | Episode 3",
+    "author": "DIA Digital Consulting",
+    "date": "20231115",
+    "duration_seconds": 980,
+    "raw": ".library/providers/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/youtube.json",
+    "tracks": [
+      {
+        "language": "de-orig",
+        "kind": "automatic",
+        "raw": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/captions.json3",
+        "segments": [
+          {
+            "start_ms": 440,
+            "duration_ms": 6760,
+            "text": "hallo wer bist du und wie heißt du hallo",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 3800,
+            "duration_ms": 5600,
+            "text": "ich bin Robert sösemann ich ich bin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 7200,
+            "duration_ms": 5519,
+            "text": "vieles aber für diesen Talk bin ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 9400,
+            "duration_ms": 6359,
+            "text": "wahrscheinlich principal architect für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 12719,
+            "duration_ms": 7640,
+            "text": "Salesforce bei acivlabs einem Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 15759,
+            "duration_ms": 6201,
+            "text": "Partner ein PDO Partner der anderen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 20359,
+            "duration_ms": 2680,
+            "text": "potentiellen Partnern in die App",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 21960,
+            "duration_ms": 4200,
+            "text": "Exchange",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 23039,
+            "duration_ms": 4601,
+            "text": "hilft genau ich bin auch MVP und ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26160,
+            "duration_ms": 3279,
+            "text": "freue mich dass ich hier sein kann danke",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 27640,
+            "duration_ms": 4079,
+            "text": "für die einladungshandung sehr gerne",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 29439,
+            "duration_ms": 7440,
+            "text": "Robert seit wann bist du denn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 31719,
+            "duration_ms": 9561,
+            "text": "MVP seit 3 Jahren also ich glaube 21 ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 36879,
+            "duration_ms": 5761,
+            "text": "genau 21 22 und 23 okay also auch schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 41280,
+            "duration_ms": 4279,
+            "text": "eine Weile dabei wenn ich richtig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 42640,
+            "duration_ms": 6960,
+            "text": "verstehe und noch viel länger in der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 45559,
+            "duration_ms": 5801,
+            "text": "selwwelt wie lange ich glaub 13 Jahre",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 49600,
+            "duration_ms": 4360,
+            "text": "also es war glaube ich ein Jahr nachdem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 51360,
+            "duration_ms": 7999,
+            "text": "die App Exchange",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 53960,
+            "duration_ms": 8480,
+            "text": "eröffnet wurde okay ja damals lange her",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 59359,
+            "duration_ms": 6721,
+            "text": "warum glaubst du bist du MVP geworden",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 62440,
+            "duration_ms": 6280,
+            "text": "Robert also ich ich weiß es ja ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66080,
+            "duration_ms": 5840,
+            "text": "bisschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 68720,
+            "duration_ms": 5719,
+            "text": "es es ich bin glaube ich ein bisschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 71920,
+            "duration_ms": 5519,
+            "text": "ein ungewöhnlicher MVP weil sehr viele",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 74439,
+            "duration_ms": 6121,
+            "text": "MVPs wie auch du schon davor sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 77439,
+            "duration_ms": 5841,
+            "text": "engagiert waren als als Leiter und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 80560,
+            "duration_ms": 3559,
+            "text": "Initiatoren von Usergroups das habe ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 83280,
+            "duration_ms": 3400,
+            "text": "nie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 84119,
+            "duration_ms": 4721,
+            "text": "gemacht was ich gemacht habe war ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 86680,
+            "duration_ms": 6840,
+            "text": "habe damals glaube ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 88840,
+            "duration_ms": 7680,
+            "text": "2015 16 habe ich ein Open Source Tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 93520,
+            "duration_ms": 6120,
+            "text": "PMD ein statischen codeanalyse ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 96520,
+            "duration_ms": 5440,
+            "text": "statisches codeanalysool von Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 99640,
+            "duration_ms": 5240,
+            "text": "von von Java nach salsforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 101960,
+            "duration_ms": 5320,
+            "text": "portiert relativen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 104880,
+            "duration_ms": 4640,
+            "text": "Aufwand und dann ging das so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 107280,
+            "duration_ms": 4439,
+            "text": "bisschen los mit der mit dem Fame also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 109520,
+            "duration_ms": 4680,
+            "text": "dann hat selfor tatsächlich angeklopft",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 111719,
+            "duration_ms": 5481,
+            "text": "ob ich auf der dreamforce ein Vortrag",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 114200,
+            "duration_ms": 5199,
+            "text": "halten will das fand ich mega stark weil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 117200,
+            "duration_ms": 4199,
+            "text": "ich dachte vielleicht werde ich da mal",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 119399,
+            "duration_ms": 3801,
+            "text": "genommen wenn ich dann Talk anmelde aber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 121399,
+            "duration_ms": 5601,
+            "text": "dann hatte ich dann Talk zusammen mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 123200,
+            "duration_ms": 6000,
+            "text": "dem Lorenzo von Clayton und ja und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 127000,
+            "duration_ms": 4160,
+            "text": "seitdem also am Anfang habe ich da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 129200,
+            "duration_ms": 4960,
+            "text": "natürlich sehr viel selber contributed",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 131160,
+            "duration_ms": 5600,
+            "text": "maintained auch ganz viel so die die die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 134160,
+            "duration_ms": 3960,
+            "text": "Marketing Trommel gerührt also da bin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 136760,
+            "duration_ms": 3320,
+            "text": "ich auf Twitter gegangen also ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 138120,
+            "duration_ms": 4240,
+            "text": "erinnere mich noch was du gesagt hast",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 140080,
+            "duration_ms": 4760,
+            "text": "twitter ist mein Salesforce connection",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 142360,
+            "duration_ms": 6040,
+            "text": "Medium und auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 144840,
+            "duration_ms": 7240,
+            "text": "rabatsmedium genau und ich habe also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 148400,
+            "duration_ms": 6400,
+            "text": "viele Partner in dazu gebracht PMD zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 152080,
+            "duration_ms": 4519,
+            "text": "integrieren zu erweitern ähm und habe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 154800,
+            "duration_ms": 3360,
+            "text": "natürlich dann auch sehr viel über das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 156599,
+            "duration_ms": 4081,
+            "text": "Thema geschrieben warum ich eigentlich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 158160,
+            "duration_ms": 5320,
+            "text": "dieses Tool mag nämlich Clean Code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 160680,
+            "duration_ms": 5880,
+            "text": "Software craftsmanship",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 163480,
+            "duration_ms": 5600,
+            "text": "qualitätscode und all diese Dinge genau",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 166560,
+            "duration_ms": 4599,
+            "text": "und das das wurde sehr gut aufgenommen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 169080,
+            "duration_ms": 3560,
+            "text": "in der Community und ich glaube also du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 171159,
+            "duration_ms": 2681,
+            "text": "weißt es wahrscheinlich besser weil du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 172640,
+            "duration_ms": 3239,
+            "text": "die ganzen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 173840,
+            "duration_ms": 3440,
+            "text": "submissions auch siehest aber es haben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 175879,
+            "duration_ms": 3321,
+            "text": "immer mal wieder Leute gesagt sie haben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 177280,
+            "duration_ms": 5679,
+            "text": "mich irgendwie nominiert für dieses",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 179200,
+            "duration_ms": 6480,
+            "text": "Thema ma und ich glaube 21 hat's dann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 182959,
+            "duration_ms": 6640,
+            "text": "einfach gefruchtet",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 185680,
+            "duration_ms": 5680,
+            "text": "ähm genau stehtter Tropfen und so ne ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 189599,
+            "duration_ms": 3401,
+            "text": "genau ja es war jetzt auch nicht war",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 191360,
+            "duration_ms": 3640,
+            "text": "jetzt auch nicht irgendwie mein Ziel MVP",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 193000,
+            "duration_ms": 3799,
+            "text": "zu werden aber ich habe mich natürlich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 195000,
+            "duration_ms": 4120,
+            "text": "natürlich se",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 196799,
+            "duration_ms": 3921,
+            "text": "gefreut nachdem du jetzt schon Weilchen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 199120,
+            "duration_ms": 4280,
+            "text": "dabei bist und gleich möchte ich noch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 200720,
+            "duration_ms": 4000,
+            "text": "mal ein bisschen über PMD reden denn wir",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 203400,
+            "duration_ms": 3640,
+            "text": "zwei kennen das vielleicht aber nicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 204720,
+            "duration_ms": 5120,
+            "text": "alle die und deswegen würde ich es gerne",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 207040,
+            "duration_ms": 4399,
+            "text": "noch ein bisschen erklären ähm was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 209840,
+            "duration_ms": 5160,
+            "text": "bedeutet das denn mittlerweile für dich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 211439,
+            "duration_ms": 3561,
+            "text": "MVP zu sein für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 217159,
+            "duration_ms": 4481,
+            "text": "Salesforce also ich habe darüber schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 219920,
+            "duration_ms": 6399,
+            "text": "oft nachgedacht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 221640,
+            "duration_ms": 6879,
+            "text": "m ehrlich also es es heißt so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 226319,
+            "duration_ms": 2200,
+            "text": "bisschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 229360,
+            "duration_ms": 5680,
+            "text": "Wertschätzung auch vor allem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 231760,
+            "duration_ms": 5600,
+            "text": "rückblickend also für für Dinge die ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 235040,
+            "duration_ms": 5320,
+            "text": "gemacht habe als ich noch kein MVP war",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 237360,
+            "duration_ms": 5920,
+            "text": "und für die die ich immer noch mache",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 240360,
+            "duration_ms": 5000,
+            "text": "und auch eine gewisse Akzeptanz dass ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 243280,
+            "duration_ms": 6200,
+            "text": "die Dinge die ich mache und schreibe und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 245360,
+            "duration_ms": 6239,
+            "text": "tue so ähm im best interest der Sache",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 249480,
+            "duration_ms": 4160,
+            "text": "mache also das war bei mir nicht immer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 251599,
+            "duration_ms": 4081,
+            "text": "so klar also ich habe am Anfang",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 253640,
+            "duration_ms": 5559,
+            "text": "teilweise oft so den chatz gemacht na",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 255680,
+            "duration_ms": 6279,
+            "text": "wenn sie mich zum MVP machen dann dann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 259199,
+            "duration_ms": 5201,
+            "text": "dann weiß ich auch nicht und so weil ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 261959,
+            "duration_ms": 3841,
+            "text": "weil ich keine Ahnung ich habe keine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 264400,
+            "duration_ms": 3120,
+            "text": "keine Lust irgendwie Marketing für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 265800,
+            "duration_ms": 4320,
+            "text": "salesfor zu machen nicht mal irgendwie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 267520,
+            "duration_ms": 4040,
+            "text": "neue Developer für sie zu werben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 270120,
+            "duration_ms": 3359,
+            "text": "was ich will ist dass die Plattform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 271560,
+            "duration_ms": 5240,
+            "text": "besser wird und es gibt viele wie mich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 273479,
+            "duration_ms": 6720,
+            "text": "da draußen die aber eben nicht keine nur",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 276800,
+            "duration_ms": 5480,
+            "text": "gern gern die Klappe aufreißen und und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 280199,
+            "duration_ms": 3401,
+            "text": "und dieses MVP machen war bisschen so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 282280,
+            "duration_ms": 3680,
+            "text": "wie eine Versöhnung also ich habe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 283600,
+            "duration_ms": 5080,
+            "text": "gemerkt selbstw sieht da drin auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 285960,
+            "duration_ms": 4720,
+            "text": "vielleicht ein Wert und und kann das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 288680,
+            "duration_ms": 4280,
+            "text": "wertschätzen und und das ist es für mich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 290680,
+            "duration_ms": 4720,
+            "text": "so ein bisschen und natürlich auch eine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 292960,
+            "duration_ms": 5480,
+            "text": "gewisse ongoing Verantwortung also ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 295400,
+            "duration_ms": 5040,
+            "text": "denke jedes Jahr wenn ich so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 298440,
+            "duration_ms": 4680,
+            "text": "das wieder werde und du hast es mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 300440,
+            "duration_ms": 4400,
+            "text": "Daniel ja besprochen man man man muss ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 303120,
+            "duration_ms": 3720,
+            "text": "auch sagen was man so macht dass ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 304840,
+            "duration_ms": 3960,
+            "text": "halt oft auch talks es erinnert mich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 306840,
+            "duration_ms": 4600,
+            "text": "auch einfach daran dran zuubleiben an",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 308800,
+            "duration_ms": 4360,
+            "text": "diesem Thema also ja talks zu machen es",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 311440,
+            "duration_ms": 4080,
+            "text": "weiter zu entwickeln zu gucken was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 313160,
+            "duration_ms": 4759,
+            "text": "brauchen die Leute eigentlich und so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 315520,
+            "duration_ms": 6440,
+            "text": "also es ist auch eine Erinnerung nichts",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 317919,
+            "duration_ms": 7041,
+            "text": "schleifen zu lassen keep the spirit na",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 321960,
+            "duration_ms": 4480,
+            "text": "klar aber die die für mich ist das schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 324960,
+            "duration_ms": 3160,
+            "text": "spannend also ich würde dich als jemand",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 326440,
+            "duration_ms": 5680,
+            "text": "einschätzen der diesen Spirit aus",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 328120,
+            "duration_ms": 6480,
+            "text": "eigenem Antrieb hat ja das heißt dass du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 332120,
+            "duration_ms": 5840,
+            "text": "zufällig das jetzt noch irgendwie als",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 334600,
+            "duration_ms": 4920,
+            "text": "contribution fürs sein einstellst ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 337960,
+            "duration_ms": 3400,
+            "text": "ein netter Nebeneffekt aber es wird ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 339520,
+            "duration_ms": 4440,
+            "text": "sich trotzdem nicht anders ausgehen und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 341360,
+            "duration_ms": 4720,
+            "text": "im übrigen um das mal vielleicht ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 343960,
+            "duration_ms": 4959,
+            "text": "bisschen einzuordnen aus meiner",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 346080,
+            "duration_ms": 6080,
+            "text": "Sicht wenn wir mal die Details weglassen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 348919,
+            "duration_ms": 5081,
+            "text": "was PMD tut oder nicht tut mit Code und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 352160,
+            "duration_ms": 5000,
+            "text": "wir uns einfach mal drauf eidigen es",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 354000,
+            "duration_ms": 6440,
+            "text": "hilft sehr sehr sehr vielen Menschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 357160,
+            "duration_ms": 7200,
+            "text": "dabei nicht den größten",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 360440,
+            "duration_ms": 5759,
+            "text": "in ihren abex Code hineinzuschreiben so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 364360,
+            "duration_ms": 3399,
+            "text": "dann dann ziehe ich ja trotzdem meinen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 366199,
+            "duration_ms": 3641,
+            "text": "Hut hier an dieser Stelle ganz offiziell",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 367759,
+            "duration_ms": 3840,
+            "text": "denn deine contributions und das was du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 369840,
+            "duration_ms": 3960,
+            "text": "angestoßen hast hat es ja mittlerweile",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 371599,
+            "duration_ms": 5641,
+            "text": "bis ins offizielle tooling von",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 373800,
+            "duration_ms": 4839,
+            "text": "Salesforce geschafft also wenn man mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 377240,
+            "duration_ms": 4160,
+            "text": "als Entwickler auf der Plattform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 378639,
+            "duration_ms": 5560,
+            "text": "unterwegs ist und da oder vielleicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 381400,
+            "duration_ms": 4919,
+            "text": "sogar als ISV um es ganz konkret man",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 384199,
+            "duration_ms": 5280,
+            "text": "mittlerweile ist man verpflichtet den",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 386319,
+            "duration_ms": 8320,
+            "text": "den Scanner zu benutzen ein DX plugin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 389479,
+            "duration_ms": 7120,
+            "text": "und da werden auch PMD PMD drin ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 394639,
+            "duration_ms": 7840,
+            "text": "durchgewertet ich kann ja auch ja sagen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 396599,
+            "duration_ms": 9401,
+            "text": "dass ich oder wir bei bei di",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 402479,
+            "duration_ms": 6201,
+            "text": "Consulting auf jeden Fall auch PMD im",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 406000,
+            "duration_ms": 4479,
+            "text": "täglichen Einsatz haben und im Gegenteil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 408680,
+            "duration_ms": 4799,
+            "text": "gucken dass wir das noch erweitern weil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 410479,
+            "duration_ms": 6280,
+            "text": "wie du mit talks die man findet sag ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 413479,
+            "duration_ms": 7201,
+            "text": "jetzt mal immer wieder zeigst ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 416759,
+            "duration_ms": 6761,
+            "text": "das Erweitern dann doch möglich bis hin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 420680,
+            "duration_ms": 5400,
+            "text": "zu sehr schönen Sachen wie mein einer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 423520,
+            "duration_ms": 5119,
+            "text": "meiner größten Ärgernisse ja ich habe so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 426080,
+            "duration_ms": 4519,
+            "text": "unterscores anderscores in Feldnamen die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 428639,
+            "duration_ms": 5921,
+            "text": "will ich da nicht die will ich nie sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 430599,
+            "duration_ms": 6761,
+            "text": "gut m und mag Dich noch mehr die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 434560,
+            "duration_ms": 4960,
+            "text": "Repositories also das ist ja auch ne PMD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 437360,
+            "duration_ms": 3880,
+            "text": "funktioniert mit dadurch dass ich diese",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 439520,
+            "duration_ms": 3480,
+            "text": "ganzen sesw Sachen irgendwie auf der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 441240,
+            "duration_ms": 4280,
+            "text": "Festplatte habe ob jetzt auf giitub oder",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 443000,
+            "duration_ms": 5319,
+            "text": "auf meinem Computer und da wird Daum",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 445520,
+            "duration_ms": 4320,
+            "text": "gescannt glaubst du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 448319,
+            "duration_ms": 3241,
+            "text": "ähm",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 449840,
+            "duration_ms": 4680,
+            "text": "dass ich jetzt und ich weiß dass du auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 451560,
+            "duration_ms": 6359,
+            "text": "mit mit aquivalabs stark in Richtung",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 454520,
+            "duration_ms": 6119,
+            "text": "generative ai unterwegs",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 457919,
+            "duration_ms": 4801,
+            "text": "bist wann wird denn und ich glaube du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 460639,
+            "duration_ms": 5441,
+            "text": "hast es sogar schon mal versucht ne PMD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 462720,
+            "duration_ms": 5000,
+            "text": "versus ich glaube chatgpt war es und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 466080,
+            "duration_ms": 4640,
+            "text": "wenn ich die Ergebnisse auch schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 467720,
+            "duration_ms": 5080,
+            "text": "vorwegnehmen kann du hast gesagt chatpt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 470720,
+            "duration_ms": 5240,
+            "text": "hat's besser gemacht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 472800,
+            "duration_ms": 5519,
+            "text": "wieso ja das ist oh das ist ein großes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 475960,
+            "duration_ms": 4480,
+            "text": "Feld da brucht man fast eine ganze",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 478319,
+            "duration_ms": 4160,
+            "text": "podcastreihe da ür also das beantwortet",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 480440,
+            "duration_ms": 3759,
+            "text": "auch eine eine der Fragen auf deiner",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 482479,
+            "duration_ms": 3641,
+            "text": "Liste womit ich mich jetzt so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 484199,
+            "duration_ms": 4201,
+            "text": "hauptsächlich beschäftige ich ma",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 486120,
+            "duration_ms": 4720,
+            "text": "natürlich nach wie vor Architektur in in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 488400,
+            "duration_ms": 4359,
+            "text": "App Exchange Projekten aber ich bin auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 490840,
+            "duration_ms": 5199,
+            "text": "Teil der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 492759,
+            "duration_ms": 5961,
+            "text": "Akiva ai Task Force die einfach so den",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 496039,
+            "duration_ms": 4000,
+            "text": "Sinn hat dass wir diesen Zug nicht nur",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 498720,
+            "duration_ms": 3360,
+            "text": "nicht verpassen sondern da richtig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 500039,
+            "duration_ms": 5041,
+            "text": "aufspringen gucken dass wir das in der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 502080,
+            "duration_ms": 4760,
+            "text": "Firma verwenden also um unsere Arbeit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 505080,
+            "duration_ms": 3239,
+            "text": "schneller preiswerte und bessere zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 506840,
+            "duration_ms": 3079,
+            "text": "machen aber natürlich auch wie wir das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 508319,
+            "duration_ms": 3960,
+            "text": "nach außen drin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 509919,
+            "duration_ms": 3480,
+            "text": "ein Kunden verkaufen können und klar da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 512279,
+            "duration_ms": 4481,
+            "text": "habe ich natürlich auch sowas",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 513399,
+            "duration_ms": 7560,
+            "text": "ausprobiert also ich kann dir sagen ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 516760,
+            "duration_ms": 5839,
+            "text": "bin regelmäßig erstaunt was ai cooles",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 520959,
+            "duration_ms": 4000,
+            "text": "kann und dann eine Woche später ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 522599,
+            "duration_ms": 5001,
+            "text": "bisschen enttäuscht du auch ja ja ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 524959,
+            "duration_ms": 4361,
+            "text": "klar jeder wahrscheinlich und du siehst",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 527600,
+            "duration_ms": 4120,
+            "text": "es gibt von mir weniger so begeisterte",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 529320,
+            "duration_ms": 7519,
+            "text": "ai Tweets als am",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 531720,
+            "duration_ms": 8160,
+            "text": "Anfang was du brauchst bei bei bei bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 536839,
+            "duration_ms": 5841,
+            "text": "so Dingen wie Qualitätsprüfung ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 539880,
+            "duration_ms": 5040,
+            "text": "konsequen Konsistenz da kann es nicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 542680,
+            "duration_ms": 4240,
+            "text": "sein dass der eine Entwickler fünf",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 544920,
+            "duration_ms": 4440,
+            "text": "Fehler kriegt also ein gutes Ergebnis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 546920,
+            "duration_ms": 5479,
+            "text": "und der andere kriegt nichts oder kriegt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 549360,
+            "duration_ms": 5760,
+            "text": "schmn damit tötest du diesen ganzen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 552399,
+            "duration_ms": 5641,
+            "text": "Ansatz also ehrlich gesagt ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 555120,
+            "duration_ms": 6440,
+            "text": "glaube nicht dass auf absehbare Zeit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 558040,
+            "duration_ms": 5880,
+            "text": "solche so Tools wie PMD direkt ersetzt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 561560,
+            "duration_ms": 5080,
+            "text": "werden ich glaube sie werden erweitert",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 563920,
+            "duration_ms": 5280,
+            "text": "also ich was ich persönlich mache ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 566640,
+            "duration_ms": 6000,
+            "text": "ich lasse über Code auch noch mal drüber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 569200,
+            "duration_ms": 6600,
+            "text": "gucken vonon sowas wie cilot heißt Codi",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 572640,
+            "duration_ms": 4639,
+            "text": "von sourceegraft und dann frage ich ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 575800,
+            "duration_ms": 2960,
+            "text": "frage einfach weißt du es kostet ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 577279,
+            "duration_ms": 4281,
+            "text": "nichts fragen kostet nichts ich kann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 578760,
+            "duration_ms": 4759,
+            "text": "zusätzlich zu PND noch eine KI Fragen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 581560,
+            "duration_ms": 3839,
+            "text": "und manchmal finde die gute Sachen aber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 583519,
+            "duration_ms": 3081,
+            "text": "du bra du musst halt eigentlich immer in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 585399,
+            "duration_ms": 4201,
+            "text": "der Lage sein das alles selber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 586600,
+            "duration_ms": 4359,
+            "text": "einzuschätzen zu können so Tools wie PMD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 589600,
+            "duration_ms": 2960,
+            "text": "die kannst du halt auch jemanden geben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 590959,
+            "duration_ms": 3440,
+            "text": "der nicht die Erfahrung hat das alles",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 592560,
+            "duration_ms": 2560,
+            "text": "selber zu können und das ist glaube ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 594399,
+            "duration_ms": 4321,
+            "text": "schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 595120,
+            "duration_ms": 5600,
+            "text": "wichtig da muss ich auch noch sagen also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 598720,
+            "duration_ms": 3559,
+            "text": "dass ich dass ich auf der dreamforce mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 600720,
+            "duration_ms": 3720,
+            "text": "mit Chris Peterson geredet habe und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 602279,
+            "duration_ms": 4161,
+            "text": "Daniel Binger und die haben auch gemeint",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 604440,
+            "duration_ms": 3959,
+            "text": "sie glauben dass dass gerade Dinge wie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 606440,
+            "duration_ms": 5720,
+            "text": "PMD sehr wichtig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 608399,
+            "duration_ms": 7401,
+            "text": "sind und wichtig bleiben jetzt wenn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 612160,
+            "duration_ms": 6960,
+            "text": "Developer Metadaten und Apex Code mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 615800,
+            "duration_ms": 5560,
+            "text": "generativer ai erzeugtau also das F ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 619120,
+            "duration_ms": 6760,
+            "text": "das fand ich einen tollen Twist dass das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 621360,
+            "duration_ms": 7800,
+            "text": "praktisch PMD sogar hilft Qualität in AI",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 625880,
+            "duration_ms": 5240,
+            "text": "Zeugs zu zu prüfen ich ich glaube da ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 629160,
+            "duration_ms": 5320,
+            "text": "ein gewisser Subtext gerade hier den ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 631120,
+            "duration_ms": 5880,
+            "text": "offen legen möchte nämlich woer kommt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 634480,
+            "duration_ms": 3760,
+            "text": "kte das das Thema eigentlich also es",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 637000,
+            "duration_ms": 4360,
+            "text": "geht ja nicht nur dass irgendwelche",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 638240,
+            "duration_ms": 5839,
+            "text": "Menschen die jetzt nicht seit 100 Jahren",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 641360,
+            "duration_ms": 6960,
+            "text": "zertifizierte Salesforce 2 Developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 644079,
+            "duration_ms": 6880,
+            "text": "sind Code mit Copilot oder Einstein GPT",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 648320,
+            "duration_ms": 5240,
+            "text": "schreiben sondern es kommt daher dass",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 650959,
+            "duration_ms": 4000,
+            "text": "bleiben wir mal bei der Situation Review",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 653560,
+            "duration_ms": 3120,
+            "text": "also jemand aus dem Team hat Code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 654959,
+            "duration_ms": 4601,
+            "text": "geschrieben und Metadaten verändert und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 656680,
+            "duration_ms": 6480,
+            "text": "das aus Repository gepackt dass wenn ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 659560,
+            "duration_ms": 6079,
+            "text": "mein mein mein Favorite ai Tool da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 663160,
+            "duration_ms": 5400,
+            "text": "drüber laufen lasse es halt beim jeden",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 665639,
+            "duration_ms": 5041,
+            "text": "drüberlufen andere Ergebnisse erzielen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 668560,
+            "duration_ms": 4360,
+            "text": "wird und ich jetzt nicht wirklich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 670680,
+            "duration_ms": 4560,
+            "text": "gewährleisten kann dass jedes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 672920,
+            "duration_ms": 5120,
+            "text": "drüberlaufen mindestens alle diese",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 675240,
+            "duration_ms": 5080,
+            "text": "Ergebnisse erzielen wird die eben PMD in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 678040,
+            "duration_ms": 5000,
+            "text": "jedem Fall und immer und ständig ergeben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 680320,
+            "duration_ms": 4519,
+            "text": "also erzielen wird das heißt das ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 683040,
+            "duration_ms": 5640,
+            "text": "also nicht deterministisch an dieser",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 684839,
+            "duration_ms": 5721,
+            "text": "Stelle und PMD ist natürlich auch g",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 688680,
+            "duration_ms": 4520,
+            "text": "Natur der Sache weil es ein statisches",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 690560,
+            "duration_ms": 6200,
+            "text": "Tool ist und sehr viel kluge Software",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 693200,
+            "duration_ms": 7480,
+            "text": "ist aber kein es ist Code jeder Code ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 696760,
+            "duration_ms": 8840,
+            "text": "Biss ja deterministisch ja so und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 700680,
+            "duration_ms": 4920,
+            "text": "damit gibt sich das natürlich die Hand",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 708079,
+            "duration_ms": 6801,
+            "text": "ist das denn dann quasi alles wo du für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 711959,
+            "duration_ms": 4921,
+            "text": "dich Einsatzgebiete in AI si ich kann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 714880,
+            "duration_ms": 5240,
+            "text": "mit jemanden der viel Code sehr schnell",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 716880,
+            "duration_ms": 7560,
+            "text": "ingesten kann Fragen stellen bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 720120,
+            "duration_ms": 7320,
+            "text": "Review nein nein also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 724440,
+            "duration_ms": 5760,
+            "text": "ähm also ich schreib gerade ich schreibe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 727440,
+            "duration_ms": 4680,
+            "text": "in meiner Rolle relativ wenig Code also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 730200,
+            "duration_ms": 4120,
+            "text": "nur diesen coolen Code den proof of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 732120,
+            "duration_ms": 5839,
+            "text": "Conzept Code und dann die harte Arbeit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 734320,
+            "duration_ms": 6000,
+            "text": "mache andere aber ich verwende das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 737959,
+            "duration_ms": 4761,
+            "text": "solche Tools sehr um bestehenden Code zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 740320,
+            "duration_ms": 5360,
+            "text": "verstehen um Fragen zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 742720,
+            "duration_ms": 6640,
+            "text": "stellen also die Tools sind schon sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 745680,
+            "duration_ms": 5040,
+            "text": "gut darin zu sagen also nenn mal ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 749360,
+            "duration_ms": 3919,
+            "text": "ganz konkretes Beispiel von letzter",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 750720,
+            "duration_ms": 4479,
+            "text": "Woche ein i Projekt wo ich nicht genau",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 753279,
+            "duration_ms": 4000,
+            "text": "wusste wie sie da die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 755199,
+            "duration_ms": 3440,
+            "text": "Implementierung implementiert haben habe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 757279,
+            "duration_ms": 4441,
+            "text": "ich einfach gefragt was ist das ist das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 758639,
+            "duration_ms": 6081,
+            "text": "webserverfow und Belege mir warum und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 761720,
+            "duration_ms": 5400,
+            "text": "dann machen wir mal UML Diagramm so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 764720,
+            "duration_ms": 4679,
+            "text": "PL UML",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 767120,
+            "duration_ms": 4959,
+            "text": "diagram wie das abläuft damit ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 769399,
+            "duration_ms": 5120,
+            "text": "wirklich welche Klasse da was was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 772079,
+            "duration_ms": 4440,
+            "text": "aufruft und so und das ging halt ohne",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 774519,
+            "duration_ms": 3081,
+            "text": "Ende also und das habe ich halt auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 776519,
+            "duration_ms": 2961,
+            "text": "verwenden können dann in der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 777600,
+            "duration_ms": 4520,
+            "text": "Kommunikation mit dem Team",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 779480,
+            "duration_ms": 4719,
+            "text": "und das Team hat nicht nur bestätigt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 782120,
+            "duration_ms": 3959,
+            "text": "dass das dass das alles wahrheitsgemäß",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 784199,
+            "duration_ms": 5880,
+            "text": "ist sondern es hat mir halt auch sicher",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 786079,
+            "duration_ms": 6161,
+            "text": "zi Stunden Arbeit gespart oder noch und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 790079,
+            "duration_ms": 4241,
+            "text": "also das sehe ich schon ich sehe das so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 792240,
+            "duration_ms": 4839,
+            "text": "als wieo als",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 794320,
+            "duration_ms": 4800,
+            "text": "Assistent und vor allem bei bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 797079,
+            "duration_ms": 4081,
+            "text": "kreativen Sachen bei Dingen wo es nicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 799120,
+            "duration_ms": 4839,
+            "text": "um um irgendwie Leben oder Tod geht wo",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 801160,
+            "duration_ms": 4679,
+            "text": "vielleicht in meinem Kopf keine keine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 803959,
+            "duration_ms": 3801,
+            "text": "Ideen sind und dann kriege ich so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 805839,
+            "duration_ms": 3601,
+            "text": "paar Ideen und dann kann ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 807760,
+            "duration_ms": 3360,
+            "text": "filtern",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 809440,
+            "duration_ms": 3680,
+            "text": "das ist meine gerade meine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 811120,
+            "duration_ms": 5360,
+            "text": "lieblingssicht auf auf",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 813120,
+            "duration_ms": 4560,
+            "text": "KI also diese Art von KI die wir über",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 816480,
+            "duration_ms": 3919,
+            "text": "die wir gerade alle reden also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 817680,
+            "duration_ms": 4040,
+            "text": "generative ai mich natürlich neugierig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 820399,
+            "duration_ms": 3201,
+            "text": "gemacht hast ich glaube du hast es schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 821720,
+            "duration_ms": 5000,
+            "text": "gesagt aber vielleicht erzählst es noch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 823600,
+            "duration_ms": 6720,
+            "text": "mal welches Tool benutzt du für ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 826720,
+            "duration_ms": 5640,
+            "text": "spreche mit einem Repository das ist das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 830320,
+            "duration_ms": 4600,
+            "text": "ist ein codeassistent der ist wesentlich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 832360,
+            "duration_ms": 5399,
+            "text": "besser als cilot der heißt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 834920,
+            "duration_ms": 5200,
+            "text": "CoD Firma die gibt schon lange die heißt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 837759,
+            "duration_ms": 5080,
+            "text": "sourceph",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 840120,
+            "duration_ms": 4719,
+            "text": "die hatten früher so so al so eine Art",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 842839,
+            "duration_ms": 4601,
+            "text": "GitHub was aber den Code besser versteht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 844839,
+            "duration_ms": 4680,
+            "text": "also was unabhängig von der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 847440,
+            "duration_ms": 4720,
+            "text": "Programmiersprache praktisch die die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 849519,
+            "duration_ms": 4401,
+            "text": "Verbindungen versteht ne ohne ein echten",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 852160,
+            "duration_ms": 4160,
+            "text": "parer zu haben und die haben halt auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 853920,
+            "duration_ms": 4479,
+            "text": "so ein Plugin für vs Code und da kannst",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 856320,
+            "duration_ms": 4400,
+            "text": "du also der sagt dir dann dieses Wissen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 858399,
+            "duration_ms": 4000,
+            "text": "habe ich aus diesen 14 Files oder so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 860720,
+            "duration_ms": 4919,
+            "text": "sehr gut sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 862399,
+            "duration_ms": 5081,
+            "text": "gutilot von von github/ Microsoft",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 865639,
+            "duration_ms": 3640,
+            "text": "tatsälich also mit dem mit dem kriege",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 867480,
+            "duration_ms": 4120,
+            "text": "ich nichts raus weil ich ke Code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 869279,
+            "duration_ms": 4480,
+            "text": "generiere und das Tool ist halt wirklich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 871600,
+            "duration_ms": 4640,
+            "text": "richtig cool und und es das hat sogar",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 873759,
+            "duration_ms": 5961,
+            "text": "also ich benutze nur den freeer der hat",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 876240,
+            "duration_ms": 3480,
+            "text": "so 50 Fragen am",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 882959,
+            "duration_ms": 5440,
+            "text": "tager wüstest du ob das jetzt wie bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 885839,
+            "duration_ms": 6041,
+            "text": "Einstein GPT ist dass das was du da mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 888399,
+            "duration_ms": 6800,
+            "text": "dem cod austauscht der zufäig auch CoD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 891880,
+            "duration_ms": 6120,
+            "text": "heißt wie unser Codi",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 895199,
+            "duration_ms": 6041,
+            "text": "interessant ob damit trainiert wird weil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 898000,
+            "duration_ms": 3880,
+            "text": "das ja heiße Debatte in der soswelt seit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 901240,
+            "duration_ms": 2640,
+            "text": "der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 901880,
+            "duration_ms": 5160,
+            "text": "dreamforce Trust",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 903880,
+            "duration_ms": 4759,
+            "text": "Layer bin ich das Produkt bin sind meine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 907040,
+            "duration_ms": 4359,
+            "text": "Daten das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 908639,
+            "duration_ms": 5041,
+            "text": "Produkt das ist ja das wo jetzt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 911399,
+            "duration_ms": 3921,
+            "text": "zumindest wir gesehen haben dass das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 913680,
+            "duration_ms": 2920,
+            "text": "Anstrengung unternommen werden jetzt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 915320,
+            "duration_ms": 2560,
+            "text": "zumindest auf Seiten der Plattform wir",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 916600,
+            "duration_ms": 3640,
+            "text": "können wahrscheinlich genauso ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 917880,
+            "duration_ms": 5519,
+            "text": "podcastreihe drüber machen ob das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 920240,
+            "duration_ms": 6440,
+            "text": "sinnvolle Anstrengungen sind also wie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 923399,
+            "duration_ms": 4521,
+            "text": "siehst du das muss Vertrauen also wenn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 926680,
+            "duration_ms": 2360,
+            "text": "man geschriebenen Wort nicht mehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 927920,
+            "duration_ms": 2719,
+            "text": "vertrauen kann also wenn man",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 929040,
+            "duration_ms": 3520,
+            "text": "irgendwelchen terms and conditions in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 930639,
+            "duration_ms": 3481,
+            "text": "denen steht wir trainieren nicht auf",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 932560,
+            "duration_ms": 3000,
+            "text": "deinen Daten wenn man die nicht trauen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 934120,
+            "duration_ms": 2959,
+            "text": "kann kann ich auch keine open ai",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 935560,
+            "duration_ms": 3600,
+            "text": "verwenden da kann ich aber auch keine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 937079,
+            "duration_ms": 3721,
+            "text": "salforce mehr Vertrauen also diese",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 939160,
+            "duration_ms": 3799,
+            "text": "Firmen sind für mich alle gleich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 940800,
+            "duration_ms": 3880,
+            "text": "unglaubwürdig oder glaubwürdig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 942959,
+            "duration_ms": 4161,
+            "text": "amerikanische Unternehmen die Geld",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 944680,
+            "duration_ms": 5040,
+            "text": "verdienen wollen also aber ich ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 947120,
+            "duration_ms": 5519,
+            "text": "glaube dem geschriebenen Wort und und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 949720,
+            "duration_ms": 5320,
+            "text": "bei Codi wie auch bei Gitter steht drin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 952639,
+            "duration_ms": 4081,
+            "text": "dass die nicht lernen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 955040,
+            "duration_ms": 4359,
+            "text": "also dass das nicht in irgendeinen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 956720,
+            "duration_ms": 4840,
+            "text": "relearning der des Modells einfließt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 959399,
+            "duration_ms": 4120,
+            "text": "also das ist das ist bei uns auch ganz",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 961560,
+            "duration_ms": 4680,
+            "text": "wichtig also wir haben praktisch wir",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 963519,
+            "duration_ms": 4841,
+            "text": "checken Tools wie so Art von demem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 966240,
+            "duration_ms": 4839,
+            "text": "Anwalt bei uns innerhalb der Firma und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 968360,
+            "duration_ms": 4360,
+            "text": "er guckt ob ob da ob es da Dokumente",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 971079,
+            "duration_ms": 3560,
+            "text": "gibt die irgendwie stichhaltig sind dass",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 972720,
+            "duration_ms": 6200,
+            "text": "man sich auf sowas verlassen kann und da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 974639,
+            "duration_ms": 7281,
+            "text": "ist dieses Codi gut vielen vielen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 978920,
+            "duration_ms": 3000,
+            "text": "Dank",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "60cca9c9785ce8b86ba089c0a73c257c707f970a6428fc6f056d1e4148559c51",
+    "text_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/transcript.txt",
+    "words": 2436,
+    "video_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/video.mp4",
+    "audio_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/audio.m4a",
+    "media_duration_seconds": 980.021328
+  },
+  "last_success": {
+    "at": "2026-11-06T21:54:02.852870+00:00",
+    "title": "MVP Talk w/ Robert Sösemann & Christian Szandor Knapp | Episode 3",
+    "author": "DIA Digital Consulting",
+    "date": "20231115",
+    "duration_seconds": 980,
+    "raw": ".library/providers/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/youtube.json",
+    "tracks": [
+      {
+        "language": "de-orig",
+        "kind": "automatic",
+        "raw": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/captions.json3",
+        "segments": [
+          {
+            "start_ms": 440,
+            "duration_ms": 6760,
+            "text": "hallo wer bist du und wie heißt du hallo",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 3800,
+            "duration_ms": 5600,
+            "text": "ich bin Robert sösemann ich ich bin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 7200,
+            "duration_ms": 5519,
+            "text": "vieles aber für diesen Talk bin ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 9400,
+            "duration_ms": 6359,
+            "text": "wahrscheinlich principal architect für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 12719,
+            "duration_ms": 7640,
+            "text": "Salesforce bei acivlabs einem Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 15759,
+            "duration_ms": 6201,
+            "text": "Partner ein PDO Partner der anderen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 20359,
+            "duration_ms": 2680,
+            "text": "potentiellen Partnern in die App",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 21960,
+            "duration_ms": 4200,
+            "text": "Exchange",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 23039,
+            "duration_ms": 4601,
+            "text": "hilft genau ich bin auch MVP und ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26160,
+            "duration_ms": 3279,
+            "text": "freue mich dass ich hier sein kann danke",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 27640,
+            "duration_ms": 4079,
+            "text": "für die einladungshandung sehr gerne",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 29439,
+            "duration_ms": 7440,
+            "text": "Robert seit wann bist du denn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 31719,
+            "duration_ms": 9561,
+            "text": "MVP seit 3 Jahren also ich glaube 21 ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 36879,
+            "duration_ms": 5761,
+            "text": "genau 21 22 und 23 okay also auch schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 41280,
+            "duration_ms": 4279,
+            "text": "eine Weile dabei wenn ich richtig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 42640,
+            "duration_ms": 6960,
+            "text": "verstehe und noch viel länger in der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 45559,
+            "duration_ms": 5801,
+            "text": "selwwelt wie lange ich glaub 13 Jahre",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 49600,
+            "duration_ms": 4360,
+            "text": "also es war glaube ich ein Jahr nachdem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 51360,
+            "duration_ms": 7999,
+            "text": "die App Exchange",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 53960,
+            "duration_ms": 8480,
+            "text": "eröffnet wurde okay ja damals lange her",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 59359,
+            "duration_ms": 6721,
+            "text": "warum glaubst du bist du MVP geworden",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 62440,
+            "duration_ms": 6280,
+            "text": "Robert also ich ich weiß es ja ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66080,
+            "duration_ms": 5840,
+            "text": "bisschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 68720,
+            "duration_ms": 5719,
+            "text": "es es ich bin glaube ich ein bisschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 71920,
+            "duration_ms": 5519,
+            "text": "ein ungewöhnlicher MVP weil sehr viele",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 74439,
+            "duration_ms": 6121,
+            "text": "MVPs wie auch du schon davor sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 77439,
+            "duration_ms": 5841,
+            "text": "engagiert waren als als Leiter und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 80560,
+            "duration_ms": 3559,
+            "text": "Initiatoren von Usergroups das habe ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 83280,
+            "duration_ms": 3400,
+            "text": "nie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 84119,
+            "duration_ms": 4721,
+            "text": "gemacht was ich gemacht habe war ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 86680,
+            "duration_ms": 6840,
+            "text": "habe damals glaube ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 88840,
+            "duration_ms": 7680,
+            "text": "2015 16 habe ich ein Open Source Tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 93520,
+            "duration_ms": 6120,
+            "text": "PMD ein statischen codeanalyse ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 96520,
+            "duration_ms": 5440,
+            "text": "statisches codeanalysool von Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 99640,
+            "duration_ms": 5240,
+            "text": "von von Java nach salsforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 101960,
+            "duration_ms": 5320,
+            "text": "portiert relativen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 104880,
+            "duration_ms": 4640,
+            "text": "Aufwand und dann ging das so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 107280,
+            "duration_ms": 4439,
+            "text": "bisschen los mit der mit dem Fame also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 109520,
+            "duration_ms": 4680,
+            "text": "dann hat selfor tatsächlich angeklopft",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 111719,
+            "duration_ms": 5481,
+            "text": "ob ich auf der dreamforce ein Vortrag",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 114200,
+            "duration_ms": 5199,
+            "text": "halten will das fand ich mega stark weil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 117200,
+            "duration_ms": 4199,
+            "text": "ich dachte vielleicht werde ich da mal",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 119399,
+            "duration_ms": 3801,
+            "text": "genommen wenn ich dann Talk anmelde aber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 121399,
+            "duration_ms": 5601,
+            "text": "dann hatte ich dann Talk zusammen mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 123200,
+            "duration_ms": 6000,
+            "text": "dem Lorenzo von Clayton und ja und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 127000,
+            "duration_ms": 4160,
+            "text": "seitdem also am Anfang habe ich da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 129200,
+            "duration_ms": 4960,
+            "text": "natürlich sehr viel selber contributed",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 131160,
+            "duration_ms": 5600,
+            "text": "maintained auch ganz viel so die die die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 134160,
+            "duration_ms": 3960,
+            "text": "Marketing Trommel gerührt also da bin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 136760,
+            "duration_ms": 3320,
+            "text": "ich auf Twitter gegangen also ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 138120,
+            "duration_ms": 4240,
+            "text": "erinnere mich noch was du gesagt hast",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 140080,
+            "duration_ms": 4760,
+            "text": "twitter ist mein Salesforce connection",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 142360,
+            "duration_ms": 6040,
+            "text": "Medium und auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 144840,
+            "duration_ms": 7240,
+            "text": "rabatsmedium genau und ich habe also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 148400,
+            "duration_ms": 6400,
+            "text": "viele Partner in dazu gebracht PMD zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 152080,
+            "duration_ms": 4519,
+            "text": "integrieren zu erweitern ähm und habe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 154800,
+            "duration_ms": 3360,
+            "text": "natürlich dann auch sehr viel über das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 156599,
+            "duration_ms": 4081,
+            "text": "Thema geschrieben warum ich eigentlich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 158160,
+            "duration_ms": 5320,
+            "text": "dieses Tool mag nämlich Clean Code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 160680,
+            "duration_ms": 5880,
+            "text": "Software craftsmanship",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 163480,
+            "duration_ms": 5600,
+            "text": "qualitätscode und all diese Dinge genau",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 166560,
+            "duration_ms": 4599,
+            "text": "und das das wurde sehr gut aufgenommen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 169080,
+            "duration_ms": 3560,
+            "text": "in der Community und ich glaube also du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 171159,
+            "duration_ms": 2681,
+            "text": "weißt es wahrscheinlich besser weil du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 172640,
+            "duration_ms": 3239,
+            "text": "die ganzen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 173840,
+            "duration_ms": 3440,
+            "text": "submissions auch siehest aber es haben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 175879,
+            "duration_ms": 3321,
+            "text": "immer mal wieder Leute gesagt sie haben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 177280,
+            "duration_ms": 5679,
+            "text": "mich irgendwie nominiert für dieses",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 179200,
+            "duration_ms": 6480,
+            "text": "Thema ma und ich glaube 21 hat's dann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 182959,
+            "duration_ms": 6640,
+            "text": "einfach gefruchtet",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 185680,
+            "duration_ms": 5680,
+            "text": "ähm genau stehtter Tropfen und so ne ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 189599,
+            "duration_ms": 3401,
+            "text": "genau ja es war jetzt auch nicht war",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 191360,
+            "duration_ms": 3640,
+            "text": "jetzt auch nicht irgendwie mein Ziel MVP",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 193000,
+            "duration_ms": 3799,
+            "text": "zu werden aber ich habe mich natürlich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 195000,
+            "duration_ms": 4120,
+            "text": "natürlich se",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 196799,
+            "duration_ms": 3921,
+            "text": "gefreut nachdem du jetzt schon Weilchen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 199120,
+            "duration_ms": 4280,
+            "text": "dabei bist und gleich möchte ich noch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 200720,
+            "duration_ms": 4000,
+            "text": "mal ein bisschen über PMD reden denn wir",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 203400,
+            "duration_ms": 3640,
+            "text": "zwei kennen das vielleicht aber nicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 204720,
+            "duration_ms": 5120,
+            "text": "alle die und deswegen würde ich es gerne",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 207040,
+            "duration_ms": 4399,
+            "text": "noch ein bisschen erklären ähm was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 209840,
+            "duration_ms": 5160,
+            "text": "bedeutet das denn mittlerweile für dich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 211439,
+            "duration_ms": 3561,
+            "text": "MVP zu sein für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 217159,
+            "duration_ms": 4481,
+            "text": "Salesforce also ich habe darüber schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 219920,
+            "duration_ms": 6399,
+            "text": "oft nachgedacht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 221640,
+            "duration_ms": 6879,
+            "text": "m ehrlich also es es heißt so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 226319,
+            "duration_ms": 2200,
+            "text": "bisschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 229360,
+            "duration_ms": 5680,
+            "text": "Wertschätzung auch vor allem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 231760,
+            "duration_ms": 5600,
+            "text": "rückblickend also für für Dinge die ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 235040,
+            "duration_ms": 5320,
+            "text": "gemacht habe als ich noch kein MVP war",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 237360,
+            "duration_ms": 5920,
+            "text": "und für die die ich immer noch mache",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 240360,
+            "duration_ms": 5000,
+            "text": "und auch eine gewisse Akzeptanz dass ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 243280,
+            "duration_ms": 6200,
+            "text": "die Dinge die ich mache und schreibe und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 245360,
+            "duration_ms": 6239,
+            "text": "tue so ähm im best interest der Sache",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 249480,
+            "duration_ms": 4160,
+            "text": "mache also das war bei mir nicht immer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 251599,
+            "duration_ms": 4081,
+            "text": "so klar also ich habe am Anfang",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 253640,
+            "duration_ms": 5559,
+            "text": "teilweise oft so den chatz gemacht na",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 255680,
+            "duration_ms": 6279,
+            "text": "wenn sie mich zum MVP machen dann dann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 259199,
+            "duration_ms": 5201,
+            "text": "dann weiß ich auch nicht und so weil ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 261959,
+            "duration_ms": 3841,
+            "text": "weil ich keine Ahnung ich habe keine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 264400,
+            "duration_ms": 3120,
+            "text": "keine Lust irgendwie Marketing für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 265800,
+            "duration_ms": 4320,
+            "text": "salesfor zu machen nicht mal irgendwie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 267520,
+            "duration_ms": 4040,
+            "text": "neue Developer für sie zu werben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 270120,
+            "duration_ms": 3359,
+            "text": "was ich will ist dass die Plattform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 271560,
+            "duration_ms": 5240,
+            "text": "besser wird und es gibt viele wie mich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 273479,
+            "duration_ms": 6720,
+            "text": "da draußen die aber eben nicht keine nur",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 276800,
+            "duration_ms": 5480,
+            "text": "gern gern die Klappe aufreißen und und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 280199,
+            "duration_ms": 3401,
+            "text": "und dieses MVP machen war bisschen so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 282280,
+            "duration_ms": 3680,
+            "text": "wie eine Versöhnung also ich habe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 283600,
+            "duration_ms": 5080,
+            "text": "gemerkt selbstw sieht da drin auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 285960,
+            "duration_ms": 4720,
+            "text": "vielleicht ein Wert und und kann das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 288680,
+            "duration_ms": 4280,
+            "text": "wertschätzen und und das ist es für mich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 290680,
+            "duration_ms": 4720,
+            "text": "so ein bisschen und natürlich auch eine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 292960,
+            "duration_ms": 5480,
+            "text": "gewisse ongoing Verantwortung also ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 295400,
+            "duration_ms": 5040,
+            "text": "denke jedes Jahr wenn ich so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 298440,
+            "duration_ms": 4680,
+            "text": "das wieder werde und du hast es mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 300440,
+            "duration_ms": 4400,
+            "text": "Daniel ja besprochen man man man muss ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 303120,
+            "duration_ms": 3720,
+            "text": "auch sagen was man so macht dass ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 304840,
+            "duration_ms": 3960,
+            "text": "halt oft auch talks es erinnert mich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 306840,
+            "duration_ms": 4600,
+            "text": "auch einfach daran dran zuubleiben an",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 308800,
+            "duration_ms": 4360,
+            "text": "diesem Thema also ja talks zu machen es",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 311440,
+            "duration_ms": 4080,
+            "text": "weiter zu entwickeln zu gucken was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 313160,
+            "duration_ms": 4759,
+            "text": "brauchen die Leute eigentlich und so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 315520,
+            "duration_ms": 6440,
+            "text": "also es ist auch eine Erinnerung nichts",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 317919,
+            "duration_ms": 7041,
+            "text": "schleifen zu lassen keep the spirit na",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 321960,
+            "duration_ms": 4480,
+            "text": "klar aber die die für mich ist das schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 324960,
+            "duration_ms": 3160,
+            "text": "spannend also ich würde dich als jemand",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 326440,
+            "duration_ms": 5680,
+            "text": "einschätzen der diesen Spirit aus",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 328120,
+            "duration_ms": 6480,
+            "text": "eigenem Antrieb hat ja das heißt dass du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 332120,
+            "duration_ms": 5840,
+            "text": "zufällig das jetzt noch irgendwie als",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 334600,
+            "duration_ms": 4920,
+            "text": "contribution fürs sein einstellst ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 337960,
+            "duration_ms": 3400,
+            "text": "ein netter Nebeneffekt aber es wird ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 339520,
+            "duration_ms": 4440,
+            "text": "sich trotzdem nicht anders ausgehen und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 341360,
+            "duration_ms": 4720,
+            "text": "im übrigen um das mal vielleicht ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 343960,
+            "duration_ms": 4959,
+            "text": "bisschen einzuordnen aus meiner",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 346080,
+            "duration_ms": 6080,
+            "text": "Sicht wenn wir mal die Details weglassen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 348919,
+            "duration_ms": 5081,
+            "text": "was PMD tut oder nicht tut mit Code und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 352160,
+            "duration_ms": 5000,
+            "text": "wir uns einfach mal drauf eidigen es",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 354000,
+            "duration_ms": 6440,
+            "text": "hilft sehr sehr sehr vielen Menschen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 357160,
+            "duration_ms": 7200,
+            "text": "dabei nicht den größten",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 360440,
+            "duration_ms": 5759,
+            "text": "in ihren abex Code hineinzuschreiben so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 364360,
+            "duration_ms": 3399,
+            "text": "dann dann ziehe ich ja trotzdem meinen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 366199,
+            "duration_ms": 3641,
+            "text": "Hut hier an dieser Stelle ganz offiziell",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 367759,
+            "duration_ms": 3840,
+            "text": "denn deine contributions und das was du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 369840,
+            "duration_ms": 3960,
+            "text": "angestoßen hast hat es ja mittlerweile",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 371599,
+            "duration_ms": 5641,
+            "text": "bis ins offizielle tooling von",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 373800,
+            "duration_ms": 4839,
+            "text": "Salesforce geschafft also wenn man mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 377240,
+            "duration_ms": 4160,
+            "text": "als Entwickler auf der Plattform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 378639,
+            "duration_ms": 5560,
+            "text": "unterwegs ist und da oder vielleicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 381400,
+            "duration_ms": 4919,
+            "text": "sogar als ISV um es ganz konkret man",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 384199,
+            "duration_ms": 5280,
+            "text": "mittlerweile ist man verpflichtet den",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 386319,
+            "duration_ms": 8320,
+            "text": "den Scanner zu benutzen ein DX plugin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 389479,
+            "duration_ms": 7120,
+            "text": "und da werden auch PMD PMD drin ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 394639,
+            "duration_ms": 7840,
+            "text": "durchgewertet ich kann ja auch ja sagen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 396599,
+            "duration_ms": 9401,
+            "text": "dass ich oder wir bei bei di",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 402479,
+            "duration_ms": 6201,
+            "text": "Consulting auf jeden Fall auch PMD im",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 406000,
+            "duration_ms": 4479,
+            "text": "täglichen Einsatz haben und im Gegenteil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 408680,
+            "duration_ms": 4799,
+            "text": "gucken dass wir das noch erweitern weil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 410479,
+            "duration_ms": 6280,
+            "text": "wie du mit talks die man findet sag ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 413479,
+            "duration_ms": 7201,
+            "text": "jetzt mal immer wieder zeigst ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 416759,
+            "duration_ms": 6761,
+            "text": "das Erweitern dann doch möglich bis hin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 420680,
+            "duration_ms": 5400,
+            "text": "zu sehr schönen Sachen wie mein einer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 423520,
+            "duration_ms": 5119,
+            "text": "meiner größten Ärgernisse ja ich habe so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 426080,
+            "duration_ms": 4519,
+            "text": "unterscores anderscores in Feldnamen die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 428639,
+            "duration_ms": 5921,
+            "text": "will ich da nicht die will ich nie sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 430599,
+            "duration_ms": 6761,
+            "text": "gut m und mag Dich noch mehr die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 434560,
+            "duration_ms": 4960,
+            "text": "Repositories also das ist ja auch ne PMD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 437360,
+            "duration_ms": 3880,
+            "text": "funktioniert mit dadurch dass ich diese",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 439520,
+            "duration_ms": 3480,
+            "text": "ganzen sesw Sachen irgendwie auf der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 441240,
+            "duration_ms": 4280,
+            "text": "Festplatte habe ob jetzt auf giitub oder",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 443000,
+            "duration_ms": 5319,
+            "text": "auf meinem Computer und da wird Daum",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 445520,
+            "duration_ms": 4320,
+            "text": "gescannt glaubst du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 448319,
+            "duration_ms": 3241,
+            "text": "ähm",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 449840,
+            "duration_ms": 4680,
+            "text": "dass ich jetzt und ich weiß dass du auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 451560,
+            "duration_ms": 6359,
+            "text": "mit mit aquivalabs stark in Richtung",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 454520,
+            "duration_ms": 6119,
+            "text": "generative ai unterwegs",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 457919,
+            "duration_ms": 4801,
+            "text": "bist wann wird denn und ich glaube du",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 460639,
+            "duration_ms": 5441,
+            "text": "hast es sogar schon mal versucht ne PMD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 462720,
+            "duration_ms": 5000,
+            "text": "versus ich glaube chatgpt war es und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 466080,
+            "duration_ms": 4640,
+            "text": "wenn ich die Ergebnisse auch schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 467720,
+            "duration_ms": 5080,
+            "text": "vorwegnehmen kann du hast gesagt chatpt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 470720,
+            "duration_ms": 5240,
+            "text": "hat's besser gemacht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 472800,
+            "duration_ms": 5519,
+            "text": "wieso ja das ist oh das ist ein großes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 475960,
+            "duration_ms": 4480,
+            "text": "Feld da brucht man fast eine ganze",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 478319,
+            "duration_ms": 4160,
+            "text": "podcastreihe da ür also das beantwortet",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 480440,
+            "duration_ms": 3759,
+            "text": "auch eine eine der Fragen auf deiner",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 482479,
+            "duration_ms": 3641,
+            "text": "Liste womit ich mich jetzt so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 484199,
+            "duration_ms": 4201,
+            "text": "hauptsächlich beschäftige ich ma",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 486120,
+            "duration_ms": 4720,
+            "text": "natürlich nach wie vor Architektur in in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 488400,
+            "duration_ms": 4359,
+            "text": "App Exchange Projekten aber ich bin auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 490840,
+            "duration_ms": 5199,
+            "text": "Teil der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 492759,
+            "duration_ms": 5961,
+            "text": "Akiva ai Task Force die einfach so den",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 496039,
+            "duration_ms": 4000,
+            "text": "Sinn hat dass wir diesen Zug nicht nur",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 498720,
+            "duration_ms": 3360,
+            "text": "nicht verpassen sondern da richtig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 500039,
+            "duration_ms": 5041,
+            "text": "aufspringen gucken dass wir das in der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 502080,
+            "duration_ms": 4760,
+            "text": "Firma verwenden also um unsere Arbeit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 505080,
+            "duration_ms": 3239,
+            "text": "schneller preiswerte und bessere zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 506840,
+            "duration_ms": 3079,
+            "text": "machen aber natürlich auch wie wir das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 508319,
+            "duration_ms": 3960,
+            "text": "nach außen drin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 509919,
+            "duration_ms": 3480,
+            "text": "ein Kunden verkaufen können und klar da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 512279,
+            "duration_ms": 4481,
+            "text": "habe ich natürlich auch sowas",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 513399,
+            "duration_ms": 7560,
+            "text": "ausprobiert also ich kann dir sagen ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 516760,
+            "duration_ms": 5839,
+            "text": "bin regelmäßig erstaunt was ai cooles",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 520959,
+            "duration_ms": 4000,
+            "text": "kann und dann eine Woche später ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 522599,
+            "duration_ms": 5001,
+            "text": "bisschen enttäuscht du auch ja ja ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 524959,
+            "duration_ms": 4361,
+            "text": "klar jeder wahrscheinlich und du siehst",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 527600,
+            "duration_ms": 4120,
+            "text": "es gibt von mir weniger so begeisterte",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 529320,
+            "duration_ms": 7519,
+            "text": "ai Tweets als am",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 531720,
+            "duration_ms": 8160,
+            "text": "Anfang was du brauchst bei bei bei bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 536839,
+            "duration_ms": 5841,
+            "text": "so Dingen wie Qualitätsprüfung ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 539880,
+            "duration_ms": 5040,
+            "text": "konsequen Konsistenz da kann es nicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 542680,
+            "duration_ms": 4240,
+            "text": "sein dass der eine Entwickler fünf",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 544920,
+            "duration_ms": 4440,
+            "text": "Fehler kriegt also ein gutes Ergebnis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 546920,
+            "duration_ms": 5479,
+            "text": "und der andere kriegt nichts oder kriegt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 549360,
+            "duration_ms": 5760,
+            "text": "schmn damit tötest du diesen ganzen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 552399,
+            "duration_ms": 5641,
+            "text": "Ansatz also ehrlich gesagt ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 555120,
+            "duration_ms": 6440,
+            "text": "glaube nicht dass auf absehbare Zeit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 558040,
+            "duration_ms": 5880,
+            "text": "solche so Tools wie PMD direkt ersetzt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 561560,
+            "duration_ms": 5080,
+            "text": "werden ich glaube sie werden erweitert",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 563920,
+            "duration_ms": 5280,
+            "text": "also ich was ich persönlich mache ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 566640,
+            "duration_ms": 6000,
+            "text": "ich lasse über Code auch noch mal drüber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 569200,
+            "duration_ms": 6600,
+            "text": "gucken vonon sowas wie cilot heißt Codi",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 572640,
+            "duration_ms": 4639,
+            "text": "von sourceegraft und dann frage ich ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 575800,
+            "duration_ms": 2960,
+            "text": "frage einfach weißt du es kostet ja",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 577279,
+            "duration_ms": 4281,
+            "text": "nichts fragen kostet nichts ich kann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 578760,
+            "duration_ms": 4759,
+            "text": "zusätzlich zu PND noch eine KI Fragen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 581560,
+            "duration_ms": 3839,
+            "text": "und manchmal finde die gute Sachen aber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 583519,
+            "duration_ms": 3081,
+            "text": "du bra du musst halt eigentlich immer in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 585399,
+            "duration_ms": 4201,
+            "text": "der Lage sein das alles selber",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 586600,
+            "duration_ms": 4359,
+            "text": "einzuschätzen zu können so Tools wie PMD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 589600,
+            "duration_ms": 2960,
+            "text": "die kannst du halt auch jemanden geben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 590959,
+            "duration_ms": 3440,
+            "text": "der nicht die Erfahrung hat das alles",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 592560,
+            "duration_ms": 2560,
+            "text": "selber zu können und das ist glaube ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 594399,
+            "duration_ms": 4321,
+            "text": "schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 595120,
+            "duration_ms": 5600,
+            "text": "wichtig da muss ich auch noch sagen also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 598720,
+            "duration_ms": 3559,
+            "text": "dass ich dass ich auf der dreamforce mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 600720,
+            "duration_ms": 3720,
+            "text": "mit Chris Peterson geredet habe und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 602279,
+            "duration_ms": 4161,
+            "text": "Daniel Binger und die haben auch gemeint",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 604440,
+            "duration_ms": 3959,
+            "text": "sie glauben dass dass gerade Dinge wie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 606440,
+            "duration_ms": 5720,
+            "text": "PMD sehr wichtig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 608399,
+            "duration_ms": 7401,
+            "text": "sind und wichtig bleiben jetzt wenn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 612160,
+            "duration_ms": 6960,
+            "text": "Developer Metadaten und Apex Code mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 615800,
+            "duration_ms": 5560,
+            "text": "generativer ai erzeugtau also das F ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 619120,
+            "duration_ms": 6760,
+            "text": "das fand ich einen tollen Twist dass das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 621360,
+            "duration_ms": 7800,
+            "text": "praktisch PMD sogar hilft Qualität in AI",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 625880,
+            "duration_ms": 5240,
+            "text": "Zeugs zu zu prüfen ich ich glaube da ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 629160,
+            "duration_ms": 5320,
+            "text": "ein gewisser Subtext gerade hier den ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 631120,
+            "duration_ms": 5880,
+            "text": "offen legen möchte nämlich woer kommt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 634480,
+            "duration_ms": 3760,
+            "text": "kte das das Thema eigentlich also es",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 637000,
+            "duration_ms": 4360,
+            "text": "geht ja nicht nur dass irgendwelche",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 638240,
+            "duration_ms": 5839,
+            "text": "Menschen die jetzt nicht seit 100 Jahren",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 641360,
+            "duration_ms": 6960,
+            "text": "zertifizierte Salesforce 2 Developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 644079,
+            "duration_ms": 6880,
+            "text": "sind Code mit Copilot oder Einstein GPT",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 648320,
+            "duration_ms": 5240,
+            "text": "schreiben sondern es kommt daher dass",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 650959,
+            "duration_ms": 4000,
+            "text": "bleiben wir mal bei der Situation Review",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 653560,
+            "duration_ms": 3120,
+            "text": "also jemand aus dem Team hat Code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 654959,
+            "duration_ms": 4601,
+            "text": "geschrieben und Metadaten verändert und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 656680,
+            "duration_ms": 6480,
+            "text": "das aus Repository gepackt dass wenn ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 659560,
+            "duration_ms": 6079,
+            "text": "mein mein mein Favorite ai Tool da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 663160,
+            "duration_ms": 5400,
+            "text": "drüber laufen lasse es halt beim jeden",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 665639,
+            "duration_ms": 5041,
+            "text": "drüberlufen andere Ergebnisse erzielen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 668560,
+            "duration_ms": 4360,
+            "text": "wird und ich jetzt nicht wirklich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 670680,
+            "duration_ms": 4560,
+            "text": "gewährleisten kann dass jedes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 672920,
+            "duration_ms": 5120,
+            "text": "drüberlaufen mindestens alle diese",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 675240,
+            "duration_ms": 5080,
+            "text": "Ergebnisse erzielen wird die eben PMD in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 678040,
+            "duration_ms": 5000,
+            "text": "jedem Fall und immer und ständig ergeben",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 680320,
+            "duration_ms": 4519,
+            "text": "also erzielen wird das heißt das ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 683040,
+            "duration_ms": 5640,
+            "text": "also nicht deterministisch an dieser",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 684839,
+            "duration_ms": 5721,
+            "text": "Stelle und PMD ist natürlich auch g",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 688680,
+            "duration_ms": 4520,
+            "text": "Natur der Sache weil es ein statisches",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 690560,
+            "duration_ms": 6200,
+            "text": "Tool ist und sehr viel kluge Software",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 693200,
+            "duration_ms": 7480,
+            "text": "ist aber kein es ist Code jeder Code ist",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 696760,
+            "duration_ms": 8840,
+            "text": "Biss ja deterministisch ja so und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 700680,
+            "duration_ms": 4920,
+            "text": "damit gibt sich das natürlich die Hand",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 708079,
+            "duration_ms": 6801,
+            "text": "ist das denn dann quasi alles wo du für",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 711959,
+            "duration_ms": 4921,
+            "text": "dich Einsatzgebiete in AI si ich kann",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 714880,
+            "duration_ms": 5240,
+            "text": "mit jemanden der viel Code sehr schnell",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 716880,
+            "duration_ms": 7560,
+            "text": "ingesten kann Fragen stellen bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 720120,
+            "duration_ms": 7320,
+            "text": "Review nein nein also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 724440,
+            "duration_ms": 5760,
+            "text": "ähm also ich schreib gerade ich schreibe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 727440,
+            "duration_ms": 4680,
+            "text": "in meiner Rolle relativ wenig Code also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 730200,
+            "duration_ms": 4120,
+            "text": "nur diesen coolen Code den proof of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 732120,
+            "duration_ms": 5839,
+            "text": "Conzept Code und dann die harte Arbeit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 734320,
+            "duration_ms": 6000,
+            "text": "mache andere aber ich verwende das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 737959,
+            "duration_ms": 4761,
+            "text": "solche Tools sehr um bestehenden Code zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 740320,
+            "duration_ms": 5360,
+            "text": "verstehen um Fragen zu",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 742720,
+            "duration_ms": 6640,
+            "text": "stellen also die Tools sind schon sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 745680,
+            "duration_ms": 5040,
+            "text": "gut darin zu sagen also nenn mal ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 749360,
+            "duration_ms": 3919,
+            "text": "ganz konkretes Beispiel von letzter",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 750720,
+            "duration_ms": 4479,
+            "text": "Woche ein i Projekt wo ich nicht genau",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 753279,
+            "duration_ms": 4000,
+            "text": "wusste wie sie da die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 755199,
+            "duration_ms": 3440,
+            "text": "Implementierung implementiert haben habe",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 757279,
+            "duration_ms": 4441,
+            "text": "ich einfach gefragt was ist das ist das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 758639,
+            "duration_ms": 6081,
+            "text": "webserverfow und Belege mir warum und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 761720,
+            "duration_ms": 5400,
+            "text": "dann machen wir mal UML Diagramm so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 764720,
+            "duration_ms": 4679,
+            "text": "PL UML",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 767120,
+            "duration_ms": 4959,
+            "text": "diagram wie das abläuft damit ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 769399,
+            "duration_ms": 5120,
+            "text": "wirklich welche Klasse da was was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 772079,
+            "duration_ms": 4440,
+            "text": "aufruft und so und das ging halt ohne",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 774519,
+            "duration_ms": 3081,
+            "text": "Ende also und das habe ich halt auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 776519,
+            "duration_ms": 2961,
+            "text": "verwenden können dann in der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 777600,
+            "duration_ms": 4520,
+            "text": "Kommunikation mit dem Team",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 779480,
+            "duration_ms": 4719,
+            "text": "und das Team hat nicht nur bestätigt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 782120,
+            "duration_ms": 3959,
+            "text": "dass das dass das alles wahrheitsgemäß",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 784199,
+            "duration_ms": 5880,
+            "text": "ist sondern es hat mir halt auch sicher",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 786079,
+            "duration_ms": 6161,
+            "text": "zi Stunden Arbeit gespart oder noch und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 790079,
+            "duration_ms": 4241,
+            "text": "also das sehe ich schon ich sehe das so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 792240,
+            "duration_ms": 4839,
+            "text": "als wieo als",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 794320,
+            "duration_ms": 4800,
+            "text": "Assistent und vor allem bei bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 797079,
+            "duration_ms": 4081,
+            "text": "kreativen Sachen bei Dingen wo es nicht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 799120,
+            "duration_ms": 4839,
+            "text": "um um irgendwie Leben oder Tod geht wo",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 801160,
+            "duration_ms": 4679,
+            "text": "vielleicht in meinem Kopf keine keine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 803959,
+            "duration_ms": 3801,
+            "text": "Ideen sind und dann kriege ich so ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 805839,
+            "duration_ms": 3601,
+            "text": "paar Ideen und dann kann ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 807760,
+            "duration_ms": 3360,
+            "text": "filtern",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 809440,
+            "duration_ms": 3680,
+            "text": "das ist meine gerade meine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 811120,
+            "duration_ms": 5360,
+            "text": "lieblingssicht auf auf",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 813120,
+            "duration_ms": 4560,
+            "text": "KI also diese Art von KI die wir über",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 816480,
+            "duration_ms": 3919,
+            "text": "die wir gerade alle reden also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 817680,
+            "duration_ms": 4040,
+            "text": "generative ai mich natürlich neugierig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 820399,
+            "duration_ms": 3201,
+            "text": "gemacht hast ich glaube du hast es schon",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 821720,
+            "duration_ms": 5000,
+            "text": "gesagt aber vielleicht erzählst es noch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 823600,
+            "duration_ms": 6720,
+            "text": "mal welches Tool benutzt du für ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 826720,
+            "duration_ms": 5640,
+            "text": "spreche mit einem Repository das ist das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 830320,
+            "duration_ms": 4600,
+            "text": "ist ein codeassistent der ist wesentlich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 832360,
+            "duration_ms": 5399,
+            "text": "besser als cilot der heißt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 834920,
+            "duration_ms": 5200,
+            "text": "CoD Firma die gibt schon lange die heißt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 837759,
+            "duration_ms": 5080,
+            "text": "sourceph",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 840120,
+            "duration_ms": 4719,
+            "text": "die hatten früher so so al so eine Art",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 842839,
+            "duration_ms": 4601,
+            "text": "GitHub was aber den Code besser versteht",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 844839,
+            "duration_ms": 4680,
+            "text": "also was unabhängig von der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 847440,
+            "duration_ms": 4720,
+            "text": "Programmiersprache praktisch die die",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 849519,
+            "duration_ms": 4401,
+            "text": "Verbindungen versteht ne ohne ein echten",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 852160,
+            "duration_ms": 4160,
+            "text": "parer zu haben und die haben halt auch",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 853920,
+            "duration_ms": 4479,
+            "text": "so ein Plugin für vs Code und da kannst",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 856320,
+            "duration_ms": 4400,
+            "text": "du also der sagt dir dann dieses Wissen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 858399,
+            "duration_ms": 4000,
+            "text": "habe ich aus diesen 14 Files oder so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 860720,
+            "duration_ms": 4919,
+            "text": "sehr gut sehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 862399,
+            "duration_ms": 5081,
+            "text": "gutilot von von github/ Microsoft",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 865639,
+            "duration_ms": 3640,
+            "text": "tatsälich also mit dem mit dem kriege",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 867480,
+            "duration_ms": 4120,
+            "text": "ich nichts raus weil ich ke Code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 869279,
+            "duration_ms": 4480,
+            "text": "generiere und das Tool ist halt wirklich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 871600,
+            "duration_ms": 4640,
+            "text": "richtig cool und und es das hat sogar",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 873759,
+            "duration_ms": 5961,
+            "text": "also ich benutze nur den freeer der hat",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 876240,
+            "duration_ms": 3480,
+            "text": "so 50 Fragen am",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 882959,
+            "duration_ms": 5440,
+            "text": "tager wüstest du ob das jetzt wie bei",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 885839,
+            "duration_ms": 6041,
+            "text": "Einstein GPT ist dass das was du da mit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 888399,
+            "duration_ms": 6800,
+            "text": "dem cod austauscht der zufäig auch CoD",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 891880,
+            "duration_ms": 6120,
+            "text": "heißt wie unser Codi",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 895199,
+            "duration_ms": 6041,
+            "text": "interessant ob damit trainiert wird weil",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 898000,
+            "duration_ms": 3880,
+            "text": "das ja heiße Debatte in der soswelt seit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 901240,
+            "duration_ms": 2640,
+            "text": "der",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 901880,
+            "duration_ms": 5160,
+            "text": "dreamforce Trust",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 903880,
+            "duration_ms": 4759,
+            "text": "Layer bin ich das Produkt bin sind meine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 907040,
+            "duration_ms": 4359,
+            "text": "Daten das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 908639,
+            "duration_ms": 5041,
+            "text": "Produkt das ist ja das wo jetzt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 911399,
+            "duration_ms": 3921,
+            "text": "zumindest wir gesehen haben dass das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 913680,
+            "duration_ms": 2920,
+            "text": "Anstrengung unternommen werden jetzt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 915320,
+            "duration_ms": 2560,
+            "text": "zumindest auf Seiten der Plattform wir",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 916600,
+            "duration_ms": 3640,
+            "text": "können wahrscheinlich genauso ein",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 917880,
+            "duration_ms": 5519,
+            "text": "podcastreihe drüber machen ob das",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 920240,
+            "duration_ms": 6440,
+            "text": "sinnvolle Anstrengungen sind also wie",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 923399,
+            "duration_ms": 4521,
+            "text": "siehst du das muss Vertrauen also wenn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 926680,
+            "duration_ms": 2360,
+            "text": "man geschriebenen Wort nicht mehr",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 927920,
+            "duration_ms": 2719,
+            "text": "vertrauen kann also wenn man",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 929040,
+            "duration_ms": 3520,
+            "text": "irgendwelchen terms and conditions in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 930639,
+            "duration_ms": 3481,
+            "text": "denen steht wir trainieren nicht auf",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 932560,
+            "duration_ms": 3000,
+            "text": "deinen Daten wenn man die nicht trauen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 934120,
+            "duration_ms": 2959,
+            "text": "kann kann ich auch keine open ai",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 935560,
+            "duration_ms": 3600,
+            "text": "verwenden da kann ich aber auch keine",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 937079,
+            "duration_ms": 3721,
+            "text": "salforce mehr Vertrauen also diese",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 939160,
+            "duration_ms": 3799,
+            "text": "Firmen sind für mich alle gleich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 940800,
+            "duration_ms": 3880,
+            "text": "unglaubwürdig oder glaubwürdig",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 942959,
+            "duration_ms": 4161,
+            "text": "amerikanische Unternehmen die Geld",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 944680,
+            "duration_ms": 5040,
+            "text": "verdienen wollen also aber ich ich",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 947120,
+            "duration_ms": 5519,
+            "text": "glaube dem geschriebenen Wort und und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 949720,
+            "duration_ms": 5320,
+            "text": "bei Codi wie auch bei Gitter steht drin",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 952639,
+            "duration_ms": 4081,
+            "text": "dass die nicht lernen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 955040,
+            "duration_ms": 4359,
+            "text": "also dass das nicht in irgendeinen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 956720,
+            "duration_ms": 4840,
+            "text": "relearning der des Modells einfließt",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 959399,
+            "duration_ms": 4120,
+            "text": "also das ist das ist bei uns auch ganz",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 961560,
+            "duration_ms": 4680,
+            "text": "wichtig also wir haben praktisch wir",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 963519,
+            "duration_ms": 4841,
+            "text": "checken Tools wie so Art von demem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 966240,
+            "duration_ms": 4839,
+            "text": "Anwalt bei uns innerhalb der Firma und",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 968360,
+            "duration_ms": 4360,
+            "text": "er guckt ob ob da ob es da Dokumente",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 971079,
+            "duration_ms": 3560,
+            "text": "gibt die irgendwie stichhaltig sind dass",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 972720,
+            "duration_ms": 6200,
+            "text": "man sich auf sowas verlassen kann und da",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 974639,
+            "duration_ms": 7281,
+            "text": "ist dieses Codi gut vielen vielen",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 978920,
+            "duration_ms": 3000,
+            "text": "Dank",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "60cca9c9785ce8b86ba089c0a73c257c707f970a6428fc6f056d1e4148559c51",
+    "text_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/transcript.txt",
+    "words": 2436,
+    "video_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/video.mp4",
+    "audio_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/audio.m4a",
+    "media_duration_seconds": 980.021328
+  },
+  "media": {
+    "url": "https://www.youtube.com/watch?v=ReXiFBH1wi0",
+    "source_id": "video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp",
+    "at": "2026-11-06T22:00:43.950213+00:00",
+    "speaker_status": "unverified; may include hosts and audience",
+    "video_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/video.mp4",
+    "video_sha256": "ad10e87532a431e891d21613f8a8ef6281de01089569ef2b3be157cfb7eb6ba2",
+    "video_bytes": 42396155,
+    "audio_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/audio.m4a",
+    "audio_sha256": "51ea2e019f53a4c6b953abf09d8dedbe3222b6551dc01dcba1b368de0c83dd35",
+    "audio_bytes": 15850190,
+    "metadata_path": ".library/providers/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/youtube-bf673d3a6b44.json",
+    "description_path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/description.txt",
+    "status": "saved",
+    "media_duration_seconds": 980.021328,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "verification": "ffprobe streams and matching audio/video duration; SHA-256 files; audio copied without re-encoding"
+  },
+  "context": {
+    "format": "Video interview",
+    "where": "DIA Digital Consulting",
+    "when": "2023-11-15",
+    "date_label": "Uploaded",
+    "with_whom": "Christian Szandor Knapp",
+    "evidence": ".library/providers/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/youtube.json (publisher metadata)",
+    "duration_seconds": 980,
+    "topics": [
+      "PMD",
+      "Craftsmanship"
+    ],
+    "platform": "MVP Talk",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert tells Christian Szandor Knapp how porting PMD to Apex led to conference talks and Salesforce MVP recognition. Their German conversation also covers software craftsmanship and using AI assistants to understand unfamiliar repositories, generate ideas, and communicate technical findings to a team.",
+    "summary_basis": {
+      "source_id": "video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp",
+      "kind": "archive_summary"
+    }
+  },
+  "thumbnail_path": ".library/thumbnails/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp.webp",
+  "thumbnail_source": "https://i.ytimg.com/vi_webp/ReXiFBH1wi0/maxresdefault.webp",
+  "library_dir": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

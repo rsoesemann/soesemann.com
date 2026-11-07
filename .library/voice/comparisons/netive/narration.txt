@@ -1,0 +1,45 @@
+This is Nétive's recruiter assistant, shown with synthetic candidate data.
+Search now uses Data three-sixty, which finds candidates by meaning, even when a CV uses different words than the request.
+Nétive's criteria and weights still set every score, and the recruiter makes every decision.
+We start on James Whitfield's candidate record.
+A Prompt Template reads his Word CV and proposes profile values.
+For each value, the review screen shows the source text and the confidence level.
+The availability value needs review. The save button stays disabled until we check it.
+The CV says immediately available, so we enter the availability date.
+We then approve the profile to save the values to the candidate record.
+The anonymised view removes the configured identifying fields.
+The recruiter can search in English or Dutch.
+We ask for a Java engineer with Kafka, a start date and a maximum hourly rate.
+Data three-sixty finds relevant profiles. The results show how each candidate meets Nétive's search criteria.
+We lower the hourly budget to seventy-five euros.
+The results show whether candidates meet the new budget. Candidates above it remain listed.
+We then ask to select candidates by name origin.
+The reply says this criterion was excluded from ranking.
+We repeat the search as Sanne, who has access to the Utrecht candidates.
+Her results include only candidates she can access in Salesforce.
+We now match candidates to an open requisition.
+For Data Engineer Azure, the agent shows a score and six criteria: role, skills, availability, rate, distance and compliance.
+The response also explains why each candidate matches.
+We accept the first match and confirm the proposed decision.
+This adds the candidate to the shortlist without submitting an application.
+From Lars Visser's record, we ask which open requisitions match his profile.
+The same matching profile determines the scores in this direction.
+Behind the scenes, we follow the Data Engineer Azure match.
+A standard data stream copies the candidate object into Data three-sixty.
+The mapping passes only profile text, region, and the consent and retention dates to the Candidate Profile object.
+Names, contact details and rates are not mapped, so they never reach the search index.
+The search index splits that text into passages and stores their meaning as vectors.
+It combines meaning with keyword matches, and it is ready to query.
+Apex sends this query to Data three-sixty with the recruiter's own session.
+Here we run it in the query editor.
+The search text holds only the requisition's role and skills.
+Candidates with lapsed consent or expired retention are left out.
+The relevance score only selects which candidates are scored. It is not part of the match score.
+Apex then reads those candidates in user mode, so Salesforce sharing removes anyone this recruiter may not see.
+Consent and retention are checked again on the live record.
+The final score is the weighted average of the configured criteria. Nothing else is added.
+This is James Whitfield's stored result from that match.
+Each criterion has its sample weight, its score and the reason. Together they give the score shown to the recruiter.
+The accept decision is stored with the user who confirmed it and the time.
+Data three-sixty selects relevant candidates. Apex scores them with Nétive's criteria and weights, and recruiters decide.
+It is delivered as unmanaged metadata into Nétive's existing application.

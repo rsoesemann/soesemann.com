@@ -1,0 +1,82 @@
+{
+  "id": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+  "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+  "source": {
+    "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "role": "interview",
+    "kind": "transcript",
+    "evidence": "Edited interview containing both questions and answers; not a verbatim single-speaker sample.",
+    "slug": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:29.793325+00:00",
+    "final_url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann",
+    "author": "Samantha Spiro",
+    "date": "2024-08-12",
+    "language": null,
+    "text_sha256": "b997e33a005096749a2aa35d2fb85b6bbd3666f09b38e31d10a267a85b284267",
+    "text_path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/transcript.txt",
+    "words": 4475
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:29.793325+00:00",
+    "final_url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann",
+    "author": "Samantha Spiro",
+    "date": "2024-08-12",
+    "language": null,
+    "text_sha256": "b997e33a005096749a2aa35d2fb85b6bbd3666f09b38e31d10a267a85b284267",
+    "text_path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/transcript.txt",
+    "words": 4475
+  },
+  "context": {
+    "format": "Edited interview",
+    "where": "Hutte",
+    "when": "2024-08-12",
+    "date_label": "Published",
+    "with_whom": "Interviewer unverified; Samantha Spiro is the article author/editor",
+    "evidence": "Edited interview containing both questions and answers; not a verbatim single-speaker sample.",
+    "verified_evidence": [
+      {
+        "path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+        "evidence_excerpt_or_field": "Samantha is Hutte’s Content Manager and Chief Editor."
+      }
+    ],
+    "topics": [
+      "DevOps"
+    ],
+    "platform": "Hutte",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert traces his move from Java into Salesforce and the work that brought PMD to Apex. The edited interview covers code quality, open-source contributions, Salesforce’s Graph Engine, and how AI can support development while deterministic tools remain useful for checking its output.",
+    "summary_basis": {
+      "source_id": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "observation": "Episode18 page iframe src=https://www.youtube.com/embed/wJQZfW8-4f0?feature=oembed"
+  },
+  "brand": {
+    "name": "Hutte",
+    "domain": "hutte.io",
+    "source_page": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "logo_url": "https://hutte.io/company-blog/content/images/size/w256h256/2023/05/favicon--1-.png",
+    "logo_path": ".library/brands/hutte.io.png"
+  },
+  "library_dir": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

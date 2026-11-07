@@ -1,0 +1,72 @@
+{
+  "id": "profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet",
+  "url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp",
+  "source": {
+    "url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp",
+    "role": "about",
+    "kind": "profile",
+    "evidence": "Article by Jacob Rouser, with attributed quotes; not Robert's writing.",
+    "slug": "profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet",
+    "title": "Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:55.685236+00:00",
+    "final_url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/original.html",
+    "title": "Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet",
+    "author": "Jacob Rouser",
+    "date": "2025-07-11",
+    "language": null,
+    "text_sha256": "fda535e288b072d4ee8de7209f790be4a5a9fcb15fa75b48adc22a20f64660b9",
+    "text_path": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/text.txt",
+    "words": 747
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:55.685236+00:00",
+    "final_url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/original.html",
+    "title": "Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet",
+    "author": "Jacob Rouser",
+    "date": "2025-07-11",
+    "language": null,
+    "text_sha256": "fda535e288b072d4ee8de7209f790be4a5a9fcb15fa75b48adc22a20f64660b9",
+    "text_path": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/text.txt",
+    "words": 747
+  },
+  "context": {
+    "format": "Profile about Robert",
+    "where": "Aquiva Labs",
+    "when": "2025-07-11",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Article by Jacob Rouser, with attributed quotes; not Robert's writing.",
+    "topics": [
+      "Craftsmanship"
+    ],
+    "platform": "Aquiva",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "This profile connects Robert’s fifth Salesforce MVP renewal with his work on PMD, clean code, and open-source tools. Through attributed interview quotes, it describes his unconventional path to community recognition and his move into practical generative AI applications at Aquiva.",
+    "summary_basis": {
+      "source_id": "profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet",
+      "kind": "archive_summary"
+    }
+  },
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": ".library/brands/aquiva.com.png"
+  },
+  "library_dir": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

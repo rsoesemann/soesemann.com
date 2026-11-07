@@ -1,0 +1,4938 @@
+{
+  "id": "video-salesforce-developers-static-code-analysis-episode-1",
+  "url": "https://www.youtube.com/watch?v=-6PN6EZh9X8",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=-6PN6EZh9X8",
+    "title": "Static Code Analysis with Robert Sösemann | Salesforce Developers Podcast Episode1",
+    "slug": "video-salesforce-developers-static-code-analysis-episode-1",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.youtube.com/results?search_query=Robert+Soesemann+Salesforce",
+    "evidence": "YouTube publisher title and channel metadata explicitly identify Robert."
+  },
+  "last_success": {
+    "at": "2026-11-06T22:23:42.815356+00:00",
+    "title": "Static Code Analysis with Robert Sösemann | Episode 1",
+    "author": "Salesforce Developers",
+    "date": "20201023",
+    "duration_seconds": 814,
+    "raw": ".library/providers/video-salesforce-developers-static-code-analysis-episode-1/youtube.json",
+    "tracks": [
+      {
+        "language": "en-orig",
+        "kind": "automatic",
+        "raw": "library/2020/salesforce-developers-static-code-analysis-episode-1/captions.json3",
+        "segments": [
+          {
+            "start_ms": 430,
+            "duration_ms": 7440,
+            "text": "[Music]",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 7919,
+            "duration_ms": 4481,
+            "text": "code quality matters",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 9280,
+            "duration_ms": 5120,
+            "text": "and it's readability testability it's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 12400,
+            "duration_ms": 2720,
+            "text": "not only that people should understand",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 14400,
+            "duration_ms": 3760,
+            "text": "it they should",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 15120,
+            "duration_ms": 5680,
+            "text": "also be able to refactor it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 18160,
+            "duration_ms": 4480,
+            "text": "that is robert zosman a self-described",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 20800,
+            "duration_ms": 3840,
+            "text": "former knight shirt with powerpoint",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 22640,
+            "duration_ms": 3440,
+            "text": "and now a principal technical architect",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 24640,
+            "duration_ms": 3280,
+            "text": "at logic line",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26080,
+            "duration_ms": 3439,
+            "text": "my name is joshua burke i'm a developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 27920,
+            "duration_ms": 3040,
+            "text": "evangelist at salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 29519,
+            "duration_ms": 3040,
+            "text": "and here on the salesforce developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 30960,
+            "duration_ms": 2480,
+            "text": "podcast you're going to hear information",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 32559,
+            "duration_ms": 3921,
+            "text": "and insight",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 33440,
+            "duration_ms": 5040,
+            "text": "for developers from developers now rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 36480,
+            "duration_ms": 4160,
+            "text": "was introduced to me as the godfather of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 38480,
+            "duration_ms": 4800,
+            "text": "static code analysis for apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 40640,
+            "duration_ms": 4800,
+            "text": "as he is the founder and organizer of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 43280,
+            "duration_ms": 4640,
+            "text": "the apex module for pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 45440,
+            "duration_ms": 3520,
+            "text": "a tool for analyzing code quality for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 47920,
+            "duration_ms": 2639,
+            "text": "developers",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 48960,
+            "duration_ms": 4000,
+            "text": "rob and i talked about the importance of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 50559,
+            "duration_ms": 2961,
+            "text": "maintaining code quality the pmd tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 52960,
+            "duration_ms": 2720,
+            "text": "itself",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 53520,
+            "duration_ms": 3519,
+            "text": "and how he got started with the platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 55680,
+            "duration_ms": 4960,
+            "text": "back when we still called it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 57039,
+            "duration_ms": 5040,
+            "text": "force.com i was going um for a certified",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 60640,
+            "duration_ms": 4479,
+            "text": "scrum master and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 62079,
+            "duration_ms": 4881,
+            "text": "coach that time and my boss and i we",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 65119,
+            "duration_ms": 2881,
+            "text": "were constantly talking about how to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66960,
+            "duration_ms": 3760,
+            "text": "make projects",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 68000,
+            "duration_ms": 3600,
+            "text": "agile not having big upfront planning",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 70720,
+            "duration_ms": 3520,
+            "text": "how could we just",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 71600,
+            "duration_ms": 4640,
+            "text": "jump into a sprint and whatever and for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 74240,
+            "duration_ms": 4080,
+            "text": "me the technology",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 76240,
+            "duration_ms": 3919,
+            "text": "mostly was a big problem because you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 78320,
+            "duration_ms": 3839,
+            "text": "have to evaluate",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 80159,
+            "duration_ms": 3761,
+            "text": "which stuff you want to do and you have",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 82159,
+            "duration_ms": 5041,
+            "text": "to set up the whole",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 83920,
+            "duration_ms": 5760,
+            "text": "devops thing and and then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 87200,
+            "duration_ms": 4320,
+            "text": "i think it was boring um like a training",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 89680,
+            "duration_ms": 4000,
+            "text": "a professional training session",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 91520,
+            "duration_ms": 4800,
+            "text": "and i was just googling and then i found",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 93680,
+            "duration_ms": 6000,
+            "text": "salesforce and i found force.com",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 96320,
+            "duration_ms": 5839,
+            "text": "it was not only about crm anymore i saw",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 99680,
+            "duration_ms": 4719,
+            "text": "apex and everything and i said this",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 102159,
+            "duration_ms": 4881,
+            "text": "would just be perfect you can fire up",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 104399,
+            "duration_ms": 4400,
+            "text": "an org and you could immediately",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 107040,
+            "duration_ms": 3680,
+            "text": "basically start working",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 108799,
+            "duration_ms": 3360,
+            "text": "and from that moment i was totally",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 110720,
+            "duration_ms": 3359,
+            "text": "struck by the platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 112159,
+            "duration_ms": 4401,
+            "text": "struck by the platform start by the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 114079,
+            "duration_ms": 3040,
+            "text": "platform as a java developer though",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 116560,
+            "duration_ms": 2159,
+            "text": "somebody",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 117119,
+            "duration_ms": 3360,
+            "text": "who had come from consulting and into",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 118719,
+            "duration_ms": 3201,
+            "text": "the world of job development and this is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 120479,
+            "duration_ms": 3521,
+            "text": "the early years of apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 121920,
+            "duration_ms": 3760,
+            "text": "so i asked rob how he thought the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 124000,
+            "duration_ms": 4160,
+            "text": "differences were between",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 125680,
+            "duration_ms": 3120,
+            "text": "job development and apex development at",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 128160,
+            "duration_ms": 2960,
+            "text": "the time",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 128800,
+            "duration_ms": 3280,
+            "text": "the fact that at salesforce the people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 131120,
+            "duration_ms": 3520,
+            "text": "who work there",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 132080,
+            "duration_ms": 3760,
+            "text": "i mean they are the java guys they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 134640,
+            "duration_ms": 3200,
+            "text": "looked at the market",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 135840,
+            "duration_ms": 3600,
+            "text": "constantly and they just sometimes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 137840,
+            "duration_ms": 4479,
+            "text": "didn't bring the stuff",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 139440,
+            "duration_ms": 3680,
+            "text": "in from the outside world so i actually",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 142319,
+            "duration_ms": 3201,
+            "text": "liked that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 143120,
+            "duration_ms": 4080,
+            "text": "and this made me really a developer who",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 145520,
+            "duration_ms": 3200,
+            "text": "who was not so much proud of his",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 147200,
+            "duration_ms": 2720,
+            "text": "knowledge in all the open source",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 148720,
+            "duration_ms": 3599,
+            "text": "frameworks",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 149920,
+            "duration_ms": 3280,
+            "text": "but more into how to build applications",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 152319,
+            "duration_ms": 3441,
+            "text": "and how to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 153200,
+            "duration_ms": 3840,
+            "text": "make it agile and sometimes talk about",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 155760,
+            "duration_ms": 4160,
+            "text": "code agility",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 157040,
+            "duration_ms": 4479,
+            "text": "meaning how do you code your version one",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 159920,
+            "duration_ms": 3520,
+            "text": "so that you can still",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 161519,
+            "duration_ms": 3121,
+            "text": "live with it and love it in version",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 163440,
+            "duration_ms": 3120,
+            "text": "eight remember",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 164640,
+            "duration_ms": 3280,
+            "text": "robert discovered what we called then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 166560,
+            "duration_ms": 3039,
+            "text": "the force.com platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 167920,
+            "duration_ms": 3840,
+            "text": "while he was getting his scrum master",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 169599,
+            "duration_ms": 2961,
+            "text": "certification code agility is very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 171760,
+            "duration_ms": 2640,
+            "text": "important to him",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 172560,
+            "duration_ms": 4399,
+            "text": "agility and coding teams is very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 174400,
+            "duration_ms": 5520,
+            "text": "important to him but agility and speed",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 176959,
+            "duration_ms": 3521,
+            "text": "is one thing and quality is another",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 179920,
+            "duration_ms": 2239,
+            "text": "thing",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 180480,
+            "duration_ms": 3200,
+            "text": "and robert is the first person he's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 182159,
+            "duration_ms": 3281,
+            "text": "going to tell you that if you do not",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 183680,
+            "duration_ms": 4080,
+            "text": "keep an eye on your code quality",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 185440,
+            "duration_ms": 4879,
+            "text": "well it might just come back to bite you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 187760,
+            "duration_ms": 4320,
+            "text": "a few days ago an mvp on twitter",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 190319,
+            "duration_ms": 3761,
+            "text": "tweeted about he he was looking at",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 192080,
+            "duration_ms": 3200,
+            "text": "source code and said which marin wrote",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 194080,
+            "duration_ms": 4560,
+            "text": "that and then he checked",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 195280,
+            "duration_ms": 6319,
+            "text": "it it was just him a year ago and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 198640,
+            "duration_ms": 5360,
+            "text": "i experienced that many times and so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 201599,
+            "duration_ms": 4720,
+            "text": "it's really important if you don't do",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 204000,
+            "duration_ms": 3840,
+            "text": "just proof of concept development that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 206319,
+            "duration_ms": 3681,
+            "text": "you throw away",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 207840,
+            "duration_ms": 3119,
+            "text": "if you really work on products like i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 210000,
+            "duration_ms": 3360,
+            "text": "did you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 210959,
+            "duration_ms": 3360,
+            "text": "really need to have maintainable code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 213360,
+            "duration_ms": 3200,
+            "text": "that doesn't",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 214319,
+            "duration_ms": 3521,
+            "text": "get convoluted over time when you add",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 216560,
+            "duration_ms": 3200,
+            "text": "stuff",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 217840,
+            "duration_ms": 3600,
+            "text": "so we can talk about code quality but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 219760,
+            "duration_ms": 2880,
+            "text": "what as enterprise developers can we",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 221440,
+            "duration_ms": 2799,
+            "text": "actually do about it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 222640,
+            "duration_ms": 4080,
+            "text": "there's definitely different processes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 224239,
+            "duration_ms": 5121,
+            "text": "and tactics and habits that we can do",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 226720,
+            "duration_ms": 4879,
+            "text": "but what tools are out there that might",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 229360,
+            "duration_ms": 4799,
+            "text": "help us enforce that code quality",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 231599,
+            "duration_ms": 3041,
+            "text": "every time we check it in i'm not a tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 234159,
+            "duration_ms": 3280,
+            "text": "freak",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 234640,
+            "duration_ms": 3920,
+            "text": "i i think the best thing you can do for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 237439,
+            "duration_ms": 3761,
+            "text": "quality is like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 238560,
+            "duration_ms": 3759,
+            "text": "teaching people reading books doing pair",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 241200,
+            "duration_ms": 3759,
+            "text": "programming with",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 242319,
+            "duration_ms": 3521,
+            "text": "senior developers do extensive code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 244959,
+            "duration_ms": 3521,
+            "text": "reviews",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 245840,
+            "duration_ms": 3840,
+            "text": "but back at that time code reviews took",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 248480,
+            "duration_ms": 3360,
+            "text": "us really long",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 249680,
+            "duration_ms": 4800,
+            "text": "we were most of the time just talking",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 251840,
+            "duration_ms": 3360,
+            "text": "about basic stuff like how to format",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 254480,
+            "duration_ms": 2240,
+            "text": "code and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 255200,
+            "duration_ms": 3439,
+            "text": "i thought it would be cool to have a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 256720,
+            "duration_ms": 3840,
+            "text": "tool that would give us more time for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 258639,
+            "duration_ms": 3120,
+            "text": "the architectural discussions and then i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 260560,
+            "duration_ms": 4079,
+            "text": "thought hey why not",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 261759,
+            "duration_ms": 4880,
+            "text": "use one of those tools for apex and i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 264639,
+            "duration_ms": 4641,
+            "text": "immediately remembered that pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 266639,
+            "duration_ms": 4961,
+            "text": "is a static code analyzer which is open",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 269280,
+            "duration_ms": 2960,
+            "text": "source and which is extendable for other",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 271600,
+            "duration_ms": 4159,
+            "text": "languages",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 272240,
+            "duration_ms": 6320,
+            "text": "and then as naive as i was i said ah",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 275759,
+            "duration_ms": 3440,
+            "text": "apex is like java it should be easy to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 278560,
+            "duration_ms": 2639,
+            "text": "port",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 279199,
+            "duration_ms": 4481,
+            "text": "it should be easy i know famous last",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 281199,
+            "duration_ms": 3440,
+            "text": "words we are going to get to that in a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 283680,
+            "duration_ms": 3440,
+            "text": "second but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 284639,
+            "duration_ms": 4881,
+            "text": "before we start talking about how rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 287120,
+            "duration_ms": 4799,
+            "text": "actually got pmd working for apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 289520,
+            "duration_ms": 5119,
+            "text": "let's level set a little bit when we say",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 291919,
+            "duration_ms": 4961,
+            "text": "a static code analyzer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 294639,
+            "duration_ms": 3201,
+            "text": "what kind of tool is pmd and what can it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 296880,
+            "duration_ms": 3599,
+            "text": "do for us",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 297840,
+            "duration_ms": 4240,
+            "text": "in pmd you can write rules in most of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 300479,
+            "duration_ms": 3921,
+            "text": "the tools you can write rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 302080,
+            "duration_ms": 4080,
+            "text": "and such a rule is basically just a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 304400,
+            "duration_ms": 5760,
+            "text": "statement yeah for example",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 306160,
+            "duration_ms": 6240,
+            "text": "look for all four loops in this class",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 310160,
+            "duration_ms": 4319,
+            "text": "and if you have a for loop look into the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 312400,
+            "duration_ms": 4320,
+            "text": "for loop if there's any dml",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 314479,
+            "duration_ms": 3201,
+            "text": "or any circle and then say it's a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 316720,
+            "duration_ms": 4080,
+            "text": "problem say",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 317680,
+            "duration_ms": 3760,
+            "text": "mark this as an issue okay so yeah this",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 320800,
+            "duration_ms": 2880,
+            "text": "is what",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 321440,
+            "duration_ms": 3039,
+            "text": "a steady code analyzer basically does so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 323680,
+            "duration_ms": 3680,
+            "text": "when you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 324479,
+            "duration_ms": 5201,
+            "text": "let it run you can install pmd in in all",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 327360,
+            "duration_ms": 3360,
+            "text": "the ides like visual studio code there's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 329680,
+            "duration_ms": 4079,
+            "text": "a great plug-in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 330720,
+            "duration_ms": 4880,
+            "text": "or illuminated cloud from scott wells",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 333759,
+            "duration_ms": 3440,
+            "text": "you can basically let it run while you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 335600,
+            "duration_ms": 4400,
+            "text": "type like a linter",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 337199,
+            "duration_ms": 4801,
+            "text": "and as soon as you you put an update",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 340000,
+            "duration_ms": 4160,
+            "text": "account into your for loop you you get",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 342000,
+            "duration_ms": 4000,
+            "text": "as quickly line it's telling you hey",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 344160,
+            "duration_ms": 3680,
+            "text": "that's that's not good and it's hard to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 346000,
+            "duration_ms": 2320,
+            "text": "overemphasize the importance of that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 347840,
+            "duration_ms": 2960,
+            "text": "moment",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 348320,
+            "duration_ms": 3920,
+            "text": "when you save you're being told that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 350800,
+            "duration_ms": 5280,
+            "text": "something is wrong and rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 352240,
+            "duration_ms": 5200,
+            "text": "frames this as a really valuable part of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 356080,
+            "duration_ms": 4640,
+            "text": "the development process",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 357440,
+            "duration_ms": 4319,
+            "text": "using pmd or a static code analyzer in a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 360720,
+            "duration_ms": 4160,
+            "text": "project",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 361759,
+            "duration_ms": 4321,
+            "text": "is really the perfect start to get a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 364880,
+            "duration_ms": 4000,
+            "text": "quality discussion",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 366080,
+            "duration_ms": 4640,
+            "text": "in your development team in my career",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 368880,
+            "duration_ms": 3680,
+            "text": "often i did it the other way around i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 370720,
+            "duration_ms": 3440,
+            "text": "did something like it google you know",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 372560,
+            "duration_ms": 3280,
+            "text": "they had those dev talks that they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 374160,
+            "duration_ms": 4879,
+            "text": "showed on youtube like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 375840,
+            "duration_ms": 3600,
+            "text": "invite someone or watch youtube video",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 379039,
+            "duration_ms": 2000,
+            "text": "about",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 379440,
+            "duration_ms": 3520,
+            "text": "patterns and give reading",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 381039,
+            "duration_ms": 4481,
+            "text": "recommendations but i really",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 382960,
+            "duration_ms": 4320,
+            "text": "found out that this doesn't work that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 385520,
+            "duration_ms": 3760,
+            "text": "way you have some developers which",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 387280,
+            "duration_ms": 4240,
+            "text": "actually already do it and the others",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 389280,
+            "duration_ms": 4800,
+            "text": "they just go on but when you say bam",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 391520,
+            "duration_ms": 4640,
+            "text": "now every pull request that you will do",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 394080,
+            "duration_ms": 4880,
+            "text": "will be checked by pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 396160,
+            "duration_ms": 3920,
+            "text": "and it just gets rejected if there's a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 398960,
+            "duration_ms": 3359,
+            "text": "problem in it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 400080,
+            "duration_ms": 4239,
+            "text": "the people will immediately think about",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 402319,
+            "duration_ms": 4081,
+            "text": "it so it's a great tool it's already",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 404319,
+            "duration_ms": 2720,
+            "text": "being used for java for code analysis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 406400,
+            "duration_ms": 1919,
+            "text": "and hey",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 407039,
+            "duration_ms": 4000,
+            "text": "what would it take to make it work for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 408319,
+            "duration_ms": 5361,
+            "text": "apex it should be easy to port",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 411039,
+            "duration_ms": 4241,
+            "text": "spoiler alert it wasn't robert",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 413680,
+            "duration_ms": 1919,
+            "text": "originally assumed he could simply take",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 415280,
+            "duration_ms": 2720,
+            "text": "the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 415599,
+            "duration_ms": 3761,
+            "text": "java module and convert it down to apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 418000,
+            "duration_ms": 3039,
+            "text": "since they're very similar languages but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 419360,
+            "duration_ms": 4160,
+            "text": "the distinctions were too great",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 421039,
+            "duration_ms": 4321,
+            "text": "but then he had an aha moment about how",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 423520,
+            "duration_ms": 2480,
+            "text": "he could get his own starting point for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 425360,
+            "duration_ms": 2880,
+            "text": "apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 426000,
+            "duration_ms": 4160,
+            "text": "what you need for a tool like pmd to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 428240,
+            "duration_ms": 4079,
+            "text": "understand code and find",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 430160,
+            "duration_ms": 4240,
+            "text": "problems you need something like a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 432319,
+            "duration_ms": 4961,
+            "text": "parser because you are looking at",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 434400,
+            "duration_ms": 4799,
+            "text": "code at source code and i thought there",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 437280,
+            "duration_ms": 4880,
+            "text": "must be a parser for apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 439199,
+            "duration_ms": 3521,
+            "text": "in my eclipse ide because when i load a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 442160,
+            "duration_ms": 2800,
+            "text": "class",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 442720,
+            "duration_ms": 3120,
+            "text": "it knows the methods and it knows the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 444960,
+            "duration_ms": 2959,
+            "text": "properties",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 445840,
+            "duration_ms": 3440,
+            "text": "and i thought yeah why not reverse",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 447919,
+            "duration_ms": 4321,
+            "text": "engineer it and then i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 449280,
+            "duration_ms": 4160,
+            "text": "i got into contact with all the sftx",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 452240,
+            "duration_ms": 2880,
+            "text": "guys back then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 453440,
+            "duration_ms": 3039,
+            "text": "and nick chen and they were really",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 455120,
+            "duration_ms": 3600,
+            "text": "helpful and they say",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 456479,
+            "duration_ms": 3601,
+            "text": "yeah you you could basically take our",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 458720,
+            "duration_ms": 3199,
+            "text": "parser jar",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 460080,
+            "duration_ms": 4000,
+            "text": "you would have to reverse engineer but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 461919,
+            "duration_ms": 4641,
+            "text": "we can help you and so i was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 464080,
+            "duration_ms": 3040,
+            "text": "an actively chatting guy in the force",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 466560,
+            "duration_ms": 3600,
+            "text": "ide",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 467120,
+            "duration_ms": 5600,
+            "text": "github repo and after a few months",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 470160,
+            "duration_ms": 4560,
+            "text": "we just had it armed with his parser rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 472720,
+            "duration_ms": 4240,
+            "text": "is off to the races he gets the apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 474720,
+            "duration_ms": 4479,
+            "text": "module working for pmd he has",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 476960,
+            "duration_ms": 3840,
+            "text": "static code analysis running for the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 479199,
+            "duration_ms": 3280,
+            "text": "salesforce platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 480800,
+            "duration_ms": 3040,
+            "text": "and the great thing here is that rob has",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 482479,
+            "duration_ms": 3681,
+            "text": "done the heavy lifting",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 483840,
+            "duration_ms": 3199,
+            "text": "for us and this is well illustrated with",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 486160,
+            "duration_ms": 3840,
+            "text": "the fact that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 487039,
+            "duration_ms": 4160,
+            "text": "somebody during rob's dream force talk",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 490000,
+            "duration_ms": 3759,
+            "text": "wrote the plug-in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 491199,
+            "duration_ms": 3120,
+            "text": "for their ide to work with pmd i don't",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 493759,
+            "duration_ms": 2880,
+            "text": "know",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 494319,
+            "duration_ms": 3921,
+            "text": "if i already knew scott before but he",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 496639,
+            "duration_ms": 4000,
+            "text": "was in our talk",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 498240,
+            "duration_ms": 3120,
+            "text": "and after the talk he came to me and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 500639,
+            "duration_ms": 3361,
+            "text": "said he",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 501360,
+            "duration_ms": 3839,
+            "text": "just wants to show me the first draft of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 504000,
+            "duration_ms": 3840,
+            "text": "how he integrates",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 505199,
+            "duration_ms": 4000,
+            "text": "pmd into illuminated cloud and it was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 507840,
+            "duration_ms": 3600,
+            "text": "just awesome and then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 509199,
+            "duration_ms": 3520,
+            "text": "then it started and it started the other",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 511440,
+            "duration_ms": 4640,
+            "text": "ides came",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 512719,
+            "duration_ms": 6081,
+            "text": "welkin suite from i think ukraine and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 516080,
+            "duration_ms": 4879,
+            "text": "then there's an awesome really very neat",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 518800,
+            "duration_ms": 4560,
+            "text": "plug-in for visual studio code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 520959,
+            "duration_ms": 3440,
+            "text": "and all those great platforms like gear",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 523360,
+            "duration_ms": 4800,
+            "text": "set and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 524399,
+            "duration_ms": 6880,
+            "text": "copado i think they all use pmd as a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 528160,
+            "duration_ms": 4640,
+            "text": "as a certain quality gate so people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 531279,
+            "duration_ms": 3601,
+            "text": "immediately loved it because",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 532800,
+            "duration_ms": 3039,
+            "text": "the barrier for entrance is really small",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 534880,
+            "duration_ms": 3040,
+            "text": "and yeah",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 535839,
+            "duration_ms": 4081,
+            "text": "so to recap a little bit we have an apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 537920,
+            "duration_ms": 3520,
+            "text": "module for pmd pmd runs",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 539920,
+            "duration_ms": 3599,
+            "text": "locally on your client every time you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 541440,
+            "duration_ms": 4079,
+            "text": "save it checks a bunch of rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 543519,
+            "duration_ms": 3921,
+            "text": "it tries to see if your code is breaking",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 545519,
+            "duration_ms": 4880,
+            "text": "any of those rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 547440,
+            "duration_ms": 4079,
+            "text": "we have the tool but what makes it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 550399,
+            "duration_ms": 4401,
+            "text": "really useful",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 551519,
+            "duration_ms": 6561,
+            "text": "is an ecosystem developing those rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 554800,
+            "duration_ms": 6159,
+            "text": "pmd is not super hard to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 558080,
+            "duration_ms": 4240,
+            "text": "extend because i really want to make a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 560959,
+            "duration_ms": 4641,
+            "text": "statement here for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 562320,
+            "duration_ms": 3760,
+            "text": "i would love to get people listening to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 565600,
+            "duration_ms": 3600,
+            "text": "us",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 566080,
+            "duration_ms": 5040,
+            "text": "other developers into the state i can",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 569200,
+            "duration_ms": 3920,
+            "text": "write my own rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 571120,
+            "duration_ms": 3839,
+            "text": "and i can contribute them there are two",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 573120,
+            "duration_ms": 4159,
+            "text": "things about rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 574959,
+            "duration_ms": 4320,
+            "text": "there are rules written in java which is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 577279,
+            "duration_ms": 3841,
+            "text": "quite complicated if you want to bring",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 579279,
+            "duration_ms": 2881,
+            "text": "them into pmd you would become a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 581120,
+            "duration_ms": 3760,
+            "text": "committer so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 582160,
+            "duration_ms": 4239,
+            "text": "this means forking a github repo making",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 584880,
+            "duration_ms": 3200,
+            "text": "a pull request",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 586399,
+            "duration_ms": 3361,
+            "text": "but it's easy i would help you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 588080,
+            "duration_ms": 2879,
+            "text": "personally with that i really want to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 589760,
+            "duration_ms": 2800,
+            "text": "reinforce that the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 590959,
+            "duration_ms": 3361,
+            "text": "short time i've been able to hang out",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 592560,
+            "duration_ms": 3520,
+            "text": "with rob and interview him that he is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 594320,
+            "duration_ms": 3600,
+            "text": "absolutely being honest there he's very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 596080,
+            "duration_ms": 5120,
+            "text": "passionate about this project he will",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 597920,
+            "duration_ms": 4880,
+            "text": "help contributors get up and running if",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 601200,
+            "duration_ms": 2800,
+            "text": "there are rules there are things that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 602800,
+            "duration_ms": 3920,
+            "text": "you want to contribute",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 604000,
+            "duration_ms": 3519,
+            "text": "to the pmd apex project but this barrier",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 606720,
+            "duration_ms": 2640,
+            "text": "of entry",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 607519,
+            "duration_ms": 3521,
+            "text": "of knowing java and being a java",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 609360,
+            "duration_ms": 4159,
+            "text": "developer is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 611040,
+            "duration_ms": 3039,
+            "text": "not a barrier it shouldn't be a problem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 613519,
+            "duration_ms": 3440,
+            "text": "because",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 614079,
+            "duration_ms": 3760,
+            "text": "of an old friend of ours xml i don't",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 616959,
+            "duration_ms": 3361,
+            "text": "know this time",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 617839,
+            "duration_ms": 4560,
+            "text": "2000 when everybody was doing xml and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 620320,
+            "duration_ms": 4400,
+            "text": "everything had to be xml every love",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 622399,
+            "duration_ms": 5680,
+            "text": "letter needed to be an xml",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 624720,
+            "duration_ms": 6160,
+            "text": "and yeah and with xml people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 628079,
+            "duration_ms": 3521,
+            "text": "needed a means to to query notes find",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 630880,
+            "duration_ms": 2240,
+            "text": "out if",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 631600,
+            "duration_ms": 4880,
+            "text": "there is a child node with that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 633120,
+            "duration_ms": 5680,
+            "text": "attribute and pmd uses that to make it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 636480,
+            "duration_ms": 3840,
+            "text": "super easy for you to write your own",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 638800,
+            "duration_ms": 4159,
+            "text": "rules it basically",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 640320,
+            "duration_ms": 3280,
+            "text": "think of an apex class it will basically",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 642959,
+            "duration_ms": 2880,
+            "text": "convert",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 643600,
+            "duration_ms": 4160,
+            "text": "the structure of the class into an xml",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 645839,
+            "duration_ms": 3761,
+            "text": "document so instead of having a class",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 647760,
+            "duration_ms": 3600,
+            "text": "with curly braces it says",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 649600,
+            "duration_ms": 4320,
+            "text": "class and then for a method there's a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 651360,
+            "duration_ms": 2960,
+            "text": "method node and for all the parameters",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 653920,
+            "duration_ms": 3599,
+            "text": "there",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 654320,
+            "duration_ms": 6240,
+            "text": "parameter node and using that you could",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 657519,
+            "duration_ms": 5921,
+            "text": "basically write an xpath expression",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 660560,
+            "duration_ms": 5040,
+            "text": "to detect certain nodes writing an xpath",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 663440,
+            "duration_ms": 4480,
+            "text": "rule that detects system debugs",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 665600,
+            "duration_ms": 3840,
+            "text": "with no logging level set it was just",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 667920,
+            "duration_ms": 4479,
+            "text": "like one line",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 669440,
+            "duration_ms": 5680,
+            "text": "one xpath you can basically put it into",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 672399,
+            "duration_ms": 4241,
+            "text": "this ruleset xml that pmd is using for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 675120,
+            "duration_ms": 3680,
+            "text": "finding problems and then it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 676640,
+            "duration_ms": 3360,
+            "text": "will find that so all the guys listening",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 678800,
+            "duration_ms": 4000,
+            "text": "to us or",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 680000,
+            "duration_ms": 3600,
+            "text": "that want to give p d a try they can",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 682800,
+            "duration_ms": 3120,
+            "text": "just",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 683600,
+            "duration_ms": 4000,
+            "text": "use it locally write their own xpath",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 685920,
+            "duration_ms": 4159,
+            "text": "rules and if they are good",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 687600,
+            "duration_ms": 4239,
+            "text": "they just commit it and everybody can",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 690079,
+            "duration_ms": 4000,
+            "text": "use it now if you want to learn more",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 691839,
+            "duration_ms": 3601,
+            "text": "rob has released a course on pluralsight",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 694079,
+            "duration_ms": 4081,
+            "text": "about working with pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 695440,
+            "duration_ms": 3680,
+            "text": "and the great thing is it is free as in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 698160,
+            "duration_ms": 2160,
+            "text": "beer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 699120,
+            "duration_ms": 3839,
+            "text": "and of course you can always go to the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 700320,
+            "duration_ms": 5920,
+            "text": "source at pmd.github.io",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 702959,
+            "duration_ms": 4641,
+            "text": "the pmd github i o page really has a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 706240,
+            "duration_ms": 3039,
+            "text": "very good documentation",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 707600,
+            "duration_ms": 3919,
+            "text": "all the rules are there you see the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 709279,
+            "duration_ms": 4800,
+            "text": "parameters because you can parametrize",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 711519,
+            "duration_ms": 4081,
+            "text": "rules but if something is not there they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 714079,
+            "duration_ms": 4081,
+            "text": "can immediately just create an",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 715600,
+            "duration_ms": 4080,
+            "text": "issue in pmd in in the ripple and and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 718160,
+            "duration_ms": 4000,
+            "text": "say this rule is missing",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 719680,
+            "duration_ms": 3760,
+            "text": "it should do that and then it's probably",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 722160,
+            "duration_ms": 3440,
+            "text": "me who jumps on it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 723440,
+            "duration_ms": 3600,
+            "text": "and i say yeah you're right you could",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 725600,
+            "duration_ms": 3840,
+            "text": "easily do it um",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 727040,
+            "duration_ms": 4080,
+            "text": "do you need help should we make a skype",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 729440,
+            "duration_ms": 4720,
+            "text": "session and i can show it to you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 731120,
+            "duration_ms": 5760,
+            "text": "or i just point the person to it so um",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 734160,
+            "duration_ms": 3280,
+            "text": "pmd has many active contributors but i'm",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 736880,
+            "duration_ms": 2720,
+            "text": "the guy",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 737440,
+            "duration_ms": 4000,
+            "text": "somewhat responsible for for the apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 739600,
+            "duration_ms": 4560,
+            "text": "world so if you create an",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 741440,
+            "duration_ms": 3600,
+            "text": "issue in the github repo from pmd it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 744160,
+            "duration_ms": 3359,
+            "text": "will basically",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 745040,
+            "duration_ms": 4479,
+            "text": "land on my desk i really want to thank",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 747519,
+            "duration_ms": 2801,
+            "text": "rob for sitting down and talking to me",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 749519,
+            "duration_ms": 2641,
+            "text": "but also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 750320,
+            "duration_ms": 4240,
+            "text": "very much for his hard work and his",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 752160,
+            "duration_ms": 5520,
+            "text": "dedication for a tool that can help",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 754560,
+            "duration_ms": 6320,
+            "text": "all of us be better developers",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 757680,
+            "duration_ms": 4959,
+            "text": "now before we go one question i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 760880,
+            "duration_ms": 3199,
+            "text": "had for rob that i didn't really expect",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 762639,
+            "duration_ms": 5041,
+            "text": "the answer to was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 764079,
+            "duration_ms": 5760,
+            "text": "quite simply what does pmd stand for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 767680,
+            "duration_ms": 3839,
+            "text": "even the maintainers who are longer in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 769839,
+            "duration_ms": 2401,
+            "text": "the project than me they said there is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 771519,
+            "duration_ms": 3760,
+            "text": "no re",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 772240,
+            "duration_ms": 6320,
+            "text": "no really are there theories like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 775279,
+            "duration_ms": 6881,
+            "text": "like when you could be php mess detector",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 778560,
+            "duration_ms": 6079,
+            "text": "or um programming metric um",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 782160,
+            "duration_ms": 4320,
+            "text": "i think it's just an acronym that has",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 784639,
+            "duration_ms": 4241,
+            "text": "stories around it so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 786480,
+            "duration_ms": 3680,
+            "text": "and that's our show thanks for listening",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 788880,
+            "duration_ms": 4560,
+            "text": "if you want to learn more about this",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 790160,
+            "duration_ms": 5679,
+            "text": "podcast go to developer.salesforce.com",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 793440,
+            "duration_ms": 4639,
+            "text": "podcast and please subscribe to us in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 795839,
+            "duration_ms": 19841,
+            "text": "your podcasting tool of choice",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 798079,
+            "duration_ms": 17601,
+            "text": "tune in next week i'll talk to you then",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "76e47521dc9f99bd16c44c8223fa95dce37c2c08bfa0901c58e9b20e0270d9a1",
+    "text_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/transcript.txt",
+    "words": 2342,
+    "video_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/video.mp4",
+    "audio_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/audio.m4a",
+    "media_duration_seconds": 813.83619
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T22:23:42.815356+00:00",
+    "title": "Static Code Analysis with Robert Sösemann | Episode 1",
+    "author": "Salesforce Developers",
+    "date": "20201023",
+    "duration_seconds": 814,
+    "raw": ".library/providers/video-salesforce-developers-static-code-analysis-episode-1/youtube.json",
+    "tracks": [
+      {
+        "language": "en-orig",
+        "kind": "automatic",
+        "raw": "library/2020/salesforce-developers-static-code-analysis-episode-1/captions.json3",
+        "segments": [
+          {
+            "start_ms": 430,
+            "duration_ms": 7440,
+            "text": "[Music]",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 7919,
+            "duration_ms": 4481,
+            "text": "code quality matters",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 9280,
+            "duration_ms": 5120,
+            "text": "and it's readability testability it's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 12400,
+            "duration_ms": 2720,
+            "text": "not only that people should understand",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 14400,
+            "duration_ms": 3760,
+            "text": "it they should",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 15120,
+            "duration_ms": 5680,
+            "text": "also be able to refactor it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 18160,
+            "duration_ms": 4480,
+            "text": "that is robert zosman a self-described",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 20800,
+            "duration_ms": 3840,
+            "text": "former knight shirt with powerpoint",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 22640,
+            "duration_ms": 3440,
+            "text": "and now a principal technical architect",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 24640,
+            "duration_ms": 3280,
+            "text": "at logic line",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26080,
+            "duration_ms": 3439,
+            "text": "my name is joshua burke i'm a developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 27920,
+            "duration_ms": 3040,
+            "text": "evangelist at salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 29519,
+            "duration_ms": 3040,
+            "text": "and here on the salesforce developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 30960,
+            "duration_ms": 2480,
+            "text": "podcast you're going to hear information",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 32559,
+            "duration_ms": 3921,
+            "text": "and insight",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 33440,
+            "duration_ms": 5040,
+            "text": "for developers from developers now rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 36480,
+            "duration_ms": 4160,
+            "text": "was introduced to me as the godfather of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 38480,
+            "duration_ms": 4800,
+            "text": "static code analysis for apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 40640,
+            "duration_ms": 4800,
+            "text": "as he is the founder and organizer of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 43280,
+            "duration_ms": 4640,
+            "text": "the apex module for pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 45440,
+            "duration_ms": 3520,
+            "text": "a tool for analyzing code quality for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 47920,
+            "duration_ms": 2639,
+            "text": "developers",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 48960,
+            "duration_ms": 4000,
+            "text": "rob and i talked about the importance of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 50559,
+            "duration_ms": 2961,
+            "text": "maintaining code quality the pmd tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 52960,
+            "duration_ms": 2720,
+            "text": "itself",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 53520,
+            "duration_ms": 3519,
+            "text": "and how he got started with the platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 55680,
+            "duration_ms": 4960,
+            "text": "back when we still called it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 57039,
+            "duration_ms": 5040,
+            "text": "force.com i was going um for a certified",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 60640,
+            "duration_ms": 4479,
+            "text": "scrum master and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 62079,
+            "duration_ms": 4881,
+            "text": "coach that time and my boss and i we",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 65119,
+            "duration_ms": 2881,
+            "text": "were constantly talking about how to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66960,
+            "duration_ms": 3760,
+            "text": "make projects",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 68000,
+            "duration_ms": 3600,
+            "text": "agile not having big upfront planning",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 70720,
+            "duration_ms": 3520,
+            "text": "how could we just",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 71600,
+            "duration_ms": 4640,
+            "text": "jump into a sprint and whatever and for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 74240,
+            "duration_ms": 4080,
+            "text": "me the technology",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 76240,
+            "duration_ms": 3919,
+            "text": "mostly was a big problem because you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 78320,
+            "duration_ms": 3839,
+            "text": "have to evaluate",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 80159,
+            "duration_ms": 3761,
+            "text": "which stuff you want to do and you have",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 82159,
+            "duration_ms": 5041,
+            "text": "to set up the whole",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 83920,
+            "duration_ms": 5760,
+            "text": "devops thing and and then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 87200,
+            "duration_ms": 4320,
+            "text": "i think it was boring um like a training",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 89680,
+            "duration_ms": 4000,
+            "text": "a professional training session",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 91520,
+            "duration_ms": 4800,
+            "text": "and i was just googling and then i found",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 93680,
+            "duration_ms": 6000,
+            "text": "salesforce and i found force.com",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 96320,
+            "duration_ms": 5839,
+            "text": "it was not only about crm anymore i saw",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 99680,
+            "duration_ms": 4719,
+            "text": "apex and everything and i said this",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 102159,
+            "duration_ms": 4881,
+            "text": "would just be perfect you can fire up",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 104399,
+            "duration_ms": 4400,
+            "text": "an org and you could immediately",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 107040,
+            "duration_ms": 3680,
+            "text": "basically start working",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 108799,
+            "duration_ms": 3360,
+            "text": "and from that moment i was totally",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 110720,
+            "duration_ms": 3359,
+            "text": "struck by the platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 112159,
+            "duration_ms": 4401,
+            "text": "struck by the platform start by the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 114079,
+            "duration_ms": 3040,
+            "text": "platform as a java developer though",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 116560,
+            "duration_ms": 2159,
+            "text": "somebody",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 117119,
+            "duration_ms": 3360,
+            "text": "who had come from consulting and into",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 118719,
+            "duration_ms": 3201,
+            "text": "the world of job development and this is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 120479,
+            "duration_ms": 3521,
+            "text": "the early years of apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 121920,
+            "duration_ms": 3760,
+            "text": "so i asked rob how he thought the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 124000,
+            "duration_ms": 4160,
+            "text": "differences were between",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 125680,
+            "duration_ms": 3120,
+            "text": "job development and apex development at",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 128160,
+            "duration_ms": 2960,
+            "text": "the time",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 128800,
+            "duration_ms": 3280,
+            "text": "the fact that at salesforce the people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 131120,
+            "duration_ms": 3520,
+            "text": "who work there",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 132080,
+            "duration_ms": 3760,
+            "text": "i mean they are the java guys they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 134640,
+            "duration_ms": 3200,
+            "text": "looked at the market",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 135840,
+            "duration_ms": 3600,
+            "text": "constantly and they just sometimes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 137840,
+            "duration_ms": 4479,
+            "text": "didn't bring the stuff",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 139440,
+            "duration_ms": 3680,
+            "text": "in from the outside world so i actually",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 142319,
+            "duration_ms": 3201,
+            "text": "liked that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 143120,
+            "duration_ms": 4080,
+            "text": "and this made me really a developer who",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 145520,
+            "duration_ms": 3200,
+            "text": "who was not so much proud of his",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 147200,
+            "duration_ms": 2720,
+            "text": "knowledge in all the open source",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 148720,
+            "duration_ms": 3599,
+            "text": "frameworks",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 149920,
+            "duration_ms": 3280,
+            "text": "but more into how to build applications",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 152319,
+            "duration_ms": 3441,
+            "text": "and how to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 153200,
+            "duration_ms": 3840,
+            "text": "make it agile and sometimes talk about",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 155760,
+            "duration_ms": 4160,
+            "text": "code agility",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 157040,
+            "duration_ms": 4479,
+            "text": "meaning how do you code your version one",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 159920,
+            "duration_ms": 3520,
+            "text": "so that you can still",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 161519,
+            "duration_ms": 3121,
+            "text": "live with it and love it in version",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 163440,
+            "duration_ms": 3120,
+            "text": "eight remember",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 164640,
+            "duration_ms": 3280,
+            "text": "robert discovered what we called then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 166560,
+            "duration_ms": 3039,
+            "text": "the force.com platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 167920,
+            "duration_ms": 3840,
+            "text": "while he was getting his scrum master",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 169599,
+            "duration_ms": 2961,
+            "text": "certification code agility is very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 171760,
+            "duration_ms": 2640,
+            "text": "important to him",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 172560,
+            "duration_ms": 4399,
+            "text": "agility and coding teams is very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 174400,
+            "duration_ms": 5520,
+            "text": "important to him but agility and speed",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 176959,
+            "duration_ms": 3521,
+            "text": "is one thing and quality is another",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 179920,
+            "duration_ms": 2239,
+            "text": "thing",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 180480,
+            "duration_ms": 3200,
+            "text": "and robert is the first person he's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 182159,
+            "duration_ms": 3281,
+            "text": "going to tell you that if you do not",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 183680,
+            "duration_ms": 4080,
+            "text": "keep an eye on your code quality",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 185440,
+            "duration_ms": 4879,
+            "text": "well it might just come back to bite you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 187760,
+            "duration_ms": 4320,
+            "text": "a few days ago an mvp on twitter",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 190319,
+            "duration_ms": 3761,
+            "text": "tweeted about he he was looking at",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 192080,
+            "duration_ms": 3200,
+            "text": "source code and said which marin wrote",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 194080,
+            "duration_ms": 4560,
+            "text": "that and then he checked",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 195280,
+            "duration_ms": 6319,
+            "text": "it it was just him a year ago and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 198640,
+            "duration_ms": 5360,
+            "text": "i experienced that many times and so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 201599,
+            "duration_ms": 4720,
+            "text": "it's really important if you don't do",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 204000,
+            "duration_ms": 3840,
+            "text": "just proof of concept development that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 206319,
+            "duration_ms": 3681,
+            "text": "you throw away",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 207840,
+            "duration_ms": 3119,
+            "text": "if you really work on products like i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 210000,
+            "duration_ms": 3360,
+            "text": "did you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 210959,
+            "duration_ms": 3360,
+            "text": "really need to have maintainable code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 213360,
+            "duration_ms": 3200,
+            "text": "that doesn't",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 214319,
+            "duration_ms": 3521,
+            "text": "get convoluted over time when you add",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 216560,
+            "duration_ms": 3200,
+            "text": "stuff",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 217840,
+            "duration_ms": 3600,
+            "text": "so we can talk about code quality but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 219760,
+            "duration_ms": 2880,
+            "text": "what as enterprise developers can we",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 221440,
+            "duration_ms": 2799,
+            "text": "actually do about it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 222640,
+            "duration_ms": 4080,
+            "text": "there's definitely different processes",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 224239,
+            "duration_ms": 5121,
+            "text": "and tactics and habits that we can do",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 226720,
+            "duration_ms": 4879,
+            "text": "but what tools are out there that might",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 229360,
+            "duration_ms": 4799,
+            "text": "help us enforce that code quality",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 231599,
+            "duration_ms": 3041,
+            "text": "every time we check it in i'm not a tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 234159,
+            "duration_ms": 3280,
+            "text": "freak",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 234640,
+            "duration_ms": 3920,
+            "text": "i i think the best thing you can do for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 237439,
+            "duration_ms": 3761,
+            "text": "quality is like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 238560,
+            "duration_ms": 3759,
+            "text": "teaching people reading books doing pair",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 241200,
+            "duration_ms": 3759,
+            "text": "programming with",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 242319,
+            "duration_ms": 3521,
+            "text": "senior developers do extensive code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 244959,
+            "duration_ms": 3521,
+            "text": "reviews",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 245840,
+            "duration_ms": 3840,
+            "text": "but back at that time code reviews took",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 248480,
+            "duration_ms": 3360,
+            "text": "us really long",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 249680,
+            "duration_ms": 4800,
+            "text": "we were most of the time just talking",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 251840,
+            "duration_ms": 3360,
+            "text": "about basic stuff like how to format",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 254480,
+            "duration_ms": 2240,
+            "text": "code and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 255200,
+            "duration_ms": 3439,
+            "text": "i thought it would be cool to have a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 256720,
+            "duration_ms": 3840,
+            "text": "tool that would give us more time for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 258639,
+            "duration_ms": 3120,
+            "text": "the architectural discussions and then i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 260560,
+            "duration_ms": 4079,
+            "text": "thought hey why not",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 261759,
+            "duration_ms": 4880,
+            "text": "use one of those tools for apex and i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 264639,
+            "duration_ms": 4641,
+            "text": "immediately remembered that pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 266639,
+            "duration_ms": 4961,
+            "text": "is a static code analyzer which is open",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 269280,
+            "duration_ms": 2960,
+            "text": "source and which is extendable for other",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 271600,
+            "duration_ms": 4159,
+            "text": "languages",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 272240,
+            "duration_ms": 6320,
+            "text": "and then as naive as i was i said ah",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 275759,
+            "duration_ms": 3440,
+            "text": "apex is like java it should be easy to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 278560,
+            "duration_ms": 2639,
+            "text": "port",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 279199,
+            "duration_ms": 4481,
+            "text": "it should be easy i know famous last",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 281199,
+            "duration_ms": 3440,
+            "text": "words we are going to get to that in a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 283680,
+            "duration_ms": 3440,
+            "text": "second but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 284639,
+            "duration_ms": 4881,
+            "text": "before we start talking about how rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 287120,
+            "duration_ms": 4799,
+            "text": "actually got pmd working for apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 289520,
+            "duration_ms": 5119,
+            "text": "let's level set a little bit when we say",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 291919,
+            "duration_ms": 4961,
+            "text": "a static code analyzer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 294639,
+            "duration_ms": 3201,
+            "text": "what kind of tool is pmd and what can it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 296880,
+            "duration_ms": 3599,
+            "text": "do for us",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 297840,
+            "duration_ms": 4240,
+            "text": "in pmd you can write rules in most of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 300479,
+            "duration_ms": 3921,
+            "text": "the tools you can write rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 302080,
+            "duration_ms": 4080,
+            "text": "and such a rule is basically just a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 304400,
+            "duration_ms": 5760,
+            "text": "statement yeah for example",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 306160,
+            "duration_ms": 6240,
+            "text": "look for all four loops in this class",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 310160,
+            "duration_ms": 4319,
+            "text": "and if you have a for loop look into the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 312400,
+            "duration_ms": 4320,
+            "text": "for loop if there's any dml",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 314479,
+            "duration_ms": 3201,
+            "text": "or any circle and then say it's a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 316720,
+            "duration_ms": 4080,
+            "text": "problem say",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 317680,
+            "duration_ms": 3760,
+            "text": "mark this as an issue okay so yeah this",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 320800,
+            "duration_ms": 2880,
+            "text": "is what",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 321440,
+            "duration_ms": 3039,
+            "text": "a steady code analyzer basically does so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 323680,
+            "duration_ms": 3680,
+            "text": "when you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 324479,
+            "duration_ms": 5201,
+            "text": "let it run you can install pmd in in all",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 327360,
+            "duration_ms": 3360,
+            "text": "the ides like visual studio code there's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 329680,
+            "duration_ms": 4079,
+            "text": "a great plug-in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 330720,
+            "duration_ms": 4880,
+            "text": "or illuminated cloud from scott wells",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 333759,
+            "duration_ms": 3440,
+            "text": "you can basically let it run while you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 335600,
+            "duration_ms": 4400,
+            "text": "type like a linter",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 337199,
+            "duration_ms": 4801,
+            "text": "and as soon as you you put an update",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 340000,
+            "duration_ms": 4160,
+            "text": "account into your for loop you you get",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 342000,
+            "duration_ms": 4000,
+            "text": "as quickly line it's telling you hey",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 344160,
+            "duration_ms": 3680,
+            "text": "that's that's not good and it's hard to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 346000,
+            "duration_ms": 2320,
+            "text": "overemphasize the importance of that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 347840,
+            "duration_ms": 2960,
+            "text": "moment",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 348320,
+            "duration_ms": 3920,
+            "text": "when you save you're being told that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 350800,
+            "duration_ms": 5280,
+            "text": "something is wrong and rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 352240,
+            "duration_ms": 5200,
+            "text": "frames this as a really valuable part of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 356080,
+            "duration_ms": 4640,
+            "text": "the development process",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 357440,
+            "duration_ms": 4319,
+            "text": "using pmd or a static code analyzer in a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 360720,
+            "duration_ms": 4160,
+            "text": "project",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 361759,
+            "duration_ms": 4321,
+            "text": "is really the perfect start to get a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 364880,
+            "duration_ms": 4000,
+            "text": "quality discussion",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 366080,
+            "duration_ms": 4640,
+            "text": "in your development team in my career",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 368880,
+            "duration_ms": 3680,
+            "text": "often i did it the other way around i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 370720,
+            "duration_ms": 3440,
+            "text": "did something like it google you know",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 372560,
+            "duration_ms": 3280,
+            "text": "they had those dev talks that they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 374160,
+            "duration_ms": 4879,
+            "text": "showed on youtube like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 375840,
+            "duration_ms": 3600,
+            "text": "invite someone or watch youtube video",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 379039,
+            "duration_ms": 2000,
+            "text": "about",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 379440,
+            "duration_ms": 3520,
+            "text": "patterns and give reading",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 381039,
+            "duration_ms": 4481,
+            "text": "recommendations but i really",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 382960,
+            "duration_ms": 4320,
+            "text": "found out that this doesn't work that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 385520,
+            "duration_ms": 3760,
+            "text": "way you have some developers which",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 387280,
+            "duration_ms": 4240,
+            "text": "actually already do it and the others",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 389280,
+            "duration_ms": 4800,
+            "text": "they just go on but when you say bam",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 391520,
+            "duration_ms": 4640,
+            "text": "now every pull request that you will do",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 394080,
+            "duration_ms": 4880,
+            "text": "will be checked by pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 396160,
+            "duration_ms": 3920,
+            "text": "and it just gets rejected if there's a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 398960,
+            "duration_ms": 3359,
+            "text": "problem in it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 400080,
+            "duration_ms": 4239,
+            "text": "the people will immediately think about",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 402319,
+            "duration_ms": 4081,
+            "text": "it so it's a great tool it's already",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 404319,
+            "duration_ms": 2720,
+            "text": "being used for java for code analysis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 406400,
+            "duration_ms": 1919,
+            "text": "and hey",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 407039,
+            "duration_ms": 4000,
+            "text": "what would it take to make it work for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 408319,
+            "duration_ms": 5361,
+            "text": "apex it should be easy to port",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 411039,
+            "duration_ms": 4241,
+            "text": "spoiler alert it wasn't robert",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 413680,
+            "duration_ms": 1919,
+            "text": "originally assumed he could simply take",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 415280,
+            "duration_ms": 2720,
+            "text": "the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 415599,
+            "duration_ms": 3761,
+            "text": "java module and convert it down to apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 418000,
+            "duration_ms": 3039,
+            "text": "since they're very similar languages but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 419360,
+            "duration_ms": 4160,
+            "text": "the distinctions were too great",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 421039,
+            "duration_ms": 4321,
+            "text": "but then he had an aha moment about how",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 423520,
+            "duration_ms": 2480,
+            "text": "he could get his own starting point for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 425360,
+            "duration_ms": 2880,
+            "text": "apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 426000,
+            "duration_ms": 4160,
+            "text": "what you need for a tool like pmd to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 428240,
+            "duration_ms": 4079,
+            "text": "understand code and find",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 430160,
+            "duration_ms": 4240,
+            "text": "problems you need something like a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 432319,
+            "duration_ms": 4961,
+            "text": "parser because you are looking at",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 434400,
+            "duration_ms": 4799,
+            "text": "code at source code and i thought there",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 437280,
+            "duration_ms": 4880,
+            "text": "must be a parser for apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 439199,
+            "duration_ms": 3521,
+            "text": "in my eclipse ide because when i load a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 442160,
+            "duration_ms": 2800,
+            "text": "class",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 442720,
+            "duration_ms": 3120,
+            "text": "it knows the methods and it knows the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 444960,
+            "duration_ms": 2959,
+            "text": "properties",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 445840,
+            "duration_ms": 3440,
+            "text": "and i thought yeah why not reverse",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 447919,
+            "duration_ms": 4321,
+            "text": "engineer it and then i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 449280,
+            "duration_ms": 4160,
+            "text": "i got into contact with all the sftx",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 452240,
+            "duration_ms": 2880,
+            "text": "guys back then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 453440,
+            "duration_ms": 3039,
+            "text": "and nick chen and they were really",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 455120,
+            "duration_ms": 3600,
+            "text": "helpful and they say",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 456479,
+            "duration_ms": 3601,
+            "text": "yeah you you could basically take our",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 458720,
+            "duration_ms": 3199,
+            "text": "parser jar",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 460080,
+            "duration_ms": 4000,
+            "text": "you would have to reverse engineer but",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 461919,
+            "duration_ms": 4641,
+            "text": "we can help you and so i was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 464080,
+            "duration_ms": 3040,
+            "text": "an actively chatting guy in the force",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 466560,
+            "duration_ms": 3600,
+            "text": "ide",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 467120,
+            "duration_ms": 5600,
+            "text": "github repo and after a few months",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 470160,
+            "duration_ms": 4560,
+            "text": "we just had it armed with his parser rob",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 472720,
+            "duration_ms": 4240,
+            "text": "is off to the races he gets the apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 474720,
+            "duration_ms": 4479,
+            "text": "module working for pmd he has",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 476960,
+            "duration_ms": 3840,
+            "text": "static code analysis running for the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 479199,
+            "duration_ms": 3280,
+            "text": "salesforce platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 480800,
+            "duration_ms": 3040,
+            "text": "and the great thing here is that rob has",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 482479,
+            "duration_ms": 3681,
+            "text": "done the heavy lifting",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 483840,
+            "duration_ms": 3199,
+            "text": "for us and this is well illustrated with",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 486160,
+            "duration_ms": 3840,
+            "text": "the fact that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 487039,
+            "duration_ms": 4160,
+            "text": "somebody during rob's dream force talk",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 490000,
+            "duration_ms": 3759,
+            "text": "wrote the plug-in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 491199,
+            "duration_ms": 3120,
+            "text": "for their ide to work with pmd i don't",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 493759,
+            "duration_ms": 2880,
+            "text": "know",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 494319,
+            "duration_ms": 3921,
+            "text": "if i already knew scott before but he",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 496639,
+            "duration_ms": 4000,
+            "text": "was in our talk",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 498240,
+            "duration_ms": 3120,
+            "text": "and after the talk he came to me and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 500639,
+            "duration_ms": 3361,
+            "text": "said he",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 501360,
+            "duration_ms": 3839,
+            "text": "just wants to show me the first draft of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 504000,
+            "duration_ms": 3840,
+            "text": "how he integrates",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 505199,
+            "duration_ms": 4000,
+            "text": "pmd into illuminated cloud and it was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 507840,
+            "duration_ms": 3600,
+            "text": "just awesome and then",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 509199,
+            "duration_ms": 3520,
+            "text": "then it started and it started the other",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 511440,
+            "duration_ms": 4640,
+            "text": "ides came",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 512719,
+            "duration_ms": 6081,
+            "text": "welkin suite from i think ukraine and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 516080,
+            "duration_ms": 4879,
+            "text": "then there's an awesome really very neat",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 518800,
+            "duration_ms": 4560,
+            "text": "plug-in for visual studio code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 520959,
+            "duration_ms": 3440,
+            "text": "and all those great platforms like gear",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 523360,
+            "duration_ms": 4800,
+            "text": "set and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 524399,
+            "duration_ms": 6880,
+            "text": "copado i think they all use pmd as a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 528160,
+            "duration_ms": 4640,
+            "text": "as a certain quality gate so people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 531279,
+            "duration_ms": 3601,
+            "text": "immediately loved it because",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 532800,
+            "duration_ms": 3039,
+            "text": "the barrier for entrance is really small",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 534880,
+            "duration_ms": 3040,
+            "text": "and yeah",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 535839,
+            "duration_ms": 4081,
+            "text": "so to recap a little bit we have an apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 537920,
+            "duration_ms": 3520,
+            "text": "module for pmd pmd runs",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 539920,
+            "duration_ms": 3599,
+            "text": "locally on your client every time you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 541440,
+            "duration_ms": 4079,
+            "text": "save it checks a bunch of rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 543519,
+            "duration_ms": 3921,
+            "text": "it tries to see if your code is breaking",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 545519,
+            "duration_ms": 4880,
+            "text": "any of those rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 547440,
+            "duration_ms": 4079,
+            "text": "we have the tool but what makes it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 550399,
+            "duration_ms": 4401,
+            "text": "really useful",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 551519,
+            "duration_ms": 6561,
+            "text": "is an ecosystem developing those rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 554800,
+            "duration_ms": 6159,
+            "text": "pmd is not super hard to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 558080,
+            "duration_ms": 4240,
+            "text": "extend because i really want to make a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 560959,
+            "duration_ms": 4641,
+            "text": "statement here for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 562320,
+            "duration_ms": 3760,
+            "text": "i would love to get people listening to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 565600,
+            "duration_ms": 3600,
+            "text": "us",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 566080,
+            "duration_ms": 5040,
+            "text": "other developers into the state i can",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 569200,
+            "duration_ms": 3920,
+            "text": "write my own rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 571120,
+            "duration_ms": 3839,
+            "text": "and i can contribute them there are two",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 573120,
+            "duration_ms": 4159,
+            "text": "things about rules",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 574959,
+            "duration_ms": 4320,
+            "text": "there are rules written in java which is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 577279,
+            "duration_ms": 3841,
+            "text": "quite complicated if you want to bring",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 579279,
+            "duration_ms": 2881,
+            "text": "them into pmd you would become a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 581120,
+            "duration_ms": 3760,
+            "text": "committer so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 582160,
+            "duration_ms": 4239,
+            "text": "this means forking a github repo making",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 584880,
+            "duration_ms": 3200,
+            "text": "a pull request",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 586399,
+            "duration_ms": 3361,
+            "text": "but it's easy i would help you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 588080,
+            "duration_ms": 2879,
+            "text": "personally with that i really want to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 589760,
+            "duration_ms": 2800,
+            "text": "reinforce that the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 590959,
+            "duration_ms": 3361,
+            "text": "short time i've been able to hang out",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 592560,
+            "duration_ms": 3520,
+            "text": "with rob and interview him that he is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 594320,
+            "duration_ms": 3600,
+            "text": "absolutely being honest there he's very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 596080,
+            "duration_ms": 5120,
+            "text": "passionate about this project he will",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 597920,
+            "duration_ms": 4880,
+            "text": "help contributors get up and running if",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 601200,
+            "duration_ms": 2800,
+            "text": "there are rules there are things that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 602800,
+            "duration_ms": 3920,
+            "text": "you want to contribute",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 604000,
+            "duration_ms": 3519,
+            "text": "to the pmd apex project but this barrier",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 606720,
+            "duration_ms": 2640,
+            "text": "of entry",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 607519,
+            "duration_ms": 3521,
+            "text": "of knowing java and being a java",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 609360,
+            "duration_ms": 4159,
+            "text": "developer is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 611040,
+            "duration_ms": 3039,
+            "text": "not a barrier it shouldn't be a problem",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 613519,
+            "duration_ms": 3440,
+            "text": "because",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 614079,
+            "duration_ms": 3760,
+            "text": "of an old friend of ours xml i don't",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 616959,
+            "duration_ms": 3361,
+            "text": "know this time",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 617839,
+            "duration_ms": 4560,
+            "text": "2000 when everybody was doing xml and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 620320,
+            "duration_ms": 4400,
+            "text": "everything had to be xml every love",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 622399,
+            "duration_ms": 5680,
+            "text": "letter needed to be an xml",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 624720,
+            "duration_ms": 6160,
+            "text": "and yeah and with xml people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 628079,
+            "duration_ms": 3521,
+            "text": "needed a means to to query notes find",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 630880,
+            "duration_ms": 2240,
+            "text": "out if",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 631600,
+            "duration_ms": 4880,
+            "text": "there is a child node with that",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 633120,
+            "duration_ms": 5680,
+            "text": "attribute and pmd uses that to make it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 636480,
+            "duration_ms": 3840,
+            "text": "super easy for you to write your own",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 638800,
+            "duration_ms": 4159,
+            "text": "rules it basically",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 640320,
+            "duration_ms": 3280,
+            "text": "think of an apex class it will basically",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 642959,
+            "duration_ms": 2880,
+            "text": "convert",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 643600,
+            "duration_ms": 4160,
+            "text": "the structure of the class into an xml",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 645839,
+            "duration_ms": 3761,
+            "text": "document so instead of having a class",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 647760,
+            "duration_ms": 3600,
+            "text": "with curly braces it says",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 649600,
+            "duration_ms": 4320,
+            "text": "class and then for a method there's a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 651360,
+            "duration_ms": 2960,
+            "text": "method node and for all the parameters",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 653920,
+            "duration_ms": 3599,
+            "text": "there",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 654320,
+            "duration_ms": 6240,
+            "text": "parameter node and using that you could",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 657519,
+            "duration_ms": 5921,
+            "text": "basically write an xpath expression",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 660560,
+            "duration_ms": 5040,
+            "text": "to detect certain nodes writing an xpath",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 663440,
+            "duration_ms": 4480,
+            "text": "rule that detects system debugs",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 665600,
+            "duration_ms": 3840,
+            "text": "with no logging level set it was just",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 667920,
+            "duration_ms": 4479,
+            "text": "like one line",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 669440,
+            "duration_ms": 5680,
+            "text": "one xpath you can basically put it into",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 672399,
+            "duration_ms": 4241,
+            "text": "this ruleset xml that pmd is using for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 675120,
+            "duration_ms": 3680,
+            "text": "finding problems and then it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 676640,
+            "duration_ms": 3360,
+            "text": "will find that so all the guys listening",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 678800,
+            "duration_ms": 4000,
+            "text": "to us or",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 680000,
+            "duration_ms": 3600,
+            "text": "that want to give p d a try they can",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 682800,
+            "duration_ms": 3120,
+            "text": "just",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 683600,
+            "duration_ms": 4000,
+            "text": "use it locally write their own xpath",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 685920,
+            "duration_ms": 4159,
+            "text": "rules and if they are good",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 687600,
+            "duration_ms": 4239,
+            "text": "they just commit it and everybody can",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 690079,
+            "duration_ms": 4000,
+            "text": "use it now if you want to learn more",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 691839,
+            "duration_ms": 3601,
+            "text": "rob has released a course on pluralsight",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 694079,
+            "duration_ms": 4081,
+            "text": "about working with pmd",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 695440,
+            "duration_ms": 3680,
+            "text": "and the great thing is it is free as in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 698160,
+            "duration_ms": 2160,
+            "text": "beer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 699120,
+            "duration_ms": 3839,
+            "text": "and of course you can always go to the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 700320,
+            "duration_ms": 5920,
+            "text": "source at pmd.github.io",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 702959,
+            "duration_ms": 4641,
+            "text": "the pmd github i o page really has a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 706240,
+            "duration_ms": 3039,
+            "text": "very good documentation",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 707600,
+            "duration_ms": 3919,
+            "text": "all the rules are there you see the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 709279,
+            "duration_ms": 4800,
+            "text": "parameters because you can parametrize",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 711519,
+            "duration_ms": 4081,
+            "text": "rules but if something is not there they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 714079,
+            "duration_ms": 4081,
+            "text": "can immediately just create an",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 715600,
+            "duration_ms": 4080,
+            "text": "issue in pmd in in the ripple and and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 718160,
+            "duration_ms": 4000,
+            "text": "say this rule is missing",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 719680,
+            "duration_ms": 3760,
+            "text": "it should do that and then it's probably",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 722160,
+            "duration_ms": 3440,
+            "text": "me who jumps on it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 723440,
+            "duration_ms": 3600,
+            "text": "and i say yeah you're right you could",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 725600,
+            "duration_ms": 3840,
+            "text": "easily do it um",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 727040,
+            "duration_ms": 4080,
+            "text": "do you need help should we make a skype",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 729440,
+            "duration_ms": 4720,
+            "text": "session and i can show it to you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 731120,
+            "duration_ms": 5760,
+            "text": "or i just point the person to it so um",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 734160,
+            "duration_ms": 3280,
+            "text": "pmd has many active contributors but i'm",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 736880,
+            "duration_ms": 2720,
+            "text": "the guy",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 737440,
+            "duration_ms": 4000,
+            "text": "somewhat responsible for for the apex",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 739600,
+            "duration_ms": 4560,
+            "text": "world so if you create an",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 741440,
+            "duration_ms": 3600,
+            "text": "issue in the github repo from pmd it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 744160,
+            "duration_ms": 3359,
+            "text": "will basically",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 745040,
+            "duration_ms": 4479,
+            "text": "land on my desk i really want to thank",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 747519,
+            "duration_ms": 2801,
+            "text": "rob for sitting down and talking to me",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 749519,
+            "duration_ms": 2641,
+            "text": "but also",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 750320,
+            "duration_ms": 4240,
+            "text": "very much for his hard work and his",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 752160,
+            "duration_ms": 5520,
+            "text": "dedication for a tool that can help",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 754560,
+            "duration_ms": 6320,
+            "text": "all of us be better developers",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 757680,
+            "duration_ms": 4959,
+            "text": "now before we go one question i",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 760880,
+            "duration_ms": 3199,
+            "text": "had for rob that i didn't really expect",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 762639,
+            "duration_ms": 5041,
+            "text": "the answer to was",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 764079,
+            "duration_ms": 5760,
+            "text": "quite simply what does pmd stand for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 767680,
+            "duration_ms": 3839,
+            "text": "even the maintainers who are longer in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 769839,
+            "duration_ms": 2401,
+            "text": "the project than me they said there is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 771519,
+            "duration_ms": 3760,
+            "text": "no re",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 772240,
+            "duration_ms": 6320,
+            "text": "no really are there theories like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 775279,
+            "duration_ms": 6881,
+            "text": "like when you could be php mess detector",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 778560,
+            "duration_ms": 6079,
+            "text": "or um programming metric um",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 782160,
+            "duration_ms": 4320,
+            "text": "i think it's just an acronym that has",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 784639,
+            "duration_ms": 4241,
+            "text": "stories around it so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 786480,
+            "duration_ms": 3680,
+            "text": "and that's our show thanks for listening",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 788880,
+            "duration_ms": 4560,
+            "text": "if you want to learn more about this",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 790160,
+            "duration_ms": 5679,
+            "text": "podcast go to developer.salesforce.com",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 793440,
+            "duration_ms": 4639,
+            "text": "podcast and please subscribe to us in",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 795839,
+            "duration_ms": 19841,
+            "text": "your podcasting tool of choice",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 798079,
+            "duration_ms": 17601,
+            "text": "tune in next week i'll talk to you then",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "76e47521dc9f99bd16c44c8223fa95dce37c2c08bfa0901c58e9b20e0270d9a1",
+    "text_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/transcript.txt",
+    "words": 2342,
+    "video_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/video.mp4",
+    "audio_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/audio.m4a",
+    "media_duration_seconds": 813.83619
+  },
+  "context": {
+    "format": "Podcast / interview video",
+    "where": "Salesforce Developers Podcast",
+    "when": "2020-10-23",
+    "date_label": "Published (recording date unknown)",
+    "with_whom": "Josh Birk (host; identifies himself in opening captions)",
+    "evidence": ".library/providers/video-salesforce-developers-static-code-analysis-episode-1/youtube.json (publisher metadata); library/video-salesforce-developers-static-code-analysis-episode-1/text.txt (original-language captions)",
+    "published_at": "2020-10-23",
+    "duration_seconds": 814,
+    "topics": [
+      "PMD",
+      "Craftsmanship"
+    ],
+    "platform": "Salesforce Developers",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert talks with Josh Birk about his route into Salesforce and why he brought PMD to Apex. The conversation connects static analysis with code quality, readability, speed, and agility, and describes how community contributions can help developers improve their work.",
+    "summary_basis": {
+      "source_id": "video-salesforce-developers-static-code-analysis-episode-1",
+      "kind": "archive_summary"
+    }
+  },
+  "media": {
+    "url": "https://www.youtube.com/watch?v=-6PN6EZh9X8",
+    "source_id": "video-salesforce-developers-static-code-analysis-episode-1",
+    "at": "2026-11-06T22:24:07.190448+00:00",
+    "speaker_status": "unverified; may include hosts and audience",
+    "video_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/video.mp4",
+    "video_sha256": "ae659b222142c707b24672593c7fd4c96a316c3a774aca9fbe06ba3d79206cf5",
+    "video_bytes": 19026796,
+    "audio_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/audio.m4a",
+    "audio_sha256": "d73281cb275a39c77a9f9a8343c2952a7ed47d42da3db0ed924ff6a3fb45bc2d",
+    "audio_bytes": 13162542,
+    "metadata_path": ".library/providers/video-salesforce-developers-static-code-analysis-episode-1/youtube-2026-11-06T22-24-15.394298+00-00.json",
+    "description_path": "library/2020/salesforce-developers-static-code-analysis-episode-1/description.txt",
+    "status": "saved",
+    "media_duration_seconds": 813.83619,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "error": null,
+    "verification": "ffprobe streams and matching audio/video duration; SHA-256 files; audio copied without re-encoding"
+  },
+  "thumbnail_path": ".library/thumbnails/video-salesforce-developers-static-code-analysis-episode-1.jpg",
+  "thumbnail_source_url": "https://i.ytimg.com/vi/-6PN6EZh9X8/hqdefault.jpg",
+  "preview_path": ".library/previews/video-salesforce-developers-static-code-analysis-episode-1.jpg",
+  "preview_evidence": {
+    "video": "library/2020/salesforce-developers-static-code-analysis-episode-1/video.mp4",
+    "seconds": 180,
+    "method": "Unmodified frame extracted from the archived recording"
+  },
+  "brand": {
+    "name": "Salesforce",
+    "domain": "salesforce.com",
+    "logo_url": "https://www.salesforce.com/favicon.ico",
+    "source_page": "https://www.salesforce.com/",
+    "logo_path": ".library/brands/salesforce.com.ico"
+  },
+  "library_dir": "library/2020/salesforce-developers-static-code-analysis-episode-1",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

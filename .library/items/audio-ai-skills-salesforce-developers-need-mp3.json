@@ -1,0 +1,52 @@
+{
+  "id": "audio-ai-skills-salesforce-developers-need-mp3",
+  "url": "https://salesforceway.com/podcast-player/1917/ai-skills-salesforce-developers-need.mp3",
+  "source": {
+    "url": "https://salesforceway.com/podcast-player/1917/ai-skills-salesforce-developers-need.mp3",
+    "role": "interview",
+    "kind": "audio",
+    "discovered_from": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "slug": "audio-ai-skills-salesforce-developers-need-mp3",
+    "title": "The AI Skills Salesforce Developers Need — SalesforceWay episode 111 (audio)"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:50:13.054331+00:00",
+    "status": "failed",
+    "error": "robots.txt disallows this URL; use a permitted export"
+  },
+  "context": {
+    "format": "Podcast audio",
+    "where": "SalesforceWay",
+    "when": "2026-07-28",
+    "date_label": "Recorded",
+    "with_whom": "Xi Xiao (host)",
+    "evidence": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "published_at": "2026-07-29",
+    "event_date": "2026-07-28",
+    "verified_evidence": [
+      {
+        "path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+        "evidence_excerpt_or_field": "Recorded on 2026-07-28 | Guest: Robert Sösemann; This is Xi Xiao."
+      }
+    ]
+  },
+  "grouping_evidence": {
+    "path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+    "observation": "Episode page embeds corresponding podcast-player audio URL and the matching YouTube episode"
+  },
+  "part_of": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+  "brand": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": ".library/brands/salesforceway.com.jpg"
+  },
+  "library_dir": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann",
+  "file_names": {
+    ".txt": "source-audio.txt",
+    ".html": "source-audio.html",
+    ".pdf": "source-audio.pdf",
+    ".json3": "source-audio-captions.json3"
+  }
+}

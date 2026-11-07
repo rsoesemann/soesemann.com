@@ -1,0 +1,75 @@
+{
+  "id": "podcast-page-111-the-ai-skills-salesforce-developers-need-salesforceway",
+  "url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+  "source": {
+    "url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "evidence": "Episode 111; guest Robert Sösemann, recorded 2026-07-28.",
+    "slug": "podcast-page-111-the-ai-skills-salesforce-developers-need-salesforceway",
+    "title": "111. The AI Skills Salesforce Developers Need - SalesforceWay"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:34.613825+00:00",
+    "final_url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+    "title": "111. The AI Skills Salesforce Developers Need - SalesforceWay",
+    "author": null,
+    "date": "2026-07-29",
+    "language": null,
+    "text_sha256": "a149a5b1e5098f979211358bc083c6741a4a82742fe90dc229bcf32a1485180f",
+    "text_path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.txt",
+    "words": 6687
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:34.613825+00:00",
+    "final_url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+    "title": "111. The AI Skills Salesforce Developers Need - SalesforceWay",
+    "author": null,
+    "date": "2026-07-29",
+    "language": null,
+    "text_sha256": "a149a5b1e5098f979211358bc083c6741a4a82742fe90dc229bcf32a1485180f",
+    "text_path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.txt",
+    "words": 6687
+  },
+  "context": {
+    "format": "Podcast episode page",
+    "where": "SalesforceWay",
+    "when": "2026-07-28",
+    "date_label": "Recorded",
+    "with_whom": "Xi Xiao (host)",
+    "evidence": "Episode 111; guest Robert Sösemann, recorded 2026-07-28.",
+    "published_at": "2026-07-29",
+    "event_date": "2026-07-28",
+    "verified_evidence": [
+      {
+        "path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+        "evidence_excerpt_or_field": "Recorded on 2026-07-28 | Guest: Robert Sösemann; This is Xi Xiao."
+      }
+    ]
+  },
+  "grouping_evidence": {
+    "path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+    "observation": "Episode page embeds corresponding podcast-player audio URL and the matching YouTube episode"
+  },
+  "part_of": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+  "brand": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": ".library/brands/salesforceway.com.jpg"
+  },
+  "library_dir": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann",
+  "file_names": {
+    ".txt": "episode.txt",
+    ".html": "episode.html",
+    ".pdf": "episode.pdf",
+    ".json3": "episode-captions.json3"
+  }
+}

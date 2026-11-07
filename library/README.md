@@ -1,8 +1,8 @@
-# Collected work
+# Library
 
 One folder per work, grouped by year. Related recordings, transcripts, slides and session pages live together.
 
-[Timeline](../timeline.html) · [About the archive](../README.md)
+[Timeline](../timeline.html) · [About the library](../README.md)
 
 ## 2026
 

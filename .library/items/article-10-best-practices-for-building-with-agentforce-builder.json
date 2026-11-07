@@ -1,0 +1,80 @@
+{
+  "id": "article-10-best-practices-for-building-with-agentforce-builder",
+  "url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce",
+  "source": {
+    "url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce",
+    "title": "10 Best Practices for Building with Agentforce Builder",
+    "role": "coauthored",
+    "kind": "article",
+    "authors": [
+      "Greg Wasowski",
+      "Michael Holt",
+      "Robert Sösemann"
+    ],
+    "date": "2025-03-06",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Publisher lists Greg Wasowski, Michael Holt, and Robert Sösemann as authors. Individual passages have not been attributed.",
+    "slug": "article-10-best-practices-for-building-with-agentforce-builder"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:56:47.549938+00:00",
+    "final_url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2025/10-best-practices-for-building-with-agentforce-builder/original.html",
+    "title": "10 Best Practices for Building with Agentforce Builder",
+    "author": "Greg Wasowski; Michael Holt; Robert Sösemann",
+    "date": "2025-03-06",
+    "language": null,
+    "text_sha256": "6680819a13447cfda77ce98b459fe370cb9dc18cdbff5b644d75ef72fd2f1ec5",
+    "text_path": "library/2025/10-best-practices-for-building-with-agentforce-builder/text.txt",
+    "words": 3350
+  },
+  "last_success": {
+    "at": "2026-11-06T21:56:47.549938+00:00",
+    "final_url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2025/10-best-practices-for-building-with-agentforce-builder/original.html",
+    "title": "10 Best Practices for Building with Agentforce Builder",
+    "author": "Greg Wasowski; Michael Holt; Robert Sösemann",
+    "date": "2025-03-06",
+    "language": null,
+    "text_sha256": "6680819a13447cfda77ce98b459fe370cb9dc18cdbff5b644d75ef72fd2f1ec5",
+    "text_path": "library/2025/10-best-practices-for-building-with-agentforce-builder/text.txt",
+    "words": 3350
+  },
+  "context": {
+    "format": "Article",
+    "where": "Aquiva Labs",
+    "when": "2025-03-06",
+    "date_label": "Published",
+    "with_whom": "Greg Wasowski and Michael Holt (coauthors)",
+    "evidence": "Publisher lists Greg Wasowski, Michael Holt, and Robert Sösemann as authors. Individual passages have not been attributed.",
+    "topics": [
+      "Agentforce",
+      "AI"
+    ],
+    "platform": "Aquiva",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "A practical guide to building Agentforce solutions, from choosing a use case and preparing data to configuring topics, instructions, and actions. The recommendations cover small experiments, security, human approval, packaging, repeated prompt improvements, and the work needed to get people using the result.",
+    "summary_basis": {
+      "source_id": "article-10-best-practices-for-building-with-agentforce-builder",
+      "kind": "archive_summary"
+    }
+  },
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": ".library/brands/aquiva.com.png"
+  },
+  "library_dir": "library/2025/10-best-practices-for-building-with-agentforce-builder",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

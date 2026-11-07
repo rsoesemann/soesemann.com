@@ -1,0 +1,72 @@
+{
+  "id": "article-the-fable-of-the-hare-and-the-hedgehog",
+  "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+  "source": {
+    "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "role": "authored",
+    "kind": "article",
+    "discovered_from": "https://aquiva.com/blog/tag/agentic-engineering",
+    "slug": "article-the-fable-of-the-hare-and-the-hedgehog",
+    "title": "The Fable of the Hare and the Hedgehog"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:27.835893+00:00",
+    "final_url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2026/the-fable-of-the-hare-and-the-hedgehog/original.html",
+    "title": "The Fable of the Hare and the Hedgehog",
+    "author": "Robert Sösemann",
+    "date": "2026-07-31",
+    "language": null,
+    "text_sha256": "10bde6004256dde83e4dada0e08fba7c0a6496cfc05ffa571ad6d0bea5d09ed8",
+    "text_path": "library/2026/the-fable-of-the-hare-and-the-hedgehog/text.txt",
+    "words": 2762
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:27.835893+00:00",
+    "final_url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2026/the-fable-of-the-hare-and-the-hedgehog/original.html",
+    "title": "The Fable of the Hare and the Hedgehog",
+    "author": "Robert Sösemann",
+    "date": "2026-07-31",
+    "language": null,
+    "text_sha256": "10bde6004256dde83e4dada0e08fba7c0a6496cfc05ffa571ad6d0bea5d09ed8",
+    "text_path": "library/2026/the-fable-of-the-hare-and-the-hedgehog/text.txt",
+    "words": 2762
+  },
+  "context": {
+    "format": "Article",
+    "where": "Aquiva Labs",
+    "when": "2026-07-31",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "https://aquiva.com/blog/tag/agentic-engineering",
+    "topics": [
+      "AI"
+    ],
+    "platform": "Aquiva",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert recounts Aquiva’s attempts to turn GitHub tickets into implemented pull requests with AI agents. The account covers human approval of plans, automated implementation and review, changing models and execution tools, and the discovery that shared notes had undermined comparisons between runs.",
+    "summary_basis": {
+      "source_id": "article-the-fable-of-the-hare-and-the-hedgehog",
+      "kind": "archive_summary"
+    }
+  },
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": ".library/brands/aquiva.com.png"
+  },
+  "library_dir": "library/2026/the-fable-of-the-hare-and-the-hedgehog",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

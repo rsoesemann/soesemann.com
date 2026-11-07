@@ -1,0 +1,230 @@
+{
+  "id": "slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+  "url": "https://www.slideshare.net/CzechDreamin/as-a-salesforce-developer-i-will-7-ground-rules-for-success-robert-ssemann",
+  "source": {
+    "url": "https://www.slideshare.net/CzechDreamin/as-a-salesforce-developer-i-will-7-ground-rules-for-success-robert-ssemann",
+    "title": "CzechDreamin 2022 slides: As a Salesforce Developer I will — 7 Ground Rules for Success",
+    "kind": "slides",
+    "role": "authored",
+    "discovered_from": "https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf",
+    "evidence": "Exact PDF hyperlink annotation on page 17, attached to Robert Sösemann session.",
+    "slug": "slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T22:00:20.444530+00:00",
+    "final_url": "https://www.slideshare.net/slideshow/as-a-salesforce-developer-i-will-7-ground-rules-for-success-robert-ssemann/251985635",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/original.html",
+    "title": "As a Salesforce Developer I will... 7 Ground Rules for Success, Robert Sösemann",
+    "author": "CzechDreamin",
+    "date": "2022-06-14",
+    "language": null,
+    "text_sha256": "b663a48d903fd41ee8d0f55cb2225081fb1eb127a5d91954266212af568e9223",
+    "text_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/text.txt",
+    "words": 2855,
+    "slides": [
+      {
+        "slide": 1,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-01.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-1-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 2,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-02.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-2-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 3,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-03.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-3-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 4,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-04.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-4-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 5,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-05.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-5-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 6,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-06.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-6-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 7,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-07.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-7-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 8,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-08.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-8-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 9,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-09.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-9-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 10,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-10.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-10-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 11,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-11.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-11-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 12,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-12.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-12-638.jpg",
+        "status": "saved"
+      }
+    ]
+  },
+  "last_success": {
+    "at": "2026-11-06T22:00:20.444530+00:00",
+    "final_url": "https://www.slideshare.net/slideshow/as-a-salesforce-developer-i-will-7-ground-rules-for-success-robert-ssemann/251985635",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/original.html",
+    "title": "As a Salesforce Developer I will... 7 Ground Rules for Success, Robert Sösemann",
+    "author": "CzechDreamin",
+    "date": "2022-06-14",
+    "language": null,
+    "text_sha256": "b663a48d903fd41ee8d0f55cb2225081fb1eb127a5d91954266212af568e9223",
+    "text_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/text.txt",
+    "words": 2855,
+    "slides": [
+      {
+        "slide": 1,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-01.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-1-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 2,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-02.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-2-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 3,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-03.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-3-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 4,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-04.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-4-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 5,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-05.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-5-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 6,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-06.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-6-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 7,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-07.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-7-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 8,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-08.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-8-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 9,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-09.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-9-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 10,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-10.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-10-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 11,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-11.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-11-638.jpg",
+        "status": "saved"
+      },
+      {
+        "slide": 12,
+        "image_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-12.jpg",
+        "url": "https://image.slidesharecdn.com/asasalesforcedeveloperiwill-220614194020-0cbf1652/95/As-a-Salesforce-Developer-I-will-7-Ground-Rules-for-Success-Robert-Sosemann-12-638.jpg",
+        "status": "saved"
+      }
+    ]
+  },
+  "context": {
+    "format": "Presentation slides",
+    "where": "CzechDreamin 2022 · Prague Congress Centre, Czech Republic",
+    "when": "2022-05-27",
+    "date_label": "Event",
+    "with_whom": "Robert presenting; co-presenter not listed",
+    "evidence": "Exact PDF hyperlink annotation on page 17, attached to Robert Sösemann session.",
+    "event_date": "2022-05-27",
+    "published_at": "2022-06-14",
+    "verified_evidence": [
+      {
+        "path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.txt",
+        "evidence_excerpt_or_field": "CzechDreamin 2022\nTechnical Conference about Salesforce\nMay 27\nPrague Congress Centre, Czech Republic"
+      }
+    ],
+    "archive_gap": "Slides and conference programme saved; no recording URL identified.",
+    "topics": [
+      "Craftsmanship"
+    ],
+    "platform": "Conferences",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "These slides set out seven ground rules for Salesforce developers: keep learning, write less code, seek help, improve shared code, build tests, get reviews, and keep solutions practical. Robert connects simple team habits with maintainability, flexibility, and delivering work that satisfies customers.",
+    "summary_basis": {
+      "source_id": "slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.pdf",
+    "observation": "Page17 hyperlink annotation links Robert’s session directly to this Slideshare deck. Use only Robert’s session portion; the full conference programme includes unrelated people."
+  },
+  "work_title": "Seven Ground Rules — CzechDreamin 2022",
+  "preview_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-01.jpg",
+  "preview_evidence": "Original first slide from this presentation",
+  "library_dir": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}
