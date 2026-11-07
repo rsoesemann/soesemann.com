@@ -11,7 +11,7 @@ subscription or uploading his recordings to a voice service.
 | `references/` | Short excerpts of Robert's original speech, used as the voice example | The selected reference is required |
 | `model/` | General Qwen3-TTS 1.7B Base model, in the MLX 8-bit version | Yes; downloaded separately |
 | `tooling/` | Generator, dependency versions, audio audit and sample-check programs | Generator and dependencies are required |
-| `generated/` | Finished synthetic audio and the existing ElevenLabs comparison | No; these are outputs |
+| `generated/` | Local synthetic audio, ignored by Git | No; these are outputs |
 | `metadata/` | Source evidence, measurements and generation records | Useful for tracing and checking results |
 
 This is a reference-conditioned clone. On each run the general model receives a
@@ -19,11 +19,13 @@ speech excerpt, its exact transcript and the new text. No separate Robert-specif
 model was trained, and there is no standalone written description of his vocal
 characteristics that replaces the reference audio.
 
-`generated/` currently holds four short evaluation samples and two longer comparison
-recordings. They were made or copied for listening tests. Keeping them is useful
-for comparison, but removing an output would not remove the voice. New speech is
-saved here by default; `--output` can choose another WAV path. Generation records
-and README links refer to saved outputs, so update those if deliberately removing one.
+`generated/` holds only [Aidan's sample](generated/aiden-clone-local.mp3) and
+[Robert's sample](generated/robert-clone-local.mp3). Both were generated using
+original reference excerpts cleaned with DeepFilterNet3. Robert preferred these
+versions and requested deleting the earlier listening tests. Generated audio and
+its generation/comparison records stay local and are ignored by Git. Deleting
+outputs does not remove the voice profile. New speech is saved here by default;
+`--output` can choose another WAV path.
 
 ## Generate speech
 
@@ -82,12 +84,10 @@ to the long comparison on 7 November 2026 and preferred the local clone to his
 ElevenLabs clone. This is his assessment of that comparison, not a guarantee for
 every future script or reference.
 
-Listen to the same 551-word Nétive narration: [local clone](generated/netive-local.wav)
-(4:17) and [existing ElevenLabs recording](generated/netive-elevenlabs.wav) (4:25).
-Local generation took 5:06 end to end on the M1 Pro with 16 GB RAM. The ElevenLabs
-audio was reused without a paid API call. [Comparison records](metadata/comparisons/netive/)
-preserve the inputs and measurements. [Sample checks](metadata/sample-checks.json)
-measure recognized words and signal levels, not voice likeness.
+The earlier 551-word Nétive comparison produced 4:17 of local speech in 5:06 end
+to end on the M1 Pro with 16 GB RAM, alongside a reused 4:25 ElevenLabs recording.
+Those comparison outputs were removed at Robert's request. Automatic checks
+measured recognized words and signal levels, not voice likeness.
 
 ## Update or recreate a reference
 

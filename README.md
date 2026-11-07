@@ -16,10 +16,9 @@ are in `library/metadata/`; website images, code and display data are in
 `website/assets/` and `website/data/`. Voice evidence and generation records are
 in `my-voice/metadata/`. Programs belong in the relevant area's `tooling/` folder.
 
-`my-voice/generated/` contains finished audio, currently four short samples and
-the local/ElevenLabs comparison. These are optional outputs: the clone does not
-read them when generating speech. Its inputs are `profile.json`, `references/`
-and `model/`.
+`my-voice/generated/` contains two local listening samples: `aiden-clone-local.mp3`
+and `robert-clone-local.mp3`. Generated audio and its test records are ignored by
+Git. The clone's inputs are `profile.json`, `references/` and `model/`.
 
 ## How it was built
 

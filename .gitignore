@@ -5,3 +5,7 @@ __pycache__/
 library/metadata/downloads/
 library/metadata/discovery/
 my-voice/model/
+my-voice/generated/
+my-voice/metadata/generations/
+my-voice/metadata/comparisons/
+my-voice/metadata/sample-checks.json
