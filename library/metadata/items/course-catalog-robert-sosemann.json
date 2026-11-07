@@ -1,0 +1,64 @@
+{
+  "id": "course-catalog-robert-sosemann",
+  "url": "https://www.pluralsight.com/authors/robert-sosemann",
+  "source": {
+    "url": "https://www.pluralsight.com/authors/robert-sosemann",
+    "role": "about",
+    "kind": "course_catalog",
+    "evidence": "Public course listings only; no paid course content requested.",
+    "slug": "course-catalog-robert-sosemann",
+    "title": "Robert Sösemann"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:56.981528+00:00",
+    "final_url": "https://www.pluralsight.com/authors/robert-sosemann",
+    "content_type": "text/html;charset=utf-8",
+    "status": "captured",
+    "raw": "library/metadata/references/course-catalog-robert-sosemann/original.html",
+    "title": "Robert Sösemann",
+    "author": "Robert Sösemann Pluralsight Author",
+    "date": "2022-07-08",
+    "language": null,
+    "text_sha256": "b7bba2b2da821c89fcc2620df2ef50e3ce7b0d296db5fbbdc0885debe00a9c7b",
+    "text_path": "library/metadata/references/course-catalog-robert-sosemann/text.txt",
+    "words": 110
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:56.981528+00:00",
+    "final_url": "https://www.pluralsight.com/authors/robert-sosemann",
+    "content_type": "text/html;charset=utf-8",
+    "status": "captured",
+    "raw": "library/metadata/references/course-catalog-robert-sosemann/original.html",
+    "title": "Robert Sösemann",
+    "author": "Robert Sösemann Pluralsight Author",
+    "date": "2022-07-08",
+    "language": null,
+    "text_sha256": "b7bba2b2da821c89fcc2620df2ef50e3ce7b0d296db5fbbdc0885debe00a9c7b",
+    "text_path": "library/metadata/references/course-catalog-robert-sosemann/text.txt",
+    "words": 110
+  },
+  "context": {
+    "format": "Course listing",
+    "where": "Pluralsight",
+    "when": "2022-07-08",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Public course listings only; no paid course content requested."
+  },
+  "collection": "reference",
+  "collection_reason": "Author course listing.",
+  "brand": {
+    "name": "Pluralsight",
+    "domain": "pluralsight.com",
+    "source_page": "https://www.pluralsight.com/authors/robert-sosemann",
+    "logo_url": "https://www.pluralsight.com/etc.clientlibs/ps/clientlibs/clientlib-site/resources/ps-favicon.png",
+    "logo_path": "website/assets/brands/pluralsight.com.png"
+  },
+  "library_dir": "library/metadata/references/course-catalog-robert-sosemann",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

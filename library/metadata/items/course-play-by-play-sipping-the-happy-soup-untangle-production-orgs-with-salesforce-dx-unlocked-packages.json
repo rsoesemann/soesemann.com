@@ -1,0 +1,86 @@
+{
+  "id": "course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages",
+  "url": "https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages",
+  "source": {
+    "url": "https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages",
+    "title": "Play by Play: Sipping the Happy Soup — Untangle Production Orgs with Salesforce DX Unlocked Packages",
+    "kind": "course",
+    "role": "interview",
+    "discovered_from": "https://www.pluralsight.com/authors/robert-sosemann",
+    "evidence": "Publisher lists Don Robins and Robert Sösemann. Full course requires plan or authorised original files.",
+    "slug": "course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:55:03.105076+00:00",
+    "final_url": "https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages",
+    "content_type": "text/html;charset=utf-8",
+    "status": "captured",
+    "raw": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/original.html",
+    "title": "Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages",
+    "author": "Don Robins",
+    "date": "2022-07-08",
+    "language": null,
+    "text_sha256": "04b65c234ec3ccc1c63cacc42a7c3b19b1c45c273d1561ca5fcae5aa6063b41f",
+    "text_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/text.txt",
+    "words": 778
+  },
+  "last_success": {
+    "at": "2026-11-06T21:55:03.105076+00:00",
+    "final_url": "https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages",
+    "content_type": "text/html;charset=utf-8",
+    "status": "captured",
+    "raw": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/original.html",
+    "title": "Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages",
+    "author": "Don Robins",
+    "date": "2022-07-08",
+    "language": null,
+    "text_sha256": "04b65c234ec3ccc1c63cacc42a7c3b19b1c45c273d1561ca5fcae5aa6063b41f",
+    "text_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/text.txt",
+    "words": 778
+  },
+  "context": {
+    "format": "Video course with Don Robins",
+    "where": "Pluralsight · Play by Play",
+    "when": "2019-08-28",
+    "date_label": "Originally published",
+    "with_whom": "Don Robins",
+    "evidence": "https://outformations.my.salesforce-sites.com/ — course card Published date; Pluralsight Last Updated is not original publication.",
+    "related_links": [
+      {
+        "label": "Don Robins’s gallery",
+        "url": "https://outformations.my.salesforce-sites.com/"
+      },
+      {
+        "label": "YouTube trailer (not full course)",
+        "url": "https://youtu.be/z0DJbKQSVRk"
+      }
+    ],
+    "access": "Full recording not saved. Gallery Watch links to Pluralsight; Preview links to a YouTube trailer.",
+    "published_at": "2019-08-28",
+    "updated_at": "2022-07-08",
+    "topics": [
+      "DevOps"
+    ],
+    "platform": "Pluralsight",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert and Don Robins show how to move from a production org full of tangled metadata toward Salesforce DX unlocked packages. The course description promises gradual steps toward packages that can be versioned and developed independently, challenging the idea that packaging only serves ISVs.",
+    "summary_basis": {
+      "source_id": "course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages",
+      "kind": "publisher_description"
+    }
+  },
+  "brand": {
+    "name": "Pluralsight",
+    "domain": "pluralsight.com",
+    "source_page": "https://www.pluralsight.com/authors/robert-sosemann",
+    "logo_url": "https://www.pluralsight.com/etc.clientlibs/ps/clientlibs/clientlib-site/resources/ps-favicon.png",
+    "logo_path": "website/assets/brands/pluralsight.com.png"
+  },
+  "library_dir": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

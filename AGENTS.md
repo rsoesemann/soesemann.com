@@ -7,51 +7,56 @@ his browser without explaining why; downloads and tests should run in the backgr
 
 ## Keep the structure simple
 
+The root has three products: `library/`, `website/` and `my-voice/`, each with
+its own README. Keep supporting metadata and tooling inside their product.
+Do not reintroduce a shared hidden data folder or a central `tools/` folder.
+
 - `library/<year>/<work-slug>/`: one public work's originals and derived text,
   including its related sources. Use the verified event/publication year, or
   `undated` until established. Do not create topic subfolders. Use names such as
   `original.html`, `original.pdf`, `text.txt`, `video.mp4`, `audio.webm`,
   `captions.json3` and `slide-01.jpg`. Preserve earlier versions when content changes.
-- `.library/sources.json`: selected canonical URLs, unique explicit slugs, titles,
+- `library/metadata/sources.json`: selected canonical URLs, unique explicit slugs, titles,
   format, attribution role and discovery evidence.
-- `.library/items/<slug>.json`: source, latest attempt, last successful extraction,
+- `library/metadata/items/<slug>.json`: source, latest attempt, last successful extraction,
   media verification, context and thumbnail reference. Paths are repository-relative.
   Stable source IDs survive folder moves. Set `part_of` on supporting sources to
   the primary source ID, `library_dir` on every member to their shared folder,
   and `file_names` to prevent session text overwriting a transcript. Record grouping
   evidence. Same talk title at different events is not the same performance.
-- `.library/references/`: preserved incidental mentions and catalogue/profile
+- `library/metadata/references/`: preserved incidental mentions and catalogue/profile
   evidence excluded from work cards using `collection: "reference"`.
-- `.library/review.json`: Robert’s Keep/Ignore/Later decisions and notes. Never
+- `library/metadata/review.json`: Robert’s Keep/Ignore/Later decisions and notes. Never
   create real review choices while testing. The initial swipe review is complete;
   its frontend was removed at Robert's request. Keep the saved decisions.
-- `.library/excluded.json`: URLs Robert explicitly asked to remove after review.
+- `library/metadata/excluded.json`: URLs Robert explicitly asked to remove after review.
   Do not rediscover or download them again unless he reverses that choice.
   Ignore alone hides a work; deleting files requires a separate request.
-- `.library/career.json`: employment periods and their evidence; preserve month/year
+- `library/metadata/career.json`: employment periods and their evidence; preserve month/year
   precision. Do not infer exact employment dates from old author biographies.
-- `.library/discovery/`: ignored, temporary output of an explicitly requested
+- `library/metadata/discovery/`: ignored, temporary output of an explicitly requested
   discovery run. Review candidate URLs, add selected sources, then remove it.
   Do not keep broad publisher sweeps, colleague profiles or completed candidate lists.
-- `.library/providers/`, `.library/thumbnails/`, `.library/downloads/`: technical
+- `library/metadata/providers/`, `website/assets/thumbnails/`, `library/metadata/downloads/`: technical
   metadata, cached previews and incomplete transfers. Never count partial files as saved media.
 - Each item retains its latest attempt and last successful capture. Do not add
   duplicate history logs, one-off migration reports or inventories of inventories.
-- `.library/exports/`: `corpus.jsonl` contains individual sources; `works.jsonl`
+- `library/metadata/exports/`: `corpus.jsonl` contains individual sources; `works.jsonl`
   contains grouped works with their sources and original review notes;
   `kept.jsonl` contains selected works; `writing.jsonl` contains approved writing.
-- `timeline.html`: the human entry point, usable directly from disk.
-- `voice/`: generated WAVs for listening and reuse; never mix them into `library/`
-  or the original-speech corpus. Corresponding records in `.library/voice/generations/`
+- `website/index.html`: the human entry point, usable directly from disk.
+- `my-voice/generated/`: generated WAVs for listening and reuse; never mix them into `library/`
+  or the original-speech corpus. Corresponding records in `my-voice/metadata/generations/`
   identify each output through `output_path` and retain its script, settings and timings.
-- `.library/voice/`: saved voice profile, reference clips, evidence, audits and
-  generation records. Model weights remain ignored in `.library/voice/model/`.
-- `tools/library/`: discovery, source capture, media downloads, catalogue exports,
+- `my-voice/profile.json` and `my-voice/references/`: reusable voice profile and
+  speaker-only clips. Model weights remain ignored in `my-voice/model/`.
+- `my-voice/metadata/`: reference evidence, audits, comparison inputs and generation records.
+- `library/tooling/`: discovery, source capture, media downloads, catalogue exports,
   tests and their Python dependencies.
-- `tools/voice/`: `generate.py`, `audit.py`, `check.py` and their Python dependencies.
-- `tools/timeline/`: timeline CSS and JavaScript. Keep runtime setup out of the root.
+- `my-voice/tooling/`: `generate.py`, `audit.py`, `check.py` and their Python dependencies.
+- `website/assets/`: timeline CSS and JavaScript. Keep runtime setup out of the root.
   Each Python group owns its `pyproject.toml`, `uv.lock` and ignored `.venv/`.
-- `.library/exports/timeline-data.js`: generated data for the offline HTML;
+- `website/data/timeline-data.js`: generated data for the offline HTML;
   rebuild with export after changing the library. It contains private notes.
 
 Do not reintroduce separate per-researcher libraries or hashed library folders.
@@ -62,7 +67,7 @@ win; unanimous child decisions can be inherited, while conflicts stay visible.
 ## How to retrieve material for another agent
 
 1. Read the user's purpose, then consult `library/README.md` or
-   `.library/exports/works.jsonl`, then the individual sources in `corpus.jsonl`.
+   `library/metadata/exports/works.jsonl`, then the individual sources in `corpus.jsonl`.
    Filter by context date, format, publisher/event,
    participants, attribution role and review decision. Employment periods provide
    context, not proof that an item was produced for that employer.
@@ -81,7 +86,7 @@ win; unanimous child decisions can be inherited, while conflicts stay visible.
    duration must never be reported as usable Robert-only audio. No paid transcription,
    model training or ElevenLabs upload is authorized by the existence of this library.
 
-`uv run --project tools/library python tools/library/collect.py export` rebuilds exports and the library index.
+`uv run --project library/tooling python library/tooling/collect.py export` rebuilds exports and the library index.
 The corpus is extracted source material, not an AI summary or a claim about
 Robert’s beliefs. No separate database server is needed for this library.
 
@@ -97,14 +102,14 @@ other employees’ profiles and general publisher catalogs are discovery evidenc
 Only original work by Robert or material directly featuring him belongs in the library.
 Interviews and event recaps need explicit roles and participants.
 
-Add selected entries to `.library/sources.json`, with a stable readable `slug`.
-Run `uv run --project tools/library python tools/library/collect.py collect` for HTML, PDF, YouTube metadata and
+Add selected entries to `library/metadata/sources.json`, with a stable readable `slug`.
+Run `uv run --project library/tooling python library/tooling/collect.py collect` for HTML, PDF, YouTube metadata and
 original-language captions. It uses requests, Trafilatura, pypdf and yt-dlp,
 respects robots for HTTP capture, paces requests, retries transient failures and
 retains the last successful extraction when refresh fails. `--refresh` deliberately
 refetches; `--limit` bounds a batch. Run one collector at a time.
 
-`uv run --project tools/library python tools/library/collect.py discover --url URL` saves candidate links separately.
+`uv run --project library/tooling python library/tooling/collect.py discover --url URL` saves candidate links separately.
 It does not approve them or crawl an entire publisher automatically. Dynamic pages
 may need isolated headless rendering; save only relevant evidence. Do not use the
 user’s browser to watch videos. LinkedIn browser access is for reading public
@@ -113,8 +118,8 @@ profile details and extracting source links, never copying private messages/anal
 Download a selected public video with:
 
 ```sh
-uv run --project tools/library python tools/library/media.py --only ITEM-SLUG
-uv run --project tools/library python tools/library/media.py --only ITEM-SLUG --audio-only
+uv run --project library/tooling python library/tooling/media.py --only ITEM-SLUG
+uv run --project library/tooling python library/tooling/media.py --only ITEM-SLUG --audio-only
 ```
 
 The video helper caps resolution at 720p and files at 600 MB; actual saved resolution
@@ -125,9 +130,9 @@ Incomplete downloads remain resumable. No login cookies or paywall bypass is use
 For each item, fill `context.format`, `where`, `when`, `date_label`, `with_whom` and
 `evidence` from a primary source. Keep `event_date` and `published_at` separate when
 both are known. Use Unknown rather than invented participants/dates. Thumbnails
-are cached in `.library/thumbnails/` and referenced by `thumbnail_path`.
-Actual slide/video/book previews may use `preview_path` under `.library/previews/`,
-with `preview_evidence`; publisher logos use `brand.logo_path` under `.library/brands/`.
+are cached in `website/assets/thumbnails/` and referenced by `thumbnail_path`.
+Actual slide/video/book previews may use `preview_path` under `website/assets/previews/`,
+with `preview_evidence`; publisher logos use `brand.logo_path` under `website/assets/brands/`.
 Honor explicit `context.employer` before overlapping career dates. Hide career
 periods with no collected work. Keep cards minimal: image, publisher, title,
 format, date and original link; additional context belongs in Details.
@@ -150,13 +155,13 @@ once per card; do not reintroduce artificial paper previews or serif fonts.
 ## Checks and handover
 
 ```sh
-uv run --project tools/library python -m unittest discover -s tools/library -p 'test_*.py'
-node --check tools/timeline/timeline.js
+uv run --project library/tooling python -m unittest discover -s library/tooling -p 'test_*.py'
+node --check website/assets/timeline.js
 ```
 
 For UI changes, test filtering, source details and opening local assets in an
 isolated temporary library.
-Check desktop and phone layouts headlessly, including opening `timeline.html`
+Check desktop and phone layouts headlessly, including opening `website/index.html`
 through `file://` with no server. Do not alter Robert’s decisions or
 play sound. Regenerate the offline catalogue after changing records, and verify that its
 relative file links resolve before handing Robert the HTML.

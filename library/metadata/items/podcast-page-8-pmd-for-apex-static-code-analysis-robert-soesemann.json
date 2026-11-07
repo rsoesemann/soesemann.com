@@ -1,0 +1,84 @@
+{
+  "id": "podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann",
+  "url": "https://salesforceway.com/podcast/pmd/",
+  "source": {
+    "url": "https://salesforceway.com/podcast/pmd/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "slug": "podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann",
+    "title": "8. PMD for Apex Static Code Analysis | Robert Söesemann"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:33.636062+00:00",
+    "final_url": "https://salesforceway.com/podcast/pmd/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+    "title": "8. PMD for Apex Static Code Analysis | Robert Söesemann",
+    "author": null,
+    "date": "2018-06-28",
+    "language": null,
+    "text_sha256": "473eda652397fa464c23e5ebed100e26c175f2136001451505ce943a06794503",
+    "text_path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/transcript.txt",
+    "words": 123
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:33.636062+00:00",
+    "final_url": "https://salesforceway.com/podcast/pmd/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+    "title": "8. PMD for Apex Static Code Analysis | Robert Söesemann",
+    "author": null,
+    "date": "2018-06-28",
+    "language": null,
+    "text_sha256": "473eda652397fa464c23e5ebed100e26c175f2136001451505ce943a06794503",
+    "text_path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/transcript.txt",
+    "words": 123
+  },
+  "context": {
+    "format": "Podcast episode page",
+    "where": "SalesforceWay",
+    "when": "2018-06-28",
+    "date_label": "Published",
+    "with_whom": "Xi Xiao (host)",
+    "evidence": "https://salesforceway.com/podcast/salesforce-ai/",
+    "published_at": "2018-06-28",
+    "verified_evidence": [
+      {
+        "path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+        "evidence_excerpt_or_field": "article:published_time: 2018-06-28; My (Xi’s) contact info; About The Author Xi Xiao"
+      }
+    ],
+    "topics": [
+      "PMD",
+      "Craftsmanship"
+    ],
+    "platform": "SalesforceWay",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert explains PMD for Apex to Xi Xiao, including how static analysis works and where it fits into a development workflow. The episode covers existing rules, IDE and CI integration, getting started, customizing checks, and contributing improvements to the open-source project.",
+    "summary_basis": {
+      "source_id": "podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+    "observation": "Episode page embeds corresponding podcast-player audio URL"
+  },
+  "brand": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": "website/assets/brands/salesforceway.com.jpg"
+  },
+  "library_dir": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

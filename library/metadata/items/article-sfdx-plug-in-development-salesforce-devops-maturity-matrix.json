@@ -1,0 +1,69 @@
+{
+  "id": "article-sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+  "url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+  "source": {
+    "url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Yaroslav Karpinskiy"
+    ],
+    "date": "2022-12-28",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Event recap names Robert and his SForce Summit Winter Edition 2022 session. Main remaining article covers other speakers.",
+    "slug": "article-sfdx-plug-in-development-salesforce-devops-maturity-matrix"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:56:51.509224+00:00",
+    "final_url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/metadata/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "author": "Yaroslav Karpinskiy",
+    "date": "2022-12-28",
+    "language": null,
+    "text_sha256": "2fa6c3ed5f10efe2491a1f996c261351182311e4b2c88415cf29acd05640dde3",
+    "text_path": "library/metadata/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/text.txt",
+    "words": 406
+  },
+  "last_success": {
+    "at": "2026-11-06T21:56:51.509224+00:00",
+    "final_url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/metadata/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "author": "Yaroslav Karpinskiy",
+    "date": "2022-12-28",
+    "language": null,
+    "text_sha256": "2fa6c3ed5f10efe2491a1f996c261351182311e4b2c88415cf29acd05640dde3",
+    "text_path": "library/metadata/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/text.txt",
+    "words": 406
+  },
+  "context": {
+    "format": "Article",
+    "where": "Aquiva Labs",
+    "when": "2022-12-28",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Event recap names Robert and his SForce Summit Winter Edition 2022 session. Main remaining article covers other speakers."
+  },
+  "collection": "reference",
+  "collection_reason": "Robert appears in opener referencing already archived SForce talk; main article about Anna and Piotr.",
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": "website/assets/brands/aquiva.com.png"
+  },
+  "library_dir": "library/metadata/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

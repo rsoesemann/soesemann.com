@@ -1,8 +1,23 @@
 # Library
 
-One folder per work, grouped by year. Related recordings, transcripts, slides and session pages live together.
+Open a work below to read its originals or use the [website](../website/index.html) to search across works.
 
-[Timeline](../timeline.html) · [About the library](../README.md)
+One folder per work, grouped by verified event or publication year. Related recordings, transcripts, slides and session pages stay together. A source link does not mean its recording has been downloaded; the table states what is saved.
+
+`metadata/` contains source URLs, provenance, review decisions, capture status and agent exports. `tooling/` contains the collector, media downloader, exporter and their tests. Originals remain in the year folders.
+
+For agent reuse, start with [works.jsonl](metadata/exports/works.jsonl), then open the cited original file. Preserve attribution and timestamps; mixed-speaker recordings are not Robert-only speech. See [AGENTS.md](../AGENTS.md) for source and writing-review rules.
+
+From the repository root:
+
+```sh
+uv run --project library/tooling python library/tooling/collect.py collect
+uv run --project library/tooling python library/tooling/media.py --only ITEM-SLUG
+uv run --project library/tooling python library/tooling/collect.py export
+uv run --project library/tooling python -m unittest discover -s library/tooling -p 'test_*.py'
+```
+
+Export rebuilds this index, the agent exports and the website data from the same catalogue. Review selected URLs in `metadata/sources.json` before collecting; excluded URLs must not be downloaded again. Downloads and Python dependencies are local runtime files ignored by Git.
 
 ## 2026
 

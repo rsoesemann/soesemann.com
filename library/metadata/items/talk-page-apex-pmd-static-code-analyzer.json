@@ -1,0 +1,67 @@
+{
+  "id": "talk-page-apex-pmd-static-code-analyzer",
+  "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+  "source": {
+    "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "role": "about",
+    "kind": "talk_page",
+    "evidence": "Article by Amit Chaudhary; embedded PMD talk features Robert.",
+    "slug": "talk-page-apex-pmd-static-code-analyzer",
+    "title": "Apex PMD Static Code Analyzer"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:54.593625+00:00",
+    "final_url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+    "title": "Apex PMD Static Code Analyzer",
+    "author": "Amit Chaudhary",
+    "date": "2019-07-27",
+    "language": null,
+    "text_sha256": "bb067d0da09a53f1536e9ed8a0d69a171521ad8bf102364fab3b39195202e12e",
+    "text_path": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.txt",
+    "words": 394
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:54.593625+00:00",
+    "final_url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+    "title": "Apex PMD Static Code Analyzer",
+    "author": "Amit Chaudhary",
+    "date": "2019-07-27",
+    "language": null,
+    "text_sha256": "bb067d0da09a53f1536e9ed8a0d69a171521ad8bf102364fab3b39195202e12e",
+    "text_path": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.txt",
+    "words": 394
+  },
+  "context": {
+    "format": "Talk page",
+    "where": "Apex Hours",
+    "when": "2019-07-27",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Article by Amit Chaudhary; embedded PMD talk features Robert."
+  },
+  "grouping_evidence": {
+    "path": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+    "observation": "Article embeds matching YouTube recording34PxAHtAavU; both are dated2019-07-27."
+  },
+  "part_of": "video-apex-pmd-static-code-analysis-apex-hours",
+  "brand": {
+    "name": "Apex Hours",
+    "domain": "apexhours.com",
+    "source_page": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "logo_url": "https://www.apexhours.com/wp-content/uploads/2025/02/cropped-apex-hours-favicon-180x180.png",
+    "logo_path": "website/assets/brands/apexhours.com.png"
+  },
+  "library_dir": "library/2019/apex-pmd-static-code-analysis-apex-hours",
+  "file_names": {
+    ".txt": "source-talk-page.txt",
+    ".html": "source-talk-page.html",
+    ".pdf": "source-talk-page.pdf",
+    ".json3": "source-talk-page-captions.json3"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "conference-session-custom-pmd-rules-for-any-metadata-within-minutes-london-s-calling-salesforce",
+  "url": "https://www.londonscalling.net/sessions/custom-pmd-rules-for-any-metadata-within-minutes/",
+  "source": {
+    "url": "https://www.londonscalling.net/sessions/custom-pmd-rules-for-any-metadata-within-minutes/",
+    "role": "about",
+    "kind": "conference_session",
+    "evidence": "Session ran 2023-06-09; page says no assets uploaded.",
+    "slug": "conference-session-custom-pmd-rules-for-any-metadata-within-minutes-london-s-calling-salesforce",
+    "title": "Custom PMD rules. For any Metadata. Within Minutes. - London's Calling Salesforce"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:50.819291+00:00",
+    "final_url": "https://www.londonscalling.net/sessions/custom-pmd-rules-for-any-metadata-within-minutes/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.html",
+    "title": "Custom PMD rules. For any Metadata. Within Minutes. - London's Calling Salesforce",
+    "author": null,
+    "date": "2023-03-16",
+    "language": null,
+    "text_sha256": "296fe8e6bfc8ef8b18020bcbc6847ade75efbc780efe8bebd3e07e645073e0d0",
+    "text_path": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.txt",
+    "words": 96
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:50.819291+00:00",
+    "final_url": "https://www.londonscalling.net/sessions/custom-pmd-rules-for-any-metadata-within-minutes/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.html",
+    "title": "Custom PMD rules. For any Metadata. Within Minutes. - London's Calling Salesforce",
+    "author": null,
+    "date": "2023-03-16",
+    "language": null,
+    "text_sha256": "296fe8e6bfc8ef8b18020bcbc6847ade75efbc780efe8bebd3e07e645073e0d0",
+    "text_path": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.txt",
+    "words": 96
+  },
+  "context": {
+    "format": "Conference session page",
+    "where": "London’s Calling",
+    "when": "2023-06-09",
+    "date_label": "Event",
+    "with_whom": "Unknown",
+    "evidence": "Session ran 2023-06-09; page says no assets uploaded.",
+    "event_date": "2023-06-09"
+  },
+  "grouping_evidence": {
+    "path": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.html",
+    "observation": "Session page names Robert and matching session title/date; explicit YouTube iframe Qp49B4Baq4g"
+  },
+  "part_of": "video-custom-pmd-rules-for-any-metadata-within-minutes",
+  "brand": {
+    "name": "London’s Calling",
+    "domain": "londonscalling.net",
+    "source_page": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "logo_url": "https://www.londonscalling.net/wp-content/uploads/2015/09/LCfavicon.png",
+    "logo_path": "website/assets/brands/londonscalling.net.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=londonscalling.net&sz=128"
+  },
+  "library_dir": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes",
+  "file_names": {
+    ".txt": "session.txt",
+    ".html": "session.html",
+    ".pdf": "session.pdf",
+    ".json3": "session-captions.json3"
+  }
+}

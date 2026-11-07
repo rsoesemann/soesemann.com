@@ -1,0 +1,100 @@
+{
+  "id": "video-what-does-agentforce-mean-for-the-salesforce-ecosystem",
+  "url": "https://www.youtube.com/watch?v=BgErYWOzL4s",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=BgErYWOzL4s",
+    "title": "What Does Agentforce Mean for the Salesforce Ecosystem?",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-what-does-agentforce-mean-for-the-salesforce-ecosystem"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:53:35.483275+00:00",
+    "title": "What Does Agentforce Mean for the Salesforce Ecosystem?",
+    "author": "Salesforce Ben",
+    "date": "20241209",
+    "raw": "library/metadata/providers/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/youtube.json",
+    "status": "partial",
+    "warning": "No identified original English/German caption track",
+    "audio_path": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/audio.webm",
+    "media_duration_seconds": 4603.495329,
+    "video_path": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/video.mp4"
+  },
+  "media": {
+    "url": "https://www.youtube.com/watch?v=BgErYWOzL4s",
+    "source_id": "video-what-does-agentforce-mean-for-the-salesforce-ecosystem",
+    "at": "2026-11-06T23:18:04.063226+00:00",
+    "speaker_status": "unverified; may include hosts and audience",
+    "audio_path": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/audio.webm",
+    "audio_sha256": "6320ddd432e4931fa97e7c521a258b01c4ddbdd7a7ebcc67f08ba622f2e09862",
+    "audio_bytes": 62068277,
+    "audio_quality": "best_available",
+    "audio_duration_seconds": 4603.521,
+    "media_duration_seconds": 4603.495329,
+    "status": "saved",
+    "audio_error": null,
+    "verification": "ffprobe streams and matching audio/video duration; SHA-256 files; audio copied without re-encoding",
+    "resumable_paths": [
+      "library/metadata/downloads/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/video.description",
+      "library/metadata/downloads/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/video.info.json",
+      "library/metadata/downloads/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/video.mp4.part"
+    ],
+    "incomplete_video_warning": "Partial download only; excluded from saved video inventory",
+    "video_path": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/video.mp4",
+    "video_sha256": "0252f0cdb2d5fc7f6f1e765cd1558f29be5775b553c6af2222b6cc5ae6b12a9e",
+    "video_bytes": 208025138,
+    "metadata_path": "library/metadata/providers/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/youtube-2026-11-06T23-18-37.389444+00-00.json",
+    "description_path": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/description.txt",
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "error": null
+  },
+  "context": {
+    "format": "Video interview",
+    "where": "Salesforce Ben",
+    "when": "2024-12-09",
+    "date_label": "Uploaded",
+    "with_whom": "Ben McCarthy (host)",
+    "evidence": "library/metadata/providers/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/youtube.json (publisher metadata)",
+    "duration_seconds": 4604,
+    "topics": [
+      "Agentforce",
+      "AI"
+    ],
+    "platform": "Salesforce Ben",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Ben McCarthy interviews Robert for the SF Ben Insider Podcast about Agentforce and its implications for the Salesforce ecosystem. The publisher presents the episode as a candid discussion of Salesforce’s AI direction, with Robert contributing his perspective as an MVP and principal architect.",
+    "summary_basis": {
+      "source_id": "video-what-does-agentforce-mean-for-the-salesforce-ecosystem",
+      "kind": "publisher_description"
+    }
+  },
+  "thumbnail_path": "website/assets/thumbnails/video-what-does-agentforce-mean-for-the-salesforce-ecosystem.jpg",
+  "thumbnail_source": "https://i.ytimg.com/vi/BgErYWOzL4s/maxresdefault.jpg",
+  "brand": {
+    "name": "Salesforce Ben",
+    "domain": "salesforceben.com",
+    "source_page": "https://www.salesforceben.com/are-ai-agents-a-threat-to-technical-salesforce-roles/",
+    "logo_url": "https://www.salesforceben.com/wp-content/uploads/2023/10/cropped-new-favicon-180x180.png",
+    "logo_path": "website/assets/brands/salesforceben.com.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=salesforceben.com&sz=128"
+  },
+  "library_dir": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

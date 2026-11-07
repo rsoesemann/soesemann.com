@@ -1,0 +1,60 @@
+{
+  "aquiva.com": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": "website/assets/brands/aquiva.com.png"
+  },
+  "salesforceben.com": {
+    "name": "Salesforce Ben",
+    "domain": "salesforceben.com",
+    "source_page": "https://www.salesforceben.com/are-ai-agents-a-threat-to-technical-salesforce-roles/",
+    "logo_url": "https://www.salesforceben.com/wp-content/uploads/2023/10/cropped-new-favicon-180x180.png",
+    "logo_path": "website/assets/brands/salesforceben.com.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=salesforceben.com&sz=128"
+  },
+  "salesforceway.com": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": "website/assets/brands/salesforceway.com.jpg"
+  },
+  "londonscalling.net": {
+    "name": "London’s Calling",
+    "domain": "londonscalling.net",
+    "source_page": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "logo_url": "https://www.londonscalling.net/wp-content/uploads/2015/09/LCfavicon.png",
+    "logo_path": "website/assets/brands/londonscalling.net.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=londonscalling.net&sz=128"
+  },
+  "apexhours.com": {
+    "name": "Apex Hours",
+    "domain": "apexhours.com",
+    "source_page": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "logo_url": "https://www.apexhours.com/wp-content/uploads/2025/02/cropped-apex-hours-favicon-180x180.png",
+    "logo_path": "website/assets/brands/apexhours.com.png"
+  },
+  "pluralsight.com": {
+    "name": "Pluralsight",
+    "domain": "pluralsight.com",
+    "source_page": "https://www.pluralsight.com/authors/robert-sosemann",
+    "logo_url": "https://www.pluralsight.com/etc.clientlibs/ps/clientlibs/clientlib-site/resources/ps-favicon.png",
+    "logo_path": "website/assets/brands/pluralsight.com.png"
+  },
+  "hutte.io": {
+    "name": "Hutte",
+    "domain": "hutte.io",
+    "source_page": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "logo_url": "https://hutte.io/company-blog/content/images/size/w256h256/2023/05/favicon--1-.png",
+    "logo_path": "website/assets/brands/hutte.io.png"
+  },
+  "salesforce.com": {
+    "name": "Salesforce",
+    "domain": "salesforce.com",
+    "logo_url": "https://www.salesforce.com/favicon.ico",
+    "source_page": "https://www.salesforce.com/",
+    "logo_path": "website/assets/brands/salesforce.com.ico"
+  }
+}

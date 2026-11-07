@@ -2,6 +2,6 @@
 __pycache__/
 .sf/
 .DS_Store
-.library/downloads/
-.library/discovery/
-.library/voice/model/
+library/metadata/downloads/
+library/metadata/discovery/
+my-voice/model/

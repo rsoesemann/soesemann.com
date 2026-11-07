@@ -1,0 +1,70 @@
+{
+  "id": "profile-employee-spotlight-robert-sosemann",
+  "url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann",
+  "source": {
+    "url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann",
+    "role": "about",
+    "kind": "profile",
+    "evidence": "Third-person employee profile despite Robert's byline; exclude from writing samples.",
+    "slug": "profile-employee-spotlight-robert-sosemann",
+    "title": "Employee Spotlight - Robert Sösemann"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:56.004940+00:00",
+    "final_url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2022/employee-spotlight-robert-sosemann/original.html",
+    "title": "Employee Spotlight - Robert Sösemann",
+    "author": "Robert Sösemann",
+    "date": "2022-12-16",
+    "language": null,
+    "text_sha256": "20b7499321427839d384c3a48d31a56ea7cc3b2f17267074ea677ee5d865d08e",
+    "text_path": "library/2022/employee-spotlight-robert-sosemann/text.txt",
+    "words": 538
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:56.004940+00:00",
+    "final_url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2022/employee-spotlight-robert-sosemann/original.html",
+    "title": "Employee Spotlight - Robert Sösemann",
+    "author": "Robert Sösemann",
+    "date": "2022-12-16",
+    "language": null,
+    "text_sha256": "20b7499321427839d384c3a48d31a56ea7cc3b2f17267074ea677ee5d865d08e",
+    "text_path": "library/2022/employee-spotlight-robert-sosemann/text.txt",
+    "words": 538
+  },
+  "context": {
+    "format": "Profile about Robert",
+    "where": "Aquiva Labs",
+    "when": "2022-12-16",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Third-person employee profile despite Robert's byline; exclude from writing samples.",
+    "topics": [],
+    "platform": "Aquiva",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Aquiva introduces Robert’s path from computer science, consulting, and project management into Salesforce development. The profile describes his principal architect role across proposals, architecture, project support, coding, and public speaking, along with his views on the company’s culture and working with colleagues.",
+    "summary_basis": {
+      "source_id": "profile-employee-spotlight-robert-sosemann",
+      "kind": "archive_summary"
+    }
+  },
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": "website/assets/brands/aquiva.com.png"
+  },
+  "library_dir": "library/2022/employee-spotlight-robert-sosemann",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

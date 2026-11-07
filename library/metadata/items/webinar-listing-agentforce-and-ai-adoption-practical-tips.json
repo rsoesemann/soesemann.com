@@ -1,0 +1,78 @@
+{
+  "id": "webinar-listing-agentforce-and-ai-adoption-practical-tips",
+  "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+  "source": {
+    "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "role": "about",
+    "kind": "webinar_listing",
+    "slug": "webinar-listing-agentforce-and-ai-adoption-practical-tips",
+    "title": "Agentforce and AI Adoption: Practical Tips"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:59.192815+00:00",
+    "final_url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "title": "Agentforce and AI Adoption: Practical Tips",
+    "author": "Ross Collie",
+    "date": "2025-10-10",
+    "language": null,
+    "text_sha256": "719fec70122353e45a243483d28c7d3f5dd281ad1bbc691a893a4d62a99a62ea",
+    "text_path": "library/2025/agentforce-and-ai-adoption-practical-tips/text.txt",
+    "words": 113
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:59.192815+00:00",
+    "final_url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "title": "Agentforce and AI Adoption: Practical Tips",
+    "author": "Ross Collie",
+    "date": "2025-10-10",
+    "language": null,
+    "text_sha256": "719fec70122353e45a243483d28c7d3f5dd281ad1bbc691a893a4d62a99a62ea",
+    "text_path": "library/2025/agentforce-and-ai-adoption-practical-tips/text.txt",
+    "words": 113
+  },
+  "context": {
+    "format": "Webinar page",
+    "where": "Salesforce Ben",
+    "when": "2025-11-04",
+    "date_label": "Event",
+    "with_whom": "Peter Chittum and Melissa Hill Dees",
+    "evidence": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "event_date": "2025-11-04",
+    "topics": [
+      "Agentforce",
+      "AI"
+    ],
+    "platform": "Salesforce Ben",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert joins Peter Chittum and Melissa Hill Dees to discuss the obstacles between AI experiments and useful business adoption. The panel covers practical use cases, Agentforce adoption, security, the skills people need to learn, and tools that help them prepare for changing work.",
+    "summary_basis": {
+      "source_id": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "observation": "November4,2025; Speakers Peter Chittum, Robert Sösemann, Melissa Hill Dees; event/on-demand same webinar"
+  },
+  "brand": {
+    "name": "Salesforce Ben",
+    "domain": "salesforceben.com",
+    "source_page": "https://www.salesforceben.com/are-ai-agents-a-threat-to-technical-salesforce-roles/",
+    "logo_url": "https://www.salesforceben.com/wp-content/uploads/2023/10/cropped-new-favicon-180x180.png",
+    "logo_path": "website/assets/brands/salesforceben.com.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=salesforceben.com&sz=128"
+  },
+  "library_dir": "library/2025/agentforce-and-ai-adoption-practical-tips",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}
