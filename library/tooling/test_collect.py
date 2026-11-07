@@ -11,6 +11,24 @@ import collect
 
 
 class PublicLibrary(unittest.TestCase):
+    def test_export_updates_work_index_without_overwriting_library_guide(self):
+        with tempfile.TemporaryDirectory() as directory, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(directory)
+            guide = root / "library/README.md"
+            guide.parent.mkdir()
+            guide.write_text("Maintained instructions for adding a contribution.")
+            source = {"url": "https://example.org/talk", "slug": "talk", "title": "First title"}
+            with patch("collect.capture", return_value={"status": "captured", "text": "Original words"}):
+                collect.collect(root, [source])
+            collect.export(root)
+            self.assertIn("First title", (root / "library/index.md").read_text())
+            source["title"] = "Corrected title"
+            collect.collect(root, [source])
+            collect.export(root)
+            self.assertIn("Corrected title", (root / "library/index.md").read_text())
+            self.assertNotIn("First title", (root / "library/index.md").read_text())
+            self.assertEqual(guide.read_text(), "Maintained instructions for adding a contribution.")
+
     def test_excluded_work_is_not_downloaded_again(self):
         with tempfile.TemporaryDirectory() as directory, contextlib.redirect_stdout(io.StringIO()):
             root = Path(directory)

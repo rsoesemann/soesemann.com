@@ -362,18 +362,9 @@ def write_library_index(root):
     """The filesystem index follows the same grouped works as the timeline."""
     from catalogue import items
     works = items(root)
-    lines = ["# Library", "",
-             "Open a work below to read its originals or use the [website](../website/index.html) to search across works.", "",
-             "One folder per work, grouped by verified event or publication year. Related recordings, transcripts, slides and session pages stay together. A source link does not mean its recording has been downloaded; the table states what is saved.", "",
-             "`metadata/` contains source URLs, provenance, review decisions, capture status and agent exports. `tooling/` contains the collector, media downloader, exporter and their tests. Originals remain in the year folders.", "",
-             "For agent reuse, start with [works.jsonl](metadata/exports/works.jsonl), then open the cited original file. Preserve attribution and timestamps; mixed-speaker recordings are not Robert-only speech. See [AGENTS.md](../AGENTS.md) for source and writing-review rules.", "",
-             "From the repository root:", "", "```sh",
-             "uv run --project library/tooling python library/tooling/collect.py collect",
-             "uv run --project library/tooling python library/tooling/media.py --only ITEM-SLUG",
-             "uv run --project library/tooling python library/tooling/collect.py export",
-             "uv run --project library/tooling python -m unittest discover -s library/tooling -p 'test_*.py'",
-             "```", "",
-             "Export rebuilds this index, the agent exports and the website data from the same catalogue. Review selected URLs in `metadata/sources.json` before collecting; excluded URLs must not be downloaded again. Downloads and Python dependencies are local runtime files ignored by Git.", ""]
+    lines = ["# Works by year", "",
+             "[Library guide](README.md) · [Website](../website/index.html)", "",
+             "Generated from the catalogue. A source link does not mean its recording is saved; the table states availability. Add or correct works through the library guide, then export again.", ""]
     years = {}
     for work in works:
         folder = work.get("library_dir") or "library/undated/" + work["id"]
@@ -391,7 +382,7 @@ def write_library_index(root):
                 availability += " — " + recording["reason"]
             lines.append(f"| {location} | {work['context'].get('format', work['kind'])} | {availability} | {links} |")
         lines.append("")
-    target = root / "library/README.md"
+    target = root / "library/index.md"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text("\n".join(lines))
 

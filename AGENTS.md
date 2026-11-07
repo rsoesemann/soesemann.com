@@ -7,8 +7,9 @@ his browser without explaining why; downloads and tests should run in the backgr
 
 ## Keep the structure simple
 
-The root has three products: `library/`, `website/` and `my-voice/`, each with
-its own README. Keep supporting metadata and tooling inside their product.
+The root has three products: `library/`, `website/` and `my-voice/`. The root README
+explains purpose, structure and website usage. Library and voice have detailed
+guides; do not add READMEs to every subfolder. Keep supporting metadata and tooling inside their product.
 Do not reintroduce a shared hidden data folder or a central `tools/` folder.
 
 - `library/<year>/<work-slug>/`: one public work's originals and derived text,
@@ -66,7 +67,7 @@ win; unanimous child decisions can be inherited, while conflicts stay visible.
 
 ## How to retrieve material for another agent
 
-1. Read the user's purpose, then consult `library/README.md` or
+1. Read the user's purpose, then consult `library/README.md`, `library/index.md` or
    `library/metadata/exports/works.jsonl`, then the individual sources in `corpus.jsonl`.
    Filter by context date, format, publisher/event,
    participants, attribution role and review decision. Employment periods provide
@@ -86,7 +87,8 @@ win; unanimous child decisions can be inherited, while conflicts stay visible.
    duration must never be reported as usable Robert-only audio. No paid transcription,
    model training or ElevenLabs upload is authorized by the existence of this library.
 
-`uv run --project library/tooling python library/tooling/collect.py export` rebuilds exports and the library index.
+`uv run --project library/tooling python library/tooling/collect.py export` rebuilds exports and
+`library/index.md`. Keep `library/README.md` as the maintained guide; export must not overwrite it.
 The corpus is extracted source material, not an AI summary or a claim about
 Robert’s beliefs. No separate database server is needed for this library.
 

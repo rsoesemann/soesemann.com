@@ -1,109 +1,111 @@
 # Library
 
-Open a work below to read its originals or use the [website](../website/index.html) to search across works.
+Preserve Robert's public work with its original sources so he and other agents can
+find, quote and reuse it later.
 
-One folder per work, grouped by verified event or publication year. Related recordings, transcripts, slides and session pages stay together. A source link does not mean its recording has been downloaded; the table states what is saved.
+## What is here
 
-`metadata/` contains source URLs, provenance, review decisions, capture status and agent exports. `tooling/` contains the collector, media downloader, exporter and their tests. Originals remain in the year folders.
+[Browse the works by year](index.md), or [search the website](../website/index.html).
+The index states which recordings are saved and which are still missing.
 
-For agent reuse, start with [works.jsonl](metadata/exports/works.jsonl), then open the cited original file. Preserve attribution and timestamps; mixed-speaker recordings are not Robert-only speech. See [AGENTS.md](../AGENTS.md) for source and writing-review rules.
+| Location | Content |
+| --- | --- |
+| `<year>/<work-slug>/` | One work's original pages, recordings, captions, extracted text and slides |
+| `metadata/sources.json` | Selected source URLs, stable IDs, titles, roles and relevance evidence |
+| `metadata/items/` | Capture results, dates, participants, grouping and file references |
+| `metadata/review.json` and `excluded.json` | Robert's decisions, notes and URLs not to collect again |
+| `metadata/exports/` | Generated source and work records for agents, including extracted text |
+| `tooling/` | Collection, media-download and export programs with their dependencies and tests |
+| `index.md` | Generated list of works; export rewrites it, but preserves this guide |
 
-From the repository root:
+Related sources share a work folder: a conference session page, its slides and
+its recording can describe one performance. The same talk at another event is a
+separate work. Unknown dates stay under `undated/` until verified. Website previews
+are in `../website/assets/`; synthetic speech belongs in `../my-voice/generated/`.
+
+## How it was created
+
+Author pages, conference programmes, podcast pages and publisher links were checked
+for work by or directly featuring Robert. The collector saved original HTML/PDFs,
+extracted text and available original-language captions. The media tool downloaded
+selected recordings and checked their streams, sizes and hashes. Robert reviewed
+the works; his notes and exclusions were retained when related sources were grouped.
+
+Not every recording is available. Capture status distinguishes successful, partial
+and failed attempts and retains the last successful extraction. A publisher link,
+transcript or trailer does not imply the complete recording is saved.
+
+## Add a contribution
+
+The simplest route is to give an agent the URL and say:
+
+> Add this contribution to my library. Check whether it already exists, save the
+> available originals with their sources, verify the date and my role, and update
+> the website. Tell me which files were saved and what could not be retrieved.
+
+An agent should read [AGENTS.md](../AGENTS.md), then:
+
+1. Check `metadata/sources.json`, `metadata/items/` and `metadata/excluded.json`
+   for the URL and related work. Confirm authorship or participation from the
+   page itself. Do not restore an excluded URL without Robert reversing that decision.
+2. Add the canonical URL to `sources.json` with a unique readable `slug`, `title`,
+   `kind`, `role` and attribution evidence. Use an existing source of the same kind
+   as the schema example. Prepare `metadata/items/<slug>.json` with its `id`, `url`
+   and repository-relative `library_dir`, such as `library/2026/work-title`, before
+   capture so files go to the intended folder. Use `undated` if the year is unverified.
+3. Collect just the new sources using a temporary JSON array containing those
+   entries. From the repository root:
+
+   ```sh
+   uv run --project library/tooling python library/tooling/collect.py collect --sources /tmp/new-sources.json
+   uv run --project library/tooling python library/tooling/media.py --only ITEM-SLUG
+   ```
+
+   The first command saves text/captions and exports the catalogue. The second is
+   for a supported recording URL; `--audio-only` requests audio instead. `ITEM-SLUG`
+   is the source's exact slug. Plain `collect` processes the full selected-source
+   list and may retry older failures, so use the subset for a bounded addition.
+4. Verify the saved files. Complete the item context: format, publisher/event,
+   event/publication date, participants, topics and a sourced summary. For related
+   sources, set `part_of`, a shared `library_dir` and distinct `file_names` before
+   capture to avoid overwriting one another. Preserve existing decisions and notes;
+   do not invent a Keep/Ignore decision or sole-speaker attribution.
+5. Export again after completing the records, then check the new card and local
+   links. Report saved originals, extracted text and missing recordings separately.
 
 ```sh
-uv run --project library/tooling python library/tooling/collect.py collect
-uv run --project library/tooling python library/tooling/media.py --only ITEM-SLUG
 uv run --project library/tooling python library/tooling/collect.py export
-uv run --project library/tooling python -m unittest discover -s library/tooling -p 'test_*.py'
 ```
 
-Export rebuilds this index, the agent exports and the website data from the same catalogue. Review selected URLs in `metadata/sources.json` before collecting; excluded URLs must not be downloaded again. Downloads and Python dependencies are local runtime files ignored by Git.
+Export rebuilds `index.md`, the agent exports and `../website/data/timeline-data.js`.
+It does not fetch new material. Website text search uses these generated records;
+there is no separate database to update.
 
-## 2026
+## Update existing material
 
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [The AI Skills Salesforce Developers Need  /  Robert Sosemann](2026/the-ai-skills-salesforce-developers-need-robert-sosemann/) | Podcast interview (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=qhhUuCpK8Q0) · [Source 2](https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/) · [Source 3](https://salesforceway.com/podcast-player/1917/ai-skills-salesforce-developers-need.mp3) |
-| [Dreamforce 2026 Dev Keynote: As a Future Salesforce Developer, I…](2026/dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i/) | Article | Not applicable | [Source 1](https://aquiva.com/blog/dreamforce-2026-developer-keynote) |
-| [What Actually Is a Salesforce Forward Deployed Engineer?](2026/what-actually-is-a-salesforce-forward-deployed-engineer/) | Article | Not applicable | [Source 1](https://aquiva.com/blog/salesforce-forward-deployed-engineer) |
-| [The Fable of the Hare and the Hedgehog](2026/the-fable-of-the-hare-and-the-hedgehog/) | Article | Not applicable | [Source 1](https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog) |
+Edit verified context in its item record and export again. To deliberately refetch
+content, use `collect --sources /tmp/selected-sources.json --refresh` with the
+existing source entries. Changed captures receive new filenames; failed refreshes
+retain the last successful extraction. Source IDs and review notes must survive
+moves and refreshes. Simply copying a recording into a year folder does not register
+it: an agent must also add the source/item record, verify the file and export.
 
-## 2025
+For discovery from an author or conference index, `collect.py discover --url URL`
+saves candidate links for review. It does not approve or collect every linked page.
+Remove temporary discovery output after recording the selected sources.
 
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Wie qualitativ gute Software entsteht und warum uns  mehr Elitismus gut tun würde - Robert Sösemann](2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/) | Video interview | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=DR8byDJLGEI) · [Source 2](https://www.scavenger-ai.com/en/media-hub/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w%C3%BCrde---mit-robert-s%C3%B6semann) |
-| [Irish Dreamin '25: AI Agents from the Trenches - Agentforce & beyond](2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=LuLv77KKRIo) |
-| [Agentforce and AI Adoption: Practical Tips](2025/agentforce-and-ai-adoption-practical-tips/) | Webinar page | Video and audio saved | [Source 1](https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/) · [Source 2](https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa) |
-| [Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet](2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/) | Profile about Robert | Not applicable | [Source 1](https://aquiva.com/blog/robert-sosemann-salesforce-mvp) |
-| [10 Best Practices for Building with Agentforce Builder](2025/10-best-practices-for-building-with-agentforce-builder/) | Article | Not applicable | [Source 1](https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce) |
+## Use from another agent
 
-## 2024
+Start with [works.jsonl](metadata/exports/works.jsonl), then the individual sources
+in [corpus.jsonl](metadata/exports/corpus.jsonl), and open the actual text or recording.
+Cite its original URL and the local passage or timestamp. Distinguish Robert's
+words from hosts and coauthors. A kept interview is not automatically a writing-style
+sample; approved writing is exported separately in [writing.jsonl](metadata/exports/writing.jsonl).
 
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [What Does Agentforce Mean for the Salesforce Ecosystem?](2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/) | Video interview | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=BgErYWOzL4s) |
-| [Salesforce & AI from the Trenches — London’s Calling 2024](2024/londons-calling-2024-salesforce-ai-from-the-trenches/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=M78lc9D5NIk) · [Source 2](https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/) |
-| [codeLive: Implementing a Test Data Builder with Domain Builder](2024/codelive-implementing-a-test-data-builder-with-domain-builder/) | Live coding discussion (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=Kc0q8pfD3Ic) |
-| [Is Agentforce the New Low-Code?](2024/is-agentforce-the-new-low-code/) | Article | Not applicable | [Source 1](https://aquiva.com/blog/is-agentforce-the-new-low-code) |
-| [The evolution of Salesforce DevOps with Robert Sösemann](2024/the-evolution-of-salesforce-devops-with-robert-sosemann/) | Edited interview | Recording not saved — Linked video unavailable | [Source 1](https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/) · [Source 2](https://www.youtube.com/watch?v=wJQZfW8-4f0) |
-| [104. Salesforce & AI from the trenches  /  Robert Söesemann](2024/104-salesforce-ai-from-the-trenches-robert-soesemann/) | Podcast episode page | Recording not saved — Podcast download blocked by robots.txt | [Source 1](https://salesforceway.com/podcast/salesforce-ai/) · [Source 2](https://www.youtube.com/watch?v=T_xO6fXSIBs) · [Source 3](https://salesforceway.com/podcast-player/1872/salesforce-ai.mp3) |
-| [Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps](2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/) | Article | Not applicable | [Source 1](https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/) · [Source 2](https://aquiva.com/blog/reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs) |
+The tools use Python and uv; media downloads also use Node.js, ffmpeg and ffprobe.
+`uv sync --project library/tooling --locked` restores the pinned Python dependencies.
+From the repository root, run the collection tests after changing the tooling:
 
-## 2023
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Custom PMD Rules — London’s Calling 2023](2023/custom-pmd-rules-for-any-metadata-within-minutes/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=Qp49B4Baq4g) · [Source 2](https://www.londonscalling.net/sessions/custom-pmd-rules-for-any-metadata-within-minutes/) |
-| [MVP Talk w/ Robert Sösemann & Christian Szandor Knapp  /  Episode 4](2023/mvp-talk-robert-christian-knapp-episode-4/) | Podcast / interview video | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=MEc9GcqTv6Y) |
-| [MVP Talk w/ Robert Sösemann & Christian Szandor Knapp  /  Episode 3](2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/) | Video interview | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=ReXiFBH1wi0) |
-
-## 2022
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [#FTD22 Robert Sösemamn - As Salesforce Developer I will   7 Ground Rules for Success](2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=-A201aaiE3o) |
-| [🌨 As Salesforce Developer I will - 7 Ground Rules for Success (Extended Version) - Robert Sösemann](2022/sforce-poland-7-ground-rules-extended/) | Conference talk video | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=khSSaYO6aRc) · [Source 2](https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success) |
-| [Employee Spotlight - Robert Sösemann](2022/employee-spotlight-robert-sosemann/) | Profile about Robert | Not applicable | [Source 1](https://aquiva.com/blog/employee-spotlight-robert-sosemann) |
-| [Seven Ground Rules — CzechDreamin 2022](2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/) | Presentation slides | Recording not saved — Slides and conference programme saved; no recording URL identified. | [Source 1](https://www.slideshare.net/CzechDreamin/as-a-salesforce-developer-i-will-7-ground-rules-for-success-robert-ssemann) · [Source 2](https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf) |
-| [App Security and Performance Made Easy with Salesforce Code Analyzer](2022/2022-code-analyzer-john-belo-roopa-mohan/) | Webinar event page | Recording not saved — Event page blocked by CAPTCHA/HTTP 403; no direct recording URL recovered. Aquiva recap saved. | [Source 1](https://appsecurityandperformancemadeasy.splashthat.com/) · [Source 2](https://aquiva.com/blog/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine) |
-
-## 2021
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Refactoring for complexity  /  codeLive](2021/refactoring-for-complexity-codelive/) | Live coding discussion (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=QouVF7R-st0) |
-
-## 2020
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Static Code Analysis with Robert Sösemann  /  Episode 1](2020/salesforce-developers-static-code-analysis-episode-1/) | Podcast / interview video | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=-6PN6EZh9X8) |
-
-## 2019
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages](2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/) | Video course with Don Robins | Recording not saved — Course page saved; full course not downloaded | [Source 1](https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages) |
-| [Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive](2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/) | Video course with Don Robins | Recording not saved — Course page saved; full course not downloaded | [Source 1](https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce) |
-| [Apex PMD  /  Code Analysis in Apex  /  Static code analysis Robert Sösemann](2019/apex-pmd-static-code-analysis-apex-hours/) | Recorded presentation | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=34PxAHtAavU) · [Source 2](https://www.apexhours.com/apex-pmd-static-code-analysis/) |
-
-## 2018
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Webinar: How to contribute Apex rules to PMD with Robert Sösemann](2018/how-to-contribute-apex-rules-to-pmd/) | Recorded presentation | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=7_Ex9WWS_3Q) |
-| [8. PMD for Apex Static Code Analysis  /  Robert Söesemann](2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/) | Podcast episode page | Recording not saved — Podcast download blocked by robots.txt | [Source 1](https://salesforceway.com/podcast/pmd/) · [Source 2](https://salesforceway.com/podcast-player/36/pmd.mp3) |
-| [7. Clean code and Code Agility  /  Robert Sösemann](2018/7-clean-code-and-code-agility-robert-sosemann/) | Podcast episode page | Recording not saved — Podcast download blocked by robots.txt | [Source 1](https://salesforceway.com/podcast/clean-code/) · [Source 2](https://salesforceway.com/podcast-player/34/clean-code.mp3) |
-
-## 2017
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Improving your Apex Code Quality with PMD in The Welkin Suite](2017/improving-your-apex-code-quality-with-pmd-in-the-welkin-suite/) | Recorded presentation | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=Ypyiy5b6huc) |
-
-## 2016
-
-| Work | Format | Saved recording | Sources |
-| --- | --- | --- | --- |
-| [Clean Apex Code with Automatic Code Metrics](2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=bW7m6y6bEug) |
+```sh
+uv run --project library/tooling python -m unittest discover -s library/tooling -p 'test_*.py'
+```
