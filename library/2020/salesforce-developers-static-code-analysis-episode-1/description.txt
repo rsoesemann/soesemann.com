@@ -1,0 +1,3 @@
+On this episode, welcome Robert Sösemann as we discuss static code analysis. Rob was first introduced to me as the godfather of static code analysis for Apex as he is the founder and organizer of the Apex module for PMD, a tool for analyzing code quality, for developers. He is dedicated to this tool and helps contributors get started with it.
+
+During our conversation, we discuss key elements of code development, including speed, agility and, most importantly, quality. That is where PMD comes into play as an analyzer that checks code. This tool can help us all become better developers, so listen in to hear Rob’s story of how he got started with Salesforce and how things have advanced over the years.

@@ -1,0 +1,984 @@
+Hi Robert, freut mich sehr, dass du
+heute bei uns im Podcast dabei bist.
+Vielen Dank für die Einladung. Ich freue
+mich auch endlich mal auf Deutsch.
+[gelächter]
+Ja, klar, super gerne. Also, ich meine,
+du hast ja einige Jahre, ne, 15 Jahre
+schon super viele spannende Sachen
+gemacht. Softwareumfeld, jetzt im KI
+Umfeld. Äh, genau. Bin da super froh auf
+dich als Experten gestoßen zu sein,
+bevor Genau ich d mehr erzähle, magst du
+vielleicht ein oder andere Worte über
+dich verlieren, was du spannendes schon
+gemacht hast, was du dafür tust.
+Klar. Ähm, also ich freue mich, dass du
+mich überhaupt gefunden hast, weil du
+eben nicht aus dem Sales Force Umfeld
+bist und da bin ich seit 15 Jahren. Also
+im Beruf bin ich schon echt echt richtig
+lang, über 20 Jahre.
+Ähm, genau. Also, ich bin irgendwie so
+klassischer Informatikstudent,
+Javaum Umfeld und dann eher durch Zufall
+in diese in dieses wunderbare Feld
+Selbstforce gekommen.
+War das war so die Zeit
+als ich total verliebt war in Scrum und
+Kan
+Wuppen beim Kunden ohne 100 Jahre Java
+zu rocken und und da war Salesforce und
+Exchange für mich wie so ein wie so ein
+Wunderland und seitdem bin ich da und
+ich liebe das. Also meine aktuelle Rolle
+ist, ich bin so Principal Architect
+bei bei einem großen bei dem großen
+Selbstforst Partner, also groß 250
+Leute. Ähm ich bin auch so strategisch
+unter dem CTO, also beschäftige mich
+deshalb in den letzten zwei Jahren sehr
+viel so mit KI. Ähm, natürlich so
+Schmalspur Anwendungski, ich bin jetzt
+kein irgendwie KI Forscher im
+universitären Umfeld,
+aber irgendwie ähm hat es gereicht, dass
+ich im Sales Force Umfeld so ein
+bisschen auch bekannt bin als KI Mensch.
+Ähm und das hat vielleicht auch was
+damit zu tun, dass ich davor schon ein
+bisschen bekannt war. Also, ich habe
+extra hier meinen Pulli angezogen. Ich
+bin so ein Sales for MVP, das heißt
+irgendwie so besonders wertgeschätzte
+Leute, ähm die irgendwie
+viel viel zurückgeben. Ich habe gar
+nicht so viel zurückgegeben, aber ich
+habe 2016 ähm
+weil mit das Thema statische Code
+Qualität und Codeanalyse so sehr auf dem
+Ding lag in meiner eigenen Arbeit, habe
+ich praktisch diesen Codechecker PMD,
+den es in der Javawelt schon seit 20
+Jahren gibt, praktisch portiert nach
+Sales Force und und bin dann da
+natürlich durch viele so Konferenzen
+getourt, Dream Force und so. Also ich
+bin so ein bisschen bekannt dafür, so
+ein anstrengender
+Mensch zu sein, der auf Codequalität
+pocht und auf Craftsmanship und so.
+Also, es gibt Leute, die lieben mich
+dafür, es gibt Leute, die hassen mich
+dafür. ähm Hassen ist zu viel gesagt,
+aber ich ich würde sagen, ich ich
+polarisiere da ein bisschen in diesem in
+diesem kleinen Space und na ja, also
+eine sehr bodenständige Art würde ich
+sagen, deine spannenden Stationen und
+Achievements zusammenzufassen,
+[gelächter]
+nehmen wir mal so auf. Genau. Gib, du
+siehst es ja aus der Anwendersicht jetzt
+KI grundsätzlich ja auch super spannend.
+Wo würdest du sagen, stehen wir da
+gerade so im KI Zyklus?
+Aber du meinst diesen berühmten
+Hypezyklus.
+Genau.
+Ich kenne mich mit diesen Zyklenmodellen
+nicht so aus, aber ich ich habe aus
+eigener Erfahrung diesen Internetzyklus
+erlebt. Also ich habe äh praktisch äh 7
+ja, also ich habe Abi gemacht 97 und
+habe dann studiert und das war gerade so
+dieser Internetpip. bin dann irgendwie
+nach USA, wollte dort Praktikum machen,
+ähm und da ist alles explodiert. Also,
+ich kenne ich kenne zumindest dieses,
+wie sich das anfühlt am Anfang dieser
+Wahnsinn und wie sich das danach
+anfühlt, wenn das wenn das wirklich was
+stabiles ist. Und ich habe das Gefühl,
+du, ich, wir alle Millionen sind Teil
+dieser wunderbaren IT-Welt,
+aber es fing halt an mit diesem
+Webseiten Gedöns und diesen Webagenturen
+und ich war da ein Kind davon und ich
+würde sagen, in dieser Zeit sind wir
+noch so mit KI,
+ja,
+also diese diese craziness, dass die
+Leute, die eben oft keine Ahnung haben,
+die Business Leute, dass die so viel
+pushen und dass das
+früher gab's nicht so viel Internet,
+aber da gab's Zeitungen und me selbst
+meine Oma kannte die Gründer von
+irgendwelchen deutschen Werbe
+Internetagenturen und heute ist es auch
+noch so ein bisschen, also ich würde
+sagen mit dem mit KI ist das bisschen
+geschrumpft, also dies nach dieser
+Internetblase so 2000
+war lange nix. Ähm und ich glaube mit KI
+ist dieser Zyklus schneller vorbei. Also
+ich würde sagen, wir sind wir sind schon
+in dieser Frustphase. Ich glaube, es
+kommt auch noch mal so eine, wo man das
+an Börsen sieht, also so wo dann
+vielleicht Open AI crasht oder so. Ähm,
+aber du hast das hast du gar nicht
+gefragt, aber ich glaube, dass es auf
+jeden Fall danach hochgt und es dass das
+bleibt.
+Also kein tiefer Winter. [gelächter]
+Ja, das Eingang ist auch erwähnt, ne?
+Thema Software Qualität, eins der
+wichtigsten Themen für dich. Wie hat
+sich die Qualität von na der
+Softwareentwicklung oder auch von Code
+entwickelt, seitdem es ja KI Tools gibt,
+die jeden Tag Code generieren oder dafür
+ausgelegt sind?
+Ähm, nun ja,
+also ist das ist eine schwierige Frage,
+weil da gibt's so die Standardantwort.
+Ähm,
+also ich würde sagen, Codequalität ist
+ein ein Thema, was nach wie was
+niemanden je interessiert hat. Das
+interessiert Business Leute nicht, das
+interessiert Softwareentwickler nicht.
+Ähm
+und das wird natürlich mit das liegt
+einfach daran, dass die Leute nicht
+danach bezahlt werden. Als
+Softwareentwickler zieht man schnell
+weiter. Man wird heute dafür bezahlt,
+dass man das Projekt pünktlich macht.
+Keiner versteht den Code nicht mal die
+die Mitkollegen, wenn die ein Review
+machen, da sagen sie: "Looks good to
+me," weil sie selber schrecklichen Code
+schreiben.
+Also die Branche ist im Eimer, ich
+würde, wenn wir nicht Video aufnehmen
+würde, würde ich noch ein schlimmeres
+Wort sagen. [gelächter]
+Und ich glaube, das ändert sich mit KI
+überhaupt nicht. Es wird nur noch
+schlimmer einfach dadurch, dass dass
+jetzt alle, die früher Spaghetti Code
+geschrieben haben, jetzt schreckliche
+Sachen Vibecoden. Ja. Ähm, also ich
+glaube der Software Qualität ist damit
+erstmal nicht geholfen.
+Allerdings glaube ich äh und es ist auch
+so ein Seitenhieb auf die ganzen
+Softwareentwickler, die ihre Arbeit
+einfach nur so 9 to5
+Schluri machen. Ich glaube, die modernen
+Modelle sind besser. die die produzieren
+durch die Bank besseren Code als die
+meisten Softwareentwickler, die ich so
+in meiner Laufbahn geoffen habe. Also
+ähm
+ich habe also um die also weißt du um
+wenn ich wenn ich von Clean Code rede,
+dann meine ich wirklich nicht so Luxus,
+sondern meine ich, dass man das später
+versteht, dass man es erweitern kann,
+dass man es testen kann, dass es einfach
+und minimal ist, weißt du, so wie das
+was es braucht.
+Für mich ist das was Wichtiges. Für mich
+ist es kein Luxusgedöns.
+Ja.
+Und ich glaube, das kann das können die
+Modelle besser. Und was wovor man
+eigentlich eher Angst haben muss, ist
+nicht, dass der Code nicht clean ist,
+sondern dass die Software Bugs hat.
+Ja,
+und das interessiert mich dann
+tatsächlich wieder nicht so sehr, weil
+die gierigen Firmen, die ihre
+Softwareentwickler zum Wcoden bringen,
+die sollen ruhig pleite gehen, weil ihre
+Software Bugs hat und nach zwei Jahren
+skaliert das Unternehmen nicht. Also
+insofern würde ich sagen, für die
+Craftsmanship und die Software Qualität
+ist KI tatsächlich eigentlich besser.
+Okay.
+Weil vor allem eben auch jungen
+Entwicklern hilft ähm besseren Code zu
+schreiben, wenn sie danach fragen.
+Genau.
+Okay.
+Also ich bin eigentlich eher positiv.
+[gelächter]
+Ja, also me ich höre die Antwort da eh
+schon ein bisschen raus. Ich frage dich
+trotzdem noch ein bisschen provokativ.
+Welche Rolle spielt denn dann deiner
+Meinung nach Handwerk und Craftsmanship
+noch? in der Zukunft
+immer eine Rolle. Also ich würde
+also
+es gibt also das vielleicht so alte
+Männer Antwort. Es gibt glaube ich
+überall ein Platz dafür und überall
+nicht, weißt du? Es gibt es gibt schöne
+alte Autos, es gibt schöne Häuser, es
+gibt schöne Reisen, es gibt schöne
+Kleider und es gibt billig Schrott. Also
+ich meine das jetzt, ich will es
+bisschen weniger abwerten sagen.
+Es gibt eine Notwendigkeit für alles. In
+der Welt braucht them billig schnell.
+Ähm weil Leute wollen Dinge und haben
+nicht das Geld. Ich, also ich glaube, es
+gibt diesen Bedarf und den gibt's vor
+allem dann immer, wenn die Branche
+irgendwie in große Probleme reinkommt.
+Das das heißt, ich glaube, also, wenn
+ich heute einen jungen
+Softwareentwickler treffen würde, der
+mich fragt, was wirst du machen? Ich
+würde sagen, bleib weiterhin an
+Craftsmanship dran, weil Craftsmanship
+heißt für mich auch so, dass man dass
+man stolz auf seine Arbeit ist und wer
+stolz auf seine Arbeit sein will,
+delegiert nicht alles an der KI. Ja,
+der will letztendlich immer verstehen,
+was der Sklave da tat und tut und auch
+selber dafür stehen. Und das sind für
+mich so ähm Werte, die die sollte man
+überall haben, also bei allem, was man
+tut als Mensch, als Eltern, als
+Ehepartner. Insofern glaube ich, ähm
+Craftsmanship ist ist nach wie vor
+wichtig und die Softwareentwickler, die
+sie haben, werden nicht ersetzt durch KI
+und die anderen werden gnadenlos
+ersetzt, no matter what was alle was
+alle im Internet erzählen. Ich glaube,
+es wird ein massiven Crash geben, so von
+wegen
+Gehält darunter, Leute finden keine Jobs
+und so. Also, das glaube ich. Und die
+Craftsman, die werden dann da bleiben,
+wie wie die wie die Cobolentwickler
+damals bei der, weißt du noch, dieser
+Year to000 Crash.
+Kannst du dich da erinnern? Da war ich 3
+Jahre alt, also [gelächter]
+aber man hat ja vielleicht davon
+erzählt.
+Ja, ne? Auf jeden Fall ein super heißes
+Thema in dem Zusammenhang sind ja auch
+vorangeschnitten das klassische
+Agententhema, was irgendwie gerade so
+auch durchs Dorf getrieben wird. Ist das
+für dich, wo du sagst, okay, das ist
+wirklich ein Shift irgendwo ein paar
+Dingenwechsel oder ist das glorifizierte
+Automatisierung, die es eh schon immer
+gab? Also, ich habe die Kuh gemestet und
+treib die mit. Nee, ähm
+also das ist ein Thema. Also ähm Chat
+GBT befragen äh über Krankheiten und äh
+das ist cool, aber LMs reicht nicht.
+Also, ich finde Agentic ist ist wirklich
+das Ding,
+ähm einfach weil es es ist es erlaubt
+Software ganz anders zu bauen. So,
+also verstehst du, mir geht's darum,
+dass dass du praktisch alle Dinge, die
+du mit klassischem Code machst, also
+deterministisch Tools, dass du die nach
+wie vor so machst, aber dass dieses
+dieser Glue Code, also ich weiß nicht,
+ob du diesen Begriff kennst, mit dem man
+also der der nicht wirklich das macht,
+was der Kunde will, aber den man
+braucht, damit das funktioniert, wo die
+ganzen Business Rules drin sind, dass
+der jetzt irgendwie nicht mehr so nerd 0
+und 1 ist, sondern dass der so bisschen
+FY ist, also da musst du nicht jeden
+Fall auflisten und wenn weißt du so if
+else und du kannst sagen so find mal
+raus was das Beste ist. Das ist mega
+krass, weil das heißt, du du kannst
+praktisch,
+also
+ich glaube, dass es für den Menschen
+überhaupt kein Problem ist, Dinge, die
+man fest definieren kann auf klar zu
+definieren. Ja,
+aber der Mensch musste mit Programmieren
+eben der klassischen Art zu
+programmieren alle Dinge so definieren
+und das war Mist und das hat dazu
+geführt, dass so bloed war und dass eben
+der Business Mensch so ein Nerd brauchte
+oder dann noch so ein Consultant
+dazwischen, die das dann
+flüsterpostmäßig oft falsch einbauen
+oder unflexibel. Und ich glaube einfach
+mit diesem ganzen Thema KI und Large
+Language Models und Agentic kannst du an
+diese Stellen jetzt so bisschen was
+mehr fasi hinsetzen und ich glaube das
+wird einfach dazu führen, dass Software
+schlanker wird, besser wird, flexibler
+wird, dass die Leute, die Software
+eigentlich nutzen und zahlen, dass die
+mirhr mitreden können. Ich glaube
+tatsächlich daran, dass es besser ist,
+wenn wenn
+Benutzer definieren, was die Software
+macht und nicht ein Softwareentwickler.
+Ja.
+Ja. Insofern ich halte es wirklich für
+ein für ein heißen heißen Scheiß, auch
+wenn ich glaube, es dauert noch eine
+Weile, bis das ähm
+bis es so richtig fliegt. Genau. Also,
+ich weiß nicht, ob du dieses Andre Party
+Interview zitiert gesehen hast, wo der
+sagt so: "Not the year of Antic, but the
+decade of Aantic." Daran glaube ich.
+Ja, okay. Spannend. Und ein weiterer
+Trend mit diesen ganzen KI Anwendungen
+oder auch generell auch klassische
+Software ist ja jetzt, dass man sagt,
+na, man setzt vorwart Deploy Engineers
+ein, um diese Anwendung zum Laufen zu
+bringen. Ich weiß, dass du gesagt hast,
+das ist einfach nur ein neues Branding
+von klassischen Fullstack Entwickler.
+Max das ja oder für ein guten
+Kundennahen Berater. Ja ja ja.
+[gelächter]
+Also du sagst, das ist keine neue Rolle.
+Man hat einfach nur etwas, was es eh
+schon immer gab, anders genannt und
+jetzt ist es sexy.
+Na,
+also ich weiß nicht, mein mein Vater
+sagt immer, je bescheuerte die Namen,
+umso windiger das Konzept dahinter.
+Und ich finde, passt hier so gut. Also
+als ich das erste Mal gesehen habe
+irgend so eine berühmte Lady bei Salf
+was die nennt sich so habe ich wirklich
+glaube ich fünf Millionen über das Wort
+nachgedacht und da dachte ich Depploy in
+Engineer wird doch nicht deployed und
+forward wo ist da die Richtung also mir
+ist ganz klar das heißt einfach nicht
+nicht der Nerd der sich im Keller
+versteckt mit seiner Lavalampe und
+dazwischen ein PO und ein Consultant
+braucht um mal was zu machen und schön
+viel Defops, sondern eine Person, die
+wie früher ich in meinen ersten
+Berufsjahren am Sonntag zum Kunden
+fliegt und dort praktisch sitzt im engen
+Bossanzug
+ähm und praktisch dorthin deployed wird.
+Ähm
+ja,
+das ist ja ich denke, das war noch nie
+schön für den Softwareentwickler, aber
+immer schön für die Kunden. Und und
+jetzt jetzt schließe ich den Bogen. Ich
+glaube, das geht jetzt immer mehr. Weil
+früher war Software ja so kompliziert,
+du musstest dann doch den Typen wieder
+nach Indien fliegen, damit dort eine
+Hundertschaft Leute in Java irgendwie
+Java Beans baut. Aber heute kannst du
+praktisch noch mehr als damals mit
+Salesforce. Erinner dich an meine
+Geschichte mit Scrum, Sales Force passt
+so gut zusammen. Ich glaube mit
+Vibecoding und KI kannst du noch mehr
+praktisch direkt beim Kunden sitzen und
+den Kram bauen. Also statt dass der sich
+irgendwie für eine Million irgendwie ein
+CM kauft. von dem man drei Features
+braucht, aber eine Million Features dazu
+kauft. Seitenhieb an Sales Force
+sagt der Kunde einfach, ich brauche die
+vier Sachen und der eine gute Fullstack
+forward deployed Engineer, der kann das
+dann machen. Also genau insofern ich
+halte es für neuen Namen für eine alte
+gute Sache und ich gebe den Erfindern
+den das Namensrecht, dass KI und
+Vibecoding und so dieses Konzept wieder
+revitalisieren könnte. Also
+ja,
+nu Antwort.
+Ja. Nee, gut. Finde ich interessant.
+Siehst du nicht so oder?
+Boah, also ist eine schwierige Sache.
+Ich glaube grundsätzlich, ich sehe
+schon, also wir besetzen das ja auch ein
+und ich sehe den Nutzen davon schon
+groß, muss ich sagen, wenn ich sag, hey,
+Leute, die können das, die können sowohl
+mit dem Kunden gut umgehen, die
+verstehen die technischen Anforderungen
+und verstehen die wirtschaftlichen
+Anforderungen, können das auch umsetzen
+von der technischen Seite.
+Also die Rolle an sich finde ich genial.
+Total.
+Bei der Namensgebung gebe ich dir recht.
+Ja, also gab's vorher auch schon hat
+jetzt einen anderen Namen und die Leute
+finden auf einmal super.
+Ja, genau. Aber aber da sind wir uns
+einig. Das ist also jemand, der das
+kann, ist ist ein Goldstück, aber es ist
+eben ein wirklich seltenes Goldstück,
+weil so so verteilt einfach das
+Universum nicht die Skills.
+Wenn du sehr outgoing bist, dann gehst
+du mehr ins Business. Wenn du wenn du
+Tüftel gehst, gehst du Tüftler. Und
+Leute, die das wirklich beides können,
+sind super selten. Und wie die dann
+letztlich heißen, ich würde jeder Firma
+sagen, wenn du so einen hast, nenn ihn
+wie du willst, aber gib ihm ganz viel
+Geld und halt ihn. Ja, ich meine, ich
+sehe das auch auf LinkedIn bei Jobs, die
+ausgeschrieben werden in dem Bereich,
+die lassen sich auch fürstlich entlohnen
+die Leute, die das können. Also
+ja. Ja, schon. [gelächter] Ja,
+genau. GZ Themawechsel, ich weiß, du
+warnst auch immer wieder vor EI Slop.
+Warum ist es deine Meinung nach so also
+oder gefährlich?
+Oh, wieder also immer wieder. Ich
+glaube, ich habe einmal irgendwas
+geretetweetet auf LinkedIn.
+Ja.
+Ähm,
+also da muss ich bisschen ausholen.
+Also
+wie wie antworte ich den am besten?
+Ja,
+mir hat der Begriff so gut gefallen,
+weil er er ist für mich und da bin ich
+wirklich bisschen grumpy old man. Ich
+ich bin so,
+als ich mit dem Internet groß geworden
+bin, habe ich wirklich gedacht, das
+macht das macht die es macht die Welt
+besser.
+Ja,
+so Wikipedia und Kommunikation, aber ich
+habe zwei Töchter und Social Media ist
+dann Thema und Bildschirmzeit.
+Für mich ist das Internet ein
+Drecksding. Also die die guten Dinge,
+die das Internet gemacht hat, die sind
+minimal.
+Ja.
+Und die Dinge, die es schlecht gemacht
+hat, die sind maximal.
+äh die Welt durcheinander bringen,
+Falschwahrheiten, Ausfüllung der Kultur,
+alles schlecht machen, was in der
+Vergangenheit war, mit irgendwelchen
+gierigen Algorithmen unsere Kinder mit
+dummen Influencern zusammenbringen. Also
+ich könnte ich könnte eine Stunde renten
+und das wird jetzt eben noch mal krass
+verstärkt, weil früher musste man ja
+wenigstens um Schrott im Internet zu
+produzieren als Video, als Text, als
+whatever, als Geschäftsidee musste man
+ja noch irgendwie ein bisschen Energie
+aufwenden, aber mit KI wird es ja alles
+verstärkt.
+Ja.
+Und ähm also das, also das geht wirklich
+durch die Bank. Es wird mehr schlechte
+Filme geben. Es wird mehr schlechte
+Bücher geben. Also, ich kenne das Leute,
+die Bücher schreiben, die die es vorher
+nicht hätten können. Also die ein man
+sagt immer so Demokratisierung, ich bin
+absolut für
+in der Sache für Elitentum, wenn man
+kein Buch schreiben kann, weil man
+einfach zu schlecht ist, sollte man
+keins schreiben. Und es war früher
+einfach unmöglich, dass Hans Wurst ein
+Buch schreibt oder Musik macht
+und heute kann es jeder und KI setzt
+diese Schwelle noch mal krass runter
+und alle Menschen sind noch fauler. Das
+heißt, die Leute gucken noch weniger
+hin, kann der Softwareentwickler das
+insofern, also für mich ist es eher so
+ein so eine Angstuntergang
+des Abendlandes, Untergang von Qualität.
+Also
+ja.
+Ja, das ist für mich das Ding und ich
+glaube, das das kann man irgendwie auch
+gar nicht mehr einfangen.
+Ähm, genau. Also,
+ja, [gelächter]
+wie verstehe ich? Also ich das wollte
+ich dich auch gerade fragen. Also ich
+glaube, ich sehe das eh nicht. Ich weiß,
+das glaube ich sehen sehr sehr viele
+ähnlich. Trotzdem hat man das Gefühl,
+diese Bewegung ist ja irgendwie relativ
+schwer aufzuhalten. Hast du Pop of your
+mind Ideen, wo du sagst, ja, XY Z
+machen, dann läuft's wieder. Ja, die
+Menschen müssen ähm sich selber, also
+die Erwachsenen müssen sich erziehen
+gegen ihre Faulheit, ihre scheiß
+Faulheit.
+Äh anstatt, dass ich ein Buch lese,
+gucke ich Netflix. Das ist wirklich
+durch die Bank. Das machen die alten
+Boomer so. Das macht eure junge
+Generation so. Die Faulheit ist einfach
+da. Man kriegt seinen Arsch nicht mehr
+hoch, irgendwas zu machen. Und wenn es,
+dann rettet man nur das Klima, aber man
+ist generell gegen alles, was elitär ist
+und so. Und es ist grundfalsch.
+Leute, die Klavier spielen können, die
+sind nicht elitär, sondern die haben
+einfach mehr aus sich gemacht und das
+dieser Geist ist einfach aus der Welt
+raus. Es ist furchtbar schwierig, wenn
+man irgendwie was gut kann, heutzutage
+einfach zu sagen, ich bringe euch das
+bei, dann ist man gleich irgendwie
+Gatekeeper oder so.
+Ähm, also ich glaube einfach ähm
+Qualität und auch Können hat an Wert
+verloren und ich glaube, jeder einzelne
+muss sich dem entgegenstellen.
+Ja,
+jeder einzelne muss das Vorleben und äh
+genau, also guten Code schreiben, wenn
+die Kollegen nicht schreiben können,
+wenn die keine gute Sprache mehr haben,
+trotzdem an der eigene, also dass man
+sich nicht so mitziehen lässt, dass man
+einfach ähm
+so so eigene Kompass hat, der auch
+vielleicht nicht zeitgemäß ist und den
+trotzdem durchzieht, weil ich glaube ja,
+ich glaube, du denkst denkst da sicher
+ähnlich.
+Ja, auf jeden Fall. Nee, guter Appell.
+Guter Appell.
+Ja,
+nehmen wir mit. [gelächter]
+Ich hoffe nicht so philosophisch wie so
+ein Morgen.
+Nee, nee, sehr gut. Also spielt ja alles
+irgendwo in das bl alles irgendwo
+dasselbe Horn. Ich meine Kia, wie du
+gesagt hast, ein Verstärker von all den
+Sachen, die wir derzeit haben. Positiv
+oder negativ. Ja.
+Ja, absolut.
+Wenn wir ein bisschen ins Sales Force
+Ökosystem zurückkommen,
+was sagst du, hat KI da verändert und
+was ist nur irgendwo Marketing Claim,
+der man drauf geklatscht hat?
+Also ich glaube es ist wieder beides. Es
+ist momentan noch viel Marketing Claim.
+Ja,
+aber nicht, weil Selbstfor irgendwas
+falsch macht, sondern Selbstfors macht
+eigentlich meiner als achtens sehr viel
+richtig. Minus natürlich diesem ganzen
+das funktioniert alles schon gut. Das
+stimmt alles noch nicht, aber ich glaube
+die der Grund, warum vieles KI mäßige
+bei Salesfors nicht funktioniert, ist
+derselbe, warum es bei anderen Firmen
+nicht funktioniert. Also es ist einfach
+nicht so, dass die KI Agenten bei Self
+Schrott sind und woanders gut
+funktionieren. Das ist überall noch
+in Kinderschulen. Ähm, ich glaube, Sales
+Force ist eine Stelle, wo man sieht, was
+für eine transformative Kraft im
+Positiven wie im Negativen das ist. Ich
+glaube tatsächlich, dass Sales Force,
+wenn die diesen KI Zug nicht so krass
+massiv bespielen würden, ja,
+vermutlich in 5 Jahren weg vom Fenster
+wären, weil kein Mensch braucht mehr ein
+überteuertes CM mit dem komplizierten
+UI. Und ich liebe diesen Space, aber ich
+ich bin nach wie vor der Meinung,
+einfach und lean und so und vor allem
+auch Preiswert, nicht billig, sondern
+Preiswert geht anders. Sel was ist das
+Gegenteil davon ist bloed und Cruise
+ship Style und so. Ähm, also ich glaube
+SFC wäre würde wahrscheinlich in 5
+Jahren von irgend so einem CRM, was Sam
+Oldman mal so in einer Nacht da
+zusammenhackt,
+out of business gegangen.
+Ja,
+und das haben die erkannt und haben
+gesagt, wir machen jetzt nur Agentic.
+Also du weiß nicht, ob du es mitkriegst,
+dass Mark Bennyhof sogar überlegt Sales
+Force Agent Force zu nennen. Die machen
+nicht groß viel mehr andere Features.
+Also die meisten so auf der großen
+Konferenz in San Francisco, die die
+Leute sind frustriert und haben das
+Gefühl, es wird überhaupt nichts mehr
+für die anderen Features und Themen
+gemacht.
+Und da war auch da war auch so eine in
+der auf der Konferenz so eine Ask Me
+Session mit ganz wichtigen Leuten von
+Self und die haben praktisch gestanden,
+dass das so ist und dass ihn
+sorry meine Worte der Arsch bisschen auf
+Grundeis geht. Also, dass die selber
+gesagt haben, wir müssen das tun. Ja,
+weil wenn Sales Force nicht total diesen
+Shift macht inic
+dann sind sie vielleicht weg vom
+Fenster.
+Ja.
+Und und dafür finde ich machen sie es
+ziemlich gut. Also so die letzten zwei
+Jahre gab es so einic, was sich bisschen
+beknackt angefühlt hat und jetzt auf der
+Dream Force ähm vor zwei Monaten haben
+sie wirklich so eine neue Variante
+vorgestellt, die jetzt auch bald
+irgendwie rauskommt, die glaube ich
+viele von diesen echten Problemen,
+nämlich so dieses Halluzinieren und die
+Agenten machen, ich was sie sollen,
+pardon,
+ähm behebt. Insofern ähm bin ich bin ich
+zuversichtlich und auch sehr glücklich,
+da irgendwie in diesem Thema drin zu
+stecken und nicht jetzt in irgendwie
+Sales Force Commerce Cloud oder
+Marketing Cloud, weil ich glaube diese
+anderen Themen, die werden
+über kurz oder lang glaube ich
+abgeräumt. Also ich glaube, wenn das
+alles so richtig Antic ist, dann kauft
+keiner mehr große Softwarepakete.
+Ja,
+ist es dann dann nicht irgendwo auch
+schwierig, weil man schneidet sich ja da
+bisschen ins eigene Fleisch oder wenn
+man sagt, ich habe gerade große
+Software, die will ich ja irgendwo
+verkaufen. Wenn ich das liner mach, ist
+es
+Ach so, ja. Ähm ja, das stimmt.
+[schnauben]
+Aber das ähm ist ja eh so. Also ich
+glaube die der Kapitalismus ist so
+gebaut, dass du den dass
+zurückhältst, weil du denkst, damit
+schneidest du deinen alten Produkten ins
+Fleisch, der Konkurrent um der Ecke, der
+keine alten Produkte hat, der wird es
+bringen.
+Insofern glaube ich ähm geht's gar nicht
+anders. Und das sieht man ja auch. Also
+Salesforce
+schädet gerade, glaube ich, so ein
+bisschen seine seine treue
+Stammkundschaft, weil die sagt, ah, was
+will ich mit unreifer KI, gibt mir alte
+Verbesserung und Salf zeigt den den
+Finger und sagt, kriegt er nicht.
+Ja,
+also und ich glaube, das ist eben genau
+das die neue Firma, die keine Altlasten
+hat, die kann jetzt einfach schnell in
+den Markt springen und Salesforce hat
+diesen doppelten Schmerz. Sie müssen sie
+müssen
+auf KI umspringen und sie müssen
+irgendwie gucken, als auch die
+bestehenden Kunden nicht wegrennen. Also
+ja, [gelächter] not easy.
+Challenge.
+Ja. Ja, ich möchte nicht in ihren
+Schuhen sein, aber für uns ist es gut,
+weil wir natürlich viele Kunden
+bedienen, die die diesen Schritt wagen
+wollen und mit denen können wir lernen.
+Das ist cool.
+Ja, super.
+Wie viel Open Source braucht die KI Welt
+deiner Meinung nach, um ja im Rahmen
+gehalten zu werden, kontrolliert zu
+werden, sich weiter zu entwickeln auch?
+Open Source braucht die Welt immer, weil
+weil die Software eats the World, das
+heißt die Zukunft der Welt ist auch die
+Zukunft der Software. Und bei Software
+gibt's immer sowas. Ähm, es gibt es gibt
+Dinge, die Leute bauen wollen und es
+gibt keine Geldgeber, dann machen sie in
+ihrer Freizeit. Oder es gibt Dinge, die
+kannst du nicht mehr verkaufen, dann
+machst du sie open source. Und ich
+glaube, das wird einfach weitergehen und
+vielleicht sogar schneller sein mit
+in der KI Zeit, weil unter KI, das ist
+ja alles, also so hier on the shoulders
+of Giant, also das ist ja alles immer
+komplizierter. Ja,
+also diese Frameworks und was da alles
+drunter liegt, das ist ja da gibt's ja
+keinen Rückbau. Wir gehen jetzt wieder
+von Industrialisierung zum Ackerbau. Das
+wird ja alles nur noch komplizierter und
+das, was da alles drunter ist, das ist
+ja nicht alles zu Geld zu machen. Also
+ich glaube, Open Source hat nach wie vor
+absoluten Raum und ich glaube Open
+Source ist auch der einzige Weg, wie man
+wie man AI Slop entgegenwirken kann,
+weil da eben Open Source zeigt für mich,
+dass es Menschen gibt, die außerhalb des
+kapitalistischen Modells, ich bringe nur
+Leistung, wenn ich dafür Kohle krieg,
+arbeiten wollen und solche Leute gehen
+in Open Source und gucken sich den Code
+an und finden raus, dass das Schrott ist
+und so. Also für mich hat Open Source
+einfach eine super stabile Bahn an KI
+vorbei. Also da ist nicht mal eine Delle
+drin.
+Ja.
+So. Aber aber jetzt ganz persönlich, du
+fragst ja wahrscheinlich auch, weil ich
+der PMD Open Source Mensch bin. Für mich
+ist das Thema weniger wichtig. Also ich
+ähm ich glaube nicht, dass PMD jetzt
+noch so ein Ding ist, wo wo man jetzt
+unbedingt mega investieren muss. Also
+ich glaube, das ist gut. Damit kann man
+was machen. Damit kann man auch selber
+den weib weib gecodeten Code überprüfen.
+Aber für mich ist dieses Thema ein
+bisschen weniger interessant. Also ich
+habe ganz persönlich für mich
+entschieden, ich rede nicht mehr über
+PMD auf Konferenzen und so.
+Okay. GLB das ist so bisschen durch das
+Thema für mich jetzt zumindest.
+Ja. Okay. Interessant.
+Wie würdest du aus deiner Erfahrung
+heraus jetzt ein Team strukturieren, das
+sinnvoll mit KI arbeitet und vielleicht
+auch welche na Skills sind da irgendwo
+unterschätzt oder die früher gar nicht
+so wichtig waren, die jetzt vielleicht
+wichtig sind? Gibt sowas? Äh, gute
+Frage, weil die ist ja relevant für
+mich, weil ich das auch mache. Also bei
+uns in der Firma haben wir hat mein mein
+Chef unser Gründer mich praktisch
+gebeten, wir müssen herausfinden, wie
+das Team der Zukunft arbeitet, wie wir
+schneller sind, wie wir billiger werden,
+wie wir
+also dieses KI Adoption und so. Das
+heißt, ich habe praktisch die Erlaubnis
+gekriegt, Leute einzustellen, die ich
+gut finde, die ich kenne. Ähm, wo jetzt
+auch der Preis nicht so eine Rolle
+spielt und mit den kann ich arbeiten
+praktisch, wie ich will. Also für mich
+gibt's nicht die Standardregeln bei uns
+in der Firma und wir sind wir sind sehr
+erfolgreich. Also, wir machen das seit
+paar Monaten. Ähm, also wir sind oft
+meistens so doppelt so schnell, erhöhen
+die Marge äh äh dadurch eben auch.
+und was ich daraus lernen kann und das
+ist unabhängig von AI
+kleinere Teams,
+einzelne Leute, die mehr können, also
+mehr dieses Fullstack, bessere
+Kommunikatoren, bessere Coder. Ähm, es
+gibt so Leute Rockstar Developer und
+sind super fit im Kopf, können mit dem
+Kunden reden, können Demos machen,
+können Sachen verstehen. Genau. Also,
+das Team der Zukunft ist kleiner,
+Rollen fallen weg. Also, ich habe in
+diesen Teams selten noch so den
+klassischen Manual QA Tester. Ähm, es
+gibt so Rollen wie Product Owner, finde
+ich total nutzlos in der Welt. Das sind
+für mich oft so ähm Leute, die dem
+faulen Entwickler Sachen in Gira
+reinschreiben.
+Ja,
+völlig an unnötig. Also nicht immer,
+aber in in den in den in diesen
+kleineren Projekten, die ich mache,
+weißt du? Ja,
+also ich will jetzt nicht hier den Hate
+der deiner Community abliegen. Ähm, dann
+finde ich auch Projektleider, die die
+Meetings zelebrieren und Slidedecks
+machen. Auch das finde ich kann man
+krass reduzieren.
+Genau. Also, das Team der Zukunft für
+mich ist super klein, super lie, vereint
+Rollen in einer Person, die in der
+Zukunft mehrere Personen haben.
+Die Personen müssen super schlau sein
+und dies und teilweise diese Aufgaben
+auch nicht mögen, weil nur dann
+überlegen sie sich, wie wie sie KI
+verwenden, um diese Aufgaben zu
+automatisieren,
+weil das finde ich wirklich gut, weißt
+du? Wer wer seine Slidedecks liebt und
+seine Meetings liebt, der wird sich
+nicht überlegen, wie kann ich die
+killen.
+Genau. Ähm, also du brauchst Leute, die
+sind diese
+Genau. Du brauchst auch Leute, die ganz
+anders als die normalen Entwickler ähm
+nicht so verliebt sind in dieses
+whatever it takes make the customer
+happy.
+Ja,
+das langt mir nicht. Ich will people,
+die sagen 80 20, wenn ich in 20% der
+Zeit den Kunden 80% happy machen kann,
+ist für alle mehr drin. Ich will
+effiziente pragmatische Entwickler und
+nicht Leute, die gern lange arbeiten und
+so. Genau. Genau. Also so findige Typen
+[gelächter]
+und natürlich und sie brauchen in die
+richtige Einstellung zu KI. Weder dieser
+Oma Skeptizismus noch dieses
+oh ja, ich kann jetzt alles weib coden,
+sondern
+gute gute gute Skepsis und auch
+irgendwie ein offenes Herz.
+Ja.
+Wie findest du heraus, wer das mitbringt
+und wer nicht? Oder sagst du, du
+probierst Leute einzustellen, die du
+kennst und du weißt das einfach schon?
+Genau. Also das ist die Antwort. Also
+ich würde sagen, wenn das wichtig ist
+und wenn man schon länger ähäh in in der
+Welt arbeitet, dann hat man dafür ein
+Riecher.
+Ja.
+Ähm aber man muss es auch ausprobieren.
+Also aber
+genau. Es gibt gibt überhaupt nichts.
+Also Leute mit KI einstellen oder das an
+der HR Abteilung delegieren, das
+funktioniert alles nicht. Also ich
+glaube nach wie vor, dass die Welt
+von Menschen und menschlichen
+Beziehungen geprägt werden und das ist
+kein Framework oder fünf Schritte Modell
+oder Buch gibt, was einem das
+beschreiben kann.
+Ja,
+genau. Ist einfach so ein Bauchgefühl,
+aber man kann es sich ja aufschreiben,
+[gelächter]
+ne? Manchmal lesest das ja, wenn wir zum
+Abschluss noch in der Zukunft bleiben,
+du schaust drei bis fünf Jahre voraus,
+welche Entwicklung siehst du kommen oder
+wirst du kommen sehen, die die Software
+Entwicklung verändert?
+Also ich glaube Softwareentwicklung wird
+sich total verändern von weniger äh so
+fertige Pakete, wo sich irgendwie
+Startupgründe überlegen, was könnten in
+in der Zukunft 100.000 1000 Kunden,
+damit sich das überhaupt lohnt brauchen.
+So ein Softwareentwicklung wird mehr so,
+ich baue mir was, was ich gerade
+brauche, also so wirklich so dieses Chat
+GBT, ich brauche heute eine Software,
+die uns diese Kundendaten analysiert und
+dann diese Dashboards macht. Also
+Software wird, es geht tatsächlich mehr
+in die Richtung Wipe Coding, der
+klassische Softwareentwickler und diese
+ganzen, ich sag beknackten Rollen werden
+wegfallen. Also es wird ein krass.
+So,
+also wir werden aus unserer Luxusplase
+rausfallen.
+Ja,
+also so unemployment, die Leute werden
+wieder Handwerker werden. Ähm, aber ich
+glaube, es wird eine gute Welt werden,
+wo Software weniger kostet und mehr
+Menschen zur Verfügung steht.
+Und
+ich glaube daran, dass Wachstum
+zumindestens dann mittelfristig
+die alle wieder reinholt. Also ich
+glaube, ich würde in meinen Kindern nach
+wie vorsagen, studiere Informatik, aber
+vielleicht nicht aner anwendungsnahen
+berufsorientierten Fachhochschule,
+sondern macht dein Hirn schlau. Genau.
+Also ich glaube, die die der Ingenieur
+ist ein Modell, das gibt's auch noch in
+300 Jahren, wenn wir nicht total
+verkacken und und die Industrialisierung
+beenden. Also insofern ähm rosige
+Aussichten, langfristig, aber kurz und
+mittelfristig erstmal ziemliche Dellen.
+Ja,
+cool. Ja, Robert, vielen, vielen Dank
+für, also ehrlich, hat viel Spaß
+gemacht. Super kurz überlegt. Cool,
+danke.
+Danke dir, ehrlich. Ja, freut mich gerne
+gerne wieder und
+schöne Woche noch.

@@ -1,0 +1,1038 @@
+Hey and I ever be and the world and on
+the phone this is Robert from Tuebingen
+this is a webinar work it was just
+initiated yesterday by some nerds doing
+a lot of Twitter and it the talk or the
+stuff I'm going to show you is around
+PMD the static code analyzer i ported to
+Apex there was a lot of questions around
+in the last time and people ask me hey
+could you tell me how to contribute I
+know how to use it I know why it's good
+and then we decided to not do a 1 a 1 in
+Skype we said let's do a webinar let's
+let's record this and hopefully
+everything will go do it so around me
+there are some virtually virtual other
+persons from the Ukraine from France
+from the US from Germany and famous
+people that you know from Twitter
+they're all listening and they they yeah
+they said hey Robert I know P and D but
+I want to contribute so maybe everybody
+can surely go on unmute and cheer into
+the microphone so the people get a
+feeling that I'm not alone hello
+everyone okay very good
+they're from Singapore from France oh
+great
+and now that everybody has seen me I
+will turn my video off so you can fully
+concentrate on my on my screen this is
+about PMD I guess everybody who's
+watching this video knows PMD PMD is a
+static code analyzer which means it
+takes source code and that's a magic on
+it and then output some issues because
+in source code you see issues that's
+that's what people do when they do code
+review
+they look at somebody else's spaghetti
+code and find out the variables have
+ugly names and there's a lot of problems
+in it some people out there think I did
+PMD or I'm a big person in this space
+this is not true what PMD is more than
+fifteen years old there was a guy called
+Tim Copeland which created it it's a
+Java open source system and it basically
+was written for Java and a tool to to
+run on Java source code and then find
+problems in and it was it was created so
+extensible that PMD is now open to many
+other languages and two years ago I work
+for a Salesforce a product company a
+startup and Ice V and we had the problem
+how can we guarantee a certain code
+quality before our developers chicken
+and I thought I would need something
+like PMD and yeah then I made myself and
+and other teammates on a journey and we
+basically ported PMD to Apex so we made
+made a PMD language module and there was
+a lot of help from others Salesforce who
+basically contributed the parser and
+whatever what I'm going to show you
+right now is not how to use it I'm
+showing you how to write rules and I
+want to start with the PMD github page
+there is a special page which is not for
+developers it's more for the people who
+just want to use PMD there's a download
+page there is a documentation which
+basically helps people to just download
+the tools the more important page the
+more important page is the github
+repository of PMD as you see here and
+the source feed there are folders for
+many other languages JavaScript JSP Java
+Go Fortran
+and those are all language modules which
+existed long ago and what I did I hated
+his PMD epochs language extension and
+ported many of the Java rules then some
+people at Salesforce helped me to create
+security rules guys from from the
+security of Salesforce and in the last
+years dead last year or year or two
+years many to vendors jumped on the
+bandwagon and now every cool IDE is able
+to run PMD code inspections on ethics
+code on on visualforce but the same
+contribution did not come from the
+developers so we need more rules
+basically all the rules that are in
+there right now are ported from Java or
+very easy rules that I made up myself
+and in this talk I want to show you what
+what you need to do to contribute an AP
+tool and this is really not rocket
+science
+so let's get started and I assume the
+most people know how to contribute to
+github repositories you need a github
+account and then you fork the repository
+forking means basically copy it into
+your space and so I have a fork off of
+PMD it's in my own user account and then
+I just connected my IDE to that so this
+is what you do and I heard some strange
+noises did anyone leave no no you're
+fine I think I posted today that's what
+he heard so getting github account for
+the PMD repository
+connect your IDE to this fork and then
+we can get started the idea from my
+choice is illuminated out and this is
+how it looks in illuminated cloud it's
+not in the illuminated cloud in IntelliJ
+because PMD is written in Java maybe
+that's that's very important and
+everybody who knows Java will be able to
+write PMD rules so PMD is a quite
+complex maven project it consists of
+separate maven modules for each language
+so this is the the package view just as
+an overview for you there's some course
+there is a core module because most of
+the stuff that PMD does this is core
+functionality and then there is an
+extension maven module per language and
+we will just talk about the epics module
+but I I suggest I recommend if you want
+to get started and want to see what
+rules are look into the Java world
+because in Java there is there are so
+many road rules let me just go back to -
+to my browser I just want to show you
+and that's the documentation of of PMD
+and I think there is here in
+language-specific
+Java code metrics now there is another
+page I have I think I already bookmarked
+it yeah there's there are tons of Java
+rules which which also might be helpful
+in the Salesforce epics world so when I
+did ported them I basically took the
+Java code and made it run in Apex and
+then I looked does it work in this world
+and in the most cases it did so if you
+want to get started and you don't want
+to start with the simple rule maybe take
+a complicated Java rule and just try to
+port it okay let's go back
+to my IDE I will switch into the project
+view to just show you the the structure
+there is a source folder and this is the
+only thing that's interesting to you
+there is a I say all the maven projects
+have in main they have does the source
+code the production code and then tests
+they have the connected tests so let's
+go into main Java and then here we find
+the lang folder and then finally there's
+Apex and this is basically the only
+folder structure that you need to
+understand all the rest is is complex
+Java package names but all the meat is
+in here there is a LAN folder which is
+for all the rules and there is a CPD
+folder which you basically can ignore
+but it's good to understand that CPD is
+for copy and paste detector PMD contains
+a separate tool which is not connected
+to rules in it stuff like that which can
+compare files with each other and find
+stuff that looks very similar so and you
+can read it up in the documentation and
+it's it's not connected to the to help
+PMD runs with rules but CPD is
+interesting and it works for Apex so you
+can basically give him all the code of
+your interns and find out if they just
+stole code from from someone else and
+find out if if you have redundancy in
+the code ok but let's go back into the
+length holder and the LAN folder there
+is the ast folder and this is really
+core for understanding rules in or PMD
+in general and there are different ways
+you can analyze and find problems in
+programs there are tools like checkmarks
+I guess everybody every says first
+developer knows checkmarks it's a
+dynamic code analyzer but basically runs
+the code and then while it's running
+it's it's looking how it works a static
+code analyzer doesn't have any runtime
+behavior so it just looks at the the
+source files and how do you look at
+source files basically like a compiler
+and a compiler works in a way it takes
+the text file that you have written it
+takes out the irrelevant stuff and finds
+the chunks that are in there and then it
+matches those to a grammar which
+basically says after a German now and
+you have to have were yeah it's like a
+grammar and all the allowed words in the
+language they they correspond to its
+so-called ast node s T stands for this
+is the only University part in my my
+recording right now but you have to
+understand that and M when when it reads
+a source file into the system it
+basically recognizes stuff like braces
+or method names and all of those text
+chunks can can can can have a certain
+type and and there yeah and you can take
+a source file and create basically a
+tree out of its a tree so for example
+you have a method and you have a method
+subtree which you can expand and in in
+this subtree you have different
+statements and expressions
+so what PMD does when you give it a file
+or a bunch of files it it runs the house
+called and annoying I'm not it's not a
+compiler but it's a parser and then it
+provides you a tree which you can
+iterate over but all of those
+subtle things of compilers you don't
+have to understand them you just have to
+understand that a source file is
+converted into a tree and each node of
+this tree is of a certain type and this
+tree is called abstract syntax tree I
+don't know why it's abstract but it it
+models the syntax of a file and it's
+it's the form of a tree so there's a
+parent node with child nodes yeah and
+and those are the the ast nodes that
+exist in the apex language and this is
+not something I came up with this is
+really the the apex parser from the
+Salesforce guys around
+Josh Kaplan and yeah so you don't have
+to understand them you don't even have
+to open those classes but this is what
+you have so when you think I want a rule
+which finds out if the comments are
+really cool I just tell you there is not
+even an ast node for comments so just
+get rid of that idea in your head we
+have to live with what Salesforce
+provides us ok and I will later talk
+more about the ast metrics multi 5 just
+ignore it go into rule and the rule
+folder the rule package contains the
+rules that exist for apex right now they
+are grouped into categories for example
+there are design rules which tell you
+not to make big class is not to make too
+many public methods it's there's one
+thing which I like really most because
+it tells you if your code is really good
+covered with tests it's called
+cyclomatic complexity it really sounds
+like a PhD thesis but it's basically
+counting the different ways to the code
+and so this is I would say this is the
+most complex rule to understand so don't
+start with that but there are also very
+easy ones like avoid hard coding IDs
+and maybe we just look at this specific
+rule it's Java file it it has less than
+30 real lines and it's basically
+defining how doesn't say its first ID
+look like this is something very
+specific to this rule but important is
+others visit methods so if you want to
+understand how PMD works you have to
+check your patterns books and there is a
+pattern called the visitor pattern it's
+basically a a pattern to to to solve the
+problem how do you separate how you
+traverse a tree in a program and how do
+you process those tree nodes and this
+basically says okay I don't care about
+anything else in a in a epics files but
+when you visit a node of type literal
+expression this is not a very good one
+but there are ast nodes which are called
+method block this is more understandable
+if you meet a method on your way through
+the code stop and run what comes next
+and this is basically what's in this
+route
+what's in this simple rule it's it's
+it's stopping it's checking is it a
+string and if it's a string does it
+match the the hard-coded ID rule then
+just add a violation and this is how all
+other rules basically work and let me
+find another one and security rule epics
+crud violation a really complicated one
+which is checking and are you really
+checking if you can update a certain
+field when you do with the
+there's a ton of stuff but but when you
+look in the body of the rule it's just
+visiting nodes in this abstract syntax
+tree it's if it's if it finds a DML
+statement then check for crud if it's a
+DML delete statement look if it's
+deletable so so what it's doing it's
+basically telling you I'm interested in
+those specific parts and when you when
+you visit those parts let me check
+something and and you you do your tests
+and then you add a violation and PMD
+does the rest so just a for a short
+question into the life audience am I too
+fast or too detailed any feedback yeah I
+think we do it right on bigger than I'm
+just fine
+yeah all good all good very good so we
+will also have time for questions in the
+end so and so this is one part but
+before I dig deeper I I want to leave
+code and show you a tool that helps you
+in connecting all those pizza bits and
+pieces there's something called the
+designer which is part of PMD and it
+helps you understand for a given source
+file which ast nodes do I have so just
+take your IDE or do it on the command
+line and in Java call this class it's
+it's called see sila and a package PMD
+utils ethics designer and when you run
+it it opens a small tool where you can
+do exactly that it takes a while just to
+start
+but I think after that everything will
+be quite clear so this is the PMD rule
+designer it works for every language
+there's a select box here and you
+basically switch to Apex 35 it will
+always be 35 so we don't PMD doesn't
+take care about different and yeah we we
+don't update to the latest compiler all
+the time so just this might be a thing
+so and then maybe I just remove this
+code this is I think this is a Java
+class but when I click refresh a is T it
+does what I told you it's it's parsing
+that source code and it's presenting you
+on the right side the abstract syntax
+tree and when you collapse and collide
+everything you see why it's called a
+tree so at the root node it's a user
+class it has inside a nested method and
+it has a few other methods that you
+don't see just don't care about them
+this is C L in it is basically a hidden
+default constructor that you can't see
+same with clone let's just look at this
+simple method yeah it's a method node
+and on the left side you see nodes can
+have attributes this this rule design is
+not showing all attributes that exist
+it's just showing some of them but for
+example it tells you when does this
+method where does it begin in which line
+and is it abstract so when I make this I
+don't know public void method method I
+think it will add some attributes here
+but but it knows that it knows that so
+just think about you want to write a
+rule you want to detect a certain
+problem just
+paste in the problematic file here and
+look at the ast and then you've got a
+feeling okay what what what do I have
+which information does the the
+successful parser give me and then you
+can work in code and extent that the
+rule designer is also the perfect place
+for even simpler rules you have two
+options in PMD you can write Java based
+rules for the complex stuff and you can
+write so-called XPath rules because this
+episode is indexed we will also be
+available as XML structure and you know
+XPath is a way to navigate xml
+structures so i maybe I can just shortly
+show you that I didn't well prove
+prepare that but let me just look for an
+XPath rule in in the system one that
+very easy one not that many easy rules
+oh that that's not even a pecs
+so figure out so yeah where do we find
+where do we find the XPath rules I
+showed you where and java-based fools
+are located but I also have to show you
+whether the XPath rules are there's a
+different folder
+it's called resources because exposed
+rules are in XML and it's basically in
+the rule set files themselves you know
+the rule sets define which rules are
+available let me just open open and a
+rule set a rule set is a XML structure
+which same we have different different
+rules there are some some rule
+definitions which point to a specific
+class
+there are others which have like this
+XPath rule an XPath expression which is
+basically the hope to full rule this is
+saying when you find an area load
+expression and within it a trigger
+reliable expression then we have found a
+problem and and whenever you create a
+rule you also have to find decide in
+which rule said it should it go is it a
+code style rule is error-prone problem
+is a security issue and then create such
+a snippet and if it's an XPath rule you
+can basically put in everything here you
+don't need to write any source code any
+java code or like with the one that I
+showed you in Java right now the avoid
+hard coding ID you have to give it the
+class name of the Java rule for every
+rule you you have to give it a small
+description will which will
+auto-populate the the website
+description of the rule that there
+should be an example showing this
+problematic code and yes good let's
+let's just go back to such a rule so how
+do you get started and to get started
+you don't need to play around in the
+command line you don't need to upload it
+you can really just get your PMD fork
+into your IDE and work with tests
+because P and D has a perfect way to
+test rules without ever hitting the
+command line you don't even have to give
+it code in the command line you can do
+everything in your IDE and I will show
+you where you find that it's there there
+was this main
+folder there's also this test folder and
+and for each category there is a J unit
+rule but it's basically empty it's it's
+adding it's it's basically just
+referencing an XML and in the XML there
+is the whole definition of a rule test
+so let's just go there that's just no
+that was not the right thing APICS lang
+rule coding style let's just go and to
+avoid hard coding ID so instead of
+writing unit tests in Java you you
+basically just populate an XML document
+so let me just show you a single test of
+the avoid hard coding ID rules you see
+there are those I know it's a little bit
+ugly from the formatting but I think you
+get the point so this is test data just
+ignore what's on the top there is test
+code we are testing the avoid hard
+coding ID and what are we testing here
+we just put it in the description then
+we say the code that follows should
+produce one PMD problem and then we have
+code you see there is a public class
+pool and indeed here there is a
+Salesforce ID and that's it and then you
+have many more of those test examples so
+when you create a new rule a new Java
+rule what you need to do is create a a
+rule Java file you need to add it to a
+rule set to make it to make it available
+to PMD and then you need to provide some
+sensible test cases in those and just
+XML
+well and then when you have it you
+basically go into the into the container
+J unit test class of debt and category
+and run it so let me just let me just
+run that file so I'm just running the
+code style tests and it takes a while
+and then you see so it's basically you
+see the codes that there are many many
+tests and they all work perfectly so
+maybe we should come to the okay maybe
+just what happens then when you when you
+find really good that you have a rule
+that is running on your system you
+should all always also download some
+some bigger and Salesforce repositories
+from github and try it on their code but
+when you have that how do you get it
+back how do you even make it available
+to the guys who maintain PMD so let me
+just in the last five minutes before we
+do some some Q&A go back into my browser
+PMD is a very active repository but
+there are three guys that you should
+know the names of I'm not a PMD
+maintainer so whenever I do anything
+when I fix anything I have to do the
+same that I'm telling you to do but just
+keep those three names in mind there is
+this guy from Munich and he has Lana I
+think he's doing PMD for I feels like
+the last five years there's this guy one
+from I think from Argentina yeah and
+this this french guy Klimov and they
+basically they they make it fly they
+they don't they just care about the core
+of PMD but if somebody if you want them
+to accept something you have to please
+them so and how do you please them um
+yeah there are grades so you don't have
+to please them they they love the
+Salesforce extension of PMD so what you
+then do you basically open an issue in
+the real PMD not in your fork you open a
+new issue and basically say I want to
+add an apex rule um and can you assign
+this issue to me and then they say yeah
+did you think about that and then you
+basically you are in so that's all you
+need to do evil even if you don't
+contribute maybe you just find a problem
+PM DS is mentioning an issue which is
+not so maybe it's just a buck just open
+an issue say hey I'm I'm John from us I
+want to contribute to PMD and you yeah
+there is no formal acceptance they were
+just basically we tell you hey that's
+cool and I opened this issue that you
+will fix that bug or at this new rule
+and then everything's good and then what
+you do you basically take your fork and
+you you you commit and push into your
+fork and then you you basically say I
+make a pull requests please merge it in
+and then you connect it to the issue you
+just open so then know what you are
+really contributing and that's it so
+it's it's open source they don't quality
+test they will not download any
+Salesforce repository and run your stuff
+on it PMD has millions of tests and they
+will not exist accept any pull requests
+if you don't provide decent tests but if
+your test run that's that's perfectly
+fine they will always also contact
+contact me because I'm like the the
+middleman between the Salesforce
+ecosystem but there's not a lot for
+formal things
+that you have to keep in mind just make
+something work in your a new local
+system and then create a pull request
+and then we talk and then it's in so
+good and I think that's it maybe we
+should thank you Robert
+there are a few questions on the chat
+could you have a look at them please
+sure and let me see where is the chat so
+yeah oh yeah actually we should probably
+prompt Robert with the questions from
+the track just so you can focus on the
+answers one of those is basically how
+would we start up a new language so
+let's say we want to analyze metadata
+but we pushed our organisations and want
+to have all metadata have help text and
+descriptions or we want to start to have
+rules for lighting component development
+which is somewhere in between javascript
+and lighting components so how would we
+go down that path it's this you sound oh
+yes okay yeah and I would recommend not
+to start with that because adding a new
+language is a bigger thing you you would
+have to find because um you first have
+to find a parser how do you parse um
+like encode or metadata and then
+immediately the question will come up we
+already have a JavaScript PMD language
+module or an XML language module so I
+would say you can do it and you should
+do it and I would love to see you do it
+but my real recommendation is do it
+after you created a few Java based rules
+for apex fair enough thank you yeah but
+you you definitely can do it and and
+maybe just one one anecdote and the when
+I I presented PMD unless Dreamforce and
+immediately after that I was a party in
+Berkeley it was not connected to
+Salesforce and at this party I met a guy
+from from from Salesforce working at the
+security team and they said yeah and
+Tech marks is often is good but very
+expensive and they immediately jumped in
+and said we will provide rules for the
+security audit and and they many of the
+the rules that are for security day they
+need to know what's going on and
+visualforce and i said oh this might be
+hard and he it took him a weekend to
+make a language module for visualforce
+and visualforce is it's not HTML it's
+not JSP so
+sundar it's it's absolutely feasible to
+add language modules and I think that's
+a very good idea but um maybe maybe
+start getting mmm feel comfortable and
+in this whole arena of of creating pull
+requests and what those guys ask ok good
+so what else and I see a question from
+Danielle and do we have to fill out all
+those XML stuff for rules yes you do and
+when people ask me about PMD on Twitter
+and even those great IDE people from the
+Welcome Swede or Scott from aluminum
+cloud they always ask me about which
+rule set which rule set the rule set not
+only defines which rules exist it also
+tells you if if we have an issue is it a
+big issue or what should we do and PMD
+always comes with the default rule set
+and yes you as a rule designer have to
+find some decent defaults for your rule
+you have to describe why it's needed you
+have to give some some clues
+problematic code because the PMD
+maintain is when they make a release
+they also update their documentation
+site so everything you you come up with
+also needs to have some documentation
+aspects so you definitely need to do
+that as a question so I just I'm sorry I
+study I just looking at the what what's
+a nice rule excessive length rule which
+is my first candidate I wanna port to do
+visual force and there is two things
+which I wonder so one is this obviously
+note has a few interesting parameters
+like it begin line and get end line but
+then there is a data point in there so
+the class doesn't raise narrower but it
+adds a data point what can you put me to
+the rule and I don't know where it is
+the design excessive length rule in the
+apex oh yeah right right yes there are
+and to be honest i when i ported from
+java to p2 to apex
+I often just simply used what was there
+in Java but the rules have different
+base classes and there are those
+statistical rules so you basically have
+to to look into those abstract base
+classes what how they work and this this
+guy from France Claymore he recently
+added to PMD a metrics framework so
+instead of every rule is is doing its
+own stuff counting columns and whatever
+he basically gave PMD a framework for
+collecting all of this stuff and those
+data points I think they are part of the
+metrics framework so this is something
+you really have to dig in and
+to the people you can always if you say
+you want that mention me I will pull him
+in but right now at this point I have no
+clue what the data point is but I guess
+the data point is just for collecting
+stuff and at a different place I guess
+in the abstract based class maybe there
+you have a code snippet which says okay
+what's the threshold of this specific
+metric when I'm collecting data points
+and I come above this threshold I've
+hired the violation so sometimes you
+don't see the ED violation in the rule
+itself you find it in the base classes
+okay which which leads to an interesting
+second question is I think the you're
+faced when I look at the challenge of
+getting getting visualforce rules is one
+part is writing them but the I think the
+more interesting part is defining what
+what are things we want to watch out
+what would your suggestion be to collect
+it because eventually people who know
+what to watch out for in visualforce
+might not necessarily the people who
+then implement them yeah this is I think
+it's not a good answer but and when I
+see people on Twitter asking for rules I
+basically think and my guess is open
+source if you don't write it it will
+never exist until sun and earth collide
+so so words not you need we will be the
+person who writes it and when it comes
+to visual force I guess even the parser
+that the guys from Salesforce have
+written is really very basic so maybe
+someone would have to create a steam
+nodes for it I wouldn't mind writing a
+few rules let's say I'm coming from from
+a Java and a node background so my
+visual forces is still a little bit
+rudimentary and I have
+no intention to make it strong ingles I
+rather live in a lightning world because
+it's much more painful than the saddest
+messages but I say if somebody says hey
+look these are the 10 things I want to
+watch out for I actually might be
+inclined as it okay for the sake of
+learning I'm gonna implement it so sure
+what what we good place should we go and
+put the rule ideas directly in the PMD
+PMD repository or should be style you
+can do that
+wait you I told you not to put agenda in
+there because they don't care about
+what's going online that's that's what
+you need to understand this I hear a
+clicking noise who's that okay it's gone
+so um this is a huge open source project
+and they don't want to watch us thinking
+so if you if you put an issue in there
+it should be of the kind I will work on
+that could you please just assign this
+to me so I can discuss with people so
+when you think there would be
+you have a good Google idea you can
+create an issue there and then basically
+pull everybody me and the others in the
+talk just in there but there are no
+people in the PMD universe who can
+really give you answers there's not an
+expert any more for those visualforce
+rules this guy who wrote all the
+visualforce rules
+he left Salesforce he's now working for
+Apple and so um do you get my point and
+so I was wondering one of the things
+what we could do is like say the pest
+RNA to to go on a discovery tour and
+come up with a set of rules that should
+be implemented and then we can decide I
+would like to know what what rule ID is
+you have any you as an everybody
+listening to this talk and then we can
+arrange
+not that we end up ten people start
+riding rules and then we realized that
+five of us wrote the same one yeah but
+actually this is this is a luxury
+thought because from my experience in
+the since I did that nobody was
+everybody was interested and told me
+yeah we'll look into it and then nobody
+contributed so I would rather like to
+live in a world where you and Sandor and
+and Christian are writing the same rule
+and we can just combine them and and so
+this will not happen this will this will
+not happen and we have many channels to
+just discuss that we can just make a
+Twitter world or whatever I think that
+let me go back to the question - okay
+who else has questions can maybe just oh
+yeah John I see a lot of questions maybe
+yes I had a quick question you had
+mentioned that there's one rule where it
+exams the code for hard coded record ID
+and in general yes that's a that's a
+wonderful thing we should not be hard
+coding IDs but especially if we go
+beyond a text code and and if we are
+able to branch out into larger things
+like say workflows or something like
+that for example there are some times
+when there are hard-coded IDs of the org
+ID sure those are valid those are valid
+instances where an ID should be in the
+the metadata code how do you how do you
+craft a rule that does a general review
+of the code but there are it also
+manages exceptions to the rules how do
+you how do you deal with exceptions to
+the rule
+I mean how the rule is just code and and
+code can can can fire rocket to the moon
+it can be a world so so it so it's in
+the rule
+if if you if you want to allow certain
+kinds of hard-coded IDs for example if
+it's a private test class if it's a test
+class such as these are okay you
+basically while traversing this abstract
+syntax tree you you look for clues if
+this is such an exception so with code
+like if you yeah let me let me look if I
+have a code style there are certain
+rules where I'm not sure if I can find
+one performance avoids Sacco and loop
+yeah like avoid subtle in loops and oh
+I'm in the wrong folder
+I mean circle is okay but not in loops
+so this this is this is such an
+exception let me just fill in the wrong
+folder it's really a deep package tree
+it's like the opposite of a pig's org
+you have no packages all 200 files in
+one folder and here it's it's basically
+more folders and files so what did I say
+about loops yeah
+chuckling loops so how many ast visit
+methods do we have a software expression
+but do we do we dislike circle
+expressions no only if there are in
+loops and yeah then basically this is
+the exception if inside right loop node
+or parent does not return or not for
+each and then we I have small extra
+methods which basically find out am I in
+the loop and I should not check my
+immediate parents I should also look for
+grandfathers and yeah and this is why we
+have this
+here and yeah yeah good who else France
+Ukraine Germany Christian I think it's
+we need to to try it a little bit to
+really understand how writing all works
+and we will come back later with
+question but so far or no I say again
+sorry are you sitting in the same
+location no no no Sanders is not on the
+same office right now and Fabien I think
+he's in Paris right okay
+it was just showing me that you both are
+speaking okay so me for me it would be
+interesting how you get the Salesforce
+guy writing already a lightning linter
+as though they pausing already your code
+or at least the JavaScript part of the
+code how you get a lightning team to
+contribute an ASC for like the
+components I
+I'm quite short day when I need to go
+here because my battery's low I just
+look at my my teammate Tom's it okay for
+you if I okay good it's I just switch my
+video back on so I'm not sure they will
+and they didn't even did build something
+special for next we what under Shaw I
+idea why should I write my own
+Parsa when when there's the fourth IDE
+and inside the force ID either
+be some kind of parlor because nose
+methods and stuff so we basically asked
+them can we use it and they helped me to
+understand it but when it comes to
+lightning I would I would rather doubt
+it because I think for untyped languages
+like like JavaScript linters might be
+the better tool because yeah you get my
+point Kristin and definitely definitely
+I mean I'm not even even sure if winters
+work the same way if they read I'm not
+sure because I knew that PMD was also
+yeah I will see if I get someone who
+gets the commitment but because I knew
+that PMD was also ported to flex once a
+days and I when I'm not completely wrong
+they had a also parser for the M XML
+markup which is very similar I mean
+Adobe flex now the early days have been
+very similar to what like the component
+is nowadays so you have a markup art
+guys and you have a logical part of them
+scribe sorry
+oh I think Robert is gone no I I came
+here for the last minute or so okay yeah
+and did you get my answer yeah I mute
+all about that linting would be the
+better option for untapped languages ass
+yeah and I don't know much how linting
+works but but the fact that there's this
+strange and different word linting
+versus static code and I think in an
+untyped world code and analyzes might be
+different
+so I don't know but maybe I can chip in
+a little bit there so so when when you
+look at what the what self was is doing
+this they won't be in Salesforce IDU
+version 2 so there was a better but that
+has been abandoned
+moving forward they're currently bet a
+little bit on Visual Studio code and the
+main reason for it that we should study
+code talks with the back end using the
+language server protocol and it's
+something that came out of Microsoft
+research and our our star ID is like
+eliminated cloud or the welcome suit
+they are free to talk use the same
+language server api a protocol to talk
+to the piece that Salesforce has
+provided to then run through the
+language it creates its it's a little
+bit instead of having is having a static
+ast file it's more dynamic one so you
+the editor or the analyzer calls the
+language servants and say I got a piece
+of code and the language server comes
+back with all sorts of information so
+and but the tendency would what I see in
+Salesforce is that the or anything
+front-end edit or IDE testing linting is
+all around JavaScript so they're they're
+not
+not keen on extending Java into the
+front-end world anymore it's it's
+confined to the platform itself so
+moving forward what we can actually sit
+back and watch until somebody has an
+itch because this language server is for
+top net it's for Java it's for goal or
+whatever until if somebody goes and
+writes a module for PMD to be able to
+talk to a language server and then they
+can piggyback on that we thought and
+finally they decided and there was a
+long discussion I that was my plan M and
+we had ongoing discussion we are right
+now using the parser which is part of
+the language server and like a few
+months before we use the the first
+outcome IDE jar and now we are using a
+different jar because this is updated
+whenever the language is updated but PMD
+and also the PMD maintainer stay said we
+we never want our tool to need an online
+connection to connect to some magic
+server so this is this this is where PMD
+will not will not be available so the
+PMD main tenors will always say no to
+something like that it should always be
+a local command-line tool and there
+should not be tight coupling to to such
+a language server so my my gut language
+service is actually not something that's
+online that's a process that runs on
+your machine ok ok but we should find
+out we should find out and I think this
+first doesn't care much about those old
+languages like apex and visualforce so
+they will provide good tools when it
+comes to lightning and but when it's
+about ethics we have to find our own
+tools so the Daniel asks about suppress
+warnings no I just I
+for this this was the answer to John's
+question like how do you make exceptions
+to that oh yeah now I get and here's a
+from from the latest apex compiler you
+can send you can use to suppress
+warnings annotation to send messages to
+PMD what to suppress and what not that's
+what I was about to point out yeah
+that's right yeah that was it wasn't it
+wasn't just salesforce allowing this
+annotation it was it was long half-year
+discussions if they can introduce this
+so it took me a wire to to convince them
+to allow suppress warnings oh this is
+amazing actually thank you for that yeah
+it's really helpful to use it will just
+reject we just rejected in the past in
+the past he could add any annotation
+like I don't know
+Oktoberfest would work you could save an
+Avox file and and then I just made rule
+suppression work with that and then they
+can really high person contacted me and
+said you break our new compiler if you
+leave that in we cannot roll out a new
+compiler would you be so kind and
+removed it from PMD I was I was close to
+asking okay how much money do you give
+me but then I did it and after I I think
+half a year they said and we don't build
+it back in you can use it so so what
+other questions do we have maybe we can
+is there anything I also so even out
+maybe we should stop the recording and
+and talk just talk and I don't know I go
+I got one question for the recording and
+that is are you going to write up a blog
+about this as well this will be posted
+to the community yes
+is I I'm not going to write a blog post
+because I'm I don't want to write I I
+will I will commit some talks to dream
+for us
+if my boss pays the flight but and I
+don't want to write about I'm not a
+blogger but I'm right here
+I hope that we will know that's why John
+you are recording this I I want to want
+to share this and I'm I'm also it's not
+about time I I love if people call me
+and say I need you help me write this
+rule and I do it and I did it in the
+past but I just don't want to write I
+don't know
+I'm talking alright good morning
+oh there were too many people talking
+yeah so I'm gonna say let's stop the
+recording now and I just want to say
+Robert thank you for doing all this sure
+that I certainly learned a lot so
+alright
+you

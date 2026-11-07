@@ -1,0 +1,185 @@
+{
+  "id": "conference-program-czechdreamin2022brochure-pdf",
+  "url": "https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf",
+  "source": {
+    "url": "https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf",
+    "role": "about",
+    "kind": "conference_program",
+    "evidence": "Lists Robert's session: As a Salesforce Developer I will – 7 Ground Rules for Success.",
+    "slug": "conference-program-czechdreamin2022brochure-pdf",
+    "title": "CzechDreamin 2022 — conference programme"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:50:09.927332+00:00",
+    "final_url": "https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf",
+    "content_type": "application/pdf",
+    "status": "partial",
+    "raw": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "text": "#CD22\nCzechDreamin 2022\nTechnical Conference about Salesforce\nMay 27\nPrague Congress Centre, Czech Republic"
+      },
+      {
+        "page": 2,
+        "text": "#CD22\nWho are you?\nHow many people do \nyou know here? (not \ncounting your company)\nProcess Builder \nor Flow?\nHow many other SF \nevents did you visit \nbefore this one?\nYour travel time \nhere was….\nWho paid for \nyour ticket?\nIs this your first \nDreamin event?\nYour work\nexperience\nAttendees quiz statistics\n"
+      },
+      {
+        "page": 3,
+        "text": "#CD22\nWhat did the audience say about us….\n“This was my first Salesforce \nconference. It was a great \nchange of work routine and \nevery talk gave me some \ninformation to think about.”\n“Loved seeing everyone again. \nPrague is so beautiful. Loved how you \norganised stuff around the \nconference. Loved the content, and \norganisation. The food was amazing. \nBest thing was the tea station. They \nwere so lovely and the tea amazing”\n“Great memories and seeing a lot of \nlovely people.. + great set of \nsessions, brilliant speakers + \nbrilliant selection of food and drinks \n:)”\n“The best community, \nknowledge and networking in \nthe SF environment in the \nCzech Republic :-)”\n“New trends, \ninspiration, \nnetworking”\n“Did you think about \nmaking this a \ntwo-day event?”\n"
+      },
+      {
+        "page": 4,
+        "text": "#CD22\nSee all photos here"
+      },
+      {
+        "page": 5,
+        "text": "#CD22\nDiamond Sponsors\nPlatinum Sponsors\nSilver Sponsors\nGold Sponsors\nEntertainment Partners\n"
+      },
+      {
+        "page": 6,
+        "text": "#CD22\nAlex guided us through the next generation of automation tools in Salesforce, integration between flow and Slack. How the \nnext generation apps should be composable from multiple elements, how UnofficialSF.com is here to help with extending \nthe flow capabilities with additional features, about Flow Orchestrator to connect multiple users in multi-steps workflows, \nautomatic testing or best practices.\nAlex Edelstein - Keynote speaker\n"
+      },
+      {
+        "page": 7,
+        "text": "#CD22\nProcess Automation Revisited: From Chaos to Structure\nPaweł Dobrzynski (@PDobrzynski)\nThe tooling Api demystified, It is not only for developers\nDoria Hamelryk (@doriahamelryk), Fabrice Challier\nWhat (and why) Admins need to know about Unit Testing\nJulio Fernandez (@julipool) & Dorian Sutton (@dorianDBass)\nEverything You Need To Know About Dynamic Forms \nChristine Marshall (@ChrisieMarshall)\nPanorama\n Hall"
+      },
+      {
+        "page": 8,
+        "text": "#CD22\nApproach Reporting Like Never Before: The Ultimate \nGuide to Report Types, Evan Ponter (@RealEvanPonter)\nSpeed up your Org with Before Save flows & Platform events \nNarender Singh Singh (@Nads_P07)\nAdvanced Reporting Tips And Tricks For New Admins, Aaron \nCrear (@aaroncrear)\nClosing keynote with Cesko.Digital – Changing Czechia for \nthe better through ones and zeroes \nMartina Habova, Kristyna Turner\nPanorama\n Hall\n"
+      },
+      {
+        "page": 9,
+        "text": "#CD22\nThree pillars and Seven specializations – Product \nDevelopment Outsourcers Program in a nutshell\nJakub Stefaniak\nSalesforce DevOps Maturity Matrix\nAnna Walach\nCombining EDA & API-led Connectivity through MuleSoft for \nintegrating Salesforce with multiple ERPs\nMarcelo Caponi\nWhat I have learnt from org merges?\nRobert Szerencses (@RobiSzerencses)\nClub A\n Architects\n"
+      },
+      {
+        "page": 10,
+        "text": "#CD22\nBeyond the Customer: Salesforce in better Talent \nAcquisition & Engagement- SF Einstein & Analytics way!! \nMohammad Eusuf Daud (@medaud1)\nDatabase periscope: an alternative to custom fields\nIgor Chtivelband\nTackle Your Everyday Business Problems Like an Architect\nMelissa Shepard (@lissa0977)\nUsing Heroku to elevate the potential of Salesforce development\nMatteo Iacucci\nClub A\n Architects\n"
+      },
+      {
+        "page": 11,
+        "text": "#CD22\nIntro to the Nonprofit Success Pack\nTrish Perkins\nTop 5 tips to get your data squeaky clean\nAndre van Kampen (@AndreKampen)\nBusiness analytical craft in context of Salesforce implementation\nJan Zámostný\nIs a Hamburger a Sandwich? Architecting a Salesforce App\nMelissa Hill Dees (@melissahilldees)\nClub B\n General\n"
+      },
+      {
+        "page": 12,
+        "text": "#CD22\nLessons from implementing Salesforce Industries / \nVlocity in Insurance \nJiří Krám (@jiri_kram)\nRecurring Revenue: Custom pricing models against \nstandardized billing tools\nMichal Mach\nBuild your own custom predictions using Einstein Prediction Builder \nPratyush Kumar (@Im_Pratyush)\nIoT Accelerator for Salesforce\nJan Malý, Michal Skrbek,\nMichal Bilíček, Charlie Isaacs\nClub B\n General\n"
+      },
+      {
+        "page": 13,
+        "text": "#CD22\nReal-time personalization at scale by Salesforce CDP & Interaction Studio\nEkaterina Obolenskaya (@EkatObolenskaya) & Samuel Liska\nReal time marketing with Salesforce Marketing Cloud\nAnastasiya Penska\nBeyond Marketing Cloud Content Builder–Content Builder Block SDK\nJakub Lysáček\nSFMC Customer Journey Case Study: How to scale a project for \nthe global leader in the automotive industry\nKristýna Turner \nClub C\nMarketers\nKnown and unknown Salesforce Marketing Cloud limitations… and \nsome workarounds ;-)\nCyril Louis (@cyril_louis)\n"
+      },
+      {
+        "page": 14,
+        "text": "#CD22\nDon’t become your subscriber’s nightmare\nVáclav Radoň & Matěj Zima\nAll about Salesforce certifications: Are they worth it? \nTomáš Hnízdil\nDesign in the wild! A look at Salesforce Designer in their natural habitat\nKatka Vokrinkova\nTalent Development in Central and Eastern Europe\nKaterina Jandikova\nClub C\nMarketers\nSkills for Success: The Skills Every Admin Needs to Succeed in \nTheir Career\nMark Jones (@thisismarkjones)\n"
+      },
+      {
+        "page": 15,
+        "text": "#CD22\nManaging Complexity in Salesforce\nDavid Felkel\nHow to migrate to Apex Enterprise Patterns? \nDavid Fernandez\nBuild your apps everywhere with Lightning Web \nComponents Open Source \nFabien Taillon (@FabienTaillon)\nStart Building Slack Apps for Salesforce Now, \nand what the Future Holds, \nTodd Halfpenny (@toddhalfpenny)\nClub D\n Developers\n"
+      },
+      {
+        "page": 16,
+        "text": "#CD22\nFraud detection using Chatter Connect ÀPI and Einstein\nAbhishek Kolipey (@AbhiKoliK)\nSFDX – Myth Buster\nSvatopluk Sejkora (@SvataSejkora),\nModern JavaScript: Explain it like I’m an Apex developer\nEdith Valencia-Martinez (@edith_mxuk)\nClub D\n Developers\n"
+      },
+      {
+        "page": 17,
+        "text": "#CD22\nHaving serious fun with lwc-datatable and Large Data Volume\nChristian Knapp (@ch_sz_knapp) & Christian Menzinger \n(@chris_menzinger)\nHow to work with risks in Salesforce projects?\nTomáš Holý (@enehanosolution)\nAs a Salesforce Developer I will… – 7 Ground Rules for Success\nRobert Sösemann (@rsoesemann)\nRun End-to-End Tests with the UI Testing Model (UTAM) \nPhillipe Ozil (@PhilippeOzil)\nClub E\n Developers\n"
+      },
+      {
+        "page": 18,
+        "text": "#CD22\nWhat is Wrapper Class and How to use it with LWC\nOleh Mykytyn (@Oleh_Mykytyn)\nSalesforce CI pipelines demystified\nMariia Pyvovarchuk\nCode quality and its business value\nNikita Belov\nClub E\n Developers\n"
+      },
+      {
+        "page": 19,
+        "text": "#CD22\nDiamond Sponsors\nPlatinum Sponsors\nSilver Sponsors\nGold Sponsors\nEntertainment Partners\n"
+      },
+      {
+        "page": 20,
+        "text": "#CD22\nEnehano (Diamond sponsor)\nEnehano Solutions is purely Czech Salesforce \nimplementation partner. We focus on finance, \ntelecommunications, transportation, scalable startups, and \nutilities customers. Since 2022, we have been the \nSalesforce Summit Partner and have also been awarded \nSalesforce Rising Star for 2018.\nEnehano is celebrating its 6th birthday this year and has \ncustomers in CZ, SK, DE, USA, and the Nordic region.In the \nEnehano team, more than 80 professionals have over 170 \nSalesforce certifications. We have already delivered more \nthan 45 implementations for all types of clients. We entered \nthe Slovak market in 2021. We solemnly opened our new \nbranches in Bratislava and the same year in Brno.\n"
+      },
+      {
+        "page": 21,
+        "text": "#CD22\nPwC (Diamond sponsor)\nPwC Customer Technology is a leading IT consulting \ncompany specializing in implementation of innovative IT \nsolutions in the area of Customer Experience and Customer \nRelationship Management (CRM). The team consists of \nover 400 specialists who have successfully completed \nimplementations in Poland, Germany, Great Britain, France, \nUSA and South Africa.\nPwC CTech also offers its own suite of products specialised \nfor telco, media and financial services industries in both \non-premises and SaaS in the Cloud models.\n"
+      },
+      {
+        "page": 22,
+        "text": "#CD22\nCode Scan by Autorabit \n(Platinum sponsor)\nCodeScan is a static code analysis solution that provides \ntotal visibility into code health throughout the DevOps \npipeline.\nCodeScan enables DevOps teams to maintain high quality \ncode and avoid costly errors that can create data security \nvulnerabilities. Built-in rules and standards support speedy \ndelivery, compliance, and reduce technical debt.\nThis user-friendly tool is compatible with multiple coding \nlanguages and supports popular IDE plugins. Integrate \nCodeScan directly into AutoRABIT’s CI/CD pipeline to boost \nproductivity with automated code reviews.\n"
+      },
+      {
+        "page": 23,
+        "text": "#CD22\nGetFeedback\n(Platinum sponsor)\nGetFeedback is a powerful yet agile CX platform that \nempowers organizations to move at the speed of today’s \ncustomers.\nWith GetFeedback, organizations can listen to customers \nacross all channels, seamlessly connect feedback and \ncustomer data to uncover insights, and drive action \nacross teams to improve the customer experience.\nGet up and running with GetFeedback in days, not \nmonths – without having to hire a team of consultants. \nEnable your team to focus less on technology and more \non what matters most—your customers.\nCheck recording of their demojam\n"
+      },
+      {
+        "page": 24,
+        "text": "#CD22\nhutte.io (Platinum sponsor)\nCollaboration among Salesforce Admins and Developers \nwhen adopting SFDX can be painful and time-consuming.\nWith Hutte.io Salesforce Admins can create, make changes \nto and synchronize from Scratch Orgs to the git repository \nwithout the need of a Developer. Everything with the click of \na button and fully web-based.\nAdditionally, increase your team’s performance by simply \naccessing anyone’s Scratch Org inside Hutte.io and our \naward-winning progress overview.\n"
+      },
+      {
+        "page": 25,
+        "text": "#CD22\nProdly (Platinum sponsor)\nProdly enables Salesforce teams to increase productivity 65 \n– 80 % while reducing risk up to 30 % by putting \nnext-generation DevOps into the hands of admins and \ncitizen developers. By reimagining the change management \nexperience, Prodly’s AppOps suite delivers greater business \nagility and governance without straining IT. With solutions \nfor release management automation, version control, \nsandbox seeding, data migration, and regression testing, \nProdly AppOps sets the standard for low-code DevOps and \ncan be implemented 20 times faster than traditional \napplications.\nProdly powers change management workflows for \nhigh-growth and Fortune 100 companies, including Cardinal \nHealth, Nutanix, Johnson & Johnson, Splunk, and Verizon. \nThe company is privately-held and based in Palo Alto, \nCalifornia with global operations. For more information, visit \nprodly.co.\n"
+      },
+      {
+        "page": 26,
+        "text": "#CD22\nClouderia (Platinum sponsor)\nClouderia provides CRM consulting and implementation \nservices for companies of all sizes to improve their \nproductivity and profitability.\nOur team has successfully delivered over 120 \nSalesforce.com projects with 10k+ users since we \nestablished our first cloud practice in 2010. With our proven \ntrack record in delivering Salesforce.com solutions, we \nbelieve we are ideally placed to partner with you on your \nCRM projects.\n"
+      },
+      {
+        "page": 27,
+        "text": "#CD22\nAccenture has established its strategic \nappliance partnership with Salesforce more \nthan ten years ago. Now we have more than \n16,000 consultants who deliver Salesforce \nimplementations for more than 1,100 \nbusinesses. Accenture is also a top Salesforce \npartner for CEE. Our Salesforce Danubia team \n(CZ,SK,HU,RO) has over 100 team members.\nWe implement Salesforce solutions for both \nlocal and global clients. Our Salesforce team \nmembers obtain first grade training support for \nSalesforce trainings and certifications.\nAccenture (Gold sponsor)\n Brighten Evo (Gold sponsor)\nWe are a young and growing Czech company \nwith global delivery experience. We have a \nteam of over 20 internal experts in our HQ in \nPrague, growing offshore development office \nin Philippines and we’re part of Brighten family \nwith great support of other 40 top consultants \nin the field of CRM, Marketing Automation, \nCustomer Identity and Integration. We focus \non mid-sized companies to large corporate \nclients.\n"
+      },
+      {
+        "page": 28,
+        "text": "#CD22\nflair is the flexible & customizable HR platform \nfor Salesforce that aligns all employees & \ndrives growth through efficiency. We‘re \ncreating a tool that gives you a powerful set of \nfeatures for managing your HR department \nwhile allowing you to entirely tailor it to your \nown needs.\nWe believe great companies need to nurture \nwhat sets them apart — their culture, \nprocesses, and their people. With flair being \nyour holistic HR solution, you don’t need any \nfurther software in this department.\nflair \n(Gold & Ice Cream sponsor)\nNubes tech \n(Gold & Drinks sponsor)\nNubes tech is Czech based salesforce partner \nfocusing on professional services for \nenterprise customers and international \nprojects.With focus on B2B commerce, \nexperience cloud and platform we are \ndelivering solutions around the globe.\n"
+      },
+      {
+        "page": 29,
+        "text": "#CD22\nRevenue Grid is the first-to-market Revenue \nIntelligence platform that covers the full \nrevenue cycle with the most comprehensive \nset of algorithmic Guided Selling capabilities. \nRevenue Grid uses complete customer \njourney data and sales teams’ unique \nprocesses and playbooks to create a dynamic \nguide fitting revenue org of any complexity.\nWith over 15 years serving as the best sales \nactivity data-capture solution on the market, \nRevenue Grid has unparalleled expertise in \ndata integration, advanced analytics, and \nsales automation.\nRevenue Grid \n(Gold sponsor)\nProvar \n(Silver & VIP dinner sponsor)\nAt Provar we’re the experts in Salesforce \ntesting. Pairing intuitive testing solutions with \nworld-class service, we help you deliver \nrobust, scalable and repeatable testing to \nachieve release agility, drive down system \nerrors and get the maximum return on your \nSalesforce investment.\n"
+      },
+      {
+        "page": 30,
+        "text": "#CD22\nValidity’s industry-leading solution suites – \nValidity for Email, Validity for Data \nManagement, and Validity for Sales \nProductivity – bring together the best data \nquality tools for business success.\nCombining products, such as DemandTools, \nTrust Assessments and GridBuddy for CRM, \nBriteVerify for email verification and Return \nPath for email deliverability, Validity provides a \none-stop shop for marketing, sales and \noperational professionals at thousands of \ncompanies worldwide to get a holistic view of \ntheir data.\nValidity \n(Coffee & Tea sponsor)\nMerkle \n(Photo Booth sponsor)\nMerkle is a leading data-driven customer \nexperience management (CXM) company that \nspecializes in the delivery of unique, \npersonalized customer experiences across \nplatforms and devices. The company’s \nheritage in data, technology, and analytics \nforms the foundation for its unmatched skills in \nunderstanding consumer insights that drive \nhyper-personalized marketing strategies.\nWith 12,000+ employees worldwide and 200 in \nthe Czech Republic, Merkle drives improved \nmarketing results and competitive advantage \nfor the Top 500 companies throughout the \nCentral and Eastern Europe. \n"
+      },
+      {
+        "page": 31,
+        "text": "#CD22\nJoin groups to learn Salesforce with peers, build your network, and find mentors.\nSalesforce is the Customer Success Platform. Our social and mobile cloud \ntechnologies—including our flagship sales and CRM applications—help companies \nconnect with customers, partners, and employees in entirely new ways.\nTrailblazer Community\n"
+      },
+      {
+        "page": 32,
+        "text": "#CD22\nMeet the team\nMartin Humpolec\nCaptain \n@mhumpolec\nLukáš Razim\nCommander\nMichal \nFurmanek\nCommander\nPetr Mudroch\nCommander\n@petrmudroch\nKristyna Turner\nCommander\n@KristynaTurner\n"
+      },
+      {
+        "page": 33,
+        "text": "#CD22\nJOIN US\nCzechDreamin 2023!\nPrague"
+      }
+    ],
+    "warning": "Some PDF pages need OCR or visual inspection",
+    "text_sha256": "045a4a2191aa9a451034142d4dfc1058cdcde5316c2a23b37abfc4855a859bab",
+    "text_path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.txt",
+    "words": 2164
+  },
+  "context": {
+    "format": "Conference programme (PDF)",
+    "where": "CzechDreamin 2022 · Prague Congress Centre, Czech Republic",
+    "when": "2022-05-27",
+    "date_label": "Event",
+    "with_whom": "Robert presenting; co-presenter not listed",
+    "evidence": "Lists Robert's session: As a Salesforce Developer I will – 7 Ground Rules for Success.",
+    "event_date": "2022-05-27",
+    "verified_evidence": [
+      {
+        "path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.txt",
+        "evidence_excerpt_or_field": "CzechDreamin 2022\nTechnical Conference about Salesforce\nMay 27\nPrague Congress Centre, Czech Republic"
+      }
+    ]
+  },
+  "grouping_evidence": {
+    "path": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.pdf",
+    "observation": "Page17 hyperlink annotation links Robert’s session directly to this Slideshare deck. Use only Robert’s session portion; the full conference programme includes unrelated people."
+  },
+  "part_of": "slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+  "work_excerpt": "Page 17\n#CD22\nHaving serious fun with lwc-datatable and Large Data Volume\nChristian Knapp (@ch_sz_knapp) & Christian Menzinger \n(@chris_menzinger)\nHow to work with risks in Salesforce projects?\nTomáš Holý (@enehanosolution)\nAs a Salesforce Developer I will… – 7 Ground Rules for Success\nRobert Sösemann (@rsoesemann)\nRun End-to-End Tests with the UI Testing Model (UTAM) \nPhillipe Ozil (@PhilippeOzil)\nClub E\n Developers\n",
+  "library_dir": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+  "file_names": {
+    ".txt": "programme.txt",
+    ".html": "programme.html",
+    ".pdf": "programme.pdf",
+    ".json3": "programme-captions.json3"
+  }
+}

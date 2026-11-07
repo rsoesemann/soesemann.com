@@ -1,0 +1,1113 @@
+{
+  "id": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+  "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+  "source": {
+    "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "role": "authored",
+    "kind": "article",
+    "evidence": "Published byline: Robert Sösemann.",
+    "slug": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:28.902953+00:00",
+    "final_url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/original.html",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps",
+    "author": "Robert Sösemann",
+    "date": "2024-03-13",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-M3FG4MSQ",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.surveymonkey.com/r/salarysurvey2026-27",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "label": "Change Cookie Preferences",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/newsletters/",
+        "label": "Newsletter",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-events/",
+        "label": "Events",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/career/",
+        "label": "Career",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/appassessor/",
+        "label": "AppAssessor",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/news/",
+        "label": "Salesforce News",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/artificial-intelligence/",
+        "label": "AI",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/admins/",
+        "label": "Admins",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/developers/",
+        "label": "Developers",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/marketers/",
+        "label": "Marketers",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/consultants/",
+        "label": "Consultants",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/architects/",
+        "label": "Architects",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/business-analysts/",
+        "label": "Business Analysts",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/resources/",
+        "label": "Resources",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/where-to-start/",
+        "label": "Where to Start",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-certifications/",
+        "label": "Salesforce Certification List",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/get-salesforce-certified/",
+        "label": "How to Get Certified",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-admin-practice-exam/",
+        "label": "Admin Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/free-salesforce-platform-app-builder-practice-exam-with-answers/",
+        "label": "Platform App Builder Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/ultimate-guide-to-getting-a-job-in-salesforce/",
+        "label": "How to Get a Job in Salesforce",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/salesforce-ben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/@OfficialSFBen",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/the-great-salesforce-job-market-reset/",
+        "label": "The Great Salesforce Job Market ResetBy Sasha SemjonovaDecember 09, 2024",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/how-to-avoid-bad-salesforce-partners-the-three-question-test/",
+        "label": "How to Avoid Bad Salesforce Partners: The Three-Question TestBy Jon ClineJanuary 08, 2025",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.salesforceben.com%2Fbeyond-the-hype-our-experience-of-building-3-salesforce-ai-apps%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.salesforceben.com%2Fbeyond-the-hype-our-experience-of-building-3-salesforce-ai-apps%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?text=Beyond+the+Hype%3A+Our+Experience+of+Building+3+Salesforce+AI+Apps&url=https%3A%2F%2Fwww.salesforceben.com%2Fbeyond-the-hype-our-experience-of-building-3-salesforce-ai-apps%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-launches-agent-kill-switch-and-new-cost-controls/",
+        "label": "Salesforce Launches Agent Kill Switch and New Cost Controls",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/what-happens-to-salesforce-marketing-cloud-after-the-braze-acquisition/",
+        "label": "What Happens to Salesforce Marketing Cloud After the Braze Acquisition?",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-acquires-rune-technologies-in-biggest-national-security-buy-to-date/",
+        "label": "Salesforce Acquires Rune Technologies in Biggest National Security Buy to Date",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+        "label": "Salesforce Acquires Cresta: Buying Spree Continues With Voice Agent Company",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/5-salesforce-career-lessons-from-the-2026-10k-report/",
+        "label": "5 Salesforce Career Lessons from the 2026 10K Report",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/pakistan-dreamin/",
+        "label": "Pakistan Dreamin’ 202607NovIslamabad, Pakistan Community",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/beyond-claudeforce-your-ai-development-strategy-needs-a-data-strategy/",
+        "label": "Building Faster With AI? Don’t Put Your Salesforce Data at Risk10NovVirtual SF Ben Webinar",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/down-under-dreamin-brisbane-edition/",
+        "label": "Down Under Dreamin’ 2026: Brisbane Edition11NovBrisbane, Australia Community",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/reducing-salesforce-doc-gen-complexity-with-ai-and-llm-functionality/",
+        "label": "Reducing Salesforce Doc Gen Complexity With AI and LLM Functionality17NovVirtual SF Ben Webinar",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/mexico-dreamin/",
+        "label": "Mexico Dreamin’ 202620NovMexico City, Mexico Community",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/events/",
+        "label": "See more",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/artificial-intelligence/",
+        "label": "Artificial Intelligence",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/platform/",
+        "label": "Platform",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://openai.com/gpt-4",
+        "label": "OpenAI released ChatGPT4",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://docs.google.com/document/d/11rlHGCEfgaBLEqeLiw2_2Fb-hTTJRrb-kOVFftLdKzk/edit",
+        "label": "Aquiva Labs",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://pmd.github.io/",
+        "label": "Static Code Analyzer PMD",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://developer.salesforce.com/podcast/2019/11/episode-1-static-code-analysis-with-robert-sosemann",
+        "label": "I ported to Salesforce in 2016",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=kGpFUgR-6Bg",
+        "label": "DMD demo video",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=8ae56cbd-8b6b-4009-bf17-1781d9416fe8",
+        "label": "free app on the AppExchange",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/aquivalabs/document-mess-detector",
+        "label": "MIT-licensed open-source repository on GitHub",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://askyourpdf.com/",
+        "label": "AskYourPDF.com",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=391c6e33-77d7-4393-a957-7f7ae738d0e3",
+        "label": "Ask Your Document",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qqQTmqelMFU",
+        "label": "Ask Your Document demo video",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://weaviate.io/blog/vector-embeddings-explained",
+        "label": "vectors through a process called Embedding",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://research.ibm.com/blog/retrieval-augmented-generation-RAG",
+        "label": "Retrieval Augment Generation (RAG)",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.langchain.com/",
+        "label": "LangChain",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://news.agpt.co/",
+        "label": "AutoGPT",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://react-lm.github.io/",
+        "label": "groundbreaking paper on the ReAct pattern",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://devday.openai.com/",
+        "label": "inaugural Developer Conference in November",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://platform.openai.com/docs/assistants/overview",
+        "label": "Assistant API",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fcNnBZFvQHc",
+        "label": "My Org Butler demo video",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/forcedotcom/postman-salesforce-apis",
+        "label": "Salesforce Platform API Postman Collection",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/aquivalabs/my-org-butler",
+        "label": "Aquiva Labs Github repository",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://jina.ai/news/auto-gpt-unmasked-hype-hard-truths-production-pitfalls/",
+        "label": "LLM-based Agents are too slow, still too unreliable, and way to expensive",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_forcecom_einstein.htm&language=en_US&release=218&type=5",
+        "label": "Prediction and Recommendation Builder or Next Best Action",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforce.com/news/stories/retrieval-augmented-generation-explained/",
+        "label": "completely native and secure RAG environment",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforce.com/einsteincopilot",
+        "label": "Custom Copilots and Copilot Actions",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://developer.salesforce.com/blogs/2023/10/inside-the-einstein-trust-layer",
+        "label": "Salesforce AI Trust Layer",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforce.com/editions-pricing/platform/?d=cta-body-promo-595",
+        "label": "require additional costs per user and per month",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/einstein-trust-layer-whats-the-trust-gap-salesforce-keep-talking-about/",
+        "label": "READ MORE:  Einstein Trust Layer – What’s the “Trust Gap” Salesforce Keep Talking About?",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquivalabs.com/",
+        "label": "Aquiva Labs",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/author/robert-sosemann/",
+        "label": "More Articles from Robert",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/rsoesemann/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/rsoesemann",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/community-reacts-to-siforce-renaming-what-on-earth-is-super-intelligence/",
+        "label": "Artificial IntelligenceCommunity Reacts to SIforce Renaming: What on Earth Is ‘Super Intelligence’?By Sasha Semjonova & Henry MartinNovember 04, 2026",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/we-counted-every-time-salesforce-said-crm-at-dreamforce-from-2022-to-2026/",
+        "label": "Artificial IntelligenceWe Counted Every Time Salesforce Said ‘CRM’ at Dreamforce, From 2022 to 2026By Sasha SemjonovaNovember 02, 2026",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/accidental-tokenmaxxing-is-draining-your-salesforce-ai-budget/",
+        "label": "Artificial IntelligenceAccidental Tokenmaxxing Is Draining Your Salesforce AI BudgetBy Mariel DomingoOctober 30, 2026",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/privacy-policy/",
+        "label": "Privacy Policy",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/about/",
+        "label": "About Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/contact/",
+        "label": "Contact Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/write-for-us/",
+        "label": "Write For Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/advertise-with-us/",
+        "label": "Advertise With Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/what-is-pledge-1/",
+        "label": "Pledge 1%",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "2d42523c32309520d5b595d1e616496280f689a474fded0907b9a951eb93c480",
+    "text_path": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/text.txt",
+    "words": 2041
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:28.902953+00:00",
+    "final_url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/original.html",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps",
+    "author": "Robert Sösemann",
+    "date": "2024-03-13",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-M3FG4MSQ",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.surveymonkey.com/r/salarysurvey2026-27",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "label": "Change Cookie Preferences",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/newsletters/",
+        "label": "Newsletter",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-events/",
+        "label": "Events",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/career/",
+        "label": "Career",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/appassessor/",
+        "label": "AppAssessor",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/news/",
+        "label": "Salesforce News",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/artificial-intelligence/",
+        "label": "AI",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/admins/",
+        "label": "Admins",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/developers/",
+        "label": "Developers",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/marketers/",
+        "label": "Marketers",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/consultants/",
+        "label": "Consultants",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/architects/",
+        "label": "Architects",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/business-analysts/",
+        "label": "Business Analysts",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/resources/",
+        "label": "Resources",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/where-to-start/",
+        "label": "Where to Start",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-certifications/",
+        "label": "Salesforce Certification List",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/get-salesforce-certified/",
+        "label": "How to Get Certified",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-admin-practice-exam/",
+        "label": "Admin Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/free-salesforce-platform-app-builder-practice-exam-with-answers/",
+        "label": "Platform App Builder Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/ultimate-guide-to-getting-a-job-in-salesforce/",
+        "label": "How to Get a Job in Salesforce",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/salesforce-ben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/@OfficialSFBen",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/the-great-salesforce-job-market-reset/",
+        "label": "The Great Salesforce Job Market ResetBy Sasha SemjonovaDecember 09, 2024",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/how-to-avoid-bad-salesforce-partners-the-three-question-test/",
+        "label": "How to Avoid Bad Salesforce Partners: The Three-Question TestBy Jon ClineJanuary 08, 2025",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.salesforceben.com%2Fbeyond-the-hype-our-experience-of-building-3-salesforce-ai-apps%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.salesforceben.com%2Fbeyond-the-hype-our-experience-of-building-3-salesforce-ai-apps%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?text=Beyond+the+Hype%3A+Our+Experience+of+Building+3+Salesforce+AI+Apps&url=https%3A%2F%2Fwww.salesforceben.com%2Fbeyond-the-hype-our-experience-of-building-3-salesforce-ai-apps%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-launches-agent-kill-switch-and-new-cost-controls/",
+        "label": "Salesforce Launches Agent Kill Switch and New Cost Controls",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/what-happens-to-salesforce-marketing-cloud-after-the-braze-acquisition/",
+        "label": "What Happens to Salesforce Marketing Cloud After the Braze Acquisition?",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-acquires-rune-technologies-in-biggest-national-security-buy-to-date/",
+        "label": "Salesforce Acquires Rune Technologies in Biggest National Security Buy to Date",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-acquires-cresta-buying-spree-continues-with-voice-agent-company/",
+        "label": "Salesforce Acquires Cresta: Buying Spree Continues With Voice Agent Company",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/5-salesforce-career-lessons-from-the-2026-10k-report/",
+        "label": "5 Salesforce Career Lessons from the 2026 10K Report",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/pakistan-dreamin/",
+        "label": "Pakistan Dreamin’ 202607NovIslamabad, Pakistan Community",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/beyond-claudeforce-your-ai-development-strategy-needs-a-data-strategy/",
+        "label": "Building Faster With AI? Don’t Put Your Salesforce Data at Risk10NovVirtual SF Ben Webinar",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/down-under-dreamin-brisbane-edition/",
+        "label": "Down Under Dreamin’ 2026: Brisbane Edition11NovBrisbane, Australia Community",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/reducing-salesforce-doc-gen-complexity-with-ai-and-llm-functionality/",
+        "label": "Reducing Salesforce Doc Gen Complexity With AI and LLM Functionality17NovVirtual SF Ben Webinar",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/mexico-dreamin/",
+        "label": "Mexico Dreamin’ 202620NovMexico City, Mexico Community",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/events/",
+        "label": "See more",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/artificial-intelligence/",
+        "label": "Artificial Intelligence",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/platform/",
+        "label": "Platform",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://openai.com/gpt-4",
+        "label": "OpenAI released ChatGPT4",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://docs.google.com/document/d/11rlHGCEfgaBLEqeLiw2_2Fb-hTTJRrb-kOVFftLdKzk/edit",
+        "label": "Aquiva Labs",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://pmd.github.io/",
+        "label": "Static Code Analyzer PMD",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://developer.salesforce.com/podcast/2019/11/episode-1-static-code-analysis-with-robert-sosemann",
+        "label": "I ported to Salesforce in 2016",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=kGpFUgR-6Bg",
+        "label": "DMD demo video",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=8ae56cbd-8b6b-4009-bf17-1781d9416fe8",
+        "label": "free app on the AppExchange",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/aquivalabs/document-mess-detector",
+        "label": "MIT-licensed open-source repository on GitHub",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://askyourpdf.com/",
+        "label": "AskYourPDF.com",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=391c6e33-77d7-4393-a957-7f7ae738d0e3",
+        "label": "Ask Your Document",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=qqQTmqelMFU",
+        "label": "Ask Your Document demo video",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://weaviate.io/blog/vector-embeddings-explained",
+        "label": "vectors through a process called Embedding",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://research.ibm.com/blog/retrieval-augmented-generation-RAG",
+        "label": "Retrieval Augment Generation (RAG)",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.langchain.com/",
+        "label": "LangChain",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://news.agpt.co/",
+        "label": "AutoGPT",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://react-lm.github.io/",
+        "label": "groundbreaking paper on the ReAct pattern",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://devday.openai.com/",
+        "label": "inaugural Developer Conference in November",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://platform.openai.com/docs/assistants/overview",
+        "label": "Assistant API",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=fcNnBZFvQHc",
+        "label": "My Org Butler demo video",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/forcedotcom/postman-salesforce-apis",
+        "label": "Salesforce Platform API Postman Collection",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/aquivalabs/my-org-butler",
+        "label": "Aquiva Labs Github repository",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://jina.ai/news/auto-gpt-unmasked-hype-hard-truths-production-pitfalls/",
+        "label": "LLM-based Agents are too slow, still too unreliable, and way to expensive",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_forcecom_einstein.htm&language=en_US&release=218&type=5",
+        "label": "Prediction and Recommendation Builder or Next Best Action",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforce.com/news/stories/retrieval-augmented-generation-explained/",
+        "label": "completely native and secure RAG environment",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforce.com/einsteincopilot",
+        "label": "Custom Copilots and Copilot Actions",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://developer.salesforce.com/blogs/2023/10/inside-the-einstein-trust-layer",
+        "label": "Salesforce AI Trust Layer",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforce.com/editions-pricing/platform/?d=cta-body-promo-595",
+        "label": "require additional costs per user and per month",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/einstein-trust-layer-whats-the-trust-gap-salesforce-keep-talking-about/",
+        "label": "READ MORE:  Einstein Trust Layer – What’s the “Trust Gap” Salesforce Keep Talking About?",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquivalabs.com/",
+        "label": "Aquiva Labs",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/author/robert-sosemann/",
+        "label": "More Articles from Robert",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/rsoesemann/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/rsoesemann",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/community-reacts-to-siforce-renaming-what-on-earth-is-super-intelligence/",
+        "label": "Artificial IntelligenceCommunity Reacts to SIforce Renaming: What on Earth Is ‘Super Intelligence’?By Sasha Semjonova & Henry MartinNovember 04, 2026",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/we-counted-every-time-salesforce-said-crm-at-dreamforce-from-2022-to-2026/",
+        "label": "Artificial IntelligenceWe Counted Every Time Salesforce Said ‘CRM’ at Dreamforce, From 2022 to 2026By Sasha SemjonovaNovember 02, 2026",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/accidental-tokenmaxxing-is-draining-your-salesforce-ai-budget/",
+        "label": "Artificial IntelligenceAccidental Tokenmaxxing Is Draining Your Salesforce AI BudgetBy Mariel DomingoOctober 30, 2026",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/privacy-policy/",
+        "label": "Privacy Policy",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/about/",
+        "label": "About Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/contact/",
+        "label": "Contact Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/write-for-us/",
+        "label": "Write For Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/advertise-with-us/",
+        "label": "Advertise With Us",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/what-is-pledge-1/",
+        "label": "Pledge 1%",
+        "discovered_from": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "2d42523c32309520d5b595d1e616496280f689a474fded0907b9a951eb93c480",
+    "text_path": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/text.txt",
+    "words": 2041
+  },
+  "context": {
+    "format": "Article",
+    "where": "Salesforce Ben",
+    "when": "2024-03-13",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Published byline: Robert Sösemann.",
+    "topics": [
+      "AI"
+    ],
+    "platform": "Salesforce Ben",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert describes building three Salesforce AI applications: Document Mess Detector, Ask Your Document, and My Org Butler. The account moves from text evaluation to retrieval from documents and agents that perform tasks, comparing implementation effort, model limitations, and the prospect of native Salesforce alternatives.",
+    "summary_basis": {
+      "source_id": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/coverage.txt",
+    "observation": "Publisher announcement of Robert’s Salesforce Ben article; wrapper should be supporting provenance, not second work."
+  },
+  "brand": {
+    "name": "Salesforce Ben",
+    "domain": "salesforceben.com",
+    "source_page": "https://www.salesforceben.com/are-ai-agents-a-threat-to-technical-salesforce-roles/",
+    "logo_url": "https://www.salesforceben.com/wp-content/uploads/2023/10/cropped-new-favicon-180x180.png",
+    "logo_path": ".archive/brands/salesforceben.com.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=salesforceben.com&sz=128"
+  },
+  "library_dir": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

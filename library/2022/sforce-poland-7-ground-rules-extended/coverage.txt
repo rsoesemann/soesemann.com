@@ -1,0 +1,46 @@
+Aquiva blog/ISV / AppExchange
+As a Salesforce Developer, I Will - 7 Ground Rules for Success
+Do you wonder what it takes to be a successful Salesforce Developer? Our Principal Architect Robert Sösemann shares his 7 Ground rules for success!
+Do you wonder what it takes to be a successful Salesforce Developer? Our Principal Architect Robert Sösemann shares it all!
+After studying computer science, Robert found his passion in software development while leading small development teams in the Java ecosystem. During this time he found out about Salesforce and 13 years ago he became a Salesforce developer.
+With his vast experience and many contributions to the Salesforce ecosystem, he has earned his Salesforce MVP title. Now, Robert plays an important role at Aquiva Labs, as a Principal Architect.
+Robert definitely knows a thing or two about Salesforce and what it takes to be a Salesforce Developer. In his recent live session during the SForce Summit Winter Edition 2022, Robert shared his 7 Ground rules for success in the Salesforce ecosystem and building your career as a Salesforce Developer:
+- sThe Basics: Release Notes, Trailhead
+- The Extra mile: Certifications
+- And Beyond: Industry trends, other clouds, languages, and concepts
+- Reading books
+- Contribute to Open Source
+- Conferences
+- Write as little code as possible
+- Stand on the “Shoulders of Giants”
+- Embrace No-Code/Low-Code
+- Use proven Open Source over homegrown infrastructure solutions
+- Be brave to invent new stuff
+- Learn to ask great questions
+- Search Google First
+- Ask on StackExchange
+- Ask the Community
+- Forget it. Go for a walk. Sleep over it
+- Rubber Ducking
+- Pair Programming
+- “Collective Code Ownership” instead of “Don’t Touch My Code”
+- You see messy code from a teammate? Improve it
+- Refactoring always
+- Don’t ask anyone for permission
+- Divide and conquer
+- Goal: Sleep well after a big refactoring of old code
+- Acceptance criteria and bugs drive test creation and scope
+- Readable, concise, and stable
+- Use lean Domain Builders instead of clunky Test Factories. It’s a long-term investment
+- Code Review is proven to be the #1 tool to enforce quality
+- Humans are better than tools but expensive and subjective
+- Shift-left, Enforce in CD/CI
+- Simplify and formalize your rules
+- Monitor Tech Debt and plan for it
+- ISVs: Monitor your subscribers
+- Governor Limits, Packaging behavior, Security rules
+- Be ready for Real World Data (Complexity, Volumes)
+- Don’t over-engineer
+- Keep it simple, but plan Scale
+- Be nice to your users. Improve but don’t disrupt
+To see the whole session and learn all about Robert’s tips and tricks for being a successful Salesforce Developer, watch the recording below!

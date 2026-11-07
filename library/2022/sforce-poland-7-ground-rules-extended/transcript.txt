@@ -1,0 +1,1306 @@
+thank you
+and it seems like we are live right now
+hi guys let us know if you can see us if
+you can hear us if everything's okay
+great to have you here it's three
+o'clock and for this one we are actually
+as you can probably hear we're switching
+to English because we have a special
+guest
+um I think from Germany right now you're
+in Germany Robert hi
+uh you're muted but let me unmute your
+mic you should be able to to speak right
+now hi yes I'm in Germany if you're
+wondering in German oh is it uh no no
+let's maybe let's keep English because I
+probably wouldn't be able to understand
+you but probably some of our viewers
+would be able uh to to understand you
+how is it in Germany is it snowy out
+there no it's actually quite nice
+Blue Sky you see I'm still in a t-shirt
+so
+okay guys so we're not coming yet watch
+out because it's already here in Poland
+so maybe it's coming to you also yeah so
+um
+some of our viewers are actually saying
+hi hi Marek great to have you okay guys
+without further Ado let me introduce our
+next guest our next speaker this is
+Robert suzaman and he will be telling
+you a bit of his secrets about the
+success in in the sales force in this
+session he will share seven ground rules
+with practical examples and tools that
+you can use that will make you and your
+team achieve success I hope it sounds
+interesting to you guys and also just
+let me remind you every time we have a
+great speaker with us we want to kind of
+take everything that they know from them
+so if you guys have any questions
+anything that is particularly
+interesting to you leave your questions
+in the comments I will be joining our
+speakers uh in a short time and asking
+all of your questions questions during
+our q a session so hi Robert once again
+great to have you here and I'm leaving
+you with our viewers
+thank you so much hi everyone
+um thanks for having me thanks for
+coming into my presentation this is one
+of my favorite presentations yes I did
+this presentation
+for a few times so so my slide Tech is
+not totally branded for this conference
+and
+as I said
+um this is not a technical presentation
+in my abstract this is something more
+for soft skills
+um
+because I think soft skits are way more
+important
+um today in our in our world there's a
+lot of talks about technical skills
+but when it comes to actually how people
+and teams are successful soft skills are
+very important so
+um before I jump into my topic
+I want to talk a little bit about me you
+might have seen me already I'm around
+for some while I entered the Salesforce
+ecosystem like 30 years ago
+I was studying computer science
+um and switched to Salesforce I was
+working for a small isv startup
+and didn't know nothing about Salesforce
+about Apex so I went to the stack
+exchange and learned quite a lot I
+eventually open sourced a bunch of my
+stuff
+and I would say
+2016-2015 I became a little bit Famous
+by open sourcing
+um the Javas or porting the open source
+steady code analyzer PMD from java to
+Apex so when you when you look at my
+screen there's me on dreamforce stage I
+presented about of this and from that on
+I
+became a little bit a person who who was
+known for Quality code and Salesforce I
+did some plural side courses with Don
+Robbins
+and I tweeted very heavily about that
+and eventually a few years ago I um I
+became an MVP I'm still an MVP I don't
+want to brag with this I just want to
+give you a short impression that I can
+actually talk about how work in the
+Salesforce ecosystem is
+so
+um a short overview slide
+um as I said this is about
+being successful as a developer and when
+I when I say success I mean everything
+that is part of success if you work for
+customers be in scope in time and budget
+have some fun with the team and also a
+happy customer so this is what we all
+want and
+when I look at the teams I work for and
+also other teams I see them go through
+phases or
+like a pendulum swing between two
+extremes
+the first phase and I was also in that
+phase because I started as an app
+exchange startup I call it nrt there's
+not a lot of rules or no rules there is
+this attitude of let's all bring in our
+best we don't need rules
+and
+as soon as problems come up this often
+leads to fruitless discussions there is
+politics you know if people cannot make
+their argument they they come with power
+and those people with that don't have
+power like developers they often behave
+passive aggressive
+so
+what happens next is that the pendulum
+swings on the other side and goes into
+the stage I call bureaucracy hard word
+for me and which means everything is
+very restricted it's it's totally okay
+people want to learn from their mistakes
+but they often jump into the Other
+Extreme they document everything
+everybody is drowning in rules
+everything is formalized and checked by
+very strict tools and there are approval
+processes
+and yeah and then something happens
+people constantly fight about which tool
+they need to to use or how to interpret
+the rules and
+you you you basically have the Other
+Extreme of not actually talking about
+the work you constantly talk about
+what's not working
+and if you would not change something
+the pendulum would swing between those
+two stages or phases and my talk is
+solely about recommending you a third
+approach which I didn't invent this word
+but there are many good books about it
+craftsmanship
+and it's about not having an authority
+which cares about the rules but making
+every developer such an authority
+everybody should behave like like a good
+citizen in a developer team everybody
+should be a good craft man and what you
+need for that is fewer simpler rules and
+more stable rules the most rules get
+outdated because they are too specific
+or you know things change and
+I want such rules to be documented but
+not never changed but evolving so
+and yeah and as a as I write it here I
+want those rules to be derived from
+values and goals and not so much very
+technical specific things
+the goal in the end is to have more
+freedom responsibility accountability
+and yeah success
+so let me let me directly jump into my
+first ground rule so you see the format
+all my round rules are like an oath you
+know you could swear to your team or
+yourself as a Salesforce developer I
+will constantly learn about Salesforce
+and Beyond
+this
+might sound a little bit trivial because
+working in the ID industry everybody
+knows that he has that you have to
+constantly learn but I think this is
+especially true in the Salesforce
+ecosystem
+Salesforce brings out new features every
+three months customers pay a lot for
+um getting all that new stuff so
+it's absolutely crucial that even you as
+a 10-year experienced developer read all
+the release notes do those trailheads I
+know we think trailheads are a little
+bit boring a little bit simple
+but they are a perfect way to actually
+learn about what's out to learn about to
+know to get your hands dirty you know
+there's often a little bit of
+programming examples so honestly I still
+do many trailheads of new features and I
+really go through release notes very
+thoroughly to actually learn what's
+there
+On The Other Extreme is certifications
+they are not trivial there are actually
+very complicated and also expensive so
+many people don't do them if they are
+not forced by their company to do it I
+tell you you should do them even if if
+you don't need to because this is where
+you learn the the nasty stuff all the
+all the details that are left out in on
+on dreamforce presentations
+the most important stuff is to go beyond
+don't stick within the the Salesforce
+filter bubble I really tell you that all
+the good things that you have in
+Salesforce actually were invented
+outside so when you learn about industry
+Trends other clouds other languages and
+Concepts
+you are already prepared when stuff like
+this comes into Salesforce here's just a
+few examples machine learning blockchain
+parsers
+and it's not important you can pick your
+Niche which you like but but you should
+yeah you should have more than just
+Salesforce
+I'm already an old guy so I still love
+and read paper books
+um I know there is a lot of
+wasteful books out there but there are
+also great computer Classics about
+programming about software engineering I
+will later after I do my slides have a
+long q a session
+um
+where I can actually talk a little bit
+about which books I would recommend you
+learning is not only consuming
+information it's also like doing
+something and so I recommend you to
+do some open source and contribute
+either to existing repositories and if
+that feels a little bit scary you can
+just do your own I I did exactly the
+same I just created some repositories of
+my stuff that were mostly ignored by
+people but eventually over the years I
+actually reached some credibility and
+for sure conferences like this one not
+only dream force is a great learning
+experience
+rule number two as the Salesforce
+developer I will leverage the native
+power of the platform
+what does that mean
+I want as a developer you to write as
+little code as possible and that sounds
+counter-intuitive because you are a
+developer but yes you are not paid for
+writing lines of code you are paid for
+delivering results building good
+features and
+Salesforce is a platform which is so
+famous and so successful because there's
+so much out of the box so I want you
+Americans say to stand on the shoulder
+of giants which means to reach to the
+sky you don't need to go the full
+distance you just use what's there and I
+really even as a software engineer you
+need to embrace low code no code
+you need to
+um understand that you don't need to
+build custom stuff for many features in
+Salesforce may it be about lightning web
+components about the power of list views
+the power of standard reporting but also
+in the past I was very skeptic when it
+came to flow but I would say today flow
+are great even for triggers and with
+flow orchestrator
+there's one more thing we should put
+into our development toolbox
+when the Salesforce standard is not
+enough I still beg you not to
+immediately stump and step into building
+your own stuff before you build the next
+trigger framework out use Pro proven
+open source
+um
+the ecosystem is around for some while
+and it's actually good stuff out there
+so you know I don't want to tell you to
+not invent stuff but if you go out and
+invent a new trigger Library this
+probably just means you didn't really
+check what's out there already
+okay
+number three
+as a Salesforce developer I will ask for
+help when stuck for too long
+this is
+um an important and a painful one
+because we developers tend to be not so
+super social and not talk so much about
+our pains and our
+us being vulnerable
+um and so I see many
+people when they are stuck just pretend
+to work try harder and we should not do
+that because companies are paying us for
+being efficient and when we just waste
+two days with
+stumbling around in our code we we're
+not actually good good citizens so I
+want you to actually ask great questions
+and learn to ask great questions
+um and
+start with learning how to actually do a
+good Google search and this is Trivial
+but I still see many people who are not
+really able to use Google appropriately
+The Next Step would be use an online
+community like the spec exchange stack
+exchange really saved my life I I was
+there already when when it came and I
+always said to my colleagues and before
+lunch I will just put my questions from
+the day into stack exchange and when I
+come back from lunch
+um I often have very good directions and
+answers
+so
+that's what I would recommend I I for
+sure also recommend you to actually
+leverage the people in your company do
+some rubber ducking get someone at your
+desk and explain them what what is not
+working
+I'm a big fan of peer programming and I
+think it's even better than pull request
+reviews
+um
+yeah ask for help when stuck for too
+long
+number four comes really from my heart
+I'm a clean coder as a Salesforce
+developer I will always leave the code
+cleaner than I found it
+you maybe know those Boy Scouts in the
+U.S those young people it's also girls
+um who go hiking and learn about
+Nature's Sleep intense and they have
+this rule that you always leave the
+campground cleaner than you found it
+and I want you to use that in your code
+and because the moment you do that you
+you
+lose this attitude of oh this is other
+people's messy code don't mess with my
+code no when you actually go in and do
+some small micro improvements to the
+existing code
+you're actually
+um
+do a lot for Quality it's it's called
+Collective code ownership it often feels
+a little bit dangerous for people but
+I'm not telling you to do big
+refactorings all the time but I'm just
+saying do a little thing you know like
+on my on my slide take take one of those
+used monster classes and split a method
+or make a subclass rename something more
+appropriately
+and and I also tell you don't ask anyone
+for permission refactoring should not be
+something your manager approves or which
+is planned into Sprints it's it's part
+of your work as a developer like if you
+would be a surgeon in a hospital you
+would wash your hands and not ask anyone
+if you should take care about
+that
+number five and this is really totally
+connected to what I said before you're
+only
+courageous and confident to actually
+make changes in your code when you have
+a safety net
+I want you to sleep well after having
+done a big refactoring in in Old code
+and for that you need a safety net net
+and this is not easy so the title is
+grow a safety net of awesome tests
+there's two words grow it means having
+awesome tests is not easy you just don't
+get it for free it's something that
+takes time and awesome needs awesome
+also means that you should not just say
+yeah it has something that I need to do
+I want you to be passionate about it
+that might actually spend a lot of time
+on making them super nice
+I want you to
+but when I say super nice I mean they
+should be readable fit on one page they
+should be concise so easily
+understandable and very stable if you go
+into tests and change them you are
+actually
+you you would also need tests that
+stabilize your tests so tests should
+actually never be changed
+so
+another topic is coverage line coverage
+is easy but what about use case coverage
+and Edge case coverage
+so
+um
+yeah I always tell people the test
+should actually cover the acceptance
+criteria from the customer
+whenever you have bugs you should create
+a regression test
+to actually see if if a buck was fixed
+and stuff like that I will later after
+my slides show you a small Library which
+I wrote The Domain Builder it's
+something which should replace those
+clunky test factories that get
+2000 lines of code to to set up data in
+in Apex tests
+because that's what one of the parts
+where I put a lot of love into
+making tests faster and more readable
+okay
+number six as a Salesforce developer I
+will automatically Monitor and review
+constantly that's that's a mouthful but
+I try to put as much stuff into the
+title as possible
+we we all agree that quality is
+important but I think we also agree that
+there is not enough
+time and and love in our head to
+actually think about it all the time so
+we should automate as many parts of that
+tools are often much better in in
+finding things and they are cheaper so I
+totally agree with the science which
+says code reviews between people are the
+best measure for are the best tool to
+enforce quality but I I think humans are
+way too expensive to just use code
+review time to talk about where to put
+the braces there's tools like pnd or
+eslint to actually find those things and
+I want you to to have them everywhere in
+your IDE in your cdci process
+I want you to spend time and love with
+simplifying and formalizing your rules
+you know you should not just have a rule
+set and always use it you should think
+about
+what can I automate more what if the
+manual steps can actually be automated
+I also want you to monitor your
+technical depth over time so not just
+the moment you do a pull request
+but but also over time there is a tool
+called courtesy which basically runs p d
+and eslint and all those other linters
+over your code base continuously and
+then shows you nice graphs on how your
+code base degrades
+one last shout out um for all the people
+who work on the app Exchange
+like we
+also keep in mind that things can go
+wrong in your customers work so
+um you should also monitor what's going
+on in their orgs and there is some some
+tools so if there's anyone working for
+an isv maybe in the in the section after
+the slides tell me that you want to see
+something and I can show you a tool
+which I built for
+making sense out of this error emails
+that subscriber orgs send out
+I'm already at my last tip
+as a Salesforce developer I will never
+forget about non-functional aspects but
+non-functional
+as developers and companies we are
+addicted and and happy to build features
+we want to bring something out which
+people want and non-function is actually
+the boring stuff does it work how do
+people use it and
+I often see developers forget that they
+are totally obsessed with new features
+and how they could use it and then
+thought don't put enough thought into
+that how does that actually work with
+the customer so I'm talking about things
+like Governor limits I'm talking about
+packaging Behavior what what can you put
+in a
+in a managed package without breaking
+something
+I I think of other messy aspects of the
+real world you know users doing wrong
+things large data volumes and we all
+know in the Salesforce World large data
+isn't actually very large
+um
+so
+please always keep in mind that the
+people might suffer when you just put in
+the latest greatest feature into your
+app so keep it simple plan for scaling
+but don't over engineer stuff just
+because you can do it
+and
+always think about how how can you
+improve the life of your users without
+actually disrupting them
+okay
+I'm done with my seven rules but I want
+you to I want to go over them again with
+a catchy phrase so you actually have
+them in mind when you think about asking
+questions or telling me that you have a
+different opinion
+I told you that you should always assume
+you know nothing even if you are in the
+Salesforce ecosystem for some while so
+always learn always
+test your knowledge with reality things
+can change over time
+I want you to
+um
+also learn to know what's there and use
+it so don't reinvent the wheel
+use what's there and be more efficient
+I want you to be vulnerable and
+efficient by asking others for help
+make actually use of people out there
+who want to show off with their
+knowledge who have a lot of knowledge
+don't try to come up with everything on
+your own
+there's a saying that art often needs
+like creative chaos I think Engineers
+should not be like like artists they
+should fight chaos they should love
+other
+they should clean things to to keep the
+the the complexity in their head under
+control
+finding chaos also needs cover courage
+and to to be courageous you need to
+minimize risks so I I told you a lot
+about
+um how to use tests to minimize risks
+and and gain gain
+confidence
+I told you to inspect and adapt this
+this word is from the
+like from the early age and Manifesto
+people who said to improve something you
+need to constantly measure how good
+things are and then based on those those
+feedback numbers you actually adapt your
+process and this is something which you
+can do with tools
+and the last thing is don't be a nerd
+actually
+uh remember your high paid person who
+actually changes the way of real people
+um and so
+do the right thing
+keep the users always in mind
+great so
+I'm not done we have q a I can show you
+a lot but this is just my last slide I
+want to thank you for your patience I
+hope
+um what I already showed you was was
+interesting
+um
+there is a repository on GitHub it's
+called Salesforce recipes where I have
+all those seven ground rules plus
+additional guidelines on a readme
+and this is also something which I would
+recommend you don't don't take my seven
+rules and just enforce them on your team
+come up with your own but keep the
+process really super simple like a
+readme file should not be too big so
+putting all your rules and maybe your
+coding guidelines on readme in your
+repository is just perfect start and the
+evolution is basically built into having
+something on GitHub you can start with
+something and people could make pull
+requests and change and make Improvement
+recommendations and you would also see
+how your rules and your guidelines
+actually changed over time
+perfect so
+before I
+go into q a
+I I want to say there is
+um many ways to contact me the best one
+is actually go on Twitter
+um and write me a private message there
+or
+use the chat now I'm just looking at the
+time so we have
+30 minutes yeah I'm I'm joining you to
+to
+give you those questions from our
+viewers yeah we still have plenty of
+time and as I'm looking at those
+questions
+um there are some that are more maybe
+let's say philosophical almost some of
+them are based on the things about
+career and maybe how to grow in
+Salesforce community and there are some
+that are more technical so what do you
+say we could start from from those
+technical questions huh because some
+people I see that want to pick your
+brain so for example jakub I'm showing
+you the the question right now on the on
+the screen
+um Jacob is asking when you are doing
+some ad hoc refactor would you include
+it in the same pull request as your
+current Tick Ticket or make separated PR
+just for the refactored part
+that's a good question I would
+I would make it a little bit dependent
+on how big the refactoring is when when
+I
+when I work on code and I'm just
+changing a method name or making like
+factoring out a part of a method into an
+extra method I would not do it in a
+separate pull request I would maybe have
+different commits in the pull requests
+with different commit messages
+and but when it's a big refactoring I
+mean a big thing like I would I take a
+day of my Sprint
+then I would probably make it a a
+separate pull request just for people to
+understand it better it's often also
+that's my my last comment to Jacob
+um
+sometimes you need different reviewers
+for a refactoring pull request you know
+sometimes you are changing people's code
+who are not in your current team or not
+working on this feature and then you
+want the pull request actually to be
+checked by the people who worked on the
+the code that you changed so I would I
+would say make it dependent but
+I would not like a general rule to
+always have a separate pull request I
+hope you hope this helped
+great and then there's another one from
+YouTube in what aspects are test object
+Builders better than test factories
+that's that's my question that's the
+moment where I actually would would show
+a little bit
+um would this be okay if I just like
+take of course I'm adding your screen
+back to our transmission right now Okay
+cool so now that's a very good question
+so
+there is a repository
+it's called the Apex domain Builder and
+I will just zoom in a little bit so you
+can see it better
+this is something which I didn't invent
+to do the
+this idea that test factories are not
+good test factories is still something
+which Salesforce recommends but I feel
+test factories start simple but after a
+few years are like classes that are 2
+000 lines long
+and have a ton of static methods so I
+just want to read from my repository
+what
+what I didn't like with the existing
+approach and why I think test setup is
+often very complicated you know
+yeah you need to set up required fields
+which are in your setup part
+um and as they are Irrelevant for the
+tests they confuse the reader
+you need to take care about inserting
+objects in the right order
+setting up relationships is super
+complicated because you need to store
+IDs you need to have Maps then you all
+have all those braces and underscore C's
+and the what what
+[Music]
+um
+and the worst thing is all of that
+encapsulation that you need to do in a
+test Factory goes into one single class
+which gets bigger and bigger and the
+Apex domain Builder
+and I will open my IDE in a second does
+something different so let's look at how
+it it looks like
+it's really a very nice way to to
+actually
+describe data
+instead of handling as objects you you
+just use a fluent API of different
+objects you can create trees of objects
+so I'm I'm just talking about this part
+of code and
+and the the knowledge is not stored in a
+single class so maybe I'm just going
+into my IDE
+and show you
+how this looks like
+so
+I guess I need to make it a little bit
+bigger
+is that readable
+yes I believe it's okay yeah very good
+so you know I'm I want to show this
+really on code so just imagine for my
+test I just need a new opportunity I
+need it in the database
+um
+I I just
+I just say opportunity persist
+this would insert an opportunity and
+everybody who's calling and Salesforce
+knows an opportunity needs an account
+there are some some fields which
+actually need to be set
+but this is done under the hood and I
+will I will first show you some examples
+and then actually show you how simple
+the code behind of that the good thing
+is
+um
+you you can you can have some
+maybe I I show you that I show you some
+existing code so
+you know you can you can have aliases
+for for properties you don't need to
+actually use the field names because
+field names are often very ugly they
+have underscores for namespaces they
+have underscore for the C
+then you can
+do things like that like describe data
+in a tree you know this is a new account
+with name Acme Corp it should have an a
+contact I don't care how this contact is
+named just give me a Content I also want
+to have an opportunity this opportunity
+will automatically be linked to this
+account
+I care about the amount the closed
+States and and some content
+and
+let me show you a little bit more
+examples
+and
+yeah the same is here
+we we have multiple objects which all
+have required Fields but there are
+aerial event for my actual test so I
+just don't show it here
+the same is true about required but
+irrelevant fields
+it allows you to give
+to have nicer field setters
+you can create trees of nearly arbitrary
+depth so here we have an account with an
+opportunity and the opportunity as an
+opportunity contact
+the same works for setup objects this is
+an example for where you use system run
+as a specific user and you can just say
+oh yeah make me this a standard user
+and the developers know that inserting
+um set up users as setup objects and
+normal data objects sometimes cumbersome
+the library allows you to do self
+references so it's totally okay to say
+this contact should report to this
+context because he is his boss
+the domain Builder works with Junction
+objects like the opportunity contact
+role
+you see it's covering a lot but
+um how does that actually work
+the library when you download is it's
+just basically a few classes there is
+the domain Builder which is the base for
+all your
+test objects now and a small test which
+actually works as a good documentation
+and then there is a few classes which I
+stole from other libraries a unit of
+work
+and now I want to show you the actual
+magic so
+so the question I actually started with
+was
+um why is this better than a test data
+Factory and I said test date data
+factories get you try and user and what
+is the answer of programmers to large
+classes
+modularization put things into the
+classes that actually care about and
+what you see here in my in my little
+Source tree is that for every object
+that we talked about accounts contacts
+opportunities and contact roles we have
+a strangely underscored class
+and this is because you cannot call a
+class account because there is already
+an account in Apex
+so let's let's look into such a class
+so this is the account class this is
+what I call a domain Builder domain
+means the language of the business and
+when you use this Library you are
+actually building
+many classes for each object that you
+are talking about in your tests you
+create such a a simple object and here
+you basically say a few things you you
+tell the library that this account is
+actually of type account as object type
+and then you add a few methods for
+fields and relationships that you
+actually care about this is also
+something your test helpers
+get only so complicated as the tests
+needed and as I see many test factories
+which basically account for all future
+cases you don't do that I just said okay
+I I don't wanna I want to set the name
+of an account I also need it because
+you know when I just create an account I
+need to set a default name
+and then there is a few extra methods
+which help me
+Auto connecting accounts to related
+objects like related opportunity and a
+content
+and those classes don't get any more
+complicated they just get longer so this
+is the opportunity
+you know you see
+for me to to be able to insert or create
+an opportunity without passing in a
+contact I just have this default
+Constructor and it just puts an a
+default account in there I can also pass
+one
+you see here is where I set some
+defaults which are automatically taken
+and then I again have some fields for
+some methods for fields and relations
+maybe a few of them watching me are a
+little bit disappointed because you
+thought my library is doing the magic
+that other libraries do there is
+libraries which immediately populate
+Fields with good values my library is
+absolutely not doing this you need to do
+all of that on your own
+but then you actually have something
+super simple and now I'm telling you
+something really cool you can use those
+domain builders
+meaning
+codes that inserts data like this
+during stretch or Creations you know
+it's some people like to load data from
+csvs into scratch works but you can also
+just have a nice Apex script which you
+call from from the scratch or creation
+shell script
+and have actually insert data using this
+Apex method
+okay
+this was a very long answer I'm going
+back to the other screen
+I hope it was good yeah I bet it was
+good
+um Martin you can always tell us if if
+this answers your your question okay now
+this is the the next one only use test
+start test test stop test when you
+actually need to either run async code
+this is a rule from your repo why should
+we avoid using them what is the cost of
+using them
+Okay cool so I I really like that people
+already checked the repository this is
+controversial but I I have won most
+arguments over this
+there is this um recommendation from
+Salesforce to use them as as just
+pointers
+but I honestly
+think
+um
+you cannot use pointers which show where
+the actual test starts by using methods
+which actually do something you know
+test STAR test actually does something
+it resets Governor limits and has
+stopped has actually
+um
+I don't know
+um
+makes makes asynchronous operations
+synchronous so I really don't like the
+the whole concept of calling code to
+Mark something and I'm just I just want
+to show you something so in all my tests
+I always have those three command
+sections they are good enough for me
+here is where I do all the setup the
+exercise is really just for the subject
+under tests do something you know and
+then I have my assert here so
+um so this is one answer so I don't need
+test start test stop test to show which
+part of the test I'm in the other thing
+is that
+um
+I I had many occasions in production
+code where the the setup of tests and
+everything
+was complicated and then you you see
+yourself moving the start tests into the
+setup part of a test you know so or just
+stop test part is moved into the the
+setup part because you need to to to
+make mocking work so I I had many
+non-trivial tests where those were moved
+into Parts which were not the exercise
+block
+that was a reason and then people were
+confused where where does the actual
+test start
+um so I'm saying to to people
+leave them out when you don't need them
+and when you need them actually put a
+small command on top which is saying I
+use test STAR test here to reset the
+limits or I'm using stop test to
+actually
+um get this this HTTP mocking to work
+um
+is there anything else
+yeah there's another reason and
+I even when I write batches and
+um curables I try to write them in a way
+that tests don't actually run them as a
+synchronous methods you know I often
+have in my batches a method which
+this might might be seen as an
+anti-pattern by people I totally agree
+but I have something which says if you
+execute me inside of a test run me
+synchronously
+but but I know this is super
+controversial so
+good
+okay and there is a bit of a feedback
+from Martin yes the answer is
+satisfactory now I would choose test
+object Builders cool in Martin in my
+repository there's also a link to the to
+the way smarter people who invented this
+for Java there is there's a whole book
+about how tests and and there's great
+material on why this is a good idea even
+outside of Salesforce
+great
+um guys we still have some time so if
+you want to leave your questions please
+do so in the comments section and I will
+show our speaker uh those that were sent
+during the presentation now uh because
+we still have your uh I'm sorry I won't
+do that in the order that they were sent
+but as as we still have your screen on
+maybe you could show us the books
+because there is this one very good hi
+I'm relatively new to Salesforce and it
+seems that I won't a i that I won't
+avoid paper books and ultimately have
+some reading to do haha can you
+recommend particular books thanks yes I
+I have this list on Amazon I in my
+presentation you know when you when you
+I hopefully you made a screenshot of
+this QR code
+I think it leads you to this
+presentation there's also a link to this
+Amazon book list and this is just the
+books which I constantly like
+recommended to the teams I work with
+you see there's only a few people there
+is Bob Martin with clean code and all
+the related books this is like an
+amazing book it really changed the way I
+think about how I code
+and I I believe everybody who's in the
+software industry has has heard about
+this book so this is just amazing when
+you want to write readable testable
+maintainable code this guy had to earn
+some money so he created a bunch of
+other books which are also quite good
+there is the clean coder which talks
+more about how you should behave as a
+developer you know it's about how to be
+truthful how to reject when when a
+manager asks something stupid how to
+make estimations how to think about your
+whole job and your responsibility I
+really like it there's other books from
+him clean architecture which talks a
+little bit more about the things Beyond
+code
+and just recently he even wrote a book
+about agile
+you know it's it's like with movies
+um the first book is awesome and the
+other books are less good you feel that
+the author needs to make money but I
+still would everybody to recommend this
+because I think as a developer you need
+to have an understanding about yourself
+your role about code about architecture
+and also this process around and as we
+are all talking about agile this book is
+a very good mythbuster there's other
+books which you know this one I think
+was my first programming book
+um the pragmatic programmer from
+um Andy Hunt and Dave Thomas it's it's
+awesome they really talk about how to
+write methods and it's
+it's great it's a great starting book
+there's some other authors which I just
+love there's Ken Beck who invented test
+driven development
+um this book is just you know I'm not I
+don't know many people that actually do
+test driven development but actually
+having understood how it works makes you
+a different person so I recommend
+reading that he has a great book about
+implementation patterns you know he's
+basically showing a code problem and
+then telling you how to how you would
+improve it in a very pragmatic way this
+book is really full of code examples
+then there is another awesome guy I I
+think this one this book is from Martin
+Fowler about refactoring it's really
+telling you how to do those micro
+refactorings that I was talking about on
+my slide deck
+so Fowler is always a great guy
+then the best book I know about
+understanding a scrum and extreme
+programming is this free book scrum and
+XP From The Trenches from Henrik knee
+back it's full of visuals full of funny
+stories
+um
+and then there is
+I'm a Mercedes
+um a very good Russian guy which is very
+provocative and controversial
+in the way how he thinks about how clean
+and how simple coach should be and there
+are two books which I really highly
+recommend it's elegant objects and I
+think the other one is just called
+elegant objects part two by Igor
+bugayenko it's a book you will basically
+throw it in a corner and say this guy is
+so extreme but I am I met him I had the
+experience with teams everybody who read
+this book actually took clean coding
+more serious and um it really changed
+something because it was so
+controversial so
+um all of those books are not really
+very thick so yeah
+so our viewer will have plenty of
+reading but in uh
+um in a form that is still available and
+easy to read great okay so this one I
+believe is about
+um how to uh kind of develop your skills
+and what to focus on do you recommend to
+focus on one or several areas of
+Salesforce like lighting web components
+or flows or to know the basics in all
+Salesforce tools
+it's it's a very good question and I I
+think that has changed over time and
+there was a great conference talk by Don
+Robbins and then Appleman and they said
+in the beginning when we old people and
+I call myself old because I started like
+15 years ago you could understand
+everything of Salesforce you could do
+Apex you could understand declarative
+and
+but this
+the space is way too big and you know
+I'm working at a PDO partner so we help
+other partners go into the app exchange
+I every day feel that I know nothing
+about the Salesforce ecosystem
+especially with all the other clouds and
+other products and the domain knowledge
+behind that
+so I would say
+um when it comes to actually programming
+you should know everything you should
+know Apex triggers flow and you should
+know enough about UI
+because this makes you for me a
+Salesforce full stack developer
+so
+I think you should be able to write an
+app through all the layers declarative
+coding front and testing
+so I have a very good knowledge on that
+but when it comes to understanding other
+clouds you know Community Cloud
+Financial Cloud Health Cloud you should
+pick one which which where you can make
+the most money bring the most benefit
+um yeah
+um you mentioned uh this feeling of of
+not knowing anything although you've
+been in the business for so many years
+now
+um and I believe you could also answer
+this question
+um what uh oh this is the one what do
+you recommend for being up to date with
+Salesforce updates so if we for example
+have like our daily morning coffee let's
+get up to date with Salesforce what is
+the first tool that you recommend or
+first Outlet we should try to kind of
+check out to be up to date I I mentioned
+a few things so to be up to date with
+Salesforce releases the absolutely basis
+is reading the release notes and
+checking all the areas where that you
+actually care about
+Trailhead is also good
+but my most my single best tool for
+understanding what's actually going on
+in the ecosystem you know you don't know
+when the release nodes come out or so
+it's Twitter
+the moment I'm just using Twitter for
+Salesforce I'm not following politics
+I'm not doing any private stuff there
+but I use it as my single source of news
+when it comes to the Salesforce
+ecosystem you know people they share
+stack exchange questions there they
+yeah you hear about features you hear
+about everything so I would recommend
+everybody to to get on Twitter account
+and follow some of the the key people
+you know they're and you need to find
+out there's key people who are basically
+there for Salesforce to to even give
+Salesforce marketing more reach you
+should stay away from them because
+otherwise you just stay on Twitter but
+there's other people who who actually
+where you actually feel if something
+important is going on yeah
+that's an interesting one I I thought
+you would then your answer would be a
+bit different but that's that's a very
+interesting uh point to take to check
+Twitter what did you expect yeah I was
+maybe not books but I was I was thinking
+uh well definitely not about Twitter but
+that's that's a great idea actually
+um now the last one I think on our list
+uh so far oh that's the one that
+probably you could write a book on
+because it's uh it's a very broad
+subject what advice would you give to
+the developers to be more effective in
+our work
+I mean in in a little way my whole
+presentation was about that you know
+right
+um let me just summarize you know to be
+effective you need to know stuff so you
+need to learn to be effective you also
+need to work with other people so don't
+try to build everything on your own so
+ask for help collaborate and
+Effectiveness also
+you know you need to
+be be lazy I think good Engineers are
+lazy so they automate stuff they you
+know when people constantly ask you the
+same question you should probably write
+it into Wiki and just send links this
+makes me very effective I'm I'm really
+in most nine out of ten cases I'm
+against Real meetings I think people
+should rather just huddle and drink a
+coffee so I'm a huge fan of asynchronous
+stuff you know instead of having
+meetings where you agree on forced
+people to discuss some lengthy topics on
+on a jira ticket
+in slack whatever because my feeling is
+written media forces people to think
+harder and be more structured
+and as humans are lazy meetings will
+just be a lot of babbling and opinions
+and oh I also have to say something so
+I would say if you want to make things
+effective move them from oral to written
+form
+yeah
+okay a bunch of great tips that we've
+been able to to get during this hour
+that's really really great thank you so
+much Robert for answering all those
+questions
+um we are very glad that you joined us
+for Summit the winter Edition and we
+really hope that you will join us for
+the next one I believe this will be held
+on
+um spring time so thank you once again
+for joining us guys I hope you could
+take the screenshot of the QR code that
+Robert shared with you please be sure to
+join Robert also during uh the Q a is it
+um yeah let me just check the space dot
+s for summit.pl because equivalab acts
+equivalabs actually has their virtual
+stand out there so uh you are still they
+can still catch you out there am I right
+how to go there but yes no no I can be
+around yeah I'm sorry this was the Q a
+so you guys you guys actually had your
+chance but you still can contact Robert
+afterwards right you you left your
+outlet so let's uh let's meet for
+example on Twitter thank you once again
+so much for joining us and we hope to
+see you very soon and guys thank you so
+much for your questions also
+thank you bye

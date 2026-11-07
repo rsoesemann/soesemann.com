@@ -1,0 +1,15 @@
+Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This talk is a continuation from the last episode.
+Main Points
+- How PMD works
+- What is PMD for Apex
+- Out-of-the-box rules
+- Code formatting check in PMD for Apex
+- Integration of PMD into various IDEs and CI-platforms
+- How to get started
+- Ways to customize and create new rules
+- Contribute to the PMD open source repo
+- Clean code with PMD as a Trailhead topic
+Links
+Contact Me
+If you enjoy this podcast, please reach me out to let me know your thoughts or simply say Hello. My (Xi’s) contact info:
+Take care, until next time :)!

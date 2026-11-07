@@ -1,0 +1,4 @@
+KI schreibt heute Code – aber wird Software dadurch besser?
+In dieser Folge spricht Robert Sösemann (Principal Architect, Salesforce MVP) mit Maximilian Hahnenkamp über Softwarequalität, Craftsmanship, Agentic AI und warum Elitismus im Handwerk kein Schimpfwort ist.
+
+Ein ruhiges, tiefgehendes Gespräch über den KI-Hype, echte Produktivität, Forward-Deployed Engineers und die Zukunft von Softwareentwicklung jenseits von Buzzwords.

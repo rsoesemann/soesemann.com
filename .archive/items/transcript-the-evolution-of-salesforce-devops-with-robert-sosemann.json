@@ -1,0 +1,830 @@
+{
+  "id": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+  "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+  "source": {
+    "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "role": "interview",
+    "kind": "transcript",
+    "evidence": "Edited interview containing both questions and answers; not a verbatim single-speaker sample.",
+    "slug": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:29.793325+00:00",
+    "final_url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann",
+    "author": "Samantha Spiro",
+    "date": "2024-08-12",
+    "language": null,
+    "links": [
+      {
+        "url": "https://hutte.io/",
+        "label": "Learn More",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/why-hutte/",
+        "label": "Why Hutte?",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "label": "Product Features",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/features/manage-environments/",
+        "label": "Manage Environments",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/features/track-and-integrate-changes/",
+        "label": "Track and Integrate Changes",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/features/deploy-anywhere/",
+        "label": "Deploy Anywhere",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://app2.hutte.io/sign-in",
+        "label": "Login",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://app.hutte.io/signup",
+        "label": "Sign Up Now",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/tag/trails-podcast-episodes/",
+        "label": "Trails Podcast episodes",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/author/samantha/",
+        "label": "Samantha Spiro",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/share?text=From+pragmatic+coding+to+AI%3A+The+evolution+of+Salesforce+DevOps+%28Trails+Podcast+episode+%2318+with+Robert+S%C3%B6semann%29&url=https%3A%2F%2Fhutte.io%2Fcompany-blog%2Fpragmatic-coding-to-ai-the-evolution-of-salesforce-devops%2F",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhutte.io%2Fcompany-blog%2Fpragmatic-coding-to-ai-the-evolution-of-salesforce-devops%2F",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fhutte.io%2Fcompany-blog%2Fpragmatic-coding-to-ai-the-evolution-of-salesforce-devops%2F",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/rsoesemann/?ref=hutte.io",
+        "label": "Robert SÃ¶semann",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=wJQZfW8-4f0",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://open.spotify.com/embed/episode/5v7eG53BDGtvjKCvuhMTRd?si=30d415471d36407e",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/apex-developer-guide/?ref=hutte.io",
+        "label": "programming language called Apex.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/salesforce-appexchange-in-depth-review/?ref=hutte.io",
+        "label": "free AppExchange",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000JMy1aUAD&ref=hutte.io",
+        "label": "Learn more",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/webinars/salesforce-open-source/?ref=hutte.io",
+        "label": "Accelerate your Salesforce implementation projects with open-source.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/what-is-a-salesforce-mvp/?ref=hutte.io",
+        "label": "an MVP,",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/salesforce-flow/?ref=hutte.io",
+        "label": "Flow.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/salesforce-code-analyzer-recipe/",
+        "label": "Salesforce Code Analyzer",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/copado-vs-gearset-vs-hutte/?ref=hutte.io",
+        "label": "working for Copado",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/transitioning-to-salesforce-devops/",
+        "label": "Manuel Moya,",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/simplify-salesforce-project-setup-with-template-repository-and-apex-collection-frameworks/",
+        "label": "Hutte template repository,",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/rsoesemann/unhappy-soup?ref=hutte.io",
+        "label": "Unhappy Soup.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/whitepapers/git-based-development/?ref=hutte.io",
+        "label": "Git-based development",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquivalabs.com/?ref=hutte.io",
+        "label": "Aquiva",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/28909971/admin/dashboard/?ref=hutte.io",
+        "label": "our LinkedIn page!",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/samantha-spiro-560174105/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/continuous-learning-and-adaptability-with-salesforce-open-source/",
+        "label": "How to practice continuous learning and adaptability with Salesforce open-source (Trails Podcast episode #17 with Shane McLaughlin)",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/why-salesforce-devops-consultants-should-be-near-user-problems/",
+        "label": "Why Salesforce DevOps Consultants should be near user problems (Trails Podcast episode #16 with Matthias Rolke)",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/salesforce-devops/",
+        "label": "How to deliver first and explain later in Salesforce DevOps (Trails Podcast episode #15 with DiÃ©ffrei Tiepo de Quadros)",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000RN5N3EAL&tab=r",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-developer",
+        "label": "Salesforce Developer",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-admin",
+        "label": "Salesforce Admin",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-consultant",
+        "label": "Salesforce Consultant",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/product-manager",
+        "label": "Product Manager",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/qa-manager",
+        "label": "QA Manager",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/release-manager",
+        "label": "Release Manager",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-consultancy/",
+        "label": "Salesforce Consultancy",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/enterprise-salesforce-team/",
+        "label": "Corporate Salesforce Team",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/isv-partner/",
+        "label": "ISV Partner",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/customer-hub-details/flair-hr",
+        "label": "Case Study",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/",
+        "label": "Trails Publication",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/",
+        "label": "Company Blog",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://docs.hutte.io/",
+        "label": "Help Center",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.careers.flair.hr/",
+        "label": "Careers",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/about-us/",
+        "label": "About",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/pricing/",
+        "label": "Pricing",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/security/",
+        "label": "Security",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/contact-us/",
+        "label": "Contact",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/@hutte-io/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/hutte-io/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/HutteSalesforce/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/hutte_io/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/hutte-recipes/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/terms-and-conditions",
+        "label": "Terms Conditions",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/privacy-policy",
+        "label": "Privacy Policy",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/cookie-policy",
+        "label": "Cookies",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "b997e33a005096749a2aa35d2fb85b6bbd3666f09b38e31d10a267a85b284267",
+    "text_path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/transcript.txt",
+    "words": 4475
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:29.793325+00:00",
+    "final_url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann",
+    "author": "Samantha Spiro",
+    "date": "2024-08-12",
+    "language": null,
+    "links": [
+      {
+        "url": "https://hutte.io/",
+        "label": "Learn More",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/why-hutte/",
+        "label": "Why Hutte?",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "label": "Product Features",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/features/manage-environments/",
+        "label": "Manage Environments",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/features/track-and-integrate-changes/",
+        "label": "Track and Integrate Changes",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/features/deploy-anywhere/",
+        "label": "Deploy Anywhere",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://app2.hutte.io/sign-in",
+        "label": "Login",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://app.hutte.io/signup",
+        "label": "Sign Up Now",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/tag/trails-podcast-episodes/",
+        "label": "Trails Podcast episodes",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/author/samantha/",
+        "label": "Samantha Spiro",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/share?text=From+pragmatic+coding+to+AI%3A+The+evolution+of+Salesforce+DevOps+%28Trails+Podcast+episode+%2318+with+Robert+S%C3%B6semann%29&url=https%3A%2F%2Fhutte.io%2Fcompany-blog%2Fpragmatic-coding-to-ai-the-evolution-of-salesforce-devops%2F",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhutte.io%2Fcompany-blog%2Fpragmatic-coding-to-ai-the-evolution-of-salesforce-devops%2F",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fhutte.io%2Fcompany-blog%2Fpragmatic-coding-to-ai-the-evolution-of-salesforce-devops%2F",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/rsoesemann/?ref=hutte.io",
+        "label": "Robert SÃ¶semann",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=wJQZfW8-4f0",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://open.spotify.com/embed/episode/5v7eG53BDGtvjKCvuhMTRd?si=30d415471d36407e",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/apex-developer-guide/?ref=hutte.io",
+        "label": "programming language called Apex.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/salesforce-appexchange-in-depth-review/?ref=hutte.io",
+        "label": "free AppExchange",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000JMy1aUAD&ref=hutte.io",
+        "label": "Learn more",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/webinars/salesforce-open-source/?ref=hutte.io",
+        "label": "Accelerate your Salesforce implementation projects with open-source.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/what-is-a-salesforce-mvp/?ref=hutte.io",
+        "label": "an MVP,",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/salesforce-flow/?ref=hutte.io",
+        "label": "Flow.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/salesforce-code-analyzer-recipe/",
+        "label": "Salesforce Code Analyzer",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/copado-vs-gearset-vs-hutte/?ref=hutte.io",
+        "label": "working for Copado",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/transitioning-to-salesforce-devops/",
+        "label": "Manuel Moya,",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/simplify-salesforce-project-setup-with-template-repository-and-apex-collection-frameworks/",
+        "label": "Hutte template repository,",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/rsoesemann/unhappy-soup?ref=hutte.io",
+        "label": "Unhappy Soup.",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/whitepapers/git-based-development/?ref=hutte.io",
+        "label": "Git-based development",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquivalabs.com/?ref=hutte.io",
+        "label": "Aquiva",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/28909971/admin/dashboard/?ref=hutte.io",
+        "label": "our LinkedIn page!",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/samantha-spiro-560174105/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/continuous-learning-and-adaptability-with-salesforce-open-source/",
+        "label": "How to practice continuous learning and adaptability with Salesforce open-source (Trails Podcast episode #17 with Shane McLaughlin)",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/why-salesforce-devops-consultants-should-be-near-user-problems/",
+        "label": "Why Salesforce DevOps Consultants should be near user problems (Trails Podcast episode #16 with Matthias Rolke)",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/salesforce-devops/",
+        "label": "How to deliver first and explain later in Salesforce DevOps (Trails Podcast episode #15 with DiÃ©ffrei Tiepo de Quadros)",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000RN5N3EAL&tab=r",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-developer",
+        "label": "Salesforce Developer",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-admin",
+        "label": "Salesforce Admin",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-consultant",
+        "label": "Salesforce Consultant",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/product-manager",
+        "label": "Product Manager",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/qa-manager",
+        "label": "QA Manager",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/release-manager",
+        "label": "Release Manager",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/salesforce-consultancy/",
+        "label": "Salesforce Consultancy",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/enterprise-salesforce-team/",
+        "label": "Corporate Salesforce Team",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/solutions/isv-partner/",
+        "label": "ISV Partner",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/customer-hub-details/flair-hr",
+        "label": "Case Study",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/trails/",
+        "label": "Trails Publication",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/company-blog/",
+        "label": "Company Blog",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://docs.hutte.io/",
+        "label": "Help Center",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.careers.flair.hr/",
+        "label": "Careers",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/about-us/",
+        "label": "About",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/pricing/",
+        "label": "Pricing",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/security/",
+        "label": "Security",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/contact-us/",
+        "label": "Contact",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/@hutte-io/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/hutte-io/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/HutteSalesforce/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/hutte_io/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/hutte-recipes/",
+        "label": "",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/terms-and-conditions",
+        "label": "Terms Conditions",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/privacy-policy",
+        "label": "Privacy Policy",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      },
+      {
+        "url": "https://hutte.io/cookie-policy",
+        "label": "Cookies",
+        "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "b997e33a005096749a2aa35d2fb85b6bbd3666f09b38e31d10a267a85b284267",
+    "text_path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/transcript.txt",
+    "words": 4475
+  },
+  "context": {
+    "format": "Edited interview",
+    "where": "Hutte",
+    "when": "2024-08-12",
+    "date_label": "Published",
+    "with_whom": "Interviewer unverified; Samantha Spiro is the article author/editor",
+    "evidence": "Edited interview containing both questions and answers; not a verbatim single-speaker sample.",
+    "verified_evidence": [
+      {
+        "path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+        "evidence_excerpt_or_field": "Samantha is Hutte’s Content Manager and Chief Editor."
+      }
+    ],
+    "topics": [
+      "DevOps"
+    ],
+    "platform": "Hutte",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert traces his move from Java into Salesforce and the work that brought PMD to Apex. The edited interview covers code quality, open-source contributions, Salesforce’s Graph Engine, and how AI can support development while deterministic tools remain useful for checking its output.",
+    "summary_basis": {
+      "source_id": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "observation": "Episode18 page iframe src=https://www.youtube.com/embed/wJQZfW8-4f0?feature=oembed"
+  },
+  "brand": {
+    "name": "Hutte",
+    "domain": "hutte.io",
+    "source_page": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "logo_url": "https://hutte.io/company-blog/content/images/size/w256h256/2023/05/favicon--1-.png",
+    "logo_path": ".archive/brands/hutte.io.png"
+  },
+  "library_dir": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-07",
+  "hardware": {
+    "chip": "Apple M1 Pro",
+    "memory_gb": 16
+  },
+  "model_weight_hashes_match_publisher": true,
+  "source_audio_hashes_verified": 18,
+  "reference_candidates": 5,
+  "voice_training": "No fine-tuning. Persistent reference profile and pinned local base model.",
+  "checks": {
+    "existing_unittest_suite": "15 passed",
+    "timeline_javascript_syntax": "passed",
+    "voice_python_compilation": "passed",
+    "voice_documentation_links": "6 resolved",
+    "invalid_text_validation": "empty and >600-character paragraph rejected",
+    "multiple_paragraph_generation": "passed, two segments with 0.3-second pause",
+    "generated_audio": "All four WAV streams, durations and SHA-256 checked",
+    "asr": "Three initial samples WER 0. Technical sample differs only in ASR spelling Agentforce as Agent Force.",
+    "human_listening": "not performed; needed for likeness and production approval"
+  },
+  "samples": [
+    {
+      "path": ".archive/voice/samples/english-conference.wav",
+      "sha256": "e7add9bb6b9434022c6b684fd5549d1740df7b56685bfe4ff3e440caffc95b16",
+      "duration_seconds": 10.96,
+      "generation_seconds": 14.722831791965291
+    },
+    {
+      "path": ".archive/voice/samples/english-podcast.wav",
+      "sha256": "ab9083e001089d06f734b615bfa1fff87224eca44a6f366ec290b405ab9cd97f",
+      "duration_seconds": 13.12,
+      "generation_seconds": 22.901599875069223
+    },
+    {
+      "path": ".archive/voice/samples/english-technical.wav",
+      "sha256": "ee590d9d1e0e8ec423629300fdecf8b850e89ffe3747c85a0cfaaa3a660ecc49",
+      "duration_seconds": 11.66,
+      "generation_seconds": 19.286835042061284
+    },
+    {
+      "path": ".archive/voice/samples/german.wav",
+      "sha256": "1a15e2f5672346859aa5e90521daa0a15b41ee382360ed0a361268677c17f3c4",
+      "duration_seconds": 11.76,
+      "generation_seconds": 17.331893374910578
+    }
+  ],
+  "no_audio_uploads": true,
+  "no_paid_services": true,
+  "committed": false,
+  "pushed": false
+}

@@ -1,0 +1,3 @@
+More than a year ago I contributed an Apex language module to the famous static code analyzer PMD, a Java open source tool which exists for over 15 year. Many Salesforce-related tool providers now have native PMD support. So it't time for the community to not only use PMD but also contribute new or improve existing rules.
+
+This video aims to convince Salesforce developers that creating and publishing rules is no rocket science. This spontaneous webmeeting was not well prepared but it gives a good overview of what is needed to get started. From idea to Pull Request.

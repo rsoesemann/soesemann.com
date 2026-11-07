@@ -1,0 +1,62 @@
+{
+  "eras": [
+    {
+      "name": "Aquiva",
+      "start": "2022-03",
+      "end": null,
+      "role": "Senior Principal Architect; Director of Engineering & AI Lead since April 2026",
+      "roles": [
+        {
+          "title": "Senior Principal Architect",
+          "start": "2022-03",
+          "end": null
+        },
+        {
+          "title": "Director of Engineering & AI Lead",
+          "start": "2026-04",
+          "end": null
+        }
+      ],
+      "source_url": "https://www.linkedin.com/in/rsoesemann/",
+      "verified_on": "2026-11-06",
+      "evidence": "Read directly from LinkedIn Experience section in logged-in Safari. Year-only dates retained at source precision."
+    },
+    {
+      "name": "Copado",
+      "start": "2020-11",
+      "end": "2022-02",
+      "role": "Technical Architect",
+      "source_url": "https://www.linkedin.com/in/rsoesemann/",
+      "verified_on": "2026-11-06",
+      "evidence": "Read directly from LinkedIn Experience section in logged-in Safari. Year-only dates retained at source precision."
+    },
+    {
+      "name": "Up2Go International LLC",
+      "start": "2012",
+      "end": "2020",
+      "role": "Product Architect",
+      "source_url": "https://www.linkedin.com/in/rsoesemann/",
+      "verified_on": "2026-11-06",
+      "evidence": "Read directly from LinkedIn Experience section in logged-in Safari. Year-only dates retained at source precision."
+    },
+    {
+      "name": "logicline",
+      "start": "2009",
+      "end": "2012",
+      "role": "Senior Sales Engineer",
+      "source_url": "https://www.linkedin.com/in/rsoesemann/",
+      "verified_on": "2026-11-06",
+      "evidence": "Read directly from LinkedIn Experience section in logged-in Safari. Year-only dates retained at source precision."
+    },
+    {
+      "name": "Interone",
+      "start": "2007",
+      "end": "2009",
+      "role": "Technical Project Manager",
+      "source_url": "https://www.linkedin.com/in/rsoesemann/",
+      "verified_on": "2026-11-06",
+      "evidence": "Read directly from LinkedIn Experience section in logged-in Safari. Year-only dates retained at source precision."
+    }
+  ],
+  "coverage": "Five employers visible on the main LinkedIn profile; earlier experience not yet inspected. Aquiva roles both shown as Present; neither end date inferred."
+}

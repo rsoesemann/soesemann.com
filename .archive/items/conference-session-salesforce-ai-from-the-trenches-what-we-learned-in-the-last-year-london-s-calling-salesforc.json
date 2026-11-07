@@ -1,0 +1,337 @@
+{
+  "id": "conference-session-salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year-london-s-calling-salesforc",
+  "url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+  "source": {
+    "url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "role": "about",
+    "kind": "conference_session",
+    "evidence": "Session ran 2024-07-19; page says no assets uploaded.",
+    "slug": "conference-session-salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year-london-s-calling-salesforc",
+    "title": "Salesforce & AI from the trenches – What we learned in the last year - London's Calling Salesforce"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:52.044829+00:00",
+    "final_url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.html",
+    "title": "Salesforce & AI from the trenches – What we learned in the last year - London's Calling Salesforce",
+    "author": null,
+    "date": "2024-06-03",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.londonscalling.net/",
+        "label": "Home",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/sponsors/",
+        "label": "Sponsors",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/sponsor-interest/",
+        "label": "Sponsor Interest",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/category/news/",
+        "label": "News",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2026/",
+        "label": "2026 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2025/",
+        "label": "2025 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2024/",
+        "label": "2024 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2023/",
+        "label": "2023 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2022/",
+        "label": "2022 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2021/",
+        "label": "2021 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2020/",
+        "label": "2020 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2019/",
+        "label": "2019 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2018/",
+        "label": "2018 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/lc2017/",
+        "label": "2017 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2016/",
+        "label": "2016 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/about-us/",
+        "label": "About Us",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/contact-us/",
+        "label": "Contact Us",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/code-of-conduct/",
+        "label": "Code of Conduct",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/speakers/robert-sosemann/",
+        "label": "Robert Sösemann",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-policies/",
+        "label": "London's Calling Policies",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "http://eventmanagerblog.com/event-wordpress-theme-tyler",
+        "label": "Tyler WordPress Theme",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "label": "UP",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "d30124a6977588218eccd5aa549976690b00e210af8d9fb071e0017da05724cc",
+    "text_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.txt",
+    "words": 74
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:52.044829+00:00",
+    "final_url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.html",
+    "title": "Salesforce & AI from the trenches – What we learned in the last year - London's Calling Salesforce",
+    "author": null,
+    "date": "2024-06-03",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.londonscalling.net/",
+        "label": "Home",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/sponsors/",
+        "label": "Sponsors",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/sponsor-interest/",
+        "label": "Sponsor Interest",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/category/news/",
+        "label": "News",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2026/",
+        "label": "2026 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2025/",
+        "label": "2025 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2024/",
+        "label": "2024 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2023/",
+        "label": "2023 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2022/",
+        "label": "2022 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2021/",
+        "label": "2021 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2020/",
+        "label": "2020 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2019/",
+        "label": "2019 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2018/",
+        "label": "2018 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/lc2017/",
+        "label": "2017 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-2016/",
+        "label": "2016 Sessions",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/about-us/",
+        "label": "About Us",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/contact-us/",
+        "label": "Contact Us",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/code-of-conduct/",
+        "label": "Code of Conduct",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/speakers/robert-sosemann/",
+        "label": "Robert Sösemann",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/londons-calling-policies/",
+        "label": "London's Calling Policies",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "http://eventmanagerblog.com/event-wordpress-theme-tyler",
+        "label": "Tyler WordPress Theme",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "label": "UP",
+        "discovered_from": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "d30124a6977588218eccd5aa549976690b00e210af8d9fb071e0017da05724cc",
+    "text_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.txt",
+    "words": 74
+  },
+  "context": {
+    "format": "Conference session page",
+    "where": "London’s Calling",
+    "when": "2024-07-19",
+    "date_label": "Event",
+    "with_whom": "Unknown",
+    "evidence": "Session ran 2024-07-19; page says no assets uploaded.",
+    "event_date": "2024-07-19"
+  },
+  "grouping_evidence": {
+    "path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.html",
+    "observation": "Session page names Robert and matching session title/date; video publisher title explicitly says LC24"
+  },
+  "part_of": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+  "brand": {
+    "name": "London’s Calling",
+    "domain": "londonscalling.net",
+    "source_page": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "logo_url": "https://www.londonscalling.net/wp-content/uploads/2015/09/LCfavicon.png",
+    "logo_path": ".archive/brands/londonscalling.net.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=londonscalling.net&sz=128"
+  },
+  "library_dir": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches",
+  "file_names": {
+    ".txt": "session.txt",
+    ".html": "session.html",
+    ".pdf": "session.pdf",
+    ".json3": "session-captions.json3"
+  }
+}

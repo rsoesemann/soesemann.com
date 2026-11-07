@@ -1,0 +1,389 @@
+hallo wer bist du und wie heißt du hallo
+ich bin Robert sösemann ich ich bin
+vieles aber für diesen Talk bin ich
+wahrscheinlich principal architect für
+Salesforce bei acivlabs einem Salesforce
+Partner ein PDO Partner der anderen
+potentiellen Partnern in die App
+Exchange
+hilft genau ich bin auch MVP und ich
+freue mich dass ich hier sein kann danke
+für die einladungshandung sehr gerne
+Robert seit wann bist du denn
+MVP seit 3 Jahren also ich glaube 21 ja
+genau 21 22 und 23 okay also auch schon
+eine Weile dabei wenn ich richtig
+verstehe und noch viel länger in der
+selwwelt wie lange ich glaub 13 Jahre
+also es war glaube ich ein Jahr nachdem
+die App Exchange
+eröffnet wurde okay ja damals lange her
+warum glaubst du bist du MVP geworden
+Robert also ich ich weiß es ja ein
+bisschen
+es es ich bin glaube ich ein bisschen
+ein ungewöhnlicher MVP weil sehr viele
+MVPs wie auch du schon davor sehr
+engagiert waren als als Leiter und
+Initiatoren von Usergroups das habe ich
+nie
+gemacht was ich gemacht habe war ich
+habe damals glaube ich
+2015 16 habe ich ein Open Source Tool
+PMD ein statischen codeanalyse ein
+statisches codeanalysool von Salesforce
+von von Java nach salsforce
+portiert relativen
+Aufwand und dann ging das so ein
+bisschen los mit der mit dem Fame also
+dann hat selfor tatsächlich angeklopft
+ob ich auf der dreamforce ein Vortrag
+halten will das fand ich mega stark weil
+ich dachte vielleicht werde ich da mal
+genommen wenn ich dann Talk anmelde aber
+dann hatte ich dann Talk zusammen mit
+dem Lorenzo von Clayton und ja und
+seitdem also am Anfang habe ich da
+natürlich sehr viel selber contributed
+maintained auch ganz viel so die die die
+Marketing Trommel gerührt also da bin
+ich auf Twitter gegangen also ich
+erinnere mich noch was du gesagt hast
+twitter ist mein Salesforce connection
+Medium und auch
+rabatsmedium genau und ich habe also
+viele Partner in dazu gebracht PMD zu
+integrieren zu erweitern ähm und habe
+natürlich dann auch sehr viel über das
+Thema geschrieben warum ich eigentlich
+dieses Tool mag nämlich Clean Code
+Software craftsmanship
+qualitätscode und all diese Dinge genau
+und das das wurde sehr gut aufgenommen
+in der Community und ich glaube also du
+weißt es wahrscheinlich besser weil du
+die ganzen
+submissions auch siehest aber es haben
+immer mal wieder Leute gesagt sie haben
+mich irgendwie nominiert für dieses
+Thema ma und ich glaube 21 hat's dann
+einfach gefruchtet
+ähm genau stehtter Tropfen und so ne ja
+genau ja es war jetzt auch nicht war
+jetzt auch nicht irgendwie mein Ziel MVP
+zu werden aber ich habe mich natürlich
+natürlich se
+gefreut nachdem du jetzt schon Weilchen
+dabei bist und gleich möchte ich noch
+mal ein bisschen über PMD reden denn wir
+zwei kennen das vielleicht aber nicht
+alle die und deswegen würde ich es gerne
+noch ein bisschen erklären ähm was
+bedeutet das denn mittlerweile für dich
+MVP zu sein für
+Salesforce also ich habe darüber schon
+oft nachgedacht
+m ehrlich also es es heißt so ein
+bisschen
+Wertschätzung auch vor allem
+rückblickend also für für Dinge die ich
+gemacht habe als ich noch kein MVP war
+und für die die ich immer noch mache
+und auch eine gewisse Akzeptanz dass ich
+die Dinge die ich mache und schreibe und
+tue so ähm im best interest der Sache
+mache also das war bei mir nicht immer
+so klar also ich habe am Anfang
+teilweise oft so den chatz gemacht na
+wenn sie mich zum MVP machen dann dann
+dann weiß ich auch nicht und so weil ich
+weil ich keine Ahnung ich habe keine
+keine Lust irgendwie Marketing für
+salesfor zu machen nicht mal irgendwie
+neue Developer für sie zu werben
+was ich will ist dass die Plattform
+besser wird und es gibt viele wie mich
+da draußen die aber eben nicht keine nur
+gern gern die Klappe aufreißen und und
+und dieses MVP machen war bisschen so
+wie eine Versöhnung also ich habe
+gemerkt selbstw sieht da drin auch
+vielleicht ein Wert und und kann das
+wertschätzen und und das ist es für mich
+so ein bisschen und natürlich auch eine
+gewisse ongoing Verantwortung also ich
+denke jedes Jahr wenn ich so
+das wieder werde und du hast es mit
+Daniel ja besprochen man man man muss ja
+auch sagen was man so macht dass ich
+halt oft auch talks es erinnert mich
+auch einfach daran dran zuubleiben an
+diesem Thema also ja talks zu machen es
+weiter zu entwickeln zu gucken was
+brauchen die Leute eigentlich und so
+also es ist auch eine Erinnerung nichts
+schleifen zu lassen keep the spirit na
+klar aber die die für mich ist das schon
+spannend also ich würde dich als jemand
+einschätzen der diesen Spirit aus
+eigenem Antrieb hat ja das heißt dass du
+zufällig das jetzt noch irgendwie als
+contribution fürs sein einstellst ist
+ein netter Nebeneffekt aber es wird ja
+sich trotzdem nicht anders ausgehen und
+im übrigen um das mal vielleicht ein
+bisschen einzuordnen aus meiner
+Sicht wenn wir mal die Details weglassen
+was PMD tut oder nicht tut mit Code und
+wir uns einfach mal drauf eidigen es
+hilft sehr sehr sehr vielen Menschen
+dabei nicht den größten
+in ihren abex Code hineinzuschreiben so
+dann dann ziehe ich ja trotzdem meinen
+Hut hier an dieser Stelle ganz offiziell
+denn deine contributions und das was du
+angestoßen hast hat es ja mittlerweile
+bis ins offizielle tooling von
+Salesforce geschafft also wenn man mit
+als Entwickler auf der Plattform
+unterwegs ist und da oder vielleicht
+sogar als ISV um es ganz konkret man
+mittlerweile ist man verpflichtet den
+den Scanner zu benutzen ein DX plugin
+und da werden auch PMD PMD drin ja
+durchgewertet ich kann ja auch ja sagen
+dass ich oder wir bei bei di
+Consulting auf jeden Fall auch PMD im
+täglichen Einsatz haben und im Gegenteil
+gucken dass wir das noch erweitern weil
+wie du mit talks die man findet sag ich
+jetzt mal immer wieder zeigst ist
+das Erweitern dann doch möglich bis hin
+zu sehr schönen Sachen wie mein einer
+meiner größten Ärgernisse ja ich habe so
+unterscores anderscores in Feldnamen die
+will ich da nicht die will ich nie sehr
+gut m und mag Dich noch mehr die
+Repositories also das ist ja auch ne PMD
+funktioniert mit dadurch dass ich diese
+ganzen sesw Sachen irgendwie auf der
+Festplatte habe ob jetzt auf giitub oder
+auf meinem Computer und da wird Daum
+gescannt glaubst du
+ähm
+dass ich jetzt und ich weiß dass du auch
+mit mit aquivalabs stark in Richtung
+generative ai unterwegs
+bist wann wird denn und ich glaube du
+hast es sogar schon mal versucht ne PMD
+versus ich glaube chatgpt war es und
+wenn ich die Ergebnisse auch schon
+vorwegnehmen kann du hast gesagt chatpt
+hat's besser gemacht
+wieso ja das ist oh das ist ein großes
+Feld da brucht man fast eine ganze
+podcastreihe da ür also das beantwortet
+auch eine eine der Fragen auf deiner
+Liste womit ich mich jetzt so
+hauptsächlich beschäftige ich ma
+natürlich nach wie vor Architektur in in
+App Exchange Projekten aber ich bin auch
+Teil der
+Akiva ai Task Force die einfach so den
+Sinn hat dass wir diesen Zug nicht nur
+nicht verpassen sondern da richtig
+aufspringen gucken dass wir das in der
+Firma verwenden also um unsere Arbeit
+schneller preiswerte und bessere zu
+machen aber natürlich auch wie wir das
+nach außen drin
+ein Kunden verkaufen können und klar da
+habe ich natürlich auch sowas
+ausprobiert also ich kann dir sagen ich
+bin regelmäßig erstaunt was ai cooles
+kann und dann eine Woche später ein
+bisschen enttäuscht du auch ja ja ja
+klar jeder wahrscheinlich und du siehst
+es gibt von mir weniger so begeisterte
+ai Tweets als am
+Anfang was du brauchst bei bei bei bei
+so Dingen wie Qualitätsprüfung ist
+konsequen Konsistenz da kann es nicht
+sein dass der eine Entwickler fünf
+Fehler kriegt also ein gutes Ergebnis
+und der andere kriegt nichts oder kriegt
+schmn damit tötest du diesen ganzen
+Ansatz also ehrlich gesagt ich
+glaube nicht dass auf absehbare Zeit
+solche so Tools wie PMD direkt ersetzt
+werden ich glaube sie werden erweitert
+also ich was ich persönlich mache ist
+ich lasse über Code auch noch mal drüber
+gucken vonon sowas wie cilot heißt Codi
+von sourceegraft und dann frage ich ich
+frage einfach weißt du es kostet ja
+nichts fragen kostet nichts ich kann
+zusätzlich zu PND noch eine KI Fragen
+und manchmal finde die gute Sachen aber
+du bra du musst halt eigentlich immer in
+der Lage sein das alles selber
+einzuschätzen zu können so Tools wie PMD
+die kannst du halt auch jemanden geben
+der nicht die Erfahrung hat das alles
+selber zu können und das ist glaube ich
+schon
+wichtig da muss ich auch noch sagen also
+dass ich dass ich auf der dreamforce mit
+mit Chris Peterson geredet habe und
+Daniel Binger und die haben auch gemeint
+sie glauben dass dass gerade Dinge wie
+PMD sehr wichtig
+sind und wichtig bleiben jetzt wenn
+Developer Metadaten und Apex Code mit
+generativer ai erzeugtau also das F ich
+das fand ich einen tollen Twist dass das
+praktisch PMD sogar hilft Qualität in AI
+Zeugs zu zu prüfen ich ich glaube da ist
+ein gewisser Subtext gerade hier den ich
+offen legen möchte nämlich woer kommt
+kte das das Thema eigentlich also es
+geht ja nicht nur dass irgendwelche
+Menschen die jetzt nicht seit 100 Jahren
+zertifizierte Salesforce 2 Developer
+sind Code mit Copilot oder Einstein GPT
+schreiben sondern es kommt daher dass
+bleiben wir mal bei der Situation Review
+also jemand aus dem Team hat Code
+geschrieben und Metadaten verändert und
+das aus Repository gepackt dass wenn ich
+mein mein mein Favorite ai Tool da
+drüber laufen lasse es halt beim jeden
+drüberlufen andere Ergebnisse erzielen
+wird und ich jetzt nicht wirklich
+gewährleisten kann dass jedes
+drüberlaufen mindestens alle diese
+Ergebnisse erzielen wird die eben PMD in
+jedem Fall und immer und ständig ergeben
+also erzielen wird das heißt das ist
+also nicht deterministisch an dieser
+Stelle und PMD ist natürlich auch g
+Natur der Sache weil es ein statisches
+Tool ist und sehr viel kluge Software
+ist aber kein es ist Code jeder Code ist
+Biss ja deterministisch ja so und
+damit gibt sich das natürlich die Hand
+ist das denn dann quasi alles wo du für
+dich Einsatzgebiete in AI si ich kann
+mit jemanden der viel Code sehr schnell
+ingesten kann Fragen stellen bei
+Review nein nein also
+ähm also ich schreib gerade ich schreibe
+in meiner Rolle relativ wenig Code also
+nur diesen coolen Code den proof of
+Conzept Code und dann die harte Arbeit
+mache andere aber ich verwende das
+solche Tools sehr um bestehenden Code zu
+verstehen um Fragen zu
+stellen also die Tools sind schon sehr
+gut darin zu sagen also nenn mal ein
+ganz konkretes Beispiel von letzter
+Woche ein i Projekt wo ich nicht genau
+wusste wie sie da die
+Implementierung implementiert haben habe
+ich einfach gefragt was ist das ist das
+webserverfow und Belege mir warum und
+dann machen wir mal UML Diagramm so ein
+PL UML
+diagram wie das abläuft damit ich
+wirklich welche Klasse da was was
+aufruft und so und das ging halt ohne
+Ende also und das habe ich halt auch
+verwenden können dann in der
+Kommunikation mit dem Team
+und das Team hat nicht nur bestätigt
+dass das dass das alles wahrheitsgemäß
+ist sondern es hat mir halt auch sicher
+zi Stunden Arbeit gespart oder noch und
+also das sehe ich schon ich sehe das so
+als wieo als
+Assistent und vor allem bei bei
+kreativen Sachen bei Dingen wo es nicht
+um um irgendwie Leben oder Tod geht wo
+vielleicht in meinem Kopf keine keine
+Ideen sind und dann kriege ich so ein
+paar Ideen und dann kann ich
+filtern
+das ist meine gerade meine
+lieblingssicht auf auf
+KI also diese Art von KI die wir über
+die wir gerade alle reden also
+generative ai mich natürlich neugierig
+gemacht hast ich glaube du hast es schon
+gesagt aber vielleicht erzählst es noch
+mal welches Tool benutzt du für ich
+spreche mit einem Repository das ist das
+ist ein codeassistent der ist wesentlich
+besser als cilot der heißt
+CoD Firma die gibt schon lange die heißt
+sourceph
+die hatten früher so so al so eine Art
+GitHub was aber den Code besser versteht
+also was unabhängig von der
+Programmiersprache praktisch die die
+Verbindungen versteht ne ohne ein echten
+parer zu haben und die haben halt auch
+so ein Plugin für vs Code und da kannst
+du also der sagt dir dann dieses Wissen
+habe ich aus diesen 14 Files oder so
+sehr gut sehr
+gutilot von von github/ Microsoft
+tatsälich also mit dem mit dem kriege
+ich nichts raus weil ich ke Code
+generiere und das Tool ist halt wirklich
+richtig cool und und es das hat sogar
+also ich benutze nur den freeer der hat
+so 50 Fragen am
+tager wüstest du ob das jetzt wie bei
+Einstein GPT ist dass das was du da mit
+dem cod austauscht der zufäig auch CoD
+heißt wie unser Codi
+interessant ob damit trainiert wird weil
+das ja heiße Debatte in der soswelt seit
+der
+dreamforce Trust
+Layer bin ich das Produkt bin sind meine
+Daten das
+Produkt das ist ja das wo jetzt
+zumindest wir gesehen haben dass das
+Anstrengung unternommen werden jetzt
+zumindest auf Seiten der Plattform wir
+können wahrscheinlich genauso ein
+podcastreihe drüber machen ob das
+sinnvolle Anstrengungen sind also wie
+siehst du das muss Vertrauen also wenn
+man geschriebenen Wort nicht mehr
+vertrauen kann also wenn man
+irgendwelchen terms and conditions in
+denen steht wir trainieren nicht auf
+deinen Daten wenn man die nicht trauen
+kann kann ich auch keine open ai
+verwenden da kann ich aber auch keine
+salforce mehr Vertrauen also diese
+Firmen sind für mich alle gleich
+unglaubwürdig oder glaubwürdig
+amerikanische Unternehmen die Geld
+verdienen wollen also aber ich ich
+glaube dem geschriebenen Wort und und
+bei Codi wie auch bei Gitter steht drin
+dass die nicht lernen
+also dass das nicht in irgendeinen
+relearning der des Modells einfließt
+also das ist das ist bei uns auch ganz
+wichtig also wir haben praktisch wir
+checken Tools wie so Art von demem
+Anwalt bei uns innerhalb der Firma und
+er guckt ob ob da ob es da Dokumente
+gibt die irgendwie stichhaltig sind dass
+man sich auf sowas verlassen kann und da
+ist dieses Codi gut vielen vielen
+Dank

@@ -1,0 +1,931 @@
+okay cool so good afternoon welcome to
+Dreamforce welcome to the session clean
+apex code with automated code metrics
+I'm Robert I work at up to go I'm lead
+product developer and my wonderful co
+speaker will just introduce himself hi
+everyone my name is Lorenzo Frattini
+certified technical architect and
+creator of clayton de io we're very very
+excited to be here today we didn't
+expect such a full room so many people
+are in topics actually we're very
+excited about what we're talking about
+we've got a lot we would like to show
+you so let's get started cool so just a
+little bit of context you see we we
+don't have the same accent we are not
+from the same company to be honest we
+just met recently what brought the two
+of us together here on stage was that we
+had the same problem in the last year
+and solved it by building a tool and the
+problem we had was like enforcing code
+quality in our work context so this
+presentation will be about two stories I
+work for an Ice V so it's about products
+Lawrence is doing consulting and
+projects so different different mindsets
+but tools yeah there will be a lot of
+demos there will be hopefully a Q&A so
+don't leave the room
+we have to show that one and whatever
+everything you are going to see is it's
+not a Salesforce product so don't make
+any purchasing decisions based on it
+actually I have that one okay let's
+start with defining the topic it's about
+what what is good code and when we
+worked on the slide set we basically
+went through other Dreamforce sessions
+about coding and blogs and there are
+different different ways to define what
+good code is there are people who say
+okay think of the customer code is just
+a means to an end we get paid for
+working code so make your customer
+successful
+other people they
+think about technology we need to have
+tests when you need to have coverage we
+need to use the latest stuff that's out
+there in the release notes
+governor limits and yeah there are other
+people they say it's about planning do
+you have to be agile planning Sprint's
+so while we think this is perfectly
+right we think this is not good enough
+if we want to talk about really the
+inner stuff of code so this is a Tech
+Talk this is a tech conference let's
+show some code Aggie code don't try to
+understand it it's it's from our
+internal expense tracker so it really
+fulfills all the criteria it just showed
+it works it makes us really successful
+reimbursing expenses it was planned
+using scrum but just imagine you would
+have inherited this code from a fellow
+developer who just left for a better job
+would you like it so it's this good code
+I actually planned on asking the
+audience just raise your voice and but
+no so
+do you see anything that you don't like
+it's just
+did I hear cycling loops
+okay I heard some good stuff if you want
+to add anything before I show what I
+found
+no okay so
+this is what I found when I stumbled
+over the code I I don't like comments
+actually it should say outdated comments
+on the top there are many book authors
+they say comments are an excuse for code
+that is hard to understand so actually
+the code should speak for itself we do
+manage packages so we hate global there
+are many developers they think batch
+still needs global
+long parameter lists I hate it because
+my ID he doesn't tell me which date
+comes first and three in a row it's
+really ugly
+I heard suckling loots it works for us
+but I think if we get more employees
+after this talk and it might change
+yeah and there's something I really care
+about and this is deeply nested logic of
+if-else and four it really makes it hard
+to test because for each way through the
+code you need an extra test and yeah
+formatting whitespace so and you all
+said no so I think we agree all that the
+oops sorry that this is not good enough
+so before we go in before I going to
+tell you what we had up to go did I just
+want to compile a short list of
+high-level qualities of code on the
+slides there are some quotes I won't
+read them it's just to support the
+argument we would just picked up some
+quotes by some experts so good code is
+easy to maintain code is not written
+once and then left unchanged for the
+next year it's really about going and
+changing stuff
+so don't think about quick hacks
+pragmatic stuff
+think about a long-term partnership even
+if you don't have to take care of the
+the developer who's working with your
+code he will love it
+easy to understand them by that what we
+mean is that it's not just code that
+compiles it should be easy to understand
+by humans
+people that will read what the variables
+name are they should understand
+everything should be named in a way that
+suggests their purpose the flow of the
+code should be nice and
+easy to follow not too much convolution
+in the code otherwise that will become
+very very easy to make mistakes and to
+introduce bugs
+names we will talk about that later but
+we always suggest you have names that
+really tell you what that specific class
+or variable purpose is for example if
+you use design patterns that are well
+established use that suggest that with
+the
+today that the factory is a factory for
+example right don't use nerdy names use
+the names of the domain right so coated
+easy to understand is not always easy to
+extend so this is really important
+just think of classes of thousand lines
+big spaghetti mass adding features is
+really hard so think about design and
+capsulation good object orientation this
+is really important otherwise you see
+yourself rewriting old features when you
+want to add new one and it's yeah you
+know you might have heard of technical
+depth you really accumulate stuff with
+everything you add so when you don't
+reflect her and keep the class as small
+this this will really be a problem so
+keep yourself agile and think about how
+your code is easy to extend and good
+code is easy to test so
+not sure if many of you use test-driven
+development that is a way to make sure
+that you write your code with tests in
+mind
+we believe that that is a good way of
+doing it but even if you don't do it is
+you should still write your code with
+the idea of it to be tested in a nice
+and easy way so that the tests are
+simple to to understand like the code
+itself should that good test Arturo are
+repeatable or independent of the data
+and they should be
+easy to follow they should be as good as
+your code so write good code is written
+with testing in mind right and this
+wonderful person came back he I think
+he's the inventor of j-unit he says
+every test must fit on the screen so if
+you see yourself writing unit tests
+where you set up the whole application
+it's wrong it's not something wrong with
+apex or anything else it's something
+wrong with your code so I just want to
+sum it up and
+good code is clean code and we didn't
+came up with this word is from a
+wonderful book you see I like books
+and this is like the Bible and up to go
+every developer has to read it once a
+week and in this book is really about
+everything about naming about intention
+revealing stuff about beauty and code
+it's really about soft facts so go out
+and pick a version of this book it's
+really it's really good so I told you we
+want to talk about how we do it I work
+at a ice V company we have managed
+packages out there one packages of
+financial planning solution for
+automotive the other one is
+collaboration in matrix organizations so
+heavy enterprise stuff native packages
+and we have teams spread around the
+world we we have office in the u.s. in
+Germany in Austria we just opened an
+office in Paris and all the teams they
+have people from the University people
+like I'm quite older so different skill
+levels and how do we how do we tackle
+the baton as always I think it's kind of
+trivial I guess everybody does it but
+you have to educate your people and it's
+not only about the latest stuff in in
+the apex world you have to go back apex
+is not really very different from Java
+so
+read about object orientation read about
+legacy code testing you need to train
+your people and tell them qualities of
+their own responsibilities
+Lorenzo talked about standards it's it
+starts either easy with naming but also
+implementation patterns how how do we do
+batch in our company best practices
+which libraries we use we use andr
+faucets epics commands basically in all
+our products so when we switch people
+from teams everybody understands how
+triggers work and this really helps we
+do pair programming code reviews are
+mandatory for every non trivial change
+to the system
+and this is all good I guess many of you
+say yeah this is not new to me and
+there was a problem we we found out when
+there was a stressy time we just let
+loose we didn't do it and as we are
+developers we said why not have tools
+check some aspects of quality for us I'm
+quite sure that even Einstein is not
+feasible it's not possible to find out
+if the names intention revealing but
+there's a lot of stuff that can be done
+and we come from a Java background and
+there are zillions of tools that a code
+analyzers
+formatting tools and we just made a
+small project and ported one of those
+tools there is a Java project it's more
+than ten years old it's it's called PMD
+it's a static code analyzer it basically
+reads in your classes has a list of
+rules each rule is it's a Java class
+which finds anti-patterns problems in
+code and outputs violations I will show
+in a minute how this looks like in
+Eclipse there are plugins for many other
+IDE s out there but it's still local and
+we thought having stuff locally it's
+still the responsibility of a single
+developer so we want to have it in our
+like really tightly integrated into the
+development process and so we said we
+want to have it in github we found a
+company in New York called code climate
+they have a cloud service which plugs
+into your github repo and every time you
+do a push or a pull request
+it runs engines on it and what we did we
+basically wrap PMD as a code climate
+engine and so yeah I'm going to show you
+how how this how this works in github
+yeah and the best thing is we just got
+started and everything is open source so
+I hope to get you guys excited to
+contribute some of your Salesforce
+knowledge so let's switch to the demo
+in our abstract we promised to to help
+you see how easy it is to use for you so
+the demo will be twofold the first part
+I will show Eclipse because I like it
+I'm
+quite old so I like Eclipse but there
+are PMD plugins for other IDE s and then
+I will switch to github and show you how
+PMD and the apex metrics work together
+and github
+okay
+good so this is eclipse it's my travel
+expense project you see the the
+problematic class we saw before
+to get PMD into eclipse it's it's just
+pasting in the updates update site URL
+and then it's in there and what I just
+do and you can do it after the session
+so just get this URL and put it into
+your Eclipse I just click on Sora's
+SPMD to
+to check the code and after a few
+seconds you see there are markers in
+underlines and on some classes I will
+zoom into the to the violations view and
+you see you will recognize some of the
+problems we talked about before it's
+telling me to avoid global modifier it
+says there's an excessive parameter list
+down down there should be avoid subtle
+in loops and something which sounds
+quite scientific standard cyclomatic
+complexity it's basically counting the
+different ways through the program
+program so it's about testability if you
+have a high cyclomatic complexity it's
+hard to test
+good
+so
+PMD works on the command line in your
+IDE you can integrate it with and your
+own CI process but let's let's look how
+this works and github so I just
+switch
+to my github repo
+it's a private one code climate is for
+free so when you do an open-source
+project you just get code climate for
+free and you can use Apex metrics
+instantly so the cool thing about code
+heimet is they they basically extend the
+github UI so you don't have to leave
+github all the time you see on the top
+there is this green grade GPA so this
+repo gets a three point three which is
+quite good so it's green and this is
+calculated from
+from the grade of each class let me just
+drill into my classes folder AAA
+wonderful and down there the class the
+problematic one got sadi why that and
+here inside of github so this this is
+not code climate you see all the issue
+markers called modifier along parameter
+list problematic naming avoid Sakhalin
+loops and each of those violations goes
+back to one of the PMD rules so when you
+click on the expand button here you see
+the PMD version and explanation of the
+rule
+and something called PMD properties you
+don't have to live with the defaults we
+came up with so if you say it's totally
+okay for us to have four parameters in a
+method I I just don't like six you can
+override it and you do it by by simply
+placing an XML configuration file in the
+source folder
+where you basically would overwrite this
+value and then
+the apex metrics engine would just
+interpret the rule differently so code
+climate also has a very nice UI so I
+just switch to the UI of my travel
+expense app I compared to a chatter feet
+whenever whenever somebody is doing a
+commit or pull requests you see code has
+changed it's gotten worse or better
+there's this circle which explains how
+the overall grade is calculated
+there is a list of hot spots so we
+really have to take about care about the
+travel builder class and it's really a
+lot of problems in there
+right
+so if you want to find out more about
+this just go to code climate there is a
+link to the apex metrics engine and you
+will be directed to the open source
+project of that we have a quite decent
+wiki so if you want to contribute rules
+or if you just want to change something
+you can do it it's an open source
+project so oh I over end the time
+terribly so I will just switch to
+Lorenzo which will talk we will talk
+about platon and code reviews
+thanks Rob
+okay so
+thanks Rob we we come from different
+kind of context Robbie's from a product
+organization so they
+work a lot going they keep going back on
+their code I work in consultancy reason
+we have different challenges is more
+about getting things right straightaway
+you it's kind of difficult to go back
+and refactor right when you charge by
+the hour
+why why it's good quality so tricky so
+if we kind of do do it take a step back
+and try to look at the bigger picture
+having good quality requires kind of a
+mature organization
+all the
+if you think about what is required to
+to get to that point you probably
+require standard to be developed
+an organization you need to make sure
+that everyone understand those standards
+and then you have to enforce them
+throughout and that is very very tricky
+it's very difficult good quality is hard
+to measure it's not the same for
+everyone
+and if you have multiple projects in
+parallel like the scenarios I deal with
+every everyday in my
+at work it's kind of difficult to do it
+at scale
+because you need to make sure that every
+project is doing that
+and then in in the Salesforce pace the
+results of these unprecedented velocity
+a lot of things are taking care by the
+platform so it is quite common to see
+this very very fast development cycle
+and sometimes there is an injection of
+offshore resources or temporary
+developers contractors they don't really
+care about the quality of their code
+well let's say that my care but that not
+normally not held accountable for that
+all these things are are real challenges
+and in my career I have been working
+with this problem trying to solve it a
+number of times and
+the approach I think that worked best
+for me is the code review approach code
+reviews I don't know how many of you do
+code reviews the idea is extremely
+simple you start building your own set
+of coding standard so whatever as a
+group as a team as an organization is
+good quality for for you there should be
+part of your coding standard so that
+could cover anti patterns like bad
+things that you should never have in
+your code like Sakhalin loops like we
+said earlier but it could be also about
+the style of your code about the way you
+name things about how convoluted your
+code can be and the idea is that you
+define these coding standards and there
+is a lot of help out there a lot of
+literature and then you come up with a
+code review checklist that the idea of a
+checklist is very simple is testable
+things ten lines ten points so that
+there moment in the development and
+normally there is a when when there is a
+pull request in the wrapper where two
+developers appears sit together go
+through the checklist and make sure that
+your code complies so it's good enough
+to be accepted in the wrapper and that
+is that is very good because you you
+kind of don't fix the big picture you
+don't fix everything you don't erase
+your technical depth but by fixing the
+increments you make sure that every time
+you do something better so even if you
+started with terrible codebase every
+addition is better
+there are challenges though this is not
+easy to to get rights right away you
+need if you've got a large organization
+you need to train a lot of people and
+then there are deadlines and when there
+are deadlines if you've got a deployment
+in two days chances are things we sleep
+through because people are stressed and
+they want to get the codeine
+so it's hard to discipline ourselves and
+that challenge and that is what I was
+most worried about was the scalability
+of this approach
+working with with consultancy
+organizations we are challenges we are
+running many projects in parallel and we
+needed a way to
+simply solve the problem throughout our
+portfolio so I've been doing this for a
+number of years quite successfully but I
+kept thinking can I automate this can I
+have some sort of automation kind of
+commenting the per request like a human
+developer would do and I was kept
+thinking about this because I was
+intrigued by the idea of of an
+automation that will never make mistakes
+well unless it's buggy but you get the
+point so I came up with what I later
+called Clayton I wanted to sound like a
+person
+so I just named it like it was a five
+minute thing so I started Clayton as a
+prototype early this year and the idea
+was I wanted something very simple
+just the comment is good enough for me I
+just want to make sure that bad code
+doesn't sleep in the rapper
+and I wanted to be hosted so there are a
+number of solutions out there regarding
+static code analysis the point is that
+you most of the time need to install
+something like sonar cube for example is
+something you need to manage either
+install on AWS and then manage I wanted
+something that is managed basically and
+specific to salesforce development and
+the idea is that you go in i will show
+you a demo you go in you define your
+coding standards and that and the tool
+will enforce these coding standards
+every time there is a new change
+so I will show you how it works it
+connects into github or bitbucket
+and every pull request is basically
+kicking off a new check
+so in terms of the story of clayton i've
+been
+i was working on this idea and then I
+met mark Richard which is the CEO of
+very good companies called make positive
+that it's a it's an implementation
+partner
+they actually they've been a word that
+yesterday this dream force and they are
+pretty cool bunch of guys based in UK in
+India very very well-respected a lot of
+track of good projects the size of the
+team is approximately I think is 50
+people more or less is 25 developers a
+mix of onshore offshore and I think it
+at least 25 like admins and they were in
+terms of maturity they were getting
+there
+they developed their own standards they
+were there was a feeling of good code
+the challenge was
+we're running multiple projects at the
+same time at least 10 and how do we
+enforce the standards it is not easy if
+we can put our good guy on a project
+ok we are kind of okay with it we will
+have code reviews and this will work but
+how can we insure it for everything so I
+started working with with Mark and I
+said listen I'm working on this idea can
+we try together and that is when Clayton
+kind of started out so I'd like to give
+you it works
+so
+okay so just to give you an example I've
+got a project on big market is just this
+is nothing really it's just a few little
+bit of Apex I
+don't know if you're familiar with I
+assume that you all are very familiar
+with version control and get
+basically bitbucket is a way to do it
+and the way Clayton works is basically
+is is online is hasta da naraku the idea
+is that you connect it with your rapper
+and you have to trust it to access your
+code and it will
+will basically give you a list of the
+things you can see now the code that I
+showed you is like
+there is no checks there is no is just
+Apex code on a repo and if I want to
+start adding code analysis on this all I
+have to do is to click once and Clayton
+is checking the code and running a lot
+of good checks I will show you in a
+minute how it works
+but basically analyze the code and kind
+of it gives you an overview of what's
+going wrong but we go back on this now
+let's let's let's assume I'm a developer
+I'm a developer working on this codebase
+and I've got a new feature now
+the the development
+lifecycle I always suggest to create a
+feature branch where you start working
+on your new exciting feature and then
+I'll do something very bad I will do it
+directly from the browser and don't do
+it
+so I go in here and
+just paste in you a new file I think I
+have it here
+so let's assume that this is a very very
+cool feature
+let me copy it from here
+could it's one file but it could be many
+it could be 10 files 10 classes and
+okay so I'm adding a new
+mind feature German keyboards
+okay
+so this is just an example this is a
+comet I might have to do many I will
+write my test and one the feature is
+kind of stable enough I will do
+oops sorry a pull request and the pull
+request is at the moment where we should
+start having the review no I want to do
+a pull request from demo to master yeah
+let's let's do this
+now what's happening now is that this is
+basically the moment where normally
+another person should review my code
+what happens is that Clayton is now as
+run the check automatically and as you
+can see we've got a status the code
+review has failed that means that the
+code is not good enough to be merging to
+our code base and there are comments on
+the offending line with the problems
+that were spotted so not with sharing
+you should use with sharing there is a
+hard-coded ID you should never our code
+any ID in your code and a bunch of other
+things there was a DML statement inside
+the loop so very bad things
+so now as a developer can go back and
+change it the way Clayton works is
+actually I talked about coding standards
+that every team should develop so the
+idea is that there is actually a way to
+go in and say I actually want to enforce
+all these things for example I might
+don't I might not care about the naming
+convention but you might want to say I
+want all the classes to be named in a
+certain way so for example I want to use
+this pattern because I use a namespace
+and you've got the flexibility to say I
+want s to be called this way I don't
+want I want only single letter variables
+in loops and everything else should be
+prevented things like that okay there
+are a number of rules avoid empty met or
+the number of things
+so that's the demo
+let's go back we would like to leave
+some time for for some Q&A so I'll
+go through the results so just to tell
+you that there are actually good results
+we've seen the quality of delivery in
+general going up we measure what is the
+defect densities basically how many
+lines of code have problems and we that
+is the history of a project of eighteen
+thousand line of apex and the defect
+density goes from twenty one percent to
+3 percent in one sprint ten days and
+that is the Israel data we know that the
+team is now more knowledgeable because
+they talk about code reviews now they
+care about it they have it's a topic
+they discuss and
+and we think that code review become
+more effective because if you have a
+tool that takes care of you know the the
+dull work you start talking about more
+meaningful things how the code is
+architected the patterns that we are
+using are the right ones and
+and then you want to say this yeah yeah
+people trust tools more than people and
+in my experience
+when we did code reviews before it was a
+lot of discussion hey this is just an
+opinion and when we basically just put
+the opinion into a tool there was less
+discussion and I don't like the result
+but that's the truth at least
+in my reality and
+another thing that that is really cool
+and it's somewhat gamifying and coding
+in the beginning everybody hated the
+idea that I put a grade on a class or
+code they said no will you tie my salary
+to it now but now we see people really
+they go out and reflect our code to just
+get an A and they it's it's really it
+brings the fun back into coding so yeah
+this is cool
+if you take aways first of all we think
+is not just about developers it's about
+the culture
+quality and technical that affect
+everyone every level in the organization
+so create a culture work code quality
+matters where there is people talk about
+it when make sure you train and educate
+people on code quality aspect that is
+really important
+use code reviews very very simple but
+extremely powerful and let tools help
+you we we feel where we just started I
+mean yeah I think we started working on
+these things early this year and we
+already have data to support like the
+powerful effect that using tools have
+just try them out all try them out
+really every tool has is perfect for a
+specific situation and and we really
+would love to see some of you contribute
+knowledge so just get into the space
+tooling creating tools for Salesforce is
+really cool it's fun I didn't say that I
+actually planned on doing this we I
+couldn't have done this without support
+from Salesforce so when we try to
+understand apex we just got a parcel
+from Salesforce so yeah
+maybe you just want to join yeah
+absolutely so we the important thing for
+us is that we want your feedback we've
+been doing a lot of things and we worked
+hard to get to this point and and now
+we're kind of proud to to show this for
+the first time to to the public so
+please get in touch with us try our
+tools everything we showed you can go
+straight away and play with you can go
+and click on the i/o and connect your
+project you can go and get up and
+contribute to to PMD and we will share
+all the links in the charter feed so
+that's right at the session and we will
+hang around here so yeah we are happy to
+demo and everything we're kind of very
+very proud of our babies and
+please join us in the in this journey
+for better tooling so thanks
+everyone let's open the Q&A
+[Applause]
+very good there's a mic so if you don't
+want to be the person who runs there I
+just shout it out at night so one
+question yeah before you deployed PMD or
+Clayton at i/o and after you deployed it
+did you see a general increase in cycle
+time in code deployments or decrease in
+cycle time or gradual decrease in cycle
+time and code deployments or yeah you
+mean yeah so in terms of using Clayton
+there is absolutely no overhead because
+code reviews are happening already
+normally a human takes one hour to
+review roughly 999 lines of code that is
+kind of suggested what you and and you
+not have to wait for that person to be
+available to look at your code so the
+pull request will say open more using
+the tool we see that kind of it's
+shortened the the feedback as you've
+seen is instantaneous so from what I can
+tell
+absolutely not is actually bringing up
+it's actually a faster development
+lifecycle because a lot of things are
+taking care of straightaway
+you want a yeah we have fixed Sprint's I
+just saw the quality going up so when we
+do a code review there's already some
+some of the trivial stuff not in there
+so we don't have to talk about it so it
+definitely improved from the very first
+sprint that we used it okay
+so anybody else yeah I have another
+question like oh yeah if they will do it
+validate the governor limits
+let's say like multiple developers went
+to our gandora put the code multiple
+triggers multiple classes yeah we get
+into a loop where run time you get into
+the circle limits or some kind of an
+error and we predetermine those things
+to save some time at the deployment sake
+time yeah so that is a very tricky thing
+so we can
+if your code will break governor limits
+that depends at runtime
+but we can tell you if there is a high
+chance that that will happen so for
+example Rockland loose ocular loops is
+something we get send emails in loops it
+depends on the different tools but we
+are definitely working to resolve the
+problem now there are things that you
+cannot really be absolutely certain but
+you know that they are bad practice and
+that's what we block right
+how different is this right if somebody
+writes a test classes link that to the
+sonar Cuba where you can see that
+matrices no different is the Clayton
+that I will from that standard so none
+of this tool work with sonic qube they
+are different type of solution so you
+cannot plug it in so you
+I think sonic qube works with PMD so as
+what we contributed is really part of
+the this the this the base PMD package
+it should work with the sonar cube so
+yeah and it works with Eclipse and and
+so it's not a special branch of PMD it's
+really part of the main repository yeah
+thank you I
+question hi
+I've heard of some other tool called
+check marks there are was wondering if
+you tell me this how this compares with
+something like what check marks does
+yeah Oh check marks is a different place
+in the same arena but check marks is
+more about if there are any like field
+level security problems sharing I know
+check marks from security reviews and I
+think there's not really an overlap so
+we are not competing with them
+but a yeah I think you could combine
+both even if they don't mandate it in
+the Security Review it's it's perfect if
+you can put clean code so you could
+combine both yes absolutely so in terms
+of so in terms of the the overlap check
+marks a very isn't an enterprise product
+with a long history our tools our babies
+of we there is something that checkmark
+does that are two dozen is compiling the
+is basically able to tell you if things
+are indirectly wrong so there is an
+extra layer of depth in the checks but
+it's also an enterprise product so it
+has a different impact and cost and
+everything so we we have a vision to
+maybe feel a little bit of reduce the
+gut and hopefully over time with
+everyone's help and contribution we will
+fill that gap but at this point in time
+these are simpler tools they suggest you
+when things what should be improved and
+they work but they don't go that deep
+thank you
+alright hi in Salesforce there are a lot
+of other things that can be checked
+besides a pack such as validation rules
+and formula fields and naming
+conventions of custom fields yeah I
+think that could be automated as well
+not yet so possible and I simply think
+we haven't thought about it kind of
+solving the problem with the code is is
+the hard part because parsing the code
+is the difficult part of it so it's
+definitely there is definitely a
+possibility to add in the future checks
+on naming it's actually a very good idea
+thanks for that
+and I don't know if the Salesforce
+already talked about it there's a lot
+going on in the tooling space so at this
+dream force you will hear a lot about
+Salesforce TX and I think tools like
+this will merge with other tools and so
+I think there's a exciting stuff yeah
+yeah and if they've have and Clayton is
+it possible to implement your own
+no not at this point in time you've got
+a degree of configurability
+but it's not possible at this point in
+time
+we understand the quest yes is that
+possible to help this process definitely
+it is possible just we got it into
+github or and run the tool and run the
+new get a report and you give it to your
+consultant it's a fixer
+and if you don't use github or don't
+like to put your code on a cloud
+platform just do it locally with PMD so
+you can open all the projects and
+eclipse and do an analysis over it that
+should work
+no no no no for understanding test
+coverage you really need to I think
+so I understand know more about the
+classes you need to run them III know so
+test coverage is something that we can
+only ask Salesforce attackers
+because it's processed server-side right
+very simple what we do is basically
+which is an even connect to Salesforce
+what we do is we read classes written
+classes arse them give you feedback
+locally well locally or on the cloud but
+without the codec connection that will
+tell you this is the coverage with just
+one question
+last question
+so I think you can already use ya PMD
+has a login for basically most of the
+IDS I just heard that IntelliJ will at
+some point
+yeah so um I think so I'm not sure so
+it's not a it's not at my road maybe you
+can just do it if it's missing its in
+terms of Clayton I I haven't done it
+because I haven't seen a big demand but
+it's it's a it's an open possibility
+definitely cool so thank you we hang
+around in the room or outside and have
+to stop right now thank you very much
+[Applause]

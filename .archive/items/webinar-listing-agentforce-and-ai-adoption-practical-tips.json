@@ -1,0 +1,610 @@
+{
+  "id": "webinar-listing-agentforce-and-ai-adoption-practical-tips",
+  "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+  "source": {
+    "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "role": "about",
+    "kind": "webinar_listing",
+    "slug": "webinar-listing-agentforce-and-ai-adoption-practical-tips",
+    "title": "Agentforce and AI Adoption: Practical Tips"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:59.192815+00:00",
+    "final_url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "title": "Agentforce and AI Adoption: Practical Tips",
+    "author": "Ross Collie",
+    "date": "2025-10-10",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-M3FG4MSQ",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.surveymonkey.com/r/salarysurvey2026-27",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "label": "Change Cookie Preferences",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/newsletters/",
+        "label": "Newsletter",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-events/",
+        "label": "Events",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/career/",
+        "label": "Career",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/appassessor/",
+        "label": "AppAssessor",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/news/",
+        "label": "Salesforce News",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/artificial-intelligence/",
+        "label": "AI",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/admins/",
+        "label": "Admins",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/developers/",
+        "label": "Developers",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/marketers/",
+        "label": "Marketers",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/consultants/",
+        "label": "Consultants",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/architects/",
+        "label": "Architects",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/business-analysts/",
+        "label": "Business Analysts",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/resources/",
+        "label": "Resources",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/where-to-start/",
+        "label": "Where to Start",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-certifications/",
+        "label": "Salesforce Certification List",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/get-salesforce-certified/",
+        "label": "How to Get Certified",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-admin-practice-exam/",
+        "label": "Admin Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/free-salesforce-platform-app-builder-practice-exam-with-answers/",
+        "label": "Platform App Builder Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/ultimate-guide-to-getting-a-job-in-salesforce/",
+        "label": "How to Get a Job in Salesforce",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/salesforce-ben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/@OfficialSFBen",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/the-great-salesforce-job-market-reset/",
+        "label": "The Great Salesforce Job Market ResetBy Sasha SemjonovaDecember 09, 2024",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/how-to-avoid-bad-salesforce-partners-the-three-question-test/",
+        "label": "How to Avoid Bad Salesforce Partners: The Three-Question TestBy Jon ClineJanuary 08, 2025",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.salesforceben.com%2Fevent%2Fagentforce-and-ai-adoption-practical-tips%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.salesforceben.com%2Fevent%2Fagentforce-and-ai-adoption-practical-tips%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?text=Agentforce+and+AI+Adoption%3A+Practical+Tips&url=https%3A%2F%2Fwww.salesforceben.com%2Fevent%2Fagentforce-and-ai-adoption-practical-tips%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceben.registration.goldcast.io/webinar/079c638a-4654-4bae-be4e-bf0bbea061fa",
+        "label": "Sign Up",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/ical/201026",
+        "label": "Add to Calendar",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/PeterChittum/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/rsoesemann/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/melissahilldees/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/privacy-policy/",
+        "label": "Privacy Policy",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/about/",
+        "label": "About Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/contact/",
+        "label": "Contact Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/write-for-us/",
+        "label": "Write For Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/advertise-with-us/",
+        "label": "Advertise With Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/what-is-pledge-1/",
+        "label": "Pledge 1%",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "719fec70122353e45a243483d28c7d3f5dd281ad1bbc691a893a4d62a99a62ea",
+    "text_path": "library/2025/agentforce-and-ai-adoption-practical-tips/text.txt",
+    "words": 113
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:59.192815+00:00",
+    "final_url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "title": "Agentforce and AI Adoption: Practical Tips",
+    "author": "Ross Collie",
+    "date": "2025-10-10",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.googletagmanager.com/ns.html?id=GTM-M3FG4MSQ",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.surveymonkey.com/r/salarysurvey2026-27",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "label": "Change Cookie Preferences",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/newsletters/",
+        "label": "Newsletter",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-events/",
+        "label": "Events",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/career/",
+        "label": "Career",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/appassessor/",
+        "label": "AppAssessor",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/news/",
+        "label": "Salesforce News",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/artificial-intelligence/",
+        "label": "AI",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/admins/",
+        "label": "Admins",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/developers/",
+        "label": "Developers",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/marketers/",
+        "label": "Marketers",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/consultants/",
+        "label": "Consultants",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/architects/",
+        "label": "Architects",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/category/business-analysts/",
+        "label": "Business Analysts",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/resources/",
+        "label": "Resources",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/where-to-start/",
+        "label": "Where to Start",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-certifications/",
+        "label": "Salesforce Certification List",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/get-salesforce-certified/",
+        "label": "How to Get Certified",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/salesforce-admin-practice-exam/",
+        "label": "Admin Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/free-salesforce-platform-app-builder-practice-exam-with-answers/",
+        "label": "Platform App Builder Practice Exam",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/ultimate-guide-to-getting-a-job-in-salesforce/",
+        "label": "How to Get a Job in Salesforce",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/salesforce-ben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/salesforceben",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/@OfficialSFBen",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/the-great-salesforce-job-market-reset/",
+        "label": "The Great Salesforce Job Market ResetBy Sasha SemjonovaDecember 09, 2024",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/how-to-avoid-bad-salesforce-partners-the-three-question-test/",
+        "label": "How to Avoid Bad Salesforce Partners: The Three-Question TestBy Jon ClineJanuary 08, 2025",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.salesforceben.com%2Fevent%2Fagentforce-and-ai-adoption-practical-tips%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.salesforceben.com%2Fevent%2Fagentforce-and-ai-adoption-practical-tips%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?text=Agentforce+and+AI+Adoption%3A+Practical+Tips&url=https%3A%2F%2Fwww.salesforceben.com%2Fevent%2Fagentforce-and-ai-adoption-practical-tips%2F",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceben.registration.goldcast.io/webinar/079c638a-4654-4bae-be4e-bf0bbea061fa",
+        "label": "Sign Up",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/event/ical/201026",
+        "label": "Add to Calendar",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/PeterChittum/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/rsoesemann/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/melissahilldees/",
+        "label": "",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/privacy-policy/",
+        "label": "Privacy Policy",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/about/",
+        "label": "About Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/contact/",
+        "label": "Contact Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/write-for-us/",
+        "label": "Write For Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/advertise-with-us/",
+        "label": "Advertise With Us",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.salesforceben.com/what-is-pledge-1/",
+        "label": "Pledge 1%",
+        "discovered_from": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "719fec70122353e45a243483d28c7d3f5dd281ad1bbc691a893a4d62a99a62ea",
+    "text_path": "library/2025/agentforce-and-ai-adoption-practical-tips/text.txt",
+    "words": 113
+  },
+  "context": {
+    "format": "Webinar page",
+    "where": "Salesforce Ben",
+    "when": "2025-11-04",
+    "date_label": "Event",
+    "with_whom": "Peter Chittum and Melissa Hill Dees",
+    "evidence": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "event_date": "2025-11-04",
+    "topics": [
+      "Agentforce",
+      "AI"
+    ],
+    "platform": "Salesforce Ben",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert joins Peter Chittum and Melissa Hill Dees to discuss the obstacles between AI experiments and useful business adoption. The panel covers practical use cases, Agentforce adoption, security, the skills people need to learn, and tools that help them prepare for changing work.",
+    "summary_basis": {
+      "source_id": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+    "observation": "November4,2025; Speakers Peter Chittum, Robert Sösemann, Melissa Hill Dees; event/on-demand same webinar"
+  },
+  "brand": {
+    "name": "Salesforce Ben",
+    "domain": "salesforceben.com",
+    "source_page": "https://www.salesforceben.com/are-ai-agents-a-threat-to-technical-salesforce-roles/",
+    "logo_url": "https://www.salesforceben.com/wp-content/uploads/2023/10/cropped-new-favicon-180x180.png",
+    "logo_path": ".archive/brands/salesforceben.com.png",
+    "logo_cache_url": "https://www.google.com/s2/favicons?domain=salesforceben.com&sz=128"
+  },
+  "library_dir": "library/2025/agentforce-and-ai-adoption-practical-tips",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

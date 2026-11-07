@@ -1,0 +1,2 @@
+The Code Analyser PMD was widely adopted in the Salesforce ecosystem. Since the presenter of this session ported it from Java to Apex in 2016, all relevant tools have integrated PMD and most developers use it every day to enforce quality and security in their Apex code. Only a few know how to easily adapt and extend PMD. In this very practical session, you will learn how to customize rulesets and create your own rules for Apex and any other Salesforce metadata. Without code and within minutes.
+There are no assets uploaded yet for this session

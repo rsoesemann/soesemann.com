@@ -1,0 +1,570 @@
+morning in bonjour welcome to French
+touch streaming
+I'm Robert Switzerland I'm coming from
+Germany I'm a Salesforce MVP and and
+principal architect at the cleaver labs
+and we are a PDO partner nobody knows
+what that is
+we're the people who build app exchange
+apps for companies who don't want to do
+it there's on their self
+and my talk is
+a soft skill talk the seven ground rules
+for the successful Salesforce developer
+as I said a good starter for a
+complicated Tech conference it's a soft
+skill talk because I think
+soft skills are underrated in
+conferences like this
+so still people coming in before I get
+into the actual topic I just want to say
+a few words about myself I'm in the
+ecosystem for some while so you might
+have
+met me in real life or online I I
+started 13 years ago in the ecosystem
+when the app exchange was just
+um created I I came from a Java
+background so I had no clue about
+Salesforce
+I basically learned everything on sales
+for stack exchange I I did a little bit
+of Open Source so you might know me from
+GitHub
+um in 2015 I was responsible for a small
+developer team and wanted them to have
+good quality codes so I was looking for
+tools and couldn't find any things so I
+I ported the code analyzer PMD from java
+to Apex
+and that brought me a little bit of Fame
+so this is me on dreamforce this was my
+first public talk
+that was I was nervous it was like 400
+people in a huge dream Force Hall
+yeah and from that on things went very
+well
+um I did some courses with Don Robbins
+on plural side eventually someone
+nominated me an MVP so I'm still an MVP
+and you also might know me from Twitter
+where I talk about
+developer craftsmanship and everything
+come here
+be brave
+so
+um I I didn't want to brag I just want
+to tell you that I I'm into space for a
+while so I can actually talk about this
+so let's jump into this is the most
+complicated slide so I will I will stay
+there for a while
+the talk is called seven ground rules
+for success and I just wanted to Define
+what I mean with success I want to I
+think we all understand what a
+successful developer and the team is
+you have happy customers you are in
+scope in time and budget you also have a
+little bit of fun and you know I was
+working in super small companies where I
+was the only developer but also in big
+unicorn companies with a thousand people
+and
+I normally see teams swing between two
+extremes and I made them two phases so
+the phase one which you probably also
+know is you know you work in a small
+company a startup everybody loves each
+other there is this mentality no rules
+everybody brings the best to the table
+and this often works but the moment you
+actually have problems or there's crunch
+time there is a lot of fruitless
+discussion debate people try to enforce
+stuff you have politics and people
+without power they often resort to
+passive aggressive I don't do what you
+tell me
+normally
+then the pendulum swings into the other
+direction I like I call this Anarchy and
+this one is bureaucracy
+they you try to learn from your mistakes
+and you make everything a documented
+rule I said drown in rules people have
+wikis just with rules for code
+formatting for writing code
+and as always those
+documented stuff gets outdated people
+fight over tools they always fight how
+to interpret rules and most often the
+the pendulum swings back to Anarchy and
+I want you to actually cross that
+barrier and go into a third stage which
+is a good middle ground or compromise I
+call it craftsmanship not I call it this
+is what other people call it
+you know there's no dictator and here
+there is like a lot of governance and
+with craftsmanship you actually have the
+governance in yourself
+you are try to be a good citizen in a
+development team and this actually works
+with fewer simpler and more stable rules
+few is good simple it's good and stable
+means you don't Define too many things
+which change too often so you don't have
+a lot of rules which actually get
+outdated your rules are more based on
+values goals you have them documented
+but they are actually evolving this is
+really important which most people don't
+have yeah and in the end
+My Hope Is that in this stage you
+actually have more freedom
+accountability creativity
+and what I found is that starting with
+really simple ground rules I think
+ground rules you know basic rules how to
+play the game
+are the thing you should start with and
+I just came here to present you the
+seven that work for me it actually were
+10 but seven is good you know if fairy
+tales Seven Dwarfs so
+rule number one and all the rules start
+like a oath as a Salesforce developer I
+will
+I will constantly learn about Salesforce
+and Beyond
+and sounds trivial I.T industry
+everything changes but I think this is
+even more true in Salesforce because
+Salesforce gives us new stuff every
+three months customers pay a lot of
+money for that so we should know about
+this so all of you and the audience who
+think you are very experienced please
+always do the basics read the release
+notes and not just the first two pages
+all the 800 pages to understand what's
+actually there do Trailhead it's a
+really good starter to actually learn
+what's there how things work
+I would say this is this is the easy
+stuff and then there's the complicated
+Other Extreme certifications I know a
+lot of people who do certifications
+because the company requires them to do
+but I also tell you do them on your own
+if you don't have to because
+certifications really have to meet you
+they tell you what's what's actually
+working and the complicated stuff
+the most important
+part of this rule is go beyond actually
+look into other clouds platforms
+languages learn about Trends which might
+come to Salesforce in a few years you
+know machine learning blockchain
+they are already there in Salesforce but
+um you should you should look elsewhere
+I'm an old guy I still read books paper
+books
+so I really tell you read the classic
+books about software engineering here's
+just my Amazon list you know can back
+Martin Fowler clean code from Bob Martin
+that's really a great source for
+Learning and everything
+learning is not just reading and
+consuming it's also doing I really
+highly recommend to do open source
+if you don't want to work with other in
+open source just build your own
+stuff that nobody cares about but it's
+actually very nice to put something out
+and see people use it and for sure go to
+conferences like this one not only
+dreamforce
+perfect so rule number two
+this is
+what I what I tell people every day in
+my job
+um as a Salesforce developer I will
+leverage the native power of the
+platform
+I want you to write as little code as
+possible even if you're a software
+engineer study computer science this is
+not the right platform to um do custom
+coding for everything
+Americans say you need to stand on the
+shoulder of giants which means you don't
+go the full ladder to the sky so you
+Embrace what's there and in Salesforce
+there's low code no code
+and especially
+those developers who come from a
+computer science background they they
+don't use that they think it's toy tools
+I I'm guilty myself but I really see
+that flow and orchestrator this is so
+powerful we need less Apex so
+you know I'm I'm also talking about
+things like flexi pages about base
+components standard reporting you don't
+need to do Tableau the very first minute
+something doesn't work
+when you don't find
+a standard feature
+don't build it yourself look out there's
+proven open source there's no reason to
+build a trigger framework anymore
+absolutely not so please don't do it it
+just shows that you actually don't use
+the internet to find stuff
+I'm not telling you not to invent stuff
+but please look out for something which
+is new so um yeah I'm just showing you
+like this is a life-changing open source
+framework the financial Force Apex
+comments um I basically used it from day
+one in my career
+next rule as a Salesforce developer I
+will ask for help when stuck for too
+long
+that's important because developers are
+not very social they try to go into a
+cave and and fumble around until they
+found a solution but I think
+um more successful people they show
+themselves vulnerable and actually ask
+other people earlier
+and the complicated part is asking
+learning how to ask good questions I see
+people who are not able to make a good
+Google search
+and it it it even gets more complicated
+when you ask in a forum you know partner
+Community or my favorite is sales for
+stack Exchange
+when I started my career I really said
+before I go to lunch I put all my
+questions and unsolved riddles into
+stack exchange and after lunch I have
+ideas how to go on for the rest of today
+so all my reputation points on stack
+exchange are just for asking not for
+helping others
+so you can be egoistic you can actually
+put good questions out and then people
+will find it and you help them
+what what else can help yeah
+forget it go for a walk sleep over it
+help me a lot and also things like
+rubber ducking get someone at your desk
+show them the problem or pair
+programming
+I honestly think that their programming
+is actually much better than pull
+request reviews because you already
+prevent problems
+and just recently was a very good
+article about that and yeah
+help
+ask for help this one comes from my
+heart and
+as a Salesforce developer I will leave
+the code cleaner than I found it and you
+ask there is those boy scouts or girl
+scouts young people that go into nature
+hike and tent and they have this rule
+that they leave the campground always
+cleaner than they found it
+when you do that to your code things
+dramatically change normally it's like
+okay this is your code I will not touch
+it
+and so people just a mess on on the old
+mess and
+when you when you change when you
+introduce that rule you get something
+which we call Collective code ownership
+and this means
+when you go into code you make a small
+change a small Improvement rename
+something
+pull a method out here's a nice picture
+of splitting a large class into small
+modules which is like a more courageous
+refactoring
+I really want you to see refactoring as
+part of your normal development don't
+ask your manager
+don't plan refactoring in into extra
+Sprints just
+just do it like washing hands when you
+are a do a surgery you know you don't
+ask for permission to do that
+refactoring is
+is doing being a good developer
+okay
+this one is closely connected for doing
+refactorings you need to be very brave
+and the goal should be that you still
+sleep well after you did a big
+refactoring
+and this only works when you have I say
+a safety net of tests but I call it you
+need to grow a safety nest of awesome
+tests and those words are important grow
+because
+um
+it's not just there you actually need to
+invest it's not something which you can
+just make up it needs time and those
+tests need to be awesome so this means
+they need to not only be
+have the line coverage which Salesforce
+expects you know they actually need to
+be readable concise stable
+that's that's really important I see
+many people constantly change their
+tests and this is I mean when you change
+tests you actually need tests for tests
+so tests should not change
+there is some
+I'm by the way I'm talking about Apex
+tests you know I think Apex tests are
+the best
+you because you can fully own them as a
+developer you can run them immediately
+you don't need your QA people
+so I really want you to
+um don't make those Alibi tests put all
+the acceptance criteria of user stories
+into tests
+when you have a buck actually you write
+a regression test before you fix the bug
+to see that you actually fixed it in the
+end and really spend time on it
+um so
+I I was responsible for a code base with
+a lot of messy tests with huge setup
+blocks and I
+I built a small Library called the Apex
+domain Builder which makes tests like
+more readable than test factories so
+when you when you go on the slide deck
+you you can find a link there
+so this is how I put a lot of love into
+the test that I wrote in the last 10
+years and I want you to do the same
+numbers number six is as a Salesforce
+developer I will automatically Monitor
+and review constantly this is a
+complicated sentence but I try to
+squeeze in a lot
+it's not about
+testing if the code does the right thing
+it's more about that you are actually
+coding the right way so
+I want you to as an engineer and not
+your
+I don't know your QA Department to
+constantly measure everything you do and
+then automate it use tools like PMD
+to not only use them during cdci use
+them in your vs code have a
+a rule set in your Repository
+right so so sorry
+have Simple Rules formalize them I also
+highly recommend you to not only measure
+the code quality at certain points in
+your process but also measure things
+over time
+there is a company from Portugal which
+built a tool called codec which runs PMD
+eslint and they show you those nice
+graphs how your code actually improves
+over time
+and one last point is for all those isvs
+that build app exchange apps you also
+need to monitor the quality in your
+customer works so look what errors
+happen there
+yeah
+that's number six
+number seven is
+what developers mostly forget
+never forget non-functional aspects
+complicated words all the stuff the
+customer didn't ask for but which makes
+the customer unhappy you know when
+you're the eager developer who wants to
+put a new feature in and then
+put it into your package and then find
+out it actually doesn't work yet it's in
+the pilot so I'm talking about things
+like limits packaging Behavior security
+rules
+developers often forget like the
+messiness of the real world big data I
+mean Salesforce Big Data
+complexity how customers customize the
+stuff that you put out there
+so
+I'm not telling you to over engineer and
+make it scalable from version one no
+make it simple but think about all those
+things because in the end if your
+customer is unhappy you will also be
+very unhappy as a developer
+so this is already seven rules and
+before I go into q a i want you to just
+make them more memorable and go through
+the seven rules again
+rule number one was telling you that you
+need to always learn you know nothing
+the smarter you feel the less you know
+or your knowledge is outdated
+never reinvent the wheel you are paid
+for being efficient
+um and effective so take what's there
+and use your time to actually invent new
+stuff
+ask for ask for help because this is
+also a part of efficiency there's many
+people out there who actually want to
+share knowledge
+and so if you try to learn everything on
+your own you're not making best use of
+your time
+at there is this I don't know if it's an
+it also exists in English like artists
+need creative chaos I think Engineers
+should not Engineers should fight chaos
+they should like order and cleanliness
+and everything in its place so um this
+is really important because chaos gets
+more when you don't do anything so
+take care about
+cleanliness and yes we learned that
+cleaning needs courage and courage is
+needed because you can break stuff so
+minimize risk you should be really a
+risk-averse person you should think
+about what can happen what can go wrong
+so
+this rule was about always
+they're in the agile Manifesto there is
+this saying of inspect and adapt which
+means you can only improve what you know
+and to know it you actually need to
+inspect numbers and then adapt it and
+this is what I also want you to do so
+and own it as a developer don't let
+other people
+create dashboards for you and measure
+how good you are you all need to do that
+on your own you need to have those
+numbers and automate everything only
+things that you can automate are
+actually you will otherwise you will not
+do them
+and the last one is don't be a nerd
+right so
+um we we are paid for this this is a
+serious business we're not doctors
+nobody's dying but we can make people
+suffer when we don't do a good job
+perfect
+I want to thank you for your
+patience
+um
+this is this QR code brings you to the
+slide deck so you can find some links in
+there
+I also recommend you to go on this
+GitHub repository because it shows you
+how you could start with your seven
+rules or your eight I don't want you to
+take mine you know maybe you think they
+are trivial or not the right thing for
+you
+I recommend you to just put a readme
+into your repository and start with this
+is like this was mine there's like those
+seven ground rules then some guidelines
+for coding
+and I really put it in one readme file
+because then it forces you to actually
+keep it small and simple and the good
+thing is you can treat it like code
+which means
+you know in the beginning I said you
+need to not only document your rules you
+need to evolve them and you how can you
+better evolve a document than having it
+in GitHub and actually
+developers could make changes in a PR
+and you could review them
+so yeah this is this is what I think you
+should start with
+perfect how we have five minutes perfect
+so thanks again and I'm open for
+questions yeah
+thank you
+do you have a question
+nobody
+yes please
+oh
+what about the communities
+um
+for learning or for knowing what's there
+I did this presentation already a few
+weeks ago and I was asked the same
+question and I said something like go on
+Twitter this is this is there's there's
+I just use Twitter for Salesforce not
+for anything else and I think this is
+the best way to find out what's going on
+you know what's what's going on in the
+ecosystem but also what what what's new
+in Salesforce because Salesforce
+as a company but also to hold you know
+MVPs and all those people they tweet a
+lot about what's what's going on
+um
+so this is this is like your TV station
+to tune in for Salesforce
+for learning as I said
+trailhead
+certifications
+what else is there I don't know
+stack exchange I would say
+don't learn too much you know people
+just do
+playgrounds just do your normal work and
+fail and fail again and ask for help and
+try something out by open sourcing
+so
+so I don't know
+I would say just do your work and try to
+do it perfect
+that's that's the best tip I can give
+yes
+um yeah I have it I I have it it's on
+the slide with this Amazon list there is
+yeah
+so good question I put it in there
+okay
+if there's no question you can always
+reach me on Twitter write me a private
+message or I don't know I will be around
+for a while today
+enjoy the rest of the conference enjoy
+Paris thanks a lot for coming
+[Applause]

@@ -1,0 +1,42 @@
+{
+  "id": "podcast-page-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w-c3-bcrde-mit-robert",
+  "url": "https://www.scavenger-ai.com/en/media-hub/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w%C3%BCrde---mit-robert-s%C3%B6semann",
+  "source": {
+    "url": "https://www.scavenger-ai.com/en/media-hub/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w%C3%BCrde---mit-robert-s%C3%B6semann",
+    "role": "about",
+    "kind": "podcast_page",
+    "evidence": "English publisher summary of German interview; translated quotes are not original voice samples.",
+    "slug": "podcast-page-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w-c3-bcrde-mit-robert"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:50:11.375606+00:00",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://www.scavenger-ai.com/en/media-hub/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w%C3%BCrde---mit-robert-s%C3%B6semann"
+  },
+  "context": {
+    "format": "Podcast episode page",
+    "where": "Scavenger AI",
+    "when": "Unknown",
+    "date_label": "Published",
+    "with_whom": "Maximilian Hahnenkamp (host)",
+    "evidence": "English publisher summary of German interview; translated quotes are not original voice samples.",
+    "verified_evidence": [
+      {
+        "path": ".archive/providers/video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/youtube.json",
+        "evidence_excerpt_or_field": "In dieser Folge spricht Robert Sösemann (Principal Architect, Salesforce MVP) mit Maximilian Hahnenkamp"
+      }
+    ]
+  },
+  "grouping_evidence": {
+    "path": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/transcript.txt",
+    "observation": "Same interview title and host; page is translated summary, video is original German."
+  },
+  "part_of": "video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde",
+  "library_dir": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde",
+  "file_names": {
+    ".txt": "episode.txt",
+    ".html": "episode.html",
+    ".pdf": "episode.pdf",
+    ".json3": "episode-captions.json3"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "en-conference": {
+    "path": ".archive/voice/references/en-conference.wav",
+    "source_id": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+    "source_url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+    "source_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+    "source_sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3",
+    "start_seconds": 91.119,
+    "end_seconds": 119.8,
+    "caption_text": "and before I jump into details I want to  bring me myself and you into this Spirit  a year and a half ago when gp4 came out  when we all went  crazy maybe you you still remember the  time when you first play with it talk to  your colleague there was there was only  extremes there was a spectrum of people  who said amazing we will solve all the  problems in our company in the world um",
+    "sha256": "dae4b36f0a79051c20bb132847347af37b52d6c125426c6ed4478e9506c6db27",
+    "metrics": {
+      "duration_seconds": 28.681,
+      "peak_dbfs": -6.47,
+      "rms_dbfs": -28.38,
+      "near_full_scale_percent": 0.0,
+      "frames_below_minus_45_dbfs_percent": 22.25,
+      "frame_level_p10_dbfs": -56.03,
+      "frame_level_p90_dbfs": -23.32
+    }
+  },
+  "en-pmd": {
+    "path": ".archive/voice/references/en-pmd.wav",
+    "source_id": "video-custom-pmd-rules-for-any-metadata-within-minutes",
+    "source_url": "https://www.youtube.com/watch?v=Qp49B4Baq4g",
+    "source_path": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/audio.webm",
+    "source_sha256": "4b74f146ea85d789ef229f90c28ad6079f091b93fbde2de56f4a57e6168e8c96",
+    "start_seconds": 16.26,
+    "end_seconds": 29.05,
+    "caption_text": "I want to kick off my talk by showing  you my favorite book on programming  clean coat by Bob Martin  and the best quote in the book is clean  code always looks it was written by  somebody who cares",
+    "sha256": "7315ba654fed383e761812a9fa610194e20d1947d203f681b19c1daa013ced45",
+    "metrics": {
+      "duration_seconds": 12.79,
+      "peak_dbfs": -10.18,
+      "rms_dbfs": -30.01,
+      "near_full_scale_percent": 0.0,
+      "frames_below_minus_45_dbfs_percent": 31.77,
+      "frame_level_p10_dbfs": -58.36,
+      "frame_level_p90_dbfs": -24.95
+    }
+  },
+  "en-ftd": {
+    "path": ".archive/voice/references/en-ftd.wav",
+    "source_id": "video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+    "source_url": "https://www.youtube.com/watch?v=-A201aaiE3o",
+    "source_path": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/audio.m4a",
+    "source_sha256": "056fd3218cd88db44b7eac2e796fd82aa8273636c77db837e7ea9d0dd7113e4c",
+    "start_seconds": 22.74,
+    "end_seconds": 43.5,
+    "caption_text": "and my talk is  a soft skill talk the seven ground rules  for the successful Salesforce developer  as I said a good starter for a  complicated Tech conference it's a soft  skill talk because I think  soft skills are underrated in  conferences like this",
+    "sha256": "2a71e73f332e48ae107a0421812770a565da1efb28cf51dc64ab34ebf039a654",
+    "metrics": {
+      "duration_seconds": 20.76,
+      "peak_dbfs": -5.26,
+      "rms_dbfs": -22.98,
+      "near_full_scale_percent": 0.0,
+      "frames_below_minus_45_dbfs_percent": 21.97,
+      "frame_level_p10_dbfs": -53.12,
+      "frame_level_p90_dbfs": -17.39
+    }
+  },
+  "de-interview": {
+    "path": ".archive/voice/references/de-interview.wav",
+    "source_id": "video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde",
+    "source_url": "https://www.youtube.com/watch?v=DR8byDJLGEI",
+    "source_path": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/audio.m4a",
+    "source_sha256": "f62d39473726689984a57c3ff7d7b37aeb8773f40ee02ba615a2d48508dda1f4",
+    "start_seconds": 27.679,
+    "end_seconds": 42.3,
+    "caption_text": "Klar. Ähm, also ich freue mich, dass du  mich überhaupt gefunden hast, weil du  eben nicht aus dem Sales Force Umfeld  bist und da bin ich seit 15 Jahren. Also  im Beruf bin ich schon echt echt richtig  lang, über 20 Jahre.",
+    "sha256": "bab14268ca89887f8eb061001d19928039c8bba9b2d41ff4b3c2e7c81cfd385f",
+    "metrics": {
+      "duration_seconds": 14.621,
+      "peak_dbfs": -3.72,
+      "rms_dbfs": -21.61,
+      "near_full_scale_percent": 0.0,
+      "frames_below_minus_45_dbfs_percent": 26.95,
+      "frame_level_p10_dbfs": -95.72,
+      "frame_level_p90_dbfs": -16.16
+    }
+  },
+  "en-podcast": {
+    "path": ".archive/voice/references/en-podcast.wav",
+    "source_id": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+    "source_url": "https://www.youtube.com/watch?v=qhhUuCpK8Q0",
+    "source_path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/audio.m4a",
+    "source_sha256": "3404aad3edf8c7317f19817d6090421f7128f60449d8aaf99ad6ad9c1a4393d5",
+    "start_seconds": 40.9,
+    "end_seconds": 56.7,
+    "caption_text": "I'm Robert. I live in Germany close to Stuttgart. I'm a Salesforce veteran in the in the sense or Salesforce dinosaur in the sense that I think it's fourteen years now.",
+    "sha256": "9b0e594560aa8411b98f0a03d7ecb35e4a4759448ed3f38d73fb6d5359c8daf9",
+    "metrics": {
+      "duration_seconds": 15.8,
+      "peak_dbfs": -3.2,
+      "rms_dbfs": -20.17,
+      "near_full_scale_percent": 0.0,
+      "frames_below_minus_45_dbfs_percent": 30.76,
+      "frame_level_p10_dbfs": -68.42,
+      "frame_level_p90_dbfs": -15.25
+    }
+  }
+}

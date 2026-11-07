@@ -1,0 +1,51 @@
+{
+  "id": "audio-pmd-mp3",
+  "url": "https://salesforceway.com/podcast-player/36/pmd.mp3",
+  "source": {
+    "url": "https://salesforceway.com/podcast-player/36/pmd.mp3",
+    "role": "interview",
+    "kind": "audio",
+    "discovered_from": "https://salesforceway.com/podcast/pmd/",
+    "slug": "audio-pmd-mp3",
+    "title": "PMD for Apex — SalesforceWay episode 8 (audio)"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T23:19:06.729185+00:00",
+    "status": "failed",
+    "error": "robots.txt disallows this URL; use a permitted export"
+  },
+  "context": {
+    "format": "Podcast audio",
+    "where": "SalesforceWay",
+    "when": "2018-06-28",
+    "date_label": "Published",
+    "with_whom": "Xi Xiao (host)",
+    "evidence": "https://salesforceway.com/podcast/pmd/",
+    "published_at": "2018-06-28",
+    "verified_evidence": [
+      {
+        "path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+        "evidence_excerpt_or_field": "article:published_time: 2018-06-28; My (Xi’s) contact info; About The Author Xi Xiao"
+      }
+    ]
+  },
+  "grouping_evidence": {
+    "path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+    "observation": "Episode page embeds corresponding podcast-player audio URL"
+  },
+  "part_of": "podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann",
+  "brand": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": ".archive/brands/salesforceway.com.jpg"
+  },
+  "library_dir": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann",
+  "file_names": {
+    ".txt": "source-audio.txt",
+    ".html": "source-audio.html",
+    ".pdf": "source-audio.pdf",
+    ".json3": "source-audio-captions.json3"
+  }
+}

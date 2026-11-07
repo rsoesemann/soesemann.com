@@ -1,0 +1,13 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User
+User-Agent: PerplexityBot
+User-Agent: Perplexity-User
+User-Agent: Claude-SearchBot
+User-Agent: Claude-User
+Allow: /
+
+Sitemap: https://aquiva.com/sitemap.xml

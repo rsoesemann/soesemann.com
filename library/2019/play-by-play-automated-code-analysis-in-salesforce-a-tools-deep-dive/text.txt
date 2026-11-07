@@ -1,0 +1,93 @@
+Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive
+In this course, you'll learn why code quality matters and how tools can help you and your team to ensure it. Two experts of Salesforce Code Analysis take you on a journey from concepts to practical tool usage.
+Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive
+In this course, you'll learn why code quality matters and how tools can help you and your team to ensure it. Two experts of Salesforce Code Analysis take you on a journey from concepts to practical tool usage.
+This course is included in the libraries shown below:
+Core Tech
+What you'll learn
+Play by Play is a series in which top technologists work through a problem in real time, unrehearsed, and unscripted. In this course, Lorenzo Frattini, Robert Sösemann and Don Robins discuss how teams can leverage existing Code Analysis tools to assess the quality of their existing codebase and make it an integral part of their development process. Along the way, we will get to know two famous tools in that space. The Open Source code analyzer PMD and the Cloud solution Clayton.io. By the end of this course, you will be able to decide which steps to take first towards better code quality in your projects. You will have a good understanding of the core concepts and the breadth and diversity of the tools available. You will understand how to use, customize and extends them.
+Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive
+To view this content, start a free trial or activate one of our plans.
+Introduction and Setting the Stage
+13m
+Presenting the Scenario and Challenge | 4m 26s
+To view this content, start a free trial or activate one of our plans.
+Why Does Code Quality Matter? | 8m 58s
+To view this content, start a free trial or activate one of our plans.
+Ensuring Code Quality
+11m
+Understanding the Cost of Technical Debt | 2m 2s
+To view this content, start a free trial or activate one of our plans.
+Cost Benefits of Clean Code | 4m 16s
+To view this content, start a free trial or activate one of our plans.
+Cultivating a Clean Code Culture | 4m 56s
+To view this content, start a free trial or activate one of our plans.
+Automated Code Analysis Techniques and Concepts
+25m
+What Is Static Code Analysis (SCA)? | 1m 14s
+To view this content, start a free trial or activate one of our plans.
+Abstract Syntax Tree (AST) | 2m 53s
+To view this content, start a free trial or activate one of our plans.
+Pattern Matching | 1m 41s
+To view this content, start a free trial or activate one of our plans.
+Taint Analysis | 5m 45s
+To view this content, start a free trial or activate one of our plans.
+Data Flow Analysis | 6m 4s
+To view this content, start a free trial or activate one of our plans.
+Rules | 2m 1s
+To view this content, start a free trial or activate one of our plans.
+False Results | 6m 1s
+To view this content, start a free trial or activate one of our plans.
+Exploring PMD
+14m
+PMD Overview | 3m 56s
+To view this content, start a free trial or activate one of our plans.
+PMD Demo | 5m 43s
+To view this content, start a free trial or activate one of our plans.
+Rules in PMD | 4m 42s
+To view this content, start a free trial or activate one of our plans.
+Exploring Clayton
+13m
+Clayton Overview | 2m 45s
+To view this content, start a free trial or activate one of our plans.
+Clayton Demo | 3m 31s
+To view this content, start a free trial or activate one of our plans.
+Rules in Clayton | 1m 39s
+To view this content, start a free trial or activate one of our plans.
+Analyzing a Project with Clayton | 5m 14s
+To view this content, start a free trial or activate one of our plans.
+Creating Rules for Salesforce
+26m
+Where to Apply Rules in Salesforce | 5m 16s
+To view this content, start a free trial or activate one of our plans.
+Rule Categories | 2m 10s
+To view this content, start a free trial or activate one of our plans.
+Designing XPATH Rules in PMD | 7m 30s
+To view this content, start a free trial or activate one of our plans.
+Coding Java Rules in PMD | 3m 54s
+To view this content, start a free trial or activate one of our plans.
+Configuring and Coding Rules in Clayton | 7m 34s
+To view this content, start a free trial or activate one of our plans.
+Integrating Code Analysis in Development Lifecycle
+16m
+Code Quality Review Workflow | 4m 34s
+To view this content, start a free trial or activate one of our plans.
+Plugging in Clayton to the CI Pipeline | 5m 21s
+To view this content, start a free trial or activate one of our plans.
+Plugging in PMD to the CI Pipeline | 6m 25s
+To view this content, start a free trial or activate one of our plans.
+Summary and Recap
+9m
+Let’s Recap! | 3m 26s
+To view this content, start a free trial or activate one of our plans.
+Analyzing the Return on Investment | 5m 53s
+To view this content, start a free trial or activate one of our plans.
+About the author
+Don Robins
+52 courses4.5 author rating1549 ratings
+Don Robins is a well known Salesforce MVP, instructor, author, and speaker.
+A custom business application developer for more decades than he cares to
+admit, he focuses on Salesforce technical instruction and knowledge
+sharing
+Lorenzo is a London-based Salesforce Certified Technical Architect and entrepreneur. He is the founder of Clayton, a code analysis SaaS that specialises in vulnerability scanning and code quality for Salesforce. Lorenzo has spent a large part of his Salesforce career working on complex CRM implementations and advising on development methodologies. He is an agile enthusiast and has a passion for automating things.
+Robert Sösemann is a Germany-based software developer and experienced Salesforce expert. He is well-known for building the Open-Source Code Analyzer PMD for Apex. He blogs, tweets and speaks at conferences about Developer Agility and Clean Code. Although a Computer Science alumni, he didn't start his career coding. After managing Software teams for some years, he rediscovered his love of programming in the Salesforce ecosystem and has never been happier. Robert works as Principal Architect for the Salesforce PDO Partner logicline where he helps customers get their product ideas into the AppExchange faster.

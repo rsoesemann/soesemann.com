@@ -1,0 +1,34 @@
+PMD is a very well-known source code analyzer for Java and many more languages. It also supports Apex. In this session/article we are going to make a static code review for salesforce Apex code using the Apex PMD static code analyzer. Static code analysis is a method for automatically analyzing some source code without executing it.
+What is PMD?
+PMD stands for Programming Mistake Detector. It is an open-source static source code analyzer that reports on issues found within the application code. This finds common programming flaws like unused variables and empty catch blocks. It will allow us to have better quality and avoid maintenance, performance, and bug problems in our Apex code.
+What is Apex PMD in Salesforce?
+Apex PMD is a Programming Mistake Detector tool for Salesforce Static code analysis. It finds Salesforce best practices, programming errors, bugs, stylistic errors, and suspicious constructs. We can perform Apex Static Analysis directly in VsCode on Apex and Visualforce pages.
+In this session, we will also talk about the Apex PMD extension for VsCode. and how to set up Apex PMD.
+Setup Apex PMD in Salesforce
+Let’s see how to set up Apex PMD Static Code Analyzer in Salesforce.
+- Download the PMD from here.
+- Extract the zip-archive, e.g. to C:\pmd-bin-6.30.0
+- Add folder C:\pmd-bin-6.30.0\bin to PATH, either
+  - Permanently: Using System Properties dialog > Environment variables > Append to PATH variable
+  - Temporarily, at command line: SET PATH=C:\pmd-bin-6.30.0;%PATH%
+- Execute below command
+pmd.bat -d "C:\ApexPMD\MyProject\src\classes" -f html -R "category/apex/design.xml" -reportfile "C:\ApexPMD\output.html"
+Customize Apex PMD Rules
+You can make your own ruleset file in which you can define a bunch of standard rules and custom rules. Then distribute it to other developers so that they must follow the standards while writing code. Here is sample ruleset.xml file.
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Default ruleset used by the CodeClimate Engine for Salesforce.com Apex" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+    <description> Custom Rule Set </description>
+    <rule ref="category/apex/bestpractices.xml" />
+    <rule ref="category/apex/documentation.xml" />
+    <!--excluding some rules -->
+    <rule ref="category/apex/codestyle.xml">
+	<exclude name="WhileLoopsMustUseBraces"/>    
+    </rule>
+</ruleset>
+Execute below command to test custom ruleset
+pmd.bat -d "C:\ApexPMD\MyProject\src\classes" -f html -R "C:\ApexPMD\ruleset.xml" -reportfile "C:\ApexPMD\output.html"
+Apex PMD Static Code Analyzer Video
+Learn about Apex PMD Tool. Here is Agenda
+Please subscribe to our YouTube channel to get notifications for video uploads.
+Summary
+Start Using Apex PMD and make sure that you always write quality code in Salesforce.

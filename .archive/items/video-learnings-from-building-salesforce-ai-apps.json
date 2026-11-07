@@ -1,0 +1,552 @@
+{
+  "id": "video-learnings-from-building-salesforce-ai-apps",
+  "url": "https://www.youtube.com/watch?v=T_xO6fXSIBs",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=T_xO6fXSIBs",
+    "role": "speech_unverified",
+    "kind": "video",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "title": "Learnings from building Salesforce AI Apps",
+    "slug": "video-learnings-from-building-salesforce-ai-apps"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:51:32.221768+00:00",
+    "title": "Learnings from building Salesforce AI Apps | Robert Sösemann",
+    "author": "SalesforceWay",
+    "date": "20240425",
+    "duration_seconds": 106,
+    "raw": ".archive/providers/video-learnings-from-building-salesforce-ai-apps/youtube-f6751e26956b.json",
+    "tracks": [
+      {
+        "language": "en-orig",
+        "kind": "automatic",
+        "raw": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video-captions.json3",
+        "segments": [
+          {
+            "start_ms": 240,
+            "duration_ms": 5800,
+            "text": "now if you may just teach me what you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 3840,
+            "duration_ms": 2200,
+            "text": "have",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 6200,
+            "duration_ms": 5880,
+            "text": "learned where to start you know there's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 9760,
+            "duration_ms": 6439,
+            "text": "there is many details there's many",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 12080,
+            "duration_ms": 7039,
+            "text": "details which which I cannot even like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 16199,
+            "duration_ms": 6961,
+            "text": "summarize in in in a podcast the the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 19119,
+            "duration_ms": 7121,
+            "text": "bigger answer is AI is hard you know AI",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 23160,
+            "duration_ms": 5000,
+            "text": "is hard we we s force people even people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26240,
+            "duration_ms": 4680,
+            "text": "like you and me who do this for a while",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 28160,
+            "duration_ms": 5320,
+            "text": "are architect we are in a quite easy",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 30920,
+            "duration_ms": 5000,
+            "text": "State you know Salesforce is not the the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 33480,
+            "duration_ms": 4520,
+            "text": "big computer science stuff Salesforce is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 35920,
+            "duration_ms": 5600,
+            "text": "really easy with low code and a lot of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 38000,
+            "duration_ms": 5800,
+            "text": "pains are taken from us by the platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 41520,
+            "duration_ms": 4039,
+            "text": "and this is why we are mostly on the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 43800,
+            "duration_ms": 4680,
+            "text": "platform because we are more interested",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 45559,
+            "duration_ms": 5881,
+            "text": "in actually getting business value than",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 48480,
+            "duration_ms": 6160,
+            "text": "nerding around and when you when you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 51440,
+            "duration_ms": 4959,
+            "text": "look at AI especially custom AI it's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 54640,
+            "duration_ms": 5640,
+            "text": "really hard you have to look at all",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 56399,
+            "duration_ms": 5561,
+            "text": "those places that we have not looked for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 60280,
+            "duration_ms": 3360,
+            "text": "for so many years as Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 61960,
+            "duration_ms": 4360,
+            "text": "developers you know I can just tell you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 63640,
+            "duration_ms": 5680,
+            "text": "that you know we we built one app which",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66320,
+            "duration_ms": 6240,
+            "text": "was really just native Salesforce app",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 69320,
+            "duration_ms": 6119,
+            "text": "using using chat GPT",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 72560,
+            "duration_ms": 5120,
+            "text": "API and then we we struggled with the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 75439,
+            "duration_ms": 5881,
+            "text": "the size of the context window you know",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 77680,
+            "duration_ms": 5479,
+            "text": "because we wanted to work on more text",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 81320,
+            "duration_ms": 5000,
+            "text": "and then we we looked into Vector",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 83159,
+            "duration_ms": 5161,
+            "text": "databases and rack retrieval augmented",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 86320,
+            "duration_ms": 5159,
+            "text": "generation and then we had to learn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 88320,
+            "duration_ms": 6040,
+            "text": "about AWS and Google CL cloud and so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 91479,
+            "duration_ms": 5680,
+            "text": "much stuff and this was so complicated",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 94360,
+            "duration_ms": 5039,
+            "text": "and it was so different from from normal",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 97159,
+            "duration_ms": 4451,
+            "text": "Salesforce development which is very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 99399,
+            "duration_ms": 6771,
+            "text": "restricted and expensive",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 101610,
+            "duration_ms": 4560,
+            "text": "[Music]",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "3d2e9b95a4bfffe285c104495f3eb3d178494f919914e7ebc8cc47c9bbdb770b",
+    "text_path": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video.txt",
+    "words": 264
+  },
+  "last_success": {
+    "at": "2026-11-06T19:51:32.221768+00:00",
+    "title": "Learnings from building Salesforce AI Apps | Robert Sösemann",
+    "author": "SalesforceWay",
+    "date": "20240425",
+    "duration_seconds": 106,
+    "raw": ".archive/providers/video-learnings-from-building-salesforce-ai-apps/youtube-f6751e26956b.json",
+    "tracks": [
+      {
+        "language": "en-orig",
+        "kind": "automatic",
+        "raw": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video-captions.json3",
+        "segments": [
+          {
+            "start_ms": 240,
+            "duration_ms": 5800,
+            "text": "now if you may just teach me what you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 3840,
+            "duration_ms": 2200,
+            "text": "have",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 6200,
+            "duration_ms": 5880,
+            "text": "learned where to start you know there's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 9760,
+            "duration_ms": 6439,
+            "text": "there is many details there's many",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 12080,
+            "duration_ms": 7039,
+            "text": "details which which I cannot even like",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 16199,
+            "duration_ms": 6961,
+            "text": "summarize in in in a podcast the the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 19119,
+            "duration_ms": 7121,
+            "text": "bigger answer is AI is hard you know AI",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 23160,
+            "duration_ms": 5000,
+            "text": "is hard we we s force people even people",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26240,
+            "duration_ms": 4680,
+            "text": "like you and me who do this for a while",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 28160,
+            "duration_ms": 5320,
+            "text": "are architect we are in a quite easy",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 30920,
+            "duration_ms": 5000,
+            "text": "State you know Salesforce is not the the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 33480,
+            "duration_ms": 4520,
+            "text": "big computer science stuff Salesforce is",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 35920,
+            "duration_ms": 5600,
+            "text": "really easy with low code and a lot of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 38000,
+            "duration_ms": 5800,
+            "text": "pains are taken from us by the platform",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 41520,
+            "duration_ms": 4039,
+            "text": "and this is why we are mostly on the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 43800,
+            "duration_ms": 4680,
+            "text": "platform because we are more interested",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 45559,
+            "duration_ms": 5881,
+            "text": "in actually getting business value than",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 48480,
+            "duration_ms": 6160,
+            "text": "nerding around and when you when you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 51440,
+            "duration_ms": 4959,
+            "text": "look at AI especially custom AI it's",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 54640,
+            "duration_ms": 5640,
+            "text": "really hard you have to look at all",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 56399,
+            "duration_ms": 5561,
+            "text": "those places that we have not looked for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 60280,
+            "duration_ms": 3360,
+            "text": "for so many years as Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 61960,
+            "duration_ms": 4360,
+            "text": "developers you know I can just tell you",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 63640,
+            "duration_ms": 5680,
+            "text": "that you know we we built one app which",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66320,
+            "duration_ms": 6240,
+            "text": "was really just native Salesforce app",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 69320,
+            "duration_ms": 6119,
+            "text": "using using chat GPT",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 72560,
+            "duration_ms": 5120,
+            "text": "API and then we we struggled with the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 75439,
+            "duration_ms": 5881,
+            "text": "the size of the context window you know",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 77680,
+            "duration_ms": 5479,
+            "text": "because we wanted to work on more text",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 81320,
+            "duration_ms": 5000,
+            "text": "and then we we looked into Vector",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 83159,
+            "duration_ms": 5161,
+            "text": "databases and rack retrieval augmented",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 86320,
+            "duration_ms": 5159,
+            "text": "generation and then we had to learn",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 88320,
+            "duration_ms": 6040,
+            "text": "about AWS and Google CL cloud and so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 91479,
+            "duration_ms": 5680,
+            "text": "much stuff and this was so complicated",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 94360,
+            "duration_ms": 5039,
+            "text": "and it was so different from from normal",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 97159,
+            "duration_ms": 4451,
+            "text": "Salesforce development which is very",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 99399,
+            "duration_ms": 6771,
+            "text": "restricted and expensive",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 101610,
+            "duration_ms": 4560,
+            "text": "[Music]",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "3d2e9b95a4bfffe285c104495f3eb3d178494f919914e7ebc8cc47c9bbdb770b",
+    "text_path": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video.txt",
+    "words": 264
+  },
+  "context": {
+    "format": "Podcast preview clip (1m46s)",
+    "where": "SalesforceWay",
+    "when": "2024-04-24",
+    "date_label": "Recorded",
+    "with_whom": "Xi Xiao (host)",
+    "evidence": ".archive/providers/video-learnings-from-building-salesforce-ai-apps/youtube.json (publisher metadata)",
+    "duration_seconds": 106,
+    "published_at": "2024-04-25",
+    "event_date": "2024-04-24",
+    "verified_evidence": [
+      {
+        "path": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/original.html",
+        "evidence_excerpt_or_field": "Recorded on 2024-04-24 | Guest: Robert Sösemann; Hey everybody! This is Xi Xiao."
+      }
+    ]
+  },
+  "thumbnail_path": ".archive/thumbnails/video-learnings-from-building-salesforce-ai-apps.jpg",
+  "thumbnail_source": "https://i.ytimg.com/vi/T_xO6fXSIBs/maxresdefault.jpg",
+  "grouping_evidence": {
+    "path": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/original.html",
+    "observation": "Episode page embeds corresponding podcast-player audio URL and the matching YouTube teaser"
+  },
+  "part_of": "podcast-page-104-salesforce-ai-from-the-trenches-robert-soesemann",
+  "brand": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": ".archive/brands/salesforceway.com.jpg"
+  },
+  "library_dir": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann",
+  "file_names": {
+    ".txt": "source-video.txt",
+    ".html": "source-video.html",
+    ".pdf": "source-video.pdf",
+    ".json3": "source-video-captions.json3"
+  }
+}

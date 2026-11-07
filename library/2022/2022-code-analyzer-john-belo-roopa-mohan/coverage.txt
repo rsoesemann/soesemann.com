@@ -1,0 +1,51 @@
+Aquiva blog/Salesforce Events
+AppExchange Tech Talk Recap: Why every ISV should know Salesforce Code Analyser and the new Graph Engine
+In this article, we’ll explore what’s new and improved in Salesforce Code Analyzer, explain the different approaches to code scanning developers can take, and give you an overview of the new Salesforce Graph Engine.
+It’s the most wonderful time of the year: twinkling lights, roaring fires, cozy gatherings, and…a new version of Salesforce Code Analyzer!
+During this month’s Salesforce’s AppExchange Tech Talk—featuring Aquiva Labs’ own Principal Architect and Salesforce MVP, Robert Sösemann—Salesforce officially announced the release of Salesforce Code Analyzer version 3.6.2.
+Consisting of improved functionality and the brand new Salesforce Graph Engine, this latest version of Salesforce Code Analyzer is the tool every AppExchange developer should have on their holiday wishlist.
+In this article, we’ll explore what’s new and improved in Salesforce Code Analyzer, explain the different approaches to code scanning developers can take, and give you an overview of the new Salesforce Graph Engine. And since ‘tis the season for sharing, we’ll even let you in on the inside story regarding the fascinating role one of our very own team members here at Aquiva team played in the history of Salesforce Code Analyzer.
+Let’s dive in.
+The Salesforce Code Analyzer plug-in (previously Salesforce CLI Scanner) is an open-source unified tool for source code analysis. The code quality and security tool can analyze multiple languages using a consistent command-line interface (CLI) to produce a list of rule violations.
+Using Salesforce Code Analyzer enables AppExchange developers to more easily review and improve their code. Code Analyzer can also be integrated into Continuous Integration/Continuous Development (CI/CD) processes as a quality gate for pull requests.
+Salesforce Code Analyzer helps developers write clean, secure, performant code that makes getting through the rigorous Salesforce security review faster and easier. Here are some of the benefits of Code Analyzer:
+- Uses proven Open Source analyzers to cover a wide range of issues
+- Easy to plug in
+- Delivers a unified experience
+- Analyzes multiple languages (including Apex)
+- Supports CI/CD processes
+- Includes multiple output formats
+- Offers a growing ruleset
+Salesforce Code Analyzer version v3.x brings together quite a few open-source static application security testing (SAST) tools to improve app security and performance.
+With this new release, Code Analyzer also supports more engines than ever before. Until now, Code Analyzer supported ESLint, ESLint-LWC, ESLint-Typescript, and PMD. With version 3.6.2, you can now also use Code Analyzer with CPD, RetireJS, and Salesforce Graph Engine. Here’s more about each of these supported engines:
+- ESLint is the standard code linter for everything in Javascript. This is needed to account for the fact that more and more code on the Salesforce platform uses Javascript and Node.js for LWC components, CLI plugins, and Functions.
+- PMD is an open-source tool written in Java that looks at source code and helps detect issues in it.
+- Copy-Paste Detector (CPD) helps detect large blocks of copy and pasted code. It also reminds you when your code is past due for refactoring.
+- RetireJS notifies you when your solution’s JavaScript dependency versions have known security vulnerabilities.
+- Salesforce Graph Engine is used to find security and quality issues in a code. Its benefit is that it can perform more complex checks than an average static analysis tool because it uses data flow analysis (DFA).
+When it comes to code scanning—identifying potential security issues within an application—there are two primary approaches that AppExchange developers can take:
+Abstract syntax tree (AST) analysis is employed by many static analysis tools by converting each class or file into AST format and analyzing it in an attempt to identify problematic code.
+Briefly, AST arranges code by ordering its basic blocks in a hierarchical way. The static analysis tool scans the code and block hierarchy and examines whether every local variable has been invoked. If a specific variable’s invocation is not found, the static analysis tool detects a code issue and creates a violation.
+So, what are the pros and cons of this approach? One benefit of using this approach is that it can identify a wide range of code-related issues. This method is also lightning fast—you can practically mark issues in code while typing. One of the main drawbacks, however, is that it isn’t as flexible or intuitive of an approach when it comes to identifying complex code issues that stretch across multiple classes and files.
+Data flow analysis (DFA) is a technique that supplements the general AST approach by capturing more complex scenarios. Instead of looking at a single file at a time, the whole source code is assimilated into a unified piece to provide a more holistic understanding of the code and what it is trying to do.
+DFA builds paths simulating static calls, conditionals, method invocations, and class instantiations. However, DFA doesn’t execute the code. Rather, at every point on each path, it tries to predict the relevant variables’ and fields’ values. Looking at the full picture provides the power to handle a lot more complex issues than a typical static code analysis.
+This is the approach Salesforce has used with the new Salesforce Graph Engine. The engine performs DFA on Apex, identifying issues of much higher complexity than a regular static analysis engine.
+Salesforce Graph Engine—the newest engine to be added to Code Analyzer’s backend—is an open-source Salesforce tool that detects code security and quality issues. One of the best advancements is that—thanks to its use of data flow analysis—it is able to perform more complex checks than an average static analysis tool.
+Here are some of the top features and benefits of Salesforce Graph Engine:
+- **Performs data flow analysis on Apex
+**By performing DFA on Apex, Salesforce Graph Engine can find much more complex issues compared to a regular static analysis engine. It can also find the difference between one instance of a class and another, determine various scopes within a class while walking a path, and understand inheritance.
+- **Detects CRUD/FLS violations
+**Graph Engine can detect create, read, update, and delete (CRUD) and field-level security (FLS) violations more accurately than any other static analysis engine. It is highly efficient for independent software vendor (ISV) developers because it is able to proactively detect violations that often don’t get detected until after an application reaches the AppExchange security review process.
+- **Understands codebase as a whole
+**Code checkers like PMD and ESLint are static analyzers because they only look at single code files—not across file boundaries. They don’t understand the dynamic runtime behavior of code. But for security checks, the interaction between code files during runtime and how data is passed between them is crucial. That’s why the dynamic flow feature of the Graph Engine is so valuable—it looks at all classes and how they relate.
+While Aquiva’s Robert Sösemann joined the Salesforce team on the AppExchange Tech Talk to announce the release of the new Salesforce Code Analyzer—his history with Salesforce is far more extensive.
+And it goes back more than ten years, when AppExchange was first launched.
+When AppExchange was created, it initially lacked good tooling in the Salesforce space. With experience building AppExchange apps, Robert decided to port existing Java tools to work with Salesforce. He ported Java’s best and most extensible Static Code Analyzer PMD to understand Salesforce programming languages like Apex and Visualforce. He also ported many rules from Java to Apex and created many Salesforce-specific rules.
+When Robert did that, Salesforce invited him to present at Dreamforce ‘16. And almost overnight, he became the face of code analysis, clean code, and developer craftsmanship in the Salesforce world.
+Since then, Rober has become a Salesforce MVP, evangelizing countless developers to care about code quality and automate quality changes. In 2018, when Salesforce decided to build its own tooling around PMD and other code scanners, Robert was asked to provide strategic support and consulting for its development team.
+Needless to say, Robert knows a thing or two about developing apps for the Salesforce AppExchange—and how Salesforce Code Analyzer can help. About this new release, he says, “With Code Analyzer, Salesforce embraced open-source tools. But Graph Engine is a game changer. Only with its dynamic flow analysis are robust, precise security checks possible. This is a genuine, free alternative to other existing commercial offerings.”
+With this new release, Code Analyzer has become the everyday CLI tool for AppExchange developers. Code Analyzer version v3.x and the Salesforce Graph Engine will ease your workload while helping you write cleaner, more secure code—which is particularly useful when preparing for the Salesforce security review or re-review.
+So, what are you waiting for?
+To get started with the Salesforce Code Analyzer, open a terminal window and type in this command: $ sfdx plugins:install @salesforce/sfdx-scanner. And, if you want the help of Salesforce’s most experienced product development outsourcer (PDO)—and maybe even Robert himself—you know where to find us.
+_The new release of Salesforce Code Analyzer helps organizations develop clean, secure code so they can more readily pass the Salesforce security review. But having the right expertise on your app development team is just as important.
+_Contact us to learn how we can guide you through the entire AppExchange development process, helping you build state-of-the-art Salesforce applications for long-term success on the AppExchange.

@@ -1,0 +1,782 @@
+[Music]
+I'm very impressed I'm surprised and
+delighted that so many people come to a
+talk about a topic that I expected
+nobody wanted to hear anything
+anymore I I not sure how you feel but I
+feel there is this constant bombardment
+with AI Visions in social media on
+conferences a new better release a new
+pilot everything so I'm really happy
+maybe you you like the title um
+Salesforce and AI From The Trenches
+because this is what I'm going to talk
+about no vision stuff just stuff which
+does not only work but even has worked
+in the last year I'm going to tell you
+the story about what I and my team at a
+keal Labs have built in the last year
+using AI in
+Salesforce and yeah what Lessons Learned
+I can share with you to speed up your
+own Journey
+so I'm Robert I'm a Salesforce MVP and
+work as a principal architect at aalap
+aalap is a huge Salesforce as and PDO
+Partners so we have big customers with
+digital transformation but also buil app
+exchange apps at any at small and big
+scale
+and before I jump into details I want to
+bring me myself and you into this Spirit
+a year and a half ago when gp4 came out
+when we all went
+crazy maybe you you still remember the
+time when you first play with it talk to
+your colleague there was there was only
+extremes there was a spectrum of people
+who said amazing we will solve all the
+problems in our company in the world um
+we will all get rich I don't know and on
+the other side there was people who said
+ah this is not important this is old
+stuff or we will lose our jobs Humanity
+will end and at a kaps we were at the
+same situation and we we thought we need
+to do something we cannot just stay in
+that space so uh a cool group of a few
+people in the company gathered in Berlin
+a few days to actually make sense about
+this we built a small AI Task Force at
+that time and yeah and we we we
+discussed what to do and I want to tell
+you about the journey so we did more
+experiments but I want to tell you about
+three of them which all had one goal use
+AI build something in Salesforce with as
+many Salesforce means as possible and
+actually use it in the company and
+yeah those three apps they might
+also remind you of your own Journey so
+we buil an app to at the beginning just
+using llms open AI learned a little bit
+about prompt voodoo magic and context
+then we found the limitations of prompts
+and context and looked into Vector
+databases embeddings and all that cool
+stuff and then we get a little bit sick
+of just text generation and looked into
+agentic workflows agents and this is my
+orc Butler and yeah let me start with
+DMD let give me just a a quick show of
+hands who knows PMD the okay you make me
+happy because back in 2016 I ported PMD
+to Salesforce and I'm really happy to
+see that basically every Salesforce
+developer uses it for
+issues in in code and PMD came up in our
+discussion in Berlin we were sitting
+there and said AI is dangerous it can
+take away responsibility from from
+people how how can we mitigate that and
+I said couldn't we do something like PMD
+PMD is not really taking away the
+responsibility from a developer it's
+just showcasing with those squiggly
+lines that something is wrong PMD often
+hallucinates in the form of false
+positives
+so we said why not
+use generative AI which is so good in
+understanding text to do something for
+business
+documents and we built DMD the document
+mess detector so instead of giving it
+code you give it a contract an S so and
+a rule set of handwritten or natural
+language rules and DMD will check it and
+I will not really tell you much more I
+will go into a demo
+so let
+me switch to my orc and I hope I have
+good internet here and I don't have to
+show you just demos so DMD is a
+Salesforce native app and as you all or
+many of you know PMD let me first go
+into a rule set as I said at a kaps we
+have Partners into the app exchange and
+this means passing Security review you
+heard about that and there 's a a
+document type which you have to provide
+the the solution design and we just
+wanted to codify our knowledge about how
+to write a good and short and and
+detailed solution design document into a
+rule set this is a rulle set it has a
+little bit of for an llm context blah
+blah but this is important this will
+actually make into a prompt and then we
+have rules and I just show you two rules
+there is a rule which which says that
+you that the document should include a
+section which describes the architecture
+the data flow especially if you're using
+a apis and you should actually use
+diagrams for
+that I just show you another second rule
+which I just added before it's it's
+saying when when the app uses any form
+of generative AI you need to talk about
+explicitly how how to mitigate
+hallucination risks okay let's
+just do a scan on such a file so this is
+the solution design document this is how
+it looks we have those uml charts in it
+and I just want to scan it
+and I I use a plain text version so that
+the AI actually recognizes
+the the diagrams in it I click
+analyze I select my rule set hit save
+and then it runs and I always said that
+as in every good cooking show I prepared
+the meal so I'm I'm showing you how the
+output of such an analysis looks like so
+we failed six rules passed but one did
+not and let's just go into the the rules
+which I showed you before
+DMD is really telling you why something
+failed
+so it it recognized we have diagrams it
+recognized we have apis in the app that
+are well described so it actually tells
+us why it thinks the rule passed and the
+AI rule failed because also we are using
+open AI we're not explicitly
+stating yeah this is just an example I
+just want to show you that we can
+actually do something usable and this is
+this is not it's not like every of our
+100 employees is using that app but this
+is really used in theal apps so go back
+to the slideshow how does that
+work in Salesforce is a small boring um
+manag package with a bunch of custom
+objects to represent rules rule sets
+analysis the magic happens when somebody
+clicks analysis we take the Salesforce
+file send it to an off platform text
+extraction API get back plane
+text and then we basically merge it with
+the rules and Rule set send it to open
+AI ask it to analyze the text and send
+us back a adjacent
+result how do I stand time wise
+I good good so what did we learn from
+that so one important learning was
+models are really important you know you
+hear about every models is all the
+models are getting better but it's not
+always the way that the best model is
+the one you should take so we found out
+that gpt3 was useless for this kind of
+text analysis gp4 was great but slow and
+expensive and we find a good middle
+ground in GPT
+3.5 so those models is really something
+should understand and also the pricing
+the second one document
+size really limited the app it's just
+the information you put into we ran into
+Heap size problems request size sending
+stuff from Salesforce to to the outside
+world and yeah and this also led to our
+second experiment with Vector
+databases
+so just waiting for a bigger context
+window doesn't actually help you because
+it will always be
+restricted interesting at that time was
+that we could actually cope with the AI
+flaws like hallucinations
+um we we used a little bit of f shot
+prompting and yeah all that prompting
+magic and and found the
+results of DMD really to be
+nearly having no
+hallucinations another thing which you
+also see in Salesforce AI
+implementations it's really good if you
+make any app llm agnostic or even model
+agnostic so that you can switch you know
+we we we ported PMD to use a
+llama Facebook open source model and we
+did it with custom metadata and Apex it
+was not trivial but it's actually doable
+because all those AI models llms are
+quite similar in their parameters and
+yeah
+configuration
+okay next step ask your document we
+wanted to have more content in
+Salesforce we we just we just wanted
+huge documents and ask your document is
+much simpler than DMD it's basically on
+the preview page for a file in
+Salesforce you have a chat window and
+you can ask about the
+content I will show it to you and that
+you trust me that this is really a huge
+document I know something I use
+something which you know 500 pages 40
+megabytes big so um yeah let's let's
+look how it how it works I just go into
+this preview window and here is ask your
+document and just I just ask is there
+news
+about scratch
+works so
+so I hope it
+works this is all life
+so yes
+so cool we have scratch orc snapshots
+and indeed that's that's that's the
+thing so I didn't make this up so it
+really found this out maybe I can also
+ask Annie
+Einstein AI
+features going
+ga yeah there is a typo but I I actually
+put it in because I want to show how
+good it copes with typos I couldn't even
+ask in
+German
+so no information we know all that no
+Salesforce Einstein features going J
+just Pilots
+so is anyone from safe force in the room
+no
+okay
+um yeah how does that work it's a simple
+app
+and this image should tell you the
+implementation was anything but
+simple we had to understand a whole new
+world of systems we had to offload
+anything everything to AWS and AWS is
+like if Salesforce is like playing
+Ground in the kindergarten AWS is like
+Voldemort and I don't know how the
+country how this huge country is called
+in ring of the Lord so we we had to
+understand AWS how to use it how to
+configure it how it is
+priced to yeah to get bigger files we
+had to fetch them from AWS we had to
+find a text extraction library to
+coordinate that we had to learn or
+understand Python and on top of python
+we had to learn an AI framework called
+Lang
+chain
+and the biggest part the most important
+part was this Vector database Vector
+databases are really great because they
+store content in in a semantic form so
+when you put a Salesforce file into a
+vector database it's chunked so it's
+it's created creating small Snippets and
+all of those Snippets are converted to a
+a huge Vector of 500 numbers
+which Define the the semantic meaning
+and then when somebody asks a question
+the questions also converted to such a
+vector and then it's basically looking
+for similar vectors and the F the the
+results are then summarized by open AI
+that that's called retrieval augmented
+generation because we generate text but
+we augment it with stuff we retrieve
+from a vector
+database
+yeah learnings many learnings the
+biggest learning of platform can become
+a nightmare especially in the realm of
+AI so Google Cloud AWS they they have
+great power but they also come with a
+great um cost skill cost and
+everything we we also found that when
+you move things to AWS you tend to even
+move things out of Apex into AWS because
+the integration is so complicated
+because you don't have asynchronous API
+and yeah and this was not what we
+actually wanted because we want to keep
+a lot of the stuff in
+Salesforce the most important thing for
+everybody here in the audience who
+thinks like rag is like training your
+own llm on your company's data it's not
+rec is
+not
+understanding content like when you when
+you train it on your data it's just like
+a smarter search because just imagine
+you you put like a a big document like
+the Bible into into a vector database
+you cannot really ask can you
+summarize the whole story because it's
+it's really just
+searching so if there is no summary in
+this big text it cannot do it so Vector
+databases and rag are not a solution to
+not training your
+own language model okay by the time we
+did that especially after this
+frustration in um development we said we
+want to do more than text we want to
+save time we want to actually take away
+work from people and give it to an AI
+and and made a small experiment which I
+would say was the most successful one
+because it didn't take a lot of time and
+it even impressed people in our company
+who weren't impressed by all the things
+we did before waving hands to Greg
+um my orc Butler
+is like co-pilot but better it's a small
+taskbar application you don't see it it
+it's too too too light here um it's a
+small test bar app in Salesforce and you
+can just ask questions about your orc
+about your data you can ask it to create
+data you can ask about metadata and I
+want to show it to
+you so
+this is my
+orc let me just go into the sales
+app and here it
+is I
+just assume I'm a sales guy which
+opportunity should I work on today today
+first so and then I click
+it and this is always a little
+bit will it answer right this time
+but I switched to yeah so it it it gives
+me a few examples it tells me I should
+work on this one because it it's closing
+soon then I say you know I could just
+click it but I want you to be impressed
+by just saying hey open
+it you know no no sensible person would
+ask in the chat to open a record
+but but maybe I can impress you by
+saying create a
+task to call the
+customer on
+Wednesday and I'm always misspelling
+Wednesday but it will probably do it
+and I will explain in a minute
+how how much time do I
+have cool
+super oh yeah so this time it didn't it
+didn't work normally it it would just
+create the record we even built
+something like uh those helpful buttons
+that's an the Kea feature we we
+basically of all our apps or open source
+apps or whatever we build for the
+customer we we build in features to
+track how good they are if they work but
+that's just a side note so oh yeah it it
+created it it just was a little bit
+verbose so here's the task so
+perfect I will tell you how this
+works
+so we are not using Salesforce magic in
+Salesforce there is this taskbar app in
+the butler app and there are some tools
+a little bit like those Salesforce
+co-pilot actions which do normal stuff
+in Apex so deterministic code no AI the
+magic
+is again off platform but super simple
+it's an open AI API it's the assistant
+API so we we pay for it but it's really
+affordable and it
+it takes away all the complexity of
+agentic things so when when you open the
+app the system is invoked when you ask
+any question it's finding out which
+tools to call and it's just basically
+calling this tool in
+Salesforce I I want to show you how it
+looks in
+the open AI backend so that's that's
+open AI is also no my orc Butler is also
+Salesforce code but this is the actual
+magic so the orc Butler is a lengthy
+text of instructions which tells it what
+what it is and how how it should
+work there is a model which runs it and
+then there is tools and tools is you
+just Define something which the AI can
+call for example and this is very
+different from what you saw in in kier's
+talk before
+not fine grained actions which do one
+thing it's a big action it can call
+arbitrary Salesforce apis because it
+knows them all because it's an llm it
+just needs to tell you hey which URL
+which parameters which body which HTTP
+method and there's other actions like
+you see it notify user open page I just
+want to show you how it looks when I
+just play with it in the open AI
+playground so so I already put a text in
+here um I just asked for a support case
+I need my orc ID and the admin's
+username and you see it this is
+basically where it says could you please
+call a tool for me it wants to call this
+Salesforce API with that with that query
+and this is not reaching into our
+Salesforce or no security risk we're
+poing from Salesforce and actually
+getting that and then just calling
+it okay I I hear it you are like super
+impressed I was I I really was and I'm
+not I wasn't always impressed by what AI
+can do so what did we learn from this
+experimentation llms are not replacing
+coding or anything llms are perfect for
+glue code so when you have Apex code
+that's good but sometimes you have like
+a a user request which which you cannot
+really make sense of and having an llm
+in the middle is is really cool for code
+orchestration what we also learned that
+the question how to scope such actions
+such skills in Salesforce it's also
+called actions that's actually hard do
+you make many small actions which can
+just do a little fine grain job or do
+you have a really powerful job um which
+can basically do everything but is more
+likely to fail with hallucinations so I
+think I I guess in a few years we will
+have books about that topic like 10
+years ago how to scope my rest service
+how to how to scope my yeah it's a it's
+an endless question in in computer
+science I I just want to
+summarize learning three and four this
+is this is not something which actually
+saves you time because it's very slow
+you saw it it's also quite costly
+there's even papers that say that this
+react pattern that we are seeing here
+it's not something which actually saves
+money or
+time but as we know in technology things
+which are really expensive today they
+cost nothing in in a year or so so I'm
+I'm I I really believe
+that those agents those agentic
+workflows will will be the future in one
+or the other
+way okay I'm already coming to the end
+so before I give my recommendations to
+you I want to tell you what happened to
+us so we were absolutely thrilled we had
+those apps and then we just read more
+and more from Salesforce and Salesforce
+basically brought out features or
+announced them as pilots and
+um beas or however they call it which
+killed most of our apps and this is what
+I wanted to depict here so my orc Butler
+is basically replaceable in theory by
+Einstein co-pilots and actions because
+that's what it
+is ask your document will also be
+totally natively part of Salesforce
+because Salesforce said they will add a
+vector database to data cloud or not dat
+data Cloud so you can do semantic search
+on everything that you have in
+Salesforce
+DMD is not replaceable because it's
+actually an app but it could be built
+much simpler and safer instead of
+building all
+this model change things we could just
+use model builder we could use prompt
+Builder and by that use the the trust
+layer which we do not have
+so my general recommendation is custom
+AI is is hard so um if you are like most
+people and like
+Salesforce because you can get things
+done so fast you probably don't want to
+do custom AI if if you can wait and
+afford to pay for Native Salesforce
+features you should do it because you
+are on the safe site with the trust
+layer most of the things work
+declaratively without any coding so you
+should do it but if you cannot wait for
+it if it's too expensive for you if you
+don't want to buy data Cloud to to use
+prompt
+Builder I highly recommend you to do
+what we did and experiment with it and
+to make it a little bit simpler for you
+the apps that we have built they are
+available as free app exchange
+apps and some of them like DMD and my
+orc Butler they are on GitHub so you can
+take our code build your own commercial
+app get rich and send and send me a
+postcard really look at the code and see
+that it's not it's not magic so
+[Music]
+um I don't have a slide for that but I I
+I really want to say it was also
+transformation for us to see how how
+quickly we got something done in our
+company by just using a super small
+Focus
+team a bunch of developer who wen't on
+projects building something in a few
+weeks or a month we you know without all
+the big overhead of normal projects and
+this was really cool we we stopped when
+we had enough insights and and basically
+said okay now let's use it so I really
+want to want to recommend you to
+experiment and this is why I want to
+close my presentation with the question
+to you when when are you going to
+experiment all the things I said are in
+the slides and the slides are behind
+this QR
+code for sure I could not leave the
+stage without saying if you need help
+contact AA there is a few people here
+which you can directly talk to we can
+help you with using using native
+Salesforce AI but also custom Salesforce
+AI we we have just proven we did
+it thank you and I think we have time
+for Q&A 10 more minutes perfect that's
+what I
+[Applause]
+wanted so who's
+Brave who's doing the micro thing
+yeah we the room is small enough first
+V how is this
+compar
+experience Salesforce in the
+room
+um yeah yeah his question
+was how how I do compare the my orc
+Butler to Einstein co-pilot and what's
+available there
+I would
+say this is my honest opinion um
+co-pilot is still not there it's it's
+still unstable so when you when you play
+with it it
+the you often see bugs it it it's it's
+really hard to to get an action working
+which which does bigger things so the
+thing I I just said before that I don't
+know how to scope an
+action that's a that's a problem what
+else can I
+say um I'm absolutely
+Unsure how how much how how that will be
+priced you know it's it's really I don't
+know if I can put it in a managed
+package there's there's many in things
+that I just cannot answer so I would say
+if a customer wants something like a
+co-pilot right now they should
+basically po MVP it with open
+Ai and later maybe Port it to to a
+co-pilot because the most of the things
+that you are programming is actually the
+the Apex actions and you can just have
+them in your
+orc um without a big change you know the
+the only change you will later do is
+replacing the open AI part with the
+instructions by using a a ative
+Salesforce
+co-pilot
+Aiden
+yeah I I get yeah when I when I first
+like tweeted about my orc Butler I I I
+think I got contacted by by Salesforce
+de evangelist who told me that such a
+huge action which can call apis is
+insecure and not best practice and then
+I tried to be a good guy and just made
+smaller
+actions but the problem I found is they
+they immediately overlap it confuses uh
+the llm which action to take so so for
+example if you have many actions which
+do something on opportunity if your task
+is very wake it it might choose the
+wrong one
+so yeah that's that's the honest answer
+what
+power the power of what oh yeah um
+yeah
+maybe that's a good answer in Salesforce
+always put a description it started with
+custom Fields it's now with
+action what else yes please how do you
+see the future you just showed an
+example
+opport every bus is
+different manes anybody canate a sing
+thinking so let's say five years from
+now would there be something for all
+these
+different you know there are
+people up
+the exactly
+so I know you you said a question so so
+I
+think just do it for it exactly that's
+that's my belief and I I read about this
+this will transform how people use apps
+and it will also transform H app
+development so I think in the future
+much more things will be just done by
+language I I think tying is also
+suboptimal so instead of click through
+related lists you you just basically
+talk with your
+app um but I think it will what's much
+more important I think it will transform
+app development because what I I think
+app development is is like thinking
+about jobs which many people will do
+repeatedly and then building an app
+that's that's app development but why
+should I do it if I could basically
+build the app while talking so I I think
+in the future apps might be
+just less UI and more agentic things and
+inside the app has all those actions and
+can do things you know like in the F in
+the past it was API first you know when
+you build an application you build
+strong apis so people can remix and
+repurpose your app I think in the
+future apps will actually contain such
+small callable actions so that people
+can
+not only use it with language but also
+build on top that's that's my vision or
+idea yes
+yeah that's a that's a good question but
+but I would say it's also the same with
+humans you know there are some jobs
+which we automate because we don't want
+to pay
+humans and the moment we can afford
+humans every human will
+potentially do it a little bit different
+which might even be a good thing you
+know instead of pushing an upgrade to an
+app it could actually learn
+I my what I want to say is that I think
+it would be actually better if apps
+would be more like humans so not super
+deterministic but also
+evolving but but you're right I have no
+clue
+on how to make that bulletproof like
+but just a few ideas you could still
+have checks in there you know you um
+when the AI makes a transaction at the
+end of the day there is deterministic
+code which which checks if like the
+balance is right or if customers didn't
+lose money or something like
+that another example I can just give you
+um I I talked with Salesforce at the
+last dreamforce about like the future of
+PMD you know this tool which checks code
+if that's still needed and they said
+that's actually more needed when people
+generate more code with AI then you need
+a tool like PMD which
+deterministically finds out if there's
+crap in there so you know maybe maybe
+it's a little bit like that apps get
+more fuzzy but there's also a small
+deterministic part which at the end of
+the day calculates if the world still is
+in order but it's just guess work so yes
+not a question but just follow previous
+question so if you go to LinkedIn look
+for Jim St
+s works for sales now he did a great
+presentation on nondeterministic testing
+Sal
+cool thanks I will ping you for
+that
+yes it knows that you you can ask the
+chpt to have a Shakespeare discussion
+with you they they for sure know which
+Salesforce apis exist and what the
+parameters are kind of dep on
+[Music]
+API something new came out you'd
+be yes but that's the good thing with
+such
+assistance when something goes wrong
+they make sense out of the the error so
+just just imagine the llm tells me to
+call an API Salesforce calls it and runs
+into an arrow we send the arrow back to
+open AI and open
+AI immediately internally you can see it
+in the locks like oh yeah the wrong API
+version and tries it again
+so that's the cool
+thing are we still in time can I still
+yeah
+so Rob
+hey sales force a
+they
+can't I mean yeah we saw today on the
+demo gems there are for sure customers
+who use generative
+AI um I I cannot I don't want to say who
+are our customers are but you know a lot
+of um Salesforce isvs or Salesforce
+tools like um elements Cloud they are
+full of of generative Ai and what I what
+I can say from like the AA experience
+that many isv partners come to us and
+ask when can I put this in my manag
+package app because that's that's really
+cool like simplify the usage of a
+managed package and I didn't hear
+anything from Salesforce about that but
+that would be really cool so in there is
+huge interest there is also huge
+frustrations when when people try to
+actually use co-pilots you know it
+doesn't work in scratch ORS you have to
+get a crappy trail head scratch or which
+yeah so it's a
+mix okay thanks a lot
+[Music]

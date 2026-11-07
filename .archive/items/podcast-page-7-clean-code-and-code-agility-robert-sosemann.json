@@ -1,0 +1,1155 @@
+{
+  "id": "podcast-page-7-clean-code-and-code-agility-robert-sosemann",
+  "url": "https://salesforceway.com/podcast/clean-code/",
+  "source": {
+    "url": "https://salesforceway.com/podcast/clean-code/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "slug": "podcast-page-7-clean-code-and-code-agility-robert-sosemann",
+    "title": "7. Clean code and Code Agility | Robert Sösemann"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:33.082527+00:00",
+    "final_url": "https://salesforceway.com/podcast/clean-code/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2018/7-clean-code-and-code-agility-robert-sosemann/original.html",
+    "title": "7. Clean code and Code Agility | Robert Sösemann",
+    "author": null,
+    "date": "2018-06-28",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.instagram.com/xixiaofinland/",
+        "label": "Instagram",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://fi.linkedin.com/in/xixiaofinland",
+        "label": "LinkedIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/xixiaofinland",
+        "label": "Twitter",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/xixiaofinland",
+        "label": "Github",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/salesforceway/",
+        "label": "Facebook",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/",
+        "label": "SalesforceWay",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/clean-code/",
+        "label": "Cancel reply",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/salesforce-blog/",
+        "label": "Blog",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/salesforce-podcast/",
+        "label": "Podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/salesforce-youtube/",
+        "label": "YouTube",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/about/",
+        "label": "About",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/",
+        "label": "Salesforce Podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/speaker/robert-sosemann/",
+        "label": "Robert Sösemann",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/shareArticle?mini=true&summary=Robert+S%C3%B6semann+Robert+S%C3%B6semann+from+Up2go+guests+in+the+show+to+talk+about+Clean+code+and+Code+Agility.+Every+salesforce+programmer+needs+to+pick+these+up%2C+it+is+simply+THAT+important%21+Main+Points+What+is&title=7.+Clean+code+and+Code+Agility+%7C+Robert+S%C3%B6semann&url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fclean-code%2F",
+        "label": "LinkedIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://x.com/intent/tweet?text=7.+Clean+code+and+Code+Agility+%7C+Robert+S%C3%B6semann&url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fclean-code%2F&via=xixiaofinland",
+        "label": "Tweet",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?t=7.+Clean+code+and+Code+Agility+%7C+Robert+S%C3%B6semann&u=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fclean-code%2F",
+        "label": "Share",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/cdn-cgi/l/email-protection",
+        "label": "Email",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-player/34/clean-code.mp3?_=1",
+        "label": "",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-player/34/clean-code.mp3",
+        "label": "https://salesforceway.com/podcast-player/34/clean-code.mp3",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-download/34/clean-code.mp3?ref=download",
+        "label": "Download file",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-download/34/clean-code.mp3?ref=new_window",
+        "label": "Play in new window",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM",
+        "label": "Book: Clean code",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073",
+        "label": "Book: Clean Coder",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/rsoesemann",
+        "label": "Robert’s Twitter handle",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/rsoesemann/",
+        "label": "Robert on GitHub",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforce.stackexchange.com/users/256/robert-s%c3%b6semann",
+        "label": "Robert on StackExchange",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/about-me/",
+        "label": "Contact Me",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/xixiaofinland/",
+        "label": "LinkedIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/author/xi-xiao007gmail-com/",
+        "label": "Xi Xiao",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/code-quality/",
+        "label": "code quality",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/feed/podcast",
+        "label": "RSS Feed",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/salesforce-way/id1383914828?mt=2",
+        "label": "iTunes",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://open.spotify.com/show/7ufHGsbOblQOpXAWLDQNw8",
+        "label": "Spotify",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.stitcher.com/podcast/xi-xiao/salesforce-way",
+        "label": "Sticker",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc2FsZXNmb3JjZXdheS5jb20vZmVlZC9wb2RjYXN0&hl=en-FI",
+        "label": "Google podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://tunein.com/podcasts/Technology-Podcasts/SalesforceWay-p1254099/",
+        "label": "TuneIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/2nd-gen-packaging/",
+        "label": "2nd gen packaging",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/agile/",
+        "label": "Agile",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/ai/",
+        "label": "AI",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/analytics/",
+        "label": "Analytics",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/apex/",
+        "label": "Apex",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/async/",
+        "label": "Async",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/automation/",
+        "label": "Automation",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/career-planning/",
+        "label": "career planning",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/certificates/",
+        "label": "certificates",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/community/",
+        "label": "community",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/conference/",
+        "label": "Conference",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/declaratives/",
+        "label": "declaratives",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/design/",
+        "label": "Design",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/developer-tool/",
+        "label": "developer tool",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/dreamforce/",
+        "label": "dreamforce",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/dx/",
+        "label": "DX",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/flow/",
+        "label": "flow",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/framework/",
+        "label": "framework",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/functional-programming/",
+        "label": "functional programming",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/ide/",
+        "label": "IDE",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/integration/",
+        "label": "integration",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/javascript/",
+        "label": "JavaScript",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/legacy-code/",
+        "label": "legacy code",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/lightning-web-component/",
+        "label": "Lightning Web Component",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/managed-package/",
+        "label": "managed package",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/mobile-development/",
+        "label": "mobile development",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/no-code/",
+        "label": "no code",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/non-programming-skills/",
+        "label": "non-programming-skills",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/open-source/",
+        "label": "open-source",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/performance/",
+        "label": "Performance",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/platform/",
+        "label": "Platform",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/scratch-org/",
+        "label": "Scratch org",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/separation-of-concerns/",
+        "label": "Separation of Concerns",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/solo-episode/",
+        "label": "solo episode",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/training/",
+        "label": "training",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/unit-tests/",
+        "label": "unit tests",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/unlocked-packages/",
+        "label": "Unlocked Pacakges",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/user-group/",
+        "label": "user group",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/functional-programming-and-haskell/",
+        "label": "72. Functional Programming and Haskell | Mark …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/lighting-component/",
+        "label": "6. Trailhead and Lightning Component Development | …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/the-big-picture/",
+        "label": "23. Most Developers Don’t Get This Big …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/agentic-coding-and-sf-skills/",
+        "label": "108. Agentic coding and sf-skills | Jag …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/third-party-frameworks/",
+        "label": "3. Third Party Frameworks | Nikita Verkhoshintcev",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog/salesforce-podcasts/",
+        "label": "All Salesforce Podcasts",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCX1yhhDQv9ArU45828v3OVg",
+        "label": "Salesforce Developer YouTube",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast",
+        "label": "Salesforce Developer Podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+        "label": "111. The AI Skills Salesforce Developers Need",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/aer/",
+        "label": "110. Run sf org and Apex tests locally with aer",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog",
+        "label": "Salesforce Developer Blog",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog/top-10-vscode-extensions-for-salesforce/",
+        "label": "Top 10 VSCode Extensions For Salesforce Development",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog/best-salesforce-developer-blogs/",
+        "label": "Best Salesforce Developer Blogs that Share Wisdom",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en",
+        "label": "License CC BY-NC-ND 4.0;",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "0ef58babca72fabe6d6851bd70889e4c4e232a6de28643b34e1bc036d6799251",
+    "text_path": "library/2018/7-clean-code-and-code-agility-robert-sosemann/transcript.txt",
+    "words": 4931
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:33.082527+00:00",
+    "final_url": "https://salesforceway.com/podcast/clean-code/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2018/7-clean-code-and-code-agility-robert-sosemann/original.html",
+    "title": "7. Clean code and Code Agility | Robert Sösemann",
+    "author": null,
+    "date": "2018-06-28",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.instagram.com/xixiaofinland/",
+        "label": "Instagram",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://fi.linkedin.com/in/xixiaofinland",
+        "label": "LinkedIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/xixiaofinland",
+        "label": "Twitter",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/xixiaofinland",
+        "label": "Github",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/salesforceway/",
+        "label": "Facebook",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/",
+        "label": "SalesforceWay",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/clean-code/",
+        "label": "Cancel reply",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/salesforce-blog/",
+        "label": "Blog",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/salesforce-podcast/",
+        "label": "Podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/salesforce-youtube/",
+        "label": "YouTube",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/about/",
+        "label": "About",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/",
+        "label": "Salesforce Podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/speaker/robert-sosemann/",
+        "label": "Robert Sösemann",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/shareArticle?mini=true&summary=Robert+S%C3%B6semann+Robert+S%C3%B6semann+from+Up2go+guests+in+the+show+to+talk+about+Clean+code+and+Code+Agility.+Every+salesforce+programmer+needs+to+pick+these+up%2C+it+is+simply+THAT+important%21+Main+Points+What+is&title=7.+Clean+code+and+Code+Agility+%7C+Robert+S%C3%B6semann&url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fclean-code%2F",
+        "label": "LinkedIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://x.com/intent/tweet?text=7.+Clean+code+and+Code+Agility+%7C+Robert+S%C3%B6semann&url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fclean-code%2F&via=xixiaofinland",
+        "label": "Tweet",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?t=7.+Clean+code+and+Code+Agility+%7C+Robert+S%C3%B6semann&u=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fclean-code%2F",
+        "label": "Share",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/cdn-cgi/l/email-protection",
+        "label": "Email",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-player/34/clean-code.mp3?_=1",
+        "label": "",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-player/34/clean-code.mp3",
+        "label": "https://salesforceway.com/podcast-player/34/clean-code.mp3",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-download/34/clean-code.mp3?ref=download",
+        "label": "Download file",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast-download/34/clean-code.mp3?ref=new_window",
+        "label": "Play in new window",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM",
+        "label": "Book: Clean code",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073",
+        "label": "Book: Clean Coder",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/rsoesemann",
+        "label": "Robert’s Twitter handle",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/rsoesemann/",
+        "label": "Robert on GitHub",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforce.stackexchange.com/users/256/robert-s%c3%b6semann",
+        "label": "Robert on StackExchange",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/about-me/",
+        "label": "Contact Me",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/in/xixiaofinland/",
+        "label": "LinkedIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/author/xi-xiao007gmail-com/",
+        "label": "Xi Xiao",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/code-quality/",
+        "label": "code quality",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/feed/podcast",
+        "label": "RSS Feed",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/salesforce-way/id1383914828?mt=2",
+        "label": "iTunes",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://open.spotify.com/show/7ufHGsbOblQOpXAWLDQNw8",
+        "label": "Spotify",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.stitcher.com/podcast/xi-xiao/salesforce-way",
+        "label": "Sticker",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc2FsZXNmb3JjZXdheS5jb20vZmVlZC9wb2RjYXN0&hl=en-FI",
+        "label": "Google podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://tunein.com/podcasts/Technology-Podcasts/SalesforceWay-p1254099/",
+        "label": "TuneIn",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/2nd-gen-packaging/",
+        "label": "2nd gen packaging",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/agile/",
+        "label": "Agile",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/ai/",
+        "label": "AI",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/analytics/",
+        "label": "Analytics",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/apex/",
+        "label": "Apex",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/async/",
+        "label": "Async",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/automation/",
+        "label": "Automation",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/career-planning/",
+        "label": "career planning",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/certificates/",
+        "label": "certificates",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/community/",
+        "label": "community",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/conference/",
+        "label": "Conference",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/declaratives/",
+        "label": "declaratives",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/design/",
+        "label": "Design",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/developer-tool/",
+        "label": "developer tool",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/dreamforce/",
+        "label": "dreamforce",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/dx/",
+        "label": "DX",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/flow/",
+        "label": "flow",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/framework/",
+        "label": "framework",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/functional-programming/",
+        "label": "functional programming",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/ide/",
+        "label": "IDE",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/integration/",
+        "label": "integration",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/javascript/",
+        "label": "JavaScript",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/legacy-code/",
+        "label": "legacy code",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/lightning-web-component/",
+        "label": "Lightning Web Component",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/managed-package/",
+        "label": "managed package",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/mobile-development/",
+        "label": "mobile development",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/no-code/",
+        "label": "no code",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/non-programming-skills/",
+        "label": "non-programming-skills",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/open-source/",
+        "label": "open-source",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/performance/",
+        "label": "Performance",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/platform/",
+        "label": "Platform",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/scratch-org/",
+        "label": "Scratch org",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/separation-of-concerns/",
+        "label": "Separation of Concerns",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/solo-episode/",
+        "label": "solo episode",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/training/",
+        "label": "training",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/unit-tests/",
+        "label": "unit tests",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/unlocked-packages/",
+        "label": "Unlocked Pacakges",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/tag/user-group/",
+        "label": "user group",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/functional-programming-and-haskell/",
+        "label": "72. Functional Programming and Haskell | Mark …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/lighting-component/",
+        "label": "6. Trailhead and Lightning Component Development | …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/the-big-picture/",
+        "label": "23. Most Developers Don’t Get This Big …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/agentic-coding-and-sf-skills/",
+        "label": "108. Agentic coding and sf-skills | Jag …",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/third-party-frameworks/",
+        "label": "3. Third Party Frameworks | Nikita Verkhoshintcev",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog/salesforce-podcasts/",
+        "label": "All Salesforce Podcasts",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCX1yhhDQv9ArU45828v3OVg",
+        "label": "Salesforce Developer YouTube",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast",
+        "label": "Salesforce Developer Podcast",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+        "label": "111. The AI Skills Salesforce Developers Need",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/podcast/aer/",
+        "label": "110. Run sf org and Apex tests locally with aer",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog",
+        "label": "Salesforce Developer Blog",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog/top-10-vscode-extensions-for-salesforce/",
+        "label": "Top 10 VSCode Extensions For Salesforce Development",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://salesforceway.com/blog/best-salesforce-developer-blogs/",
+        "label": "Best Salesforce Developer Blogs that Share Wisdom",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en",
+        "label": "License CC BY-NC-ND 4.0;",
+        "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "0ef58babca72fabe6d6851bd70889e4c4e232a6de28643b34e1bc036d6799251",
+    "text_path": "library/2018/7-clean-code-and-code-agility-robert-sosemann/transcript.txt",
+    "words": 4931
+  },
+  "context": {
+    "format": "Podcast episode page",
+    "where": "SalesforceWay",
+    "when": "2018-06-28",
+    "date_label": "Published",
+    "with_whom": "Xi Xiao (host)",
+    "evidence": "https://salesforceway.com/podcast/salesforce-ai/",
+    "published_at": "2018-06-28",
+    "verified_evidence": [
+      {
+        "path": "library/2018/7-clean-code-and-code-agility-robert-sosemann/original.html",
+        "evidence_excerpt_or_field": "article:published_time: 2018-06-28; Hey everybody! This is Xi Xiao."
+      }
+    ],
+    "topics": [
+      "Craftsmanship"
+    ],
+    "platform": "SalesforceWay",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert and Xi Xiao discuss what clean code means and why it matters for developers who need to keep changing their software. They connect readable, maintainable code with agility and discuss the habits behind effective development, drawing on Robert’s experience and the Clean Code book.",
+    "summary_basis": {
+      "source_id": "podcast-page-7-clean-code-and-code-agility-robert-sosemann",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2018/7-clean-code-and-code-agility-robert-sosemann/original.html",
+    "observation": "Episode page embeds corresponding podcast-player audio URL"
+  },
+  "brand": {
+    "name": "SalesforceWay",
+    "domain": "salesforceway.com",
+    "source_page": "https://salesforceway.com/podcast/salesforce-ai/",
+    "logo_url": "https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg",
+    "logo_path": ".archive/brands/salesforceway.com.jpg"
+  },
+  "library_dir": "library/2018/7-clean-code-and-code-agility-robert-sosemann",
+  "file_names": {
+    ".txt": "transcript.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

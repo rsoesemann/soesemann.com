@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "speaker": "Robert Sösemann",
+  "text": "I use Salesforce and Agentforce to build business applications. PMD helps us review Apex code.\nThe important question is whether the result solves a real problem for the people who use it.",
+  "language": "en",
+  "reference": "en-podcast",
+  "reference_sha256": "9b0e594560aa8411b98f0a03d7ecb35e4a4759448ed3f38d73fb6d5359c8daf9",
+  "reference_transcript": "I'm Robert. I live in Germany close to Stuttgart. I'm, a Salesforce veteran in the in the sense of Salesforce dinosaur, in the sense that I think it's 14 years now.",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "revision": "e7dd0585652209fa0d7783659aad4e8a324de11c",
+  "engine": "mlx-audio 0.6.4",
+  "seed": 42,
+  "temperature": 0.7,
+  "created_at": "2026-11-06T23:46:36.515794+00:00",
+  "offline": true,
+  "sample_rate": 24000,
+  "duration_seconds": 11.66,
+  "elapsed_seconds": 19.286835042061284,
+  "peak_before_gain": 0.6734757423400879,
+  "gain": 1.0,
+  "segments": [
+    {
+      "tokens": 82,
+      "seconds": 6.56
+    },
+    {
+      "tokens": 60,
+      "seconds": 4.8
+    }
+  ],
+  "sha256": "ee590d9d1e0e8ec423629300fdecf8b850e89ffe3747c85a0cfaaa3a660ecc49",
+  "listening_review": "pending Robert's assessment of likeness and naturalness"
+}

@@ -1,0 +1,12 @@
+Robert Sösemann
+Pluralsight Author
+            Robert Sösemann is a Germany-based software developer and experienced Salesforce expert. He is well-known for building the Open-Source Code Analyzer PMD for Apex. He blogs, tweets and speaks at conferences about Developer Agility and Clean Code. Although a Computer Science alumni, he didn't start his career coding. After managing Software teams for some years, he rediscovered his love of programming in the Salesforce ecosystem and has never been happier. Robert works as Principal Architect for the Salesforce PDO Partner logicline where he helps customers get their product ideas into the AppExchange faster.
+          
+Topics Authored
+Software Development
+Courses Authored
+2
+Total Ratings
+27
+Avg Course Ratings
+4.7

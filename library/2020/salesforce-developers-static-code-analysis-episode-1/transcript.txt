@@ -1,0 +1,400 @@
+[Music]
+code quality matters
+and it's readability testability it's
+not only that people should understand
+it they should
+also be able to refactor it
+that is robert zosman a self-described
+former knight shirt with powerpoint
+and now a principal technical architect
+at logic line
+my name is joshua burke i'm a developer
+evangelist at salesforce
+and here on the salesforce developer
+podcast you're going to hear information
+and insight
+for developers from developers now rob
+was introduced to me as the godfather of
+static code analysis for apex
+as he is the founder and organizer of
+the apex module for pmd
+a tool for analyzing code quality for
+developers
+rob and i talked about the importance of
+maintaining code quality the pmd tool
+itself
+and how he got started with the platform
+back when we still called it
+force.com i was going um for a certified
+scrum master and
+coach that time and my boss and i we
+were constantly talking about how to
+make projects
+agile not having big upfront planning
+how could we just
+jump into a sprint and whatever and for
+me the technology
+mostly was a big problem because you
+have to evaluate
+which stuff you want to do and you have
+to set up the whole
+devops thing and and then
+i think it was boring um like a training
+a professional training session
+and i was just googling and then i found
+salesforce and i found force.com
+it was not only about crm anymore i saw
+apex and everything and i said this
+would just be perfect you can fire up
+an org and you could immediately
+basically start working
+and from that moment i was totally
+struck by the platform
+struck by the platform start by the
+platform as a java developer though
+somebody
+who had come from consulting and into
+the world of job development and this is
+the early years of apex
+so i asked rob how he thought the
+differences were between
+job development and apex development at
+the time
+the fact that at salesforce the people
+who work there
+i mean they are the java guys they
+looked at the market
+constantly and they just sometimes
+didn't bring the stuff
+in from the outside world so i actually
+liked that
+and this made me really a developer who
+who was not so much proud of his
+knowledge in all the open source
+frameworks
+but more into how to build applications
+and how to
+make it agile and sometimes talk about
+code agility
+meaning how do you code your version one
+so that you can still
+live with it and love it in version
+eight remember
+robert discovered what we called then
+the force.com platform
+while he was getting his scrum master
+certification code agility is very
+important to him
+agility and coding teams is very
+important to him but agility and speed
+is one thing and quality is another
+thing
+and robert is the first person he's
+going to tell you that if you do not
+keep an eye on your code quality
+well it might just come back to bite you
+a few days ago an mvp on twitter
+tweeted about he he was looking at
+source code and said which marin wrote
+that and then he checked
+it it was just him a year ago and
+i experienced that many times and so
+it's really important if you don't do
+just proof of concept development that
+you throw away
+if you really work on products like i
+did you
+really need to have maintainable code
+that doesn't
+get convoluted over time when you add
+stuff
+so we can talk about code quality but
+what as enterprise developers can we
+actually do about it
+there's definitely different processes
+and tactics and habits that we can do
+but what tools are out there that might
+help us enforce that code quality
+every time we check it in i'm not a tool
+freak
+i i think the best thing you can do for
+quality is like
+teaching people reading books doing pair
+programming with
+senior developers do extensive code
+reviews
+but back at that time code reviews took
+us really long
+we were most of the time just talking
+about basic stuff like how to format
+code and
+i thought it would be cool to have a
+tool that would give us more time for
+the architectural discussions and then i
+thought hey why not
+use one of those tools for apex and i
+immediately remembered that pmd
+is a static code analyzer which is open
+source and which is extendable for other
+languages
+and then as naive as i was i said ah
+apex is like java it should be easy to
+port
+it should be easy i know famous last
+words we are going to get to that in a
+second but
+before we start talking about how rob
+actually got pmd working for apex
+let's level set a little bit when we say
+a static code analyzer
+what kind of tool is pmd and what can it
+do for us
+in pmd you can write rules in most of
+the tools you can write rules
+and such a rule is basically just a
+statement yeah for example
+look for all four loops in this class
+and if you have a for loop look into the
+for loop if there's any dml
+or any circle and then say it's a
+problem say
+mark this as an issue okay so yeah this
+is what
+a steady code analyzer basically does so
+when you
+let it run you can install pmd in in all
+the ides like visual studio code there's
+a great plug-in
+or illuminated cloud from scott wells
+you can basically let it run while you
+type like a linter
+and as soon as you you put an update
+account into your for loop you you get
+as quickly line it's telling you hey
+that's that's not good and it's hard to
+overemphasize the importance of that
+moment
+when you save you're being told that
+something is wrong and rob
+frames this as a really valuable part of
+the development process
+using pmd or a static code analyzer in a
+project
+is really the perfect start to get a
+quality discussion
+in your development team in my career
+often i did it the other way around i
+did something like it google you know
+they had those dev talks that they
+showed on youtube like
+invite someone or watch youtube video
+about
+patterns and give reading
+recommendations but i really
+found out that this doesn't work that
+way you have some developers which
+actually already do it and the others
+they just go on but when you say bam
+now every pull request that you will do
+will be checked by pmd
+and it just gets rejected if there's a
+problem in it
+the people will immediately think about
+it so it's a great tool it's already
+being used for java for code analysis
+and hey
+what would it take to make it work for
+apex it should be easy to port
+spoiler alert it wasn't robert
+originally assumed he could simply take
+the
+java module and convert it down to apex
+since they're very similar languages but
+the distinctions were too great
+but then he had an aha moment about how
+he could get his own starting point for
+apex
+what you need for a tool like pmd to
+understand code and find
+problems you need something like a
+parser because you are looking at
+code at source code and i thought there
+must be a parser for apex
+in my eclipse ide because when i load a
+class
+it knows the methods and it knows the
+properties
+and i thought yeah why not reverse
+engineer it and then i
+i got into contact with all the sftx
+guys back then
+and nick chen and they were really
+helpful and they say
+yeah you you could basically take our
+parser jar
+you would have to reverse engineer but
+we can help you and so i was
+an actively chatting guy in the force
+ide
+github repo and after a few months
+we just had it armed with his parser rob
+is off to the races he gets the apex
+module working for pmd he has
+static code analysis running for the
+salesforce platform
+and the great thing here is that rob has
+done the heavy lifting
+for us and this is well illustrated with
+the fact that
+somebody during rob's dream force talk
+wrote the plug-in
+for their ide to work with pmd i don't
+know
+if i already knew scott before but he
+was in our talk
+and after the talk he came to me and
+said he
+just wants to show me the first draft of
+how he integrates
+pmd into illuminated cloud and it was
+just awesome and then
+then it started and it started the other
+ides came
+welkin suite from i think ukraine and
+then there's an awesome really very neat
+plug-in for visual studio code
+and all those great platforms like gear
+set and
+copado i think they all use pmd as a
+as a certain quality gate so people
+immediately loved it because
+the barrier for entrance is really small
+and yeah
+so to recap a little bit we have an apex
+module for pmd pmd runs
+locally on your client every time you
+save it checks a bunch of rules
+it tries to see if your code is breaking
+any of those rules
+we have the tool but what makes it
+really useful
+is an ecosystem developing those rules
+pmd is not super hard to
+extend because i really want to make a
+statement here for
+i would love to get people listening to
+us
+other developers into the state i can
+write my own rules
+and i can contribute them there are two
+things about rules
+there are rules written in java which is
+quite complicated if you want to bring
+them into pmd you would become a
+committer so
+this means forking a github repo making
+a pull request
+but it's easy i would help you
+personally with that i really want to
+reinforce that the
+short time i've been able to hang out
+with rob and interview him that he is
+absolutely being honest there he's very
+passionate about this project he will
+help contributors get up and running if
+there are rules there are things that
+you want to contribute
+to the pmd apex project but this barrier
+of entry
+of knowing java and being a java
+developer is
+not a barrier it shouldn't be a problem
+because
+of an old friend of ours xml i don't
+know this time
+2000 when everybody was doing xml and
+everything had to be xml every love
+letter needed to be an xml
+and yeah and with xml people
+needed a means to to query notes find
+out if
+there is a child node with that
+attribute and pmd uses that to make it
+super easy for you to write your own
+rules it basically
+think of an apex class it will basically
+convert
+the structure of the class into an xml
+document so instead of having a class
+with curly braces it says
+class and then for a method there's a
+method node and for all the parameters
+there
+parameter node and using that you could
+basically write an xpath expression
+to detect certain nodes writing an xpath
+rule that detects system debugs
+with no logging level set it was just
+like one line
+one xpath you can basically put it into
+this ruleset xml that pmd is using for
+finding problems and then it
+will find that so all the guys listening
+to us or
+that want to give p d a try they can
+just
+use it locally write their own xpath
+rules and if they are good
+they just commit it and everybody can
+use it now if you want to learn more
+rob has released a course on pluralsight
+about working with pmd
+and the great thing is it is free as in
+beer
+and of course you can always go to the
+source at pmd.github.io
+the pmd github i o page really has a
+very good documentation
+all the rules are there you see the
+parameters because you can parametrize
+rules but if something is not there they
+can immediately just create an
+issue in pmd in in the ripple and and
+say this rule is missing
+it should do that and then it's probably
+me who jumps on it
+and i say yeah you're right you could
+easily do it um
+do you need help should we make a skype
+session and i can show it to you
+or i just point the person to it so um
+pmd has many active contributors but i'm
+the guy
+somewhat responsible for for the apex
+world so if you create an
+issue in the github repo from pmd it
+will basically
+land on my desk i really want to thank
+rob for sitting down and talking to me
+but also
+very much for his hard work and his
+dedication for a tool that can help
+all of us be better developers
+now before we go one question i
+had for rob that i didn't really expect
+the answer to was
+quite simply what does pmd stand for
+even the maintainers who are longer in
+the project than me they said there is
+no re
+no really are there theories like
+like when you could be php mess detector
+or um programming metric um
+i think it's just an acronym that has
+stories around it so
+and that's our show thanks for listening
+if you want to learn more about this
+podcast go to developer.salesforce.com
+podcast and please subscribe to us in
+your podcasting tool of choice
+tune in next week i'll talk to you then

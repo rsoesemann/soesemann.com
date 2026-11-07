@@ -1,0 +1,755 @@
+{
+  "reason": "One folder per public work, grouped by verified year; source IDs and user reviews unchanged.",
+  "files": [
+    {
+      "from": "library/article-the-fable-of-the-hare-and-the-hedgehog/text.txt",
+      "to": "library/2026/the-fable-of-the-hare-and-the-hedgehog/text.txt",
+      "sha256": "10bde6004256dde83e4dada0e08fba7c0a6496cfc05ffa571ad6d0bea5d09ed8"
+    },
+    {
+      "from": "library/article-the-fable-of-the-hare-and-the-hedgehog/original.html",
+      "to": "library/2026/the-fable-of-the-hare-and-the-hedgehog/original.html",
+      "sha256": "da0f10eb9bd911ae4c1fa125d2041f16b38bf11d27342e16be528fa512ee534f"
+    },
+    {
+      "from": "library/article-are-ai-agents-a-threat-to-technical-salesforce-roles/text.txt",
+      "to": "library/2024/are-ai-agents-a-threat-to-technical-salesforce-roles/text.txt",
+      "sha256": "90a2a1f09d4db1b816bb61ea81bbb87452db2e862415ad90ef1cf6500aa75a92"
+    },
+    {
+      "from": "library/article-are-ai-agents-a-threat-to-technical-salesforce-roles/original.html",
+      "to": "library/2024/are-ai-agents-a-threat-to-technical-salesforce-roles/original.html",
+      "sha256": "1902556054809899536df12fe987b4437b2bd3f327f95b358b571561f5ae67ea"
+    },
+    {
+      "from": "library/podcast-page-104-salesforce-ai-from-the-trenches-robert-soesemann/text.txt",
+      "to": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/transcript.txt",
+      "sha256": "48c681dbe43ff32f2665cb0983d00022702fe1726f26d40bd26f6a8cca2d8d2c"
+    },
+    {
+      "from": "library/podcast-page-104-salesforce-ai-from-the-trenches-robert-soesemann/original.html",
+      "to": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/original.html",
+      "sha256": "5892b3167d3a8cff484e28e1247b93efd134cd20c39fb7683d41c96b7d316a91"
+    },
+    {
+      "from": "library/article-as-a-salesforce-developer-i-will-7-ground-rules-for-success/text.txt",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/coverage.txt",
+      "sha256": "056e364482af346dfc86f8c9169765c077e158c355f100e6906bf075261d3421"
+    },
+    {
+      "from": "library/article-as-a-salesforce-developer-i-will-7-ground-rules-for-success/original.html",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/coverage.html",
+      "sha256": "c6d56805b9e001bd04524cae8f566e99f7f221e42e6140077c9dce42b2d63752"
+    },
+    {
+      "from": "library/video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics/video.mp4",
+      "to": "library/2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/video.mp4",
+      "sha256": "5fd5d12618114aba2e509b237338b8c018bff890ecf0fe099227e5075913ce85"
+    },
+    {
+      "from": "library/video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics/audio.m4a",
+      "to": "library/2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/audio.m4a",
+      "sha256": "fbf2d5c4e8647bc56ce371a79a642e8b79d39b379fc25feb96c483cf4816ac51"
+    },
+    {
+      "from": "library/video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics/text.txt",
+      "to": "library/2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/transcript.txt",
+      "sha256": "a0a0c0c6294df0faceb4a607acee7f48f8edb3631c7d65d9579de289907e0fb1"
+    },
+    {
+      "from": "library/video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics/description.txt",
+      "to": "library/2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/description.txt",
+      "sha256": "07c5072ccad6ae0cdf3af61c197003cd1885e7520c9cf85bbc8706eb4ca8f660"
+    },
+    {
+      "from": "library/video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics/captions.json3",
+      "to": "library/2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/captions.json3",
+      "sha256": "9331eec6c9f2321ffd638de75c090632c6c978764c8dc2bbeb755af8afeabad1"
+    },
+    {
+      "from": "library/video-improving-your-apex-code-quality-with-pmd-in-the-welkin-suite/text.txt",
+      "to": "library/2017/improving-your-apex-code-quality-with-pmd-in-the-welkin-suite/transcript.txt",
+      "sha256": "0f41687baa132a37f8099fff85af07d670139b967162aa3394e4a7326e9a1954"
+    },
+    {
+      "from": "library/video-improving-your-apex-code-quality-with-pmd-in-the-welkin-suite/captions.json3",
+      "to": "library/2017/improving-your-apex-code-quality-with-pmd-in-the-welkin-suite/captions.json3",
+      "sha256": "44f8b7cb29a2a174590190b178e1f19e16ef2bfeab97bfe49dacf5e8bc6fadcf"
+    },
+    {
+      "from": "library/video-codelive-implementing-a-test-data-builder-with-domain-builder/video.mp4",
+      "to": "library/2024/codelive-implementing-a-test-data-builder-with-domain-builder/video.mp4",
+      "sha256": "d4e9f6dac7370ab71425b5604a80794c567bdf2d8b142417d39ccd57ccc97d94"
+    },
+    {
+      "from": "library/video-codelive-implementing-a-test-data-builder-with-domain-builder/audio.m4a",
+      "to": "library/2024/codelive-implementing-a-test-data-builder-with-domain-builder/audio.m4a",
+      "sha256": "721675a830c7536d5f4f83ec9fabb24c0bb9692aed8a31466201e17ea7828c54"
+    },
+    {
+      "from": "library/video-codelive-implementing-a-test-data-builder-with-domain-builder/text.txt",
+      "to": "library/2024/codelive-implementing-a-test-data-builder-with-domain-builder/transcript.txt",
+      "sha256": "6e8c9b2289448bd5fb94dbae772fe9cd98b5f4f9daaef505ca1aa3c448c1a29e"
+    },
+    {
+      "from": "library/video-codelive-implementing-a-test-data-builder-with-domain-builder/description.txt",
+      "to": "library/2024/codelive-implementing-a-test-data-builder-with-domain-builder/description.txt",
+      "sha256": "c1feccd39c535575dc83590eeeb69c3765ab4d3c8aabb41418fca1381b25eee7"
+    },
+    {
+      "from": "library/video-codelive-implementing-a-test-data-builder-with-domain-builder/captions.json3",
+      "to": "library/2024/codelive-implementing-a-test-data-builder-with-domain-builder/captions.json3",
+      "sha256": "8b814966b4c37151108325858b46b69067aee95ea5145e8ce3b635341baaf04e"
+    },
+    {
+      "from": "library/article-reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs/text.txt",
+      "to": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/coverage.txt",
+      "sha256": "2f516dc96dc00f969460f04c86b5c0eb4be088b85be587bc46b0f0e7544606f7"
+    },
+    {
+      "from": "library/article-reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs/original.html",
+      "to": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/coverage.html",
+      "sha256": "1b9c250680b8b1c809029e09457ce2f94d4b22a5fa8f22b3570e27b8bdaf4466"
+    },
+    {
+      "from": "library/profile-employee-spotlight-robert-sosemann/text.txt",
+      "to": "library/2022/employee-spotlight-robert-sosemann/text.txt",
+      "sha256": "20b7499321427839d384c3a48d31a56ea7cc3b2f17267074ea677ee5d865d08e"
+    },
+    {
+      "from": "library/profile-employee-spotlight-robert-sosemann/original.html",
+      "to": "library/2022/employee-spotlight-robert-sosemann/original.html",
+      "sha256": "83edc0c7d525d09080d0dbf325f524632ae50eec57895ffcd6b2fa075619ff6d"
+    },
+    {
+      "from": "library/translation-scrum-und-xp-im-harten-projektalltag-announcement/text.txt",
+      "to": "library/2009/scrum-und-xp-im-harten-projektalltag/announcement.txt",
+      "sha256": "5c126fe6f79fae1d34f6653b49b2635d6f9c2008300b94df956ac4fd0431f089"
+    },
+    {
+      "from": "library/translation-scrum-und-xp-im-harten-projektalltag-announcement/original.html",
+      "to": "library/2009/scrum-und-xp-im-harten-projektalltag/announcement.html",
+      "sha256": "8473fed3ccf80c4149428d8a4b0030b74015b0df9639ad65c63ee1b96930e819"
+    },
+    {
+      "from": "library/video-sforce-poland-7-ground-rules-extended/video.mp4",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/video.mp4",
+      "sha256": "72509c9564df2e8e991b95d3c0681427cf09ccf427fd7e10c727957911b8bc91"
+    },
+    {
+      "from": "library/video-sforce-poland-7-ground-rules-extended/audio.m4a",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/audio.m4a",
+      "sha256": "3f009605c0baf9659504cacfed68fa0b7f46cd1f8b8f3739a0d61b91265817a6"
+    },
+    {
+      "from": "library/video-sforce-poland-7-ground-rules-extended/text.txt",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/transcript.txt",
+      "sha256": "073ea0e977ec4c80ce3337b4ad77c52e8d0bab06eddc7e7a36ca534286ace8a6"
+    },
+    {
+      "from": "library/video-sforce-poland-7-ground-rules-extended/description.txt",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/description.txt",
+      "sha256": "b74ca46a33e1934a7c22e2974afeba0273ffddb40ae50cc955fe66a4c1388e0b"
+    },
+    {
+      "from": "library/video-sforce-poland-7-ground-rules-extended/captions.json3",
+      "to": "library/2022/sforce-poland-7-ground-rules-extended/captions.json3",
+      "sha256": "cb7e51378cf216fc1a55eb86caa6b3d56a71e51ff4f3f5606fa46484857356aa"
+    },
+    {
+      "from": "library/podcast-page-7-clean-code-and-code-agility-robert-sosemann/text.txt",
+      "to": "library/2018/7-clean-code-and-code-agility-robert-sosemann/transcript.txt",
+      "sha256": "0ef58babca72fabe6d6851bd70889e4c4e232a6de28643b34e1bc036d6799251"
+    },
+    {
+      "from": "library/podcast-page-7-clean-code-and-code-agility-robert-sosemann/original.html",
+      "to": "library/2018/7-clean-code-and-code-agility-robert-sosemann/original.html",
+      "sha256": "8dc21dc4bdcd9cfefb594f383e0a1e3fcb7c43b679b72d7f8eae4bc7f24724bd"
+    },
+    {
+      "from": "library/video-salesforce-developers-static-code-analysis-episode-1/video.mp4",
+      "to": "library/2020/salesforce-developers-static-code-analysis-episode-1/video.mp4",
+      "sha256": "ae659b222142c707b24672593c7fd4c96a316c3a774aca9fbe06ba3d79206cf5"
+    },
+    {
+      "from": "library/video-salesforce-developers-static-code-analysis-episode-1/audio.m4a",
+      "to": "library/2020/salesforce-developers-static-code-analysis-episode-1/audio.m4a",
+      "sha256": "d73281cb275a39c77a9f9a8343c2952a7ed47d42da3db0ed924ff6a3fb45bc2d"
+    },
+    {
+      "from": "library/video-salesforce-developers-static-code-analysis-episode-1/text.txt",
+      "to": "library/2020/salesforce-developers-static-code-analysis-episode-1/transcript.txt",
+      "sha256": "76e47521dc9f99bd16c44c8223fa95dce37c2c08bfa0901c58e9b20e0270d9a1"
+    },
+    {
+      "from": "library/video-salesforce-developers-static-code-analysis-episode-1/description.txt",
+      "to": "library/2020/salesforce-developers-static-code-analysis-episode-1/description.txt",
+      "sha256": "da01f27e35816a94708e7eea8bf0b673a30a7647ac33a279f6e174fd1ed2b3c4"
+    },
+    {
+      "from": "library/video-salesforce-developers-static-code-analysis-episode-1/captions.json3",
+      "to": "library/2020/salesforce-developers-static-code-analysis-episode-1/captions.json3",
+      "sha256": "90f1063d537a02d6ca113eaba8f50adfdc10d923538247ad5553ea7fcec71196"
+    },
+    {
+      "from": "library/video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/text.txt",
+      "to": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/transcript.txt",
+      "sha256": "d221000ac43847b7099db55b613f616ef1acbd8cf4261f5f248f6cb094898f85"
+    },
+    {
+      "from": "library/video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/captions.json3",
+      "to": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/captions.json3",
+      "sha256": "28ac0212e37612d3bd558454d094ccf5b9ebd850f7cdb683ef8b9b98bb2f90cb"
+    },
+    {
+      "from": "library/podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann/text.txt",
+      "to": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/transcript.txt",
+      "sha256": "473eda652397fa464c23e5ebed100e26c175f2136001451505ce943a06794503"
+    },
+    {
+      "from": "library/podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+      "to": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html",
+      "sha256": "343aa6dee87f75db001831d2f0e0f8d5094cdc6dad8f97cbb896a3d9e128dd8c"
+    },
+    {
+      "from": "library/video-mvp-talk-robert-christian-knapp-episode-4/video.mp4",
+      "to": "library/2023/mvp-talk-robert-christian-knapp-episode-4/video.mp4",
+      "sha256": "e025277ba7efcce952072423d501413a50eafb8b049931c045ec868ac65d486d"
+    },
+    {
+      "from": "library/video-mvp-talk-robert-christian-knapp-episode-4/audio.m4a",
+      "to": "library/2023/mvp-talk-robert-christian-knapp-episode-4/audio.m4a",
+      "sha256": "7c938c0c89a0346303cc96b91f7a9fb094a514229f29675876e66684fbda98b0"
+    },
+    {
+      "from": "library/video-mvp-talk-robert-christian-knapp-episode-4/text.txt",
+      "to": "library/2023/mvp-talk-robert-christian-knapp-episode-4/transcript.txt",
+      "sha256": "e4d221b1d73321b4f31364c6888dad65771edbe19cd50312eee0ba7cb804b37f"
+    },
+    {
+      "from": "library/video-mvp-talk-robert-christian-knapp-episode-4/description.txt",
+      "to": "library/2023/mvp-talk-robert-christian-knapp-episode-4/description.txt",
+      "sha256": "ff359a52f02fcec917ba621443c1be96a0ee4b5b569c2720f879c0cce9a53d85"
+    },
+    {
+      "from": "library/video-mvp-talk-robert-christian-knapp-episode-4/captions.json3",
+      "to": "library/2023/mvp-talk-robert-christian-knapp-episode-4/captions.json3",
+      "sha256": "20f857306afddeda9765042b9274493c70b462bf9981fc648081f054c7a01dba"
+    },
+    {
+      "from": "library/video-learnings-from-building-salesforce-ai-apps/text-3d2e9b95a4bf.txt",
+      "to": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video.txt",
+      "sha256": "3d2e9b95a4bfffe285c104495f3eb3d178494f919914e7ebc8cc47c9bbdb770b"
+    },
+    {
+      "from": "library/video-learnings-from-building-salesforce-ai-apps/text.txt",
+      "to": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video-capture-2.txt",
+      "sha256": "91fd4283533e84dc5076934aaabca7873d697125de14bbffc6fc866a33805bdb"
+    },
+    {
+      "from": "library/video-learnings-from-building-salesforce-ai-apps/captions.json3",
+      "to": "library/2024/104-salesforce-ai-from-the-trenches-robert-soesemann/source-video-captions.json3",
+      "sha256": "45dbea1088d6fdd3539874768ef6a44b7b967fdfcc9ad4718127a918784fc6f2"
+    },
+    {
+      "from": "library/conference-session-salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year-london-s-calling-salesforc/text.txt",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.txt",
+      "sha256": "d30124a6977588218eccd5aa549976690b00e210af8d9fb071e0017da05724cc"
+    },
+    {
+      "from": "library/conference-session-salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year-london-s-calling-salesforc/original.html",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/session.html",
+      "sha256": "3a43ff1eb77bff0671cba726aa43aa90beeb42af7b80af533b4a92ab20f86139"
+    },
+    {
+      "from": "library/translation-scrum-und-xp-im-harten-projektalltag/original.pdf",
+      "to": "library/2009/scrum-und-xp-im-harten-projektalltag/original.pdf",
+      "sha256": "26671661b56f9f3d6ff61b25c32b59d5815f02a9fe96227610eea2758509a317"
+    },
+    {
+      "from": "library/translation-scrum-und-xp-im-harten-projektalltag/text.txt",
+      "to": "library/2009/scrum-und-xp-im-harten-projektalltag/text.txt",
+      "sha256": "349073135fc5c4eda0e4b6d53901acde445c42bc85193e9e66a3cd05d7dfa8e5"
+    },
+    {
+      "from": "library/video-how-to-contribute-apex-rules-to-pmd/text.txt",
+      "to": "library/2018/how-to-contribute-apex-rules-to-pmd/transcript.txt",
+      "sha256": "3d9f6225c9c549c8da6b7c01fab481bdb05d3da3f4440164dfc75e5f8164c838"
+    },
+    {
+      "from": "library/video-how-to-contribute-apex-rules-to-pmd/captions.json3",
+      "to": "library/2018/how-to-contribute-apex-rules-to-pmd/captions.json3",
+      "sha256": "c42b86a0f2afe612c08e0c2c38a958d1c4e51e57a3fcfd3ea68f8607a49b1216"
+    },
+    {
+      "from": "library/article-10-best-practices-for-building-with-agentforce-builder/text.txt",
+      "to": "library/2025/10-best-practices-for-building-with-agentforce-builder/text.txt",
+      "sha256": "6680819a13447cfda77ce98b459fe370cb9dc18cdbff5b644d75ef72fd2f1ec5"
+    },
+    {
+      "from": "library/article-10-best-practices-for-building-with-agentforce-builder/original.html",
+      "to": "library/2025/10-best-practices-for-building-with-agentforce-builder/original.html",
+      "sha256": "da44fb4f52471de62ab89d78381df20d2ed0be1d6a38831d3a6501c5ffdf9d38"
+    },
+    {
+      "from": "library/video-what-does-agentforce-mean-for-the-salesforce-ecosystem/audio.webm",
+      "to": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/audio.webm",
+      "sha256": "6320ddd432e4931fa97e7c521a258b01c4ddbdd7a7ebcc67f08ba622f2e09862"
+    },
+    {
+      "from": "library/article-integrating-openai-with-salesforce-appexchange-formula-debugger-case-study/text.txt",
+      "to": "library/2023/integrating-openai-with-salesforce-appexchange-formula-debugger-case-study/text.txt",
+      "sha256": "5377821b3833e9839228c0d10526fe0d43b926a43484a69319796c284ae6f951"
+    },
+    {
+      "from": "library/article-integrating-openai-with-salesforce-appexchange-formula-debugger-case-study/original.html",
+      "to": "library/2023/integrating-openai-with-salesforce-appexchange-formula-debugger-case-study/original.html",
+      "sha256": "cf969b6b5bae46eb7aa15231fd4c9832533cd7c49be618c3f74e870c96049c8e"
+    },
+    {
+      "from": "library/article-devops-dreamin-recap/text.txt",
+      "to": ".archive/references/article-devops-dreamin-recap/text.txt",
+      "sha256": "92d5b8274029e597f36f13117305f7457ac1dabaee02f373322245e4077aaff0"
+    },
+    {
+      "from": "library/article-devops-dreamin-recap/original.html",
+      "to": ".archive/references/article-devops-dreamin-recap/original.html",
+      "sha256": "ff277fbf9f884036ab5cbfb79d0861416db64a468318141eef353bfd117ad046"
+    },
+    {
+      "from": "library/webinar-listing-agentforce-and-ai-adoption-practical-tips/text.txt",
+      "to": "library/2025/agentforce-and-ai-adoption-practical-tips/text.txt",
+      "sha256": "719fec70122353e45a243483d28c7d3f5dd281ad1bbc691a893a4d62a99a62ea"
+    },
+    {
+      "from": "library/webinar-listing-agentforce-and-ai-adoption-practical-tips/original.html",
+      "to": "library/2025/agentforce-and-ai-adoption-practical-tips/original.html",
+      "sha256": "023e1e52cecef7d221bed6235d9c70a1ebd1c99687941d1601d027641953d04a"
+    },
+    {
+      "from": "library/article-what-actually-is-a-salesforce-forward-deployed-engineer/text.txt",
+      "to": "library/2026/what-actually-is-a-salesforce-forward-deployed-engineer/text.txt",
+      "sha256": "2f4c4751efadf1b984dbc9f43330c33c12281c11c7ae92c2810caaa88a4a3be1"
+    },
+    {
+      "from": "library/article-what-actually-is-a-salesforce-forward-deployed-engineer/original.html",
+      "to": "library/2026/what-actually-is-a-salesforce-forward-deployed-engineer/original.html",
+      "sha256": "3c092b6f218f16cfc15271953199bbd69c8537b72e114a53b59a3f743cd4980f"
+    },
+    {
+      "from": "library/article-dreamforce-2026-the-interface-is-leaving-the-screen/text.txt",
+      "to": ".archive/references/article-dreamforce-2026-the-interface-is-leaving-the-screen/text.txt",
+      "sha256": "2ec493a7053477926b976845d570019e48808dc9d9541b5ab07c3006e31f0a7c"
+    },
+    {
+      "from": "library/article-dreamforce-2026-the-interface-is-leaving-the-screen/original.html",
+      "to": ".archive/references/article-dreamforce-2026-the-interface-is-leaving-the-screen/original.html",
+      "sha256": "f06fd876a0e3b8e140d9c9ac164dc73fa639d70abf94aa52988c6dbfaa546546"
+    },
+    {
+      "from": "library/article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/text.txt",
+      "to": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/text.txt",
+      "sha256": "2d42523c32309520d5b595d1e616496280f689a474fded0907b9a951eb93c480"
+    },
+    {
+      "from": "library/article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/original.html",
+      "to": "library/2024/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/original.html",
+      "sha256": "b92a94509bcf9e3c6332ef9d3266cb03f7bbbec40ec2993916fdd711dd7922ed"
+    },
+    {
+      "from": "library/article-appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engin/text.txt",
+      "to": "library/2022/2022-code-analyzer-john-belo-roopa-mohan/coverage.txt",
+      "sha256": "4c67be2948a2e931fd1a22cf4f69effdfd8e2b6486cdddcd8c5c2fca90abfc6c"
+    },
+    {
+      "from": "library/article-appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engin/original.html",
+      "to": "library/2022/2022-code-analyzer-john-belo-roopa-mohan/coverage.html",
+      "sha256": "25ec70a7af27fbaee1b2c6f36215c347c2c31b1be20a85ad0c410f337aa68b94"
+    },
+    {
+      "from": "library/conference-session-custom-pmd-rules-for-any-metadata-within-minutes-london-s-calling-salesforce/text.txt",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.txt",
+      "sha256": "296fe8e6bfc8ef8b18020bcbc6847ade75efbc780efe8bebd3e07e645073e0d0"
+    },
+    {
+      "from": "library/conference-session-custom-pmd-rules-for-any-metadata-within-minutes-london-s-calling-salesforce/original.html",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/session.html",
+      "sha256": "1a18c78b52635a5889134653ab0e701be99f343b8abf4bc73de1dcc5e1fab9be"
+    },
+    {
+      "from": "library/speaker-profile-robert-sosemann-london-s-calling-salesforce/original-b3d83a962f39.html",
+      "to": ".archive/references/speaker-profile-robert-sosemann-london-s-calling-salesforce/original.html",
+      "sha256": "b3d83a962f3996052017cec6cea860447cbb7bcf7a2eb755aa65f0ab5eaeb993"
+    },
+    {
+      "from": "library/speaker-profile-robert-sosemann-london-s-calling-salesforce/text.txt",
+      "to": ".archive/references/speaker-profile-robert-sosemann-london-s-calling-salesforce/text.txt",
+      "sha256": "aaba34c8606025d3c1ccf7221fef7dc8d587340dfb8ef8c761649adc3da3a45c"
+    },
+    {
+      "from": "library/speaker-profile-robert-sosemann-london-s-calling-salesforce/original.html",
+      "to": ".archive/references/speaker-profile-robert-sosemann-london-s-calling-salesforce/original-capture-2.html",
+      "sha256": "9381d4d609c5376e00b6145d925630ed8742e53130e59253e4f9ab02cac32737"
+    },
+    {
+      "from": "library/webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption/text.txt",
+      "to": "library/2025/agentforce-and-ai-adoption-practical-tips/source-webinar-listing.txt",
+      "sha256": "ed9ee8b5e7213fcedc30b318e5e5f59a52e3836d5c9600c5151d6bf3402906b8"
+    },
+    {
+      "from": "library/webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption/original.html",
+      "to": "library/2025/agentforce-and-ai-adoption-practical-tips/source-webinar-listing.html",
+      "sha256": "42a44fe950cc9d586a5b81496006684cc97e2040e191393de15ca83d800b6dc9"
+    },
+    {
+      "from": "library/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/text.txt",
+      "to": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/text.txt",
+      "sha256": "2fa6c3ed5f10efe2491a1f996c261351182311e4b2c88415cf29acd05640dde3"
+    },
+    {
+      "from": "library/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+      "to": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+      "sha256": "ea46320aecb8d197908fe62a922f96ed8d6e4e320e6eb59c319ee309116ebbb9"
+    },
+    {
+      "from": "library/course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/text.txt",
+      "to": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/text.txt",
+      "sha256": "7f0428200a4bda23186f220bd16b80e8f8cf67eab4667d6ad47f5b203ffd35b0"
+    },
+    {
+      "from": "library/course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/original.html",
+      "to": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/original.html",
+      "sha256": "216b359b8fe62cdfc82f869c8006046476c870e60197f55bcd315df6997906e5"
+    },
+    {
+      "from": "library/course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/text.txt",
+      "to": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/text.txt",
+      "sha256": "04b65c234ec3ccc1c63cacc42a7c3b19b1c45c273d1561ca5fcae5aa6063b41f"
+    },
+    {
+      "from": "library/course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/original.html",
+      "to": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/original.html",
+      "sha256": "6fdb2b25877dcc039bffec5e321878b9cc214a7bb190dc26c89e691ac7b28336"
+    },
+    {
+      "from": "library/article-dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i/text.txt",
+      "to": "library/2026/dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i/text.txt",
+      "sha256": "f65dec5b43ec5a5d3002abec4b78eba6a6dee04c3b6a453386d9484db1a78a04"
+    },
+    {
+      "from": "library/article-dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i/original.html",
+      "to": "library/2026/dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i/original.html",
+      "sha256": "d5b8568fa47577042ee595c82b17b33adbd9b5d0735adb7d03e2e2caf8754868"
+    },
+    {
+      "from": "library/talk-page-apex-pmd-static-code-analyzer/text.txt",
+      "to": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.txt",
+      "sha256": "bb067d0da09a53f1536e9ed8a0d69a171521ad8bf102364fab3b39195202e12e"
+    },
+    {
+      "from": "library/talk-page-apex-pmd-static-code-analyzer/original.html",
+      "to": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+      "sha256": "a16bb9f80942ef9920fedfa841123537421cce1764c71bdd3c89883d916b3a7f"
+    },
+    {
+      "from": "library/podcast-page-111-the-ai-skills-salesforce-developers-need-salesforceway/text.txt",
+      "to": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.txt",
+      "sha256": "a149a5b1e5098f979211358bc083c6741a4a82742fe90dc229bcf32a1485180f"
+    },
+    {
+      "from": "library/podcast-page-111-the-ai-skills-salesforce-developers-need-salesforceway/original.html",
+      "to": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/episode.html",
+      "sha256": "522a06d6dae86ca405c0d8878ea5216878ecc3401f7d9ebd417498dae9fe820b"
+    },
+    {
+      "from": "library/article-is-agentforce-the-new-low-code/text.txt",
+      "to": "library/2024/is-agentforce-the-new-low-code/text.txt",
+      "sha256": "ed9264c0b7bc2fa40390f4f63bdaedf0b709b796365739e1f97ecf00d5aeede7"
+    },
+    {
+      "from": "library/article-is-agentforce-the-new-low-code/original.html",
+      "to": "library/2024/is-agentforce-the-new-low-code/original.html",
+      "sha256": "6cd75b4f6e7455e82b49f5dda8da7679ee7789a02c76a5e4c942429ea4d9e08c"
+    },
+    {
+      "from": "library/video-apex-pmd-static-code-analysis-apex-hours/text.txt",
+      "to": "library/2019/apex-pmd-static-code-analysis-apex-hours/transcript.txt",
+      "sha256": "2e75fc4f8c576cc18176f8b28e0ccd0c5acb62dcbbd769debd1ab408b087197a"
+    },
+    {
+      "from": "library/video-apex-pmd-static-code-analysis-apex-hours/captions.json3",
+      "to": "library/2019/apex-pmd-static-code-analysis-apex-hours/captions.json3",
+      "sha256": "635ac8e6eabbbe10df27be2f6207c759149a4645a2dc16c26ea6f31bb5ccef0c"
+    },
+    {
+      "from": "library/article-aquiva-on-the-road-25-from-agentforce-to-trust-whats-emerging-across-the-ecosystem/text.txt",
+      "to": ".archive/references/article-aquiva-on-the-road-25-from-agentforce-to-trust-whats-emerging-across-the-ecosystem/text.txt",
+      "sha256": "0ddb439868aeaef0ee2bea609a176f9f79357776cc407ada0dcd3286799150e8"
+    },
+    {
+      "from": "library/article-aquiva-on-the-road-25-from-agentforce-to-trust-whats-emerging-across-the-ecosystem/original.html",
+      "to": ".archive/references/article-aquiva-on-the-road-25-from-agentforce-to-trust-whats-emerging-across-the-ecosystem/original.html",
+      "sha256": "a4644fa50b23f292c1323d744bf4c6571e9cb7bdf0606c56ab832bd9c95c5519"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/audio.webm",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/audio.webm",
+      "sha256": "4b74f146ea85d789ef229f90c28ad6079f091b93fbde2de56f4a57e6168e8c96"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/text-b92342ed7368.txt",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/transcript.txt",
+      "sha256": "b92342ed736807f8d8d5e74083828bd94c3d9e48dc5ad5d4ef38a0cf1e7594cf"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/video.mp4",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/video.mp4",
+      "sha256": "4bdbbd1488841fa7b58e6f5e0f56707bfc1a8a1a3389109bb710772d352ed0f5"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/audio.m4a",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/audio.m4a",
+      "sha256": "e5631a8e600f97ed45c8b29ff7e331b6d944d9e4d57a221fcefcb82457f38836"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/text.txt",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/transcript-capture-2.txt",
+      "sha256": "4499399973044c492d2e919727b5b7e2f95eab5461fb0cf561045bd16eed9632"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/description.txt",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/description.txt",
+      "sha256": "0e6f5b7a1363dc3e95d55c01e792757c64273a5758913974cce838e926f57d96"
+    },
+    {
+      "from": "library/video-custom-pmd-rules-for-any-metadata-within-minutes/captions.json3",
+      "to": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/captions.json3",
+      "sha256": "79dd59e009f57c800ac0a1ff76b4761f694b6276d5b20f7c77756a8e9cce2d4b"
+    },
+    {
+      "from": "library/video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/video.mp4",
+      "to": "library/2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/video.mp4",
+      "sha256": "29252c586914715d2930876ed5c450e7a919c0bd20cec917c292140faae9374c"
+    },
+    {
+      "from": "library/video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/audio.m4a",
+      "to": "library/2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/audio.m4a",
+      "sha256": "2a2e36d35612887dab282e4563b587fc3060084ce82dd36d58bbfdfc55477a81"
+    },
+    {
+      "from": "library/video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/text.txt",
+      "to": "library/2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/transcript.txt",
+      "sha256": "ecfad56f1e030e2f69f8577e3b8254bf33c723e33a6fc80e17c75dad69c2fab8"
+    },
+    {
+      "from": "library/video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/description.txt",
+      "to": "library/2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/description.txt",
+      "sha256": "ae41f99fecd8054cd5f95275e285070c3218fe144e07a8690c5795fa55a84898"
+    },
+    {
+      "from": "library/video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/captions.json3",
+      "to": "library/2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/captions.json3",
+      "sha256": "d7ed7e63720c6ad2e4a12299cacd1f9573d7a226a22c87dbc2f20cc9faba40d4"
+    },
+    {
+      "from": "library/course-catalog-robert-sosemann/text.txt",
+      "to": ".archive/references/course-catalog-robert-sosemann/text.txt",
+      "sha256": "b7bba2b2da821c89fcc2620df2ef50e3ce7b0d296db5fbbdc0885debe00a9c7b"
+    },
+    {
+      "from": "library/course-catalog-robert-sosemann/original.html",
+      "to": ".archive/references/course-catalog-robert-sosemann/original.html",
+      "sha256": "770af875ee4621e86b48105db2b3316ff2c4241018f4db5771f53c56889ecd04"
+    },
+    {
+      "from": "library/conference-program-czechdreamin2022brochure-pdf/original.pdf",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.pdf",
+      "sha256": "46ed48ceacd7e37f540d1330d8f2c154640c1f943e77683a057f0b707b6e317a"
+    },
+    {
+      "from": "library/conference-program-czechdreamin2022brochure-pdf/text.txt",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/programme.txt",
+      "sha256": "045a4a2191aa9a451034142d4dfc1058cdcde5316c2a23b37abfc4855a859bab"
+    },
+    {
+      "from": "library/video-the-ai-skills-salesforce-developers-need-robert-sosemann/text.txt",
+      "to": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/transcript.txt",
+      "sha256": "e207dc90b5903ae0cf7081413261faa18bf436fae910bbac9c1f7fea54ab8149"
+    },
+    {
+      "from": "library/video-the-ai-skills-salesforce-developers-need-robert-sosemann/text-d76071dc5002.txt",
+      "to": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/transcript-capture-2.txt",
+      "sha256": "d76071dc5002b5da0e2cf9cc8ad9efa936515f100f3f9b2b8099865f9439e163"
+    },
+    {
+      "from": "library/video-the-ai-skills-salesforce-developers-need-robert-sosemann/captions.json3",
+      "to": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/captions.json3",
+      "sha256": "79148bf9a8535cef0c53d12f0be4c76f1c33bec23768b96b174c7381e0d2d395"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-09.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-09.jpg",
+      "sha256": "6b01727211ab8544a43bedfb6df4ee3322fd60c6f3b14d4b0c3dd48d3a11065d"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-08.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-08.jpg",
+      "sha256": "6498dfbf4537f88c20c2cdd17a6181cadb0bc193bf63a39628d1f3b998b89c9f"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-03.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-03.jpg",
+      "sha256": "fa01f90d2a5e6d80ccb0cfec4f23923b32be190825c6178e92ad2638728ea285"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-02.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-02.jpg",
+      "sha256": "6c1470b0375ecc65694f6caf6d9994bd9b7ca38fc019d6eb0389a062667d9650"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-01.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-01.jpg",
+      "sha256": "39b99d7d2cd9cdfc181aab37c8422a7d2a0f7e3ab8ddfad76fae555f81fb0d95"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-11.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-11.jpg",
+      "sha256": "016cedcafa511d949e9c9d1755aceec3fe0c063a71be46794c25191343242910"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-05.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-05.jpg",
+      "sha256": "651ba283053407fe9a955421174d760d6d3ca83392106673bf0fceeffb62cf95"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-04.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-04.jpg",
+      "sha256": "e5109892b3f6a2cc917b39462826676a7bb379b8f2bc2accac26b8b12525c9a2"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-10.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-10.jpg",
+      "sha256": "bdb384f625c67f2331d1e27fcbee5be2c9bd8ad1f621d664e1e6b87e30546334"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-06.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-06.jpg",
+      "sha256": "eaa137aef7158f2798ec4712b45d60c0ea63dbfd17796e344144849869e1f02c"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-12.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-12.jpg",
+      "sha256": "4f6621f47a1e7faf7b8d0f345fb53fd1851fecfaec1ceee2ea91833dc5e20d14"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-07.jpg",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/slide-07.jpg",
+      "sha256": "a091d252e91b1b9456e3762352faa0435e46a0cec5a0e24aa20c8c7176ecad5e"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/text.txt",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/text.txt",
+      "sha256": "b663a48d903fd41ee8d0f55cb2225081fb1eb127a5d91954266212af568e9223"
+    },
+    {
+      "from": "library/slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/original.html",
+      "to": "library/2022/czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success/original.html",
+      "sha256": "c6ad5df0a74fab59cfdc91643423a5c201ca615a0519b66c99c0ed75cb6a0e2b"
+    },
+    {
+      "from": "library/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/video.mp4",
+      "to": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/video.mp4",
+      "sha256": "ad10e87532a431e891d21613f8a8ef6281de01089569ef2b3be157cfb7eb6ba2"
+    },
+    {
+      "from": "library/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/audio.m4a",
+      "to": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/audio.m4a",
+      "sha256": "51ea2e019f53a4c6b953abf09d8dedbe3222b6551dc01dcba1b368de0c83dd35"
+    },
+    {
+      "from": "library/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/text.txt",
+      "to": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/transcript.txt",
+      "sha256": "60cca9c9785ce8b86ba089c0a73c257c707f970a6428fc6f056d1e4148559c51"
+    },
+    {
+      "from": "library/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/description.txt",
+      "to": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/description.txt",
+      "sha256": "bcce8578b71dff39d89977136df6b274c85fbd3a6412ee9d33c08918273c959a"
+    },
+    {
+      "from": "library/video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/captions.json3",
+      "to": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/captions.json3",
+      "sha256": "390973a3c25b0617abb458fd9373048f4736f89bc64eea41824b810f97a3896a"
+    },
+    {
+      "from": "library/profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/text.txt",
+      "to": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/text.txt",
+      "sha256": "fda535e288b072d4ee8de7209f790be4a5a9fcb15fa75b48adc22a20f64660b9"
+    },
+    {
+      "from": "library/profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/original.html",
+      "to": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/original.html",
+      "sha256": "c1001a863215d8a3071ffd4689e3f5d2a9c944ae85ef36627b9bb1b3240c91e7"
+    },
+    {
+      "from": "library/transcript-the-evolution-of-salesforce-devops-with-robert-sosemann/text.txt",
+      "to": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/transcript.txt",
+      "sha256": "b997e33a005096749a2aa35d2fb85b6bbd3666f09b38e31d10a267a85b284267"
+    },
+    {
+      "from": "library/transcript-the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+      "to": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+      "sha256": "f7d61f8c5d2ba6db0288b41530662f35e2a17b079c3365394579e9d76e7971af"
+    },
+    {
+      "from": "library/video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/video.mp4",
+      "to": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/video.mp4",
+      "sha256": "b8184b6bfbcd751770f88a50a022d3d23701b7a0cdaa0dc96e97780ff90a7190"
+    },
+    {
+      "from": "library/video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/audio.m4a",
+      "to": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/audio.m4a",
+      "sha256": "056fd3218cd88db44b7eac2e796fd82aa8273636c77db837e7ea9d0dd7113e4c"
+    },
+    {
+      "from": "library/video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/text.txt",
+      "to": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/transcript.txt",
+      "sha256": "2368b67d32425fca0a94dcd79a3a9ba6c485b30fbd5cdd9b185fa79adee4bba6"
+    },
+    {
+      "from": "library/video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/description.txt",
+      "to": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/description.txt",
+      "sha256": "f85ca418e325e81051283d2ed57cb82d06e302a35926dd8cda60022afe25f0f2"
+    },
+    {
+      "from": "library/video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/captions.json3",
+      "to": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/captions.json3",
+      "sha256": "f0e170f3dceb1202acd7144799f7f334eb6d054377caeecced9c482f72b0722b"
+    },
+    {
+      "from": "library/video-londons-calling-2024-salesforce-ai-from-the-trenches/video.mp4",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/video.mp4",
+      "sha256": "ed5cde934b2823b7044d6952971c13ce41f0f094b11ad8115083c2a3b05df498"
+    },
+    {
+      "from": "library/video-londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3"
+    },
+    {
+      "from": "library/video-londons-calling-2024-salesforce-ai-from-the-trenches/text.txt",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/transcript.txt",
+      "sha256": "2012af089340be1bcc542bcf256754b62e54a727047b6b6574c9aa9186ac4d7e"
+    },
+    {
+      "from": "library/video-londons-calling-2024-salesforce-ai-from-the-trenches/description.txt",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/description.txt",
+      "sha256": "e13c336027bc51d581abf5d4c58c60e5959c25746e118fbf8e696b1061fa77ab"
+    },
+    {
+      "from": "library/video-londons-calling-2024-salesforce-ai-from-the-trenches/captions.json3",
+      "to": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/captions.json3",
+      "sha256": "f61a2b425a9a99b893f96e55e363d0b7e781bcdb3f4723ba17a1415b1405d910"
+    }
+  ]
+}

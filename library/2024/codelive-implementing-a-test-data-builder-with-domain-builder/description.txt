@@ -1,0 +1,6 @@
+Join Robert Sösemann and Alba Rivas to learn about Apex Domain Builder, an open source library Robert wrote to allow testing at scale applying the Test Data Builder pattern to Apex.
+
+Resources:
+- https://github.com/rsoesemann/apex-domainbuilder
+- https://github.com/aquivalabs/document-mess-detector
+- https://github.com/apex-enterprise-patterns

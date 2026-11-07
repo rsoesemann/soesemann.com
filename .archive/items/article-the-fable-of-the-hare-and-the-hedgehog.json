@@ -1,0 +1,628 @@
+{
+  "id": "article-the-fable-of-the-hare-and-the-hedgehog",
+  "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+  "source": {
+    "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "role": "authored",
+    "kind": "article",
+    "discovered_from": "https://aquiva.com/blog/tag/agentic-engineering",
+    "slug": "article-the-fable-of-the-hare-and-the-hedgehog",
+    "title": "The Fable of the Hare and the Hedgehog"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:27.835893+00:00",
+    "final_url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2026/the-fable-of-the-hare-and-the-hedgehog/original.html",
+    "title": "The Fable of the Hare and the Hedgehog",
+    "author": "Robert Sösemann",
+    "date": "2026-07-31",
+    "language": null,
+    "links": [
+      {
+        "url": "https://aquiva.com/",
+        "label": "",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/about",
+        "label": "About",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/how-we-work",
+        "label": "How We Work",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/advisory",
+        "label": "Advisory Services",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/product-development",
+        "label": "Product Development",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/custom-solution-development",
+        "label": "Custom Solution Development",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/agentforce",
+        "label": "Agentforce",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/forward-deployed-engineering",
+        "label": "Forward Deployed Engineering",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/data-integrations",
+        "label": "Data & Integrations",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/revenue-operations",
+        "label": "Revenue Operations",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/application-security",
+        "label": "Security, Risk and Compliance",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce-managed-services",
+        "label": "Salesforce Managed Services",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce",
+        "label": "Salesforce",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries",
+        "label": "IndustriesHealthcare, high tech, financial services & more",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/hospitality",
+        "label": "HospitalityLoyalty, personalization, and revenue on Salesforce",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/high-tech",
+        "label": "High TechThe operational backbone for growth-stage software companies",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources",
+        "label": "Resources",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog",
+        "label": "← All posts",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/case-studies",
+        "label": "Case Studies",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/solution-briefs",
+        "label": "Solution Briefs",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-salesforce",
+        "label": "Headless SalesforcePOV · source assessment",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-cpq",
+        "label": "Headless CPQPOV · quote from any surface",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/unified-guest-intelligence",
+        "label": "Unified Guest IntelligenceWhite paper · Sprinklr + Hapi",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentic-loyalty-concierge",
+        "label": "Agentic Loyalty ConciergeHotel loyalty concierge overview",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/api-monitoring",
+        "label": "API Monitoring & the 2025 BreachesWhite paper · Salesforce data-loss incidents",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentforce-roi-calculator",
+        "label": "Agentforce ROI CalculatorInteractive tool · 3-year revenue impact",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/rca-readiness-checklist",
+        "label": "RCA Readiness ChecklistInteractive tool · Revenue Cloud Advanced",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://careers.aquiva.com/",
+        "label": "Careers",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/contact-us",
+        "label": "talk to us",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/category/ai-strategy",
+        "label": "AI Strategy",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/ai-pod",
+        "label": "The AI POD",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/putting-learning-in-the-loop",
+        "label": "July 21, 2026Putting Learning in the Loop",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/aquivalabs/my-org-butler",
+        "label": "My Org Butler, our Open Source Agentforce blueprint",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+        "label": "Andrej Karpathy's idea of an LLM Wiki",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.anthropic.com/news/redeploying-fable-5",
+        "label": "was suspended for a few weeks",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+        "label": "Anthropic's engineering blog",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://opencode.ai/",
+        "label": "OpenCode",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/langchain-ai/deepagents",
+        "label": "LangChain's Deep Agents",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/tag/agentic-engineering",
+        "label": "Agentic Engineering",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/salesforce-forward-deployed-engineer",
+        "label": "August 25, 2026What Actually Is a Salesforce Forward Deployed Engineer?",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/ai-agents-salesforce-qa-testing",
+        "label": "July 14, 2026How AI Agents Speed Up Manual QA Testing on Salesforce Projects",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/aquivainc/",
+        "label": "LinkedIn",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/aquiva_labs/",
+        "label": "Instagram",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000EO7BhUAL",
+        "label": "AgentExchange",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/privacy-policy",
+        "label": "Privacy Policy",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/cookie-policy",
+        "label": "Cookie Notice",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "10bde6004256dde83e4dada0e08fba7c0a6496cfc05ffa571ad6d0bea5d09ed8",
+    "text_path": "library/2026/the-fable-of-the-hare-and-the-hedgehog/text.txt",
+    "words": 2762
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:27.835893+00:00",
+    "final_url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": "library/2026/the-fable-of-the-hare-and-the-hedgehog/original.html",
+    "title": "The Fable of the Hare and the Hedgehog",
+    "author": "Robert Sösemann",
+    "date": "2026-07-31",
+    "language": null,
+    "links": [
+      {
+        "url": "https://aquiva.com/",
+        "label": "",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/about",
+        "label": "About",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/how-we-work",
+        "label": "How We Work",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/advisory",
+        "label": "Advisory Services",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/product-development",
+        "label": "Product Development",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/custom-solution-development",
+        "label": "Custom Solution Development",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/agentforce",
+        "label": "Agentforce",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/forward-deployed-engineering",
+        "label": "Forward Deployed Engineering",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/data-integrations",
+        "label": "Data & Integrations",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/revenue-operations",
+        "label": "Revenue Operations",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/application-security",
+        "label": "Security, Risk and Compliance",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce-managed-services",
+        "label": "Salesforce Managed Services",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce",
+        "label": "Salesforce",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries",
+        "label": "IndustriesHealthcare, high tech, financial services & more",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/hospitality",
+        "label": "HospitalityLoyalty, personalization, and revenue on Salesforce",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/high-tech",
+        "label": "High TechThe operational backbone for growth-stage software companies",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources",
+        "label": "Resources",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog",
+        "label": "← All posts",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/case-studies",
+        "label": "Case Studies",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/solution-briefs",
+        "label": "Solution Briefs",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-salesforce",
+        "label": "Headless SalesforcePOV · source assessment",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-cpq",
+        "label": "Headless CPQPOV · quote from any surface",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/unified-guest-intelligence",
+        "label": "Unified Guest IntelligenceWhite paper · Sprinklr + Hapi",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentic-loyalty-concierge",
+        "label": "Agentic Loyalty ConciergeHotel loyalty concierge overview",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/api-monitoring",
+        "label": "API Monitoring & the 2025 BreachesWhite paper · Salesforce data-loss incidents",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentforce-roi-calculator",
+        "label": "Agentforce ROI CalculatorInteractive tool · 3-year revenue impact",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/rca-readiness-checklist",
+        "label": "RCA Readiness ChecklistInteractive tool · Revenue Cloud Advanced",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://careers.aquiva.com/",
+        "label": "Careers",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/contact-us",
+        "label": "talk to us",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/category/ai-strategy",
+        "label": "AI Strategy",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/ai-pod",
+        "label": "The AI POD",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/putting-learning-in-the-loop",
+        "label": "July 21, 2026Putting Learning in the Loop",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/aquivalabs/my-org-butler",
+        "label": "My Org Butler, our Open Source Agentforce blueprint",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+        "label": "Andrej Karpathy's idea of an LLM Wiki",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.anthropic.com/news/redeploying-fable-5",
+        "label": "was suspended for a few weeks",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+        "label": "Anthropic's engineering blog",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://opencode.ai/",
+        "label": "OpenCode",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://github.com/langchain-ai/deepagents",
+        "label": "LangChain's Deep Agents",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/tag/agentic-engineering",
+        "label": "Agentic Engineering",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/salesforce-forward-deployed-engineer",
+        "label": "August 25, 2026What Actually Is a Salesforce Forward Deployed Engineer?",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/ai-agents-salesforce-qa-testing",
+        "label": "July 14, 2026How AI Agents Speed Up Manual QA Testing on Salesforce Projects",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/aquivainc/",
+        "label": "LinkedIn",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/aquiva_labs/",
+        "label": "Instagram",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000EO7BhUAL",
+        "label": "AgentExchange",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/privacy-policy",
+        "label": "Privacy Policy",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/cookie-policy",
+        "label": "Cookie Notice",
+        "discovered_from": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "10bde6004256dde83e4dada0e08fba7c0a6496cfc05ffa571ad6d0bea5d09ed8",
+    "text_path": "library/2026/the-fable-of-the-hare-and-the-hedgehog/text.txt",
+    "words": 2762
+  },
+  "context": {
+    "format": "Article",
+    "where": "Aquiva Labs",
+    "when": "2026-07-31",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "https://aquiva.com/blog/tag/agentic-engineering",
+    "topics": [
+      "AI"
+    ],
+    "platform": "Aquiva",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "Robert recounts Aquiva’s attempts to turn GitHub tickets into implemented pull requests with AI agents. The account covers human approval of plans, automated implementation and review, changing models and execution tools, and the discovery that shared notes had undermined comparisons between runs.",
+    "summary_basis": {
+      "source_id": "article-the-fable-of-the-hare-and-the-hedgehog",
+      "kind": "archive_summary"
+    }
+  },
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": ".archive/brands/aquiva.com.png"
+  },
+  "library_dir": "library/2026/the-fable-of-the-hare-and-the-hedgehog",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

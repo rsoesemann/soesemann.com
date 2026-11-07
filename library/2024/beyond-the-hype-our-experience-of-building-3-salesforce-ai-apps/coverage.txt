@@ -1,0 +1,12 @@
+Aquiva blog/AI Strategy
+Reflecting on a Year of AI Integration in Salesforce: Insights from Aquiva Labs
+This month we commemorate the first anniversary of ChatGPT4, a pivotal moment that has significantly influenced the tech landscape. To mark this occasion, Robert Sösemann, Principal Architect and AI Task Force member at Aquiva Labs, has shared a reflective piece on Salesforce Ben, detailing the team’s journey and learnings from integrating AI within Salesforce over...
+This month we commemorate the first anniversary of ChatGPT4, a pivotal moment that has significantly influenced the tech landscape. To mark this occasion, Robert Sösemann, Principal Architect and AI Task Force member at Aquiva Labs, has shared a reflective piece on Salesforce Ben, detailing the team’s journey and learnings from integrating AI within Salesforce over the past year.
+Read the full article on Salesforce Ben
+MyOrgButler is an innovative tool designed to automate routine Salesforce tasks, integrating AI to provide a more intuitive natural language user experience. This application is a step toward making Salesforce interactions more efficient and user-friendly.
+Discover MyOrgButler on GitHub
+DMD stands out as a practical solution for document analysis, leveraging AI to offer deeper insights and improve document management processes within Salesforce. It represents our commitment to enhancing productivity and data comprehension.
+Ask Your Document transforms how users interact with extensive text files, employing AI to facilitate a more engaging and insightful document exploration experience. This tool underscores our dedication to pushing the envelope in AI application.
+Find out more about AskYourDocument on AppExchange
+As we reflect on the past year, our journey with AI in Salesforce has been both enlightening and challenging. We’ve navigated new territories, faced unexpected hurdles, and celebrated moments of breakthrough, always with a focus on learning and improvement.
+We invite you to delve into the nuances of our AI journey by reading Robert Sösemann’s comprehensive account on Salesforce Ben, offering a glimpse into the practical realities of AI in the Salesforce ecosystem.

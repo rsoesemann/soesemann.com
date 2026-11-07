@@ -1,0 +1,970 @@
+okay good morning and good evening
+everyone welcome in self ascetics our
+and today we are going to talk about
+epics PMD and today's speaker is robot
+so let me hand over to robot for his
+introduction hi everybody thanks for
+joining
+I'm Robert zuman from my last name you
+hear I'm from Germany
+for me it's four o'clock in the
+afternoon sunny day in Germany yes we
+will talk about my open-source baby PMD
+and why it exists and what it should be
+for you
+I will mostly demo stuff Shaw IDE so
+command lines after a short round of
+introduction and I will I have some
+slides and that I want to show you too
+to start the topic but I just want to
+begin to tell you a bit who I am and I
+don't want to make slides because you
+don't find me on PowerPoint you find me
+online that's why you see my Twitter
+account so I'm our salesmen at on
+Twitter I tweet a lot about sales force
+and quality and coding I also work I'm
+working for Salesforce partner and
+caught logic line and you can connect
+with me also on LinkedIn same same
+handle what am i doing is as work my
+company logic line it um it's an is a
+PDA partner product development
+outsource so we help companies to
+implement their product IDs in the epics
+change so we basically do is we stuff on
+behalf of customers where do I have my
+experience from I am I'm in the
+Salesforce space since more than eight
+years and the most of the time I was
+working for an American start-up which
+has many native products on the app
+exchange and in Salesforce
+so this is where I get all my experience
+from um you find me on Stack Exchange
+most of the hearts problems
+I actually don't solve myself I let
+other people do so you will see me
+around there you also find me on on
+github I have a few small open-source
+projects online but I want to talk about
+the biggest of those projects which is
+PMD PMD everybody asked me what what it
+actually means what the acronym stands
+for I don't know um because I didn't
+invent it PMD was is an open-source
+framework written in Java more than
+fifteen years ago a smart guy wanted a
+tool that checks Java code for potential
+problems and he wrote PMD so the I only
+took it into the Salesforce space
+because I was in my previous job I was
+yeah
+fighting some code quality issues and I
+just want to switch to a presentation
+and it's just a few slides so I'm not
+hope I'm not going to bore you it slides
+I took from my recent Pluralsight course
+I did a pure aside course with Tom
+Robbins and the retro 40 me and a guy
+who also has a great tool on called
+quality analysis which is called Clayton
+and and I want to start two slides in
+the opposite direction I want to start
+with the the last slide with two
+takeaways I want you to take from this
+this yeah this webinar and I don't I I
+actually don't care about tools so even
+if we if this is a tools talk I think
+you stay a fool if you just use the
+tools so what I want to convince you and
+that code quality matters and you all
+should care about that
+it's not important as a developer that
+you make it work it matters that you
+make it good it I don't care or you
+shouldn't care about being perfect but
+code quality is is it's important and
+but as we are a computer science guy we
+we have to think about how to automate
+stuff and how to not solely rely on
+humans who think in quality matters so
+you have to know your tools and
+understand their limitations and while
+I'm only going to talk about T and D
+today and I will also tell you the full
+truth about what PMD is not able to do
+so I'm not I'm not selling PMD I don't
+make any money with it so I don't have
+to pimp it yeah I will also tell you how
+to integrate PMD into your software
+development lifecycle so I will show a
+little bit on integrating it with github
+or bitbucket whatever and yeah and you
+should also take away and that you
+should not be overwhelmed by anything
+that I say or show start small it array
+it get better it even the very smallest
+thing you do towards better code
+qualities is good so no matter how small
+it is okay so let's go to the first
+slide um it's about code quality and a
+few years ago I made it I had a dream
+first talk about PMD and code quality
+and I said we all are super interested
+and hyped by getting things done we love
+to Salesforce platform to to really
+because it's fast we we make the
+customer happy but it's not only that
+it's code quality starts when you make
+your fellow developer happy or you make
+yourself happy in two years so so you
+should not just hack the code and make
+it work you should care about code
+quality because that saves your life in
+a year code must be maintainable
+it must be extendable because that's
+what
+we all want we want agility we wanna get
+from version one to version two in in
+short time and we all know that this is
+not the reality of software developers
+because we have some challenges in code
+quality which we just depicted here on
+this chart we have yes we have a lack of
+expertise there are many people coming
+into our craft and they'd yeah they just
+learned how to program and sing in
+language but they didn't read about
+quality and clean code and all of that
+then if we have good people they often
+turn into different jobs so this is the
+most senior people they leave for the
+better gig so and um experience often
+drains out of companies we another
+problem or challenges distributed teams
+if people don't sit together and talk
+about code there's often not a good
+exchange of knowledge and distributed
+teams they don't have shared ethics
+about how code should look like yes we
+also have often big problems in the
+company culture because the most IT
+companies we all work for they don't
+value quality they just value money and
+being fast and telling the customer that
+we are the best company which we often
+are not because I think software
+companies should as at the first look at
+that they produce high quality stuff
+another problem is I think many of you
+have heard about that if it's about
+quantity people often agree ten is ten
+but if you say this is a nicer picture
+than this people disagree so when you
+talk about quality and it's the same to
+software quality
+it's not so easy so what what actually
+is of software quality and I just want
+to say that and as soon as you have a
+tool which checks software quality this
+is this discussion about objective and
+subjective gets smaller
+yeah and then we have pressing deadlines
+and we need to keep in the in the cost
+scope so and right so I also want to
+show that image and just it's it's
+basically showing you the the costs of
+repairing software problems and the
+different stages of your development
+lifecycle this this picture is like
+hundred years now not hundred but twenty
+years old this sooner to design and
+coding you fix problems the better if if
+you wait until you release into
+production it gets really costly so um
+you should definitely use all the tools
+mechanisms and methods that exist in our
+craft which help you to find problems
+early
+yes we are going to talk about a tool
+which is in the category of code
+analysis so tool which looks for
+problems in codes code and find stuff
+and why should we use it
+yeah we just saw it and by by checking
+our code for I mean I always see it
+blinking here should I care about this
+could you just go on unmute and tell me
+yeah you can go ahead it's just chat
+when do I add some yeah go ahead sorry
+maybe somebody was pinging me and
+telling me that my audio is not on if
+there's an issue I will be stupid yeah
+great so yeah and decreased cost of
+repair this is what I just talked about
+what I slightly touched is market
+reputation and we should not trust our
+guts that customers don't care about
+quality that they just care about money
+and time no in the beginning they just
+care about cost at time but after a
+while they really will value that you
+did you produce quality code that the
+stuff is good tested very well and that
+you are able to change stuff really fast
+because this is this whole ten-year-old
+agility story about and being faster
+market is good but when it takes hundred
+years to get out the next version
+because you have produced so crappy code
+in the beginning it's also bad so market
+reputation is also something which will
+get big if you care about code and then
+we have something really very specific
+to the salesforce world which is to
+secure it you review as is at least for
+those of you that work for ice v's or
+put code on the app exchange as soon as
+you have that you you have made the
+experience that it's really bad when you
+are close to releasing your stuff and
+then the guys from security review
+give you a document with 100 security
+issues and the tools to tool I'm talking
+about PMD but also all the other tools
+in the same space that exists out there
+they put in high focus on helping you
+get through security review much faster
+so let's see it I think that's that was
+it with my slides so PMD that's the tool
+that I'm talking about and PMD is an
+open source project and github I am I'm
+just opening the page and as you even
+see from the directory structure
+it's a code analysis tool working for
+many languages
+it started with Java but it works on
+Fortran on dard or in C++ on Kotlin on
+go all the new languages and what I did
+in 2016 or 15 was contribute the epics
+language module around that time I was
+working in this product company and the
+team grew we got a many new people and
+we had a problem of how can we guarantee
+some some coding standards and I was
+working in the Java space before so I
+thought couldn't we couldn't we have
+stuff like textile tools like like we
+have in the Java space and then I
+recalled myself that PMD exists for Java
+and I knew a Pyxis is some kind of Java
+so to make a long story short I I got a
+ton of help from Salesforce and then I
+created PMD for apex so PMD for ethics
+is not the name of the open-source
+library I just contributed the part to
+PMD so how do you start before I will
+show the tool I will show you how to get
+it
+PMD is websites Google will tell you
+it is you just download the tool from
+the download button and then you get a
+sip file after a while let's see it's
+for the max big so it it should be there
+you unzip it and then basically you are
+ready to go so you don't need to install
+anything it's just a bunch of jar files
+and a few scripts good I let's go back
+to the PM view page for a second and the
+documentation is very good it's not like
+many other um open source projects so
+they tell you exactly what to do there
+is a documentation page which tells you
+exactly what you need so I just want to
+show you know I don't want to show you
+that I want to show you how how to run P
+and D so I'm here i i've checked out a
+kid have repo that you can also just
+download to reproduce what i'm going to
+show you let me just go back to that on
+my
+how do I get this smaller
+I'm fighting a bit with getting this
+window away so I can switch my tabs
+there are this so this is my github page
+and there is an apex PMD sampler
+repository where I just added terrible
+code and so you can do the same and just
+try out what I did so so you exactly
+know what to expect so I mean this this
+repository you see it's it's not a non
+DX project so if I go into the source
+folder and you see the the classic
+structure of a Salesforce project and I
+have PMD in the in a folder and I can
+just call PMD
+from the command line so what this
+command basically does is say saying
+please run PMD in the folder source
+classes PMD is is only running on apex
+so if you wanna check lightning
+components lightning CSS JavaScript
+there are other tools out there like yes
+lintel so I tell him where to find code
+and then I tell him
+what to actually check for by giving him
+a rule set and I will show you exactly
+how this rule set looks later so I will
+just run PMD on this glasses folder from
+the command line and after a bunch of
+debugging output you see exactly that
+it's it's it's showing you classes and
+there's a terrible one which I called
+after the bad guy in Harry Potter
+Voldemort and then it's telling you okay
+in this class in line number five there
+is a problem with a rule called epics
+unit test should not use C all data and
+it's giving you the code so that's
+that's basically it you download PMD you
+point it to a directory of epics classes
+and run it and then if I were you I
+would say I don't want to work in CL
+eyes and that's not helpful so
+immediately I will show you how to do
+differently so but but PMD doesn't need
+installation it's super easy and as you
+see it's on the command line that's why
+you can perfectly integrate PMD
+basically everywhere into I des and to
+see I processes but okay let's go into
+everybody's favorites free Salesforce
+IDE Visual Studio code just as a plug in
+my work I use intelligence IDE and with
+illuminate it's out because I think it's
+still much better but I want to stick
+with Visual Studio code and just open it
+so this is my folder that I just scanned
+so you see we have a bunch of classes
+and we have some some problematic
+classes and the cool thing is
+you immediately see when I when I open
+it in Visual Studio code I get those
+squiggly lines which also tell me that
+something was reported by a PMD to not
+be right and this this doesn't work
+without an extension there's a great
+extension a free extension by a cool guy
+from Salesforce Ohana called charlie
+Jonas he he made a PMD plugin and you
+basically tell this plug-in how to find
+your local PMD installation and then it
+works so
+how would you add rid of this right so
+and when I go into any class this class
+it's telling me that hard coding IDs is
+not good in apex class that it all comes
+back to a PMD rule and to better
+understand that you just rich should
+recall what I entered even from the
+command line let's just go back to the
+command I told him where to find a rule
+set and let me just open that rule set
+in my vs code it's an XML file that you
+don't have to write many times I know
+everybody hates XML I the same is true
+for me the rule set is just telling PMD
+what to actually look for in our case
+that we only care about apex and so let
+me just do that if you would take away
+this go back here and run it it wouldn't
+find anything because there's no rule in
+it so let's see what what we have in
+here so we could do this that's a simple
+rule set because it basically just
+references existing rules it's a it says
+please check for all the design rules
+performance rules code Styles best
+practice rules error-prone rules and
+that's it and that would be fully
+sufficient to to run the rule and find a
+lot of problems what I did I even called
+PMD to do more and that's the power of
+rule sets and I don't want to dig very
+deep into that because that's something
+I will show you in the documentation and
+to be honest it's really easy I always
+take the same rule set for all my
+repositories so if
+you look into my open source my other
+open source projects on github just go
+here to epics unified logging you will
+always find at the root root site XML
+and it it basically every time looks the
+same so um and and talking about will
+sets my experience is that it will
+somewhat shiz away people but it's just
+a configuration file so in my rule said
+I not only in include all the existing
+rules I also say um I want to put much
+more priority on security rules and I
+have some custom rules that I wrote
+myself in the end of my monologue I will
+also show you how to write your own
+custom rules and this is how custom
+rules look like it's basically just a
+small XML node in your rule set
+but
+amid if you if you hear me and can tell
+you how how I can make this stop that
+this window is always coming down and
+just tell me it's not visible to us oh
+it's not visible to you that I'm
+fighting with the zoom toolbar which is
+always hiding my my browser tabs so but
+I can handle it
+yeah so if you wanna understand
+which rules actually exists you just go
+into the wonderful PMD documentation and
+then for all the languages you see a
+section and we just care about
+salesforce
+and then you see we have different we
+have an index of all rules
+and let me see we have a few best
+practice rule code style rules design
+rules
+Eric rules and those rules are basically
+and yeah self-explaining even by the
+name for example let's just go into that
+which is a very Salesforce a sharing
+violation this rule is one of the first
+we edit it's telling you that you forgot
+to put a width or without sharing at the
+top of your class so in the
+documentation you always have a snippet
+that tells you well what it is about and
+yeah another one is suckle injection so
+this is that you should name you should
+use name credentials when you do an
+arrest call-out so this is basically
+what the security rules about are about
+and we have I will just skip over them
+but what do we have
+yeah we have best practices rules that
+you should not have logic and doctor dot
+trigger classes that you should always
+use and trigger handler framework which
+moves all the code into to a class you
+should avoid to use global because you
+cannot change more things about testing
+we have code style rules which will
+check that your class naming your field
+naming adheres to Java naming
+conventions so that that people who read
+your code actually recognize stuff more
+easy how you use phrases all the stuff
+that you normally have to discuss with
+your fellow developer when you do pair
+programming there's a PMD rule about it
+and what else do we have we have design
+rules
+if your classes have to a to complex
+structure like too many nested if-else
+for loops then it's really hard to test
+so in the design category we we check
+that we have a rule category of rules
+which often leads to errors in in
+Salesforce for example and yeah if
+code ids or if you use annotations that
+don't work and salesforce anymore we
+also have performance rules which which
+often lead to you developer running into
+and problems with governor limits for
+example if you have DML and you suckle
+and lose and then we have a bunch of
+security rules and
+if you ask yourself where all the rules
+come from most of them I just ported
+from Java back then in 2015 but the
+security rules were even contributed by
+people who work at Salesforce so the
+rules here they are really written by
+people from Salesforce so you in a way
+you can trust them ok so let's go back
+to our classes
+let's open a class which has some
+problems in it let's let's go into this
+class
+this class shows a typical error that
+are often seen code that people have an
+if or an else without opening and
+closing braces and it's really really
+that because the next developer could
+also say in case of else I want to do a
+system debug in the back
+whatever save it and everything is good
+and think this will only happen in the
+Al's case but it does not okay
+so this is what we should do and as we
+do this
+the PMD problem will go away so
+so this so if if somebody in the
+audience is this JavaScript developer he
+knows linters linters are tools that
+help you while programming JavaScript
+they immediately find problems or tell
+you what could lead to problems and you
+can use PMD like this and you should do
+it so all the major ideas even D the
+ones that you should not use any moral
+eclipse and before some IDE they have a
+free P PMD plugin the same is true for
+Visual Studio code as you just saw it
+the same is true for IntelliJ IDEA
+I just I just want to open that because
+many of you might might use it and so
+when I said in the beginning that we
+should find problems as soon as possible
+then you shouldn't even commit problems
+into github I will in a minute show you
+how to find problems with PMD after
+checking in the code until you get hub
+but I also want to just show you how how
+PMD is is integrated into the IntelliJ
+IDE just open a project here I have two
+PMD samples
+project also here and then you do
+after Wade takes a while and then you
+can run analysis inspect code
+it has many settings but if if you just
+care about PMD and in the sales for
+space there's a section here you tell it
+where your PMD executable is I think we
+have 16 you tell them where the route
+set is when you click OK
+then you just run it
+and after a while oh no suspicious code
+was fine
+so I did something wrong here but
+it would work like I showed you in
+Visual Studio code so the main message
+for you is that you can run PMD on the
+command line after a minute you can run
+it in your IDE and be it Visual Studio
+code or IntelliJ in two minutes
+but let's go back to my slides
+I want to show you yeah let's let's try
+to go on this slide I just prepared so
+what the scheme he helped you in
+Salesforce and it really can help you
+find security vulnerabilities which are
+found by security review or by our
+customers it helps you pinpoint
+performance bottlenecks with common are
+limits it helps you find testing
+weaknesses I I just you know there is a
+rule which tells you that you shouldn't
+put a sword in your test but also more
+complicated rules if you're if you code
+your ethics code is too complex and has
+too many different if-else statements
+you might not even cover all those
+different conditions and PMB has a rule
+which tells you exactly that you can
+enforce coding standards if it's about
+how to name methods where to put the
+braces PMD is the right tool for that by
+enforcing some some best practices in
+Salesforce it's enforcing coding
+practices and this is really what you
+need in bigger teams so this was really
+helpful for me with PMD yeah and we care
+about clean code and PD tells you if
+code is not clean so if you don't adhere
+to coding practices if it's too complex
+it's not clean because clean code is
+easily easy to test easy to maintain
+easy to read so yeah I want to show you
+that sample workflow and to to do the
+next step so we have seen the beginning
+where it's just code you can use PMD
+wherever you want you can use in the
+command line in your IDE
+but what if a team developer doesn't do
+it if he doesn't care about that you
+also want to enforce stuff quality is
+something people do because they like it
+but
+you you and everything you also find
+people who don't care about this so then
+you need a process and I will show you
+how to do it with PMD we want to have a
+process where you put push something in
+to get and I just care about the upper
+branch of this image you know that you
+can use continuous integration to do
+unit testing and stuff but I just want
+to talk about the the upper branch and
+it says I want to have PMD run on the
+code that was pushed to get
+why do I want that because that's the
+only way I can enforce that all the
+rules are run and if you look at the
+next step in our diagram I don't want to
+waste precious developer time during the
+code review that is done by people
+because that's one of the experiences I
+had in the past if you don't have tools
+like P and D the the code review you do
+on pull requests you only will talk
+about naming conventions about braces
+about Salesforce best practices and
+actually that's that's a waste of
+people's time if a tool can do it if you
+have a process like a show here you will
+you will see that you have more time to
+talk about the stuff tools cannot find
+tools cannot find out if a method or
+classes is well-structured of or if
+names are good so okay how are we going
+to do that I'm going to show you a tool
+called courtesy let's go back to my
+report no yeah let's go here
+on all my projects be it my my public
+open source projects for all the
+projects in the company that I work for
+for every project you see
+such a coat quality thing okay now heat
+this one this project has a B it's
+better if it has an A oh it's also be so
+I should care more about quality in my
+project but this has a C and this is the
+project you just saw the one which just
+have problematic classes and how that's
+that little little button appear it's
+embedded by a tool called courtesy
+courtesy is a company in Europe in
+Lisbon and this is Spain or Portugal I'm
+I'm bad at that so and courtesy is
+basically connecting to your github
+bitbucket whatever you have all your
+versioning systems connect to courtesy
+and if you have open source public
+repositories like I do it's even free
+for you courtesy makes money by doing
+that but if it's open source it's free
+and what you see here it's the dashboard
+of this project with that code and you
+see how that is helpful
+in a way which running PMD in your IDE
+does not it's trending the quality over
+time it's telling you oh you have many
+security problems it's telling you
+immediately where your code has problems
+so the hot spots if I go here into the
+commit you see oh I made many bad
+commits you see a person added problems
+or fixed problems if you click on files
+you see how many problems you and which
+grade each file has and then sure you
+have a list of all the issues and you
+see okay this class has an empty lock
+state not a big problem but but still
+something which you should avoid or here
+let's just drill into this avoid hard
+coding IDs so you see the snippet of the
+problem you see why the problem exists
+so you get a very good it's basically
+extracting the PMD documentation
+how does courtesy do that when you when
+you log into courtesy it asks you which
+of your get repositories of it bucket
+repositories it should connect and then
+it immediately gets the code and runs
+different open source code check us on
+it and this is what you what you find
+here I need to log into courtesy to to
+show you that
+there is an option called code patterns
+and I need to go to a different project
+[Music]
+to show you more engines so courtesy is
+not PMD specific courtesy takes engines
+and linters of all available languages
+like JavaScript and CSS and Java and
+basically integrates them into equal UI
+so I what for this project
+I'm just saying I want PMD so it's
+turning on it's it's taking all the
+rules from my rule set but I could also
+tell coda see ah I just care about some
+specific apex rules so courtesy
+basically is a beautiful UI on top of of
+open source engines that's that's also a
+reason why I promote them so much I
+don't get money from them but they
+highly respect open source tools which
+other companies like sonar don't do so
+if you are a soda user I can just tell
+you integrating PMD currently doesn't
+work even if they tell you the opposite
+so first look at courtesy and yeah
+that's that's how you integrate it and
+how does it work and there's a setting
+and you basically tell how to see that
+if a pull request or a commit has more
+than X issues it should just be stopped
+and this is how how we introduce quality
+and how you should also do it and if you
+want to make it part of your development
+pipeline if somebody pushes something
+into github or it's a pull request
+courtesy monitors that runs PMD and
+other engines on it and then basically
+stops the pull request and this
+guarantees that all the rules that you
+as a team or you as an architect decided
+on are enforced and you are also sure
+that when somebody makes his pull
+request work and goes into the manual
+peer review
+you you don't have to discuss all the
+Nifty detail problems about braces and
+stuff okay I wanna come to an end I just
+want to tell you where to find more no I
+actually don't want to come to an end I
+just want to show you something more how
+to add rules before you think about
+adding rules please take the time and
+check all the existing rules and you can
+there is there as parameter for every
+rule so um let's let's just go to the
+rule set back you can deactivate rules
+you can tell PMD two to change certain
+properties maybe I should do it here and
+some of the rules they have properties
+which you can change for example and let
+me show you this design rule there's a
+rule which says too many fields and but
+that's highly subjective is a class
+really only bad when it has more than 15
+in a fields you can change that and you
+can change that in the rules
+okay so first you should live with the
+existing rules if that doesn't help you
+please go to the PMD open source
+repository and just create an issue
+let's just look for the open ethics
+issues
+yeah there's some there's just a person
+who not only asked for a new rule but
+even edit is as a poll request which I
+loved so I want you to finally become
+contributors to PMD but this person was
+adding a Java
+wrote a Java rule and committed it to
+enforce debug statement best practices
+and I just want to go I just want to
+show you some code and what this person
+actually wanted to have let's just look
+at this small class that you see here
+we all know that systemd bucks can be
+helpful even in production code so when
+there's an try catch and you you want to
+have something in the locks so you can
+help your customer something like this
+is fully okay a system debug with
+logging level error and then putting
+something in the locks that's okay but
+it's not okay if in production code our
+fellow developers forgets to remove his
+system be back what the heck is going on
+here I'm currently debugging this
+and to find problems like this you
+actually don't need to contribute
+anything to PMD you could just write
+your own and you need a tool for that
+which comes with PMD when you download
+it it's called let me just clear my
+console it's called the designer it's
+called PMD designer it's a Java UI tool
+which helps you create rules and if I
+say rules I need to tell you that rules
+can be implemented either using Java
+code which is in a way complicated I
+don't want to cover that and I will tell
+you where to learn more but you can also
+just add a small snippet of XPath to
+your to your rules that let me just show
+you that
+I just need to make this a little bit
+smaller this note in my rule set this is
+implementing what we just sorry about
+that
+what we just talked about it's the avoid
+production debug logs rule and there's a
+lot of XML noise which which you
+actually should not care about the only
+important thing is that it looks cryptic
+but it's it's an expression which in
+apex finds exactly the problem we are
+talking about and how do i how do I come
+to this expression using the designer so
+the designer helps you create not only
+Apex PMD rules but also Java rules so
+let's just switch to Apex and yeah you
+just see the code that I was talking
+about it's a class with two methods the
+one shows an absolutely okay use of a
+system debug and the other one is not
+okay and then you see this this
+complicated tree here and this is how
+PMD internally works it's it's taking
+the source code team DS working on so
+source code that's why it often is
+called static code and Ellen and Eliezer
+it's not looking at how code dynamically
+runs it just looks into how it
+statically looks and and I have a slide
+about that I want to show you that PD is
+basically taking the the left sides epic
+statement and creating such an abstract
+syntax tree it's called AST with
+something from parsers and this is the
+structure that PMD is is getting out of
+your source code so it sees there's a
+return statement there's a while
+statement the white statement has a
+condition and you know this this
+basically is a tree it's a tree of the
+syntax of the class and PMD is exactly
+using that and
+if you if you think about it an XML
+document is also a tree
+and what's the language to query to find
+XML notes in an XML document
+it's XPath so that's what the designer
+is doing
+it's you put in some some epics code you
+see the ast for it and then you can
+write an an XPath expression and I
+already have the perfect one so you see
+this XPath expression only finds this
+second debug so what what is it doing
+it's looking for method call expressions
+like debug it's checking that the name
+of the method is system debug and then I
+just say I really
+all the debug statements which have a
+debugging level defined must be the
+developer must have thought about this
+so I just want to accept them but all
+the other ones I want to find so if I
+just remove that you see it's going to
+it's finding both this and the other one
+so writing rules is really super simple
+use the designer paste in your apex code
+learn about how the ast looks like and
+then play around and then after that
+take your rule set and add such a such a
+small rural block and if it's working
+for you why not just contribute the debt
+rule okay I really want to come to an
+end and because I want to leave time for
+questions I just want to point you to
+some resources and if you if you look
+for PMD and the press on Google there is
+a page where I collected some of stuff
+that I did in the recent years some
+webinars and some podcasts and the most
+helpful for you if you want to learn
+more about PMD especially if you want to
+learn more about PMD stuff that I didn't
+talk about like what other tools exist
+in the market and there exist tools the
+custom money and can do more things like
+TV and if you want to also hear about
+Java rules then I highly recommend you
+to go to Pluralsight which is a great
+learning platform and and the guy on the
+left on Robins is doing webinars and I
+was just invited to do one about PMD
+and this course is just made free soap
+Laura side you I normally you pay money
+for that but the PMD course um is free
+and it's two and a half hours long so
+you can learn much more you can see much
+more demos and I highly recommend you to
+do it and a mid will also share the
+links in the notes of this epic sours so
+Wow
+fifty minutes that was very long one a
+look I meet I I hope we we have some
+questions yeah thank you so much Robert
+for the great session and I can see one
+question which is the best option PMD or
+Clinton so would you like to answer for
+this and definitely I guess like for
+both of them we can compare in this
+particular recording as well but if we
+can answer that will be really great can
+you repeat the question what is the best
+option PMB or Clinton Clayton yeah
+Clayton okay okay I mean the guy you see
+on the picture Lawrence to the right of
+me the he's the founder of Clayton and
+it's a great tool but I sit here to
+promote the two mode to promote the MD
+which is open-source and so I will not
+answer that way in a really objective
+way but and I can tell you watch this
+video
+Clayton is cus money so and it's if you
+want to start small you might not be
+willing to to pay for it and if you are
+willing to pay for it in some situations
+Clayton will do a better job for you you
+will not have to configure that much you
+it's not an open-source project you
+don't have to play around with rulesets
+it has a nice UI but it doesn't work low
+key so what I showed you with PMD that
+you can integrate it in all of the ID
+East that you can use it in your CLI
+Clayton cannot do it Clayton is a tool
+which runs like code C on the cloud in
+github so
+it's something you have to check for
+yourself
+I can I can say that Clayton is doing
+much better on some nifty issues because
+PMD is really just looking at at at one
+file source code but Clayton understands
+more how classes hang together how the
+engine is smarter because Clayton is
+just made for Salesforce so I would look
+at both but I I would make a bet in the
+beginning when you want to start small
+you should start with PMD right I don't
+want to say more I I maybe I can just
+turn on the video I just want to show
+the people that I I wear a Clayton
+t-shirt because I really think Clayton
+is a very good solution you have to look
+at everything you have to that's that's
+also something I should say PMD doesn't
+work with github alone that's why I
+promote courtesy as a company so I would
+say PMD with courtesy gives you the full
+coverage you have it in the IDE and you
+have it you have it and github Clayton
+it's not in the IDE it's only in github
+and bitbucket and everywhere but there's
+no competition and the person who asked
+this question you need to find this out
+on your own okay I stay online anybody
+have any other questions feel free to
+unmute yourself and ask a question
+okay everyone insulin means we are good

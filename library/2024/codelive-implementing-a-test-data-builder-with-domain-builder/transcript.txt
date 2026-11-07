@@ -1,0 +1,1289 @@
+Hello.
+So sorry for the delay. We were waiting
+for the ask me anything session to
+finish, but hopefully
+um you can all uh see us now and
+uh
+Okay.
+There it is.
+So um I'm so happy to be here today with
+uh my friend Robert because in a
+previous episode of Code Live, I did a
+Code Live about Apex testing and I
+explained like different approaches,
+different tricks that I One of the
+libraries that I mentioned was Apex
+Domain Builder. And this is a library
+that Robert had built.
+Um we started a conversation about
+having a specific Code Live about this
+topic and Robert
+um said yes, and he's here with us
+today. So uh Robert, do you want to
+introduce yourself?
+Sure. Hi Alba. Thanks for having me. I'm
+really happy to do that with you.
+I was amazed to hear you talk about one
+of my oldest open source libraries.
+It I It was an important for me, but the
+world basically ignored it and I I not
+really understood why.
+And then I heard that you actually used
+it and I was like happy for a week.
+So um yes, here I am.
+What can I say about myself? Um
+I'm I'm in the Salesforce world for
+nearly
+help um build AppExchange packages and
+other digital transformation projects.
+But my heart is really with um
+code and packaging and all of that and
+yeah, over the time I actually built
+some open source things that some people
+find useful and I'm happy to talk about
+that today.
+That is great. Thank you so much for
+that introduction introduction Robert. I
+have to say that Robert is a big
+contributor with the open source
+community and you're going to see that
+today. Uh he's going to show this Apex
+domain builder library to us and he's
+going to show to us also a real
+implementation like a real example.
+I want to say hello to some people that
+I'm seeing in the chat such as Niket.
+Thank you so much for joining Niket. We
+also have Defray Cuadros. I don't know
+if I'm pronouncing your name correctly.
+I'm sorry but hopefully it's something
+like that. And
+Robert, Defray said that domain builder
+is one of
+their favorite
+libraries libraries. So here you have
+one more fan. I'll
+and we also have Hip Hop Dude and that
+guy who's joining from Switzerland.
+Okay.
+So with this I wanted to start asking
+you Robert if you can tell us a little
+bit of the history and roots of this
+library that you built.
+Sure.
+I really have to give credit to to some
+other people in
+a previous company I worked for.
+Like my longest
+gig in the Salesforce ecosystem was at a
+at an ISV company called up to go. We
+had a like a
+software which was similar to
+manufacturing cloud for the automotive
+industry. A huge package like probably
+like the one you worked on at Financial
+Force.
+Many custom objects, hundreds of custom
+objects which were interrelated and
+the more professional we got, the more
+we struggled with writing
+um
+good integration tests, you know, not
+unit tests, but really the full scenario
+with the full data.
+And we were We always were clean coders,
+or at least trying to do it. And we
+always had this idea of a good test
+needs to fit on the screen
+and be understandable nearly at a
+glance. And this was
+impossible because we had more and more
+of those
+humongous test setups, you know, it was
+not about mocking or the actual tests.
+It was really about the setup of the
+objects.
+And
+right, and maybe if you if you let me
+share my screen, I I would just
+um
+show the actual page of the repository
+and and show people what I mean.
+Um so, let me just
+There you have and I'm going also to pop
+up a QR code from which you can go into
+the GitHub repo of this library that
+Robert is going to show to us today.
+Exactly. So,
+I I It's boring when I read from screen,
+but I really want to read what what I
+put here in the about box.
+The Apex Domain Builder is a framework
+to set up Apex test data in a highly
+flexible and readable way
+using the test data builder pattern.
+It's
+very complicated words, but this test
+data builder pattern, it exists for a
+long time. I didn't invent it, but I
+stumbled over it, and it's it's actually
+here in the in the read me of my thing.
+I think the builder pattern was even
+invented by Martin Fowler.
+And it's it's talking about how can you
+construct objects
+with many variations, you know, where
+you have a ton of different ways to
+construct it. That's the builder
+pattern, and another guy
+created something called a test data
+builder.
+And he he basically in this article
+describes how it's much better than test
+factories because instead of having one
+monolithic class which
+can create all the variations that you
+need, you basically have many
+single simple objects which which you
+can put together like Lego.
+So, to make it the long story short, I I
+just want to read what the domain
+builder is actually going to overcome.
+So,
+let me just let me just talk about those
+reasons which I didn't like in in our
+previous tests when we started this.
+So, I say that Apex integration tests
+are not easy because you always need
+to set all the required fields of the
+objects, even if they are not relevant
+in tests.
+You need to set insert the objects in
+the right order, and you know that's not
+easy in Salesforce. You know, you
+sometimes need to have maps to actually
+keep track of the ideas.
+Then you need to create relationships by
+setting lookup fields.
+And everywhere you have this ugly
+underscore underscore c all over the
+place.
+And in the end, you you sometimes even
+run into DML issues because you have too
+many DML statements whatsoever. And
+what the domain builder is doing is is
+is trying to reduce all that.
+And
+the last word before I go into actual
+code is it's really a framework. It's
+not a library. A library is something
+you can nicely sneak into your existing
+code, but a framework actually forces
+you to do something. And with a domain
+builder, you're actually forced to write
+your tests according to this framework.
+It's not a big thing because you get a
+lot of good things, but um
+that's it. So, Alba, um
+Yeah, and my bad because I called it
+library, but you
+right that you need to write some
+like classes that represent your domain
+objects in order to
+correct.
+Uh fantastic. So, uh can you show to us
+some like examples of that?
+Yeah.
+Um I I really want to show you
+real-world examples, but I also want to
+point everybody that the repository and
+the readme actually contains a lot of
+stuff um for you to learn.
+So, even on the readme, it says
+something that
+for each object which is relevant in
+your tests, which which actually has a
+custom object, you create such a nice
+domain builder class. So, instead of
+having all the the things
+in your tests or in a factory, you
+create such domain builder classes and
+you will later see it.
+And then it tells you how nicely you can
+actually
+put them together. Before I talked about
+Lego and and just look at this
+from the readme. You know, you we we are
+creating a contact.
+We're setting a few um properties of of
+a contact, Jack, and last name, first
+name, and then we're creating an
+account.
+Creating like adding an an opportunity
+to the account and even
+making this contact a contact of this
+opportunity. And you see this is
+basically done
+in a in a fluent API way.
+So, but
+I I just wanted to say that so you don't
+need to watch this full video. You you
+everything you need is in the
+repository.
+There is a is a great test class which
+basically has a test method which
+describes all the good features of the
+domain builder. So,
+let's just
+um
+take this test. It It basically says the
+good thing with domain builder is that
+it auto populates required fields
+which are required but irrelevant. And
+then here you basically see that.
+Okay.
+But
+So So, Robert, basically what we are
+going to have in in the end is a much
+more readable
+test because you don't need to worry of
+setting up like all those required
+fields that are needed each time that
+you need to create your account or your
+contact or your custom object.
+Exactly, because
+tests are so crucial, you know? Tests
+They You know, there is this this this
+this best practice or or something which
+people wish that a test actually is like
+good documentation that you read the
+test and understand what properties of
+the application they test. And if you
+have messy tests where you don't
+understand what happens,
+tests don't fulfill their reason
+anymore. So, you're absolutely right.
+So, Alba, if if you don't have any
+questions, I would like to
+start coding on a real application, on
+an open-source application. Okay?
+Yeah, uh this is great, and I think that
+it is exactly what our audience is
+looking for because
+this is like what they are going to
+find, right?
+Real-world example
+in which they need to implement this
+pattern or in which they are going to
+want to implement this pattern. So,
+let's start step by step and tell them
+like which would be the steps to adopt
+this pattern and how your tests are
+going to improve.
+Cool.
+As always with sample code, it's
+complicated. You know, if you make it
+too simple, people hate it. And if you
+make it too complex, people forget it.
+So, I took an open-source app from Akiva
+Labs, which I mostly built, and it's
+it's it will be understood by most of
+the people who watch this because
+as you said before, I'm doing open
+source a lot and people know that I'm
+the guy who who brought PMD to
+Salesforce, the the the magic linter of
+Apex code.
+At Akiva Labs, we built something
+similar with AI and it's called not PMD,
+but DMD. It's the document mess
+detector, and this is an open-source
+library.
+You don't have to understand this. I
+just want to show it to you, and maybe
+you can put it into show notes, Alba.
+And here is just a short explanation of
+what DMD is. So,
+PMD has rules,
+which detect ugly code. Rules can be
+collected into rule sets,
+and then you run an analysis on code.
+And DMD is doing the same
+on business documents. So,
+here is the data model of the DMD app.
+You see, we have a a file, which is like
+a Salesforce attachment or a file, a
+binary with a PDF document, and you can
+run an analysis on it.
+And when you start such an analysis, you
+also need to give it a rule set.
+And a rule set can contain many rules.
+And and to do that, we we introduced a
+linker object, a junction object. It's
+called a rule in set. So, those six
+objects are basically the domain
+business objects we want to talk in our
+tests.
+Okay.
+Well, let me stop you for a second here,
+Robert. The reason we are using this uh
+app is because we wanted to show you
+uh
+reasonably complex data model
+so that you can see how
+you could adopt this pattern, the Apex
+domain builder uh framework, within a
+project like this one, which is going to
+be similar to some of the projects that
+you may have in your orgs. And uh one
+more thing, I have uh also added the QR
+code into the screen, so you can take a
+look at it.
+Exactly.
+Because many people when I gave examples
+on Twitter, you know, with like short
+snippets, they said, "Okay, this looks
+easy, but how does that look for for
+more complex things?"
+Okay.
+Let's start with code, and I really want
+to want to give the the story I gave
+before. So, imagine we we just want to
+write a test where we have such an
+analysis,
+and we want to see if it actually
+produces results. So, here you see my
+test method, and I already called it
+ugly and bloated and unreadable. So, um
+But I'm I'm I'm I'm not showing the
+setup part at the moment, you know, but
+the exercise, yes, it creates an
+analysis, you see that we are
+referencing a file,
+we are referencing a rule set, then we
+are inserting the analysis, and then we
+have a a simple assertion.
+Now, I'm going to show you
+how the setup block of such a test would
+look if you
+just do it as you have learned it in the
+documentation. So,
+this is it.
+So, let me show you.
+As my test needs to run as a user with a
+specific permission,
+I first and you know, I'm just
+explaining this. You all should just
+hear me say, "Wow, yes, he's right. That
+is complicated." So, I create a standard
+user
+of a specific profile.
+Then I assign it a permission set from
+my app.
+Then I say system run as user. Then I
+create a file.
+To get the file ID, I need to do
+something more. Then I create a new rule
+set and all the the fields which are
+required actually are in here. Then I
+create a new rule.
+Then I create a linker object.
+A rule in set linker object.
+And then I have it.
+And when you look at this and when you
+imagine that in a great app or in a in a
+big or normal recently sized app, you
+have many tests,
+you begin to understand that your test
+class will become really big and messy.
+And all this setup code is actually
+covering what you want to do.
+Okay?
+Alba?
+Let's go ahead.
+Let's go ahead. Okay, perfect. Now,
+let's look at the next iteration and I
+mostly see people
+work in this iteration. That's even like
+a recommendation from Salesforce.
+Simplify the complexity of your test
+setup by moving the messiness into a a
+static factory, you know?
+And this is how it would look like. You
+know, we just have our static factory
+and it would basically have methods
+which create us as a standard user,
+which create us rules, which create us
+rule sets with the rule which is
+created, which creates files, and then
+we can put it together.
+That looks really nice.
+But the problem is
+when I see tests like this and look into
+this test factory,
+it's really messy. It's really long. And
+there is like tons of variations, you
+know, there is create me a user with
+that, create me a user with that, create
+me a rule set with one rule, with two
+rules, with one passing rule. And there
+is redundancy all over the place.
+So,
+you know, and I I overdid it a little
+bit here to just make the point clear,
+you know, this is
+how test factories normally look.
+Yeah, and also, Robert, let me add there
+that test factories, because uh
+uh
+like they are completely responsibility
+of each of the different developers who
+are working on the project, it happens
+that they are always different because
+one developer writes
+Okay, it's stuff which is actually
+already there, yes.
+Exactly. So, one developer is writing
+one test factory and it contains methods
+that are created in a specific way and
+then another developer like follows a
+slightly different style and
+it contains methods which are there, I
+don't know, to create opportunities and
+they are quite
+quite similar, but not exactly the same.
+But with Apex domain
+uh builder, we're going to have a common
+language, a common understanding.
+that's a perfect word. You know, the the
+the word domain sounds a little bit
+strange, but I think it comes
+I I think some people in this in this um
+webinar will know the word the the book
+from Eric Evans, the main driven design,
+um
+where where he says the architecture
+needs to have like
+concepts from the world, you know, which
+actually exist as classes and and things
+like that. So, the word domain object is
+really just, you know, not a technical
+object, not a persistence object, but a
+real thing which actually
+also exists in the world. Yes.
+So cool. Then let's just move to
+the class
+or no, the method which uses the domain
+builders. And this is
+how the original test looks like.
+You see,
+we are running as and there is an class
+and I will immediately will talk about
+this ugly underscore for people to
+understand it. So, we basically create a
+a standard user with with a document
+reviewer permission set in one line.
+Then we create a rule.
+But and we we we actually initialize it
+because we later need it, you know, I'm
+I'm really I I need the rule reference
+later for my HTTP mock because the the
+app actually calls to open AI. So, so
+this is irrelevant, but I I want to want
+to see people want to show people that
+with domain builder you also
+can access the objects, you know, when
+you have a test data data factory, it's
+always a method which returns one thing.
+But with domain builder, you can
+basically have multiple references to
+all the things you can create. You you
+basically can
+can can have your reference. So, I
+create a rule, then I create a rule set
+and I just say add this rule and then I
+call persist.
+And then in the can you block where I
+actually want to start the analysis, I
+just say, "Yeah, give me a new analysis
+for this rule set and persist it."
+Um
+Can you explain a little bit more
+what is that persist method meaning?
+So, first, what you have to understand
+that
+there is and I I really want to show the
+the the the folder of the DMD app. There
+is object analysis reside rule rule
+inside rule set.
+Each You know, for for the rule
+{underscore} C object, we have a rule
+class, which creates this. For the rule
+set {underscore} C object, we have a
+rule set class, which I will show you
+immediately. So, behind all those
+objects, which in a strange way
+actually become custom objects in the
+database,
+here in my domain folder,
+you have
+classes for it. So, that's for example
+the rule class. You see, it's not very
+long. It doesn't have a lot of
+redundancy in structure.
+The the the domain builder class for the
+rule for the for the linker object is
+really just 10 10 lines long. That's the
+rule set. That's the analysis.
+Let me first talk about this ugly
+{underscore} T, because I get asked a
+lot.
+As you know, there in Salesforce for
+every
+standard object like account, there's
+also a class in Apex. So, when you type
+account A,
+it's not a class, it's actually the
+object. So, whenever you want to
+use a standard object like account and
+opportunity in the domain builder,
+you actually have to come up with a
+different
+naming scheme, okay? So, you cannot call
+it account because then you would
+override the the internal account object
+which is exists in Salesforce.
+And that's the reason why I came up with
+this ugly underscore t.
+Okay?
+One question or one comment on that,
+Robert, is that I I think when I used
+this in the past, we were using the
+naming was for instance account domain
+or
+Right.
+rule domain, whatever, because we were
+using like rule the rule class for
+instance was like for the domain class
+of the Apex Enterprise Patterns
+implementation. So, we were using
+something like that.
+I I I I I've seen that other people use
+that, but I don't I personally don't
+like it. I really want to talk about a
+rule, you know? I want my my boss, my
+mom, my my wife look at this test and
+really understand it. At the moment I
+put like domain and there they are lost.
+But but you're absolutely right. So, I
+really would say
+the domain builder especially shines
+with all your custom objects. If if you
+But but I really personally
+don't have a problem with the underscore
+t.
+Okay.
+If you don't mind, I really would look
+into
+a domain builder class, okay?
+Yeah, and this is the class that you
+have to build.
+Exactly. For all your objects, you have
+to build such a class.
+And those classes are really super
+simple. They have constructors.
+And you only need constructors
+that you are actually You know, that's
+the big thing.
+You build your domain builder classes
+just with the stuff you actually need,
+you know?
+Let's just go back to my test.
+You know, if if you if there is a field
+in rule or in rule set which you never
+need because you don't want to test it.
+You basically don't care about it. So,
+you don't load your domain builders.
+I found that many custom objects have a
+ton of fields which are absolutely
+irrelevant for any Apex test. And those
+tests you don't you don't even need to
+touch your domain builder. So, let's
+look in here. So, I have a constructor
+which says
+with this constructor you can create a
+perfect rule. You know, a rule which has
+everything it needs which would actually
+be in the database.
+And you also see this class needs to
+extend the domain builder. And the
+domain builder framework really just
+contains of the
+contains of a few classes. There is the
+domain builder, an accompanying test
+class, and some unit of work classes.
+So,
+you say that my rule extends domain
+builder and then you need to create
+like the the master constructor and you
+just call the super constructor and give
+it the type of the actual object.
+That's that's required. And what I do
+here
+I'm setting properties which
+I want to have in my rule. You know, it
+it's not only about required properties,
+but you know,
+for example, the name of a rule is a
+required field.
+But it's often very not important how
+the name is. So, I just make my default
+constructor set an arbitrary rule name.
+I also let it set a description.
+And when you when you when you say,
+"Hey, but Robert, this is not really
+setting a field." You're right, but we
+have methods for that.
+And this is the the the the second thing
+you can
+um or have to create in a domain class,
+property setters.
+Let's look at this.
+We have
+a description field with an ugly _ _
+c.
+But we create a method for that, which
+is called description and takes a value.
+But
+you could also
+you know, maybe you you have a totally
+terrible, I don't know, like a a date
+time field, you know, something which is
+even hard to set in Apex, and you could
+could make that much nicer here. So,
+with
+that is not a burden, it's actually
+really nice for you because
+you can make the value which people pass
+in here much simpler than the value of
+the actual field. You can put logic in
+here, you know, you can put some
+some assumptions in here, and you can
+also rename it, you know, maybe someone
+gave this a really ugly field name.
+You don't have to live with it. Give it
+a better better method name.
+Um yes.
+That's it, and I just want to show you
+one more method type in a domain
+builder. This is the rule set.
+There is
+a method to add relationships, you know,
+a rule set.
+You want to add a rule to a rule set.
+So, to do this,
+you know, this is rule set add a rule.
+And what am I doing? I'm just calling
+a a constructor on the linker object.
+You know, the the linker object we we
+never actually exposed it in the test.
+We We have this domain builder which
+says, "Yes, this is
+of of the type rule and set." And then
+we set the two parents of this object,
+you know?
+Like every parents.
+So, we pass in the rule set, we pass in
+the rule.
+Then there is this set parent method.
+This is a property of the domain
+builder, and we set it, and that's all
+you need.
+And then here in the add method, we
+basically delegate all the complexity
+into this other domain builder class.
+And while talking, I'm I'm slowing down
+because I know that whenever I showed
+this to anyone,
+they were saying, "Hey, Robert, this
+totally confuses me."
+So, Alba
+I think you're explaining it very
+clearly.
+Okay.
+And
+I can totally see like the benefit of
+having relationships this way because
+you can completely forgot forget about
+having to
+uh insert the relationship record.
+The junction object record. You just
+say, "I want to add a rule into this
+rule set."
+Yes.
+And that's going to be your test data
+creation. And the junction object thing
+that's behind the scenes is going to be
+transparent for you.
+Exactly. And you you totally you totally
+nailed it.
+Um
+I just want to show you one example of
+such a Oh, the the the um
+the field name is a little bit
+complicated. You know, in DMD, you can
+have ChatGPT generate a rule set. And
+there is a checkbox, you know? It's
+called AI generate rules, and it it can
+have
+true and false. But if I don't care
+about this toggle,
+I just make the property method AI
+rules, you know, full stop. You know,
+you don't need to expose the complexity
+of the real database in your tests. And
+I really came to the conclusion that
+you don't have to. Writing clear tests
+sometimes means shielding the complexity
+of the reality away from from the
+reader.
+Okay.
+I want to show one last class,
+one last domain builder before I
+actually show how all the things belong
+together.
+It's about the analysis. You know, the
+analysis was the the complex object
+which which we are actually interested
+in. You know, the analysis in DMD is
+where you actually give it a file and a
+rule set and you run it.
+And
+I want to show you that here I have
+multiple constructors.
+You know,
+in many cases I'm really interested in
+my test to say
+I want to have this file, I want to have
+this rule set run an analysis.
+But as you can imagine,
+sometimes I'm not really interested in
+the file at all, you know, because
+sometimes I I I I just I'm just
+interested in
+in the rule set.
+Because the the file is not of any
+importance.
+For these reasons, I also have simpler
+constructors. I even have a constructor
+which has no input at all. I can really
+say new analysis, persist, and it will
+run
+No, it will insert into the Salesforce
+org an analysis. And And you see, the
+analysis constructor calls itself with a
+rule set.
+So,
+and and when it calls this one, it will
+also create an a default file. And then
+it will call this constructor. And
+I know that many people who program in
+Salesforce, they are not used to this,
+but constructors should actually call
+themselves. They should not be
+independent and redundant. They should
+actually One constructor is the the
+constructor that actually does something
+and the others are just calling it.
+And yes. So, this is
+um
+this is an important concept. And yet
+now I want to go back to my test and I
+want to tell you
+more magic about the
+the domain builder because
+important
+What makes What makes Apex test really
+cluttered is the insertion. You know,
+you insert stuff, you get the ideas.
+You don't need to do that. You can
+really You see, I say I create a rule, I
+create a rule set, I add one, and then I
+can just call persist on any of the
+domain builders which I called before.
+You know, I could even like um put it in
+here. You know, I could call persist
+here
+um to even make it simpler.
+And what that does, and for that I
+really want to go back to the to the the
+page where I
+say something magically.
+You don't have to care how to insert
+things. I'm using from FinancialForce
+the the the unit of work
+to insert them in a perfect way.
+You know, we're not wasting any DMLs.
+We're we're doing it optimal.
+And then I'm I even implemented like a
+graph algorithm which will use
+the Salesforce schema to detect in which
+order things need to be inserted. So,
+you don't need to care about this. This
+will be done for you behind the scenes.
+And yeah.
+Let me Let me Robert go a step back a
+little bit because some people may not
+know what the unit of work is in
+financial force patterns. Well,
+so these patterns are called actually
+Apex Enterprise patterns and they give
+you like a few classes and capabilities
+so that you can implement your Apex code
+in layers, right? In different layers
+and separate the concepts.
+Exactly.
+And one of the tools that they give you,
+it's called the unit of work. The unit
+of work is like a table in which you
+take note of the operations that you
+want to do. I want to
+But you actually do it later, right?
+It's like a notebook.
+Like one object, another object and then
+in the end you say commit
+and then it's it's inserted.
+But But really the the the listeners,
+they don't have to understand those
+concepts. And I also don't want to show
+off. I I just want to say that
+the domain builder takes away the burden
+for you to understand when you write a
+test how the objects are interconnected.
+This is something which
+the developers of the domain builder
+classes do and for them it's trivial.
+You know, they they actually create the
+custom objects. So they know perfectly
+how they fit together.
+And when you write the tests, you don't
+need to understand that. And I think
+that's a good thing because you write
+more tests than you actually construct
+and design custom objects.
+In the past, the person who writes the
+test always has to understand the
+the data model perfectly. And now you
+can basically
+rip that apart.
+Yeah, but I I that the developers that
+we normally have in Code Live, they
+really
+like knowing how things work behind the
+scenes. And that's why I'm trying to
+relate back to how Financial Force unit
+of work works. And also to relate back
+to the first comment that you made at
+the beginning saying that this is super
+efficient because you are saving DML
+operations. And that is correct because
+instead of doing like first I insert the
+rule, then I insert the rule set, they
+then I am inserting the analysis
+records, like everything is done at the
+same time in a single DML operation.
+Exactly. And
+and really
+the domain builder library makes tests
+much faster because simply of that.
+Our problems in the past when when when
+at Up To Go, we we invented this this
+concept and this library,
+we really also we we not only struggled
+with very complex and hard to read
+tests, but we also struggled with slow
+tests. And the slowness came from those
+multiple inserts.
+And we even had queries internally. And
+by moving this complexity into unit of
+work and and having this graph algorithm
+which finds out the dependencies,
+the tests ran much faster.
+I'm sure there is many people who love
+to mock out there. There is great
+mocking libraries. You will never get
+the speed of pure in-memory tests, but
+really
+back then we were at a company where we
+didn't want to mock. We really had to
+test all the triggers, all the
+validation rules, and all of that. And I
+I believe there's many people in
+Salesforce who actually want that.
+I I think also, well, I think the
+combination of both techniques
+Yes.
+is powerful, right? Because if you are
+writing like unit test like it
+like strict unit test then mocking is
+super helpful, but for integration test
+you need to use like real data, so.
+True. Yeah. Right, the right tool for
+the for the for the job at hand.
+I just I just opened a different test
+which, you know, because
+people should see different ones, you
+know?
+This is There is another feature in D&D
+that you can basically export a rule set
+to a file so that you can bring it from
+one org to the other. And this is just
+such a test which shows that you can
+actually export a single rule set. And
+you know, the setup is really super
+simple.
+Um
+we say we create a rule set, you know,
+we give it a name because later in the
+asserts we actually care about the name.
+And then we add two rules. And you know,
+and
+this is
+maybe this is an explanation for
+everybody who knows me that I always
+struggled with prettier as a as a
+formatter.
+We I really learned to rely on this way
+of formatting, you know?
+I I think it really makes it very easy
+to read when you when you indent it like
+this.
+Like I do it, you know? All the
+properties here and then an empty line,
+but with prettier it it gets a little
+bit messy.
+So, um
+yeah.
+Good. So, yeah, you see it. Um you know,
+here I'm just calling
+persist on the object.
+Here I'm just adding the rules
+because I'm not really interested in in
+the reference to the rules.
+I also want to say that, you know, this
+this rule set object which is created
+here, it's not an S object, but
+you know, there's stuff in there. You if
+you want the S object, you could for
+example
+do this, then you would get the S
+object. Or if you want the ID, you can
+just do this, you know,
+if you want the ID as I do here,
+you are not actually getting the ID of
+the of the custom object, but the domain
+builder covers that for you.
+So, in most cases
+those domain builder objects will nearly
+behave as
+as as the as the as object.
+Okay, so Alba,
+what do you think?
+Uh regarding that regarding what? Your
+Regarding the time, should we show more?
+Should Do you
+So, I think
+we can maybe talk a little bit about the
+limitations that you've seen in the
+framework.
+Yeah.
+Cool.
+Yes. Um
+limitation wise,
+there is not many limitations,
+technical ones.
+There is one technical limitation which
+exists with the unit of work, and it
+means you cannot really insert circular
+things. You know, it's it's perfectly
+possible in Salesforce that objects
+basically
+um
+reference each other, you know, like one
+object is is using the other as a
+parent, and the parent is linking to one
+child. You cannot insert
+this
+with the domain builder.
+You can do something
+I I just want to want to show you
+something from the from the standard
+tests.
+Um
+How is it called? Yes, self-references
+are possible. So,
+do you see that? If you if you if you
+have a contact which is your boss,
+and then another contact should link the
+boss, that's possible. So, you can
+you can have
+contact linking contact, but you cannot
+have the boss reference itself. You
+know, that that's not possible.
+Mhm.
+If you if you would need that, you would
+need to build something like manually,
+you know? You could perfectly use the
+domain builder, but you could not
+cover that directly with the domain
+builder. You would have to insert that
+or update the record later.
+Mhm.
+Yes.
+There is
+Sorry, I'll go
+No, go ahead. Go ahead.
+Yeah. Another restriction is
+which is not a problem for me and not
+for anyone I work with, but I I know
+people struggle with it. When you want
+to use it for standard objects, you
+you you have to invent a naming scheme
+like this underscore T or something.
+Um
+I also found that
+there are some use cases in tests where
+you need to create
+either a lot of objects
+or you want to randomize the setting of
+the features. You know, I I know there
+is many good libraries which where you
+can say create me 100 accounts, and
+those libraries basically find out which
+fields and this has and generate random
+values for that.
+Which is really cool.
+I tried to to marry that with the domain
+builder, but I found it really hard.
+Um so, if you need tests where you
+where you create large amounts of
+objects or where you basically want to
+populate previously unknown fields
+because you live in an org where new
+custom fields are added very often,
+then the domain builder might not be the
+right thing.
+I would say the domain builder is
+perfect for
+AppExchange
+work, you know, where a team a dedicated
+team works on a a package where where
+the the objects are really owned by a
+team.
+Yeah.
+And and I I would agree with that
+because I've just did it in that context
+and and I think it was like very useful.
+I I I think Robert that luckily you have
+great documentation here and the
+audience can like go to the repo and
+take a look at all the examples because
+you have examples for almost all the
+different use cases and I think yes, it
+has limitations, but the limitations are
+just a few. So, I think it's worth to
+take a look at it and to play with it.
+And I can maybe maybe just to add
+something to that.
+Mhm.
+Um
+I used the domain builder mostly in
+every single project I did, be it like
+commercial or not commercial, be it open
+source, across multiple companies and I
+I I I only found a few places where I
+thought it's not worth using it, you
+know? Sometimes the tests are so simple
+because the tests really just need an
+account object.
+Then maybe you just don't want to add
+the library because as you see um in the
+library there is a reference to the
+to a few of those open source MIT
+licensed financial force
+library objects.
+But I yeah, if you if you don't want
+that,
+you probably should not do it, but the
+moment you have like
+10 custom objects and and they are
+related with each other, it's really
+worth using it.
+It's really helpful. Yeah, I agree. I
+completely agree. So, Robert, to finish,
+we're going to take a look at some
+questions that were on the chat. I want
+to tell all the people who are watching
+the stream, if you have any more
+questions, put them in the chat because
+we are going to read them now. So, there
+was a question from Rohit Kumar, which
+is uh
+and I know the response to this. The
+question is, why are you using the
+system class system.assert class for
+assertions because Salesforce has a new
+class and you are not using it, Robert.
+Very bad.
+Yeah, that's true. Um
+it's not because I don't know about
+this, it's just because I'm not totally
+convinced that it's so much better.
+I really do not do not use it in in in
+most project. The the assert class is
+really cool when when you want to assert
+many other things, but
+yeah,
+I don't have to adopt every new feature
+from Salesforce.
+Yeah, I I personally think it's better,
+but I know that this repo was created, I
+think, 6 years ago, something like that.
+So, by that time, the Apex class did
+assert class didn't exist, and obviously
+it's like some effort to update it.
+Yeah, exactly.
+Okay. Yeah, and there is one more
+question. This question is about PMD,
+actually. And we're going to take
+advantage of that you are here to ask
+you this question. And
+they are asking about the difference
+between PMD and code analyzer.
+Apex code analyzer.
+That's a great question.
+They are like a good couple. They belong
+together.
+So
+It's code analyzer uses PMD.
+Exactly. So yeah, let me let me explain
+you this. You know, when I imported PMD
+to Salesforce, it was the only tool that
+you use.
+And then
+Salesforce
+actually
+worked together with me and with with a
+PMD community to
+improve PMD. You know, PMD cannot do
+some things which other commercial tools
+like Clayton or code scan can do.
+And Salesforce made a really smart move.
+They said, we're not inventing
+reinventing the wheel. They just added
+something. For example, the graph
+engine. And then they built the code
+analyzer as an umbrella technology which
+which works in the command line and
+basically calls PMD or the graph engine
+or ESLint
+whenever you scan code of that type. And
+by doing that, Salesforce really has a
+super flexible
+framework for scanning arbitrary types
+of Salesforce code. So I really would
+say if if you if you just lint your
+stuff in the IDE, you can perfectly use
+PMD.
+But the moment you you think of a devops
+pipeline where you want to use PMD for
+scanning Apex and metadata, where you
+want to scan
+JavaScript and lightning web component,
+you should have you should use the the
+code scanner for that. It's much better.
+And it's even mandatory now for for Apex
+change partners. When we go into the
+security review, we we actually have to
+use the code scanner which under the
+hood will use PMD. So, they they are
+really go together like
+like like love.
+Yeah.
+Yeah. Yeah. Yeah. Thank you so much for
+that, Robert. I've also popped up a QR
+code in case that you want to take a
+look at Code Analyzer. And And yeah, and
+also I wanted to add that Salesforce is
+investing in Code Analyzer, in
+integrating it with all the tools that
+we have with Einstein for developers,
+with Apex Guru. So, it's really
+interesting and you should all take a
+look if you don't know it.
+And Salesforce is investing in PMD, you
+know, which which is which you know
+Salesforce
+helped with PMD many years ago when I
+started, but now as it is such an
+integral part of the Code Analyzer,
+Salesforce is really
+um committed to actually contributing to
+open source. The Apex parser just
+recently got open source.
+And Salesforce really will
+improve this parser whenever Apex gets
+new features, and you know that Apex
+gets new features every release. So, I'm
+super happy about that.
+Yeah. Yeah. Yeah.
+I'm happy too about that. Yeah, Rohit is
+saying that Code Analyzer has also a
+good user interface to visualize like
+the graphs and so on. So, so yeah.
+Okay.
+So, I think Robert that we are going to
+stop here. I want to thank you because
+it's been so like so special to do this
+code live with you. I think you
+explained things so well.
+And
+I think that the audience will have very
+clear in mind what this framework is for
+and why it can be useful for them. I'm
+going to pop up one last QR code, which
+is your LinkedIn in case that people
+or my X, my Twitter.
+And people can even use the issues tab
+on the repository. You know, if
+something doesn't work for you or you
+want an extension, just create an issue.
+I try to respond friendly and fast. Um
+yeah,
+just tell me how how you made it work or
+not made it work and I will
+try to help you.
+Yeah. Uh yeah. So yeah, uh Rohit was
+asking like code analyzer uses PMD. Yes,
+yes, it uses PMD. That's why Robert was
+saying there is love between like PMD
+and Salesforce code analyzer.
+Um
+okay. So again, uh Robert, thank you so
+much. Thank you so much for the
+audience,
+uh Tech Lead Consulting, Sumant, uh
+Rohit, um
+that guy Hip Hop Dude, Niket, Defray,
+like everyone on the chat who
+participated on the chat today. Um I owe
+you a code live about mocks, about
+mocking, and that will happen uh I don't
+know exactly when, but in a few weeks
+uh because uh I decided to have this one
+first and uh but that doesn't mean that
+I have forgotten.
+Um thank you so much, Robert, and uh see
+you soon.
+Bye-bye. Thanks for having me.
+Bye.

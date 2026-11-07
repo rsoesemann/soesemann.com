@@ -1,0 +1,852 @@
+foreign
+we have more seats in front
+in case you want to see me more come
+here
+it's great that you're here before lunch
+time
+I want to kick off my talk by showing
+you my favorite book on programming
+clean coat by Bob Martin
+and the best quote in the book is clean
+code always looks it was written by
+somebody who cares
+I know that you care
+and I know that you have colleagues who
+do not care
+and this is why um in 2015 I ported the
+code analyzer PMD to Salesforce so I
+would extend that statement to say clean
+code looks like it was written by
+somebody who had PMD to enforce it
+and
+since then I had many talks about PMD
+and
+admins Salesforce admins who cared came
+to me and said hey Robert Salesforce is
+a low code no code platform how does
+clean code work on that
+you know everything is mostly XML
+metadata and
+this is exactly why we are here hello
+I'm Robert and we will talk in the next
+40 minutes about customizing PMD for any
+metadata within minutes
+you might ask yourself why we need 40
+minutes for that but actually I
+struggled hard to get all the Hands-On
+stuff into 40 minutes so if we don't
+have time for QA just bump into me
+during lunch time
+okay
+but we have enough time that I can
+actually ask you for a quick show of
+hands can everybody raise his hand who
+is already like heavily using PMD
+cool thank you guys I'm proud of you
+it's it's yeah and the other who is not
+using PMD but it's like looking into it
+Okay so
+I hoped it was half half but it's not
+but
+I will not immediately jump into a
+Hands-On
+but start with a short overview because
+I think that's helpful for for all of
+you for the people who do not yet know a
+lot about PMD but also for the people
+who use PMD and might ask themselves is
+PMD a thing is it a niche tool so
+why does my okay cool
+I'm fast so the big picture
+it all starts with messy and risky code
+we all write it in our IDE and we want
+it to be secure and clean coat when it's
+merged into git or in the app
+um I make the distinction between messy
+and risky
+because you can have secure code which
+is unclean and you can have clean cone
+which is insecure and you probably all
+know the distinction um
+if your app is insecure you will go out
+of a business immediately if it's
+unclean it might take a year because you
+if you're if it's hard to test hard to
+maintain hard to understand you would
+just realize when you want to add
+features
+when Salesforce opened the app exchange
+or I think even before they gave us this
+Infamous tool check marks so this is
+like the commercial professional tooling
+landscape
+and everybody who used check marks knows
+it's not like perfect from the UI it
+gives only a few issues and many false
+positives so it opened the space for
+commercial vendors like Clayton code
+scan DigiTech and they do much more they
+have more rules they find better results
+and they have nicer UI
+but we all or many of us developers we
+think tooling should come for free so
+there was also
+um like a free open source space and I'm
+just mentioning a few tools there's like
+for the JavaScript developer there is
+eslint for everything Apex visual Force
+there was PMD for some years smaller
+tools like retired JS to
+um find problems in your JavaScript
+libraries your external ones CPD is a
+small part of PMD which finds redundant
+code
+but and I just want to say Salesforce
+invested in all of the tools they
+extended like eslint for lwc when I made
+PMD there was a team in Salesforce who
+built the security rules
+but it still didn't help like all the
+commercial players they still hacked on
+pmds said it's not really a good tool
+for especially security issues and they
+were right because
+um
+all of those tools they are linters they
+look at code immediately they they tell
+you in a second what's wrong but they
+don't understand how code hangs together
+how the data flows and this is what you
+need for security issues like Crut and
+fls and things like that so Salesforce
+did more they invested in a team and
+this team built something which actually
+puts this open source stack on par with
+the commercial tools not immediately but
+from the infrastructure the Salesforce
+graph engine is the the latest edition
+it's a tool which exactly does what what
+all those tools do they understand how
+code hangs together how it behaves at
+runtime and
+to to actually put this under a nice
+umbrella Salesforce
+um
+builds the Salesforce code analyzer on
+top so no Reinventing the wheel there's
+just one tool which you can actually
+use locally in your IDE and it runs all
+those tools it harmonizes the results
+just here it's it's an sftx plugin so
+it's really neat you can make it part of
+your devops pipeline
+and yeah and today we we just want to
+talk about PMD but I just want to show
+you that actually
+there's not the open source tools that
+nobody cares about this is the
+Salesforce open recommended stack so if
+you already invested in PMD or today
+decide to actually do it you are in a in
+a sweet spot
+okay
+a short
+overview for those people who don't know
+PMD so PMD you just need to download it
+and it doesn't need to be installed it's
+a command line tool and it comes
+pre-packaged with 60 plus rules for Apex
+and visual Force Security topics
+performance things like no DML and Loops
+naming conventions best practices and
+you can add custom rules and I will show
+you how to do that for Apex
+but many people here in the room might
+already do that and say I want to know
+how to do the same for low code metadata
+like custom objects and Fields perm sets
+flows and we will exactly talk about
+that
+so we will cover
+all of that
+perfect
+so
+I'm good in time I might kill you with Q
+and A before lunch
+so
+you need two things for that
+you need
+your rule set XML it's a file
+I will show you one in a minute
+and you need a tool which nobody has
+heard about it's an ugly Java Swing UI
+it's called the PMD rule designer and
+it's part of the download of PMD and
+it's really helpful for building custom
+rules
+so we will do it
+so but let me go back to
+the rule set and actually get out of my
+presentation and show you one
+and
+I just want to show you this GitHub
+repository it's called unhappy soup
+everything I do today is in here like
+ugly code which shows you which PMD
+issues how they actually look like
+and there's also when you look there
+there's a PMD folder
+and in the PMD folder there is a rule
+set and I don't want to show you that in
+git but
+I I'm showing this because it's really
+crucial that you when you start a
+project you immediately put that file
+into Version Control this is not
+something you have on your developer
+machine this is something you have as a
+team which defines your standards which
+you evolve
+and so
+that's really crucial
+but let's switch to
+vs code it's the same the same project
+same folder structure you know here's
+PMD and here's the rule set
+if you don't know there is a wonderful
+plugin from Charlie Jonas Apex PMD
+which
+I think
+um
+what's the command
+I don't know the command oh
+you you can tell it basically where your
+rule set is and then it just finds it
+but
+actually
+can you see it is it is it like big
+enough
+okay nobody raised his hand okay
+and sorry for the people here I'm always
+looking there because so much more
+people here so I'm not ignoring you
+so the rule set
+it starts with yeah a rule set has a
+name a description
+and before you even
+think about what kind of rules you want
+to configure or customize you say
+what parts of your repository you want
+to scan and I just use this sftx
+structure Force app where all my code is
+in main default and I don't want to scan
+external libraries because they often
+have ugly code so I exclude Force app
+and then just include main default
+by the way there's so much more you can
+do in rule sets I will not cover
+everything I will just like cover what
+what I use okay
+and then you you decide which rules you
+actually want to apply and for that I I
+just want to show you the you know this
+new PMD website and
+and when you look Apex rules you see
+there is categories you know there is
+like best practices design and each
+category has a lot of rules so when you
+oh that was one when you just say I want
+all the design rules you just reference
+this design XML the code style error
+prone
+so that's the easy part and then you see
+it already where I commented with no way
+you know PMD is an open source project I
+I added I wrote many rules but there's
+also other people and they create rules
+I don't like so
+um for example I don't want to be forced
+to have run s in my unit tests or always
+assertion messages so I just exclude
+those rules
+um another thing which where I I'm going
+to show you something is this priority
+thing so here I'm I'm saying I take for
+sure all the security rules but I make
+them like top priority
+and let me just go into one messy code
+and you see there's like two PMD issues
+there is
+a Crut violation and a system debug you
+know they don't they impact performance
+so don't put them there but there's a
+red line for the security issue and a
+yellow line for the not so important one
+and that's really it's it's not only
+about colors you can actually train your
+devops pipeline to failure PR when when
+you have a high priority issue and just
+output the others as commands so this is
+what you can do with priority
+okay
+Maybe
+let's go to
+rule properties
+when you
+Google or not not Google when you when
+you look up a rule in the PMD
+documentation you know you get nice code
+explaining it and then there's always
+mostly in all cases those properties
+and for example this is this is my
+favorite rule if I could just stick with
+one this is this is the one cognitive
+complexity it was contributed by gear
+set if anyone is in the room thank you
+and it it it tells you how how
+complicated your class is to understand
+refactor and there is a threshold for
+classes of 50 and one for methods of 15.
+and when I when I go into
+my example class cognitive complexity
+here
+you see when when PMD runs
+it tells me hey this method is way too
+complex too many nested ifs and
+everything and if you just want to cheat
+like many people want to do you just
+like make a rule set with properties and
+just change this one
+property
+and then just
+the problem
+magically goes away when you resave
+you definitely shouldn't do that because
+those numbers are there for a purpose
+but
+I know it's hard like why why do people
+hate PMD the most because it's brutally
+honest those commercial tools they they
+trick you that's my opinion but many
+people even even today people told me
+yeah I ran PMD on my existing code base
+like 8 000 issues I uninstalled it so
+if the pain is too big just play a
+little bit with the numbers no but
+um you know
+it's it's not only about tweaking it's
+about
+um actually making being more flexible
+with rules there was for example a rule
+that Apex unit have should have asserts
+which is a good one and then Salesforce
+brought out this new assertion message a
+certain class
+and people said when does PMD support it
+PMD doesn't need to support it because
+you can just basically in this
+additional assert method parameters put
+the new thing from Salesforce or your
+own you know many companies create their
+own stuff their own Crut libraries the
+effort Flip or the nebula trigger thing
+we just learned about Aiden where are
+you
+here
+right so
+and
+and really
+basically every rule has has great
+properties you know you you really can
+adjust it a lot take so use the
+documentation is really great
+but now my timer is telling me that we
+should go to custom rules
+and for custom rules
+I want to I want to show you where we
+will spend like the next time you know
+this this class it has
+like two things I wanna
+try to do two things you know there is
+one rule in Salesforce which says you
+should not put system debug messages
+into production code because it degrades
+quality
+and I disagree a little bit and I just
+want to make the rule a little bit
+smarter by saying
+if I put a logging level error there
+what I do in production code it should
+not show an error
+right
+and then I will show you
+yeah but but let's let's do one thing
+first so
+let's shortly go in here so
+you you basically start the PMD rule
+designer from
+I will show it to you
+let's close it
+that's this wonderful tool
+I cannot I can close it here
+right
+so it's really just
+calling PMD with the slash designer
+parameter and before you need to tell
+PMD where to find Java FX that's the UI
+framework but when you do that
+it just loads this wonderful
+thing and I know as it's a swing UI I
+cannot really
+um
+zoom in quite good so I will show you
+the parts there's there's one important
+part here on the top it you select the
+language you want to actually write a
+rule for so today we will do Apex and
+XML for any metadata
+then you have this source code
+field where you put in the code which
+has something messy that you want to
+detect
+and then so I just copied the the messy
+code
+that I showed you before
+and then there is the whole Magic of of
+PMD of par source of tools it's called
+the abstract syntax tree so
+what you see here the structure this is
+actually what
+what a parser sees what PMD sees so it
+doesn't see your code it it has this
+structure so there is an apex file
+which represents a user class you know
+you can have multiple classes in in one
+file it has methods
+and methods have parameters block
+statements and you know for
+understanding this this rule set
+designer is just crucial you don't have
+there's no documentation yet because
+this we use an internal parcel from
+Salesforce
+so just put your stuff in here and
+um you know
+I
+and then there is an important other
+field here at the top at the bottom and
+there you put a so-called XPath
+statement XPath is a way to find nodes
+in XML and just think of this abstract
+index tree as a as an XML document so I
+will just go and take
+this snippet
+from
+from my existing rule set
+so
+I will
+exclude
+the alt rule which I didn't like
+the avoid debug statement
+and then I go into my new custom rule
+set and see that at the bottom I'm
+including two custom XML files you can
+name it like you want but you need to
+put them in separate files
+PMD would even allow you to have it here
+but the Salesforce code analyzer can
+only like manage it very good when you
+put them in extra files so
+try have have exactly the same structure
+and this is
+it it's another rule set
+and
+it has such a
+short snippet
+it's rule
+it gives the rule an API name
+it's for a specific language Apex and it
+has a message which is outputted in the
+IDE
+and then it's always using a Java XPath
+rule class so you always take that for
+everything you do Apex or
+um
+or XML metadata and then there's some
+properties
+you can you can skip them but that's the
+important part what you see here I'm
+just copying that
+and I just want to have you you have a
+look at this this is this is the only
+thing you actually where you need a
+little bit of learning
+this is the thing that finds in this
+abstract syntax tree the problem
+and
+let me just take that
+and go into
+this here
+at the bottom of the screen I'm
+inserting that
+I'm just zooming in a little bit with
+Max Zoom so I'm putting this in here
+and
+maybe you can you can already see
+no it doesn't work it doesn't work here
+it's it's finding a method call
+expression so we are looking for
+a method where the name is system debug
+and as salesforce's case sensitive we
+use like a function lowercase
+and that's the first thing I I don't
+want to talk about the the rest but
+[Music]
+um
+so let me just remove this
+so when I take that away
+do you see that it here
+actually finds something so it detected
+my
+my system debug but now I want it want
+to make it smarter
+and for that I just need to
+look a little bit into the details
+you know you there's a thousand ways to
+write it but I'm lazy and I just looked
+oh yeah if I put like a logging level
+error I have the the method called
+expression has like three child nodes
+reference expression whatever and if I
+take this away it has two so I basically
+say the rule should only
+detect as issue
+those call that that method called
+Expressions which have two children the
+count star is two children
+so
+that's basically it so when you when you
+have it
+by the way this screen here tells you
+um you know at the at the left side it
+tells you all the properties so when you
+click a node here it it changes the
+properties and you can you know a method
+you go on it and it tells you the full
+name
+so
+I know that this might look a little bit
+complicated but it's actually not so you
+don't need documentation you take your
+code snippet if it's very big you reduce
+it to what you actually care about and
+then you fiddle a little bit with
+XPath and I actually plan on showing you
+documentation but they just magically
+invented the tool which helps with that
+it's called chechi PT you can give you
+can give chatsu PT and I will show you
+later a flow example I just put a flow
+in and said please write me an PMD rule
+including all the PMD notation which
+finds DML and flow loops and it took
+like three iterations like 10 minutes
+and I just got it so
+when I said you don't need to program
+and it works within minutes I actually
+put chat TPT into my consideration for
+that
+so
+um yes
+right I just want to show you another
+one where the like expand statement is a
+little bit more complicated
+this rule
+this is something which I often did like
+wrong
+accidentally in my code
+do you see this if statement
+where I check if the account is
+is not empty and not null I do it in the
+wrong order I I should first check nulls
+and then it's empty because when it's
+null
+I stoled I I'm sure but but somebody
+famous in the community created this
+rule
+um and
+you know this is the rule it looks a
+little bit more complicated but I'm just
+I just want to show you
+how how far you can go you can actually
+find empty patterns so many people think
+oh
+PMD XPath rules they are quite simple
+they cannot really detect coding issues
+but
+just this is a sign it can maybe I can
+even shortly paste it in here
+so yeah
+so it it exactly you know it's it's it's
+it's a terrible
+swing your eye but it detects exactly
+this line where I
+do this wrong
+and as I told you don't fear the X path
+um
+it it looks more cryptic than it
+actually is
+okay
+let's go
+let's go to where many people are
+waiting for like XML
+everything in Salesforce is XML
+and I want to start with some something
+simple
+like the metadata of an apex
+class I will paste it in here it will
+give me this
+red syntax Arrow because I did not
+select the right language
+I go into XML and then you immediately
+see
+it's again broken down as an abstract
+syntax tree
+and then you can do something nice
+what I do here
+I just match Apex class
+I look for the API version then I take
+the text value convert it to a number
+and say it needs to be
+bigger or equal than 50. so the the
+description is always in a negative
+sense so this is the problem
+so
+when I put this in here
+you see it immediately
+finds the 45 which is
+too small
+okay
+what can I show you more I'm I I don't
+will not put it into the rule designer I
+just want to show you that like metadata
+like custom objects or custom Fields
+should have a description
+or
+no underscores and field names there was
+a time when I was really putting the
+type of fields into the name you know
+encoding the type in so that formula
+developers actually see what the type is
+you could you can build rules that
+actually check that they look ugly but
+it perfectly works
+but I want to show you something where
+also chat gbt helped me in building it
+it's
+flow with DML in loops
+so
+cool 10 minutes ago so that's a flow
+it has a loop this is how Loops are made
+in flow and there is
+it references an element called update
+contact
+and when when you search for that in the
+class
+you see it's a node of type record
+updates and you know that's that's
+actually complicated it's it you know
+maybe until now you thought okay PMD can
+find one node but what we do here is we
+say Loop
+find go go to the element reference
+there
+and this is perfectly doable so let's
+just take this flow
+put it in here
+and then
+steal the magic
+XPath statement
+I think
+yeah that's the one jet GPT gave me
+so I will put it in here
+and you see
+it finds the update contact node
+and
+let's just look at this the statement so
+did you see how powerful XPath is so we
+say we're interested in flows with loops
+where there is a target reference
+which has the same unique name as
+another element and this is what what we
+do there when when it says like text
+image equals
+and then we say we we want an element
+flow record creates the leads updates
+and we compare the two names so this is
+I think this is really powerful so you
+know I don't want you I want you to but
+you don't need to understand it you just
+need to understand it with xpass rules
+you are even able to look at multiple
+parts of a file and and still show the
+issue at the right place
+XPath is very powerful
+okay
+I actually planned for like people
+jumping and shouting
+being super thankful for that no no
+um
+I just want to spend a few more seconds
+on the rest you know not everybody's
+into
+flows and coding some people just put
+all your their Orcs metadata at least
+the stuff you can put into a Version
+Control
+and you can you can basically check all
+those things you know your password
+policy is your password policy
+um secure
+is yeah you can
+what else do I have like do we have
+profiles with modify all
+do we have too long session timeouts
+things like that you know that's that's
+more important for the people who are
+not building apps who just version their
+um
+org and want to do some checks and I
+know that all the devops tools out there
+gear set compado they they have PMD
+included and I think they all support
+custom like rule sets and I think with
+doing that you you can basically check
+most of the issues that you can find in
+in any type of metadata
+okay
+I'm totally in time
+before I jump into q a I want to thank
+you for your attention your interest
+your caring about clean code
+as I said
+um all the code the rule sets you found
+there's also a GitHub pipeline using
+which Spanos great pipeline tool which
+calls PMD in the code scanner you find
+it all under unhappy soup
+behind the QR code I'm not sure where it
+leads you I think the slides so if you
+want to have two slides and if you have
+a question you can follow me on Twitter
+and and write me a DM if you have any
+questions or want to give me feedback
+and yeah now I would say we have
+it's totally okay when you go to lunch
+but you can also ask some questions now
+Rob yeah can you um have oh sorry can
+you have different rule sets for
+different folders so if I say I have a
+legacy code code base yes uh hold that
+to a lower standard than my new code
+base
+yes I
+I mean it depends on the tool for
+example in vs code you can give Apex PMD
+the the extension only one rule set but
+you could perfectly build a pipeline
+doing that you know all those tools I
+think Salesforce is even building a bit
+bucket and GitHub Pipeline on their own
+but all of them they basically let you
+pass in a rule set lets you let you
+define all the PMD or code analyzer
+parameters so you could basically
+say for this subfolder of my humongous
+monolithic app I want to have this rule
+set and this I've never I've never done
+it but I think it's perfectly possible
+because in the end it's just calling the
+tools multiple times
+mark
+yeah I don't know everybody's first name
+but I try
+could you use PNG sorry
+could you use PMD to prepare your app
+for Security review
+that's a very good question
+I I can I can first tell you that I I
+believe Salesforce would never tell me
+that that Salesforce is actually
+investing so much because they want
+the open source stack without check
+marks to allow that
+and as you all know I work for a PDO
+partner which means we are building apps
+for app exchange partners
+we use this stack for our thing and we
+we find issues for that not only with
+pnd but with the graph Engine with
+retired.js
+I think so yes and
+um honestly and you know we even did
+that together we also compared it with
+commercial tools they're also not free
+or false positives or so so
+I would say there's still a long way to
+go until Salesforce actually gives us
+the tools which make us go into Security
+review without having any issues it's
+still like a opaque Black Box
+but um
+if you if you put some love into PMD I I
+think it can help
+yeah so continue to use it
+yes
+yeah following up on the question that
+you just asked
+um so it's probably possible to scan
+just a part of the code base but this is
+also possible to configure a pipeline
+where you only scan new code coming in
+in a PR
+yes that's that's possible and I I've
+seen a teammate of us doing this you
+need
+in your pipeline you need to do
+something different you need to it's
+it's not like PMD doing it or the
+Salesforce code analyzer but there's a
+way where you can basically
+like get the div of what actually
+happened and then just put that into
+that so maybe you can contact me then I
+can can I share code I didn't do it but
+it's possible okay yeah it would be nice
+um and I'm not 100 sure if it works with
+that it even shows it in line you know
+in the pull request which which the
+tools like Clayton do very good they
+show it really nicely but it's
+definitely doable okay
+he knows how to do it we do that with
+GitHub actions yeah so we use a package
+called a plugin called sfdx git Delta we
+get dirty from there we upload it as an
+artifact to an AWS server we run PMD on
+that and it Returns the results and then
+GitHub actions can put comments in line
+I think we use that yeah it was
+something with Delta thanks cool
+anyone else
+everyone hungry
+so again thank you very much
+um
+keep clean
+and you definitely have to go to the
+Clayton Booth because they have those
+certification stickers
+for clean coders
+so go there
+thank you
+[Applause]

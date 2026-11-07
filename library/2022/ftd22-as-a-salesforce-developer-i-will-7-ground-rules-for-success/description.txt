@@ -1,0 +1,4 @@
+After a decade of working as a developer, consultant, and architect in the Salesforce ecosystem, I believe that it takes more than deep technical skills to be successful. Over and over I have seen a handful of meta-skills separate the rock stars from the crowd. Ground Rules have made Salesforce developers like me more effective in their work, more flexible towards changes, and more composed when stress levels are high.
+In this session, I will share the 7 Ground Rules – with practical examples and tools you can use next sprint – that will help you and your team succeed.
+
+http://frenchtouchdreamin.com

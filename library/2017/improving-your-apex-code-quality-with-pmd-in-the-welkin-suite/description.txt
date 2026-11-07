@@ -1,0 +1,5 @@
+Joint webinar behind The Welkin Suite team and the creator of PMD for Apex! We'll help you to detect the most common issues that can negatively affect the build, analyze them, and enforce your own rules to follow for perfect Salesforce development.
+
+For The Welkin Suite IDE for Salesforce development visit our website - https://welkinsuite.com/
+PMD Apex website - https://pmd.github.io/pmd-5.5.6/pmd-apex/index.html
+Find Robert Sösemann on Twitter - https://twitter.com/rsoesemann

@@ -1,0 +1,76 @@
+now if you may just teach me what you
+have
+learned where to start you know there's
+there is many details there's many
+details which which I cannot even like
+summarize in in in a podcast the the
+bigger answer is AI is hard you know AI
+is hard we we s force people even people
+like you and me who do this for a while
+are architect we are in a quite easy
+State you know Salesforce is not the the
+big computer science stuff Salesforce is
+really easy with low code and a lot of
+pains are taken from us by the platform
+and this is why we are mostly on the
+platform because we are more interested
+in actually getting business value than
+nerding around and when you when you
+look at AI especially custom AI it's
+really hard you have to look at all
+those places that we have not looked for
+for so many years as Salesforce
+developers you know I can just tell you
+that you know we we built one app which
+was really just native Salesforce app
+using using chat GPT
+API and then we we struggled with the
+the size of the context window you know
+because we wanted to work on more text
+and then we we looked into Vector
+databases and rack retrieval augmented
+generation and then we had to learn
+about AWS and Google CL cloud and so
+much stuff and this was so complicated
+and it was so different from from normal
+Salesforce development which is very
+restricted and expensive
+[Music]
+now if you may just teach me what you
+have
+learned where to start you know there's
+there is many details there's many
+details which which I cannot even like
+summarize in in in a podcast the the
+bigger answer is AI is hard you know AI
+is hard we we s force people even people
+like you and me who do this for a while
+are architect we are in a quite easy
+State you know Salesforce is not the the
+big computer science stuff Salesforce is
+really easy with low code and a lot of
+pains are taken from us by the platform
+and this is why we are mostly on the
+platform because we are more interested
+in actually getting business value than
+nerding around and when you when you
+look at AI especially custom AI it's
+really hard you have to look at all
+those places that we have not looked for
+for so many years as Salesforce
+developers you know I can just tell you
+that you know we we built one app which
+was really just native Salesforce app
+using using chat GPT
+API and then we we struggled with the
+the size of the context window you know
+because we wanted to work on more text
+and then we we looked into Vector
+databases and rack retrieval augmented
+generation and then we had to learn
+about AWS and Google CL cloud and so
+much stuff and this was so complicated
+and it was so different from from normal
+Salesforce development which is very
+restricted and expensive
+[Music]

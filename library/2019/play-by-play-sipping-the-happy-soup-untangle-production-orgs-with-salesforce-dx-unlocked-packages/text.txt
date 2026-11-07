@@ -1,0 +1,68 @@
+Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages
+In this course, you'll learn how to use Salesforce DX Unlocked Packages to overcome a major challenge of Org-based development - the infamous Metadata Happy Soup. See how to untangle unstructured metadata and convert it into a set of flexible and maintainable packages.
+Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages
+In this course, you'll learn how to use Salesforce DX Unlocked Packages to overcome a major challenge of Org-based development - the infamous Metadata Happy Soup. See how to untangle unstructured metadata and convert it into a set of flexible and maintainable packages.
+This course is included in the libraries shown below:
+Core Tech
+What you'll learn
+Play by Play is a series in which top technologists work through a problem in real time, unrehearsed, and unscripted. In this course, Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages, Salesforce Architect Robert Sösemann will bust common myths that Salesforce DX is only helpful for ISVs using Managed Packages. Starting from a real world scenario he will guide us in small riskless steps through the process of converting a Happy Soup Org full of tangled Metadata into a set of well-defined packages that can be versioned and worked on independently by different teams.
+Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages
+Beginner
+1h 31m
+(16)
+Table of contents
+Course Overview
+2m
+Course Overview | 2m 52s
+To view this content, start a free trial or activate one of our plans.
+Introduction and Setting the Stage
+6m
+Presenting the Scenario and Challenge | 3m 42s
+To view this content, start a free trial or activate one of our plans.
+Fitting into the Bigger DX Context | 2m 37s
+To view this content, start a free trial or activate one of our plans.
+Org-based vs. Package-based Development
+11m
+Package-based Development - Types & Benefits | 7m 39s
+To view this content, start a free trial or activate one of our plans.
+Org-based Development - State & Challenges | 3m 57s
+To view this content, start a free trial or activate one of our plans.
+Assessing and Untangling Metadata
+11m
+Introducing Our Tangled Org | 6m 13s
+To view this content, start a free trial or activate one of our plans.
+To view this content, start a free trial or activate one of our plans.
+Define a Preliminary Package Structure | 2m 34s
+To view this content, start a free trial or activate one of our plans.
+Creating Dependent Unlocked Packages
+34m
+Making Piles of Metadata | 7m 36s
+To view this content, start a free trial or activate one of our plans.
+Converting Piles to DX Projects and Packages | 11m 27s
+To view this content, start a free trial or activate one of our plans.
+Adding Dependencies to Packages | 4m 4s
+To view this content, start a free trial or activate one of our plans.
+Uploading Package Versions | 11m 18s
+To view this content, start a free trial or activate one of our plans.
+Advanced Packaging Concepts
+10m
+Installing Packages | 2m 24s
+To view this content, start a free trial or activate one of our plans.
+Optimistic Metadata Management | 5m 1s
+To view this content, start a free trial or activate one of our plans.
+Viewing Packaged Projects in Github | 3m 17s
+To view this content, start a free trial or activate one of our plans.
+Summary and Recap
+13m
+Let’s Recap! | 6m 47s
+To view this content, start a free trial or activate one of our plans.
+Supplemental Content Suggestions | 6m 53s
+To view this content, start a free trial or activate one of our plans.
+About the author
+Don Robins
+52 courses4.5 author rating1549 ratings
+Don Robins is a well known Salesforce MVP, instructor, author, and speaker.
+A custom business application developer for more decades than he cares to
+admit, he focuses on Salesforce technical instruction and knowledge
+sharing
+Robert Sösemann is a Germany-based software developer and experienced Salesforce expert. He is well-known for building the Open-Source Code Analyzer PMD for Apex. He blogs, tweets and speaks at conferences about Developer Agility and Clean Code. Although a Computer Science alumni, he didn't start his career coding. After managing Software teams for some years, he rediscovered his love of programming in the Salesforce ecosystem and has never been happier. Robert works as Principal Architect for the Salesforce PDO Partner logicline where he helps customers get their product ideas into the AppExchange faster.

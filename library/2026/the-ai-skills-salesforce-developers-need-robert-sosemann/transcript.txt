@@ -1,0 +1,2056 @@
+[music]
+[music]
+All right. So, hello everyone. This is
+Shisha. This is a new episode of
+Salesforce Way podcast. We have our good
+old friends Robert Sman coming back.
+Hello, Robert.
+>> Hi. She thanks for having me.
+>> Has been it's been some time since we
+last talked, right?
+>> Yes. Yes. And u well why not uh to
+introduce yourself? I think you have
+changed a bit of a situation as well.
+Yeah. Um
+I'm Robert. I live in Germany close to
+Stoodgard.
+I'm a Salesforce veteran in the in the
+sense or Salesforce dinosaur in the
+sense that I think it's 14 years now.
+I
+I'm working for the Salesforce partner
+Akiva
+uh a US-based company which helps um ICV
+partners and Salesforce Salesforce
+customers with building apps digital
+transformation and in the last years um
+a lot um how to make use of AI
+in in business apps. Um, [clears throat]
+so maybe your viewers know me as the
+clean code Robert the craftsmanship guy,
+but I really got a new topic which is
+[laughter]
+um agent AI and how to make use of it
+and agent force.
+>> Yeah. And I'm I'm very happy with that
+new topic. It's it's it's really
+interesting times and an interesting
+topic. So I'm I'm happy that you
+[laughter]
+agreed that we talk about this topic
+today.
+>> Why not? Your image to me especially on
+LinkedIn has been definitely shifted
+towards the AI. So you are the AI guy in
+our ecosystem. So I also saw you post a
+lot of messages there about the AI and
+the things you have learned. I
+appreciate for that too. So learn a lot.
+>> Yeah.
+>> Yeah. I I think the old topics they they
+are not irrelevant
+but um
+it it the focus has changed and I I
+>> you know I I don't decide on my topic uh
+to the world. It's more about I I just
+talk about what I care about at the
+moment and AI is just the the number one
+thing. [laughter]
+>> All right. Um I want to get your help to
+to assist me here uh on the AI learning
+journey and the questions and the
+puzzles. I think a lot of other
+Salesforce developers also have a
+similar challenges at the moment. So
+let's see how we're going to uh resolve
+this or figure it out. We haven't
+discussed all the details. So we just
+say hey let's uh have a chat about the
+AI but we don't really know the details
+what question I'm going to ask so it's
+going to be the first act on the fly so
+are you ready to help me
+>> sure absolutely
+>> okay
+>> that's the most honest way so people
+actually believe that that we didn't
+script anything
+>> yeah all right so maybe I give you a bit
+of like context how I see the AI era and
+how I'm like uh approach this at the
+moment. So, so to me I usually typically
+put AI as like three different
+categories. The the first category to me
+is like the Salesforce platform AI which
+is like a agent force data cloud that
+all the Salesforce developers maybe are
+more uh familiar uh with and then we
+have the AI application layer which is
+like a cloud codeex
+for them we need to learn a bit how to
+manage the context how to do the MCP how
+to do the rack you know how to ask good
+questions so those code agents can
+respond in the correct manner. Um, and
+then the third is like a more wider.
+It's like a machine learning skills.
+It's really like the the good old basics
+like a linear regression, logistical
+regression, vector or those mathematics
+and the Python libraries how to do those
+things. To me, I typically put them into
+like a three different categories.
+>> Mhm. How however nowadays everyone say
+AI skills they kind of like mix them
+together. I don't know if that's a good
+thing but to me I really see the
+differences. They are totally different
+career path as well to me. I don't know.
+Do you think that's a a good way to say
+so?
+>> Absolutely. I mean it's it's a
+difference
+between using a tool
+or applying it to the product you sell
+to the world or inventing the product
+you know so the the when when you say ML
+machine learning that's skills that the
+people need to know that are building
+those models and those tools and
+optimizing them but and I would say
+that's not a career path for most of us
+who who [clears throat] are in
+application development.
+Um, it's I would say it's good to know a
+little bit about those things, you know,
+like like when you drive a car, it's
+actually good to know how a car works,
+but you knowing it to the detail where
+you could build your own car. I I think
+that's that's maybe not so important.
+But the other two things, they are super
+important. We need to understand how to
+use AI to do our work.
+>> Mhm. [clears throat] And AI is also part
+of what we produce in in our work. So
+you and I, we we build boring business
+applications, you know, not computer
+games or anything fun. We build the
+things that back the world that back
+companies and we need to learn and
+understand how we can put AI into this
+mix of of business applications. So
+yeah, I would say everybody needs to
+learn
+a little bit of all of them. Yeah.
+>> Okay. Yeah. Like those I I I also like
+reflected if we reflect this back to the
+old programming world. We also had the
+sales for Salesforce platform
+programming like Apex and Lightning Web
+Component or the Aura, right? And also
+we have the industry standard uh
+applications like React or something.
+Then then we have the people who write
+the developer focused tools like your
+PMD or the air that Chris in the last
+episode discussed. So I also see it's
+quite similar to to the old uh
+programming world as well. But but I
+have this challenge
+>> um to figure out what what's the border
+what's the boundary especially between
+the Salesforce platform AI and the AI
+application engineering like like agent
+force for me I only see the titles in
+the LinkedIn when people post something
+ah there's a GA coming there's new
+feature coming but I didn't really pay
+much attention because I see it's a
+fastm moving pace and also like cloth
+code or codeex there are a lot of
+certificates coming out as well I pay a
+bit more attention towards that because
+again it's more industry standard I can
+it can be used in multiple different
+other uh technical stack as well so I
+don't know what what's your opinion here
+I I I get your confusion
+>> I I recently did this claude code
+architect certification
+So I can tell you what it uh what it is.
+It's a I would say it's a mix of both.
+So you're right. It's it's it's
+sometimes confusing to differentiate.
+But when Salesforce talks about Asian
+force, I would say it's 99% talking
+about how to put AI
+into Salesforce orgs or applications.
+So it's the umbrella term for everything
+Gen AI which is in the platform going
+through sec Salesforce's own trust
+layer. You know that that was the
+initial story because we could all say
+why is Salesforce not just allowing
+people to call out to LLMs or cloud code
+or APIs like every other system. And the
+story goes like this. This is unsafe.
+You need to make sure that your data is
+not corrupted. It's not like sucked out
+into an external platform.
+Um and this is why they
+basically built this internal machinery
+called agent force but in the end it's
+not like a separate AI it's just using
+all those large language models outside
+so anthropic openai Gemini but they
+build this yeah you know Salesforce is
+also a low code platform so instead of
+you just exposing just using an API I
+they give you artifacts like prompt
+templates which allow you to to store
+prompts
+together with some configuration data
+which model as a as an XML metadata and
+version it. And then there is agent
+force agents which allow you to build
+yeah agents um which can call tools and
+call prompts and do something on behalf
+of of the user and
+for sure do you also need some kind of
+storage and this is where data cloud
+comes in. So data cloud is used for for
+accessing structured and unstructured
+data doing rag but it's also a heavy
+platform for monitoring and observing
+everything agent force you know how is
+my agent going how do people like it how
+long how many tokens do I need so I just
+recently did this Salesforce has another
+certification it's called forward
+deployed engineer FDE E
+>> it's it's like the I I think it's the
+way how Salesforce wants consultants to
+work in the future. It's basically a a
+two-day seminar where you get trained on
+how to sell agent force and data cloud,
+you know, how to find use cases, how to
+sell it.
+Is a certificate or is it just a
+>> Yeah, it's it's it's a strange thing.
+It's it's as much work as a certificate.
+So you have to do a lot of um trail head
+stuff like agent force legend and data
+cloud
+>> and then you have to visit the city and
+do a two-day course which at a
+Salesforce building. So I was in Munich.
+>> Mhm.
+>> So yeah but
+there is some cost involved. This is why
+I say um it's probably like a
+certificate. It's not just something
+which you do. Um [clears throat]
+>> uh during lunch break
+>> think yeah more costly involved right
+compared
+>> yeah I mean the the the two days don't
+cost money but the hotel and the travel
+and everything
+>> right I would say that that's already an
+an entrance barrier so that only people
+will do it who live close to such cities
+or something
+but what what I wanted to say is that
+this is how they how they attack this.
+So they agent force and data cloud they
+they basically belong together because
+for everything that you do in agent
+force um you need to prove it that it
+works you need to improve it over time
+so you need to measure it and data cloud
+is the platform for that.
+>> Okay seems like you have both hands
+prepared. You have the cloud architect
+foundation and you also have the FDE
+right
+>> also. So how how do you recommend the
+people who don't have these things
+should they approach this certificate
+and the se seminar you mentioned do you
+see the benefit do you get a lot of like
+a head hunters you know people seek for
+the benefit out of for certificates too
+nowadays
+I'm
+I was always very skeptical with
+certificates you know certificates show
+that you know something but
+>> um we also know in Salesforce there was
+a lot of certificate bragging and and
+people who had a ton of badges but
+actually never had experience on the
+job. My my way was always to have the
+skills and then later do the
+certificates. Um and I I probably only
+did them because also my company wanted
+people to have them. you know this FTE
+program
+as a company I think you require a lot
+of FTEEs in your company to actually be
+um seen inside Salesforce as a company
+where they can
+can send customers and say hey let them
+help you.
+>> Mhm.
+>> The so so for for all of those things I
+didn't went in there to learn something.
+It was more to to basically prove it to
+the outside world that there is skills.
+Same with the the claude certificate,
+you know, it's it's free, it's online
+and um
+I just wanted to prove that I can
+actually mean the architect foundation
+certificate.
+>> Yeah, the exactly exactly that
+>> it's not anymore. Maybe it was
+>> that's that's a mix of of of using cloud
+code for development work but also using
+the cloud SDK for building agents. So
+it's a mix of of software developer and
+application architect
+[snorts] and as we at Akiva also use the
+cloud SDK to build our own agents um you
+know in Slack and and things like that.
+I I just found it uh helpful to have it
+and and and show it to the world.
+>> Okay. So,
+>> and sorry the the last thing I wanted to
+say I
+>> I also believe it's important to
+to look beyond Salesforce to you know
+when we meet customers they they
+sometimes say agent force is nice but
+the the billing model doesn't fit my
+business you know. M
+>> um I want something different. I want
+something agents hosted on AWS. So so
+the going off platform and understanding
+how AI works um outside of Salesforce is
+super important at Aka. Um so in the
+past we were known as mostly very
+Salesforce native but now we do a lot of
+stuff um outside of Salesforce in the in
+the AI field.
+>> So it seems to me you gained a lot of AI
+related hands-on
+project delivered to customer due to
+your work right?
+>> Yes.
+>> But for sorry. Yeah, I mean I just
+wonder for a lot of people who don't
+have the luxury like me, I never really
+delivered production AI [clears throat]
+solution to any customer. So despite I
+say I have this and that AI skills, I
+know how to use cloud code but still
+it's not really stamped. So how should
+these people really get the hands-on
+experience?
+Um as always, how do people
+who have a job, who have kids learn
+something new by doing it uh at at
+inside project? There's no other way
+that that my answer hasn't changed. So
+yeah, you need to
+>> build something on the weekend. You need
+to use cloud code for your pet project.
+You need to read stuff.
+Yeah,
+>> I I think we live in good times for
+doing that because with AI, you can also
+actually learn new stuff better. You can
+just program, you know, in the past
+learning how to build something on AWS,
+it was so complicated. You had to read
+like a ton of tutorials and and if they
+were missing some pieces, you you fought
+for days and and struggled. But now you
+can basically put screenshots into cloud
+code and say I'm I'm I'm lost. What what
+happens here? Can you help me? So yeah,
+>> that's that's my recommendation
+to
+always prepare for the next job.
+Um so I know that that is a luxury but
+um
+it's it's not a luxury. I think it's a
+must but it's it's not easy to get. M
+[clears throat]
+so people need to spend the time and uh
+work on the side project and prove it's
+it's done in the good quality and you
+you spent energy and time on it then you
+deserve um like a better ranking in the
+the job hunting market is it so
+>> yeah
+deserved that sounds like somebody is
+taking care that the world is fair but
+then that's just my experience you know
+the because the the the story always
+goes like that. Um
+most people in software development
+they are in projects they need to be
+billable they need they are told to give
+everything for the current customer
+>> and then they get irrelevant. So the the
+people who manage to
+do both, keep their job, keep their
+customers happy, but also have enough
+time to learn future stuff, they are
+better equipped. So I think that's a
+muscle or a skill that people need to
+train
+in every age. So, so I really I think
+that's that's something I would tell um
+people in that that just came from
+university and that's their own job. I
+would always tell them not give
+everything. I I wouldn't tell them make
+your boss and your customer happy. I
+would tell them um become so good that
+nobody knows how fast you are.
+>> Mhm. work half of the time for your
+current job and let them believe you
+work 100% on it and the rest of the time
+you you you prepare your next step.
+Thanks for that.
+>> Yeah,
+>> you know, recently I chat with um I call
+I call him like a guru because he's he's
+really good at the technologies and he
+has a really successful company built
+like thousands of people. I get the
+chance to ask him like how does he
+really learn the AI stuff because he was
+a programmer senior programmer he said
+he never really learn things he always
+like a tinkering he always when he needs
+to learn something he just build it so
+that was like it's not easy to you have
+to have some foundation skills right you
+cannot just say I tinker it without
+reading any books but for him maybe he's
+already solid enough that he can just
+build things with the help of the the
+code agents
+>> and uh I think different people
+definitely have different ways but
+hands-on is really important let's put
+it straightforward
+>> absolutely
+>> and two thoughts like good people often
+cannot explain what they do they just
+say oh yeah I'm just tinkering but
+actually when you look from outside they
+have a really interesting approach to
+things. I think just tinkering is is is
+a little bit stupid. It's like putting
+monkeys in front of a typewriter and
+expecting a good book to come out. I
+think when when people like this guy say
+they are tinkering, they probably do the
+best approach of hands on and then when
+they struggle, they actually read about
+the basics and then they apply the
+basics. Again, that's that's what I see
+um separates very successful people in
+in the sense of learning from not so
+successful. Many people they just read
+too much without applying it
+>> and then they it's basically wasting too
+much time. It it always needs to be um a
+mix of
+um you know having this feeling that I
+can actually learn a bit and then I'm
+I'm a little bit faster and better and
+then I have motivation again to
+to to read boring stuff to read and
+learn basics. I I think this self
+motivation is is is an is a very
+important thing. When when people ask me
+how do you cope how do you do that
+learning all stuff then I think they
+often say my job is so tiring and I put
+so much effort into my job when I come
+home I just want to watch Netflix.
+though I think it's not so much about
+time, it's more about managing
+the fun and and the the frustration that
+new things have.
+>> Mhm.
+>> So, so I think it's it's less about
+time. It's more about
+um I I agree. There's a lot of like
+subtleties inside like you said. It's
+it's like
+when you consume the information into
+your brain, you need to dump it out at
+certain point, right? You cannot just
+absorb everything and expect at the end
+of the time for finish the book then you
+have everything ready uh in your brain.
+You have to practice in the middle and
+then digest them and really get sucked
+in. So all these things and it depends
+on people's personality and skills and
+capabilities. It's it's different.
+>> Yeah.
+>> Yeah. H but how about our Salesforce
+developers? Uh we see the AIS here and a
+lot of people start to use the cloud
+code to write our LWC and Apex. So what
+what do you see in the near future even
+like a year or two? What are the skills
+Salesforce developers must have?
+>> [sighs]
+>> I I would say Salesforce developers
+need to know or need to do what every
+other developer needs to do in today's
+time.
+um they need to stay relevant and I
+think that's that's the funny part of
+the story that we always thought that
+our job is safe and then
+the software people build the tool that
+destroys their career. So yeah, I think
+um when when you think about the
+different words we use for people like
+us um you know coder, programmer,
+developer, engineer, I think we we we
+soon don't need humans anymore for the
+lower part, you know, building a a few
+Apex classes, a few lightning
+components, what the typical junior
+maybe did, I think that will be done by
+AI within minutes, much better than any
+junior can do.
+>> So we need to basically shift to the to
+the higher um concepts of um building
+features, building designing
+applications,
+thinking about ways on on how to fulfill
+a customer customer need and customer
+outcome.
+So, so basically getting less technical
+because technology changes very fast but
+the problems
+they don't change so fast. So learning
+about domains, customers, specific
+industries
+but also being able to translate that
+into technology that's that's basically
+a spot which will always be there. So,
+so yeah, that's one thing and
+>> the other thing is really learning the
+tools. Salesforce developers need to
+do development with AI assisted tools
+like codeex or cloud code or whatever uh
+they are called. That's that's something
+you need to learn and not not in a
+skeptical way. you need to fully embrace
+it because only when you fully embrace
+it, you see that it's not always good.
+You know, that's that's the problem. Um,
+I
+on my LinkedIn page I put the word
+AI extremist and it means I always jump
+between the extremes of being super
+excited and super frustrated and that
+comes from using AI basically always to
+find out how where it's good, where it's
+bad and
+why do I think this is important because
+you speed up learning. You know, look at
+look at kids that learn how to to do
+skateboarding. Okay, there is the the
+kid which tries it once, falls down, and
+then never goes there again. And there's
+the other kid who does it again and
+falls and does it again. Which kid will
+um have fun using skateboards
+more likely? And I think that's the same
+is true with AI. If you
+if you don't spend a lot of time, you
+will always be skeptical or believe the
+hype. You know, all those stories, you
+can just over the weekend replace uh
+every app with your own app. I think
+if if you if you if you just believe
+that without actually also suffering
+from oh I don't understand my code
+anymore or oh I got lazy because
+I'm [laughter]
+totally addicted to AI then then then
+you cannot actually
+make good decisions in this new world.
+So
+>> I I have a lot of similar experience
+like using cloud code or codeex to build
+code not just Salesforce but other ones
+there are a lot of small challenges you
+will hit like uh you need to build
+skills right to help you to create the
+good quality code as you want but still
+you need to improve the skills like the
+agent skills what I I refer to And then
+you need to see the next time when you
+run the agent code like the codeex cloud
+code they need to see this follow the
+similar pattern. How do you force them
+to do that otherwise they just go into
+different directions and how you save
+the the knowledge back into your your
+local files
+>> and every model
+>> and with every new model uh it behaves
+differently. I just
+>> Right. Right. Before before I called
+you, I just read that a new anthropic
+model is out
+>> and that it doesn't like very detailed
+instructions anymore. It
+>> the five or
+>> oppus 5. Exactly. There was an article
+by anthropic saying that we have to
+rework our instructions and everything.
+And that that is what
+that is what that's that's the new how
+should I say that's the new ingredient
+of our work you know
+>> you cannot say oh I'm so frustrated they
+changed the model and now everything is
+not working anymore you need to say oh
+yes I'm an engineer and part of my work
+is to understand all of that models
+providers engines harnesses you know
+that's the new thing in the past we
+nerded about Emacs and tabs and versus
+spaces and that was our which terminal
+are you using? I think all of those
+topics will become less relevant and we
+will talk about oh yeah I'm using open
+code versus cloud code and I'm that's
+the new things and when you when you
+just say company please give me my AI
+tool pay for it and then every month you
+are confused when something changes
+then you are out
+>> I think that yeah that's that's totally
+and even like all the things we
+discussed here about the the toolings
+maybe three months later they are all
+changed. So this is so fast pacing
+forward and for us we just need to keep
+up uh unfortunately on on on this thing.
+A lot of skills like agent skills we
+wrote in the past maybe it's irrelevant.
+The the more powerful agent doesn't the
+model doesn't need it anymore right?
+they can figure it out on the fly by
+themsel and it's better than your skill
+documentation even
+the question is is that actually a bad
+thing you know you said unfortunately
+I I'm more and more convinced that we we
+all are actually in a lucky position in
+our field you know
+>> I have many friends who
+have a job and it it didn't change for
+10 years [laughter]
+that you know That's the actual job
+world. You you have good skills, you
+understand everything and then things
+become boring because nothing changes.
+And
+>> when I when I just look back the last
+two years, it was
+>> it was sometimes spooky but also a
+little bit like being a kid, you know,
+there's always the next Lego or the next
+toy around that you want to have and
+want to tinker with. Yeah.
+>> So, um I I think people need to get this
+off their head. Um this oh unfortunately
+everything changes so fast. You
+>> I I do see there are people who are also
+only enjoy the same old stuff. Like I
+see people watch the same TV series for
+many years for whatever reason. I don't
+know why but they keep watching the same
+TV series. I can't say that's wrong, but
+to me, I need the new stuff to stimulate
+my brain. I I need the new knowledge,
+new things to to keep freshening myself,
+keep myself young.
+>> Um I say if you are loyal to your
+series, but
+>> the stuff you do at work, you need to
+keep learning new stuff.
+>> Yeah. But I'm also a bit um
+worried that
+it's so fastpacing. A lot of things I
+learned yesterday is stale today. Why
+should I keep chasing those things on
+the sand, right? I cannot build solid
+stuff on the sand. That's also one of
+the reason I spend time on learning the
+machine learning fundamentals because
+they do not change that fast.
+>> True.
+>> So
+>> that's that's that's super relevant.
+what you say. Um
+um learning
+you do not only need to learn what how
+to learn and what to learn but also what
+not to learn. There is I
+>> I remember my dad gave me a famous book
+about education
+like decades ago and there was a really
+long chapter what not to know you know
+like things not to read facts not to
+know about and it's it it was not about
+work it was more about general education
+and there was like you shouldn't know
+about TV series you shouldn't you
+shouldn't read gossip you shouldn't read
+all those magazines that talk about the
+lives of famous people and I think that
+that is also true about um work related
+stuff there is just some some tar pits
+where you don't need to go you just
+don't go on LinkedIn and Twitter and
+read about the latest prompting
+techniques you know you you don't want
+to keep up because you know the people
+there they are mostly attention seeking
+influencer style people don't do that
+instead of reading some hallucinated
+ated stuff. Go on the anthropic blog and
+read that article on your own. Um,
+>> right. So, so, so I think that that is
+important to um get a feeling of what
+has a lifetime that that makes it
+relevant for me. And so what you say
+read understand the the basics um is
+good. But I'm I'm very skeptic if those
+super basics um
+are are very relevant. You know, when
+you when you say about machine learning,
+I think there are some
+especially those free courses about
+machine learning stuff, they teach you
+the stuff that helped the field five
+years ago.
+>> Mhm. [clears throat]
+>> I'm not really sure if you can ever
+apply that, you know. Um
+>> yeah I skeptical. Yeah.
+>> Yeah. I like what you said because I
+also want to mention that when I learn
+this machine learning fundamentals it's
+really because I want to open it up. I
+want to see hey what how these things
+were done. There's no return of
+investment here actually contributed
+curiosity.
+>> Yeah it's curiosity. It's pure. Of
+course, there's a little bit it might
+help me in the future when I do the
+large language models or something.
+Maybe one day it's like I'm learning Nix
+OS when I'm learning Vim.
+How much benefit do I get when I apply a
+job? Probably nobody really understand
+them, right? But it's it's interesting
+and it helped me on different angles. I
+have no like no clear plan how to get
+the return in from that.
+>> That's good. that nobody has.
+>> But it's it's always good to to think
+about like take the middle ground, you
+know? Don't take the shallow
+knowledge, the pseudo knowledge that
+everybody wants to sell you on the
+streets and also not the super
+sophisticated old school.
+>> Um, yeah.
+Yeah. I I like this. I mean, when we
+were kids, you always want to see who is
+the good guy, who is the bad guy.
+there's like a white and black in the
+world but in the adult world it's really
+not like that everything is gray
+everything is possibilities right since
+now we talk about the AI
+>> yeah put in the context the answer could
+be yes or no so it's always depends yeah
+>> it's and it's al also um
+>> you you know the your question can be
+applied to so many things like what
+should you are
+in school and you ask yourself what what
+should I learn? What should I which kind
+of education or career should I strive
+for?
+>> I I think there is so many possibilities
+that
+the way to simplify the answer is by
+looking at what is relevant to you,
+where are your skills, where are your
+needs. So, you know, I don't just wake
+up and say what should I learn about AI.
+I look at what where could AI help me in
+my daily work. So, so basically most of
+the stuff that I do
+>> AI related at Akiva um is solving trying
+to solve problems that exist, you know.
+So, so for example, you you remember
+maybe remember my my open source agents
+at agent force, my orc Butler. It was
+really like um what can we build that
+helps us in our own org and um
+building stuff actually make made me
+learn what what doesn't work and then we
+we switched to offplatform agents so we
+had to learn about uh cloud SDK and how
+can we put stuff into Slack
+um [snorts]
+and then you just you basically collect
+some hands-on practice um in all those
+fields and at some at at some time you
+actually know a lot. Um but it was all
+based on real needs like why does this
+not work or how can I do this
+>> so I I I do agree.
+>> Yeah. like put put the AI into solving
+the real problem in your life. And since
+you are alive, you are supposed to see
+different problems every day. So you are
+never running out of problems. So it's a
+infinite game actually. Then it keeps
+learning um for yourself as well.
+But um if we try to sum up, can we come
+up with a concrete actional planning for
+Salesforce developers like what other
+things we actually should do in in the
+recent months is in a year or in two
+years? Do we have something like that at
+least
+>> a mind map thing?
+I
+maybe
+I would say three things
+at least that's in my head. There is a
+risk of the Salesforce ecosystem to
+dramatically change collapse. You know
+there's rumors that Anthropic might buy
+Salesforce. I don't know if that's a
+good thing. I think it's a good thing.
+Um but I just that the a Salesforce
+developer needs to think about my
+knowledge might be irrelevant
+soon. You know there will always be
+people who maintain boring orgs with
+Salesforce metadata.
+That's always, you know, we we still
+need cobalt developers, but I think the
+times where low coding flows and
+permission sets in Salesforce is like a
+top career move, I think they are
+terribly over. So this is what people
+should know. They should not say, "Yeah,
+yeah, Salesforce is a cool space. I know
+marketing cloud,
+you know, that that might save you for
+the next 5 to 10 years." But yeah, the
+second thing is um
+if you want to stay relevant in
+Salesforce, I think you need to
+understand the new
+uh core infrastructure components which
+is agent force plus data cloud.
+Even if you do marketing or industry
+cloud on on Salesforce, the customers
+who stay on Salesforce, they will at at
+some moments ask for agent force. You
+know,
+>> agent force is is basically a new type
+of functionality that you can put in an
+org in an app. you know, you have some
+deterministic coding things, some
+processes, and I I'm quite sure
+everybody wants to have some AI spice to
+that, you know, some conversational
+magic or some some AI smartness. So, I
+think you need to know about that and
+there's good learning resources for
+that. Um,
+so I I think everybody can can train
+that on on the weekend.
+Um yeah and the the the third but maybe
+the the first one the the most relevant
+one is
+use AI to do your coding. Become super
+proficient in in using cloud code and
+and codecs and and stuff like that.
+Don't use agent force wipes and all the
+the the lame tools. That's
+[clears throat] also something just find
+out, you know, you run them and and see
+after 10 seconds what the good tool is
+and then use this tool
+extremely like learn how to
+to become dopamine addicted to this tool
+which does your job like super fast and
+suffer from not understanding a single
+line of the code that that is produced.
+I I think that's the most relevant
+thing. That's that's
+you you know I I think that's the actual
+skill that every human needs to learn.
+Where can I use AI to do things better
+and faster and what's the price I pay
+for that? You know, like learning
+instead of doing a Google search, I
+asked my my Jet GPT app. Um, I I think
+that's super relevant that people see.
+Wow, that's so cool. Oh, it it told me
+totally hallucinated stuff or I I forget
+how to read. I'm I'm unable to read a
+full article at length. How does it
+change myself? So, so that's that's
+maybe the the first first thing.
+>> Learn to cope in a world where AI is a
+is a tool.
+Yeah, the world is anyway shifting
+towards the AI and cope with it and
+don't really fight back too much with
+that, right?
+>> Uh I I want to give a nuance you know
+technology is always there but people
+should also uh be able to live without
+it. you know the internet is also there
+but um not being able to read a book,
+not able to going to a library and
+>> I think with every new technology you
+need to learn the technology but also
+you need to become
+a little bit independent and yeah
+>> I see
+>> it's
+finding technology and using it not the
+other way around when you say technology
+is going to come anyway I don't you know
+>> I think you also need to train how to do
+things without technology
+>> you know
+>> right
+>> it's good to have you also do sports and
+bicycle and and
+>> I I have a a friend who is also a
+Salesforce developer he's he's better
+than me on using the C code he helped me
+to to get into this and he actually run
+the site
+business is to do the the traditional um
+camera uh picture taking with the films
+inside. You know, he need to uh use the
+chemicals, go to the dark rooms to Yeah.
+to get the things out. He built actually
+a website with the AI,
+>> you know, to to serve that to to
+>> because the people are now uh immersed
+into the digital world. They want to get
+this something old fashioned coming
+back. Actually a lot of people who has
+are rich actually [clears throat] wants
+to pay money a lot of money to to get
+those things. So it's always you know
+when we go into the extreme the society
+will push back a bit and um that's all
+always like so
+>> and and and doing it the old way is is
+the new luxury that that's you always
+see that you know
+>> rich people they
+they probably will will
+use less technology and do it the old
+way. So, um,
+>> right,
+>> maybe to keep a job, you should still
+also be able to do it the old style.
+>> Yeah,
+>> being a photographer might not be the
+best job to serve the masses, but maybe
+rich people want to have their wedding
+pictures taken on film instead of on a
+mobile phone. And maybe there will be
+some rich people who also want
+handcrafted software, you know, real
+human written software. Yeah, that's a
+good business when I hear about that.
+That's such a niche, but it will grow uh
+in the future when the AI gets more and
+more used. People will
+>> Yeah. value that.
+>> All right. Thanks a lot, Robert. That's
+all I wanted to ask. I get a lot from
+you. I don't know. Do you still have
+anything you want to mention or share
+with our listeners?
+>> Yeah. Maybe maybe some positivity that
+[laughter] that they should not only be
+afraid of their jobs and how the the
+world will change but also
+try to take a different view that we
+also live in very interesting times. Um
+that we that we live in a in interesting
+times with uh cool new stuff coming that
+there is also a lot of opportunity in
+there for for the world and our careers.
+And yeah, keep learning.
+>> Thanks a lot to Robert. Good talking
+with you and [music] have a good day.
+Bye-bye. Bye-bye.
+[music]
+[music]
+[music]
+All right. So, hello everyone. This is
+Shisha. This is a new episode of
+Salesforce Way podcast. We have our good
+old friends Robert Sman coming back.
+Hello, Robert.
+>> Hi. She thanks for having me.
+>> Has been it's been some time since we
+last talked, right?
+>> Yes. Yes. And u well why not uh to
+introduce yourself? I think you have
+changed a bit of a situation as well.
+Yeah. Um
+I'm Robert. I live in Germany close to
+Stoodgard.
+I'm a Salesforce veteran in the in the
+sense or Salesforce dinosaur in the
+sense that I think it's 14 years now.
+I
+I'm working for the Salesforce partner
+Akiva
+uh a US-based company which helps um ICV
+partners and Salesforce Salesforce
+customers with building apps digital
+transformation and in the last years um
+a lot um how to make use of AI
+in in business apps. Um, [clears throat]
+so maybe your viewers know me as the
+clean code Robert the craftsmanship guy,
+but I really got a new topic which is
+[laughter]
+um agent AI and how to make use of it
+and agent force.
+>> Yeah. And I'm I'm very happy with that
+new topic. It's it's it's really
+interesting times and an interesting
+topic. So I'm I'm happy that you
+[laughter]
+agreed that we talk about this topic
+today.
+>> Why not? Your image to me especially on
+LinkedIn has been definitely shifted
+towards the AI. So you are the AI guy in
+our ecosystem. So I also saw you post a
+lot of messages there about the AI and
+the things you have learned. I
+appreciate for that too. So learn a lot.
+>> Yeah.
+>> Yeah. I I think the old topics they they
+are not irrelevant
+but um
+it it the focus has changed and I I
+>> you know I I don't decide on my topic uh
+to the world. It's more about I I just
+talk about what I care about at the
+moment and AI is just the the number one
+thing. [laughter]
+>> All right. Um I want to get your help to
+to assist me here uh on the AI learning
+journey and the questions and the
+puzzles. I think a lot of other
+Salesforce developers also have a
+similar challenges at the moment. So
+let's see how we're going to uh resolve
+this or figure it out. We haven't
+discussed all the details. So we just
+say hey let's uh have a chat about the
+AI but we don't really know the details
+what question I'm going to ask so it's
+going to be the first act on the fly so
+are you ready to help me
+>> sure absolutely
+>> okay
+>> that's the most honest way so people
+actually believe that that we didn't
+script anything
+>> yeah all right so maybe I give you a bit
+of like context how I see the AI era and
+how I'm like uh approach this at the
+moment. So, so to me I usually typically
+put AI as like three different
+categories. The the first category to me
+is like the Salesforce platform AI which
+is like a agent force data cloud that
+all the Salesforce developers maybe are
+more uh familiar uh with and then we
+have the AI application layer which is
+like a cloud codeex
+for them we need to learn a bit how to
+manage the context how to do the MCP how
+to do the rack you know how to ask good
+questions so those code agents can
+respond in the correct manner. Um, and
+then the third is like a more wider.
+It's like a machine learning skills.
+It's really like the the good old basics
+like a linear regression, logistical
+regression, vector or those mathematics
+and the Python libraries how to do those
+things. To me, I typically put them into
+like a three different categories.
+>> Mhm. How however nowadays everyone say
+AI skills they kind of like mix them
+together. I don't know if that's a good
+thing but to me I really see the
+differences. They are totally different
+career path as well to me. I don't know.
+Do you think that's a a good way to say
+so?
+>> Absolutely. I mean it's it's a
+difference
+between using a tool
+or applying it to the product you sell
+to the world or inventing the product
+you know so the the when when you say ML
+machine learning that's skills that the
+people need to know that are building
+those models and those tools and
+optimizing them but and I would say
+that's not a career path for most of us
+who who [clears throat] are in
+application development.
+Um, it's I would say it's good to know a
+little bit about those things, you know,
+like like when you drive a car, it's
+actually good to know how a car works,
+but you knowing it to the detail where
+you could build your own car. I I think
+that's that's maybe not so important.
+But the other two things, they are super
+important. We need to understand how to
+use AI to do our work.
+>> Mhm. [clears throat] And AI is also part
+of what we produce in in our work. So
+you and I, we we build boring business
+applications, you know, not computer
+games or anything fun. We build the
+things that back the world that back
+companies and we need to learn and
+understand how we can put AI into this
+mix of of business applications. So
+yeah, I would say everybody needs to
+learn
+a little bit of all of them. Yeah.
+>> Okay. Yeah. Like those I I I also like
+reflected if we reflect this back to the
+old programming world. We also had the
+sales for Salesforce platform
+programming like Apex and Lightning Web
+Component or the Aura, right? And also
+we have the industry standard uh
+applications like React or something.
+Then then we have the people who write
+the developer focused tools like your
+PMD or the air that Chris in the last
+episode discussed. So I also see it's
+quite similar to to the old uh
+programming world as well. But but I
+have this challenge
+>> um to figure out what what's the border
+what's the boundary especially between
+the Salesforce platform AI and the AI
+application engineering like like agent
+force for me I only see the titles in
+the LinkedIn when people post something
+ah there's a GA coming there's new
+feature coming but I didn't really pay
+much attention because I see it's a
+fastm moving pace and also like cloth
+code or codeex there are a lot of
+certificates coming out as well I pay a
+bit more attention towards that because
+again it's more industry standard I can
+it can be used in multiple different
+other uh technical stack as well so I
+don't know what what's your opinion here
+I I I get your confusion
+>> I I recently did this claude code
+architect certification
+So I can tell you what it uh what it is.
+It's a I would say it's a mix of both.
+So you're right. It's it's it's
+sometimes confusing to differentiate.
+But when Salesforce talks about Asian
+force, I would say it's 99% talking
+about how to put AI
+into Salesforce orgs or applications.
+So it's the umbrella term for everything
+Gen AI which is in the platform going
+through sec Salesforce's own trust
+layer. You know that that was the
+initial story because we could all say
+why is Salesforce not just allowing
+people to call out to LLMs or cloud code
+or APIs like every other system. And the
+story goes like this. This is unsafe.
+You need to make sure that your data is
+not corrupted. It's not like sucked out
+into an external platform.
+Um and this is why they
+basically built this internal machinery
+called agent force but in the end it's
+not like a separate AI it's just using
+all those large language models outside
+so anthropic openai Gemini but they
+build this yeah you know Salesforce is
+also a low code platform so instead of
+you just exposing just using an API I
+they give you artifacts like prompt
+templates which allow you to to store
+prompts
+together with some configuration data
+which model as a as an XML metadata and
+version it. And then there is agent
+force agents which allow you to build
+yeah agents um which can call tools and
+call prompts and do something on behalf
+of of the user and
+for sure do you also need some kind of
+storage and this is where data cloud
+comes in. So data cloud is used for for
+accessing structured and unstructured
+data doing rag but it's also a heavy
+platform for monitoring and observing
+everything agent force you know how is
+my agent going how do people like it how
+long how many tokens do I need so I just
+recently did this Salesforce has another
+certification it's called forward
+deployed engineer FDE E
+>> it's it's like the I I think it's the
+way how Salesforce wants consultants to
+work in the future. It's basically a a
+two-day seminar where you get trained on
+how to sell agent force and data cloud,
+you know, how to find use cases, how to
+sell it.
+Is a certificate or is it just a
+>> Yeah, it's it's it's a strange thing.
+It's it's as much work as a certificate.
+So you have to do a lot of um trail head
+stuff like agent force legend and data
+cloud
+>> and then you have to visit the city and
+do a two-day course which at a
+Salesforce building. So I was in Munich.
+>> Mhm.
+>> So yeah but
+there is some cost involved. This is why
+I say um it's probably like a
+certificate. It's not just something
+which you do. Um [clears throat]
+>> uh during lunch break
+>> think yeah more costly involved right
+compared
+>> yeah I mean the the the two days don't
+cost money but the hotel and the travel
+and everything
+>> right I would say that that's already an
+an entrance barrier so that only people
+will do it who live close to such cities
+or something
+but what what I wanted to say is that
+this is how they how they attack this.
+So they agent force and data cloud they
+they basically belong together because
+for everything that you do in agent
+force um you need to prove it that it
+works you need to improve it over time
+so you need to measure it and data cloud
+is the platform for that.
+>> Okay seems like you have both hands
+prepared. You have the cloud architect
+foundation and you also have the FDE
+right
+>> also. So how how do you recommend the
+people who don't have these things
+should they approach this certificate
+and the se seminar you mentioned do you
+see the benefit do you get a lot of like
+a head hunters you know people seek for
+the benefit out of for certificates too
+nowadays
+I'm
+I was always very skeptical with
+certificates you know certificates show
+that you know something but
+>> um we also know in Salesforce there was
+a lot of certificate bragging and and
+people who had a ton of badges but
+actually never had experience on the
+job. My my way was always to have the
+skills and then later do the
+certificates. Um and I I probably only
+did them because also my company wanted
+people to have them. you know this FTE
+program
+as a company I think you require a lot
+of FTEEs in your company to actually be
+um seen inside Salesforce as a company
+where they can
+can send customers and say hey let them
+help you.
+>> Mhm.
+>> The so so for for all of those things I
+didn't went in there to learn something.
+It was more to to basically prove it to
+the outside world that there is skills.
+Same with the the claude certificate,
+you know, it's it's free, it's online
+and um
+I just wanted to prove that I can
+actually mean the architect foundation
+certificate.
+>> Yeah, the exactly exactly that
+>> it's not anymore. Maybe it was
+>> that's that's a mix of of of using cloud
+code for development work but also using
+the cloud SDK for building agents. So
+it's a mix of of software developer and
+application architect
+[snorts] and as we at Akiva also use the
+cloud SDK to build our own agents um you
+know in Slack and and things like that.
+I I just found it uh helpful to have it
+and and and show it to the world.
+>> Okay. So,
+>> and sorry the the last thing I wanted to
+say I
+>> I also believe it's important to
+to look beyond Salesforce to you know
+when we meet customers they they
+sometimes say agent force is nice but
+the the billing model doesn't fit my
+business you know. M
+>> um I want something different. I want
+something agents hosted on AWS. So so
+the going off platform and understanding
+how AI works um outside of Salesforce is
+super important at Aka. Um so in the
+past we were known as mostly very
+Salesforce native but now we do a lot of
+stuff um outside of Salesforce in the in
+the AI field.
+>> So it seems to me you gained a lot of AI
+related hands-on
+project delivered to customer due to
+your work right?
+>> Yes.
+>> But for sorry. Yeah, I mean I just
+wonder for a lot of people who don't
+have the luxury like me, I never really
+delivered production AI [clears throat]
+solution to any customer. So despite I
+say I have this and that AI skills, I
+know how to use cloud code but still
+it's not really stamped. So how should
+these people really get the hands-on
+experience?
+Um as always, how do people
+who have a job, who have kids learn
+something new by doing it uh at at
+inside project? There's no other way
+that that my answer hasn't changed. So
+yeah, you need to
+>> build something on the weekend. You need
+to use cloud code for your pet project.
+You need to read stuff.
+Yeah,
+>> I I think we live in good times for
+doing that because with AI, you can also
+actually learn new stuff better. You can
+just program, you know, in the past
+learning how to build something on AWS,
+it was so complicated. You had to read
+like a ton of tutorials and and if they
+were missing some pieces, you you fought
+for days and and struggled. But now you
+can basically put screenshots into cloud
+code and say I'm I'm I'm lost. What what
+happens here? Can you help me? So yeah,
+>> that's that's my recommendation
+to
+always prepare for the next job.
+Um so I know that that is a luxury but
+um
+it's it's not a luxury. I think it's a
+must but it's it's not easy to get. M
+[clears throat]
+so people need to spend the time and uh
+work on the side project and prove it's
+it's done in the good quality and you
+you spent energy and time on it then you
+deserve um like a better ranking in the
+the job hunting market is it so
+>> yeah
+deserved that sounds like somebody is
+taking care that the world is fair but
+then that's just my experience you know
+the because the the the story always
+goes like that. Um
+most people in software development
+they are in projects they need to be
+billable they need they are told to give
+everything for the current customer
+>> and then they get irrelevant. So the the
+people who manage to
+do both, keep their job, keep their
+customers happy, but also have enough
+time to learn future stuff, they are
+better equipped. So I think that's a
+muscle or a skill that people need to
+train
+in every age. So, so I really I think
+that's that's something I would tell um
+people in that that just came from
+university and that's their own job. I
+would always tell them not give
+everything. I I wouldn't tell them make
+your boss and your customer happy. I
+would tell them um become so good that
+nobody knows how fast you are.
+>> Mhm. work half of the time for your
+current job and let them believe you
+work 100% on it and the rest of the time
+you you you prepare your next step.
+Thanks for that.
+>> Yeah,
+>> you know, recently I chat with um I call
+I call him like a guru because he's he's
+really good at the technologies and he
+has a really successful company built
+like thousands of people. I get the
+chance to ask him like how does he
+really learn the AI stuff because he was
+a programmer senior programmer he said
+he never really learn things he always
+like a tinkering he always when he needs
+to learn something he just build it so
+that was like it's not easy to you have
+to have some foundation skills right you
+cannot just say I tinker it without
+reading any books but for him maybe he's
+already solid enough that he can just
+build things with the help of the the
+code agents
+>> and uh I think different people
+definitely have different ways but
+hands-on is really important let's put
+it straightforward
+>> absolutely
+>> and two thoughts like good people often
+cannot explain what they do they just
+say oh yeah I'm just tinkering but
+actually when you look from outside they
+have a really interesting approach to
+things. I think just tinkering is is is
+a little bit stupid. It's like putting
+monkeys in front of a typewriter and
+expecting a good book to come out. I
+think when when people like this guy say
+they are tinkering, they probably do the
+best approach of hands on and then when
+they struggle, they actually read about
+the basics and then they apply the
+basics. Again, that's that's what I see
+um separates very successful people in
+in the sense of learning from not so
+successful. Many people they just read
+too much without applying it
+>> and then they it's basically wasting too
+much time. It it always needs to be um a
+mix of
+um you know having this feeling that I
+can actually learn a bit and then I'm
+I'm a little bit faster and better and
+then I have motivation again to
+to to read boring stuff to read and
+learn basics. I I think this self
+motivation is is is an is a very
+important thing. When when people ask me
+how do you cope how do you do that
+learning all stuff then I think they
+often say my job is so tiring and I put
+so much effort into my job when I come
+home I just want to watch Netflix.
+though I think it's not so much about
+time, it's more about managing
+the fun and and the the frustration that
+new things have.
+>> Mhm.
+>> So, so I think it's it's less about
+time. It's more about
+um I I agree. There's a lot of like
+subtleties inside like you said. It's
+it's like
+when you consume the information into
+your brain, you need to dump it out at
+certain point, right? You cannot just
+absorb everything and expect at the end
+of the time for finish the book then you
+have everything ready uh in your brain.
+You have to practice in the middle and
+then digest them and really get sucked
+in. So all these things and it depends
+on people's personality and skills and
+capabilities. It's it's different.
+>> Yeah.
+>> Yeah. H but how about our Salesforce
+developers? Uh we see the AIS here and a
+lot of people start to use the cloud
+code to write our LWC and Apex. So what
+what do you see in the near future even
+like a year or two? What are the skills
+Salesforce developers must have?
+>> [sighs]
+>> I I would say Salesforce developers
+need to know or need to do what every
+other developer needs to do in today's
+time.
+um they need to stay relevant and I
+think that's that's the funny part of
+the story that we always thought that
+our job is safe and then
+the software people build the tool that
+destroys their career. So yeah, I think
+um when when you think about the
+different words we use for people like
+us um you know coder, programmer,
+developer, engineer, I think we we we
+soon don't need humans anymore for the
+lower part, you know, building a a few
+Apex classes, a few lightning
+components, what the typical junior
+maybe did, I think that will be done by
+AI within minutes, much better than any
+junior can do.
+>> So we need to basically shift to the to
+the higher um concepts of um building
+features, building designing
+applications,
+thinking about ways on on how to fulfill
+a customer customer need and customer
+outcome.
+So, so basically getting less technical
+because technology changes very fast but
+the problems
+they don't change so fast. So learning
+about domains, customers, specific
+industries
+but also being able to translate that
+into technology that's that's basically
+a spot which will always be there. So,
+so yeah, that's one thing and
+>> the other thing is really learning the
+tools. Salesforce developers need to
+do development with AI assisted tools
+like codeex or cloud code or whatever uh
+they are called. That's that's something
+you need to learn and not not in a
+skeptical way. you need to fully embrace
+it because only when you fully embrace
+it, you see that it's not always good.
+You know, that's that's the problem. Um,
+I
+on my LinkedIn page I put the word
+AI extremist and it means I always jump
+between the extremes of being super
+excited and super frustrated and that
+comes from using AI basically always to
+find out how where it's good, where it's
+bad and
+why do I think this is important because
+you speed up learning. You know, look at
+look at kids that learn how to to do
+skateboarding. Okay, there is the the
+kid which tries it once, falls down, and
+then never goes there again. And there's
+the other kid who does it again and
+falls and does it again. Which kid will
+um have fun using skateboards
+more likely? And I think that's the same
+is true with AI. If you
+if you don't spend a lot of time, you
+will always be skeptical or believe the
+hype. You know, all those stories, you
+can just over the weekend replace uh
+every app with your own app. I think
+if if you if you if you just believe
+that without actually also suffering
+from oh I don't understand my code
+anymore or oh I got lazy because
+I'm [laughter]
+totally addicted to AI then then then
+you cannot actually
+make good decisions in this new world.
+So
+>> I I have a lot of similar experience
+like using cloud code or codeex to build
+code not just Salesforce but other ones
+there are a lot of small challenges you
+will hit like uh you need to build
+skills right to help you to create the
+good quality code as you want but still
+you need to improve the skills like the
+agent skills what I I refer to And then
+you need to see the next time when you
+run the agent code like the codeex cloud
+code they need to see this follow the
+similar pattern. How do you force them
+to do that otherwise they just go into
+different directions and how you save
+the the knowledge back into your your
+local files
+>> and every model
+>> and with every new model uh it behaves
+differently. I just
+>> Right. Right. Before before I called
+you, I just read that a new anthropic
+model is out
+>> and that it doesn't like very detailed
+instructions anymore. It
+>> the five or
+>> oppus 5. Exactly. There was an article
+by anthropic saying that we have to
+rework our instructions and everything.
+And that that is what
+that is what that's that's the new how
+should I say that's the new ingredient
+of our work you know
+>> you cannot say oh I'm so frustrated they
+changed the model and now everything is
+not working anymore you need to say oh
+yes I'm an engineer and part of my work
+is to understand all of that models
+providers engines harnesses you know
+that's the new thing in the past we
+nerded about Emacs and tabs and versus
+spaces and that was our which terminal
+are you using? I think all of those
+topics will become less relevant and we
+will talk about oh yeah I'm using open
+code versus cloud code and I'm that's
+the new things and when you when you
+just say company please give me my AI
+tool pay for it and then every month you
+are confused when something changes
+then you are out
+>> I think that yeah that's that's totally
+and even like all the things we
+discussed here about the the toolings
+maybe three months later they are all
+changed. So this is so fast pacing
+forward and for us we just need to keep
+up uh unfortunately on on on this thing.
+A lot of skills like agent skills we
+wrote in the past maybe it's irrelevant.
+The the more powerful agent doesn't the
+model doesn't need it anymore right?
+they can figure it out on the fly by
+themsel and it's better than your skill
+documentation even
+the question is is that actually a bad
+thing you know you said unfortunately
+I I'm more and more convinced that we we
+all are actually in a lucky position in
+our field you know
+>> I have many friends who
+have a job and it it didn't change for
+10 years [laughter]
+that you know That's the actual job
+world. You you have good skills, you
+understand everything and then things
+become boring because nothing changes.
+And
+>> when I when I just look back the last
+two years, it was
+>> it was sometimes spooky but also a
+little bit like being a kid, you know,
+there's always the next Lego or the next
+toy around that you want to have and
+want to tinker with. Yeah.
+>> So, um I I think people need to get this
+off their head. Um this oh unfortunately
+everything changes so fast. You
+>> I I do see there are people who are also
+only enjoy the same old stuff. Like I
+see people watch the same TV series for
+many years for whatever reason. I don't
+know why but they keep watching the same
+TV series. I can't say that's wrong, but
+to me, I need the new stuff to stimulate
+my brain. I I need the new knowledge,
+new things to to keep freshening myself,
+keep myself young.
+>> Um I say if you are loyal to your
+series, but
+>> the stuff you do at work, you need to
+keep learning new stuff.
+>> Yeah. But I'm also a bit um
+worried that
+it's so fastpacing. A lot of things I
+learned yesterday is stale today. Why
+should I keep chasing those things on
+the sand, right? I cannot build solid
+stuff on the sand. That's also one of
+the reason I spend time on learning the
+machine learning fundamentals because
+they do not change that fast.
+>> True.
+>> So
+>> that's that's that's super relevant.
+what you say. Um
+um learning
+you do not only need to learn what how
+to learn and what to learn but also what
+not to learn. There is I
+>> I remember my dad gave me a famous book
+about education
+like decades ago and there was a really
+long chapter what not to know you know
+like things not to read facts not to
+know about and it's it it was not about
+work it was more about general education
+and there was like you shouldn't know
+about TV series you shouldn't you
+shouldn't read gossip you shouldn't read
+all those magazines that talk about the
+lives of famous people and I think that
+that is also true about um work related
+stuff there is just some some tar pits
+where you don't need to go you just
+don't go on LinkedIn and Twitter and
+read about the latest prompting
+techniques you know you you don't want
+to keep up because you know the people
+there they are mostly attention seeking
+influencer style people don't do that
+instead of reading some hallucinated
+ated stuff. Go on the anthropic blog and
+read that article on your own. Um,
+>> right. So, so, so I think that that is
+important to um get a feeling of what
+has a lifetime that that makes it
+relevant for me. And so what you say
+read understand the the basics um is
+good. But I'm I'm very skeptic if those
+super basics um
+are are very relevant. You know, when
+you when you say about machine learning,
+I think there are some
+especially those free courses about
+machine learning stuff, they teach you
+the stuff that helped the field five
+years ago.
+>> Mhm. [clears throat]
+>> I'm not really sure if you can ever
+apply that, you know. Um
+>> yeah I skeptical. Yeah.
+>> Yeah. I like what you said because I
+also want to mention that when I learn
+this machine learning fundamentals it's
+really because I want to open it up. I
+want to see hey what how these things
+were done. There's no return of
+investment here actually contributed
+curiosity.
+>> Yeah it's curiosity. It's pure. Of
+course, there's a little bit it might
+help me in the future when I do the
+large language models or something.
+Maybe one day it's like I'm learning Nix
+OS when I'm learning Vim.
+How much benefit do I get when I apply a
+job? Probably nobody really understand
+them, right? But it's it's interesting
+and it helped me on different angles. I
+have no like no clear plan how to get
+the return in from that.
+>> That's good. that nobody has.
+>> But it's it's always good to to think
+about like take the middle ground, you
+know? Don't take the shallow
+knowledge, the pseudo knowledge that
+everybody wants to sell you on the
+streets and also not the super
+sophisticated old school.
+>> Um, yeah.
+Yeah. I I like this. I mean, when we
+were kids, you always want to see who is
+the good guy, who is the bad guy.
+there's like a white and black in the
+world but in the adult world it's really
+not like that everything is gray
+everything is possibilities right since
+now we talk about the AI
+>> yeah put in the context the answer could
+be yes or no so it's always depends yeah
+>> it's and it's al also um
+>> you you know the your question can be
+applied to so many things like what
+should you are
+in school and you ask yourself what what
+should I learn? What should I which kind
+of education or career should I strive
+for?
+>> I I think there is so many possibilities
+that
+the way to simplify the answer is by
+looking at what is relevant to you,
+where are your skills, where are your
+needs. So, you know, I don't just wake
+up and say what should I learn about AI.
+I look at what where could AI help me in
+my daily work. So, so basically most of
+the stuff that I do
+>> AI related at Akiva um is solving trying
+to solve problems that exist, you know.
+So, so for example, you you remember
+maybe remember my my open source agents
+at agent force, my orc Butler. It was
+really like um what can we build that
+helps us in our own org and um
+building stuff actually make made me
+learn what what doesn't work and then we
+we switched to offplatform agents so we
+had to learn about uh cloud SDK and how
+can we put stuff into Slack
+um [snorts]
+and then you just you basically collect
+some hands-on practice um in all those
+fields and at some at at some time you
+actually know a lot. Um but it was all
+based on real needs like why does this
+not work or how can I do this
+>> so I I I do agree.
+>> Yeah. like put put the AI into solving
+the real problem in your life. And since
+you are alive, you are supposed to see
+different problems every day. So you are
+never running out of problems. So it's a
+infinite game actually. Then it keeps
+learning um for yourself as well.
+But um if we try to sum up, can we come
+up with a concrete actional planning for
+Salesforce developers like what other
+things we actually should do in in the
+recent months is in a year or in two
+years? Do we have something like that at
+least
+>> a mind map thing?
+I
+maybe
+I would say three things
+at least that's in my head. There is a
+risk of the Salesforce ecosystem to
+dramatically change collapse. You know
+there's rumors that Anthropic might buy
+Salesforce. I don't know if that's a
+good thing. I think it's a good thing.
+Um but I just that the a Salesforce
+developer needs to think about my
+knowledge might be irrelevant
+soon. You know there will always be
+people who maintain boring orgs with
+Salesforce metadata.
+That's always, you know, we we still
+need cobalt developers, but I think the
+times where low coding flows and
+permission sets in Salesforce is like a
+top career move, I think they are
+terribly over. So this is what people
+should know. They should not say, "Yeah,
+yeah, Salesforce is a cool space. I know
+marketing cloud,
+you know, that that might save you for
+the next 5 to 10 years." But yeah, the
+second thing is um
+if you want to stay relevant in
+Salesforce, I think you need to
+understand the new
+uh core infrastructure components which
+is agent force plus data cloud.
+Even if you do marketing or industry
+cloud on on Salesforce, the customers
+who stay on Salesforce, they will at at
+some moments ask for agent force. You
+know,
+>> agent force is is basically a new type
+of functionality that you can put in an
+org in an app. you know, you have some
+deterministic coding things, some
+processes, and I I'm quite sure
+everybody wants to have some AI spice to
+that, you know, some conversational
+magic or some some AI smartness. So, I
+think you need to know about that and
+there's good learning resources for
+that. Um,
+so I I think everybody can can train
+that on on the weekend.
+Um yeah and the the the third but maybe
+the the first one the the most relevant
+one is
+use AI to do your coding. Become super
+proficient in in using cloud code and
+and codecs and and stuff like that.
+Don't use agent force wipes and all the
+the the lame tools. That's
+[clears throat] also something just find
+out, you know, you run them and and see
+after 10 seconds what the good tool is
+and then use this tool
+extremely like learn how to
+to become dopamine addicted to this tool
+which does your job like super fast and
+suffer from not understanding a single
+line of the code that that is produced.
+I I think that's the most relevant
+thing. That's that's
+you you know I I think that's the actual
+skill that every human needs to learn.
+Where can I use AI to do things better
+and faster and what's the price I pay
+for that? You know, like learning
+instead of doing a Google search, I
+asked my my Jet GPT app. Um, I I think
+that's super relevant that people see.
+Wow, that's so cool. Oh, it it told me
+totally hallucinated stuff or I I forget
+how to read. I'm I'm unable to read a
+full article at length. How does it
+change myself? So, so that's that's
+maybe the the first first thing.
+>> Learn to cope in a world where AI is a
+is a tool.
+Yeah, the world is anyway shifting
+towards the AI and cope with it and
+don't really fight back too much with
+that, right?
+>> Uh I I want to give a nuance you know
+technology is always there but people
+should also uh be able to live without
+it. you know the internet is also there
+but um not being able to read a book,
+not able to going to a library and
+>> I think with every new technology you
+need to learn the technology but also
+you need to become
+a little bit independent and yeah
+>> I see
+>> it's
+finding technology and using it not the
+other way around when you say technology
+is going to come anyway I don't you know
+>> I think you also need to train how to do
+things without technology
+>> you know
+>> right
+>> it's good to have you also do sports and
+bicycle and and
+>> I I have a a friend who is also a
+Salesforce developer he's he's better
+than me on using the C code he helped me
+to to get into this and he actually run
+the site
+business is to do the the traditional um
+camera uh picture taking with the films
+inside. You know, he need to uh use the
+chemicals, go to the dark rooms to Yeah.
+to get the things out. He built actually
+a website with the AI,
+>> you know, to to serve that to to
+>> because the people are now uh immersed
+into the digital world. They want to get
+this something old fashioned coming
+back. Actually a lot of people who has
+are rich actually [clears throat] wants
+to pay money a lot of money to to get
+those things. So it's always you know
+when we go into the extreme the society
+will push back a bit and um that's all
+always like so
+>> and and and doing it the old way is is
+the new luxury that that's you always
+see that you know
+>> rich people they
+they probably will will
+use less technology and do it the old
+way. So, um,
+>> right,
+>> maybe to keep a job, you should still
+also be able to do it the old style.
+>> Yeah,
+>> being a photographer might not be the
+best job to serve the masses, but maybe
+rich people want to have their wedding
+pictures taken on film instead of on a
+mobile phone. And maybe there will be
+some rich people who also want
+handcrafted software, you know, real
+human written software. Yeah, that's a
+good business when I hear about that.
+That's such a niche, but it will grow uh
+in the future when the AI gets more and
+more used. People will
+>> Yeah. value that.
+>> All right. Thanks a lot, Robert. That's
+all I wanted to ask. I get a lot from
+you. I don't know. Do you still have
+anything you want to mention or share
+with our listeners?
+>> Yeah. Maybe maybe some positivity that
+[laughter] that they should not only be
+afraid of their jobs and how the the
+world will change but also
+try to take a different view that we
+also live in very interesting times. Um
+that we that we live in a in interesting
+times with uh cool new stuff coming that
+there is also a lot of opportunity in
+there for for the world and our careers.
+And yeah, keep learning.
+>> Thanks a lot to Robert. Good talking
+with you and [music] have a good day.
+Bye-bye. Bye-bye.
+[music]

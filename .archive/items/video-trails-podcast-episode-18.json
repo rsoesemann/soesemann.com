@@ -1,0 +1,50 @@
+{
+  "id": "video-trails-podcast-episode-18",
+  "url": "https://www.youtube.com/watch?v=wJQZfW8-4f0",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=wJQZfW8-4f0",
+    "role": "interview",
+    "kind": "video",
+    "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "title": "Trails Podcast episode 18",
+    "slug": "video-trails-podcast-episode-18"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:50:08.151098+00:00",
+    "status": "failed",
+    "error": "YouTube metadata unavailable: ERROR: [youtube] wJQZfW8-4f0: This video is unavailable\n"
+  },
+  "context": {
+    "format": "Video interview",
+    "where": "Hutte · Trails Podcast episode18",
+    "when": "2024-08-12",
+    "date_label": "Episode article published (recording date unknown)",
+    "with_whom": "Interviewer unverified; Samantha Spiro is the article author/editor",
+    "evidence": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "verified_evidence": [
+      {
+        "path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+        "evidence_excerpt_or_field": "Trails Podcast episode #18 with Robert Sösemann; Samantha Spiro Published12 Aug2024; matching embedded YouTube IDwJQZfW8-4f0"
+      }
+    ]
+  },
+  "grouping_evidence": {
+    "path": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann/original.html",
+    "observation": "Episode18 page iframe src=https://www.youtube.com/embed/wJQZfW8-4f0?feature=oembed"
+  },
+  "part_of": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+  "brand": {
+    "name": "Hutte",
+    "domain": "hutte.io",
+    "source_page": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "logo_url": "https://hutte.io/company-blog/content/images/size/w256h256/2023/05/favicon--1-.png",
+    "logo_path": ".archive/brands/hutte.io.png"
+  },
+  "library_dir": "library/2024/the-evolution-of-salesforce-devops-with-robert-sosemann",
+  "file_names": {
+    ".txt": "source-video.txt",
+    ".html": "source-video.html",
+    ".pdf": "source-video.pdf",
+    ".json3": "source-video-captions.json3"
+  }
+}

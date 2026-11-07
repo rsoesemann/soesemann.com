@@ -1,0 +1,3302 @@
+{
+  "at": "2026-11-06T21:55:58.162907+00:00",
+  "sitemap_articles": 148,
+  "inspected": 148,
+  "rows": [
+    {
+      "url": "https://aquiva.com/blog/dreamforce-2026-recap",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jay Keating"
+        },
+        {
+          "@type": "Person",
+          "name": "Michael Holt",
+          "url": "https://www.linkedin.com/in/michaelholtsf/"
+        },
+        {
+          "@type": "Person",
+          "name": "Chris Bram"
+        },
+        {
+          "@type": "Person",
+          "name": "Tatsiana Belavusava"
+        },
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski",
+          "url": "https://www.linkedin.com/in/gwasowski/"
+        }
+      ],
+      "title": "Dreamforce 2026: the interface is leaving the screen",
+      "date": "2026-09-23",
+      "snapshot": ".archive/discovery/aquiva-sweep/dreamforce-2026-recap/original.html",
+      "matches": [
+        "ace is not on the glass; it's in the conversation.\nFuture of AI session, Dreamforce 2026\n\nRobert Sösemann, who followed the developer keynote closely, saw the same shift from the build side in the Headless Experience Layer: declarative widgets that render natively in Slack, i",
+        "not on the glass; it's in the conversation.\nFuture of AI session, Dreamforce 2026\n\nRobert Sösemann, who followed the developer keynote closely, saw the same shift from the build side in the Headless Experience Layer: declarative widgets that render natively in Slack, in Agentfo",
+        "le were. Perhaps that will change at future events.\nThe same pattern showed up elsewhere. Robert noted that in the developer keynote the agent's result had been prepared in advance, and that the team said so themselves: they had steered and corrected it the night before.\nChri"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "separately",
+          "url": "/blog/dreamforce-2026-developer-keynote"
+        },
+        {
+          "label": "as reported by R&D World",
+          "url": "https://www.rdworldonline.com/altman-calls-hugging-face-breach-openais-worst-accident-at-dreamforce-backs-transparent-reporting/"
+        },
+        {
+          "label": "Salesforce's announcement",
+          "url": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Publisher recap attributes observations about the developer keynote to Robert. Listed authors are colleagues, not Robert."
+    },
+    {
+      "url": "https://aquiva.com/blog/dreamforce-2026-developer-keynote",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "Dreamforce 2026 Dev Keynote: As a Future Salesforce Developer, I…",
+      "date": "2026-09-18",
+      "snapshot": ".archive/discovery/aquiva-sweep/dreamforce-2026-developer-keynote/original.html",
+      "matches": [],
+      "credited_to_robert": true,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Developer Keynote",
+          "url": "https://www.salesforce.com/plus/experience/dreamforce_2026/series/developers_at_dreamforce_2026/episode/episode-s1e1"
+        },
+        {
+          "label": "Salesforce Development plugin",
+          "url": "https://developer.salesforce.com/docs/platform/salesforce-skills-plugins/guide/salesforce-development-overview.html"
+        },
+        {
+          "label": "Speccy",
+          "url": "https://github.com/aquivalabs/speccy"
+        },
+        {
+          "label": "Putting Learning in the Loop",
+          "url": "/blog/putting-learning-in-the-loop"
+        },
+        {
+          "label": "ticket-to-pull-request pipeline",
+          "url": "/blog/the-fable-of-the-hare-and-the-hedgehog"
+        },
+        {
+          "label": "Aquiva AI Pods",
+          "url": "/ai-pod"
+        },
+        {
+          "label": "introduced it at Dreamforce 2025",
+          "url": "https://developer.salesforce.com/blogs/2025/10/build-and-optimize-agents-with-new-agentforce-360-features"
+        },
+        {
+          "label": "made it generally available earlier this year",
+          "url": "https://developer.salesforce.com/blogs/2026/06/the-salesforce-developers-guide-to-the-summer-26-release"
+        },
+        {
+          "label": "Agent Script",
+          "url": "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-script.html"
+        }
+      ],
+      "decision": "already_archived"
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-forward-deployed-engineer",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "What Actually Is a Salesforce Forward Deployed Engineer?",
+      "date": "2026-08-25",
+      "snapshot": ".archive/discovery/aquiva-sweep/salesforce-forward-deployed-engineer/original.html",
+      "matches": [],
+      "credited_to_robert": true,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "FDE Ready",
+          "url": "https://cloud.mail.salesforce.com/workshop-listing"
+        },
+        {
+          "label": "history of the role",
+          "url": "https://newsletter.pragmaticengineer.com/p/forward-deployed-engineers"
+        },
+        {
+          "label": "announcement",
+          "url": "https://www.salesforce.com/news/stories/salesforce-launches-forward-deployed-engineer-partner-network-announcement/"
+        },
+        {
+          "label": "argue that this is the root of it",
+          "url": "https://arxiv.org/abs/2509.04664"
+        },
+        {
+          "label": "cannot be removed at all",
+          "url": "https://arxiv.org/abs/2401.11817"
+        },
+        {
+          "label": "Agent Script",
+          "url": "https://www.salesforce.com/blog/agent-script-control-plane/"
+        },
+        {
+          "label": "Data 360",
+          "url": "https://www.salesforce.com/data/guide/"
+        },
+        {
+          "label": "TDX 2026 roundup",
+          "url": "/blog/tdx-2026-the-5-salesforce-announcements-that-change-the-rules"
+        },
+        {
+          "label": "My Org Butler",
+          "url": "https://github.com/aquivalabs/my-org-butler"
+        },
+        {
+          "label": "speccy",
+          "url": "https://github.com/aquivalabs/speccy"
+        },
+        {
+          "label": "documented in this blog post",
+          "url": "/blog/putting-learning-in-the-loop"
+        },
+        {
+          "label": "written up here",
+          "url": "/blog/the-fable-of-the-hare-and-the-hedgehog"
+        },
+        {
+          "label": "AI Pod",
+          "url": "/ai-pod"
+        },
+        {
+          "label": "See how our Salesforce forward deployed engineering works →",
+          "url": "/services/forward-deployed-engineering"
+        },
+        {
+          "label": "Get your Agentforce use case reviewed →",
+          "url": "/contact-us"
+        }
+      ],
+      "decision": "already_archived"
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-storage-costs",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Salesforce Storage Costs in 2026: Allocations, Overages, and the Cheaper Ways Out",
+      "date": "2026-08-16",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "The Fable of the Hare and the Hedgehog",
+      "date": "2026-07-31",
+      "snapshot": ".archive/discovery/aquiva-sweep/the-fable-of-the-hare-and-the-hedgehog/original.html",
+      "matches": [],
+      "credited_to_robert": true,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "AI Pod",
+          "url": "/ai-pod"
+        },
+        {
+          "label": "an article on this blog",
+          "url": "/blog/putting-learning-in-the-loop"
+        },
+        {
+          "label": "My Org Butler, our Open Source Agentforce blueprint",
+          "url": "https://github.com/aquivalabs/my-org-butler"
+        },
+        {
+          "label": "Andrej Karpathy's idea of an LLM Wiki",
+          "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+        },
+        {
+          "label": "was suspended for a few weeks",
+          "url": "https://www.anthropic.com/news/redeploying-fable-5"
+        },
+        {
+          "label": "Anthropic's engineering blog",
+          "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+        },
+        {
+          "label": "OpenCode",
+          "url": "https://opencode.ai"
+        },
+        {
+          "label": "LangChain's Deep Agents",
+          "url": "https://github.com/langchain-ai/deepagents"
+        },
+        {
+          "label": "talk to us",
+          "url": "/contact-us"
+        }
+      ],
+      "decision": "already_archived"
+    },
+    {
+      "url": "https://aquiva.com/blog/putting-learning-in-the-loop",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aidan Harding"
+        }
+      ],
+      "title": "Putting Learning in the Loop",
+      "date": "2026-07-21",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/ai-agents-salesforce-qa-testing",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Kamila Topolska"
+        }
+      ],
+      "title": "How AI Agents Speed Up Manual QA Testing on Salesforce Projects",
+      "date": "2026-07-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/platform-bet-three-years-ago-ai-problem",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski",
+          "url": "https://www.linkedin.com/in/gwasowski/"
+        },
+        {
+          "@type": "Person",
+          "name": "Michael Holt",
+          "url": "https://www.linkedin.com/in/michaelholtsf/"
+        }
+      ],
+      "title": "The Platform Bet You Made Three Years Ago Is Now Your AI Problem",
+      "date": "2026-07-01",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-data-cloud-implementation-questions",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Salesforce Data Cloud (Data 360): Questions to Ask Before You Implement",
+      "date": "2026-06-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-is-now-aquiva",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jay Keating"
+        }
+      ],
+      "title": "Aquiva Labs is Now Aquiva. Here's What That Means for You.",
+      "date": "2026-06-22",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-ca-eca-non-compliance-notices",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Salesforce Is Sending CA/ECA Non-Compliance Notices. Read Yours Before You Lock Anything",
+      "date": "2026-05-29",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/summer-26-salesforce-release-highlights-that-matter",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Summer '26 Salesforce Release Highlights That Matter",
+      "date": "2026-05-19",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-ai-budget-you-need-is-already-hiding-in-your-app-portfolio",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "The AI Budget You Need Is Already Hiding in Your App Portfolio",
+      "date": "2026-05-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/how-to-keep-ai-assisted-salesforce-development-cost-effective",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        },
+        {
+          "@type": "Person",
+          "name": "Joey Weaver"
+        }
+      ],
+      "title": "How to Keep AI-Assisted Salesforce Development Cost-Effective",
+      "date": "2026-05-08",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/mandatory-security-requirements-for-connected-apps-and-external-client-apps",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Mandatory Security Requirements for Connected Apps and External Client Apps Required by May 11, 2026",
+      "date": "2026-04-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/tdx-2026-the-5-salesforce-announcements-that-change-the-rules",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "TDX 2026: The 5 Salesforce Announcements That Change the Rules",
+      "date": "2026-04-21",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/from-ai-pilot-to-production-reality",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aquiva Labs"
+        }
+      ],
+      "title": "From AI Pilot to Production Reality",
+      "date": "2026-04-15",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/agentforce-pricing-for-isvs",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Agentforce Pricing for ISVs",
+      "date": "2026-04-02",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/thinking-about-replacing-salesforce-with-your-own-vibe-coded-crm-read-this-first",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Thinking About Replacing Salesforce With Your Own Vibe-Coded CRM? Read This First.",
+      "date": "2026-04-01",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-key-spring-26-salesforce-release-highlights-that-matter",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aquiva Labs"
+        }
+      ],
+      "title": "Aquiva Key: Spring '26 Salesforce Release Highlights That Matter",
+      "date": "2026-03-13",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-isvs-1gp-to-2gp-migration",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Salesforce ISVs: Why Migrate from 1GP to 2GP Now",
+      "date": "2026-03-05",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/heroku-enterprise-end-of-sale-fy26",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Heroku Enterprise End of Sale: Sustaining Mode Now, No End-of-Life Date Yet",
+      "date": "2026-02-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/how-much-could-a-cyberattack-in-salesforce-cost-your-company",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "The True Cost of a Customer Data Breach",
+      "date": "2026-02-04",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/grubhub-breach-salesforce-oauth-tokens-and-connected-app-risk",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Grubhub Breach: Salesforce OAuth Tokens and Connected App Risk",
+      "date": "2026-01-29",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-key-salesforce-api-monitoring",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aquiva Labs"
+        }
+      ],
+      "title": "Aquiva Key: Unlocking Simple and Secure API Monitoring for Salesforce",
+      "date": "2026-01-20",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-daiana-andion",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jacob Rouser"
+        }
+      ],
+      "title": "Employee Spotlight: Daiana Andion",
+      "date": "2025-12-18",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "https://careers.aquiva.com/",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-on-the-road-25-from-agentforce-to-trust-whats-emerging-across-the-ecosystem",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aquiva Labs"
+        }
+      ],
+      "title": "Aquiva on the Road '25: From Agentforce to Trust, What’s Emerging Across the Ecosystem",
+      "date": "2025-12-18",
+      "snapshot": ".archive/discovery/aquiva-sweep/aquiva-on-the-road-25-from-agentforce-to-trust-whats-emerging-across-the-ecosystem/original.html",
+      "matches": [
+        "environments.\nThat theme was reinforced through AI Agents from the Trenches, presented by Robert Sösemann in Dublin, Porto, and Dubai.\nThe sessions centered on a clear point of view. Agentic systems can reduce UI complexity and replace brittle glue code with reasoning-driven ",
+        "ments.\nThat theme was reinforced through AI Agents from the Trenches, presented by Robert Sösemann in Dublin, Porto, and Dubai.\nThe sessions centered on a clear point of view. Agentic systems can reduce UI complexity and replace brittle glue code with reasoning-driven orchestra"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "check it out here",
+          "url": "/blog/6-themes-shaping-hospitality-in-2025-a-hitec-recap"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Publisher event retrospective identifies Robert presenting AI Agents from the Trenches in Dublin, Porto, and Dubai."
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-agentforce-implementation",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "RevvGrowth"
+        }
+      ],
+      "title": "Salesforce Agentforce: Best Practices for Effective AI Implementation",
+      "date": "2025-12-10",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/appexchange-partners",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aquiva Labs"
+        }
+      ],
+      "title": "AppExchange Partners: Salesforce Now Expects You to Monitor API Usage",
+      "date": "2025-11-27",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-rca-maturity-revenue-strategy",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Salesforce RCA Maturity: Frameworks, Metrics & Operational Readiness",
+      "date": "2025-11-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-data-breach-agentforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "What Happened: The ForcedLeak in Salesforce Agentforce",
+      "date": "2025-11-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/dreamforce-2025-agentic-revolution",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Anna Walach"
+        }
+      ],
+      "title": "Dreamforce 2025: Keynotes, Innovations & Salesforce Updates",
+      "date": "2025-11-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/agentforce360-salesforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Grace Costa"
+        }
+      ],
+      "title": "Agentforce 360: Insights, Automation, and Real-World Applications",
+      "date": "2025-11-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/optimize-salesforce-agentforce-five-key-insights",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Aquiva Labs"
+        }
+      ],
+      "title": "5 Key Insights to Optimize Your Salesforce Investment With Agentforce",
+      "date": "2025-11-20",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-api-usage-monitoring-security",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Salesforce Security Starts with API Usage Monitoring",
+      "date": "2025-11-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-agentic-enterprise-building-trust-not-just-capability",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "The Agentic Enterprise: Building Trust, Not Just Capability",
+      "date": "2025-10-16",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/unlocking-data-cloud-developer-guide-dreamforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Felipe Pradines"
+        }
+      ],
+      "title": "Unlocking Salesforce Data Cloud: A Practical Developer Guide",
+      "date": "2025-10-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/guardrails-generative-ai-agentforce-variables-filters",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Guardrails for Generative AI: Why Variables and Filters Matter in Agentforce",
+      "date": "2025-10-08",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/ai-reducing-opportunity-costs",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jay Keating"
+        }
+      ],
+      "title": "Can AI Reduce Opportunity Costs?",
+      "date": "2025-09-17",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-cpq-vs-revenue-cloud-advanced-migration",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jacob Rouser"
+        }
+      ],
+      "title": "Salesforce CPQ vs Revenue Cloud Advanced: Why It’s Time to Move",
+      "date": "2025-09-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/agentforce-pricing-gets-a-long-overdue-fix-flex-credits-are-now-live",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Salesforce Agentforce Pricing (2026): Flex Credits, Conversations, and Editions",
+      "date": "2025-09-04",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-connected-apps-security-data-loader-update-2025",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Salesforce Connected Apps Security Update: Restrictions and Data Loader Changes (Q3 2025)",
+      "date": "2025-08-21",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-leadership-announcement-2025",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Nikolai Balba"
+        },
+        {
+          "@type": "Person",
+          "name": "Jay Keating"
+        },
+        {
+          "@type": "Person",
+          "name": "Jacob Rouser"
+        }
+      ],
+      "title": "Aquiva Labs Evolves Leadership to Accelerate Innovation and Sustain Growth",
+      "date": "2025-08-07",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-aleksei-voronkov",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Katya Pashkova"
+        }
+      ],
+      "title": "Employee Spotlight: Aleksei Voronkov",
+      "date": "2025-07-31",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/6-key-takeaways-from-salesforces-summer-25-release-for-isvs",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jacob Rouser"
+        }
+      ],
+      "title": "6 Key Takeaways from Salesforce’s Summer ’25 Release for ISVs",
+      "date": "2025-07-18",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jacob Rouser"
+        }
+      ],
+      "title": "Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet",
+      "date": "2025-07-11",
+      "snapshot": ".archive/discovery/aquiva-sweep/robert-sosemann-salesforce-mvp/original.html",
+      "matches": [
+        "When you meet Robert Sösemann, there are no soft edges. He’s direct, opinionated, and more interested in clean code than community accolades. And yet, here he is, renewed for the fifth time as a Sales",
+        "When you meet Robert Sösemann, there are no soft edges. He’s direct, opinionated, and more interested in clean code than community accolades. And yet, here he is, renewed for the fifth time as a Salesforce MVP",
+        "ifth time as a Salesforce MVP, on the verge of entering the Hall of Fame.\nI sat down with Robert to trace his journey — not just through the MVP program, but through 20 years of code, tooling, and a shifting Salesforce landscape that often seemed antithetical to his way of th",
+        "nd a shifting Salesforce landscape that often seemed antithetical to his way of thinking.\nRobert didn’t set out to be a Salesforce MVP. In fact, for years he made jokes that he’d never be one. “I wasn’t organizing meetups or running user groups, I was pointing out bugs on Twi",
+        "aging junior devs.\n“I just wanted something that could catch the basics before I had to,” Robert said.\nThe motivation wasn’t grand. It was practical. A love of simplicity and removing friction. Over time, that mindset led him deeper into the world of software craftsmanship.\n“",
+        "ater. That pain is what drove me to care about readability, consistency, and design.”\nFor Robert, sharing code wasn’t about altruism. It was leverage.\n“I open sourced PMD because I needed the help. Other people could contribute, test, teach. And yeah — because I liked being l",
+        "rground spokesperson for serious engineers who didn’t feel at home in the Ohana vibe.\nAsk Robert what it means to be a five-time MVP, and you won’t get a polished answer.\n“It’s not like I hang the certificate on my wall. But it means something. I didn’t come through the tradi",
+        " fact that they keep renewing me? That tells me someone’s listening.”\nMore than anything, Robert sees the recognition as a signal that engineering rigor has a place in Salesforce.\n“In the beginning, I wasn’t sure someone like me even had a place here. But getting renewed year",
+        "y you. That someone at Salesforce sees the value in what we do.”\nOver the last two years, Robert has led Aquiva Labs’ experiments with generative AI inside Salesforce, launching tools like My Org Butler, DMD, and Ask Your Document. These aren’t concepts — they’re real, workin",
+        "ou’re not two or three times better with AI than you were before, you’re at risk.”\nStill, Robert sees hope in the platform.\n“Salesforce is pivoting hard to AI. Agentforce is messy but promising. And the one thing that hasn’t changed? We still need people who can build. People",
+        "e thing that hasn’t changed? We still need people who can build. People who give a damn.”\nRobert didn’t set out to win awards. He set out to solve problems. Along the way, he proved that craft and honesty can coexist in an ecosystem that didn’t always want to hear it.\nAnd tha",
+        " critical, curious, and a little relentless still counts.\nIf you’d like to read more from Robert, you can follow him below:\nGithub: http://github.com/rsoesemann\nLinkedIn: https://www.linkedin.com/in/rsoesemann/\nX: https://x.com/rsoesemann\nIf you’d like to learn more about how",
+        " you’d like to read more from Robert, you can follow him below:\nGithub: http://github.com/rsoesemann\nLinkedIn: https://www.linkedin.com/in/rsoesemann/\nX: https://x.com/rsoesemann\nIf you’d like to learn more about how Aquiva Labs is empowering organizations using Salesforce to sol",
+        "low him below:\nGithub: http://github.com/rsoesemann\nLinkedIn: https://www.linkedin.com/in/rsoesemann/\nX: https://x.com/rsoesemann\nIf you’d like to learn more about how Aquiva Labs is empowering organizations using Salesforce to solve their biggest challenges, get in touch today!",
+        "/github.com/rsoesemann\nLinkedIn: https://www.linkedin.com/in/rsoesemann/\nX: https://x.com/rsoesemann\nIf you’d like to learn more about how Aquiva Labs is empowering organizations using Salesforce to solve their biggest challenges, get in touch today!"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "http://github.com/rsoesemann",
+          "url": "http://github.com/rsoesemann"
+        },
+        {
+          "label": "https://www.linkedin.com/in/rsoesemann/",
+          "url": "https://www.linkedin.com/in/rsoesemann/"
+        },
+        {
+          "label": "https://x.com/rsoesemann",
+          "url": "https://x.com/rsoesemann"
+        }
+      ],
+      "decision": "already_archived"
+    },
+    {
+      "url": "https://aquiva.com/blog/digital-labour-meets-its-london-moment",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Digital Labour Meets Its London Moment",
+      "date": "2025-06-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/6-themes-shaping-hospitality-in-2025-a-hitec-recap",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Nikolai Balba"
+        }
+      ],
+      "title": "6 Themes Shaping Hospitality in 2025: A HITEC Recap",
+      "date": "2025-06-20",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-michael-holt",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Katya Pashkova"
+        }
+      ],
+      "title": "Employee Spotlight: Michael Holt",
+      "date": "2025-06-19",
+      "matches": [
+        "w it as an exciting opportunity. I knew the team was full of top talent – CTAs, MVPs like Robert Sösemann and Jakub Stefaniak, and I saw it as a chance to grow and learn. I’m glad I made the move – it’s been a great experience so far.\nThere have been many memorable moments, b",
+        " an exciting opportunity. I knew the team was full of top talent – CTAs, MVPs like Robert Sösemann and Jakub Stefaniak, and I saw it as a chance to grow and learn. I’m glad I made the move – it’s been a great experience so far.\nThere have been many memorable moments, but what s"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "Incidental reference in another person’s profile; no original Robert writing or public talk content.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/agentforce-change-management",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Barbara Laskowska"
+        },
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Agentforce Change Management",
+      "date": "2025-06-17",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/agent-templates-are-now-packageable-heres-why-that-matters-for-your-agentforce-strategy",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Agent Templates Are Now Packageable - Here’s Why That Matters for Your Agentforce Strategy",
+      "date": "2025-06-13",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/when-a-friendly-voice-becomes-a-threat-what-the-latest-extortion-campaign-means-for-your-salesforce-org",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "When a Friendly Voice Becomes a Threat: What the Latest Extortion Campaign Means for Your Salesforce Org",
+      "date": "2025-06-12",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/turning-hospitality-data-into-memorable-moments-with-agentforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Turning Hospitality Data into Memorable Moments with Agentforce",
+      "date": "2025-06-10",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/is-your-orgs-technical-debt-about-to-block-a-key-part-of-the-summer-25-release",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Is Your Org’s Technical Debt About to Block a Key Part of the Summer ’25 Release?",
+      "date": "2025-05-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/is-your-app-the-reason-your-customers-miss-out-on-a-critical-salesforce-upgrade",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Is Your App the Reason Your Customers Miss Out on a Critical Salesforce Upgrade?",
+      "date": "2025-05-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-elena-danylevska",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Employee Spotlight: Elena Danylevska",
+      "date": "2025-04-25",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/agentforce-2dx-salesforces-next-leap-in-autonomous-ai",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Agentforce 2dx: Salesforce’s Next Leap in Autonomous AI",
+      "date": "2025-03-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        },
+        {
+          "@type": "Person",
+          "name": "Michael Holt"
+        },
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "10 Best Practices for Building with Agentforce Builder",
+      "date": "2025-03-06",
+      "snapshot": ".archive/discovery/aquiva-sweep/top-10-best-practices-for-building-with-agentforce/original.html",
+      "matches": [],
+      "credited_to_robert": true,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Agentforce",
+          "url": "/blog/what-is-agentforce"
+        },
+        {
+          "label": "Aquiva",
+          "url": "/"
+        },
+        {
+          "label": "Market.us",
+          "url": "https://market.us/report/ai-agents-market/"
+        },
+        {
+          "label": "Aquiva Labs",
+          "url": "/"
+        },
+        {
+          "label": "keep testing your AI agents",
+          "url": "https://www.reddit.com/r/salesforce/comments/1mesibm/how_are_people_testing_their_agents/https://www.reddit.com/r/salesforce/comments/1mesibm/how_are_people_testing_their_agents/"
+        },
+        {
+          "label": "Agentforce for AppExchange",
+          "url": "https://agentexchange.salesforce.com/"
+        },
+        {
+          "label": "MyOrgButler",
+          "url": "https://github.com/aquivalabs/my-org-butler"
+        },
+        {
+          "label": "The AI Trust Dilemma: Why Compliance and Security Are Now Business Priorities",
+          "url": "/blog/the-ai-trust-dilemma-why-compliance-and-security-are-now-business-priorities"
+        },
+        {
+          "label": "Salesforce’s Einstein Trust Layer",
+          "url": "https://www.salesforce.com/in/artificial-intelligence/trusted-ai/"
+        },
+        {
+          "label": "94% among the engineers",
+          "url": "https://engineering.salesforce.com/the-trust-foundation-how-unified-agentforce-platforms-operational-excellence-unlocks-rapid-ai-adoption/"
+        },
+        {
+          "label": "reach out",
+          "url": "/"
+        },
+        {
+          "label": "Agentforce: The New Low Code",
+          "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/"
+        },
+        {
+          "label": "AI Sustainability",
+          "url": "/blog/the-ai-sustainability-paradox-how-to-balance-innovation-and-environmental-impact"
+        },
+        {
+          "label": "Measuring ROI for Agentforce",
+          "url": "/blog/measuring-roi-for-ai-agents"
+        },
+        {
+          "label": "Data Cloud for ISV Partners",
+          "url": "/blog/the-big-question-for-isvs-build-buy-or-both-engineering-expertise-for-salesforce-data-cloud"
+        },
+        {
+          "label": "Salesforce’s Become an Agentblazer Innovator",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-innovator"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Publisher lists Greg Wasowski, Michael Holt, and Robert Sösemann as authors. Individual passages have not been attributed."
+    },
+    {
+      "url": "https://aquiva.com/blog/the-ai-trust-dilemma-why-compliance-and-security-are-now-business-priorities",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Salesforce Einstein Trust Layer: AI Security & Compliance in 2026",
+      "date": "2025-01-31",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-renews-soc-2-compliance-elevating-trust-with-security-and-confidentiality",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Aquiva Labs Renews SOC 2 Compliance: Elevating Trust with Security and Confidentiality",
+      "date": "2025-01-24",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-gianni-braga",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ekaterina Pashkova"
+        }
+      ],
+      "title": "Employee Spotlight: Gianni Braga",
+      "date": "2025-01-21",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-ai-sustainability-paradox-how-to-balance-innovation-and-environmental-impact",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "The AI Sustainability Paradox: How to Balance Innovation and Environmental Impact",
+      "date": "2025-01-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-partners-with-airslate-to-empower-businesses-with-document-workflow-automation",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Aquiva Labs Partners with airSlate to Empower Businesses with Document Workflow Automation",
+      "date": "2024-12-20",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-truth-about-free-appexchange-listings-a-guide-for-prospective-salesforce-isv-partners",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Alex Bariyev"
+        },
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        },
+        {
+          "@type": "Person",
+          "name": "Michael Holt"
+        }
+      ],
+      "title": "Is Salesforce AppExchange Listing Really Free? Myth Busted",
+      "date": "2024-12-16",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/measuring-roi-for-ai-agents",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "How to Calculate and Accelerate Agentic AI ROI?",
+      "date": "2024-11-12",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/is-agentforce-the-new-low-code",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "Is Agentforce the New Low-Code?",
+      "date": "2024-10-17",
+      "snapshot": ".archive/discovery/aquiva-sweep/is-agentforce-the-new-low-code/original.html",
+      "matches": [],
+      "credited_to_robert": true,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Agentforce",
+          "url": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "label": "Einstein Copilot",
+          "url": "https://www.salesforce.com/news/press-releases/2024/02/27/einstein-copilot-news/"
+        },
+        {
+          "label": "articles",
+          "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/"
+        },
+        {
+          "label": "interviews",
+          "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/"
+        },
+        {
+          "label": "conference talks",
+          "url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/"
+        },
+        {
+          "label": "AppExchange apps",
+          "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=391c6e33-77d7-4393-a957-7f7ae738d0e3"
+        },
+        {
+          "label": "open-source repositories",
+          "url": "https://github.com/aquivalabs"
+        },
+        {
+          "label": "Prompt Builder,",
+          "url": "https://www.salesforce.com/eu/artificial-intelligence/prompt-builder"
+        },
+        {
+          "label": "Model Builder",
+          "url": "https://www.salesforce.com/eu/artificial-intelligence/ai-builder"
+        },
+        {
+          "label": "vector databases in the Data Cloud",
+          "url": "https://www.salesforce.com/news/stories/retrieval-augmented-generation-explained/"
+        },
+        {
+          "label": "DMD",
+          "url": "https://github.com/aquivalabs/document-mess-detector"
+        },
+        {
+          "label": "MyOrgButler",
+          "url": "https://github.com/aquivalabs/my-org-butler"
+        },
+        {
+          "label": "AskYourDocument",
+          "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=391c6e33-77d7-4393-a957-7f7ae738d0e3"
+        },
+        {
+          "label": "“Trust” fearmongering",
+          "url": "https://www.salesforce.com/news/stories/video/explaining-the-einstein-gpt-trust-layer/"
+        },
+        {
+          "label": "talk of billions of agents",
+          "url": "https://fortune.com/2024/09/05/salesforce-ceo-marc-benioff-ai-agents-agentforce-dreamforce-gen-ai-era/"
+        },
+        {
+          "label": "transformed it into a spirit of progress",
+          "url": "https://www.barrons.com/articles/buy-salesforce-stock-ai-revenue-b163d1c6"
+        },
+        {
+          "label": "prepared before Dreamforce by earning the AI Specialist certification",
+          "url": "https://www.linkedin.com/posts/aquiva-labs_ai-salesforceaispecialist-aispecialist-activity-7247186762945486848--evY"
+        },
+        {
+          "label": "OpenAI Assistant API",
+          "url": "https://platform.openai.com/docs/assistants/overview"
+        },
+        {
+          "label": "Aquiva has recently created a POC for the hospitality industry leveraging Agentforce",
+          "url": "https://vimeo.com/1019486580/54a7affa08?share=copy"
+        },
+        {
+          "label": ",",
+          "url": "https://vimeo.com/1019486580/54a7affa08?share=copy"
+        },
+        {
+          "label": "Salesforce’s Canvas demo",
+          "url": "https://www.youtube.com/watch?v=wQJNOm4YUC0"
+        },
+        {
+          "label": "Insights Partner share my belief and excitement",
+          "url": "https://www.insightpartners.com/ideas/ai-agents-disrupting-automation/"
+        },
+        {
+          "label": "me directly on LinkedIn",
+          "url": "https://www.linkedin.com/in/rsoesemann/"
+        }
+      ],
+      "decision": "already_archived"
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-nikolay-ermakov",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ekaterina Pashkova"
+        }
+      ],
+      "title": "Employee Spotlight: Nikolay Ermakov",
+      "date": "2024-09-23",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-big-question-for-isvs-build-buy-or-both-engineering-expertise-for-salesforce-data-cloud",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "The Big Question for ISVs: “Build, Buy or Both” Engineering Expertise for Salesforce Data Cloud?",
+      "date": "2024-09-10",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/three-questions-that-will-shape-your-salesforce-dream-team",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Nikolai Balba"
+        }
+      ],
+      "title": "Three Questions That Will Shape Your Salesforce Dream Team",
+      "date": "2024-08-29",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/external-client-apps-the-next-generation-of-app-interoperability",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Michael Holt"
+        }
+      ],
+      "title": "Salesforce External Client Apps vs Connected Apps: A Deep Dive",
+      "date": "2024-08-13",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/updated-appexchange-isv-program-three-takeaways",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Alex Bariyev"
+        }
+      ],
+      "title": "Updated AppExchange ISV Program: Three Takeaways",
+      "date": "2024-08-05",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-tatsiana-belausova",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ekaterina Pashkova"
+        }
+      ],
+      "title": "Employee Spotlight: Tatsiana Belavusava",
+      "date": "2024-07-19",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-achieves-soc-2-compliance",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Aquiva Labs Achieves SOC 2 Compliance",
+      "date": "2024-07-12",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/you-launched-your-app-on-the-salesforce-appexchange-now-what",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Michael Holt"
+        }
+      ],
+      "title": "Top 10 Actionable AppExchange Listing Optimization Tips",
+      "date": "2024-06-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/what-is-a-pda-process-driven-approach-and-why-is-it-important",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Barbara Laskowska"
+        }
+      ],
+      "title": "Process Driven Approach: Definition, Benefits & Implementation",
+      "date": "2024-06-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-salesforce-oem-program-as-a-paas-for-your-enterprise-saas",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Michael Holt"
+        }
+      ],
+      "title": "The Salesforce OEM Program as a PaaS for Your Enterprise SaaS",
+      "date": "2024-06-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/technical-debt-in-the-age-of-ai",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Federico Miguez"
+        }
+      ],
+      "title": "How To Reduce Salesforce Technical Debt in Age of AI?",
+      "date": "2024-06-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/periodic-security-re-reviews-on-appexchange",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        }
+      ],
+      "title": "Periodic Security Re-Reviews on AppExchange",
+      "date": "2024-06-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/isvs-the-clock-is-ticking-for-process-builder-and-workflow-rules",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Michael Holt"
+        }
+      ],
+      "title": "ISVs: The Clock is Ticking for Process Builder and Workflow Rules",
+      "date": "2024-06-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/strategies-to-consider-when-migrating-your-legacy-app-to-the-salesforce-platform",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Nikolai Balba"
+        }
+      ],
+      "title": "Strategies to Consider When Migrating Your Legacy App to the Salesforce Platform",
+      "date": "2024-06-10",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "Reflecting on a Year of AI Integration in Salesforce: Insights from Aquiva Labs",
+      "date": "2024-03-18",
+      "snapshot": ".archive/discovery/aquiva-sweep/reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs/original.html",
+      "matches": [
+        "votal moment that has significantly influenced the tech landscape. To mark this occasion, Robert Sösemann, Principal Architect and AI Task Force member at Aquiva Labs, has shared a reflective piece on Salesforce Ben, detailing the team’s journey and learnings from integrating",
+        "oment that has significantly influenced the tech landscape. To mark this occasion, Robert Sösemann, Principal Architect and AI Task Force member at Aquiva Labs, has shared a reflective piece on Salesforce Ben, detailing the team’s journey and learnings from integrating AI withi",
+        "ing and improvement.\nWe invite you to delve into the nuances of our AI journey by reading Robert Sösemann’s comprehensive account on Salesforce Ben, offering a glimpse into the practical realities of AI in the Salesforce ecosystem.\nRead the full experience report on Salesforc",
+        " improvement.\nWe invite you to delve into the nuances of our AI journey by reading Robert Sösemann’s comprehensive account on Salesforce Ben, offering a glimpse into the practical realities of AI in the Salesforce ecosystem.\nRead the full experience report on Salesforce Ben"
+      ],
+      "credited_to_robert": true,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/"
+        },
+        {
+          "label": "Salesforce Ben",
+          "url": "https://www.salesforceben.com"
+        },
+        {
+          "label": "Read the full article on Salesforce Ben",
+          "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/"
+        },
+        {
+          "label": "Discover MyOrgButler on GitHub",
+          "url": "https://github.com/aquivalabs/my-org-butler"
+        },
+        {
+          "label": "Explore DMD on GitHub",
+          "url": "https://github.com/aquivalabs/document-mess-detector"
+        },
+        {
+          "label": "Find out more about AskYourDocument on AppExchange",
+          "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=391c6e33-77d7-4393-a957-7f7ae738d0e3"
+        },
+        {
+          "label": "Robert Sösemann’s",
+          "url": "https://www.linkedin.com/in/rsoesemann/"
+        },
+        {
+          "label": "Read the full experience report on Salesforce Ben",
+          "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Publisher credits Robert but body is a third-person announcement of his Salesforce Ben article. Do not treat this wrapper as an original style sample."
+    },
+    {
+      "url": "https://aquiva.com/blog/manufacturing-cloud-spring-24-release-quick-insights",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jim Nader"
+        }
+      ],
+      "title": "Manufacturing Cloud Spring ’24 Release: Quick Insights",
+      "date": "2024-02-28",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/reflecting-on-insight-2024-a-deep-dive-into-marketing-and-sales-alignment",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "Reflecting on INSIGHT 2024: A Deep Dive into Marketing and Sales Alignment",
+      "date": "2024-02-13",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-18-david-vanheukelom-founder-kompete-ai",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 18: David VanHeukelom, Founder @ Kompete.ai",
+      "date": "2024-01-30",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/how-to-build-a-value-driving-ai-strategy-for-your-business",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Greg Wasowski"
+        }
+      ],
+      "title": "How to Develop an AI Strategy for Business Growth?",
+      "date": "2024-01-25",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-health-cloud-spring-24-highlights",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Salesforce Health Cloud Spring '24 Highlights",
+      "date": "2024-01-19",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/salesforce-financial-services-cloud-spring24-highlights",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Salesforce Financial Services Cloud Spring '24 Highlights",
+      "date": "2024-01-16",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/unlocking-seamless-salesforce-integration-aquiva-labs-partners-with-polyapi",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Unlocking Seamless Salesforce Integration: Aquiva Labs Partners with PolyAPI",
+      "date": "2023-12-22",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-milica-miletic",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Milica Miletic"
+        }
+      ],
+      "title": "Employee Spotlight: Milica Miletic",
+      "date": "2023-12-21",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-17-fernando-israel-ceo-at-kognoz-invoices-for-salesforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 17: Fernando Israel, CEO at Kognoz (Invoices for Salesforce)",
+      "date": "2023-12-12",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-16-francois-lopitaux-chief-product-officer-at-odaseva",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 16: Francois Lopitaux, Chief Product Officer at Odaseva",
+      "date": "2023-11-28",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/devops-dreamin-recap",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "DevOps Dreamin' Recap",
+      "date": "2023-11-24",
+      "snapshot": ".archive/discovery/aquiva-sweep/devops-dreamin-recap/original.html",
+      "matches": [
+        " this matrix provides a valuable resource for identifying potential areas of improvement.\nRobert Sösemann showcased the adaptability of PMD, an open-source code analysis tool. His presentation focused on how PMD can efficiently check Salesforce metadata, including Apex, for c",
+        "atrix provides a valuable resource for identifying potential areas of improvement.\nRobert Sösemann showcased the adaptability of PMD, an open-source code analysis tool. His presentation focused on how PMD can efficiently check Salesforce metadata, including Apex, for compliance"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [],
+      "decision": "archive",
+      "reason": "Publisher identifies Robert presenting PMD and Salesforce metadata. Page promises slide decks, but the current article body contains no hyperlinks."
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-15-krishna-tatta-engineering-leadership-at-google",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 15: Krishna Tatta, Engineering Leadership at Google",
+      "date": "2023-11-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/case-study-aquiva-labs-kaptio-generative-ai-einstein-gpt-implementation-for-the-salesforce-appexchange-2",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Case Study: Aquiva Labs & Kaptio - Generative AI (Einstein GPT) Implementation for the Salesforce AppExchange",
+      "date": "2023-11-14",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/we-win-as-a-team-stas-sherbakov",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ekaterina Pashkova"
+        }
+      ],
+      "title": "We Win As a Team: Stas Sherbakov",
+      "date": "2023-11-08",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-14-evgenii-pavlov-ceo-founder-flair",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 14: Evgenii Pavlov, CEO & founder at flair",
+      "date": "2023-10-31",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/unlocking-opportunities-for-fintechs-and-fis-with-appexchange-fsc",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Unlocking Opportunities for FinTechs and FIs with AppExchange and FSC",
+      "date": "2023-10-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-13-andrew-hart-vp-services-at-own-company",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 13: Andrew Hart, VP Services at Own Company",
+      "date": "2023-10-17",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-12-bill-appleton-cto-at-metazoa",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 12: Bill Appleton, CTO at Metazoa",
+      "date": "2023-10-03",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-11-michael-leach-founder-ceo-at-pacific-apps-inc-idialogue",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 11: Michael Leach, Founder, CEO at Pacific Apps Inc. / iDialogue",
+      "date": "2023-09-19",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-10-federico-larsen-cto-co-founder-at-copado",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 10: Federico Larsen, CTO & Co-founder at Copado",
+      "date": "2023-09-05",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/we-win-as-a-team-oleg-nursultanov",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Oleg Nursultanov"
+        }
+      ],
+      "title": "We win as a team: Oleg Nursultanov",
+      "date": "2023-09-01",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-9-nikita-prokopev-founder-at-pharos",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 9: Nikita Prokopev, Founder at Pharos",
+      "date": "2023-08-22",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/how-to-supercharge-your-einstein-bot-with-intelligent-intent-detection-chat-gpt",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Bartosz Suchocki"
+        }
+      ],
+      "title": "Introducing Einstein Bot Intent Detector - Extension for Salesforce Einstein Bots",
+      "date": "2023-08-10",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/episode-8-neil-kostecki-vp-of-product-at-coveo",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Episode 8: Neil Kostecki, VP of Product at Coveo",
+      "date": "2023-08-08",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/embracing-proactive-engagement-artem-kniazev",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Artem Kniazev"
+        }
+      ],
+      "title": "Embracing Proactive Engagement: Artem Kniazev",
+      "date": "2023-07-27",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-7",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 7: Lorenzo Frattini, Founder at Clayton",
+      "date": "2023-07-25",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-6",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 6: Richard Clark, Chief Strategy Officer at Provar",
+      "date": "2023-07-11",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-5",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 5: Andrey Vyshlov, Chief Of Staff at ProvenWorks",
+      "date": "2023-06-27",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-4",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 4: Luis Segredo, CEO at Data Travel - AI and the Future of CRM in the Hospitality Industry",
+      "date": "2023-06-13",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/value-and-employee-spotlight-felipe-pradines",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Felipe Pradines"
+        }
+      ],
+      "title": "Embracing Proactive Engagement: Felipe Pradines",
+      "date": "2023-06-12",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-3",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 3: Ian Gotts, Founder and CEO at Elements.cloud",
+      "date": "2023-05-30",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-2",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 2: Luca Benini, COO and co-founder at Nativevideo",
+      "date": "2023-05-30",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-episode-1",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Episode 1: Ragnar Fjölnisson, Founder, Chief Strategy Office and Head of Growth at Kaptio",
+      "date": "2023-05-30",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/embracing-proactive-engagement-anna-walach-dudzic",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Anna Walach-Dudzic"
+        }
+      ],
+      "title": "Embracing Proactive Engagement: Anna Wałach-Dudzic",
+      "date": "2023-05-26",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/podcast-trailer",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yury Kurkin"
+        }
+      ],
+      "title": "Trailer",
+      "date": "2023-05-16",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/why-migrate-1gp-and-2gp-managed-packages-and-how-to-prepare-for-it",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Salesforce 1GP vs 2GP: Key Differences & Migration Guide 2025",
+      "date": "2023-05-15",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/integrating-openai-with-salesforce-appexchange-formula-debugger-case-study",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Jakub Stefaniak"
+        },
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "Integrating OpenAI With Salesforce AppExchange: Formula Debugger Case Study",
+      "date": "2023-04-20",
+      "snapshot": ".archive/discovery/aquiva-sweep/integrating-openai-with-salesforce-appexchange-formula-debugger-case-study/original.html",
+      "matches": [],
+      "credited_to_robert": true,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Formula Debugger",
+          "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G6g5PUAR"
+        },
+        {
+          "label": "Formula Debugger",
+          "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000G6g5PUAR"
+        },
+        {
+          "label": "FMA Feature Flags",
+          "url": "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp_fma_manage_features.htm?q=fma"
+        },
+        {
+          "label": "this Medium article",
+          "url": "https://medium.com/@ramaswamis/chatgpt-the-one-coding-prompt-you-need-can-135709d13a6e"
+        },
+        {
+          "label": "FormulaDebugger",
+          "url": "https://appexchange.salesforce.com/listingDetail?listingId=a0N4V00000G6g5PUAR&tab=e"
+        },
+        {
+          "label": "FormulaDebugger",
+          "url": "https://appexchange.salesforce.com/listingDetail?listingId=a0N4V00000G6g5PUAR&tab=e"
+        },
+        {
+          "label": "latest version",
+          "url": "https://appexchange.salesforce.com/listingDetail?listingId=a0N4V00000G6g5PUAR&tab=e"
+        },
+        {
+          "label": "PDO",
+          "url": "https://appexchange.salesforce.com/mktcollections/curated/pdo"
+        },
+        {
+          "label": "Aquiva Labs",
+          "url": "/"
+        },
+        {
+          "label": "reach out to me",
+          "url": "https://www.linkedin.com/in/jakub-stefaniak-cta/"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Publisher lists Jakub Stefaniak and Robert Sösemann. First-person narrative links to Jakub; not a sole-Robert writing sample."
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-joins-invisory-receiving-high-score-in-platforms-rankings-press-release",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ivana Licheva"
+        }
+      ],
+      "title": "Aquiva Labs Joins InVisory, Receiving High Score in Platform’s Rankings - Press Release",
+      "date": "2023-04-12",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/einstein-gpt-the-first-first-generative-ai-for-crm",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Einstein GPT: The First Generative AI for CRM",
+      "date": "2023-03-27",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/unboxing-the-excitement-what-salesforces-spring-23-release-means-for-app-packaging",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Unboxing the Excitement: What Salesforce's Spring '23 Release Means for App Packaging",
+      "date": "2023-03-10",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+      "date": "2022-12-28",
+      "snapshot": ".archive/discovery/aquiva-sweep/sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+      "matches": [
+        "Salesforce specialists. We already shared about our Principal Architect & Salesforce MVP, Robert Sösemann, who broke the attendance record with his session “As a Salesforce Developer I will – 7 Ground Rules for Success”.\nIn this article, you will get to meet our Engineering M",
+        "rce specialists. We already shared about our Principal Architect & Salesforce MVP, Robert Sösemann, who broke the attendance record with his session “As a Salesforce Developer I will – 7 Ground Rules for Success”.\nIn this article, you will get to meet our Engineering Manager, A"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "“As a Salesforce Developer I will – 7 Ground Rules for Success”",
+          "url": "/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Event recap names Robert and his SForce Summit Winter Edition 2022 session. Main remaining article covers other speakers."
+    },
+    {
+      "url": "https://aquiva.com/blog/navigating-the-salesforce-security-review-what-to-expect-and-how-to-prepare",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Salesforce Security Review: What to Expect and How to Prepare in 2026",
+      "date": "2022-12-26",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Robert Sösemann",
+          "url": "https://www.linkedin.com/in/rsoesemann/",
+          "sameAs": [
+            "https://www.linkedin.com/in/rsoesemann/",
+            "https://github.com/rsoesemann",
+            "https://x.com/rsoesemann"
+          ]
+        }
+      ],
+      "title": "Employee Spotlight - Robert Sösemann",
+      "date": "2022-12-16",
+      "snapshot": ".archive/discovery/aquiva-sweep/employee-spotlight-robert-sosemann/original.html",
+      "matches": [
+        " employee spotlight of 2022, you will get to meet our Principal Architect (PDO Practice), Robert Sösemann, based in Germany. You will learn how he found his passion, what his role at Aquiva Labs is about, and why he loves the company culture!\nRobert has always been into techn",
+        "ee spotlight of 2022, you will get to meet our Principal Architect (PDO Practice), Robert Sösemann, based in Germany. You will learn how he found his passion, what his role at Aquiva Labs is about, and why he loves the company culture!\nRobert has always been into technology. He",
+        "his passion, what his role at Aquiva Labs is about, and why he loves the company culture!\nRobert has always been into technology. He studied Computer Science at university and then worked in IT Consulting and Project Management. He had led small development teams in the Java ",
+        " Lean and Agile software development and had his first encounter with Salesforce. It took Robert a decade to find his passion for Salesforce development and 13 years ago he became a Salesforce Developer. “I’ve never regretted it so far”, he shared. Now, Robert has a very stra",
+        "s ago he became a Salesforce Developer. “I’ve never regretted it so far”, he shared. Now, Robert has a very strategic role as a Principal Architect at Aquiva Labs.\nRobert’s role requires him to be involved in various activities, so his work day does not follow a specific rout",
+        "he shared. Now, Robert has a very strategic role as a Principal Architect at Aquiva Labs.\nRobert’s role requires him to be involved in various activities, so his work day does not follow a specific routine, but rather depends on what’s on the to-do list of the day. Sometimes,",
+        "lve any challenges or obstacles they are facing. He also likes to spend some time coding. Robert is also one of Aquiva Labs’ main speakers at various events and conferences.\nWith such a strategic role, Robert sometimes faces the challenge to find the right balance between car",
+        "Aquiva Labs’ main speakers at various events and conferences.\nWith such a strategic role, Robert sometimes faces the challenge to find the right balance between caring about too few and too many things. He loves seeing the end result of his efforts and helping others with his",
+        "s.\nAfter a productive work day, he likes to spend time with his family and two daughters. Robert describes himself as the “no hobby but many interests” guy. Besides spending time with his family, he enjoys drinking good wine with friends, traveling, and reading.\nRobert’s favo",
+        " time with his family, he enjoys drinking good wine with friends, traveling, and reading.\nRobert’s favorite thing about working at Aquiva Labs is the company culture and the people. He appreciates that the company stays behind and invests in its values, keeps the company cult",
+        "ing, smart people that are always willing to help and have fun together.\nAs you can tell, Robert has a rich work experience in the Salesforce ecosystem. He is also a great example that finding your passion no matter when, can push your career in the right direction and will k",
+        "u motivated to further develop and improve your competencies. If you would like to follow Robert’s Salesforce career, he has some advice for you!\n“You need to love and know Salesforce from the inside out. Architecture in PDO really means selling the story of the Salesforce pl",
+        "side out. Architecture in PDO really means selling the story of the Salesforce platform”, Robert stated. And for anyone that wants to join Aquiva Labs, Robert said: “Trust your guts. Apply and accept. If it feels good, then it’s because it actually is good.”\nHe is right! If y",
+        "f the Salesforce platform”, Robert stated. And for anyone that wants to join Aquiva Labs, Robert said: “Trust your guts. Apply and accept. If it feels good, then it’s because it actually is good.”\nHe is right! If you feel like it is your time for a new career adventure and yo"
+      ],
+      "credited_to_robert": true,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://aquivalabs.pinpointhq.com/"
+        }
+      ],
+      "decision": "already_archived"
+    },
+    {
+      "url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "As a Salesforce Developer, I Will - 7 Ground Rules for Success",
+      "date": "2022-12-12",
+      "snapshot": ".archive/discovery/aquiva-sweep/as-a-salesforce-developer-i-will-7-ground-rules-for-success/original.html",
+      "matches": [
+        "you wonder what it takes to be a successful Salesforce Developer? Our Principal Architect Robert Sösemann shares it all!\nAfter studying computer science, Robert found his passion in software development while leading small development teams in the Java ecosystem. During this ",
+        "der what it takes to be a successful Salesforce Developer? Our Principal Architect Robert Sösemann shares it all!\nAfter studying computer science, Robert found his passion in software development while leading small development teams in the Java ecosystem. During this time he f",
+        "? Our Principal Architect Robert Sösemann shares it all!\nAfter studying computer science, Robert found his passion in software development while leading small development teams in the Java ecosystem. During this time he found out about Salesforce and 13 years ago he became a ",
+        "y contributions to the Salesforce ecosystem, he has earned his Salesforce MVP title. Now, Robert plays an important role at Aquiva Labs, as a Principal Architect.\nRobert definitely knows a thing or two about Salesforce and what it takes to be a Salesforce Developer. In his re",
+        " MVP title. Now, Robert plays an important role at Aquiva Labs, as a Principal Architect.\nRobert definitely knows a thing or two about Salesforce and what it takes to be a Salesforce Developer. In his recent live session during the SForce Summit Winter Edition 2022, Robert sh",
+        "force Developer. In his recent live session during the SForce Summit Winter Edition 2022, Robert shared his 7 Ground rules for success in the Salesforce ecosystem and building your career as a Salesforce Developer:\n\n\nsThe Basics: Release Notes, Trailhead\n\n\nThe Extra mile: Cer",
+        "e to your users. Improve but don’t disrupt\n\n\nTo see the whole session and learn all about Robert’s tips and tricks for being a successful Salesforce Developer, watch the recording below!"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [],
+      "decision": "archive",
+      "reason": "Yaroslav Karpinskiy recaps Robert’s SForce Summit Winter Edition 2022 talk and seven rules. Text is not solely authored by Robert."
+    },
+    {
+      "url": "https://aquiva.com/blog/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "AppExchange Tech Talk Recap: Why every ISV should know Salesforce Code Analyser and the new Graph Engine",
+      "date": "2022-11-29",
+      "snapshot": ".archive/discovery/aquiva-sweep/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine/original.html",
+      "matches": [
+        " AppExchange Tech Talk—featuring Aquiva Labs’ own Principal Architect and Salesforce MVP, Robert Sösemann—Salesforce officially announced the release of Salesforce Code Analyzer version 3.6.2. \nConsisting of improved functionality and the brand new Salesforce Graph Engine, th",
+        "hange Tech Talk—featuring Aquiva Labs’ own Principal Architect and Salesforce MVP, Robert Sösemann—Salesforce officially announced the release of Salesforce Code Analyzer version 3.6.2. \nConsisting of improved functionality and the brand new Salesforce Graph Engine, this latest",
+        "raph Engine is so valuable—it looks at all classes and how they relate.\n\n\n\nWhile Aquiva’s Robert Sösemann joined the Salesforce team on the AppExchange Tech Talk to announce the release of the new Salesforce Code Analyzer—his history with Salesforce is far more extensive.\nAnd",
+        "gine is so valuable—it looks at all classes and how they relate.\n\n\n\nWhile Aquiva’s Robert Sösemann joined the Salesforce team on the AppExchange Tech Talk to announce the release of the new Salesforce Code Analyzer—his history with Salesforce is far more extensive.\nAnd it goes ",
+        "y lacked good tooling in the Salesforce space. With experience building AppExchange apps, Robert decided to port existing Java tools to work with Salesforce. He ported Java’s best and most extensible Static Code Analyzer PMD to understand Salesforce programming languages like",
+        "lso ported many rules from Java to Apex and created many Salesforce-specific rules. \nWhen Robert did that, Salesforce invited him to present at Dreamforce ‘16. And almost overnight, he became the face of code analysis, clean code, and developer craftsmanship in the Salesforce",
+        "018, when Salesforce decided to build its own tooling around PMD and other code scanners, Robert was asked to provide strategic support and consulting for its development team. \nNeedless to say, Robert knows a thing or two about developing apps for the Salesforce AppExchange—",
+        "d to provide strategic support and consulting for its development team. \nNeedless to say, Robert knows a thing or two about developing apps for the Salesforce AppExchange—and how Salesforce Code Analyzer can help. About this new release, he says, “With Code Analyzer, Salesfor",
+        "help of Salesforce’s most experienced product development outsourcer (PDO)—and maybe even Robert himself—you know where to find us.\n_The new release of Salesforce Code Analyzer helps organizations develop clean, secure code so they can more readily pass the Salesforce securit"
+      ],
+      "credited_to_robert": false,
+      "body_mentions_robert": true,
+      "related_links": [
+        {
+          "label": "Salesforce’s AppExchange Tech Talk",
+          "url": "https://appsecurityandperformancemadeasy.splashthat.com/"
+        },
+        {
+          "label": "Salesforce Code Analyzer",
+          "url": "https://developer.salesforce.com/blogs/2022/10/develop-even-more-secure-code-with-salesforce-code-analyzer"
+        },
+        {
+          "label": "Salesforce Graph Engine",
+          "url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/engine-sfge.html"
+        },
+        {
+          "label": "Salesforce Code Analyzer version v3.x",
+          "url": "https://forcedotcom.github.io/code-analyzer/"
+        },
+        {
+          "label": "ESLint",
+          "url": "https://eslint.org/"
+        },
+        {
+          "label": "PMD",
+          "url": "https://pmd.github.io/"
+        },
+        {
+          "label": "Copy-Paste Detector (CPD)",
+          "url": "https://docs.pmd-code.org/latest/pmd_userdocs_cpd.html"
+        },
+        {
+          "label": "RetireJS",
+          "url": "https://github.com/retirejs/retire.js/"
+        },
+        {
+          "label": "Salesforce Graph Engine",
+          "url": "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/engine-sfge.html"
+        },
+        {
+          "label": "where to find us",
+          "url": "/contact-us"
+        },
+        {
+          "label": "Contact us",
+          "url": "/contact-us"
+        }
+      ],
+      "decision": "archive",
+      "reason": "Yaroslav Karpinskiy recaps the November 2022 AppExchange Tech Talk featuring Robert. The original event link is preserved."
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-anastasia-balueva",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Anastasia Balueva"
+        }
+      ],
+      "title": "Employee Spotlight - Anastasia Balueva",
+      "date": "2022-11-22",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Trailhead",
+          "url": "https://trailhead.salesforce.com/"
+        },
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://aquivalabs.pinpointhq.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/how-to-work-with-your-platform-partners-and-reduce-supply-chain-security-risk",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "How to Work With Your Platform Partners and Reduce Supply Chain Security Risk",
+      "date": "2022-10-31",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-evgeny-vladimirov",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Evgeny Vladimirov"
+        }
+      ],
+      "title": "Employee Spotlight - Evgeny Vladimirov",
+      "date": "2022-10-18",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://aquivalabs.pinpointhq.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/appexchange-focused-rating-of-the-salesforce-winter-23-release-notes",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "AppExchange-Focused Rating of the Salesforce Winter ‘23 Release Notes",
+      "date": "2022-10-13",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-attilio-porchia",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Attilio Porchia"
+        }
+      ],
+      "title": "Employee Spotlight - Attilio Porchia",
+      "date": "2022-09-13",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Trailhead",
+          "url": "https://trailblazer.me/setup/secur/RemoteAccessAuthorizationPage.apexp?source=CAAAAYIbKw6CMDAwMDAwMDAwMDAwMDAwAAAA7qxn4ofvlzmcYLtBxNxAbSNbcaJWV6_KZJvVWyvwPocYdHfKn1RUhqHHq7xhxRhl8W81V25ubukuQ_4MTjN_MP70bw_9bgRknq65tSjqT05aME8XVT7sjwEwWUrjKhZ3gE55EghjlbA5d5SxJcwYL7ZKYs74GZpmBE9jVWWgINXW9AZWGneVz1mmoOpOx3ICGdhp97Ejg2xvwbZ6oh1vhC5KZZ_3pwQtwZ9ledebMNOLONNgDlmS22tjcKT6zyFlBH8JUJHsijC87YNUfwIuzp8YpPXz4HFBj22M27df-WZVwZxUMi0TLRhzrowU6lB7-xjegBdILHQDydzUvEfPBQwULokA82tWo8AzzZT3D6lWaDwDncP27WCluJwZgV6v13il_N57gE01tlZd3sEVUe4aDTy-gmhWwNOVqgwusKu7WdkM3fMofewsw0APUSTQ4GQ6gepmwI-4-1ZNmHq3loOC4rRaRJEaZHjr8iOnFYT3EqBlJ-dHApQoCRJXk-eNM1yIkWdmfV0a75kMbng8b5GQOXXXHBsRfW4AaCaek1yAFE4Y2e2m6yyulv5u9GVFuSZokvchK21gjwsjxiT7myMFB86qLO1SoN5QsnIbmZRwhVKfWJBv79F8sxvzrD7zimRQzhy3lgJHiz5bXgxFm3KrCpnIwyPGfPe83xkfSupIWpkJQui_Mt69Im4sPfqxvYRbAnk7wjhBwY0H2yuRHOJpn5-3UoszZvnfnx-qg-Far7aJfGddR9oYjXdbMA1WQw%3D%3D&display=page"
+        },
+        {
+          "label": "check out our open positions and apply today",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/managing-security-risks-associated-with-subcontracting-in-your-supply-chain",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Subcontractor Risk Management & Supply Chain Security 2025",
+      "date": "2022-08-31",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-sol-zunino",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Sol Zunino"
+        }
+      ],
+      "title": "Employee Spotlight - Sol Zunino",
+      "date": "2022-08-03",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "Aquiva’s DNA",
+          "url": "/blog/aquiva-labs-whats-in-our-dna"
+        },
+        {
+          "label": "check out our open positions and apply today",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-joins-the-1-pledge-philanthropy-movement",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Nikolai Balba"
+        }
+      ],
+      "title": "Aquiva Labs joins the 1% Pledge Philanthropy Movement",
+      "date": "2022-07-25",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/top-3-highlights-for-hls-from-the-salesforce-summer-2022-release",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Top 3 Highlights for HLS from the Salesforce Summer 2022 Release",
+      "date": "2022-07-21",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-ewa-smaga",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Ewa Smaga"
+        }
+      ],
+      "title": "Employee Spotlight - Ewa Smaga",
+      "date": "2022-07-07",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/adapting-to-a-changing-world-why-supplier-risk-management-is-crucial-for-success",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Adapting to a Changing World: Why Supplier Risk Management Is Crucial for Success",
+      "date": "2022-06-28",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-dmitry-nikitin",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Dima Nikitin"
+        }
+      ],
+      "title": "Employee Spotlight - Dmitry Nikitin",
+      "date": "2022-06-13",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-whats-in-our-dna",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Nikolai Balba"
+        }
+      ],
+      "title": "Aquiva Labs: What’s in our DNA?",
+      "date": "2022-05-25",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-patryk-ustymczuk",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Patryk Ustymczuk"
+        }
+      ],
+      "title": "Employee Spotlight - Patryk Ustymczuk",
+      "date": "2022-05-03",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/4-ways-to-turn-digital-disruption-into-opportunity-with-salesforce",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "4 Ways To Turn Digital Disruption Into Opportunity With Salesforce",
+      "date": "2022-04-22",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-jakub-stefaniak",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Employee Spotlight - Jakub Stefaniak",
+      "date": "2022-04-05",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/the-mvp-first-mindset-behind-every-successful-salesforce-app",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "The “MVP First” Mindset Behind Every Successful Salesforce App",
+      "date": "2022-03-28",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-anna-bodrova",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Employee Spotlight - Anna Bodrova",
+      "date": "2022-03-10",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "The main goal of QA engineers is to prevent defects. Quality Control specialists, in their turn, analyze the test results and find mistakes. They are responsible for identifying and eliminating defects in a product.",
+          "url": "https://u-tor.com/topic/what-does-qa-engineer-do"
+        },
+        {
+          "label": "check out our open positions and apply today!",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/aquiva-labs-expanding-engineering-and-technology-transformation-capabilities",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Sean Carr"
+        }
+      ],
+      "title": "Aquiva Labs expanding Engineering and Technology Transformation capabilities through new talent",
+      "date": "2022-03-03",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/how-is-a-salesforce-pdo-different-from-other-consultants",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "What Is a Salesforce PDO (Product Development Outsourcer)?",
+      "date": "2022-02-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/employee-spotlight-ben-lourie-new",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "Employee Spotlight - Ben Lourie",
+      "date": "2022-02-01",
+      "matches": [],
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "related_links": [
+        {
+          "label": "check out our open positions and apply today",
+          "url": "https://careers.aquiva.com/"
+        }
+      ],
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    },
+    {
+      "url": "https://aquiva.com/blog/what-to-look-for-in-a-pdo-partner",
+      "status": "inspected",
+      "authors": [
+        {
+          "@type": "Person",
+          "name": "Yaroslav Karpinskiy"
+        }
+      ],
+      "title": "How to Choose the Right Salesforce PDO Partner",
+      "date": "2022-01-23",
+      "credited_to_robert": false,
+      "body_mentions_robert": false,
+      "decision": "not_selected",
+      "reason": "No Robert authorship or relevant main-body content; recommendation/footer mentions excluded.",
+      "snapshot_retained": false
+    }
+  ],
+  "method": "Compared complete 148-card blog index against sitemap, fetched every sitemap article, inspected Article JSON-LD author and __prose main body, excluded Keep reading recommendations. Search also checked legacy aquivalabs.com domain.",
+  "new_sources": 9,
+  "limitations": [
+    "Coverage is the current published sitemap. Removed historical pages and uncredited ghostwriting cannot be established by current bylines.",
+    "Two coauthored articles require passage-level authorship review before use as Robert writing samples.",
+    "Some migrated event recaps promise slides/video but their current bodies contain no download links."
+  ]
+}

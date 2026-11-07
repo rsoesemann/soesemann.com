@@ -1,0 +1,473 @@
+du bist ja in sehr speziellen Umfeld
+unterwegs dass du ganz am Anfang mal
+bestriffen hast im Vorbeigehen ich
+glaube das ist so der seltenste
+partnertyp im im Salesforce Ökosystem
+nämlich der dieser
+sogenannte PDO wofür steht das denn
+eigentlich das steht für product
+development
+Outsourcer das heißt du willst ein
+Salesforce Produkt also ein App Exchange
+Produkt manage package machen will es
+nicht selber bauen du weißt das ist
+propriitäre Technologie du hast keine
+Developer du hast mal gehört dass diese
+Prozesse alle ganz frchtbar sind beice
+Security Review das kanannst du Partner
+werden und dann sagst du ah gebe ich das
+ab zu einem Partner der das nur macht
+und das ist glaube ich ein ganz gutes
+Modell da also der Markt ist nicht
+unendlich groß da gibt's nicht viele
+große Partner auf der Welt reicht glaube
+ich eine Hand um es mal fair zu sein und
+genau und das machen wir also zu wir
+machen auch noch andere so
+direktprojekte die nichts mit Sel aber
+aber ich bin ganz speziell für für PDO
+genau und zu uns kommen entweder Firmen
+die also ganz große Firmen die sagen wir
+wollen jetzt auch so ein kleinen kleine
+satellitenapp haben die unser Produkt
+mit salesfor verbindet kleine Startups
+die tatsächlich auf der Plattform ein
+Produkt wollen aber es kommen auch ganz
+große
+dekadenalte Partner zu uns die sagen so
+Gott wir sind durch das Security Review
+gefallen 3inbus issues und unser Listing
+ist ist aus Gefahr Ding genommen sowas
+oder oder assessments oder wie können
+wir Lightning verwenden wir haben immer
+noch visual Force also all diese diese
+Dinge und und diese Partner haben
+tatsächlich ja also das die haben ein
+Schmerz also sowohl die neuen als auch
+die du kennst es ja du warst ja
+ich weiß nicht ob bei dir auch noch ISV
+macht aber okay also ich jetzt konkret
+nicht aber wir haben ja die tochterfma
+TOMORROW Cloud die Macht coole Produkte
+zum Thema Dokumentenmanagement
+HR insofern habe ich zumindest in ISV in
+Nachbarschaft sage ich jetzt mal ich bin
+aber aktuell nicht involviert
+ja es ist ist eine Kunst für sich sage
+ich mal und gleichzeitig sage ich auch
+wenn du es ein zwei dreim Mal gemacht
+hast dann ist es jetzt auch nicht mehr
+so dramatisch wobei äh ich schon den
+Eindruck habe vielleicht kannst du das
+bestätigen oder aus deiner Sicht m ein
+bisschen schildern das ganze Security
+Review Thema hat stark angezogen
+ähm
+die es gibt jetzt wirklich wirklich
+regelmäßige rreviews
+so dass alle alle Produktanbieter was ja
+erstmal im Sinne aller Kunden ist
+wirklich angehalten sind in regelmäßig
+Abständen Rede und Antwort zu stehen zu
+allen security issues und was für mich
+das das
+härteste die härteste Lernkurve war an
+der Stelle ist halt dass das Security
+Review fast gar keine plattformsprache
+spricht also du du wirst ja da mit
+technischen Begriffen mit security flaws
+konfrontiert die halt im größeren
+technischen
+webentwicklungskontext existieren und
+wichtig und relevant sind die wenn du
+aber jetzt erstmal sage ich mal mit als
+Admin groß geworden und dann erstmal
+Entwickler wirst und dann vielleicht
+tatsächlich Produkt baust für Exchange
+eine coole Idee hast erstmal überhaupt
+nicht kennst siehst du das auch so ja
+also ich verstehe das ich also ich ich
+habe damit nicht so gestruggl weil ich
+schon schon davor also aus der Java Welt
+kam aber ich weiß genau was du meinst
+und und ja das ist ein das ist ein
+großes Problem und das Problem wurde
+aber eben auch g ganz schlimm von
+selbstforus verschleppt man hat einfach
+diesen Prozess total intransparent
+gemacht man hat das ist wie so Russisch
+Roulette man hat den Leuten keine Tools
+gegeben also als Ingenieur würde ich
+sagen keine Ahnung wenn ich wenn ich
+morgen eine Prüfung mache dann übe ich
+mit den Kindern die Art der Aufgaben
+vorher und da gibt's ein Buch und dann
+kann man üben aber dieses Security
+Review das steht irgendwie auf 100 GPT
+generier textzeiten dass man sich an
+10 halten muss und dann kann man ein 100
+Jahre lesen und fällt dann trotzdem und
+und dann kriegt man einen Fehler und
+wenn man den fixt kriegt man dann neuen
+Fehler und so also das ist also der
+Prozess ist der ist absolut obergrottig
+und unverändert über über über Jahre und
+jetzt ändert sich was also jetzt jetzt
+bringt selsfor tooling raus mit diesem
+mit dem CLI Scanner der der eben auch
+diese proprietäre Komponente Graph
+Engine drin hat ähm der Prozess kostet
+jetzt Geld ist dadurch aber irgendwie
+hat so ein paar
+SLRs sie schärfen paar Regeln nach also
+ich ich habe das Gefühl das erste Mal
+seit ich in selbfus bin tut sich was
+also
+ähm was auch zu großen Schmerzen führt
+aber äh ich glaube man man man hat es
+jetzt man geht es jetzt irgendwie an
+also ich glaube so in in in zi D Jahren
+sind wir wirklich an der Stelle wo
+dieses Security Review sein seine seinen
+Terror verloren
+hat ja das ist ja eine Seite der medil
+ich möchte aber trotzdem auch für die
+Leute im Security Review Team in die
+bräche springen denn
+bei allem tooling das halt existiert und
+wir wissen das und du hast es ja auch
+schon gesagt es war nicht immer gut und
+oder verlässlich oder überhaupt da
+aber viel an dem Security Review ist
+tatsächlich ein sehr se manuelles
+Arbeiten al da sitzen wirklich
+Expertinnen und Experten davor und
+bohren sich da rein und prüfen halt nach
+Ihren
+Vorgaben das wirklich manuell also und
+da sage ich halt finde ich gut also am
+Ende des Tages ist ja genau das was dann
+halt Vertrauen schafft Thema Trust auf
+der App Exchange nämlich genau es ist
+nicht nicht ein vollautomatischer
+Prozess es ist ein
+ähm oft manuell getriebener bin ich mir
+aber nicht sicher ob die ob der Stand
+der Kunst das nicht hinkriegen würde und
+sels einfach kein Bock hat oder oder das
+nicht rausgefunden hat also weißt du da
+fehlen mir das no how aber ich glaube
+sozusagen oder sind Leute fleißig
+manuell also das das juckt mich jetzt
+nicht also ich glaube
+Salesforce behandelt das etwas
+stiefmütterlich ja also einerseits
+eröffnen sie relativ viel Raum für für
+für trouble und Probleme indem sie eben
+sehr viel erlauben auf der Plattform
+auch immer diese Botschaft nach außen
+geben das ist das ist fun auf der
+Plattform und jeder kann es machen und
+dann so ein stiefmütterlicher
+Prüfungsprozess also für mich passt das
+nicht ganz zusammen also da bin ich da
+bin ich nicht wertschätzen sondern eher
+kritisch aber ich ich verstehe natürlich
+auch dass da nicht die die Kohle ist
+also ich B jetzt nicht irgendwie verkrzt
+aber ich glaube da ist noch da ist noch
+viel Spielraum nach oben glaubst du dass
+das mit AI jetzt dann bald irgendwie
+besser wird ich meine das wäre ja
+interessant zu
+sagen also einerseits schon also ich
+glaube ai ist gut in so Mustererkennung
+und ich glaube man könnte schon wenn man
+so viel Zugriff auf so viel Code hat
+schlechten Code wie Salesforce dann
+könnte man schon sagen finde mir mal in
+diesem Code gefährliche Muster ich
+glaube das kann ai sogar besser als so
+deterministische Tools wie B&D aber das
+wird natürlich dann wieder sein dass
+Salesforce das nicht erfindet sondern
+sich an irgendeine Firma ranschmeißt wie
+checkmarks und dann in 10 Jahren
+versucht von dieser Firma loszukommen
+also checkmarkt ist ja das bisher
+einzige prüfungsprodukt und
+hat sie nicht verbessert aber ich glaube
+Salesforce ist froh wenn sie es mal
+loswerden ich glaube so ein ai Tool wird
+bald um die Ecke kommen und wird dann
+eben auch integriert also vielleicht
+auch noch mal zum Kontext
+checkmarks ist ein weiteres Tool für
+ISVs aber im Prinzip auch für Kunden und
+Partner es gibt davon unterschiedliche
+Versionen mit denen man seinen Code
+Metadaten und Code prüfen lassen kann
+nach bestimmten security issues aber das
+ist finde ich sehr sehr abstrakt kannst
+du mal vielleicht aus Business Sicht aus
+deiner reichhaltigen Erfahrung sagen
+wenn man PMD jetzt auch nicht benutzt
+auf Dauer oder andere Tools die
+bestimmte Code quality und bestimmte ja
+patterns und und und Herangehensweise
+gerade wenn es
+um Sicherheit geht und mit Sicherheit
+und celus meinen wir jetzt zunächst mal
+ich habe Profile oder permission Sets
+besser gesagt und da steht halt drin was
+ein User sehen oder nicht sehen darf an
+Feld Informationen
+und die müssen idealerweise respektiert
+werden auf auf be jeder customization
+und bei jedem custom Code
+insbondere da bin ich als ISV geprägt
+und sehe auch nicht ein warum ich mich
+nicht dran halten sollte aber jetzt
+trotzdem was passiert denn wenn ich es
+nicht tue wenn ich also sag ist mir egal
+wie der Code aussieht in meiner or ja na
+ja das immer eigentlich immer das das
+was immer passiert wenn man in dem in
+einem Bereich ist und schludterig
+arbeitet also wenn Ärzte so arbeiten
+sterben Menschen wenn waggerfahrer so
+arbeiten dann stürzen Häuser ein und bei
+Code ist Gott sei Dank noch so dass der
+nicht wirklich so gefährliche Sachen
+macht aber man ja die
+Software hat dann halt irgendwelche
+Security leaks die Kunden sind ab
+Bost der der Ruf ist im e also ich ich
+habe das auf einem Vortrag vor kurzem
+mal gesagt diese ganzen Tools über die
+wir sprechen also vor allem die die mir
+am Herz lien die checken zwei Sachen die
+checken security issues und die checken
+quality issu Security ist ist eine
+spezielle quality wenn die Security
+nicht funktioniert dann bist Du sofort
+aus dem Business also dann wenn die
+Leute sehen dass dein deine Daten Ihre
+Daten nicht sicher sind oder dass der
+Kollege mitliest bist du sofort
+weg mich hat aber diese Security Thema
+nie interessiert weil das ist so das ist
+abgeackert und es ist zu 01 mich hat
+immer das qualitätsthema interessiert
+Clean Code
+also nicht Eleganz sondern
+Verstehbarkeit Pflegbarkeit
+Erweiterbarkeit und das haut richtig
+rein und das ist ein Thema das ist auch
+noch nicht ausgekaspert also das Thema
+jeder jeder schützt das Klima jeder ist
+für Sicherheit jeder ist für Trust
+unkontrovers das Thema Qualität ist sehr
+kontrovers viele Leute wissen dass sie
+mit mit mit schlechter Qualität sehr
+viel Geld verdienen dass die meisten
+Developer gar nicht wissen was das ist
+und so aber es gibt viele Studien die
+zeigen wenn man wenn man einfach so
+runter
+runterschreibt dann kommt man in das was
+wir alle kennen ich verstehe mein Code
+nicht mehr ich kann keine Features
+hinzufügen ich
+brauche ewig um Bugs zu lösen
+äh oft genau und ich komme in Situation
+dass die Software lieber neu geschrieben
+wird als dass man sie erweitert und das
+sind tatsächlich noch wirtschaftlich
+größere Probleme da Literatur aus den
+70ern und und genau und das ist das ist
+mir eigentlich das größere Anliegen dass
+Leute verstehen dass nur weil Code tut
+ist kein guter Code ist also die Arbeit
+eines Entwicklers ist nicht dann
+erledigt wenn er in der in 8 Stunden
+oder in den 11
+Stunden praktisch das auf dann dann
+Schiet du sprichst mir aus dem Herzen
+nicht ich
+versuche erlären also funktional ist die
+unterste Stufe von
+äh ich habe gearbeitet ja Code
+funktioniert ist nicht das was was ich
+am Ende erwartetient lebt aber Bein ist
+falsch ang so da muss der muss
+maintainable sein der muss testable sein
+der sollte dokumentiert sein
+verständlich sein in den Rest passen etc
+etc also das heißt funktional ist
+wirklich die unterste Schiene
+und ich glaube dass dass da auch großer
+Unterschied besteht zwischen low Code
+ansetzen und halt im Apex oder oder
+Javascript schreiben weil die Low Code
+Ansätze bestimmte Themen dieser
+Art entweder total einfach machen oder
+total verbauen so das
+ist der Mensch ist immer schlauer der
+arbeitet dann drum rum ich ich ich war
+Pendel auch immer hin und her also ich
+habe lange Zeit gedacht das Low Code
+eigentlich genau verhindert dass Leute
+rotzcode schreiben weil weil größere
+boundaries setzt und du kannst einfach
+mit Low Code sagen was nicht geht genau
+aber gerade in der aber wirklich schon
+seit ich dabei in in in der in
+informatikwelt sehe ich immer wieder
+dass dass die die Experten den ich traue
+sagen low Code funktioniert nicht ähm
+ähm und und ich sehe das in der
+selbstforwelt auch immer dass
+Qualitätsprobleme da eben auch
+auftauchen dass dieses Thema Wartbarkeit
+Testbarkeit da einfach praktisch so
+verzögert verzögert
+hinkommt ja ja sicher ähm ich ich bin
+ein bisschen
+äh
+ja ja nicht kritisch was soll ich sagen
+wortklauberisch vielleicht unterwegs
+also ich würde von vorne rein sagen
+Salesforce von vorne bis hinten ist eine
+Low Code oder vielleicht oder no Code
+Plattform ja die auch noch die auch noch
+Code
+unterstützt aber zu sagen hier also ich
+finde diese Debatten immer so ein
+bisschen falsch wenn Sie unter
+Salesforce Leuten geführt wird weil
+Salesforce von immer schon eine lower
+Code Plattform war du schreibst eben
+keine Datenbank migrationssripts für
+irgendwas wenn du der feiterung deines
+Schemas haben möchtest klickst du oder
+machst halt eine DX File und die PL die
+ist mir egal aber am Ende des Tages bist
+du von vielen vielen Themen weg weg aber
+aber das ist nicht nur in salelforce
+weißt du wenn du vielleicht Ruby und
+Rails kennst alle Leute haben sich
+Gedanken gemacht wie kann ich
+wiederholte Tätigkeiten einfacher machen
+also wie wie also für mich ist lowcode
+einfach so eine andere Dimension von
+eine höherwertige Programmiersprache
+weißt du eine Programmiersprache die
+nicht mehr Bits schubst gibt's halt in
+Salesforce einfach dass ich nicht alles
+in in in Java gibt's ein für alles in
+kfile dann würde ich ein approval
+Prozess irgendwie als XML oder jammel
+oder so machen und dann irgendwo reinf
+und in selsf ist halt ein schönes ui was
+schon mal so Syntax Schmonz verhindert
+und ich liebe das also wirklich ähm also
+auch mal so als Message an alle die mich
+so als Low Code Hater vielleicht
+kennen ich ich kam aus der Java welelt
+und habe mich wirklich verliebt in die
+salesforwelt ich war damals gerade so
+auf auf diesen Scrum lean Trip und ich
+dachte das ist die einzige Plattform mit
+der man wirklich innerhalb eines sprins
+dem Kunden was zeigen kann ich war liebt
+in dieses get things done ich haste
+dieses rumgeschraube und so ich ich ich
+ich verbringe nicht gern Zeit am
+Computer ich trink lieber gern Wein oder
+Sitz in der Sonne und und und und das
+war einach selbstf kriegt man was
+gebacken und und das geht nur durch
+durch low Code und klicken und
+Cleverness und einfach wie heißt das
+hier Convention overciguration ich liebe
+das also ich ich also mein Herz ist tief
+bei bei low Code und reduziere
+Komplexität und Fehler es ist dann halt
+manchmal so sind die
+Details ja aber das das ist mir wichtig
+und vielleicht ist das auch ein schönes
+Schlusswort an der Stelle dass selbst
+wenn wir zwei ab und zu doch eher ein
+Entwickler oder codespace wahrgenommen
+werden wir beide bei ssforce sind weil
+wir eigentlich nicht so gerne Code
+schreiben oder bestimmten Code nicht
+schreiben
+und geht mir ha genauso ich äh ich liebe
+das ich ich will das bis zur Rente
+machen
+und und ich kann mir aber halt
+vorstellen es gibt auch noch andere die
+das gerne haben ich habe mein local host
+wie guten alten Zeiten und dann läuft
+mein Entwicklung drauf und so weiter
+aber bitte wenn ihr da ein bisschen
+schneller time to value haben wollt dann
+kommt auf die S Plattform da kannst du
+schön schnell also das ich glaube
+wirklich mindestens zum MVP Status egal
+ob es eine App
+Exchange App ist oder ein Projekt
+erstmal du kommst halt viel viel
+schneller von
+der von Weg ja und ähm die Message ist
+ein bisschen untergegangen glaube ich in
+letzter Zeit ja also gerade weil wir in
+den Debatten immer so über ja aber wenn
+du in Flow so und so baust dann ist das
+ja auch quatschig weil
+bis hin zu Flow und blification sind
+total verschiedene Konzepte das ist da
+gucke ich dann immer so Entwicklern zu
+oder wenn jemand auf die IDE kommt zu
+sagen ja ich ich pack da jetzt eine Apex
+Methode rein oder ich ich noch besser
+ich ach das schönste was ich erlebt habe
+ich habe irgendwie Trigger und der
+Trigger ruft ein Flow
+auf ja also ich ich glaube einfach
+Sandor je mehr Leute in so ein Space
+kommen um das wie in der Kleinstadt da
+sind sindind alle gleich aus da da macht
+keiner große Show in der Großstadt muss
+jeder anders ausschauen sich anders
+kleiden und die selbstfwelt ist so groß
+geworden also als wir beide angefangen
+haben da kannte man sich so praktisch
+untereinander und jetzt muss halt jeder
+unique sein und jeder hat eines MVP der
+eine hat ein Hoodie der andere ist CTA
+der andere macht well architected und so
+das ist so der
+distinktionszwang der die Leute auch
+dazu treibt dass das alles das vergessen
+wird wie schön das eigentlich ist und
+das muss ich sagen ist
+so vielleicht so das
+Bittere also in deinem Fragenkatalog war
+so was was hätte ich gerne gewusst als
+ich ange aha dass das auch alles mal ein
+bisschen aufhört diese Verliebtheit und
+dieses familiäre und dieses einfache
+also mir ist die selbstfwelt deutlich zu
+groß zu bunt zu politisch zu
+uningeneering
+ähm ich wünsche mich manchmal gerne noch
+zurück an die Zeiten als als man einfach
+irgendwie was machen konnte
+ohne ohne 300 Kurse zu machen also aber
+ist vielleicht so eine
+altersfrustration lieber Robert ich
+danke dir für deine Zeit danke
+schön

@@ -1,0 +1,7 @@
+Agents and AgentForce might be a revolution for app development and a new kind of Low Code that lets Flow look like a toy. This session based on years of hand-on-experience shows how to make it work.
+Agents as the future of Business App Dev?
+Agents before AgentForce (Custom DIY Agents using OpenAI, AWS)
+Agents with AgentForce (How it all got so easy)
+Hands on Building / Configuring an Agent
+Pitfalls and Recommendations
+QA

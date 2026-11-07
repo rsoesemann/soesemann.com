@@ -1,0 +1,189 @@
+{
+  "name": "Robert Sösemann",
+  "created_at": "2026-11-07",
+  "consent": "Robert explicitly requested a persistent local clone of his own voice in this repository on 2026-11-07. No third-party voice cloning authorized.",
+  "type": "Reusable reference-conditioned voice clone; no fine-tuning or newly trained model weights.",
+  "model": {
+    "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+    "revision": "e7dd0585652209fa0d7783659aad4e8a324de11c",
+    "path": ".archive/voice/model",
+    "license": "Apache-2.0",
+    "sha256": {
+      ".gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "README.md": "7e03a5e92d1cd6208630c228e0b2fbf9b5de2035ebe189a7fc812a3453422c8c",
+      "config.json": "b14fba6bfd391968876248b843b095696b0188187a3d774a3bddc32544d15627",
+      "generation_config.json": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "b965c581ccf6aa852a4124feeb7a8a111542ee7b213139368b4cc7ba7fd4728b",
+      "model.safetensors.index.json": "9592a7c0ac3261a6211978416ef1796d3841225ac0ff0f9d6bfb5d1a6b49e5e9",
+      "preprocessor_config.json": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119",
+      "speech_tokenizer/config.json": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167",
+      "speech_tokenizer/configuration.json": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd",
+      "speech_tokenizer/model.safetensors": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258",
+      "speech_tokenizer/preprocessor_config.json": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb",
+      "tokenizer_config.json": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "defaults": {
+    "en": "en-podcast",
+    "de": "de-interview"
+  },
+  "references": {
+    "en-conference": {
+      "path": ".archive/voice/references/en-conference.wav",
+      "source_id": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+      "source_url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+      "source_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "source_sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3",
+      "start_seconds": 91.119,
+      "end_seconds": 119.8,
+      "caption_text": "and before I jump into details I want to  bring me myself and you into this Spirit  a year and a half ago when gp4 came out  when we all went  crazy maybe you you still remember the  time when you first play with it talk to  your colleague there was there was only  extremes there was a spectrum of people  who said amazing we will solve all the  problems in our company in the world um",
+      "sha256": "dae4b36f0a79051c20bb132847347af37b52d6c125426c6ed4478e9506c6db27",
+      "metrics": {
+        "duration_seconds": 28.681,
+        "peak_dbfs": -6.47,
+        "rms_dbfs": -28.38,
+        "near_full_scale_percent": 0.0,
+        "frames_below_minus_45_dbfs_percent": 22.25,
+        "frame_level_p10_dbfs": -56.03,
+        "frame_level_p90_dbfs": -23.32
+      },
+      "transcript": "Before I jump into details, I want to bring me myself and you into this spirit—a year and a half ago when GPT-4 came out, when we all went crazy. Maybe you—you still remember the time when you first played with it, talked to your colleague. There was there was only extremes. There was a spectrum of people who said, \"Amazing, we will solve all the problems in our company in the world.\"",
+      "transcript_basis": "Local Qwen3-ASR-0.6B-8bit transcription compared with saved YouTube captions; not human verbatim-reviewed.",
+      "speaker_evidence": {
+        "image": ".archive/voice/evidence/english.jpg",
+        "image_time_seconds": 72,
+        "basis": "Self-introduction at 69.439s; named talk slide and visible presenter at 72s; reference continues the same opening monologue.",
+        "method": "Publisher attribution, self-introduction, transcript context and inspected video frame. No whole-recording diarization."
+      },
+      "listening_review": "Not performed; human review pending."
+    },
+    "en-pmd": {
+      "path": ".archive/voice/references/en-pmd.wav",
+      "source_id": "video-custom-pmd-rules-for-any-metadata-within-minutes",
+      "source_url": "https://www.youtube.com/watch?v=Qp49B4Baq4g",
+      "source_path": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/audio.webm",
+      "source_sha256": "4b74f146ea85d789ef229f90c28ad6079f091b93fbde2de56f4a57e6168e8c96",
+      "start_seconds": 16.26,
+      "end_seconds": 29.05,
+      "caption_text": "I want to kick off my talk by showing  you my favorite book on programming  clean coat by Bob Martin  and the best quote in the book is clean  code always looks it was written by  somebody who cares",
+      "sha256": "7315ba654fed383e761812a9fa610194e20d1947d203f681b19c1daa013ced45",
+      "metrics": {
+        "duration_seconds": 12.79,
+        "peak_dbfs": -10.18,
+        "rms_dbfs": -30.01,
+        "near_full_scale_percent": 0.0,
+        "frames_below_minus_45_dbfs_percent": 31.77,
+        "frame_level_p10_dbfs": -58.36,
+        "frame_level_p90_dbfs": -24.95
+      },
+      "transcript": "I want to kick off my talk by showing you my favorite book on programming, Clean Code by Bob Martin, and the best quote in the book is, \"Clean code always looks.\" It was written by somebody who cares.",
+      "transcript_basis": "Local Qwen3-ASR-0.6B-8bit transcription compared with saved YouTube captions; not human verbatim-reviewed.",
+      "speaker_evidence": {
+        "image": ".archive/voice/evidence/pmd.jpg",
+        "image_time_seconds": 23,
+        "basis": "Visible presenter holding the book discussed in the reference; self-introduction at 74.34s and publisher title identify Robert.",
+        "method": "Publisher attribution, self-introduction, transcript context and inspected video frame. No whole-recording diarization."
+      },
+      "listening_review": "Not performed; human review pending."
+    },
+    "en-ftd": {
+      "path": ".archive/voice/references/en-ftd.wav",
+      "source_id": "video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+      "source_url": "https://www.youtube.com/watch?v=-A201aaiE3o",
+      "source_path": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/audio.m4a",
+      "source_sha256": "056fd3218cd88db44b7eac2e796fd82aa8273636c77db837e7ea9d0dd7113e4c",
+      "start_seconds": 22.74,
+      "end_seconds": 43.5,
+      "caption_text": "and my talk is  a soft skill talk the seven ground rules  for the successful Salesforce developer  as I said a good starter for a  complicated Tech conference it's a soft  skill talk because I think  soft skills are underrated in  conferences like this",
+      "sha256": "2a71e73f332e48ae107a0421812770a565da1efb28cf51dc64ab34ebf039a654",
+      "metrics": {
+        "duration_seconds": 20.76,
+        "peak_dbfs": -5.26,
+        "rms_dbfs": -22.98,
+        "near_full_scale_percent": 0.0,
+        "frames_below_minus_45_dbfs_percent": 21.97,
+        "frame_level_p10_dbfs": -53.12,
+        "frame_level_p90_dbfs": -17.39
+      },
+      "transcript": "And my talk is, a soft skill talk, the seven ground rules for the successful Salesforce developer. As I said, a good starter for a, complicated tech conference. It's a soft skill talk, because I think, soft skills are underrated in conferences like this.",
+      "transcript_basis": "Local Qwen3-ASR-0.6B-8bit transcription compared with saved YouTube captions; not human verbatim-reviewed.",
+      "speaker_evidence": {
+        "image": ".archive/voice/evidence/ftd.jpg",
+        "image_time_seconds": 30,
+        "basis": "Opening self-introduction at 4.259s; slide names Robert Soesemann; visible sole presenter at 30s.",
+        "method": "Publisher attribution, self-introduction, transcript context and inspected video frame. No whole-recording diarization."
+      },
+      "listening_review": "Not performed; human review pending."
+    },
+    "de-interview": {
+      "path": ".archive/voice/references/de-interview.wav",
+      "source_id": "video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde",
+      "source_url": "https://www.youtube.com/watch?v=DR8byDJLGEI",
+      "source_path": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/audio.m4a",
+      "source_sha256": "f62d39473726689984a57c3ff7d7b37aeb8773f40ee02ba615a2d48508dda1f4",
+      "start_seconds": 27.679,
+      "end_seconds": 42.3,
+      "caption_text": "Klar. Ähm, also ich freue mich, dass du  mich überhaupt gefunden hast, weil du  eben nicht aus dem Sales Force Umfeld  bist und da bin ich seit 15 Jahren. Also  im Beruf bin ich schon echt echt richtig  lang, über 20 Jahre.",
+      "sha256": "bab14268ca89887f8eb061001d19928039c8bba9b2d41ff4b3c2e7c81cfd385f",
+      "metrics": {
+        "duration_seconds": 14.621,
+        "peak_dbfs": -3.72,
+        "rms_dbfs": -21.61,
+        "near_full_scale_percent": 0.0,
+        "frames_below_minus_45_dbfs_percent": 26.95,
+        "frame_level_p10_dbfs": -95.72,
+        "frame_level_p90_dbfs": -16.16
+      },
+      "transcript": "Klar. Ähm, also ich freue mich, dass du mich überhaupt gefunden hast, weil du eben nicht aus dem Salesforce Umfeld bist, und da bin ich seit 15 Jahren. Also im Beruf bin ich schon echt echt richtig lang, über 20 Jahre.",
+      "transcript_basis": "Local Qwen3-ASR-0.6B-8bit transcription compared with saved YouTube captions; not human verbatim-reviewed.",
+      "speaker_evidence": {
+        "image": ".archive/voice/evidence/german.jpg",
+        "image_time_seconds": 35,
+        "basis": "Host addresses Robert at 1.68s and asks for introduction at 21.92s; response starts at 27.679s; visible Robert Soesemann lower-third while speaking at 35s.",
+        "method": "Publisher attribution, self-introduction, transcript context and inspected video frame. No whole-recording diarization."
+      },
+      "listening_review": "Not performed; human review pending."
+    },
+    "en-podcast": {
+      "path": ".archive/voice/references/en-podcast.wav",
+      "source_id": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+      "source_url": "https://www.youtube.com/watch?v=qhhUuCpK8Q0",
+      "source_path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/audio.m4a",
+      "source_sha256": "3404aad3edf8c7317f19817d6090421f7128f60449d8aaf99ad6ad9c1a4393d5",
+      "start_seconds": 40.9,
+      "end_seconds": 56.7,
+      "caption_text": "I'm Robert. I live in Germany close to Stuttgart. I'm a Salesforce veteran in the in the sense or Salesforce dinosaur in the sense that I think it's fourteen years now.",
+      "sha256": "9b0e594560aa8411b98f0a03d7ecb35e4a4759448ed3f38d73fb6d5359c8daf9",
+      "metrics": {
+        "duration_seconds": 15.8,
+        "peak_dbfs": -3.2,
+        "rms_dbfs": -20.17,
+        "near_full_scale_percent": 0.0,
+        "frames_below_minus_45_dbfs_percent": 30.76,
+        "frame_level_p10_dbfs": -68.42,
+        "frame_level_p90_dbfs": -15.25
+      },
+      "transcript": "I'm Robert. I live in Germany close to Stuttgart. I'm, a Salesforce veteran in the in the sense of Salesforce dinosaur, in the sense that I think it's 14 years now.",
+      "transcript_basis": "Local Qwen3-ASR-0.6B-8bit transcription compared with saved YouTube captions; not human verbatim-reviewed.",
+      "speaker_evidence": {
+        "image": ".archive/voice/evidence/podcast.jpg",
+        "image_time_seconds": 46,
+        "basis": "Self-introduction at 41.12s; visible speaker during the reference; publisher identifies Robert as guest.",
+        "method": "Publisher attribution, self-introduction, transcript context and inspected video frame. No whole-recording diarization."
+      },
+      "listening_review": "Not performed; human review pending."
+    }
+  },
+  "selection": {
+    "primary_english": "Recent close-microphone self-introduction, no clipped samples, quiet pauses, speaker visible; compare conference alternative before judging likeness.",
+    "primary_german": "Named participant answering an introduction question; complete response without host turn inside the selected interval.",
+    "excluded_from_primary": [
+      "Irish Dreamin 2025: speaker states he has a cold at 72-76s.",
+      "Full interviews and panels: contain other speakers.",
+      "SF Ben 2024 interview: not used; selected self-introductions provide clearer attribution."
+    ]
+  },
+  "quality_status": "Four samples generated offline, including a two-paragraph technical script. Three initial samples have normalized ASR WER 0; technical sample WER 0.0625 solely because ASR writes Agentforce as Agent Force. Likeness, accent, expressiveness and professional quality require Robert listening review."
+}

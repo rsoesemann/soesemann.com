@@ -1,0 +1,611 @@
+{
+  "id": "talk-page-apex-pmd-static-code-analyzer",
+  "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+  "source": {
+    "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "role": "about",
+    "kind": "talk_page",
+    "evidence": "Article by Amit Chaudhary; embedded PMD talk features Robert.",
+    "slug": "talk-page-apex-pmd-static-code-analyzer",
+    "title": "Apex PMD Static Code Analyzer"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T19:47:54.593625+00:00",
+    "final_url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+    "title": "Apex PMD Static Code Analyzer",
+    "author": "Amit Chaudhary",
+    "date": "2019-07-27",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/",
+        "label": "Home",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/all-blogs/",
+        "label": "All Blogs",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-career/",
+        "label": "Career",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-admin/",
+        "label": "Admin",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-developer/",
+        "label": "Salesforce Developer",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-technical-architect-cta/",
+        "label": "CTA",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/salesforce-interview-questions/",
+        "label": "Interview",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/salesforce-certifications/",
+        "label": "Certifications",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/free-salesforce-training/",
+        "label": "Free Training",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/about/",
+        "label": "About us",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://events.apexhours.com/",
+        "label": "Events",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://courses.apexhours.com/",
+        "label": "Courses",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/author/amitchaudhary/",
+        "label": "Articles: 187",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://pmd.sourceforge.io/pmd-5.5.2/pmd-apex/index.html",
+        "label": "Apex",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/tag/salesforce-best-practices/",
+        "label": "Salesforce best practices",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=7qR0c8h5cCU",
+        "label": "VsCode",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://pmd.github.io/",
+        "label": "here",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UChTdRj6YfwqhR_WEFepkcJw/videos",
+        "label": "subscribe to our YouTube",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/tag/pmd-apex-example/",
+        "label": "# pmd apex example",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/tag/pmd-apex-ruleset-xml/",
+        "label": "# pmd apex ruleset xml",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.apexhours.com%2Fapex-pmd-static-code-analysis%2F",
+        "label": "Share on Facebook",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?text=Apex+PMD+Static+Code+Analyzer&url=https%3A%2F%2Fwww.apexhours.com%2Fapex-pmd-static-code-analysis%2F",
+        "label": "Share on X (Twitter)",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/shareArticle?title=Apex+PMD+Static+Code+Analyzer&url=https%3A%2F%2Fwww.apexhours.com%2Fapex-pmd-static-code-analysis%2F",
+        "label": "Share on LinkedIn",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://amitsalesforce.blogspot.com/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "http://amit_sfdc/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/transaction-finalizers-in-salesforce/",
+        "label": "Transaction Finalizers in Salesforce",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/understanding-and-preventing-unable_to_lock_row-error/",
+        "label": "Understanding and Preventing UNABLE_TO_LOCK_ROW Error",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/why-salesforce-throws-internal-server-error-and-what-to-do-about-it/",
+        "label": "Why Salesforce Throws “Internal Server Error” and What to Do About It",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/rarely-used-salesforce-apex-annotations-we-should-know/",
+        "label": "Rarely Used Salesforce Apex Annotations we Should Know",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/file-compression-in-salesforce-apex/",
+        "label": "File Compression in Salesforce Apex",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/ways-to-get-the-current-record-id-in-lightning-web-components-lwc-document/",
+        "label": "Ways to Get the Current Record ID in Lightning Web Components (LWC) document",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://gearset.com/ppc/try-deploy/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.accelq.com/sf-free-trial/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/free-diff-checker/",
+        "label": "FREE Diff Checker",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/lwc-interview-questions-and-answers/",
+        "label": "LWC Interview Quiz",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/free-json-formatter/",
+        "label": "JSON Formatter",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/contact-us/",
+        "label": "Contact us",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/privacy-policy/",
+        "label": "Privacy Policy",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/multi-agent-orchestration-in-salesforce/",
+        "label": "Multi-Agent Orchestration in Salesforce: A Practical Guide to Agentforce Super Agents",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/how-to-enable-ai-salesforce-voice-to-text-to-increase-operational-efficiency/",
+        "label": "How to Enable AI Salesforce Voice to Text to Increase Operational Efficiency",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/ai-native-delivery-for-salesforce/",
+        "label": "AI-Native Delivery for Salesforce",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/load-the-right-skill-first/",
+        "label": "Load the right skill first",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/salesforce-in-claude/",
+        "label": "Salesforce in Claude: What Happens When Claude Connects With Salesforce?",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "bb067d0da09a53f1536e9ed8a0d69a171521ad8bf102364fab3b39195202e12e",
+    "text_path": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.txt",
+    "words": 394
+  },
+  "last_success": {
+    "at": "2026-11-06T19:47:54.593625+00:00",
+    "final_url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+    "title": "Apex PMD Static Code Analyzer",
+    "author": "Amit Chaudhary",
+    "date": "2019-07-27",
+    "language": null,
+    "links": [
+      {
+        "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/",
+        "label": "Home",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/all-blogs/",
+        "label": "All Blogs",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-career/",
+        "label": "Career",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-admin/",
+        "label": "Admin",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-developer/",
+        "label": "Salesforce Developer",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/devops/",
+        "label": "DevOps",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/category/salesforce-technical-architect-cta/",
+        "label": "CTA",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/salesforce-interview-questions/",
+        "label": "Interview",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/salesforce-certifications/",
+        "label": "Certifications",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/free-salesforce-training/",
+        "label": "Free Training",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/about/",
+        "label": "About us",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://events.apexhours.com/",
+        "label": "Events",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://courses.apexhours.com/",
+        "label": "Courses",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/author/amitchaudhary/",
+        "label": "Articles: 187",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://pmd.sourceforge.io/pmd-5.5.2/pmd-apex/index.html",
+        "label": "Apex",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/tag/salesforce-best-practices/",
+        "label": "Salesforce best practices",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=7qR0c8h5cCU",
+        "label": "VsCode",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://pmd.github.io/",
+        "label": "here",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UChTdRj6YfwqhR_WEFepkcJw/videos",
+        "label": "subscribe to our YouTube",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/tag/pmd-apex-example/",
+        "label": "# pmd apex example",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/tag/pmd-apex-ruleset-xml/",
+        "label": "# pmd apex ruleset xml",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.apexhours.com%2Fapex-pmd-static-code-analysis%2F",
+        "label": "Share on Facebook",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://twitter.com/intent/tweet?text=Apex+PMD+Static+Code+Analyzer&url=https%3A%2F%2Fwww.apexhours.com%2Fapex-pmd-static-code-analysis%2F",
+        "label": "Share on X (Twitter)",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/shareArticle?title=Apex+PMD+Static+Code+Analyzer&url=https%3A%2F%2Fwww.apexhours.com%2Fapex-pmd-static-code-analysis%2F",
+        "label": "Share on LinkedIn",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://amitsalesforce.blogspot.com/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "http://amit_sfdc/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/transaction-finalizers-in-salesforce/",
+        "label": "Transaction Finalizers in Salesforce",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/understanding-and-preventing-unable_to_lock_row-error/",
+        "label": "Understanding and Preventing UNABLE_TO_LOCK_ROW Error",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/why-salesforce-throws-internal-server-error-and-what-to-do-about-it/",
+        "label": "Why Salesforce Throws “Internal Server Error” and What to Do About It",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/rarely-used-salesforce-apex-annotations-we-should-know/",
+        "label": "Rarely Used Salesforce Apex Annotations we Should Know",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/file-compression-in-salesforce-apex/",
+        "label": "File Compression in Salesforce Apex",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/ways-to-get-the-current-record-id-in-lightning-web-components-lwc-document/",
+        "label": "Ways to Get the Current Record ID in Lightning Web Components (LWC) document",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://gearset.com/ppc/try-deploy/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.accelq.com/sf-free-trial/",
+        "label": "",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/free-diff-checker/",
+        "label": "FREE Diff Checker",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/lwc-interview-questions-and-answers/",
+        "label": "LWC Interview Quiz",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/free-json-formatter/",
+        "label": "JSON Formatter",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/contact-us/",
+        "label": "Contact us",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/privacy-policy/",
+        "label": "Privacy Policy",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/multi-agent-orchestration-in-salesforce/",
+        "label": "Multi-Agent Orchestration in Salesforce: A Practical Guide to Agentforce Super Agents",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/how-to-enable-ai-salesforce-voice-to-text-to-increase-operational-efficiency/",
+        "label": "How to Enable AI Salesforce Voice to Text to Increase Operational Efficiency",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/ai-native-delivery-for-salesforce/",
+        "label": "AI-Native Delivery for Salesforce",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/load-the-right-skill-first/",
+        "label": "Load the right skill first",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.apexhours.com/salesforce-in-claude/",
+        "label": "Salesforce in Claude: What Happens When Claude Connects With Salesforce?",
+        "discovered_from": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+        "review": "pending"
+      }
+    ],
+    "text_sha256": "bb067d0da09a53f1536e9ed8a0d69a171521ad8bf102364fab3b39195202e12e",
+    "text_path": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.txt",
+    "words": 394
+  },
+  "context": {
+    "format": "Talk page",
+    "where": "Apex Hours",
+    "when": "2019-07-27",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Article by Amit Chaudhary; embedded PMD talk features Robert."
+  },
+  "grouping_evidence": {
+    "path": "library/2019/apex-pmd-static-code-analysis-apex-hours/source-talk-page.html",
+    "observation": "Article embeds matching YouTube recording34PxAHtAavU; both are dated2019-07-27."
+  },
+  "part_of": "video-apex-pmd-static-code-analysis-apex-hours",
+  "brand": {
+    "name": "Apex Hours",
+    "domain": "apexhours.com",
+    "source_page": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "logo_url": "https://www.apexhours.com/wp-content/uploads/2025/02/cropped-apex-hours-favicon-180x180.png",
+    "logo_path": ".archive/brands/apexhours.com.png"
+  },
+  "library_dir": "library/2019/apex-pmd-static-code-analysis-apex-hours",
+  "file_names": {
+    ".txt": "source-talk-page.txt",
+    ".html": "source-talk-page.html",
+    ".pdf": "source-talk-page.pdf",
+    ".json3": "source-talk-page-captions.json3"
+  }
+}

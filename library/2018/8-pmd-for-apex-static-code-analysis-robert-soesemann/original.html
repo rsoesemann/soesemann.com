@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB" prefix="og: https://ogp.me/ns#">
+<head itemscope itemtype="http://schema.org/WebSite">
+	<meta charset="UTF-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<!--[if IE ]>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<![endif]-->
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	
+                    <link rel="icon" href="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-32x32.jpg" sizes="32x32" />                    
+                    <meta name="msapplication-TileImage" content="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-270x270.jpg">        
+                    <link rel="apple-touch-icon-precomposed" href="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg">        
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        
+                                    <link rel="prefetch" href="https://salesforceway.com">
+                <link rel="prerender" href="https://salesforceway.com">
+                    
+        <meta itemprop="name" content="SalesforceWay" />
+        <meta itemprop="url" content="https://salesforceway.com" />
+
+                                                <meta itemprop="creator accountablePerson" content="Xi Xiao" />
+                    	<link rel="pingback" href="https://salesforceway.com/xmlrpc.php" />
+	<script type="text/javascript">document.documentElement.className = document.documentElement.className.replace( /\bno-js\b/,'js' );</script><!-- Hubbub v.1.36.3.1 https://morehubbub.com/ -->
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="8. PMD for Apex Static Code Analysis | Robert Söesemann" />
+<meta property="og:description" content="Robert Söesemann Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This talk is a continuation from the last episode. Main Points How PMD" />
+<meta property="og:url" content="https://salesforceway.com/podcast/pmd/" />
+<meta property="og:site_name" content="SalesforceWay" />
+<meta property="og:updated_time" content="2026-10-30T01:42:20+00:00" />
+<meta property="article:published_time" content="2018-06-28T15:40:53+00:00" />
+<meta property="article:modified_time" content="2026-10-30T01:42:20+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="8. PMD for Apex Static Code Analysis | Robert Söesemann" />
+<meta name="twitter:description" content="Robert Söesemann Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This talk is a continuation from the last episode. Main Points How PMD" />
+<meta class="flipboard-article" content="Robert Söesemann Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This talk is a continuation from the last episode. Main Points How PMD" />
+<meta property="og:image" content="https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg" />
+<meta name="twitter:image" content="https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="400" />
+<!-- Hubbub v.1.36.3.1 https://morehubbub.com/ -->
+
+<!-- Search Engine Optimisation by Rank Math - https://rankmath.com/ -->
+<title>8. PMD for Apex Static Code Analysis | Robert Söesemann</title>
+<meta name="description" content="Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This is part 2 from last episode."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://salesforceway.com/podcast/pmd/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="8. PMD for Apex Static Code Analysis | Robert Söesemann" />
+<meta property="og:description" content="Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This is part 2 from last episode." />
+<meta property="og:url" content="https://salesforceway.com/podcast/pmd/" />
+<meta property="og:site_name" content="SalesforceWay" />
+<meta property="article:publisher" content="https://www.facebook.com/Salesforce-Way-100609901294242" />
+<meta property="article:tag" content="code quality" />
+<meta property="article:tag" content="developer tool" />
+<meta property="article:section" content="Salesforce Podcast" />
+<meta property="og:updated_time" content="2026-10-30T01:42:20+02:00" />
+<meta property="og:image" content="https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg" />
+<meta property="og:image:secure_url" content="https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="400" />
+<meta property="og:image:alt" content="pmd" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="8. PMD for Apex Static Code Analysis | Robert Söesemann" />
+<meta name="twitter:description" content="Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This is part 2 from last episode." />
+<meta name="twitter:site" content="@xixiaofinland" />
+<meta name="twitter:creator" content="@xixiaofinland" />
+<meta name="twitter:image" content="https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https://salesforceway.com/podcast/pmd/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://salesforceway.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://salesforceway.com/podcast/","name":"Episode"}},{"@type":"ListItem","position":"3","item":{"@id":"https://salesforceway.com/podcast/pmd/","name":"8. PMD for Apex Static Code Analysis | Robert S\u00f6esemann"}}]}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel="alternate" type="application/rss+xml" title="SalesforceWay &raquo; Feed" href="https://salesforceway.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SalesforceWay &raquo; Comments Feed" href="https://salesforceway.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SalesforceWay &raquo; 8. PMD for Apex Static Code Analysis | Robert Söesemann Comments Feed" href="https://salesforceway.com/podcast/pmd/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://salesforceway.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://salesforceway.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+ 
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://salesforceway.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-image-inline-css">
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:rgba(90,90,90,.25);border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto rgba(90,90,90,.25);outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:rgba(90,90,90,.25);border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .wp-lightbox-close-button{align-items:center;cursor:pointer;display:flex;font-family:inherit;gap:8px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 4px;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .wp-lightbox-close-button:focus,.wp-lightbox-overlay .wp-lightbox-close-button:hover,.wp-lightbox-overlay .wp-lightbox-close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .wp-lightbox-close-button:has(.wp-lightbox-close-text:not([hidden])) .wp-lightbox-close-icon svg{height:1em;width:1em}.wp-lightbox-overlay .wp-lightbox-close-icon svg{display:block}.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{align-items:center;bottom:16px;cursor:pointer;display:flex;font-family:inherit;gap:4px;justify-content:center;line-height:1;min-height:40px;min-width:40px;padding:0 8px;position:absolute;z-index:2000002}.wp-lightbox-overlay .wp-lightbox-navigation-button-next[hidden],.wp-lightbox-overlay .wp-lightbox-navigation-button-prev[hidden]{display:none}@media (min-width:960px){.wp-lightbox-overlay .wp-lightbox-navigation-button-next,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{bottom:50%;transform:translateY(-50%)}}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-next:not(:hover):not(:active):not(.has-background),.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:focus,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:hover,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:not(:hover):not(:active):not(.has-background){background:none;border:none;padding:0 8px}.wp-lightbox-overlay .wp-lightbox-navigation-button-next:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg,.wp-lightbox-overlay .wp-lightbox-navigation-button-prev:has(.wp-lightbox-navigation-text:not([hidden])) .wp-lightbox-navigation-icon svg{display:block;height:1.5em;width:1.5em}.wp-lightbox-overlay .wp-lightbox-navigation-button-prev{left:calc(env(safe-area-inset-left) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-button-next{right:calc(env(safe-area-inset-right) + 16px)}.wp-lightbox-overlay .wp-lightbox-navigation-icon svg{vertical-align:middle}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:2000001}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://salesforceway.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://salesforceway.com/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://salesforceway.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-group-inline-css">
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://salesforceway.com/wp-includes/blocks/group/style.min.css */
+</style>
+<style id="wp-block-separator-inline-css">
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://salesforceway.com/wp-includes/blocks/separator/style.min.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='mediaelement-css' href='https://salesforceway.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://salesforceway.com/wp-includes/js/mediaelement/wp-mediaelement.min.css' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://salesforceway.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css' media='all' />
+<style id="dpsp-frontend-style-pro-inline-css">
+
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			
+/*# sourceURL=dpsp-frontend-style-pro-inline-css */
+</style>
+<link rel='stylesheet' id='jquery-lazyloadxt-spinner-css-css' href='//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css' media='all' />
+<link rel='stylesheet' id='schema-stylesheet-css' href='https://salesforceway.com/wp-content/themes/mts_schema/style.css' media='all' />
+<style id="schema-stylesheet-inline-css">
+
+         body {background: #eeeeee;background: -moz-linear-gradient(left, #eeeeee 0%, #eeeeee 100%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee));background: -webkit-linear-gradient(left, #eeeeee 0%,#eeeeee 100%);background: -o-linear-gradient(left, #eeeeee 0%,#eeeeee 100%);background: -ms-linear-gradient(left, #eeeeee 0%,#eeeeee 100%);background: linear-gradient(to right, #eeeeee 0%,#eeeeee 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=1 );}
+        .pace .pace-progress, #mobile-menu-wrapper ul li a:hover, .page-numbers.current, .pagination a:hover, .single .pagination a:hover .current { background: #f16334; }
+        .postauthor h5, .single_post a, .textwidget a, .pnavigation2 a, .sidebar.c-4-12 a:hover, footer .widget li a:hover, .sidebar.c-4-12 a:hover, .reply a, .title a:hover, .post-info a:hover, .widget .thecomment, #tabber .inside li a:hover, .readMore a:hover, .fn a, a, a:hover, #secondary-navigation .navigation ul li a:hover, .readMore a, #primary-navigation a:hover, #secondary-navigation .navigation ul .current-menu-item a, .widget .wp_review_tab_widget_content a, .sidebar .wpt_widget_content a { color:#f16334; }
+         a#pull, #commentform input#submit, #mtscontact_submit, .mts-subscribe input[type='submit'], .widget_product_search input[type='submit'], #move-to-top:hover, .currenttext, .pagination a:hover, .pagination .nav-previous a:hover, .pagination .nav-next a:hover, #load-posts a:hover, .single .pagination a:hover .currenttext, .single .pagination > .current .currenttext, #tabber ul.tabs li a.selected, .tagcloud a, .navigation ul .sfHover a, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce .bypostauthor:after, #searchsubmit, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .latestPost-review-wrapper, .latestPost .review-type-circle.latestPost-review-wrapper, #wpmm-megamenu .review-total-only, .sbutton, #searchsubmit, .widget .wpt_widget_content #tags-tab-content ul li a, .widget .review-total-only.large-thumb, #add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-account .woocommerce-MyAccount-navigation li.is-active { background-color:#f16334; color: #fff!important; }
+        .related-posts .title a:hover, .latestPost .title a { color: #f16334; }
+        .navigation #wpmm-megamenu .wpmm-pagination a { background-color: #f16334!important; }
+        footer {background-color:#000000; }
+        footer {background-image: url( https://salesforceway.com/wp-content/themes/mts_schema/images/nobg.png );}
+        .copyrights { background-color: #ffffff; }
+        .flex-control-thumbs .flex-active{ border-top:3px solid #f16334;}
+        .wpmm-megamenu-showing.wpmm-light-scheme { background-color:#f16334!important; }
+        
+        .shareit { top: 282px; left: auto; margin: 0 0 0 -135px; width: 90px; position: fixed; padding: 5px; border:none; border-right: 0;}
+		.share-item {margin: 2px;}
+        
+        .bypostauthor > div { overflow: hidden; padding: 3%!important; background: #222; width: 94%!important; color: #AAA; }
+		.bypostauthor:after { content: "\f044"; position: absolute; font-family: fontawesome; right: 0; top: 0; padding: 1px 10px; color: #535353; font-size: 32px; }
+        
+        
+			
+/*# sourceURL=schema-stylesheet-inline-css */
+</style>
+<link rel='stylesheet' id='responsive-css' href='https://salesforceway.com/wp-content/themes/mts_schema/css/responsive.css' media='all' />
+<script id="jquery-core-js" src="https://salesforceway.com/wp-includes/js/jquery/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="https://salesforceway.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script id="customscript-js-extra">
+var mts_customscript = {"responsive":"1","nav_menu":"both"};
+//# sourceURL=customscript-js-extra
+</script>
+<script id="customscript-js" async="async" src="https://salesforceway.com/wp-content/themes/mts_schema/js/customscript.js"></script>
+<script id="mts_ajax-js-extra">
+var mts_ajax_search = {"url":"https://salesforceway.com/wp-admin/admin-ajax.php","ajax_search":"1"};
+//# sourceURL=mts_ajax-js-extra
+</script>
+<script id="mts_ajax-js" async="async" src="https://salesforceway.com/wp-content/themes/mts_schema/js/ajax.js"></script>
+<link rel="https://api.w.org/" href="https://salesforceway.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://salesforceway.com/wp-json/wp/v2/podcast/36" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://salesforceway.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.4" />
+<meta name="generator" content="Seriously Simple Podcasting 3.17.1" />
+<link rel='shortlink' href='https://salesforceway.com/?p=36' />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href='https://fonts.googleapis.com/css2?display=swap&family=Open+Sans:wght@300' rel='stylesheet'>
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://salesforceway.com/feed/podcast" />
+
+<link href="//fonts.googleapis.com/css?family=Roboto+Slab:normal|Raleway:500|Raleway:700|Roboto+Slab:300&amp;subset=latin" rel="stylesheet" type="text/css">
+<style type="text/css">
+#logo a { font-family: 'Roboto Slab'; font-weight: normal; font-size: 32px; color: #222222;text-transform: uppercase; }
+#primary-navigation a { font-family: 'Raleway'; font-weight: 500; font-size: 13px; color: #777777; }
+#secondary-navigation a { font-family: 'Raleway'; font-weight: 700; font-size: 16px; color: #ffffff;text-transform: uppercase; }
+.latestPost .title a { font-family: 'Roboto Slab'; font-weight: 300; font-size: 38px; color: #0274be; }
+.single-title { font-family: 'Roboto Slab'; font-weight: 300; font-size: 38px; color: #222222; }
+body { font-family: 'Times New Roman', Times, serif; font-weight: normal; font-size: 19px; color: #5b5b5b; }
+#sidebar .widget h3 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 20px; color: #222222;text-transform: uppercase; }
+#sidebar .widget { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #444444; }
+.footer-widgets h3 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 18px; color: #ffffff;text-transform: uppercase; }
+.f-widget a, footer .wpt_widget_content a, footer .wp_review_tab_widget_content a, footer .wpt_tab_widget_content a, footer .widget .wp_review_tab_widget_content a { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #999999; }
+.footer-widgets, .f-widget .top-posts .comment_num, footer .meta, footer .twitter_time, footer .widget .wpt_widget_content .wpt-postmeta, footer .widget .wpt_comment_content, footer .widget .wpt_excerpt, footer .wp_review_tab_widget_content .wp-review-tab-postmeta, footer .advanced-recent-posts p, footer .popular-posts p, footer .category-posts p { font-family: 'Raleway'; font-weight: 500; font-size: 16px; color: #777777; }
+#copyright-note { font-family: 'Raleway'; font-weight: 500; font-size: 14px; color: #7e7d7d; }
+h1 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 28px; color: #222222; }
+h2 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 24px; color: #222222; }
+h3 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 22px; color: #222222; }
+h4 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 20px; color: #222222; }
+h5 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 18px; color: #222222; }
+h6 { font-family: 'Roboto Slab'; font-weight: normal; font-size: 16px; color: #222222; }
+</style>
+<meta name="hubbub-info" description="Hubbub 1.36.3.1"><script async id="google_gtagjs" src="https://www.googletagmanager.com/gtag/js?id=G-G715H7NH34"></script>
+<script id="google_gtagjs-inline">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-G715H7NH34', {} );
+</script>
+<link rel="icon" href="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://salesforceway.com/wp-content/uploads/2019/03/cropped-Salesforce-Way-Logo-A1-270x270.jpg" />
+	<style id="egf-frontend-styles" type="text/css">
+		p {color: #0a0a0a;font-family: 'Open Sans', sans-serif;font-size: 18px;font-style: normal;font-weight: 300;line-height: 2.1;} h1 {} h2 {} h3 {} h4 {} h5 {} h6 {} 	</style>
+	<link rel='stylesheet' id='remove-style-meta-css' href='https://salesforceway.com/wp-content/plugins/wp-old-post-date-remover/css/OPDRstyle.css' media='all' />
+
+</head>
+<body data-rsssl=1 id="blog" class="wp-singular podcast-template-default single single-podcast postid-36 wp-theme-mts_schema main" itemscope itemtype="http://schema.org/WebPage">       
+	<div class="main-container">
+		<header id="site-header" class="main-header logo_in_nav_header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+							<div id="primary-nav">
+					<div class="container">
+				        <div id="primary-navigation" class="primary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					        <nav class="navigation clearfix">
+						     							<ul id="menu-social" class="menu clearfix"><li id="menu-item-1084" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1084"><a href="https://www.instagram.com/xixiaofinland/" style="color: #dd3333;">Instagram</a></li>
+<li id="menu-item-1082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1082"><a title="LinkedIn" href="https://fi.linkedin.com/in/xixiaofinland" style="color: #1e73be;">LinkedIn</a></li>
+<li id="menu-item-1083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1083"><a title="Twitter" href="https://twitter.com/xixiaofinland" style="color: #0a0000;">Twitter</a></li>
+<li id="menu-item-1091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1091"><a href="https://github.com/xixiaofinland" style="color: #ea6d0e;">Github</a></li>
+<li id="menu-item-1366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1366"><a href="https://www.facebook.com/salesforceway/" style="color: #8224e3;">Facebook</a></li>
+</ul>						    				            												        </nav>
+				    	</div>
+				    </div>
+			    </div>
+												<div class="clear" id="catcher"></div>
+			<div id="header" class="sticky-navigation">
+						    <div class="container">
+				    						<div class="logo-wrap">
+																								  <h2 id="logo1" class="text-logo" itemprop="headline">
+											<a href="https://salesforceway.com">SalesforceWay</a>
+										</h2><!-- END #logo -->
+																					</div>
+										<div id="secondary-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+						<a href="#" id="pull" class="toggle-mobile-menu">Menu</a>
+													<nav class="navigation clearfix">
+																	<ul id="menu-primary" class="menu clearfix"><li id="menu-item-844" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-844"><a href="https://salesforceway.com/salesforce-blog/" style="color: #d19b1f;">Blog</a></li>
+<li id="menu-item-833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-833"><a href="https://salesforceway.com/salesforce-podcast/" style="color: #81d742;">Podcast</a></li>
+<li id="menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-843"><a href="https://salesforceway.com/salesforce-youtube/" style="color: #dd3333;">YouTube</a></li>
+<li id="menu-item-1386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386"><a href="https://salesforceway.com/about/">About</a></li>
+</ul>															</nav>
+							<nav class="navigation mobile-only clearfix mobile-menu-wrapper">
+								<ul id="menu-primary-1" class="menu clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-844"><a href="https://salesforceway.com/salesforce-blog/" style="color: #d19b1f;">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-833"><a href="https://salesforceway.com/salesforce-podcast/" style="color: #81d742;">Podcast</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-843"><a href="https://salesforceway.com/salesforce-youtube/" style="color: #dd3333;">YouTube</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386"><a href="https://salesforceway.com/about/">About</a></li>
+</ul>							</nav>
+											</div>         
+				</div><!--.container-->
+			</div>
+		</header>
+		<div id="page" class="single">
+
+		
+	<article class="article">
+		<div id="content_box" >
+							<div id="post-36" class="g post post-36 podcast type-podcast status-publish has-post-thumbnail hentry category-podcast tag-code-quality tag-developer-tool series-salesforceway speaker-robert-sosemann has_thumb grow-content-body">
+											<nav aria-label="breadcrumbs" class="rank-math-breadcrumb"><p><a href="https://salesforceway.com">Home</a><span class="separator"> &raquo; </span><a href="https://salesforceway.com/podcast/">Episode</a></p></nav>																		<div class="single_post">
+									<header>
+																				<h1 class="title single-title entry-title">8. PMD for Apex Static Code Analysis | Robert Söesemann</h1>
+												<div class="post-info">
+              	            <span class="thetime date updated"><i class="fa fa-calendar"></i> <span>2018-06-28</span></span>
+	        	            
+	            <span class="theauthor"><i class="fa fa-user"></i> <span>
+					<a style="color:#D2691E" href=https://salesforceway.com/speaker/robert-sosemann/>Robert Sösemann</a>
+				</span></span>
+	        	            <span class="thecategory"><i class="fa fa-tags"></i> <a href="https://salesforceway.com/podcast/" title="View all posts in Salesforce Podcast">Salesforce Podcast</a></span>
+	        		</div>
+										</header><!--.headline_area-->
+									<div class="post-single-content box mark-links entry-content">
+																														<div class="thecontent">
+											<div id="dpsp-content-top" class="dpsp-content-wrapper dpsp-shape-rounded dpsp-size-medium dpsp-has-spacing dpsp-no-labels-mobile dpsp-show-on-mobile dpsp-button-style-1" style="min-height:40px;position:relative">
+	<ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-share dpsp-networks-btns-content dpsp-column-auto dpsp-has-button-icon-animation" style="padding:0;margin:0;list-style-type:none">
+<li class="dpsp-network-list-item dpsp-network-list-item-linkedin" style="float:left">
+	<a rel="nofollow noopener" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;title=8.%20PMD%20for%20Apex%20Static%20Code%20Analysis%20%7C%20Robert%20S%C3%B6esemann&#038;summary=Robert%20S%C3%B6esemann%20Robert%20S%C3%B6esemann%20ported%20PMD%2C%20a%20static%20code%20analyzer%2C%20to%20the%20Salesforce%20world.%20He%20teaches%20me%20what%20this%20is%20all%20about.%20This%20talk%20is%20a%20continuation%20from%20the%20last%20episode.%20Main%20Points%20How%20PMD&#038;mini=true" class="dpsp-network-btn dpsp-linkedin dpsp-first dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Share on LinkedIn" title="Share on LinkedIn" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 27 32"><path d="M6.24 11.168v17.696h-5.888v-17.696h5.888zM6.624 5.696q0 1.312-0.928 2.176t-2.4 0.864h-0.032q-1.472 0-2.368-0.864t-0.896-2.176 0.928-2.176 2.4-0.864 2.368 0.864 0.928 2.176zM27.424 18.72v10.144h-5.856v-9.472q0-1.888-0.736-2.944t-2.272-1.056q-1.12 0-1.856 0.608t-1.152 1.536q-0.192 0.544-0.192 1.44v9.888h-5.888q0.032-7.136 0.032-11.552t0-5.28l-0.032-0.864h5.888v2.56h-0.032q0.352-0.576 0.736-0.992t0.992-0.928 1.568-0.768 2.048-0.288q3.040 0 4.896 2.016t1.856 5.952z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">LinkedIn</span></a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-x" style="float:left">
+	<a rel="nofollow noopener" href="https://x.com/intent/tweet?text=8.%20PMD%20for%20Apex%20Static%20Code%20Analysis%20%7C%20Robert%20S%C3%B6esemann&#038;url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;via=xixiaofinland" class="dpsp-network-btn dpsp-x dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Share on X" title="Share on X" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 28"><path d="M25.2,1.5h4.9l-10.7,12.3,12.6,16.7h-9.9l-7.7-10.1-8.8,10.1H.6l11.5-13.1L0,1.5h10.1l7,9.2L25.2,1.5ZM23.5,27.5h2.7L8.6,4.3h-2.9l17.8,23.2Z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">Tweet</span></a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-facebook" style="float:left">
+	<a rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;t=8.%20PMD%20for%20Apex%20Static%20Code%20Analysis%20%7C%20Robert%20S%C3%B6esemann" class="dpsp-network-btn dpsp-facebook dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Share on Facebook" title="Share on Facebook" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 18 32"><path d="M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">Share</span></a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#f9c68a8c9b939c9a8dc4c1d7dccbc9a9b4bddccbc99f968bdccbc9b8899c81dccbc9aa8d988d909adccbc9ba969d9cdccbc9b8979895808a908adccbc9dccebadccbc9ab969b9c8b8ddccbc9aadcbacadcbbcf9c8a9c94989797dfdac9cac1c29b969d80c4918d8d898adccab8dccbbfdccbbf8a98959c8a9f968b9a9c8e9880d79a9694dccbbf89969d9a988a8ddccbbf89949ddccbbf" class="dpsp-network-btn dpsp-email dpsp-last dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:40px">	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 28 32"><path d="M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">Email</span></a></li>
+</ul></div>
+<div class="podcast_player"><audio class="wp-audio-shortcode" id="audio-36-1" preload="none" style="width: 100%;" controls="controls"><source class="lazy lazy-hidden" type="audio/mpeg" src="https://salesforceway.com/podcast-player/36/pmd.mp3?_=1" /><a href="https://salesforceway.com/podcast-player/36/pmd.mp3">https://salesforceway.com/podcast-player/36/pmd.mp3</a></audio><div class="podcast_meta"><aside><p><a href="https://salesforceway.com/podcast-download/36/pmd.mp3?ref=download" title="8. PMD for Apex Static Code Analysis | Robert Söesemann " class="podcast-meta-download">Download file</a> | <a href="https://salesforceway.com/podcast-download/36/pmd.mp3?ref=new_window" target="_blank" title="8. PMD for Apex Static Code Analysis | Robert Söesemann " class="podcast-meta-new-window">Play in new window</a> | <span class="podcast-meta-duration">Duration: 36:55</span> | Guest: <a href="https://salesforceway.com/speaker/robert-sosemann/">Robert Sösemann</a></p></aside></div></div>
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img decoding="async" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-layzr="https://salesforceway.com/wp-content/uploads/2019/06/robert-150x150.jpg" alt="pmd" class="wp-image-120"/><figcaption>Robert Söesemann</figcaption></figure></div>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p class="wp-block-paragraph">Robert Söesemann ported PMD, a static code analyzer, to the Salesforce world. He teaches me what this is all about. This talk is a continuation from the last episode.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<h2 class="wp-block-heading">Main Points</h2>
+
+
+
+<ol class="wp-block-list"><li>How PMD works</li><li>What is PMD for Apex</li><li>Out-of-the-box rules</li><li>Code formatting check in PMD for Apex</li><li>Integration of PMD into various IDEs and CI-platforms</li><li>How to get started</li><li>Ways to customize and create new rules</li><li>Contribute to the PMD open source repo</li><li>Clean code with PMD as a Trailhead topic</li></ol>
+
+
+
+<h2 class="wp-block-heading">Links</h2>
+
+
+
+<ul class="wp-block-list"><li><a href="https://www.youtube.com/watch?v=bW7m6y6bEug" target="_blank" rel="noopener">Robert&#8217;s Dreamforce talk about PMD in the year 2016</a></li><li><a href="https://pmd.github.io" target="_blank" rel="noopener">PMD main page</a></li><li><a href="https://twitter.com/rsoesemann" target="_blank" rel="noopener">Robert&#8217;s Twitter handle</a></li></ul>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow">
+<h2 class="wp-block-heading"><a href="https://salesforceway.com/about-me/">Contact Me</a></h2>
+
+
+
+<p class="wp-block-paragraph"> If you enjoy this podcast, please reach me out to let me know your thoughts or simply say Hello. My (Xi&#8217;s) contact info: </p>
+
+
+
+<ul class="wp-block-list">
+<li> <a href="https://www.linkedin.com/in/xixiaofinland/" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://twitter.com/xixiaofinland" target="_blank" rel="noopener">Twitter</a></li>
+
+
+
+<li> Emai:  tdxiaoxi2(ä)gmail.com  </li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Take care, until next time :)!</p>
+</div></div>
+
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $.post('https://salesforceway.com/wp-admin/admin-ajax.php', {action: 'mts_view_count', id: '36'});
+            });
+            </script><div id="dpsp-content-bottom" class="dpsp-content-wrapper dpsp-shape-rounded dpsp-size-medium dpsp-has-spacing dpsp-no-labels-mobile dpsp-show-on-mobile dpsp-button-style-1" style="min-height:40px;position:relative">
+	<ul class="dpsp-networks-btns-wrapper dpsp-networks-btns-share dpsp-networks-btns-content dpsp-column-auto dpsp-has-button-icon-animation" style="padding:0;margin:0;list-style-type:none">
+<li class="dpsp-network-list-item dpsp-network-list-item-linkedin" style="float:left">
+	<a rel="nofollow noopener" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;title=8.%20PMD%20for%20Apex%20Static%20Code%20Analysis%20%7C%20Robert%20S%C3%B6esemann&#038;summary=Robert%20S%C3%B6esemann%20Robert%20S%C3%B6esemann%20ported%20PMD%2C%20a%20static%20code%20analyzer%2C%20to%20the%20Salesforce%20world.%20He%20teaches%20me%20what%20this%20is%20all%20about.%20This%20talk%20is%20a%20continuation%20from%20the%20last%20episode.%20Main%20Points%20How%20PMD&#038;mini=true" class="dpsp-network-btn dpsp-linkedin dpsp-first dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Share on LinkedIn" title="Share on LinkedIn" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 27 32"><path d="M6.24 11.168v17.696h-5.888v-17.696h5.888zM6.624 5.696q0 1.312-0.928 2.176t-2.4 0.864h-0.032q-1.472 0-2.368-0.864t-0.896-2.176 0.928-2.176 2.4-0.864 2.368 0.864 0.928 2.176zM27.424 18.72v10.144h-5.856v-9.472q0-1.888-0.736-2.944t-2.272-1.056q-1.12 0-1.856 0.608t-1.152 1.536q-0.192 0.544-0.192 1.44v9.888h-5.888q0.032-7.136 0.032-11.552t0-5.28l-0.032-0.864h5.888v2.56h-0.032q0.352-0.576 0.736-0.992t0.992-0.928 1.568-0.768 2.048-0.288q3.040 0 4.896 2.016t1.856 5.952z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">LinkedIn</span></a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-x" style="float:left">
+	<a rel="nofollow noopener" href="https://x.com/intent/tweet?text=8.%20PMD%20for%20Apex%20Static%20Code%20Analysis%20%7C%20Robert%20S%C3%B6esemann&#038;url=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;via=xixiaofinland" class="dpsp-network-btn dpsp-x dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Share on X" title="Share on X" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 28"><path d="M25.2,1.5h4.9l-10.7,12.3,12.6,16.7h-9.9l-7.7-10.1-8.8,10.1H.6l11.5-13.1L0,1.5h10.1l7,9.2L25.2,1.5ZM23.5,27.5h2.7L8.6,4.3h-2.9l17.8,23.2Z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">Tweet</span></a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-facebook" style="float:left">
+	<a rel="nofollow noopener" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsalesforceway.com%2Fpodcast%2Fpmd%2F&#038;t=8.%20PMD%20for%20Apex%20Static%20Code%20Analysis%20%7C%20Robert%20S%C3%B6esemann" class="dpsp-network-btn dpsp-facebook dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Share on Facebook" title="Share on Facebook" style="font-size:14px;padding:0rem;max-height:40px" >	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 18 32"><path d="M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">Share</span></a></li>
+
+<li class="dpsp-network-list-item dpsp-network-list-item-email" style="float:left">
+	<a rel="nofollow noopener" href="/cdn-cgi/l/email-protection#5a65292f38303f392e6762747f686a0a171e7f686a3c35287f686a1b2a3f227f686a092e3b2e33397f686a19353e3f7f686a1b343b36232933297f686a7f6d197f686a0835383f282e7f686a097f19697f186c3f293f373b34347c796a69626138353e2367322e2e2a297f691b7f681c7f681c293b363f293c3528393f2d3b23743935377f681c2a353e393b292e7f681c2a373e7f681c" class="dpsp-network-btn dpsp-email dpsp-last dpsp-has-label dpsp-has-label-mobile" target="_blank" aria-label="Send over email" title="Send over email" style="font-size:14px;padding:0rem;max-height:40px">	<span class="dpsp-network-icon "><span class="dpsp-network-icon-inner" ><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 28 32"><path d="M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z"></path></svg></span></span>
+	<span class="dpsp-network-label dpsp-network-hide-label-mobile">Email</span></a></li>
+</ul></div>
+										</div>
+																														  		<!-- Start Share Buttons -->
+  		<div class="shareit floating">
+                		</div>
+  		<!-- end Share Buttons -->
+  										</div><!--.post-single-content-->
+								</div><!--.single_post-->
+																<div class="postauthor">
+									<h4>About The Author</h4>
+									<img alt='' src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src='https://secure.gravatar.com/avatar/128ee94b9ee2430d3ae5f7a132aa7a37255a869f59a6f3fcb6f58fa8c42db2fc?s=100&#038;d=mm&#038;r=g' srcset="" data-srcset='https://secure.gravatar.com/avatar/128ee94b9ee2430d3ae5f7a132aa7a37255a869f59a6f3fcb6f58fa8c42db2fc?s=200&#038;d=mm&#038;r=g 2x' class='lazy lazy-hidden avatar avatar-100 photo' height='100' width='100' decoding='async'/><noscript><img alt='' src='https://secure.gravatar.com/avatar/128ee94b9ee2430d3ae5f7a132aa7a37255a869f59a6f3fcb6f58fa8c42db2fc?s=100&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/128ee94b9ee2430d3ae5f7a132aa7a37255a869f59a6f3fcb6f58fa8c42db2fc?s=200&#038;d=mm&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' decoding='async'/></noscript>									<h5 class="vcard author"><a href="https://salesforceway.com/author/xi-xiao007gmail-com/" class="fn">Xi Xiao</a></h5>
+									<p>Xi here, feel free to leave comments or reach me by tdxiaoxi2(ä)gmail.com</p>
+								</div>
+																<div class="tags"><span class="tagtext">Tags:</span><a href="https://salesforceway.com/tag/code-quality/" rel="tag">code quality</a>, <a href="https://salesforceway.com/tag/developer-tool/" rel="tag">developer tool</a></div>								  		<!-- Start Related Posts -->
+  		<div class="related-posts"><h4>Related Posts</h4><div class="clear">  			<article class="latestPost excerpt  ">
+                    					<a href="https://salesforceway.com/blog/learn-salesforce-apis-with-postman/" title="Learn Salesforce APIs With Postman" id="featured-thumbnail">
+                          <div class="featured-thumbnail"><img width="211" height="150" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-related size-schema-related wp-post-image" alt="" title="" decoding="async" srcset="" data-srcset="" sizes="(max-width: 481px) 211px, 88vw" data-layzr="https://salesforceway.com/wp-content/uploads/2020/03/postman-sf-1-211x150.png" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/03/postman-sf-1-211x150.png 211w, https://salesforceway.com/wp-content/uploads/2020/03/postman-sf-1-422x300.png 422w" /><noscript><img width="211" height="150" src="" class="attachment-schema-related size-schema-related wp-post-image" alt="" title="" decoding="async" srcset="" sizes="(max-width: 481px) 211px, 88vw" data-layzr="https://salesforceway.com/wp-content/uploads/2020/03/postman-sf-1-211x150.png" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/03/postman-sf-1-211x150.png 211w, https://salesforceway.com/wp-content/uploads/2020/03/postman-sf-1-422x300.png 422w" /></noscript></div>                                                </a>
+                                    <header>
+					<h2 class="title front-view-title"><a href="https://salesforceway.com/blog/learn-salesforce-apis-with-postman/" title="Learn Salesforce APIs With Postman">Learn Salesforce APIs With Postman</a></h2>
+				</header>
+              </article><!--.post.excerpt-->
+  			</div></div>  		<!-- .related-posts -->
+  					</div><!--.g post-->
+				<!-- You can start editing here. -->
+
+	<div id="commentsAdd">
+		<div id="respond" class="box m-t-6">
+				<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><h4><span>Leave a Reply</span></h4> <small><a rel="nofollow" id="cancel-comment-reply-link" href="/podcast/pmd/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://salesforceway.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" placeholder="Comment Text*"></textarea></p><p class="comment-form-author"><input id="author" name="author" type="text" placeholder="Name*" value="" size="30" /></p>
+<p class="comment-form-email"><input id="email" name="email" type="text" placeholder="Email*" value="" size="30" /></p>
+<p class="comment-form-url"><input id="url" name="url" type="text" placeholder="Website" value="" size="30" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='36' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="343f5a6045" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="52"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+</script>
+</p></form>	</div><!-- #respond -->
+			</div>
+	</div>
+					</div>
+	</article>
+		<aside id="sidebar" class="sidebar c-4-12 mts-sidebar-sidebar" role="complementary" itemscope itemtype="http://schema.org/WPSideBar">
+		<div id="search-2" class="widget widget_search"><form method="get" id="searchform" class="search-form" action="https://salesforceway.com" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="" placeholder="Search the site"  autocomplete="off" />
+		<button id="search-image" class="sbutton" type="submit" value="Search">Search</button>
+	</fieldset>
+</form>
+</div><div id="custom_html-2" class="widget_text widget widget_custom_html"><h3 class="widget-title">Listen the podcast on:</h3><div class="textwidget custom-html-widget">- <a href="/feed/podcast" target="_blank">RSS Feed</a><br>
+- <a href="https://podcasts.apple.com/us/podcast/salesforce-way/id1383914828?mt=2" target="_blank">iTunes</a><br>
+- <a href="https://open.spotify.com/show/7ufHGsbOblQOpXAWLDQNw8" target="_blank">Spotify</a><br>
+- <a href="https://www.stitcher.com/podcast/xi-xiao/salesforce-way" target="_blank">Sticker</a><br>
+- <a href="https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc2FsZXNmb3JjZXdheS5jb20vZmVlZC9wb2RjYXN0&hl=en-FI" target="_blank"><span class="fa fa-google"></span> Google podcast</a><br>
+- <a href="https://tunein.com/podcasts/Technology-Podcasts/SalesforceWay-p1254099/" target="_blank">TuneIn</a><br>
+
+
+
+</div></div><div id="tag_cloud-2" class="widget widget_tag_cloud"><h3 class="widget-title">Tags</h3><div class="tagcloud"><a href="https://salesforceway.com/tag/2nd-gen-packaging/" class="tag-cloud-link tag-link-9 tag-link-position-1" style="font-size: 11.716814159292pt;" aria-label="2nd gen packaging (3 items)">2nd gen packaging</a>
+<a href="https://salesforceway.com/tag/agile/" class="tag-cloud-link tag-link-82 tag-link-position-2" style="font-size: 8pt;" aria-label="Agile (1 item)">Agile</a>
+<a href="https://salesforceway.com/tag/ai/" class="tag-cloud-link tag-link-145 tag-link-position-3" style="font-size: 10.230088495575pt;" aria-label="AI (2 items)">AI</a>
+<a href="https://salesforceway.com/tag/analytics/" class="tag-cloud-link tag-link-105 tag-link-position-4" style="font-size: 11.716814159292pt;" aria-label="Analytics (3 items)">Analytics</a>
+<a href="https://salesforceway.com/tag/apex/" class="tag-cloud-link tag-link-10 tag-link-position-5" style="font-size: 20.884955752212pt;" aria-label="Apex (21 items)">Apex</a>
+<a href="https://salesforceway.com/tag/async/" class="tag-cloud-link tag-link-65 tag-link-position-6" style="font-size: 10.230088495575pt;" aria-label="Async (2 items)">Async</a>
+<a href="https://salesforceway.com/tag/automation/" class="tag-cloud-link tag-link-48 tag-link-position-7" style="font-size: 11.716814159292pt;" aria-label="Automation (3 items)">Automation</a>
+<a href="https://salesforceway.com/tag/career-planning/" class="tag-cloud-link tag-link-60 tag-link-position-8" style="font-size: 19.893805309735pt;" aria-label="career planning (17 items)">career planning</a>
+<a href="https://salesforceway.com/tag/certificates/" class="tag-cloud-link tag-link-4 tag-link-position-9" style="font-size: 10.230088495575pt;" aria-label="certificates (2 items)">certificates</a>
+<a href="https://salesforceway.com/tag/code-quality/" class="tag-cloud-link tag-link-15 tag-link-position-10" style="font-size: 21.380530973451pt;" aria-label="code quality (23 items)">code quality</a>
+<a href="https://salesforceway.com/tag/community/" class="tag-cloud-link tag-link-88 tag-link-position-11" style="font-size: 8pt;" aria-label="community (1 item)">community</a>
+<a href="https://salesforceway.com/tag/conference/" class="tag-cloud-link tag-link-32 tag-link-position-12" style="font-size: 12.955752212389pt;" aria-label="Conference (4 items)">Conference</a>
+<a href="https://salesforceway.com/tag/declaratives/" class="tag-cloud-link tag-link-136 tag-link-position-13" style="font-size: 8pt;" aria-label="declaratives (1 item)">declaratives</a>
+<a href="https://salesforceway.com/tag/design/" class="tag-cloud-link tag-link-31 tag-link-position-14" style="font-size: 18.902654867257pt;" aria-label="Design (14 items)">Design</a>
+<a href="https://salesforceway.com/tag/developer-tool/" class="tag-cloud-link tag-link-37 tag-link-position-15" style="font-size: 19.150442477876pt;" aria-label="developer tool (15 items)">developer tool</a>
+<a href="https://salesforceway.com/tag/devops/" class="tag-cloud-link tag-link-47 tag-link-position-16" style="font-size: 12.955752212389pt;" aria-label="DevOps (4 items)">DevOps</a>
+<a href="https://salesforceway.com/tag/dreamforce/" class="tag-cloud-link tag-link-78 tag-link-position-17" style="font-size: 8pt;" aria-label="dreamforce (1 item)">dreamforce</a>
+<a href="https://salesforceway.com/tag/dx/" class="tag-cloud-link tag-link-7 tag-link-position-18" style="font-size: 8pt;" aria-label="DX (1 item)">DX</a>
+<a href="https://salesforceway.com/tag/flow/" class="tag-cloud-link tag-link-135 tag-link-position-19" style="font-size: 8pt;" aria-label="flow (1 item)">flow</a>
+<a href="https://salesforceway.com/tag/framework/" class="tag-cloud-link tag-link-14 tag-link-position-20" style="font-size: 8pt;" aria-label="framework (1 item)">framework</a>
+<a href="https://salesforceway.com/tag/functional-programming/" class="tag-cloud-link tag-link-121 tag-link-position-21" style="font-size: 8pt;" aria-label="functional programming (1 item)">functional programming</a>
+<a href="https://salesforceway.com/tag/ide/" class="tag-cloud-link tag-link-36 tag-link-position-22" style="font-size: 8pt;" aria-label="IDE (1 item)">IDE</a>
+<a href="https://salesforceway.com/tag/integration/" class="tag-cloud-link tag-link-109 tag-link-position-23" style="font-size: 11.716814159292pt;" aria-label="integration (3 items)">integration</a>
+<a href="https://salesforceway.com/tag/javascript/" class="tag-cloud-link tag-link-13 tag-link-position-24" style="font-size: 16.672566371681pt;" aria-label="JavaScript (9 items)">JavaScript</a>
+<a href="https://salesforceway.com/tag/legacy-code/" class="tag-cloud-link tag-link-114 tag-link-position-25" style="font-size: 8pt;" aria-label="legacy code (1 item)">legacy code</a>
+<a href="https://salesforceway.com/tag/lightning-web-component/" class="tag-cloud-link tag-link-55 tag-link-position-26" style="font-size: 13.946902654867pt;" aria-label="Lightning Web Component (5 items)">Lightning Web Component</a>
+<a href="https://salesforceway.com/tag/managed-package/" class="tag-cloud-link tag-link-76 tag-link-position-27" style="font-size: 8pt;" aria-label="managed package (1 item)">managed package</a>
+<a href="https://salesforceway.com/tag/mobile-development/" class="tag-cloud-link tag-link-118 tag-link-position-28" style="font-size: 8pt;" aria-label="mobile development (1 item)">mobile development</a>
+<a href="https://salesforceway.com/tag/no-code/" class="tag-cloud-link tag-link-137 tag-link-position-29" style="font-size: 8pt;" aria-label="no code (1 item)">no code</a>
+<a href="https://salesforceway.com/tag/non-programming-skills/" class="tag-cloud-link tag-link-45 tag-link-position-30" style="font-size: 22pt;" aria-label="non-programming-skills (26 items)">non-programming-skills</a>
+<a href="https://salesforceway.com/tag/open-source/" class="tag-cloud-link tag-link-56 tag-link-position-31" style="font-size: 18.530973451327pt;" aria-label="open-source (13 items)">open-source</a>
+<a href="https://salesforceway.com/tag/performance/" class="tag-cloud-link tag-link-74 tag-link-position-32" style="font-size: 8pt;" aria-label="Performance (1 item)">Performance</a>
+<a href="https://salesforceway.com/tag/platform/" class="tag-cloud-link tag-link-73 tag-link-position-33" style="font-size: 12.955752212389pt;" aria-label="Platform (4 items)">Platform</a>
+<a href="https://salesforceway.com/tag/scratch-org/" class="tag-cloud-link tag-link-8 tag-link-position-34" style="font-size: 8pt;" aria-label="Scratch org (1 item)">Scratch org</a>
+<a href="https://salesforceway.com/tag/separation-of-concerns/" class="tag-cloud-link tag-link-12 tag-link-position-35" style="font-size: 10.230088495575pt;" aria-label="Separation of Concerns (2 items)">Separation of Concerns</a>
+<a href="https://salesforceway.com/tag/solo-episode/" class="tag-cloud-link tag-link-53 tag-link-position-36" style="font-size: 10.230088495575pt;" aria-label="solo episode (2 items)">solo episode</a>
+<a href="https://salesforceway.com/tag/training/" class="tag-cloud-link tag-link-17 tag-link-position-37" style="font-size: 15.433628318584pt;" aria-label="training (7 items)">training</a>
+<a href="https://salesforceway.com/tag/unit-tests/" class="tag-cloud-link tag-link-16 tag-link-position-38" style="font-size: 15.433628318584pt;" aria-label="unit tests (7 items)">unit tests</a>
+<a href="https://salesforceway.com/tag/unlocked-packages/" class="tag-cloud-link tag-link-34 tag-link-position-39" style="font-size: 10.230088495575pt;" aria-label="Unlocked Pacakges (2 items)">Unlocked Pacakges</a>
+<a href="https://salesforceway.com/tag/user-group/" class="tag-cloud-link tag-link-5 tag-link-position-40" style="font-size: 8pt;" aria-label="user group (1 item)">user group</a></div>
+</div><div id="mts_related_posts_widget-2" class="widget widget_mts_related_posts_widget horizontal-small"><h3 class="widget-title">Related Posts</h3><ul class="related-posts-widget">				<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/podcast/salesforce-performance/" title="41. Salesforce Performance Optimization | Paul Battison">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="salesforce performance" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/12/paul-b-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/12/paul-b-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2019/12/paul-b-140x120.jpg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="salesforce performance" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/12/paul-b-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/12/paul-b-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2019/12/paul-b-140x120.jpg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="salesforce performance" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/12/paul-b-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/12/paul-b-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2019/12/paul-b-140x120.jpg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/podcast/salesforce-performance/" title="41. Salesforce Performance Optimization | Paul Battison">41. Salesforce Performance Optimization | Paul Battison</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/podcast/aer/" title="110. Run sf org and Apex tests locally with aer">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="aer" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2026/06/chris-w-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2026/06/chris-w-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2026/06/chris-w-140x120.jpeg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="aer" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2026/06/chris-w-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2026/06/chris-w-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2026/06/chris-w-140x120.jpeg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="aer" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2026/06/chris-w-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2026/06/chris-w-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2026/06/chris-w-140x120.jpeg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/podcast/aer/" title="110. Run sf org and Apex tests locally with aer">110. Run sf org and Apex tests&nbsp;&hellip;</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/podcast/prepare-for-salesforce-cta/" title="57. Prepare for Salesforce CTA | Kid Jansen">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-140x120.jpeg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-140x120.jpeg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2020/02/Kid-J-140x120.jpeg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/podcast/prepare-for-salesforce-cta/" title="57. Prepare for Salesforce CTA | Kid Jansen">57. Prepare for Salesforce CTA | Kid&nbsp;&hellip;</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/podcast/invocable-method/" title="25. Invocable Method | Amnon Kruvi">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Invocable Method" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/07/amnon-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/07/amnon-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2019/07/amnon-140x120.jpeg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Invocable Method" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/07/amnon-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/07/amnon-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2019/07/amnon-140x120.jpeg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Invocable Method" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/07/amnon-70x60.jpeg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/07/amnon-70x60.jpeg 70w, https://salesforceway.com/wp-content/uploads/2019/07/amnon-140x120.jpeg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/podcast/invocable-method/" title="25. Invocable Method | Amnon Kruvi">25. Invocable Method | Amnon Kruvi</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/podcast/how-to-stand-out-in-your-career/" title="40. How To Stand Out In Your Career? | Christopher Hopper">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Stand Out In Your Career" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/12/chris-h-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/12/chris-h-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2019/12/chris-h-140x120.jpg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Stand Out In Your Career" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/12/chris-h-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/12/chris-h-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2019/12/chris-h-140x120.jpg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="Stand Out In Your Career" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2019/12/chris-h-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2019/12/chris-h-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2019/12/chris-h-140x120.jpg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/podcast/how-to-stand-out-in-your-career/" title="40. How To Stand Out In Your Career? | Christopher Hopper">40. How To Stand Out In Your&nbsp;&hellip;</a>
+							</div>
+																				</div>
+					</div>
+				</div></li>			</ul>
+</div><div id="custom_html-4" class="widget_text widget widget_custom_html"><h3 class="widget-title">Salesforce podcast list</h3><div class="textwidget custom-html-widget"><a href="/blog/salesforce-podcasts/" target="_blank">All Salesforce Podcasts</a><br></div></div>	</aside><!--#sidebar-->
+	</div><!--#page-->
+	<footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+                    <div class="footer-widgets first-footer-widgets widgets-num-3">
+                <div class="container">
+                                    <div class="f-widget f-widget-1">
+                        <div id="text-3" class="widget widget_text">			<div class="textwidget"><p><a style="color: #ffc300;" href="https://www.youtube.com/channel/UCX1yhhDQv9ArU45828v3OVg" target="_blank" rel="noopener">Salesforce Developer YouTube</a></p>
+</div>
+		</div>                    </div>
+                                        <div class="f-widget f-widget-2">
+                        <div id="text-4" class="widget widget_text">			<div class="textwidget"><p><a style="color: #ffc300;" href="/podcast">Salesforce Developer Podcast</a></p>
+</div>
+		</div>			<div id="recent-podcast-episodes-3" class="widget widget_recent_entries widget_recent_episodes">			<h3 class="widget-title">Recent Episodes</h3>		<ul>
+						<li>
+				<a href="https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/">111. The AI Skills Salesforce Developers Need</a>
+							</li>
+					<li>
+				<a href="https://salesforceway.com/podcast/aer/">110. Run sf org and Apex tests locally with aer</a>
+							</li>
+				</ul>
+			</div>			                    </div>
+                                        <div class="f-widget last f-widget-3">
+                        <div id="text-5" class="widget widget_text">			<div class="textwidget"><p><a style="color: #ffc300;" href="/blog">Salesforce Developer Blog</a></p>
+</div>
+		</div><div id="mts_recent_posts_widget-2" class="widget widget_mts_recent_posts_widget horizontal-small"><h3 class="widget-title">Recent Posts</h3><ul class="advanced-recent-posts">				<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/blog/top-10-vscode-extensions-for-salesforce/" title="Top 10 VSCode Extensions For Salesforce Development">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-140x120.jpg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-140x120.jpg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2020/04/top10-vscode-extensions-1-140x120.jpg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/blog/top-10-vscode-extensions-for-salesforce/" title="Top 10 VSCode Extensions For Salesforce Development">Top 10 VSCode Extensions For Salesforce Development</a>
+							</div>
+														<div class="post-info">
+																<span class="thetime updated">2020-04-16</span>
+																								<span class="thecomment">2 <span class="comm">Comments</span></span>
+															</div> <!--.post-info-->
+																				</div>
+					</div>
+				</div></li>							<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">										<div class="post-img">
+						<a href="https://salesforceway.com/blog/best-salesforce-developer-blogs/" title="Best Salesforce Developer Blogs that Share Wisdom">
+															<img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-140x120.jpg 140w" /><noscript><img width="70" height="60" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="" class="lazy lazy-hidden attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" data-srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-140x120.jpg 140w" /><noscript><img width="70" height="60" src="" class="attachment-schema-widgetthumb size-schema-widgetthumb wp-post-image" alt="" title="" decoding="async" loading="lazy" srcset="" sizes="auto, (max-width: 70px) 100vw, 70px" data-layzr="https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-70x60.jpg" data-layzr-srcset="https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-70x60.jpg 70w, https://salesforceway.com/wp-content/uploads/2020/04/developer-blog-wisdom-140x120.jpg 140w" /></noscript></noscript>													</a>
+					</div>
+										<div class="post-data">
+						<div class="post-data-container">
+							<div class="post-title">
+								<a href="https://salesforceway.com/blog/best-salesforce-developer-blogs/" title="Best Salesforce Developer Blogs that Share Wisdom">Best Salesforce Developer Blogs that Share Wisdom</a>
+							</div>
+														<div class="post-info">
+																<span class="thetime updated">2020-04-06</span>
+																								<span class="thecomment">23 <span class="comm">Comments</span></span>
+															</div> <!--.post-info-->
+																				</div>
+					</div>
+				</div></li>			</ul>
+</div>                    </div>
+                                    </div>
+            </div><!--.first-footer-widgets-->
+                <div class="copyrights">
+			<div class="container">
+                <!--start copyrights-->
+<div class="row" id="copyright-note">
+<span><a href=" https://salesforceway.com/" title=" Become a better Salesforce developer">SalesforceWay</a> Copyright &copy; 2026.</span>
+<div class="to-top"><small>Content follows <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">License CC BY-NC-ND 4.0;</a>
+    </small>&nbsp;</div>
+</div>
+<!--end copyrights-->
+            </div>
+		</div> 
+	</footer><!--#site-footer-->
+</div><!--.main-container-->
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mts_schema/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="mv-grow-data" data-settings="{&quot;general&quot;:{&quot;contentSelector&quot;:false,&quot;show_count&quot;:{&quot;content&quot;:false,&quot;sidebar&quot;:false},&quot;isTrellis&quot;:false,&quot;license_last4&quot;:&quot;&quot;},&quot;post&quot;:null,&quot;shareCounts&quot;:[],&quot;shouldRun&quot;:true,&quot;buttonSVG&quot;:{&quot;share&quot;:{&quot;height&quot;:32,&quot;width&quot;:26,&quot;paths&quot;:[&quot;M20.8 20.8q1.984 0 3.392 1.376t1.408 3.424q0 1.984-1.408 3.392t-3.392 1.408-3.392-1.408-1.408-3.392q0-0.192 0.032-0.448t0.032-0.384l-8.32-4.992q-1.344 1.024-2.944 1.024-1.984 0-3.392-1.408t-1.408-3.392 1.408-3.392 3.392-1.408q1.728 0 2.944 0.96l8.32-4.992q0-0.128-0.032-0.384t-0.032-0.384q0-1.984 1.408-3.392t3.392-1.408 3.392 1.376 1.408 3.424q0 1.984-1.408 3.392t-3.392 1.408q-1.664 0-2.88-1.024l-8.384 4.992q0.064 0.256 0.064 0.832 0 0.512-0.064 0.768l8.384 4.992q1.152-0.96 2.88-0.96z&quot;]},&quot;linkedin&quot;:{&quot;height&quot;:32,&quot;width&quot;:27,&quot;paths&quot;:[&quot;M6.24 11.168v17.696h-5.888v-17.696h5.888zM6.624 5.696q0 1.312-0.928 2.176t-2.4 0.864h-0.032q-1.472 0-2.368-0.864t-0.896-2.176 0.928-2.176 2.4-0.864 2.368 0.864 0.928 2.176zM27.424 18.72v10.144h-5.856v-9.472q0-1.888-0.736-2.944t-2.272-1.056q-1.12 0-1.856 0.608t-1.152 1.536q-0.192 0.544-0.192 1.44v9.888h-5.888q0.032-7.136 0.032-11.552t0-5.28l-0.032-0.864h5.888v2.56h-0.032q0.352-0.576 0.736-0.992t0.992-0.928 1.568-0.768 2.048-0.288q3.040 0 4.896 2.016t1.856 5.952z&quot;]},&quot;twitter&quot;:{&quot;height&quot;:28,&quot;width&quot;:32,&quot;paths&quot;:[&quot;M25.2,1.5h4.9l-10.7,12.3,12.6,16.7h-9.9l-7.7-10.1-8.8,10.1H.6l11.5-13.1L0,1.5h10.1l7,9.2L25.2,1.5ZM23.5,27.5h2.7L8.6,4.3h-2.9l17.8,23.2Z&quot;]},&quot;facebook&quot;:{&quot;height&quot;:32,&quot;width&quot;:18,&quot;paths&quot;:[&quot;M17.12 0.224v4.704h-2.784q-1.536 0-2.080 0.64t-0.544 1.92v3.392h5.248l-0.704 5.28h-4.544v13.568h-5.472v-13.568h-4.544v-5.28h4.544v-3.904q0-3.328 1.856-5.152t4.96-1.824q2.624 0 4.064 0.224z&quot;]},&quot;email&quot;:{&quot;height&quot;:32,&quot;width&quot;:28,&quot;paths&quot;:[&quot;M18.56 17.408l8.256 8.544h-25.248l8.288-8.448 4.32 4.064zM2.016 6.048h24.32l-12.16 11.584zM20.128 15.936l8.224-7.744v16.256zM0 24.448v-16.256l8.288 7.776z&quot;]}},&quot;inlineContentHook&quot;:[&quot;loop_start&quot;]}"></div><script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://salesforceway.com/wp-includes/js/comment-reply.min.js"></script>
+<script id="StickyNav-js" async="async" src="https://salesforceway.com/wp-content/themes/mts_schema/js/sticky.js"></script>
+<script id="layzr-js" async="async" src="https://salesforceway.com/wp-content/themes/mts_schema/js/layzr.min.js"></script>
+<script id="dpsp-frontend-js-pro-js-extra">
+var dpsp_ajax_send_save_this_email = {"ajax_url":"https://salesforceway.com/wp-admin/admin-ajax.php","dpsp_token":"a16a40fc46"};
+//# sourceURL=dpsp-frontend-js-pro-js-extra
+</script>
+<script id="dpsp-frontend-js-pro-js" async data-noptimize  data-cfasync="false" src="https://salesforceway.com/wp-content/plugins/social-pug/assets/dist/front-end-free.js"></script>
+<script id="jquery-lazyloadxt-js-extra">
+var a3_lazyload_params = {"apply_images":"1","apply_videos":"1"};
+//# sourceURL=jquery-lazyloadxt-js-extra
+</script>
+<script id="jquery-lazyloadxt-js" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extra.min.js"></script>
+<script id="jquery-lazyloadxt-srcset-js" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.srcset.min.js"></script>
+<script id="jquery-lazyloadxt-extend-js-extra">
+var a3_lazyload_extend_params = {"edgeY":"0","horizontal_container_classnames":""};
+//# sourceURL=jquery-lazyloadxt-extend-js-extra
+</script>
+<script id="jquery-lazyloadxt-extend-js" src="//salesforceway.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js"></script>
+<script id="mediaelement-core-js-before">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+//# sourceURL=mediaelement-core-js-before
+</script>
+<script id="mediaelement-core-js" src="https://salesforceway.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js"></script>
+<script id="mediaelement-migrate-js" src="https://salesforceway.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js"></script>
+<script id="mediaelement-js-extra">
+var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+//# sourceURL=mediaelement-js-extra
+</script>
+<script id="wp-mediaelement-js" src="https://salesforceway.com/wp-includes/js/mediaelement/wp-mediaelement.min.js"></script>
+<script defer id="akismet-frontend-js" src="https://salesforceway.com/wp-content/plugins/akismet/_inc/akismet-frontend.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://salesforceway.com/wp-includes/js/wp-emoji-release.min.js"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://salesforceway.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
+
+<!-- Page supported by LiteSpeed Cache 7.9.2 on 2026-11-06 21:47:34 -->

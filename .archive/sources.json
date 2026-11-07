@@ -1,0 +1,449 @@
+[
+  {
+    "url": "https://aquiva.com/blog/is-agentforce-the-new-low-code",
+    "role": "authored",
+    "kind": "article",
+    "evidence": "Page credits Robert Sösemann; extraction still needs review.",
+    "slug": "article-is-agentforce-the-new-low-code",
+    "title": "Is Agentforce the New Low-Code?"
+  },
+  {
+    "url": "https://aquiva.com/blog/dreamforce-2026-developer-keynote",
+    "role": "authored",
+    "kind": "article",
+    "discovered_from": "https://aquiva.com/blog/tag/agentic-engineering",
+    "slug": "article-dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i",
+    "title": "Dreamforce 2026 Dev Keynote: As a Future Salesforce Developer, I…"
+  },
+  {
+    "url": "https://aquiva.com/blog/salesforce-forward-deployed-engineer",
+    "role": "authored",
+    "kind": "article",
+    "discovered_from": "https://aquiva.com/blog/tag/agentic-engineering",
+    "slug": "article-what-actually-is-a-salesforce-forward-deployed-engineer",
+    "title": "What Actually Is a Salesforce Forward Deployed Engineer?"
+  },
+  {
+    "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "role": "authored",
+    "kind": "article",
+    "discovered_from": "https://aquiva.com/blog/tag/agentic-engineering",
+    "slug": "article-the-fable-of-the-hare-and-the-hedgehog",
+    "title": "The Fable of the Hare and the Hedgehog"
+  },
+  {
+    "url": "https://www.salesforceben.com/beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps/",
+    "role": "authored",
+    "kind": "article",
+    "evidence": "Published byline: Robert Sösemann.",
+    "slug": "article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps",
+    "title": "Beyond the Hype: Our Experience of Building 3 Salesforce AI Apps"
+  },
+  {
+    "url": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "role": "interview",
+    "kind": "transcript",
+    "evidence": "Edited interview containing both questions and answers; not a verbatim single-speaker sample.",
+    "slug": "transcript-the-evolution-of-salesforce-devops-with-robert-sosemann",
+    "title": "The evolution of Salesforce DevOps with Robert Sösemann"
+  },
+  {
+    "url": "https://salesforceway.com/podcast/salesforce-ai/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "evidence": "Episode 104; includes host text and links to recordings.",
+    "slug": "podcast-page-104-salesforce-ai-from-the-trenches-robert-soesemann",
+    "title": "104. Salesforce & AI from the trenches | Robert Söesemann"
+  },
+  {
+    "url": "https://salesforceway.com/podcast/clean-code/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "slug": "podcast-page-7-clean-code-and-code-agility-robert-sosemann",
+    "title": "7. Clean code and Code Agility | Robert Sösemann"
+  },
+  {
+    "url": "https://salesforceway.com/podcast/pmd/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "slug": "podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann",
+    "title": "8. PMD for Apex Static Code Analysis | Robert Söesemann"
+  },
+  {
+    "url": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "role": "interview",
+    "kind": "podcast_page",
+    "evidence": "Episode 111; guest Robert Sösemann, recorded 2026-07-28.",
+    "slug": "podcast-page-111-the-ai-skills-salesforce-developers-need-salesforceway",
+    "title": "111. The AI Skills Salesforce Developers Need - SalesforceWay"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Qp49B4Baq4g",
+    "role": "speech_unverified",
+    "kind": "video",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "title": "Custom PMD rules. For any Metadata. Within Minutes.",
+    "slug": "video-custom-pmd-rules-for-any-metadata-within-minutes"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=T_xO6fXSIBs",
+    "role": "speech_unverified",
+    "kind": "video",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "title": "Learnings from building Salesforce AI Apps",
+    "slug": "video-learnings-from-building-salesforce-ai-apps"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=wJQZfW8-4f0",
+    "role": "interview",
+    "kind": "video",
+    "discovered_from": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/",
+    "title": "Trails Podcast episode 18",
+    "slug": "video-trails-podcast-episode-18"
+  },
+  {
+    "url": "https://www.londonscalling.net/sessions/custom-pmd-rules-for-any-metadata-within-minutes/",
+    "role": "about",
+    "kind": "conference_session",
+    "evidence": "Session ran 2023-06-09; page says no assets uploaded.",
+    "slug": "conference-session-custom-pmd-rules-for-any-metadata-within-minutes-london-s-calling-salesforce",
+    "title": "Custom PMD rules. For any Metadata. Within Minutes. - London's Calling Salesforce"
+  },
+  {
+    "url": "https://www.londonscalling.net/sessions/salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year/",
+    "role": "about",
+    "kind": "conference_session",
+    "evidence": "Session ran 2024-07-19; page says no assets uploaded.",
+    "slug": "conference-session-salesforce-ai-from-the-trenches-what-we-learned-in-the-last-year-london-s-calling-salesforc",
+    "title": "Salesforce & AI from the trenches – What we learned in the last year - London's Calling Salesforce"
+  },
+  {
+    "url": "https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf",
+    "role": "about",
+    "kind": "conference_program",
+    "evidence": "Lists Robert's session: As a Salesforce Developer I will – 7 Ground Rules for Success.",
+    "slug": "conference-program-czechdreamin2022brochure-pdf",
+    "title": "CzechDreamin 2022 — conference programme"
+  },
+  {
+    "url": "https://www.apexhours.com/apex-pmd-static-code-analysis/",
+    "role": "about",
+    "kind": "talk_page",
+    "evidence": "Article by Amit Chaudhary; embedded PMD talk features Robert.",
+    "slug": "talk-page-apex-pmd-static-code-analyzer",
+    "title": "Apex PMD Static Code Analyzer"
+  },
+  {
+    "url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp",
+    "role": "about",
+    "kind": "profile",
+    "evidence": "Article by Jacob Rouser, with attributed quotes; not Robert's writing.",
+    "slug": "profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet",
+    "title": "Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet"
+  },
+  {
+    "url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann",
+    "role": "about",
+    "kind": "profile",
+    "evidence": "Third-person employee profile despite Robert's byline; exclude from writing samples.",
+    "slug": "profile-employee-spotlight-robert-sosemann",
+    "title": "Employee Spotlight - Robert Sösemann"
+  },
+  {
+    "url": "https://www.pluralsight.com/authors/robert-sosemann",
+    "role": "about",
+    "kind": "course_catalog",
+    "evidence": "Public course listings only; no paid course content requested.",
+    "slug": "course-catalog-robert-sosemann",
+    "title": "Robert Sösemann"
+  },
+  {
+    "url": "https://www.salesforceben.com/event/agentforce-and-ai-adoption-practical-tips/",
+    "role": "about",
+    "kind": "webinar_listing",
+    "slug": "webinar-listing-agentforce-and-ai-adoption-practical-tips",
+    "title": "Agentforce and AI Adoption: Practical Tips"
+  },
+  {
+    "url": "https://www.scavenger-ai.com/en/media-hub/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w%C3%BCrde---mit-robert-s%C3%B6semann",
+    "role": "about",
+    "kind": "podcast_page",
+    "evidence": "English publisher summary of German interview; translated quotes are not original voice samples.",
+    "slug": "podcast-page-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-w-c3-bcrde-mit-robert"
+  },
+  {
+    "url": "https://salesforceway.com/podcast-player/1872/salesforce-ai.mp3",
+    "role": "interview",
+    "kind": "audio",
+    "discovered_from": "https://salesforceway.com/podcast/salesforce-ai/",
+    "slug": "audio-salesforce-ai-mp3",
+    "title": "Salesforce & AI from the Trenches — SalesforceWay episode 104 (audio)"
+  },
+  {
+    "url": "https://salesforceway.com/podcast-player/1917/ai-skills-salesforce-developers-need.mp3",
+    "role": "interview",
+    "kind": "audio",
+    "discovered_from": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "slug": "audio-ai-skills-salesforce-developers-need-mp3",
+    "title": "The AI Skills Salesforce Developers Need — SalesforceWay episode 111 (audio)"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=qhhUuCpK8Q0",
+    "role": "interview",
+    "kind": "video",
+    "discovered_from": "https://salesforceway.com/podcast/ai-skills-salesforce-developers-need/",
+    "slug": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+    "title": "The AI Skills Salesforce Developers Need | Robert Sosemann"
+  },
+  {
+    "url": "https://salesforceway.com/podcast-player/34/clean-code.mp3",
+    "role": "interview",
+    "kind": "audio",
+    "discovered_from": "https://salesforceway.com/podcast/clean-code/",
+    "slug": "audio-clean-code-mp3",
+    "title": "Clean Code and Code Agility — SalesforceWay episode 7 (audio)"
+  },
+  {
+    "url": "https://salesforceway.com/podcast-player/36/pmd.mp3",
+    "role": "interview",
+    "kind": "audio",
+    "discovered_from": "https://salesforceway.com/podcast/pmd/",
+    "slug": "audio-pmd-mp3",
+    "title": "PMD for Apex — SalesforceWay episode 8 (audio)"
+  },
+  {
+    "url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce",
+    "title": "10 Best Practices for Building with Agentforce Builder",
+    "role": "coauthored",
+    "kind": "article",
+    "authors": [
+      "Greg Wasowski",
+      "Michael Holt",
+      "Robert Sösemann"
+    ],
+    "date": "2025-03-06",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Publisher lists Greg Wasowski, Michael Holt, and Robert Sösemann as authors. Individual passages have not been attributed.",
+    "slug": "article-10-best-practices-for-building-with-agentforce-builder"
+  },
+  {
+    "url": "https://aquiva.com/blog/reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs",
+    "title": "Reflecting on a Year of AI Integration in Salesforce: Insights from Aquiva Labs",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Robert Sösemann"
+    ],
+    "date": "2024-03-18",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Publisher credits Robert but body is a third-person announcement of his Salesforce Ben article. Do not treat this wrapper as an original style sample.",
+    "slug": "article-reflecting-on-a-year-of-ai-integration-in-salesforce-insights-from-aquiva-labs"
+  },
+  {
+    "url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Yaroslav Karpinskiy"
+    ],
+    "date": "2022-12-28",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Event recap names Robert and his SForce Summit Winter Edition 2022 session. Main remaining article covers other speakers.",
+    "slug": "article-sfdx-plug-in-development-salesforce-devops-maturity-matrix"
+  },
+  {
+    "url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+    "title": "As a Salesforce Developer, I Will - 7 Ground Rules for Success",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Yaroslav Karpinskiy"
+    ],
+    "date": "2022-12-12",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Yaroslav Karpinskiy recaps Robert’s SForce Summit Winter Edition 2022 talk and seven rules. Text is not solely authored by Robert.",
+    "slug": "article-as-a-salesforce-developer-i-will-7-ground-rules-for-success"
+  },
+  {
+    "url": "https://aquiva.com/blog/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine",
+    "title": "AppExchange Tech Talk Recap: Why every ISV should know Salesforce Code Analyser and the new Graph Engine",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Yaroslav Karpinskiy"
+    ],
+    "date": "2022-11-29",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Yaroslav Karpinskiy recaps the November 2022 AppExchange Tech Talk featuring Robert. The original event link is preserved.",
+    "slug": "article-appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engin"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=DR8byDJLGEI",
+    "title": "Wie qualitativ gute Software entsteht und warum uns mehr Elitismus gut tun würde",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LuLv77KKRIo",
+    "title": "Irish Dreamin 2025: AI Agents from the Trenches — What Works, What Doesn't",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=BgErYWOzL4s",
+    "title": "What Does Agentforce Mean for the Salesforce Ecosystem?",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-what-does-agentforce-mean-for-the-salesforce-ecosystem"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+    "title": "London’s Calling 2024: Salesforce & AI from the trenches",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-londons-calling-2024-salesforce-ai-from-the-trenches"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Kc0q8pfD3Ic",
+    "title": "codeLive: Implementing a Test Data Builder with Domain Builder",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-codelive-implementing-a-test-data-builder-with-domain-builder"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=ReXiFBH1wi0",
+    "title": "MVP Talk with Robert Sösemann and Christian Szandor Knapp",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-A201aaiE3o",
+    "title": "FTD22: As a Salesforce Developer I will — 7 Ground Rules for Success",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bW7m6y6bEug",
+    "title": "Dreamforce 2016: Clean Apex Code with Automatic Code Metrics",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://pmd.github.io/pmd/pmd_projectdocs_trivia_news.html",
+    "slug": "video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=34PxAHtAavU",
+    "title": "Apex PMD: Static code analysis — Apex Hours",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://pmd.github.io/pmd/pmd_projectdocs_trivia_news.html",
+    "slug": "video-apex-pmd-static-code-analysis-apex-hours"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7_Ex9WWS_3Q",
+    "title": "How to contribute Apex rules to PMD",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://pmd.github.io/pmd/pmd_projectdocs_trivia_news.html",
+    "slug": "video-how-to-contribute-apex-rules-to-pmd"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Ypyiy5b6huc",
+    "title": "Improving your Apex Code Quality with PMD in The Welkin Suite",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://pmd.github.io/pmd/pmd_projectdocs_trivia_news.html",
+    "slug": "video-improving-your-apex-code-quality-with-pmd-in-the-welkin-suite"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=QouVF7R-st0",
+    "title": "Refactoring for complexity | codeLive",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://www.youtube.com/watch?v=QouVF7R-st0",
+    "slug": "video-refactoring-for-complexity-codelive"
+  },
+  {
+    "url": "https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce",
+    "title": "Play by Play: Automated Code Analysis in Salesforce — a Tools Deep-Dive",
+    "kind": "course",
+    "role": "interview",
+    "discovered_from": "https://pmd.github.io/pmd/pmd_projectdocs_trivia_news.html",
+    "slug": "course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive"
+  },
+  {
+    "url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+    "title": "Salesforce Ben Webinar: Agentforce and AI Adoption",
+    "kind": "webinar_listing",
+    "role": "about",
+    "discovered_from": "https://www.linkedin.com/in/rsoesemann/",
+    "slug": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption"
+  },
+  {
+    "url": "https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages",
+    "title": "Play by Play: Sipping the Happy Soup — Untangle Production Orgs with Salesforce DX Unlocked Packages",
+    "kind": "course",
+    "role": "interview",
+    "discovered_from": "https://www.pluralsight.com/authors/robert-sosemann",
+    "evidence": "Publisher lists Don Robins and Robert Sösemann. Full course requires plan or authorised original files.",
+    "slug": "course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages"
+  },
+  {
+    "url": "https://www.slideshare.net/CzechDreamin/as-a-salesforce-developer-i-will-7-ground-rules-for-success-robert-ssemann",
+    "title": "CzechDreamin 2022 slides: As a Salesforce Developer I will — 7 Ground Rules for Success",
+    "kind": "slides",
+    "role": "authored",
+    "discovered_from": "https://czechdreamin.com/wp-content/uploads/2022/07/CzechDreamin2022Brochure.pdf",
+    "evidence": "Exact PDF hyperlink annotation on page 17, attached to Robert Sösemann session.",
+    "slug": "slides-czechdreamin-2022-slides-as-a-salesforce-developer-i-will-7-ground-rules-for-success"
+  },
+  {
+    "url": "https://appsecurityandperformancemadeasy.splashthat.com/",
+    "title": "App Security and Performance Made Easy with Salesforce Code Analyzer",
+    "slug": "talk-2022-code-analyzer-john-belo-roopa-mohan",
+    "kind": "talk_page",
+    "role": "mentioned",
+    "discovered_from": "https://aquiva.com/blog/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine",
+    "evidence": "Original Salesforce AppExchange event page names Robert Sösemann, John Belo, and Roopa Mohan. November 10 date; year2022 corroborated by Aquiva November29 recap. Page has unrelated2018 template placeholders; do not use those as event dates."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-6PN6EZh9X8",
+    "title": "Static Code Analysis with Robert Sösemann | Salesforce Developers Podcast Episode1",
+    "slug": "video-salesforce-developers-static-code-analysis-episode-1",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.youtube.com/results?search_query=Robert+Soesemann+Salesforce",
+    "evidence": "YouTube publisher title and channel metadata explicitly identify Robert."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=khSSaYO6aRc",
+    "title": "As Salesforce Developer I will -7 Ground Rules for Success (Extended Version)",
+    "slug": "video-sforce-poland-7-ground-rules-extended",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.youtube.com/results?search_query=Robert+Soesemann+Salesforce",
+    "evidence": "YouTube publisher title and channel metadata explicitly identify Robert."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=MEc9GcqTv6Y",
+    "title": "MVP Talk with Robert Sösemann and Christian Szandor Knapp | Episode4",
+    "slug": "video-mvp-talk-robert-christian-knapp-episode-4",
+    "kind": "video",
+    "role": "speech_unverified",
+    "discovered_from": "https://www.youtube.com/results?search_query=Robert+Soesemann+Salesforce",
+    "evidence": "YouTube publisher title and channel metadata explicitly identify Robert."
+  }
+]

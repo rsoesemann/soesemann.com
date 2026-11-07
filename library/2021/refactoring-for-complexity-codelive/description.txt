@@ -1,0 +1,3 @@
+Writing software can be hard, but it doesn't have to be complex and hard to understand. On this weeks episode, Robert and I will discuss what cyclomatic complexity is, and how to refactor code to be less complex
+
+The opinions expressed by guests do not always follow Salesforce Best Practices; and that's OK. Receiving feedback on code from trusted members of the community is a gift for everyone - but not all feedback is in line with the goals of the Apex-Recipes project, or Salesforce best practices. We encourage viewers to be open to learning new ideas, while critically thinking about that feedback in relation to published best practices.

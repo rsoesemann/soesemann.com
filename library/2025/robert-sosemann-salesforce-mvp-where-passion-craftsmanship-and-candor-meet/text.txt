@@ -1,0 +1,30 @@
+Aquiva blog/Employee Spotlight
+Robert Sösemann, Salesforce MVP: Where Passion, Craftsmanship, and Candor Meet
+I had the opportunity to chat with Robert Sösemann to discuss his recent re-nomination as a Salesforce MVP and learn what this latest nomination means to him.
+When you meet Robert Sösemann, there are no soft edges. He’s direct, opinionated, and more interested in clean code than community accolades. And yet, here he is, renewed for the fifth time as a Salesforce MVP, on the verge of entering the Hall of Fame.
+I sat down with Robert to trace his journey — not just through the MVP program, but through 20 years of code, tooling, and a shifting Salesforce landscape that often seemed antithetical to his way of thinking.
+Robert didn’t set out to be a Salesforce MVP. In fact, for years he made jokes that he’d never be one. “I wasn’t organizing meetups or running user groups, I was pointing out bugs on Twitter.”
+He was, however, shipping tools like PMD for Apex — an open-source static code analyzer inspired by his years working in Java. That tool now runs under the hood of most Salesforce IDEs and DevOps tools, and began as a way to avoid micromanaging junior devs.
+“I just wanted something that could catch the basics before I had to,” Robert said.
+The motivation wasn’t grand. It was practical. A love of simplicity and removing friction. Over time, that mindset led him deeper into the world of software craftsmanship.
+“I wasn’t a good developer early on. I couldn’t understand other people’s code—or my own a week later. That pain is what drove me to care about readability, consistency, and design.”
+For Robert, sharing code wasn’t about altruism. It was leverage.
+“I open sourced PMD because I needed the help. Other people could contribute, test, teach. And yeah — because I liked being loud about what I thought mattered.”
+That directness became part of his style whether he was on stage, posting in open source, or even across Slack channels. He pushed back on Salesforce’s “admin over dev” narrative and became a kind of underground spokesperson for serious engineers who didn’t feel at home in the Ohana vibe.
+Ask Robert what it means to be a five-time MVP, and you won’t get a polished answer.
+“It’s not like I hang the certificate on my wall. But it means something. I didn’t come through the traditional MVP path of user groups, community events, and onboarding newbies. I complained. I debugged. I shipped stuff.”
+He’s aware that his path doesn’t look like most MVPs. “A lot of MVPs are evangelists. They help bring people into Salesforce. I’m more the guy who says, ‘This part sucks, let’s fix it.’ And the fact that they keep renewing me? That tells me someone’s listening.”
+More than anything, Robert sees the recognition as a signal that engineering rigor has a place in Salesforce.
+“In the beginning, I wasn’t sure someone like me even had a place here. But getting renewed year after year? It’s validation that real engineering matters. That being critical doesn’t disqualify you. That someone at Salesforce sees the value in what we do.”
+Over the last two years, Robert has led Aquiva Labs’ experiments with generative AI inside Salesforce, launching tools like My Org Butler, DMD, and Ask Your Document. These aren’t concepts — they’re real, working apps used by teams today.
+And while he’s excited about the future, he’s clear-eyed about the risks.
+“Low-coders are probably the first to get replaced. But devs aren’t safe either. If you’re not two or three times better with AI than you were before, you’re at risk.”
+Still, Robert sees hope in the platform.
+“Salesforce is pivoting hard to AI. Agentforce is messy but promising. And the one thing that hasn’t changed? We still need people who can build. People who give a damn.”
+Robert didn’t set out to win awards. He set out to solve problems. Along the way, he proved that craft and honesty can coexist in an ecosystem that didn’t always want to hear it.
+And that’s maybe the real legacy of his MVP run: not the title, but the proof that being critical, curious, and a little relentless still counts.
+If you’d like to read more from Robert, you can follow him below:
+Github: http://github.com/rsoesemann
+LinkedIn: https://www.linkedin.com/in/rsoesemann/
+X: https://x.com/rsoesemann
+If you’d like to learn more about how Aquiva Labs is empowering organizations using Salesforce to solve their biggest challenges, get in touch today!

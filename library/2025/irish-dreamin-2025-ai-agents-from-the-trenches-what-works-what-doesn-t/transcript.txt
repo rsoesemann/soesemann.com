@@ -1,0 +1,772 @@
+Hello. A beautiful afternoon. Sorry that
+the organizers put me into the tired tea
+tea time zone. Um be before I tell you
+who I am, I want to warm you up a little
+bit and just ask you who you are. Not by
+person, but just give me a quick show of
+hands like who simple question first.
+Who's a little bit
+tired? Okay. I I try to not totally mess
+it up. Um who's who's a developer?
+Cool. And the other people are like
+business people, PMS. Who's who's all
+the other stuff like PMS, non-technical
+stuff? Oh, yeah. Perfect. Um, great.
+Last question. Who thinks AI agents are
+overhyped? Okay, cool. So, that's the
+that's the right mix. That's the right
+mix. Um, yeah. I want to say thank you
+to the sponsors and the makers of that
+great conference. I'm It's my first time
+in Ireland. Um, how's your conference so
+far? Good. Cool. So, perfect. So, yeah,
+I I told you that I will tell you who I
+am. I'm Robert, as you hear. I not only
+have a cold, but I'm also not from
+Ireland. I'm from Germany. I'm a
+Salesforce MVP um in my free time and I
+work for the beautiful um Salesforce
+partner Akiva Labs where I am a
+principal architect and I was lucky
+enough in the last one and a half year
+to play and seriously do stuff with
+Salesforce and AI even before agent
+force was around. And when you look at
+my slide, you will see a difference
+between your agenda and my slide. It's
+when I submitted this talk I think end
+of last year after reinforce I expected
+agent force to be GA as Mark Benhov said
+immediately and to have tremendous uh
+experience with it already but let's be
+honest um the GA is is a little bit
+different right now so I called it agent
+force and beyond because um I will not
+only talk about agent force but also um
+a little bit more generic
+um yeah generic in the sense that it's
+not only about code demo and
+experience but when I want you to go out
+of this presentation and be a little bit
+more convinced that this topic is
+important for you especially the people
+who were skeptics regarding AI. So no
+matter of your role and job, I want you
+to at least when you travel back, stop
+thinking about your current job and your
+role and rethink it through the lens of
+AI, agentic AI, because I think we all
+need, we all should recalibrate a little
+bit. Okay. Um, and here's
+why. I think Agentic AI brings to
+business software development or
+business software a revolution and not
+another revolution but a revolution we
+waited for as users as admins as
+architects and I want to tell you yeah
+and and it's changing the way we build
+software so I want to do that on two
+different topics I want to show you that
+it's like a new user interface and I
+want
+show you why I think it's going to
+redefine what we call glue code or low
+code. If something is revolutionary and
+changes the way we build software, it
+also changes the power dynamics. This is
+why I think it will also democratize
+software um in a bit. Meaning that the
+people who actually should have a say
+have more of a say in the future. But
+let's start with the beginning. Let's
+start about the breakthroughs of AI that
+we all did not care about like 10 years
+ago when Transformers was uh invented
+and researchers were super amazed how to
+predict the next word and how good it
+was and that the machine actually
+understood something. We all didn't
+care. I didn't either. Um we just
+started caring about this um two years
+ago when and GPT came around and those
+large language models got so big that
+they could do amazing things you know
+understand text write text um write
+business strategies um uh a famous guy
+called Henrik made this beautiful um
+metaphor of it's a little bit like
+having a an Einstein sitting at your
+couch never grumpy never tired never
+hungry, always answering your questions.
+But you also probably remember that we
+all after some month were all a little
+bit frustrated. We are not in the
+business of creating text or
+understanding text. We hang around in
+orgs, we produce software, we we get our
+businesses done. So we couldn't make
+that much sense of that in the
+Salesforce context. And that that
+changed when researchers found out that
+those models they they understand
+language but language understanding is
+is like equivalent or similar to
+understanding the world. And when you
+pair a model with some ground rules,
+orchestration, memory and give it tools,
+the things we have built for the last
+decades, you know, code, send emails,
+talk to databases.
+When you bring that together, those
+little Einsteins actually get up from
+the couch, take the mission we give it
+and the little toolbox and can do
+amazing
+stuff. If you don't trust me, trust
+people like um those partners at Y
+Combinator. Y Combinator is a venture
+capitalist firm in the US. They invested
+in multi-billion dollar technology
+companies that were like one person big
+and they in this video they just believe
+or talk about why they believe that um a
+gentic will be 10 times bigger as a
+market than the SAS market and we are
+all in the Salesforce market which is
+like one incumbent in the SAS story. So
+um this is this really worth to watch.
+At the end, I will show you how to get
+to
+that. Just as a side note, I find it
+really funny how they say whenever a new
+technology comes around, be the internet
+or be mobile, the first companies to
+adopt it, they just port the the the
+boring old concept into the new into the
+new technology, which is often quite
+boring, you know, like Google Docs in
+the cloud. And it takes a few years
+until Ubers and Airbnbs come around
+which really invents something new. So I
+I I still think we are in that old
+phase. Oh, let's do some CRM with a
+little bit of AI. Um,
+okay. I told you that I want to that I
+think that software development will
+improve or change and I want to do that
+on two different topics. The one is user
+interface. When when we hear UI, we just
+think about screens and buttons, but
+actually user interface is the bridge
+between the fuzzy humans and the the
+rigid 01 machines. And it didn't change.
+You know, Windows 30 years ago or
+lightning UI, it's messy. The more use
+cases you have to cover, the more messy
+the concepts in the UI are. And that
+doesn't get that doesn't get better the
+more use cases you have. My assumption
+and I I shared it with other people is
+that this dramatically changes with
+Agentic because at its core the user
+interface of Agentic is conversational.
+So means it uses human language be it
+spoken be it via voice and then you
+don't need so much user interface. You
+still need a little bit for rendering
+diagrams to visualize stuff, but the
+amount of UI we actually have to produce
+and have to think about will be
+dramatically less. It will just be taken
+over and and I think at TDX they they
+also said a little bit about that that
+agent force will magically discover
+which UI to render. Let's look at the
+big code
+part. I want to make a distinction. I I
+think there is code which should stay
+around. I I just made up the name value
+code. Do you see it's green? It's it's
+code that is well tested, stays around,
+doesn't change often, you know, talking
+to systems to
+APIs. But there is this other code that
+most people in such conferences care
+about and that's the messy part the what
+what people call glue code because it
+glues together those beautiful green
+components depending on the messy
+business requirements. We Salesforce
+even invented something more messy which
+is flow and they both are good and
+important but the problem
+is that it's the world changes. It
+always changes and somebody has to go in
+and add to this mess.
+My understanding of agentic is
+that this mess can be this gluing
+together can be done automatically
+dynamically based on the user request
+via the LLM and the reasoning engine.
+For sure we need those natural language
+instructions that we wrap around our old
+fashioned value code. But I think this
+is a a very good thing and
+I I tell you why. Because I think we
+developers or awesome admins, however we
+call
+ourselves, we were not grammatically
+good in listening to business people and
+and coding their needs in code and doing
+that in
+a quick and agile fashion. So I really
+predict that in the future finally the
+real business people will write
+instructions will write natural language
+tests guard rails and all of that. So no
+middleman, no business and you know I'm
+I'm not predicting that all those roles
+will explode and go elsewhere. I'm just
+saying I think it's a good thing when
+when business people can do much more
+and I I believe um that there is still
+enough code around for us
+developers.
+Okay, demo
+time. Demo
+time. Everything I show
+you is from an open-source repository of
+my company, Akiva Labs. It's called my
+orc Butler and we created it I think one
+and a half year ago when nothing um
+co-pilot agentic was around. We just
+tried to build a little tool in
+Salesforce which can make use of
+generative AI and Agentic and over the
+course of the last month the more and
+more native Salesforce features come out
+we added it. So it's it's in parts we
+are removing custom AI and replace it
+with native Salesforce stuff. So when
+you when you take that repository you
+you also can learn from the
+history. So what is my orb butler? I I I
+want to show you how it started. It
+started as this beautiful sidebar
+component which is a lightning component
+and you know it it stays where it is no
+matter what you do. And you could ask
+questions, you know, you you ask a
+question and then in this case it goes
+out to open AI, you know, this is why it
+takes longer than agent force
+and basically calls tools. I I don't
+want to go in detail because I just want
+to talk about agent force, but I I want
+you to see where it all started. And as
+always in a demo, it's right. So it it
+recommended me an opportunity. It told
+me why because of the close
+date because it is custom. I can could
+do a year ago could do things which are
+still not possible with agent force, you
+know, give it a nice UI. I can have my
+custom voting system. It even tells me
+what it did behind the scenes, you know,
+it it tells me it first learned about
+the user, then it queried via suckle and
+all of that. And I I'm just showing you
+that because when I made my presentation
+a year ago, it was the time when Mark
+Benhyov and Dreamforce said, "Don't do
+custom AI, don't do it yourself." It was
+super easy to just repurpose everything
+we have written here in agent force. So
+the the remaining part of my demo will
+just be in agent builder, but everything
+you see like the topics and instructions
+and apex classes, they are absolutely
+the same. So this is my my my orc butler
+is currently just a a bunch of topics.
+We have four topics. Answer questions
+about data, create data, explain and
+modify metadata. And I just want to ask
+the same question
+again about list
+opportunities because I want to show
+you what it what it actually does
+because this is like the learning part.
+I hope what I what I show you is a
+little bit and different from what
+Salesforce tells you. So So you see it
+took the right topic. it it found out
+some information about the user and it
+did a sock query as you saw before and
+it's nicely displaying it here. So we
+have two actions. Let's let's I want to
+show you how to change data. So I just
+say change the the close date to next
+Friday. It's spooky. I didn't record the
+things and just like 10 minutes before
+this session the the the scratch or
+didn't work. So um yeah it it
+successfully changed something. Let's
+look how it did it. It called the the
+Salesforce REST
+API. Okay. So you see there is no change
+opportunity field action. There is just
+an action to call an an API. Let's do
+what what could an orc butler else do?
+just answer questions to admins like,
+"Hey, list list all my packages in this
+or thinking thinking. Okay, there is a
+package called DMD document mess
+detector.
+Do you know PMD? Who's using PMD? Very
+good.
+Um, otherwise the next next question
+wouldn't work. I I I I ask something.
+DMD sounds like PMD. Who invented DMD
+and what does it would that work? An
+agent
+force. Um, and and while while it's
+working, I just want to show you that it
+was this time calling the tooling API.
+Yeah. and it found out that it is it is
+an app for running rules on business
+documents and it was using a search the
+web action. So I was just pulling that
+from the
+web.
+Okay, then explore the data model of the
+app.
+Um yeah, find all the custom objects in
+[Music]
+DMD. Okay, nice. So it it found them.
+But I don't want to work with such an
+such a list. I just ask it. You know the
+actions are also explain metadata,
+understand the data model.
+Let
+me ask it render a UML gra diagram for
+rule rule set analysis all those PMD
+like
+objects and when it's doing that you
+will notice that in in agent force you
+cannot
+um render external images so it's
+encoding the stuff in the URL so it will
+go away in a second
+um we we have to work
+with the features as they were given to
+us. So, so now I can can open this and
+then you see a nice UML chart uh
+depicting the relationships of the
+objects that I just
+asked. Okay. Um I don't want to overdo
+it, but I I just
+um want to show you how it did that. It
+yeah it it unders it it explored the
+data model and then it used another
+action
+to put a a planned UML which is
+declarative UML diagram into an image
+URL. Last one um I think that's not even
+needed but um show me recently created
+Apex classes.
+Okay, there's not much in my orc. Let's
+just ask what's what what is the WSDL
+class
+doing? You know, this is it might look
+random, but I want you to see that this
+is very different from CRM examples.
+This is very different from fine grained
+questions and it's actually really good
+at this.
+So, let me show you a little bit how
+that is made. So all of those topics
+they only have a
+[Music]
+few let me deactivate the the
+thing you know there there is some some
+good
+instructions I have to
+do. So there is some instructions which
+tell it in which order to call uh
+things. My experience is that you need
+topics to actually tell Atlas reasoning
+engine to which tool to call when and in
+which order. If you put that into the
+action, it doesn't work. So
+um and the actions are like you saw
+before. There is I better show you in in
+apex
+code. So that that is my VS code with
+the code and there is things like call
+rest API it's 50 lines of code and when
+you look at the input it's super generic
+there is no thing about only use this
+API give me an arbitrary endpoint URL in
+your Salesforce work choose an HTTP
+method give me an arbitrary rest body it
+can be CSV JSON whatever and and give me
+some raw stuff
+back. There is some other
+implementations which are more specific
+which I found better for tooling API or
+there is one for metadata API because
+this
+involves handling zip files but but in
+the end it's it's just
+APIs. All the things are super easy like
+explore the orc schema. It's basically
+just printing out field names, API
+names, relationships in no special
+format, but it understands it. It it can
+really crawl your data. It can even
+answer questions about custom objects.
+So, converting it into
+suckle. But um yeah, the last thing I I
+wanted to show you this web search
+because I have so many people say, "Oh,
+that's cool." Um I'm just again using an
+API. It's called Tilli API. It's it's an
+API which web search is complicated. You
+need to run a search engine. You need to
+scrape website. It's makes sense out of
+the search results. And Tavilli just
+does that for you. You put a natural
+language query in and you get a a
+beautiful answer out which you don't
+need to
+reformulate. Okay. The the last thing
+this one record suckle yeah it's it's
+really super simple the only things I
+want to mention here is I query with
+user mode access level to just make sure
+that people in agents cannot access
+wrong things but what is even more
+important is that I'm catching the
+exception and putting it in an output
+variable called error and this is this
+is really a learning which was
+considered consistent. If you have agent
+code which breaks with unhandles
+exceptions, the the the reasoning engine
+will fail. So you will have a like a red
+error in your agent builder and and
+something goes wrong in in the in the
+real thing. If you do it this way, you
+give the LLM basically a way to retry,
+understand the error, do another socket
+query, and I couldn't reproduce that
+consistently for the demo, but um that
+works beautiful. So, it's it's basically
+retrying it multiple times and saying,
+"Oh, yeah, I did something wrong in my
+sock query," which you wouldn't see. You
+would you would just see it it it takes
+longer in the in the copilot sidebar.
+Okay.
+What should you make out of all of this?
+I tried to summarize the few real
+learnings in one slide. In one
+slide, it starts
+with I believe agent force is not yet
+ready for customerf facing agents.
+That's just my belief. Even if
+Salesforce puts out their help site, um
+I think you should start with in theor
+agents for admins and users because they
+they are more
+forgiving and you can you can help them.
+You can make this the quirky Salesforce
+UI with a lot clicks um a little bit
+better by by just providing in or
+agents.
+I hope you saw that my actions were very
+different from what you read on LinkedIn
+and in the material. There is no, you
+know, they have they they have summarize
+opportunity actions and create case
+actions and we know we have hundreds of
+objects and hundreds of potential
+activities. If you create an action for
+that, you you win nothing. And what I
+found out if you if you are not on the
+scary side and actually give it
+something more powerful and APIs are
+dramatically powerful, it will use them
+responsibly. And and for me, this is key
+because trust is not everything. This AI
+game is about saving time, saving money,
+replacing creative humans with creating
+creative software. And I think um we
+will read a lot about how to scope
+actions, how to scope topics. I I didn't
+want to put anything on that on a slide
+because what I know is really just is is
+less than religion. It's just my
+opinion, but I think this is a big
+topic. Yes. Um
+exceptions prevent self-healing
+behavior. It's important to know that a
+uh reasoning engines like Atlas they
+have self-healing behavior so they can
+read output and retry. You know you can
+even pull asynchronous APIs using that
+mechanism that that works
+beautiful. APIs are a superpower. You
+know I showed you all the Salesforce
+APIs. I showed you Tavilli. The cool
+thing with APIs is they are basically a
+little bit like code but you cannot call
+an say an agent call write yourself apex
+code but APIs allow you that another
+thing you didn't s see me use any prompt
+templates I have a reason but you don't
+need prompt templates to use LLMs for
+anything you saw it was able to
+summarize uh things it was able to come
+up with a good sockle query for my
+question so The Atlas reasoning engine
+is like a mini LLM and going the extra
+route of of prompt templates. I'm not
+convinced that this is
+required. The last thing, and I just
+showed it in the
+beginning, I believe it's easier than we
+think to combine native and custom UI.
+Um, you know, you saw my ORC Butler with
+a different user interface. you you will
+probably be able to do that in a few
+weeks with a agents API. So I I say that
+because I believe you should just get
+started today and not say, "Oh, this
+doesn't work." I
+wait.
+Okay. What did I not talk about? And I
+actually planned on talking a lot about
+things that don't work. But as I as I
+said in the beginning those ch this
+those things changes uh change
+dramatically fast. So on TDX a ton of
+new features has been announced. I just
+saw in my scratch or that this new
+variable function has appeared. So
+probably if I would have talked about
+what does not work you know regarding
+packaging my slides would be outdated
+during this
+talk. A big topic I I think many talks
+and even conferences can be about is
+about the nondeterministic nature of um
+AI backed
+software. We developers we we we fell in
+love with like red green tests you know
+test suites when they run green we we
+sleep better. This totally changes.
+There's nothing like red green and you
+run it once and then everything is good.
+I think we will talk in the future more
+about evaluations and experiments and
+Salesforce is showing that with testing
+center and and the tools that they they
+show
+us and I also could but don't want to
+step into this topic of uh AI as a job
+killer.
+Um I think all technologies have the the
+risk that they kill a few jobs. It's
+often the jobs that are not super cool,
+but that's not important for the people
+who have those jobs. Um, I really
+believe that it could be better for all
+of us, but we need to, as I said in the
+beginning, recalibrate a little bit, see
+what what we can do. And and yeah, and
+what we should definitely not do is get
+be scared by Mark Benihoff because he
+also invented the sassy mascot 25 years
+ago which told everybody that Salesforce
+is no software. But I just saw you
+raising your hands. We we all make our
+money with building software um in
+Salesforce. So even if Salesforce says
+no more engineers for Agent Force, I
+really do not believe that at Dreamforce
+we see a no developer
+mascot. Yeah. Um while this is the end
+of my presentation and the start of a
+small Q&A round, I think it's not the
+end of our beautiful journey in
+Salesforce. Behind the QR code is not
+the feedback tool. If you really like
+the talk, I I promise I know I suggest
+you just find it where all the others
+are. Um, you can follow me on GitHub,
+LinkedIn, and X. And yeah, it was was
+great to have you here. I hope you I
+could warm you up a little bit for the
+rest of the day. Thank
+[Applause]
+you. And yeah, we have I think 10
+minutes for
+questions. Don't disappoint
+me. Yeah, you said to like avoid prompt
+builder if you can't. Is that just like
+it's cheaper if you don't have prompt
+builder or is it not even the same?
+No, it's it's many people believe
+whenever they want to do something gen
+like they need to use prompt builder.
+you know, they they need to have a
+prompt and select an an a language model
+and you don't need that. You know, all
+the things that I showed you where it
+created a socket query based on my my
+user utterance, it just did it without a
+prompt builder. And prompt builder also
+was just G8, at least the packaging one,
+you know, where you can put prompt
+builder into packages was just released
+a few weeks ago. So I'm not saying it's
+bad. I I really think it's very good
+because it exposes the prompt with all
+those um grounding merge fields as
+something which you can version and so I
+think it's really good but many
+developers believe they need it to
+actually make use of LLM like features.
+Yes.
+Thank you. One big talking point when
+speaking with clients is around security
+of data and you're talking around the
+native versus the custom AI. Yeah. Um
+the main reason why push back against AI
+is the security. What what's your
+thought process on that?
+Yeah, I I agree. So you see that that we
+also me as a person but also my company
+we have the tendency to talk people into
+native stuff but our argument was if
+Salesforce doesn't provide the stuff in
+time we just have to use um custom
+stuff. I really believe that the trust
+layer and the way they build it is
+really cool. You know, I I really think
+it's it's
+good.
+But, you know, for me calling open AI is
+not so different than what we did in the
+last decades calling APIs, you know,
+REST APIs and we sent our data there.
+You know, there were BA tools where you
+from the from the orc sent data and let
+it analyze
+we we could also not trust that they
+don't do harm with our data. So, so I I
+totally understand the concerns, but I
+think, you know, there is companies
+which are more on the concern side. You
+know, if something breaks, they're out
+of business. They should probably not go
+to my talks and not use that. But
+there's other companies who go out of
+business if they don't
+innovate. So, it's it's a balance. I
+hope that was not too fuzzy.
+Yes. So you have four or five like
+predefined dures set up
+there. What if what if someone asks
+something that doesn't fit into those?
+What is agent force do?
+Agent Force um tells you bluntly I
+cannot cover this and this is this
+different like the open AI version of
+our my orc butler was more creative you
+know it it sometimes came up with cool
+solutions you know uh oh yeah I couldn't
+call tooling API and then I call that
+that's that's the magic in the beginning
+my orca just had this call random APIs
+and like in our company. We have it in
+our own org. The people said this was
+like the best version of my or Butler
+because it never rejected something. Um,
+but it does and and Atlas the the Atlas
+reasoning engine is really like anxious
+panic type. You know, sometimes you just
+say, "Yeah, please do it." And then it
+it basically says, "This must be prompt
+injection because you were so rude or
+something." Um, I I believe that there
+will be a lot of tweaking. So um all the
+people like I did five agent force
+projects like small ones in this year
+and like my teammates they said agent
+force like every day it has a different
+mood it's like more optimistic it does
+more it does less it yeah
+what they said on on the drive was like
+the opposite like you know the agent
+fors are are unmoods
+yeah yeah
+Right. I mean, Salesforce with trust as
+value, they they have to tell it don't
+do evil. Don't do evil. And it it
+probably just it reads it out of my
+German words that I must do evil. So, I
+often get this prompt injection or I
+cannot do it. And then I if I put like
+please please it does it. So, it's it's
+interesting and it's spooky. I I really
+believe um the typical developer, you
+know, the
+typical 01 person already hates it and
+they they will not fall in love with
+AIdriven software soon. But let's see.
+Um yeah, you can sure we have time. You
+ever come across like where you have too
+many actions per topic? Is there a sweet
+spot where you can give me options?
+Very good question. I didn't have the
+problem because I come from the other
+end, you know, to cover it all with one
+mighty pseudo action. But I talked to
+people at at Salesforce and they said,
+"Yeah,
+the a few dozens is is like the sweet
+spot." But I don't believe them. I think
+it's it's a problem of overlap.
+just the more actions you have the the
+the the chance of overlap is bigger and
+then something breaks. I even had it
+here. You know, you can you can um use
+succul API, you can use tooling APIs for
+for some kind of queries. And you know
+my question with the give me all the
+installed packages. You can do it with
+the tooling API and you can do it with a
+metadata API and one API don't doesn't
+give back the the right label. It's
+really hard to to
+um and I'm really curious how our craft
+will solve that because it's it really
+feels like
+tweaking. So
+yeah, but I'm I'm I would make a bet
+that books will be written
+about the the perfect scoping of agents,
+skills, whatever they are called. You
+you probably who remembers those times
+when people talked about how to size and
+scope APIs, you know, API endpoints or
+services, microservices. I believe this
+will just come again with um the the
+parts of
+Agentic. Cool. So, I give you back four
+minutes.
+Um, have a beautiful remaining day and
+thank you very
+[Applause]

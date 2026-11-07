@@ -1,0 +1,850 @@
+[Music]
+hello everyone and thank you for joining
+in boolean code quality with PMD webinar
+and my name is Vladimir I am head of
+product at the well-concealed
+and today I will show you the other
+Guardians how to use PMD and how to
+improve your quality using the welcome
+suit ID and today we have a great guest
+in our webinar Robert hello my name is
+Robert I am a German face product
+architect I work for us to go optical is
+the safer side three partners we have
+different products out there one about
+team collaboration and others for your
+model industry financial planning and
+other enterprise planning products so as
+you see on the slide and I really am
+really interested in all the processes
+around coding and development being
+agile and I also make myself a clean
+code in two years that and that's that's
+the topic we want to talk about today
+and a year ago I created or reported a
+two quality tool from Dhamma to Apex and
+presented this on the light green port
+and this is how I came to contact with
+the welcome shoot and blooding year and
+yeah how everything started so and we
+hope you guys into what TV is let me
+first talk about what was good good code
+is because yeah we are talking about co
+quality when you read blog and check
+Twitter and there's a lot about code
+quality and what you often hear is the
+code is working code because that's what
+we get paid for and we have to make our
+customers accessible
+output is really what matters there's a
+lot of technical requirements good code
+has high test coverage uses the latest
+and greatest features and API it it
+behaves well in the restrictions of the
+governor limits and yeah you sometimes
+good code is even described and how it
+was created or designed for example in
+agile sprints but but for me and I think
+this is very abstract this is very very
+far away from the actual code so I I
+think this is not sufficient there's
+more to good code and instead of just
+telling you what this code is in my
+opinion
+I brought new code that that was that
+that we use internally it's code from
+our internal expense tracking software
+so and this code indeed makes us the
+customer happy in reimbursing expenses
+it was planned in an edger citation it
+runs within the government limits and
+all of this actually is true but the
+question is which said it is good
+comment when I show the exactly that
+piece of code during reinforce I got a
+lot of answers and the people who are
+basically Charlie and me and I just
+collect with a few of the the things
+they mentioned them long parameter lists
+with more than whole parametres subtle
+inside loops which might break with
+large data volumes and deeply nested
+control structures the naming is all
+over the place and sometimes I use
+phrase is sometimes not and even stuff
+like the users comments I personally try
+to respect
+commence and have as few as possible
+eyes because I think it Michael is
+really clear and clean
+I don't need commence to explain it so
+what you see this is just a few lines of
+code and a lot can go wrong and let's
+connect a few to think that we want
+what's good code or good cultured hat
+and I brought you a few chords by sulfa
+development experts not not especially
+in the Cypress field
+but really people you even might know
+let me start with this and this person
+andreas a she's she makes money by
+refactoring the code of others and she
+said stop thinking about a software
+project
+think about it as a house something
+long-term that he will live in that you
+have to and have fun him and so good
+code for her is easy to maintain because
+that would be most the time you you do
+greenfield development first day and
+then you basically just go in and tweak
+it and it's ended the same is Martin
+Fowler than the inventor of patterns and
+he wrote many great books about testing
+and and patents he said any fool can
+write code as a computer can understand
+but good programmers write code that
+humans can understand that's what what
+is important make your code needs to be
+you need to be readable for yourself in
+a year or the fellow developer that
+comes in maintains your code later
+so naming is important to certain
+patterns stuff that people recognize
+Henry T birth and you might not be so
+known that he is the scrum coach
+qualified a well-known scrum hook author
+and he said and you keep writing
+pressing code you get flow and so I over
+time and
+you're basically just wrestling with the
+cold and that's not what we think
+agile is agility means whatever a new
+idea comes out you can really just build
+it into the system and this really means
+your software needs to be extendable the
+most pretense in place it must be you
+can refactor code and this means exten
+ability is key to extend software you
+must have tests in place and as Ken Beck
+I think everybody knows him inventor of
+Jayla and book offer many great books he
+said it's not a telling problem it's a
+design problem many testing as a testing
+problem and this is really something you
+see in color if it's cold hard test if
+it's if it's not well structure this if
+you have long classes intermingled
+procedures and set up small objects
+testing code is really hard
+so if your car does good good tests
+something's wrong with your code and
+then all it comes out in this word clean
+colors are both by both marking great
+book everybody needs to read it and it's
+not about a specific programming
+language but it's about attributes of
+good code about naming conventions about
+how to reveal the intention of the
+developer and clincal is really it's
+really something we use all the time
+when we go into code when we do a code
+review and ugly we don't say it only we
+just say it's not clean it's not it's
+not what we expect for the future so it
+has to go all of this is really
+important because we don't do projects
+and leave the project we do products so
+our code lives for years and needs to be
+extended and so we have all the things
+in place that that are required like
+testing and code reviews and people look
+team pieces some pair pair programming
+but everything is manually and time
+intensive so we thought why not hand
+tools check these some some of those
+metrics that we said my testability and
+readability I totally agree with
+everybody who now says okay how should
+it we'll check these things but many
+things can be checked so if there is a
+subtle query and a noob is something
+code should be able to check and as we
+are from the Java background we know
+that those tools exist so for Java there
+are tools like um PMD and find box and
+and a lot of stuff was out there a one
+and a half years ago when we first
+thought about it and we said why i widen
+any of those tools exist for a fix
+especially if it exists based on Java
+and white clothes so we just made a
+project we had some very smart and
+students who helped me and we porn it
+PMD from Java to ethics
+we got a ton of help from Salesforce
+they basically gave us their internal
+parser because P and V would be any dust
+maybe I should say a few words PMD is a
+static code in an ID word smooth it
+isn't run the code it doesn't compile
+the code it just reads the source file
+and then understand structure to find
+certain and dependent and so what we did
+we made DMV understand a bit and then we
+took many of the java rules around 30
+and ordered them to affix we also added
+some epic civic rules like Sacco doesn't
+exist in the Java world so we created
+our own words and then we made it
+available on github so and this is not a
+tool we sell or it's not a pariah parry
+version of PD it's really part of pmv so
+you can
+can go in and contribute we even wanted
+more we wanted to be part of our
+development process so we wanted every
+year github pull request be stopped if
+there is unclean code in there so we we
+checked out the tool landscape out there
+I'm cold Simon and Kota see companies
+which integrated with github and monitor
+what's going on so just think of the
+close future of Ted force the X where
+you could have repositories the source
+of truth you can even check your stuff
+there and everything is open-source and
+so and during the last year many jumps
+on the banner web wagon it helped even
+set it for us the sense of security team
+provided rules and wrote a visual forest
+implementation and many to lenders so
+there's not only D&D in the first come
+IDE but also in IntelliJ and the weapon
+suite and I totally loved it so I just
+said yes - - such a webinar and I will
+switch effect now and like and we will
+show you how PMD works in the birthing
+suite okay so I'm really happy that beam
+D is finally here for Salesforce because
+right as Robert is from Gerald Walt
+I personally am from dotnet Walt and I
+always used to get lots of different
+static analysis tools so I styled up a
+fig scope or something else in the
+dotnet world and I could use it to the
+stuff that these tools were shaking lots
+of different issues at my appearance the
+code and when we have started to use
+writing to develop for Salesforce I was
+just wondering why or why my senior deaf
+in the team spends their time in the
+code reviews looking for styling issues
+looking for pretty stupid issues which
+should be fine found out by the
+automated tools so when we have heard
+about this bmd-4 apex from robot
+we have started to look at it you are
+really affected to implemented support
+in the well-concealed so then like let's
+talk about what are the ways to use it
+DMD general is like two main moments
+when you can use it on the early stage
+when the code is on your PC when you are
+developing something you can use the
+common glide interface you can use
+different athletes or you can use a
+support working other IDs to excuse it
+BMD right answer on the right stages you
+can use CI tools integration for example
+if you're working with Jenkins or
+addressing bamboo or with any other CI
+tool you can integrate in Geezer as a
+part of your say deployment process so
+in case of reserves like some smelly
+code it won't get to the oak and the
+second option here is to use third-party
+services with this integration alike
+coracii requirement or any other tools
+which resist for salesforce as well
+however this is approaches Rossum I
+won't say issues but some drawbacks at
+least so for early stages do is not easy
+way to configure rosettes correct first
+time when I found PNG I've seen the city
+schools in their bit repository and I
+have spent almost half day trying to
+find out how they can configure a rule
+set without white is directly from L
+files are so it was a like a pretty big
+issue for me and it was way easier to
+write the application which will execute
+which reduces configuration for myself
+at the second issue here that is too
+many actions needed to execute the code
+on your PC you need to remember comment
+or comments in the comment line or you
+need to write the an scripts now not
+ideal for the wastages for the CIA to
+use integration for third-party services
+it's much better served because there's
+like commercial projects which are
+questions on my nipples a well worth of
+money despite they provide you much
+better approaches and much better like
+UI so what do we have these integrations
+with PMD in the well-concealed what
+options do we have here and why is
+whereas could we use it so instead of
+manual installation configuration was
+that being D itself we are bonding
+everything together with the ID so you
+just install the oil concealed and you
+will get the latest AMD you will get
+some basic configurations and you can
+just start using it without anything
+else needed from you instead of editing
+rules in XML you have a pretty great UI
+which helps you to build proper rule
+sets and use it anywhere or in certain
+field or your CIO or supplier to certify
+to services is just up to you in the
+same UI you can see also descriptions
+and examples from the documentation for
+every rule because when you are writing
+it all sets in the XML file it's pretty
+hard to switch here there between your
+XML editor and the website this
+documentation if you don't need to use
+any comments or you don't need to have
+any as we do just need to do a couple of
+math speaks to is acute the PM discount
+and also in certain sees what two
+different ways to acutely indeed I will
+show you them in just two minutes and
+two more since here to cover that in the
+blood work PMD you have results in
+external files being T it's a great tool
+it evolves to export data to the CSV to
+HTML to XML or know like even in the
+plain text however it's still standalone
+file which is not connected pure draw
+and process directly we were conceived
+get the results directly in the ID
+everything is integrated and you can
+figure box much easier just going here
+as previously it was only one kind of
+team plate of pre-configured rule set
+maurer to template because one were
+created by our team however let's switch
+back to the ID and see how you can use
+the BMV while you're there open how you
+can configure the all set and how you
+can make your code cleaner because robot
+pretty good described that is important
+so right now you can see on my screen
+I've just spent yesterday thirty minutes
+to just try to grab the code from robots
+image and put it back to the ID and in
+just I guess
+swimming in it so you'll get all the
+issues that rub are highlighted we will
+get them shown in the ID however we'll
+start from the very beginning and it's
+like absolute getting started so in the
+tools menu we have pinkie apex through
+that configuration option which allows
+us to create a rosette once you open
+this window you can create a new empty
+rule set or we can create it from bottom
+to tip wait for example once you create
+a new rule set on the website you see
+the different categories of rules from
+the BMV repository but now thrusted this
+way rules however we believe that these
+your help with our help with
+contributions from the salesforce
+community you have more rules in some
+near future for example for as robot
+have shown us there are some rules that
+he don't like and we do include them
+into our current full set
+so robot doesn't like to see deeply
+nested if statements so i'll open
+complexity category and i want this rule
+to be enabled in my rule set on the
+right side is you some basic description
+of this wall from the documentation and
+also i see all of the parameters which
+i'm able to configure in the for the
+p.m. disk honor to example we have a
+problem that values that shows us what
+level of nesting should be a threshold
+for triggering this issue i'll change it
+from sweet to and also i will change a
+priority of this issue from 3 to 4
+because from my point of view in such a
+like a game breaker so I asserted to
+follow al-sabah doesn't like the exact
+parameters ListView also enable this
+rule and you said that even three
+parameters should be treated as access
+parameters list now the default template
+we have also started about 15 other
+rules enabled by default in case if you
+are not yet very familiar with PMD rules
+you can leave this as is for now and
+start to make your code better once you
+get more familiar with the game euros
+and how to configure them you can just
+jump in and enable other rules or
+disables which
+have enabled by default so at the moment
+when we are happy with our rules that
+configuration we can save it our code in
+the webinar 3 press save and that's it
+the ghost in fear is that this will say
+configurator can be also used to edit
+any other set for example that you have
+in your CI tool also is provided by
+Corus your appointment for example and
+we also have some plans to release this
+rosette configuration as a standalone
+free tool so it will be much easier for
+everyone around to start using PMD no
+matter what I do you're using so once
+you have your site configuration you
+need to tie it up together ref is your
+project again throughout two options to
+doose's in the ID first option is to
+make it global setting once you open
+tools options in the external tools
+you'll find it be in this section where
+you can select the default full set file
+and thread couple of other options once
+you do the settings at a global level
+no matter with what project you are
+working the same in these settings will
+be applied everywhere however in my case
+I want to do this on a project level so
+if the solution Explorer I will right
+click on the project select properties
+and enroll part of the screen I will see
+the MD setting section here I need to
+select my rule set file which will be
+paying dividend arse way then I can
+select arrow priority so if you remember
+it being DS or five George's what is the
+highest files of the lowest this means
+that if it set those ways it means that
+rolls is priority one two and three
+would be treated as errors while rules
+which produce four and five would be
+treated as a warnings and also you have
+a great option here one being gift card
+automatically before your trying to
+deploy your changes to the realization
+it's absolutely great option to have
+automated
+being discount on the early stages of
+the development however if you're
+working with a big project if it's a
+legacy project if you are aware that is
+not yet a deal this might be an issue
+for you
+cause at the moment when you change one
+symbol in a file and in cases that file
+have a lot of issues in terms of course
+tiling in terms of PMB rules they will
+have to fix all of them because before
+the IDE you allow you to deploy these
+changes to the Salesforce organization
+so in case if you don't have time now to
+spend your time on increasing the court
+quality on making it cleaner this gets
+you to turn off this automated build and
+just time to time very radically scan
+your code with the PMD my case and
+headed to enables ultimate PMD build so
+I have this file I will make some change
+here in Commons I'll put two spaces once
+I press the five the ID you start the
+PMD checks and you can see immediate
+results right here so you don't need to
+put your cup with a git repository in
+don't need to open command line just one
+Pig two seconds and you has a result
+immediately so what do we see here it's
+already spinal this is six hours and
+four warnings in the DMV report on the
+left side we see the same information
+with a bit more details about yourselves
+and in the editor itself we also see all
+the issues highlighted pretty clear so
+if I mouse over any of the wines here I
+see that
+okay avoid one parameters list method
+name should not start with epital
+letters here we see issues with braces
+here we have a stock real query inside
+loop ok deeply nested if statement three
+items because for this if for this else
+and for the cells and here we also have
+issues with braces so in just like three
+seconds
+you are kind of saved from deploying
+such kind of smelly code to your
+organization and as I said for example
+if you if you have I don't know
+thousands
+lines of code it will be a pretty big
+issue for you to deploy the existing
+legacy code without any changes to make
+it cleaner in case if I want to make the
+changes or to scan my files with PMD
+manually
+so what I will do here I will hide this
+panel I have had the spindle so the
+solution is for I can right-click on any
+file on any folder or on the wall
+project itself and select an option scan
+this PMD it reuse the same project or
+global settings it will take ok it will
+take at least 10 to 15 seconds to
+execute the full scar because there is a
+whole bunch of files here
+however in 10 seconds Yoga is the same
+record with all the issues in the DMV
+report panel you can see that they have
+a huge number of issues with sotl and
+DML in whoops and I have a lot of
+smaller warnings which I they're not
+mandatory for me to fix but still would
+be nice to fix them for any of the
+issues in the DMV report panel a cable I
+have a description of 0 I can click on
+the name of the file and then you'll get
+mitigated directly to the Tryon in the
+code which vol.8 through so in case if I
+see about soap operas on sidewalks I
+click on it and I'm right here exactly
+on the line which shows me sotl
+statement inside the book drawer also
+categories breakdown in the PMB report
+panel so by default we are showing all
+categories however if you don't care for
+now about styling issues you can switch
+to performance or for example to epics
+unit in case if you are looking for some
+specific issues in your code and would
+like to fix than first of all for
+example I don't like a circle in for
+loops but I fake DML statements in the
+for loops so in the filter input I'll
+enter DML and they will see that I have
+one two three four okay about 15
+violations of the rules in my code base
+so I can just jump in here and stop
+thinking how I can make this code better
+so I can make this code cleaner and
+safer for myself in years
+just maintain it and modify also as your
+member we have saved the rosette as an
+egg or XML file so you can easily edit
+to your git repository and supply to
+your
+I - or supplier to cut climate policy or
+any other external tool so this way we
+hope and we believe that if you'll be
+much easier for you to save your time on
+code reviews to save your time on
+debugging some may be stupid issues in
+the future because you see issues
+highlighted automatically you will be
+able to fix them early and spend with
+your time and dress money or making the
+code better and I'll get back to the
+presentation and like yeah I guess that
+both me and Robert will agree in the
+same stuff that start using PNG you can
+download the PMD on the their website
+you can contribute to PMD this neobux
+with descriptions this bug reports in
+case of any just compact robot and he'll
+be happy to guide you through the
+process of doing all of the stuff for
+the PMD and I from my side forget using
+one of the easiest ways to start making
+your code better is to use it in so
+altitude so you can go to our web site
+start your free 30-day trial and improve
+your performance improve record quality
+just right here and in case if Robert
+doesn't have anything to add here I
+guess we can move on to the Q&A part we
+forgot to highlight it in the beginning
+of the webinar so we'll be here for
+another 5-10 minutes and we'll be happy
+to answer any questions
+colleges and the energy words sure so
+yeah I really like like how you
+integrated it at nine I hope I'm totally
+thrilled how how many people got
+interested for clean code and
+and yeah better codes in the last year
+and so many to providers have integrated
+it like you do and others it so I just
+want to repeat what you said on whenever
+you want to use PMD and struggled with
+it or think about how we could extend
+this in the Salesforce world even if I
+don't do everything on my own
+I I know who in the in the same verse
+Ohana could do it and yeah so you see my
+my email address you see my Twitter
+handle just connect me I can have a
+Skype meeting with everybody and explain
+him how easy it is to write PMD boots
+it's really not hard it's most of the
+time just I don't know a few dozens of
+Java lines of Java code and if you want
+to do more there are so much stuff going
+on in PMD at the moment and it's a
+community that is much bigger than just
+Salesforce and being these really thick
+in the Java world and and everything
+that comes out for PMD in Java can can
+be used for apex and will report after a
+while so yeah let's let's just do some
+Q&A but um I would be happy to help
+everybody who wants to get pinochle
+using tmd okay and I guess we have
+progression so a short while from Stefan
+h-here fragmented and given five rules
+about usual force and PMD so what is
+happening is always like visual for some
+P and E or Bert
+and maybe a bit of background and during
+dream ports and sales force the security
+team
+it says where's the guys that that
+support the security review they they
+were adding rules to be indeed to do
+some checks that currently only can be
+done by by check marks the tool that
+that is amazing because it's not only a
+static but a dynamic code analyzer but
+but some of the stuff is only check mark
+Purdue could also be done by a petticoat
+analyzer so so a few great guys on says
+first basically you wrote PMD rules
+implementing that and they were
+especially interested in all the
+security rules and some of the more
+nifty security topics they also need to
+know about visual for so if you if you
+want to see if somebody's injecting some
+best stuff into your code you also need
+a view of a loop or so what they hit
+they basically wrote a real first part
+to make it possible to write visualforce
+rules so currently we just have a few
+little force rules but and everybody can
+train more of them so what I'm telling
+you is there's not much stuff for visual
+force but and it should be easy to add
+them and it's as simple as a basis so
+when you look at the source code of some
+of the rules
+it's basically checking the source code
+for certain snippets like a specific
+visual course tag and checking the
+surrounding the contact and if it's a if
+you see an anti-pattern you just throw
+an exception and team D will just really
+wonderfully to any tool that is wrapping
+it oh there's about question letting me
+I don't see any of the questions I also
+don't see any of the members of them
+okay so yeah I read oh yes right but is
+anything I know and I could just say hey
+just ask him so do you have another
+question from well and he's asking that
+you mentions of being this free for open
+source what is the license costs for
+commercial use because there was some
+understanding because being gay it's
+free and open-source yeah
+so it's absolutely free no matter what
+your reason PMD is-3s beer for everybody
+it's a github project it exists more
+than I think more than ten years and you
+can grab the code you can change it and
+sell it as a product so PMD is really
+used open open open source and even even
+many of the tools that integrate PMD
+have special things for open source I'm
+not sure about the welcome feed but I
+can say that I worked with two companies
+that integrate PMD with github and cold
+climate and coasties so they basically
+scan your github commits and they have
+offerings if your github repo is
+open-source you get the service for free
+all the time so and it's not only open
+source is also open source friendly in
+the tools that surrounds cool cool okay
+we have another question
+thanks Roberto so we have another
+question from Stephan revisit BMD chips
+for white ink and JavaScript in welcome
+so I believe that we do see BMD for
+visual or support in welcome and once
+there will be some updates and use for
+PMD for writing in JavaScript all we are
+going to think about like jslint
+if I remember properly is another web
+tool for JavaScript analysis applewhite
+yeah yeah I am very big fan of the green
+code and a very big fan of saving like
+everyone's time on doing all of the
+stuff automatically so some point a bit
+later we had support for visualforce for
+writing for JavaScript as well man
+because yeah so I don't buy something M
+for JavaScript there is so much there
+are so many other tools of uh narrative
+JAAA slimmed and even say of course they
+have this lightning CL I am which is
+checking code while you program in the
+developer console and I think in the
+JavaScript world it's much easier to to
+check code for such an independence you
+don't need a framework like PMD to make
+this work so even even I know that PMD
+exists for JavaScript
+I think it's not the most optimal way so
+PMD is really for some some type stuff
+like Java or apex so if I will be an IDE
+and provider I basically I I guess I
+would use jail in Tory as limp its set
+of PMD because writing rules in those
+tools this is easier than DMD agree
+agree okay here pronounce equation from
+phibn and what if ematic is caught
+inside the loop and that this matter is
+doing DML or a query view PMD cage or no
+the curtain again
+so it's reserved might have call in the
+for loop and inside that matters or with
+a DML or a sake of worry oh yeah I get
+it the question and is the rule smart
+enough to yeah in the beginning when I
+took it from from from Java as we see a
+stupid rule but the great engineers at
+Salesforce it made my rules available
+for this security wrestle they don't
+care about stuff like that so and we I
+think we are able to detect methods
+inside of loops that they're
+self-contained softer loops so but I
+don't say to do this really good you you
+have to understand that the cold
+in fact the compiled version of a class
+and this is the real of tools like check
+marks because only check mark three I
+think they compiled the code or they
+they know which class is calling what so
+and we can do it and DME is going to be
+improving into into that direction to
+understand which flat calling what
+but there are certain limitations so
+sometimes you have something noobs and
+it will not be texted because it just do
+some kinda generic stuff so it's
+basically you have to try it try it try
+it out and kind to the boundaries and
+from my side we also we have some ideas
+to jump in as a precursor or conceal
+team and contribute to the DMV so as we
+have already built our own like resource
+parcels we are able to those a write in
+general grammar stuff and understands of
+Woolwich equals apex we are thinking
+about jumping into the PMD and adding
+some rules I don't know yet if it will
+be able to introduce such kind of deep
+analogous rules inclusive bailiff will
+be easier on all but rice queues ruffles
+that I personally means that our team is
+missing and we'll for sure contributes
+answer and I believe you as someone user
+yeah so okay and then one more question
+from an REO so they fix and visual for
+parsers will hopefully be kept up to
+date by Salesforce so they're portables
+and they're very good question
+wait with it when I add
+as some information to this because to
+most of the work that was required for
+making PMD available for affix was
+basically never done by us we learned
+that we need a parser and said hey how
+can we write a parser for ethics and
+then we we just reverse engineer how the
+force become ivt works and they had a
+part of because they have to understand
+source code to displayed in the clips
+and so we contacted them and then you we
+just cast a lot and they said yeah it's
+just an internal version it's not really
+free it was not even open source so we
+just could could use it
+and so yes we we update it says first
+note that we are using it so there's
+even discussion and sometimes between me
+and in Salesforce they tell me please
+don't use that annotation because it's
+undocumented and but what I would say
+that say it for seems to go in the
+direction where they provide a parser
+which is available for tooling providers
+so I can remember that here before
+reinforce around Salesforce TX many
+tooling providers like welcome suite we
+all got invited to said first and there
+were many people like the guy from the
+human etics out IE and everybody was
+asking can we have a part of a real
+parts of which we can use and with all
+the I was called what's the name of the
+type a put everywhere and same heart
+what they did they poverty poverty we
+will provide something like that so I
+guess your question is will it stay up
+to date I would say yes and in the
+beginning we have to take care I have to
+take care and the PMD maintainer
+take care of what in the future sense
+was was even supported with a whole
+inversion but we're not part so so
+something in between yes and no but you
+shouldn't care about in them it just use
+it and if it's a trouble comes your way
+you will care about
+yep yep agree ok thanks Robert I guess
+that we don't have any more questions
+from the moment so I guess it's done of
+you end up our webinar and you see our
+conference white sphere on your screens
+right now so in case if you have any
+more questions about the PMD or
+well-concealed
+or how does it work better just like
+feel free to contact us and it was me no
+but we'll be happy to answer tweet that
+you liked the webinar that everybody
+should seduce the indeed and ok so so
+thank you very much guys for your time
+and hope it was useful for you and hope
+you start using PD I see you bye

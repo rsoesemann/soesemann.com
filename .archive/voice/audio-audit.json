@@ -1,0 +1,996 @@
+{
+  "method": "Full-file hashes and stream metadata; three 20-second mono signal samples per recording at 10%, 50%, 80%. These are level/clipping proxies, not perceptual quality, SNR, or speaker verification.",
+  "total_recording_hours": 13.519642994444444,
+  "recordings": [
+    {
+      "source_id": "video-apex-pmd-static-code-analysis-apex-hours",
+      "url": "https://www.youtube.com/watch?v=34PxAHtAavU",
+      "path": "library/2019/apex-pmd-static-code-analysis-apex-hours/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:16.856256+00:00"
+      },
+      "participants": "Unknown",
+      "duration_seconds": 3278.541497,
+      "bytes": 53022766,
+      "sha256": "3ab18afc056b23996ce06a979664bebf180c195d6406b65d2bc015c0f054179a",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 327.854,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -3.69,
+          "rms_dbfs": -19.99,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 28.7,
+          "frame_level_p10_dbfs": -171.64,
+          "frame_level_p90_dbfs": -14.47
+        },
+        {
+          "start_seconds": 1639.271,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -4.05,
+          "rms_dbfs": -22.89,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 44.6,
+          "frame_level_p10_dbfs": -180.0,
+          "frame_level_p90_dbfs": -18.72
+        },
+        {
+          "start_seconds": 2622.833,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -3.42,
+          "rms_dbfs": -20.1,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 15.9,
+          "frame_level_p10_dbfs": -61.04,
+          "frame_level_p90_dbfs": -14.28
+        }
+      ]
+    },
+    {
+      "source_id": "video-codelive-implementing-a-test-data-builder-with-domain-builder",
+      "url": "https://www.youtube.com/watch?v=Kc0q8pfD3Ic",
+      "path": "library/2024/codelive-implementing-a-test-data-builder-with-domain-builder/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:25.342956+00:00"
+      },
+      "participants": "Alba Rivas (host)",
+      "duration_seconds": 3220.212971,
+      "bytes": 52079399,
+      "sha256": "721675a830c7536d5f4f83ec9fabb24c0bb9692aed8a31466201e17ea7828c54",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 322.021,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.99,
+          "rms_dbfs": -19.2,
+          "near_full_scale_percent": 0.0031,
+          "frames_below_minus_45_dbfs_percent": 18.2,
+          "frame_level_p10_dbfs": -55.06,
+          "frame_level_p90_dbfs": -14.48
+        },
+        {
+          "start_seconds": 1610.106,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.13,
+          "rms_dbfs": -21.02,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 31.3,
+          "frame_level_p10_dbfs": -72.13,
+          "frame_level_p90_dbfs": -16.06
+        },
+        {
+          "start_seconds": 2576.17,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 3.05,
+          "rms_dbfs": -17.22,
+          "near_full_scale_percent": 0.0916,
+          "frames_below_minus_45_dbfs_percent": 28.1,
+          "frame_level_p10_dbfs": -72.29,
+          "frame_level_p90_dbfs": -12.82
+        }
+      ]
+    },
+    {
+      "source_id": "video-custom-pmd-rules-for-any-metadata-within-minutes",
+      "url": "https://www.youtube.com/watch?v=Qp49B4Baq4g",
+      "path": "library/2023/custom-pmd-rules-for-any-metadata-within-minutes/audio.webm",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:23.231325+00:00"
+      },
+      "participants": "Robert presenting; other speakers unverified",
+      "duration_seconds": 2330.961,
+      "bytes": 31519655,
+      "sha256": "4b74f146ea85d789ef229f90c28ad6079f091b93fbde2de56f4a57e6168e8c96",
+      "streams": [
+        {
+          "codec_name": "opus",
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": null
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 233.096,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -7.22,
+          "rms_dbfs": -27.75,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 29.9,
+          "frame_level_p10_dbfs": -63.18,
+          "frame_level_p90_dbfs": -23.13
+        },
+        {
+          "start_seconds": 1165.48,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -7.66,
+          "rms_dbfs": -29.09,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 43.7,
+          "frame_level_p10_dbfs": -77.6,
+          "frame_level_p90_dbfs": -23.8
+        },
+        {
+          "start_seconds": 1864.769,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -7.96,
+          "rms_dbfs": -29.3,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 39.3,
+          "frame_level_p10_dbfs": -69.98,
+          "frame_level_p90_dbfs": -24.42
+        }
+      ]
+    },
+    {
+      "source_id": "video-dreamforce-2016-clean-apex-code-with-automatic-code-metrics",
+      "url": "https://www.youtube.com/watch?v=bW7m6y6bEug",
+      "path": "library/2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:29.166996+00:00"
+      },
+      "participants": "Lorenzo Frattini (co-presenter)",
+      "duration_seconds": 2644.915374,
+      "bytes": 42775464,
+      "sha256": "fbf2d5c4e8647bc56ce371a79a642e8b79d39b379fc25feb96c483cf4816ac51",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "128000"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 264.492,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.16,
+          "rms_dbfs": -19.66,
+          "near_full_scale_percent": 0.0003,
+          "frames_below_minus_45_dbfs_percent": 0.7,
+          "frame_level_p10_dbfs": -38.58,
+          "frame_level_p90_dbfs": -14.42
+        },
+        {
+          "start_seconds": 1322.458,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.2,
+          "rms_dbfs": -17.28,
+          "near_full_scale_percent": 0.0009,
+          "frames_below_minus_45_dbfs_percent": 6.6,
+          "frame_level_p10_dbfs": -41.5,
+          "frame_level_p90_dbfs": -12.02
+        },
+        {
+          "start_seconds": 2115.932,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.26,
+          "rms_dbfs": -21.33,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 1.3,
+          "frame_level_p10_dbfs": -41.43,
+          "frame_level_p90_dbfs": -17.61
+        }
+      ]
+    },
+    {
+      "source_id": "video-ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+      "url": "https://www.youtube.com/watch?v=-A201aaiE3o",
+      "path": "library/2022/ftd22-as-a-salesforce-developer-i-will-7-ground-rules-for-success/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:59.716024+00:00"
+      },
+      "participants": "Robert presenting; other speakers unverified",
+      "duration_seconds": 1496.177778,
+      "bytes": 24197604,
+      "sha256": "056fd3218cd88db44b7eac2e796fd82aa8273636c77db837e7ea9d0dd7113e4c",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 149.618,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -2.24,
+          "rms_dbfs": -20.44,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 14.5,
+          "frame_level_p10_dbfs": -48.86,
+          "frame_level_p90_dbfs": -15.39
+        },
+        {
+          "start_seconds": 748.089,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.89,
+          "rms_dbfs": -19.83,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 21.1,
+          "frame_level_p10_dbfs": -51.68,
+          "frame_level_p90_dbfs": -14.56
+        },
+        {
+          "start_seconds": 1196.942,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.78,
+          "rms_dbfs": -22.48,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 17.5,
+          "frame_level_p10_dbfs": -49.63,
+          "frame_level_p90_dbfs": -16.91
+        }
+      ]
+    },
+    {
+      "source_id": "video-how-to-contribute-apex-rules-to-pmd",
+      "url": "https://www.youtube.com/watch?v=7_Ex9WWS_3Q",
+      "path": "library/2018/how-to-contribute-apex-rules-to-pmd/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:18.617364+00:00"
+      },
+      "participants": "Unknown",
+      "duration_seconds": 4499.702132,
+      "bytes": 72771893,
+      "sha256": "374a63c54d7ec12905f5f491845b4fbbd79ebde60b0977044e32f2bd24ec3151",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 449.97,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.21,
+          "rms_dbfs": -17.84,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 19.4,
+          "frame_level_p10_dbfs": -65.86,
+          "frame_level_p90_dbfs": -12.59
+        },
+        {
+          "start_seconds": 2249.851,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.64,
+          "rms_dbfs": -17.02,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 16.4,
+          "frame_level_p10_dbfs": -66.0,
+          "frame_level_p90_dbfs": -12.01
+        },
+        {
+          "start_seconds": 3599.762,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.58,
+          "rms_dbfs": -29.27,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 97.4,
+          "frame_level_p10_dbfs": -180.0,
+          "frame_level_p90_dbfs": -180.0
+        }
+      ]
+    },
+    {
+      "source_id": "video-improving-your-apex-code-quality-with-pmd-in-the-welkin-suite",
+      "url": "https://www.youtube.com/watch?v=Ypyiy5b6huc",
+      "path": "library/2017/improving-your-apex-code-quality-with-pmd-in-the-welkin-suite/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:27.810342+00:00"
+      },
+      "participants": "Unknown",
+      "duration_seconds": 2541.145397,
+      "bytes": 41097348,
+      "sha256": "05c155c0692db78d425738fd55332e96234c10a5a055d22366d53eebb9ba952b",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "128000"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 254.115,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -6.25,
+          "rms_dbfs": -22.43,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 24.0,
+          "frame_level_p10_dbfs": -71.11,
+          "frame_level_p90_dbfs": -17.32
+        },
+        {
+          "start_seconds": 1270.573,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -6.28,
+          "rms_dbfs": -20.65,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 23.0,
+          "frame_level_p10_dbfs": -66.9,
+          "frame_level_p90_dbfs": -15.41
+        },
+        {
+          "start_seconds": 2032.916,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -6.16,
+          "rms_dbfs": -20.8,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 15.2,
+          "frame_level_p10_dbfs": -57.21,
+          "frame_level_p90_dbfs": -15.9
+        }
+      ]
+    },
+    {
+      "source_id": "video-irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t",
+      "url": "https://www.youtube.com/watch?v=LuLv77KKRIo",
+      "path": "library/2025/irish-dreamin-2025-ai-agents-from-the-trenches-what-works-what-doesn-t/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:08:51.863209+00:00"
+      },
+      "participants": "Robert presenting; other speakers unverified",
+      "duration_seconds": 2209.100045,
+      "bytes": 13445994,
+      "sha256": "2a2e36d35612887dab282e4563b587fc3060084ce82dd36d58bbfdfc55477a81",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "48000"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 220.91,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.04,
+          "rms_dbfs": -21.85,
+          "near_full_scale_percent": 0.0003,
+          "frames_below_minus_45_dbfs_percent": 27.0,
+          "frame_level_p10_dbfs": -66.13,
+          "frame_level_p90_dbfs": -16.94
+        },
+        {
+          "start_seconds": 1104.55,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.91,
+          "rms_dbfs": -24.16,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 39.5,
+          "frame_level_p10_dbfs": -76.11,
+          "frame_level_p90_dbfs": -19.36
+        },
+        {
+          "start_seconds": 1767.28,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.25,
+          "rms_dbfs": -24.51,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 22.5,
+          "frame_level_p10_dbfs": -68.02,
+          "frame_level_p90_dbfs": -22.86
+        }
+      ]
+    },
+    {
+      "source_id": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+      "url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+      "path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:21.197500+00:00"
+      },
+      "participants": "Robert presenting; other speakers unverified",
+      "duration_seconds": 2385.502041,
+      "bytes": 38580344,
+      "sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "128000"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 238.55,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.54,
+          "rms_dbfs": -24.97,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 20.0,
+          "frame_level_p10_dbfs": -57.53,
+          "frame_level_p90_dbfs": -20.13
+        },
+        {
+          "start_seconds": 1192.751,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -3.51,
+          "rms_dbfs": -27.16,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 30.6,
+          "frame_level_p10_dbfs": -61.85,
+          "frame_level_p90_dbfs": -22.01
+        },
+        {
+          "start_seconds": 1908.402,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -3.43,
+          "rms_dbfs": -29.1,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 56.5,
+          "frame_level_p10_dbfs": -67.74,
+          "frame_level_p90_dbfs": -25.59
+        }
+      ]
+    },
+    {
+      "source_id": "video-mvp-talk-robert-christian-knapp-episode-4",
+      "url": "https://www.youtube.com/watch?v=MEc9GcqTv6Y",
+      "path": "library/2023/mvp-talk-robert-christian-knapp-episode-4/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:57.002000+00:00"
+      },
+      "participants": "Christian Szandor Knapp",
+      "duration_seconds": 1179.991655,
+      "bytes": 19084213,
+      "sha256": "7c938c0c89a0346303cc96b91f7a9fb094a514229f29675876e66684fbda98b0",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 117.999,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -4.39,
+          "rms_dbfs": -19.22,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 11.5,
+          "frame_level_p10_dbfs": -48.49,
+          "frame_level_p90_dbfs": -14.96
+        },
+        {
+          "start_seconds": 589.996,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -2.84,
+          "rms_dbfs": -18.77,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 5.2,
+          "frame_level_p10_dbfs": -36.09,
+          "frame_level_p90_dbfs": -14.78
+        },
+        {
+          "start_seconds": 943.993,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.6,
+          "rms_dbfs": -18.71,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 9.6,
+          "frame_level_p10_dbfs": -44.37,
+          "frame_level_p90_dbfs": -14.37
+        }
+      ]
+    },
+    {
+      "source_id": "video-mvp-talk-with-robert-sosemann-and-christian-szandor-knapp",
+      "url": "https://www.youtube.com/watch?v=ReXiFBH1wi0",
+      "path": "library/2023/mvp-talk-with-robert-sosemann-and-christian-szandor-knapp/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:58.051154+00:00"
+      },
+      "participants": "Christian Szandor Knapp",
+      "duration_seconds": 980.021406,
+      "bytes": 15850190,
+      "sha256": "51ea2e019f53a4c6b953abf09d8dedbe3222b6551dc01dcba1b368de0c83dd35",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 98.002,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -4.96,
+          "rms_dbfs": -20.37,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 15.1,
+          "frame_level_p10_dbfs": -52.09,
+          "frame_level_p90_dbfs": -15.6
+        },
+        {
+          "start_seconds": 490.011,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -4.98,
+          "rms_dbfs": -20.88,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 17.3,
+          "frame_level_p10_dbfs": -92.7,
+          "frame_level_p90_dbfs": -16.36
+        },
+        {
+          "start_seconds": 784.017,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -4.79,
+          "rms_dbfs": -20.99,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 17.9,
+          "frame_level_p10_dbfs": -70.65,
+          "frame_level_p90_dbfs": -16.4
+        }
+      ]
+    },
+    {
+      "source_id": "video-refactoring-for-complexity-codelive",
+      "url": "https://www.youtube.com/watch?v=QouVF7R-st0",
+      "path": "library/2021/refactoring-for-complexity-codelive/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:14.405367+00:00"
+      },
+      "participants": "Unknown",
+      "duration_seconds": 4241.078277,
+      "bytes": 68589319,
+      "sha256": "edbb4af51a80524145f6e179aad6daced5e292c951797c9bee6aa8d9a3a2d01b",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 424.108,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.47,
+          "rms_dbfs": -18.67,
+          "near_full_scale_percent": 0.0009,
+          "frames_below_minus_45_dbfs_percent": 8.4,
+          "frame_level_p10_dbfs": -42.43,
+          "frame_level_p90_dbfs": -14.42
+        },
+        {
+          "start_seconds": 2120.539,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.36,
+          "rms_dbfs": -23.59,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 35.4,
+          "frame_level_p10_dbfs": -180.0,
+          "frame_level_p90_dbfs": -18.04
+        },
+        {
+          "start_seconds": 3392.863,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 2.96,
+          "rms_dbfs": -18.6,
+          "near_full_scale_percent": 0.0063,
+          "frames_below_minus_45_dbfs_percent": 37.7,
+          "frame_level_p10_dbfs": -95.34,
+          "frame_level_p90_dbfs": -14.2
+        }
+      ]
+    },
+    {
+      "source_id": "video-salesforce-developers-static-code-analysis-episode-1",
+      "url": "https://www.youtube.com/watch?v=-6PN6EZh9X8",
+      "path": "library/2020/salesforce-developers-static-code-analysis-episode-1/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:15.654818+00:00"
+      },
+      "participants": "Josh Birk (host; identifies himself in opening captions)",
+      "duration_seconds": 813.83619,
+      "bytes": 13162542,
+      "sha256": "d73281cb275a39c77a9f9a8343c2952a7ed47d42da3db0ed924ff6a3fb45bc2d",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "127999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 81.384,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.08,
+          "rms_dbfs": -18.8,
+          "near_full_scale_percent": 0.0003,
+          "frames_below_minus_45_dbfs_percent": 7.0,
+          "frame_level_p10_dbfs": -38.32,
+          "frame_level_p90_dbfs": -14.53
+        },
+        {
+          "start_seconds": 406.918,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.61,
+          "rms_dbfs": -18.13,
+          "near_full_scale_percent": 0.0006,
+          "frames_below_minus_45_dbfs_percent": 7.3,
+          "frame_level_p10_dbfs": -43.09,
+          "frame_level_p90_dbfs": -13.65
+        },
+        {
+          "start_seconds": 651.069,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.36,
+          "rms_dbfs": -19.19,
+          "near_full_scale_percent": 0.0006,
+          "frames_below_minus_45_dbfs_percent": 13.6,
+          "frame_level_p10_dbfs": -59.0,
+          "frame_level_p90_dbfs": -14.57
+        }
+      ]
+    },
+    {
+      "source_id": "video-sforce-poland-7-ground-rules-extended",
+      "url": "https://www.youtube.com/watch?v=khSSaYO6aRc",
+      "path": "library/2022/sforce-poland-7-ground-rules-extended/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:10:06.489500+00:00"
+      },
+      "participants": "Robert presenting; other speakers unverified",
+      "duration_seconds": 3388.882721,
+      "bytes": 54807413,
+      "sha256": "3f009605c0baf9659504cacfed68fa0b7f46cd1f8b8f3739a0d61b91265817a6",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "128000"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 338.888,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 1.28,
+          "rms_dbfs": -20.78,
+          "near_full_scale_percent": 0.0028,
+          "frames_below_minus_45_dbfs_percent": 20.0,
+          "frame_level_p10_dbfs": -66.94,
+          "frame_level_p90_dbfs": -17.03
+        },
+        {
+          "start_seconds": 1694.441,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.14,
+          "rms_dbfs": -18.62,
+          "near_full_scale_percent": 0.0003,
+          "frames_below_minus_45_dbfs_percent": 25.4,
+          "frame_level_p10_dbfs": -68.88,
+          "frame_level_p90_dbfs": -13.29
+        },
+        {
+          "start_seconds": 2711.106,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.29,
+          "rms_dbfs": -21.74,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 27.8,
+          "frame_level_p10_dbfs": -67.65,
+          "frame_level_p90_dbfs": -17.67
+        }
+      ]
+    },
+    {
+      "source_id": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+      "url": "https://www.youtube.com/watch?v=qhhUuCpK8Q0",
+      "path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:08:44.432667+00:00"
+      },
+      "participants": "Xi Xiao (host)",
+      "duration_seconds": 2897.8039,
+      "bytes": 17637459,
+      "sha256": "3404aad3edf8c7317f19817d6090421f7128f60449d8aaf99ad6ad9c1a4393d5",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "47999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 289.78,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.03,
+          "rms_dbfs": -17.59,
+          "near_full_scale_percent": 0.0006,
+          "frames_below_minus_45_dbfs_percent": 23.3,
+          "frame_level_p10_dbfs": -68.46,
+          "frame_level_p90_dbfs": -12.56
+        },
+        {
+          "start_seconds": 1448.902,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.17,
+          "rms_dbfs": -16.82,
+          "near_full_scale_percent": 0.0006,
+          "frames_below_minus_45_dbfs_percent": 41.5,
+          "frame_level_p10_dbfs": -74.31,
+          "frame_level_p90_dbfs": -11.21
+        },
+        {
+          "start_seconds": 2318.243,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.12,
+          "rms_dbfs": -17.56,
+          "near_full_scale_percent": 0.0003,
+          "frames_below_minus_45_dbfs_percent": 25.6,
+          "frame_level_p10_dbfs": -70.85,
+          "frame_level_p90_dbfs": -12.62
+        }
+      ]
+    },
+    {
+      "source_id": "video-what-does-agentforce-mean-for-the-salesforce-ecosystem",
+      "url": "https://www.youtube.com/watch?v=BgErYWOzL4s",
+      "path": "library/2024/what-does-agentforce-mean-for-the-salesforce-ecosystem/audio.webm",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:09:19.343575+00:00"
+      },
+      "participants": "Ben McCarthy (host)",
+      "duration_seconds": 4603.521,
+      "bytes": 62068277,
+      "sha256": "6320ddd432e4931fa97e7c521a258b01c4ddbdd7a7ebcc67f08ba622f2e09862",
+      "streams": [
+        {
+          "codec_name": "opus",
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": null
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 460.352,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 1.24,
+          "rms_dbfs": -20.14,
+          "near_full_scale_percent": 0.0006,
+          "frames_below_minus_45_dbfs_percent": 14.8,
+          "frame_level_p10_dbfs": -48.92,
+          "frame_level_p90_dbfs": -15.78
+        },
+        {
+          "start_seconds": 2301.76,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.6,
+          "rms_dbfs": -22.63,
+          "near_full_scale_percent": 0.0006,
+          "frames_below_minus_45_dbfs_percent": 19.7,
+          "frame_level_p10_dbfs": -55.58,
+          "frame_level_p90_dbfs": -18.27
+        },
+        {
+          "start_seconds": 3682.817,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 1.67,
+          "rms_dbfs": -21.83,
+          "near_full_scale_percent": 0.0047,
+          "frames_below_minus_45_dbfs_percent": 21.2,
+          "frame_level_p10_dbfs": -56.83,
+          "frame_level_p90_dbfs": -17.71
+        }
+      ]
+    },
+    {
+      "source_id": "video-wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde",
+      "url": "https://www.youtube.com/watch?v=DR8byDJLGEI",
+      "path": "library/2025/wie-qualitativ-gute-software-entsteht-und-warum-uns-mehr-elitismus-gut-tun-wurde/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T23:08:50.555893+00:00"
+      },
+      "participants": "Maximilian Hahnenkamp (host)",
+      "duration_seconds": 2179.332063,
+      "bytes": 13264716,
+      "sha256": "f62d39473726689984a57c3ff7d7b37aeb8773f40ee02ba615a2d48508dda1f4",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bit_rate": "47999"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 217.933,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 1.82,
+          "rms_dbfs": -16.87,
+          "near_full_scale_percent": 0.0016,
+          "frames_below_minus_45_dbfs_percent": 16.5,
+          "frame_level_p10_dbfs": -60.73,
+          "frame_level_p90_dbfs": -12.16
+        },
+        {
+          "start_seconds": 1089.666,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.76,
+          "rms_dbfs": -16.67,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 24.6,
+          "frame_level_p10_dbfs": -88.67,
+          "frame_level_p90_dbfs": -11.58
+        },
+        {
+          "start_seconds": 1743.466,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -0.64,
+          "rms_dbfs": -16.75,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 15.5,
+          "frame_level_p10_dbfs": -54.56,
+          "frame_level_p90_dbfs": -12.03
+        }
+      ]
+    },
+    {
+      "source_id": "webinar-listing-salesforce-ben-webinar-agentforce-and-ai-adoption",
+      "url": "https://salesforceben.ondemand.goldcast.io/on-demand/079c638a-4654-4bae-be4e-bf0bbea061fa",
+      "path": "library/2025/agentforce-and-ai-adoption-practical-tips/audio.m4a",
+      "review": {
+        "decision": "keep",
+        "note": "",
+        "updated_at": "2026-11-06T22:47:22.884939+00:00"
+      },
+      "participants": "Peter Chittum and Melissa Hill Dees",
+      "duration_seconds": 3779.989333,
+      "bytes": 61678283,
+      "sha256": "55ed3e675d7ce8dbddab01b80a9c17712f5b286c174eb23da20f19e72c01ee27",
+      "streams": [
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "bit_rate": "129032"
+        }
+      ],
+      "archive_hash_matches": true,
+      "samples": [
+        {
+          "start_seconds": 377.999,
+          "duration_seconds": 20.0,
+          "peak_dbfs": -1.81,
+          "rms_dbfs": -16.56,
+          "near_full_scale_percent": 0.0,
+          "frames_below_minus_45_dbfs_percent": 20.5,
+          "frame_level_p10_dbfs": -65.54,
+          "frame_level_p90_dbfs": -12.19
+        },
+        {
+          "start_seconds": 1889.995,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 0.74,
+          "rms_dbfs": -16.26,
+          "near_full_scale_percent": 0.0041,
+          "frames_below_minus_45_dbfs_percent": 21.5,
+          "frame_level_p10_dbfs": -66.34,
+          "frame_level_p90_dbfs": -11.71
+        },
+        {
+          "start_seconds": 3023.991,
+          "duration_seconds": 20.0,
+          "peak_dbfs": 2.51,
+          "rms_dbfs": -14.79,
+          "near_full_scale_percent": 0.0541,
+          "frames_below_minus_45_dbfs_percent": 18.0,
+          "frame_level_p10_dbfs": -57.72,
+          "frame_level_p90_dbfs": -10.18
+        }
+      ]
+    }
+  ]
+}

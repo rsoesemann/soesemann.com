@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.sf/
+.DS_Store
+.archive/downloads/
+.archive/voice/model/

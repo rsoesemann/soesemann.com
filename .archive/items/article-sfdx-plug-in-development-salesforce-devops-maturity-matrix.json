@@ -1,0 +1,565 @@
+{
+  "id": "article-sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+  "url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+  "source": {
+    "url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "role": "about",
+    "kind": "article",
+    "authors": [
+      "Yaroslav Karpinskiy"
+    ],
+    "date": "2022-12-28",
+    "discovered_from": "https://aquiva.com/sitemap.xml",
+    "evidence": "Event recap names Robert and his SForce Summit Winter Edition 2022 session. Main remaining article covers other speakers.",
+    "slug": "article-sfdx-plug-in-development-salesforce-devops-maturity-matrix"
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T21:56:51.509224+00:00",
+    "final_url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+    "links": [
+      {
+        "url": "https://aquiva.com/",
+        "label": "",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/about",
+        "label": "About",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/how-we-work",
+        "label": "How We Work",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/advisory",
+        "label": "Advisory Services",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/product-development",
+        "label": "Product Development",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/custom-solution-development",
+        "label": "Custom Solution Development",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/agentforce",
+        "label": "Agentforce",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/forward-deployed-engineering",
+        "label": "Forward Deployed Engineering",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/data-integrations",
+        "label": "Data & Integrations",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/revenue-operations",
+        "label": "Revenue Operations",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/application-security",
+        "label": "Security, Risk and Compliance",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce-managed-services",
+        "label": "Salesforce Managed Services",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce",
+        "label": "Salesforce",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries",
+        "label": "IndustriesHealthcare, high tech, financial services & more",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/hospitality",
+        "label": "HospitalityLoyalty, personalization, and revenue on Salesforce",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/high-tech",
+        "label": "High TechThe operational backbone for growth-stage software companies",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources",
+        "label": "Resources",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog",
+        "label": "← All posts",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/case-studies",
+        "label": "Case Studies",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/solution-briefs",
+        "label": "Solution Briefs",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-salesforce",
+        "label": "Headless SalesforcePOV · source assessment",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-cpq",
+        "label": "Headless CPQPOV · quote from any surface",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/unified-guest-intelligence",
+        "label": "Unified Guest IntelligenceWhite paper · Sprinklr + Hapi",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentic-loyalty-concierge",
+        "label": "Agentic Loyalty ConciergeHotel loyalty concierge overview",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/api-monitoring",
+        "label": "API Monitoring & the 2025 BreachesWhite paper · Salesforce data-loss incidents",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentforce-roi-calculator",
+        "label": "Agentforce ROI CalculatorInteractive tool · 3-year revenue impact",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/rca-readiness-checklist",
+        "label": "RCA Readiness ChecklistInteractive tool · Revenue Cloud Advanced",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://careers.aquiva.com/",
+        "label": "Careers",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/contact-us",
+        "label": "Contact Us",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/category/isv-appexchange",
+        "label": "ISV / AppExchange",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+        "label": "“As a Salesforce Developer I will – 7 Ground Rules for Success”",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/tag/isv-program",
+        "label": "ISV Program",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/agentforce-pricing-for-isvs",
+        "label": "April 2, 2026Agentforce Pricing for ISVs",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/salesforce-isvs-1gp-to-2gp-migration",
+        "label": "March 5, 2026Salesforce ISVs: Why Migrate from 1GP to 2GP Now",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/heroku-enterprise-end-of-sale-fy26",
+        "label": "February 11, 2026Heroku Enterprise End of Sale: Sustaining Mode Now, No End-of-Life Date Yet",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/ai-pod",
+        "label": "The AI POD",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/aquivainc/",
+        "label": "LinkedIn",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/aquiva_labs/",
+        "label": "Instagram",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000EO7BhUAL",
+        "label": "AgentExchange",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/privacy-policy",
+        "label": "Privacy Policy",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/cookie-policy",
+        "label": "Cookie Notice",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      }
+    ],
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "author": "Yaroslav Karpinskiy",
+    "date": "2022-12-28",
+    "language": null,
+    "text_sha256": "2fa6c3ed5f10efe2491a1f996c261351182311e4b2c88415cf29acd05640dde3",
+    "text_path": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/text.txt",
+    "words": 406
+  },
+  "last_success": {
+    "at": "2026-11-06T21:56:51.509224+00:00",
+    "final_url": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+    "content_type": "text/html; charset=utf-8",
+    "status": "captured",
+    "raw": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/original.html",
+    "links": [
+      {
+        "url": "https://aquiva.com/",
+        "label": "",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/about",
+        "label": "About",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/how-we-work",
+        "label": "How We Work",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/advisory",
+        "label": "Advisory Services",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/product-development",
+        "label": "Product Development",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/custom-solution-development",
+        "label": "Custom Solution Development",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/agentforce",
+        "label": "Agentforce",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/forward-deployed-engineering",
+        "label": "Forward Deployed Engineering",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/data-integrations",
+        "label": "Data & Integrations",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/revenue-operations",
+        "label": "Revenue Operations",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/application-security",
+        "label": "Security, Risk and Compliance",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce-managed-services",
+        "label": "Salesforce Managed Services",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/services/salesforce",
+        "label": "Salesforce",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries",
+        "label": "IndustriesHealthcare, high tech, financial services & more",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/hospitality",
+        "label": "HospitalityLoyalty, personalization, and revenue on Salesforce",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/industries/high-tech",
+        "label": "High TechThe operational backbone for growth-stage software companies",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources",
+        "label": "Resources",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog",
+        "label": "← All posts",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/case-studies",
+        "label": "Case Studies",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/solution-briefs",
+        "label": "Solution Briefs",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-salesforce",
+        "label": "Headless SalesforcePOV · source assessment",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/headless-cpq",
+        "label": "Headless CPQPOV · quote from any surface",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/unified-guest-intelligence",
+        "label": "Unified Guest IntelligenceWhite paper · Sprinklr + Hapi",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentic-loyalty-concierge",
+        "label": "Agentic Loyalty ConciergeHotel loyalty concierge overview",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/api-monitoring",
+        "label": "API Monitoring & the 2025 BreachesWhite paper · Salesforce data-loss incidents",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/agentforce-roi-calculator",
+        "label": "Agentforce ROI CalculatorInteractive tool · 3-year revenue impact",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/resources/rca-readiness-checklist",
+        "label": "RCA Readiness ChecklistInteractive tool · Revenue Cloud Advanced",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://careers.aquiva.com/",
+        "label": "Careers",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/contact-us",
+        "label": "Contact Us",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/category/isv-appexchange",
+        "label": "ISV / AppExchange",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/as-a-salesforce-developer-i-will-7-ground-rules-for-success",
+        "label": "“As a Salesforce Developer I will – 7 Ground Rules for Success”",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/tag/isv-program",
+        "label": "ISV Program",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/agentforce-pricing-for-isvs",
+        "label": "April 2, 2026Agentforce Pricing for ISVs",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/salesforce-isvs-1gp-to-2gp-migration",
+        "label": "March 5, 2026Salesforce ISVs: Why Migrate from 1GP to 2GP Now",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/blog/heroku-enterprise-end-of-sale-fy26",
+        "label": "February 11, 2026Heroku Enterprise End of Sale: Sustaining Mode Now, No End-of-Life Date Yet",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/ai-pod",
+        "label": "The AI POD",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.linkedin.com/company/aquivainc/",
+        "label": "LinkedIn",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://www.instagram.com/aquiva_labs/",
+        "label": "Instagram",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://appexchange.salesforce.com/appxConsultingListingDetail?listingId=a0N3A00000EO7BhUAL",
+        "label": "AgentExchange",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/privacy-policy",
+        "label": "Privacy Policy",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      },
+      {
+        "url": "https://aquiva.com/cookie-policy",
+        "label": "Cookie Notice",
+        "discovered_from": "https://aquiva.com/blog/sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+        "review": "pending"
+      }
+    ],
+    "title": "SFDX Plug-in Development & Salesforce DevOps Maturity Matrix",
+    "author": "Yaroslav Karpinskiy",
+    "date": "2022-12-28",
+    "language": null,
+    "text_sha256": "2fa6c3ed5f10efe2491a1f996c261351182311e4b2c88415cf29acd05640dde3",
+    "text_path": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix/text.txt",
+    "words": 406
+  },
+  "context": {
+    "format": "Article",
+    "where": "Aquiva Labs",
+    "when": "2022-12-28",
+    "date_label": "Published",
+    "with_whom": "Unknown",
+    "evidence": "Event recap names Robert and his SForce Summit Winter Edition 2022 session. Main remaining article covers other speakers."
+  },
+  "collection": "reference",
+  "collection_reason": "Robert appears in opener referencing already archived SForce talk; main article about Anna and Piotr.",
+  "brand": {
+    "name": "Aquiva",
+    "domain": "aquiva.com",
+    "source_page": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog",
+    "logo_url": "https://aquiva.com/apple-touch-icon.png",
+    "logo_path": ".archive/brands/aquiva.com.png"
+  },
+  "library_dir": ".archive/references/article-sfdx-plug-in-development-salesforce-devops-maturity-matrix",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

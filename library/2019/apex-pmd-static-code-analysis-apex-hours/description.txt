@@ -1,0 +1,9 @@
+Learn about Apex PMD Tool
+
+1) What ist PMD
+2) Why do we need tools like PMD (Enforce Clean Code, Security, Agility, Automation)
+3) How to start and how to leverage
+4) Questions & Answers
+
+
+http://www.apexhours.com/apex-pmd-static-code-analysis/

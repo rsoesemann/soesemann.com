@@ -1,0 +1,50 @@
+{
+  "id": "talk-2022-code-analyzer-john-belo-roopa-mohan",
+  "url": "https://appsecurityandperformancemadeasy.splashthat.com/",
+  "source": {
+    "url": "https://appsecurityandperformancemadeasy.splashthat.com/",
+    "title": "App Security and Performance Made Easy with Salesforce Code Analyzer",
+    "slug": "talk-2022-code-analyzer-john-belo-roopa-mohan",
+    "kind": "talk_page",
+    "role": "mentioned",
+    "discovered_from": "https://aquiva.com/blog/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine",
+    "evidence": "Original Salesforce AppExchange event page names Robert Sösemann, John Belo, and Roopa Mohan. November 10 date; year2022 corroborated by Aquiva November29 recap. Page has unrelated2018 template placeholders; do not use those as event dates."
+  },
+  "latest_attempt": {
+    "at": "2026-11-06T22:23:42.677721+00:00",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://appsecurityandperformancemadeasy.splashthat.com/robots.txt"
+  },
+  "context": {
+    "format": "Webinar event page",
+    "where": "Salesforce AppExchange Tech Talk (online)",
+    "when": "2022-11-10 (year inferred from contemporaneous recap)",
+    "date_label": "Event / recording",
+    "with_whom": "John Belo; Roopa Mohan",
+    "evidence": "https://appsecurityandperformancemadeasy.splashthat.com/",
+    "published_at": "Unknown",
+    "archive_gap": "Event page blocked by CAPTCHA/HTTP 403; no direct recording URL recovered. Aquiva recap saved.",
+    "topics": [
+      "PMD",
+      "Craftsmanship"
+    ],
+    "platform": "Salesforce Developers",
+    "topic_basis": "Archive curation from title and saved source text; topics describe the work, not inferred personal values.",
+    "summary": "The saved recap describes a Salesforce Code Analyzer update introduced in a webinar featuring Robert, John Belo, and Roopa Mohan. It explains the supported analysis tools and how Graph Engine adds analysis across code paths to improve security checks, including CRUD and field-level access.",
+    "summary_basis": {
+      "source_id": "article-appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engin",
+      "kind": "archive_summary"
+    }
+  },
+  "grouping_evidence": {
+    "path": "library/2022/2022-code-analyzer-john-belo-roopa-mohan/coverage.html",
+    "observation": "AppExchange Tech Talk recap links appsecurityandperformancemadeasy.splashthat.com and names Robert; November2022."
+  },
+  "library_dir": "library/2022/2022-code-analyzer-john-belo-roopa-mohan",
+  "file_names": {
+    ".txt": "text.txt",
+    ".html": "original.html",
+    ".pdf": "original.pdf",
+    ".json3": "captions.json3"
+  }
+}

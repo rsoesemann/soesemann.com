@@ -1,0 +1,507 @@
+#CD22
+CzechDreamin 2022
+Technical Conference about Salesforce
+May 27
+Prague Congress Centre, Czech Republic
+
+#CD22
+Who are you?
+How many people do 
+you know here? (not 
+counting your company)
+Process Builder 
+or Flow?
+How many other SF 
+events did you visit 
+before this one?
+Your travel time 
+here was….
+Who paid for 
+your ticket?
+Is this your first 
+Dreamin event?
+Your work
+experience
+Attendees quiz statistics
+
+
+#CD22
+What did the audience say about us….
+“This was my first Salesforce 
+conference. It was a great 
+change of work routine and 
+every talk gave me some 
+information to think about.”
+“Loved seeing everyone again. 
+Prague is so beautiful. Loved how you 
+organised stuff around the 
+conference. Loved the content, and 
+organisation. The food was amazing. 
+Best thing was the tea station. They 
+were so lovely and the tea amazing”
+“Great memories and seeing a lot of 
+lovely people.. + great set of 
+sessions, brilliant speakers + 
+brilliant selection of food and drinks 
+:)”
+“The best community, 
+knowledge and networking in 
+the SF environment in the 
+Czech Republic :-)”
+“New trends, 
+inspiration, 
+networking”
+“Did you think about 
+making this a 
+two-day event?”
+
+
+#CD22
+See all photos here
+
+#CD22
+Diamond Sponsors
+Platinum Sponsors
+Silver Sponsors
+Gold Sponsors
+Entertainment Partners
+
+
+#CD22
+Alex guided us through the next generation of automation tools in Salesforce, integration between flow and Slack. How the 
+next generation apps should be composable from multiple elements, how UnofficialSF.com is here to help with extending 
+the flow capabilities with additional features, about Flow Orchestrator to connect multiple users in multi-steps workflows, 
+automatic testing or best practices.
+Alex Edelstein - Keynote speaker
+
+
+#CD22
+Process Automation Revisited: From Chaos to Structure
+Paweł Dobrzynski (@PDobrzynski)
+The tooling Api demystified, It is not only for developers
+Doria Hamelryk (@doriahamelryk), Fabrice Challier
+What (and why) Admins need to know about Unit Testing
+Julio Fernandez (@julipool) & Dorian Sutton (@dorianDBass)
+Everything You Need To Know About Dynamic Forms 
+Christine Marshall (@ChrisieMarshall)
+Panorama
+ Hall
+
+#CD22
+Approach Reporting Like Never Before: The Ultimate 
+Guide to Report Types, Evan Ponter (@RealEvanPonter)
+Speed up your Org with Before Save flows & Platform events 
+Narender Singh Singh (@Nads_P07)
+Advanced Reporting Tips And Tricks For New Admins, Aaron 
+Crear (@aaroncrear)
+Closing keynote with Cesko.Digital – Changing Czechia for 
+the better through ones and zeroes 
+Martina Habova, Kristyna Turner
+Panorama
+ Hall
+
+
+#CD22
+Three pillars and Seven specializations – Product 
+Development Outsourcers Program in a nutshell
+Jakub Stefaniak
+Salesforce DevOps Maturity Matrix
+Anna Walach
+Combining EDA & API-led Connectivity through MuleSoft for 
+integrating Salesforce with multiple ERPs
+Marcelo Caponi
+What I have learnt from org merges?
+Robert Szerencses (@RobiSzerencses)
+Club A
+ Architects
+
+
+#CD22
+Beyond the Customer: Salesforce in better Talent 
+Acquisition & Engagement- SF Einstein & Analytics way!! 
+Mohammad Eusuf Daud (@medaud1)
+Database periscope: an alternative to custom fields
+Igor Chtivelband
+Tackle Your Everyday Business Problems Like an Architect
+Melissa Shepard (@lissa0977)
+Using Heroku to elevate the potential of Salesforce development
+Matteo Iacucci
+Club A
+ Architects
+
+
+#CD22
+Intro to the Nonprofit Success Pack
+Trish Perkins
+Top 5 tips to get your data squeaky clean
+Andre van Kampen (@AndreKampen)
+Business analytical craft in context of Salesforce implementation
+Jan Zámostný
+Is a Hamburger a Sandwich? Architecting a Salesforce App
+Melissa Hill Dees (@melissahilldees)
+Club B
+ General
+
+
+#CD22
+Lessons from implementing Salesforce Industries / 
+Vlocity in Insurance 
+Jiří Krám (@jiri_kram)
+Recurring Revenue: Custom pricing models against 
+standardized billing tools
+Michal Mach
+Build your own custom predictions using Einstein Prediction Builder 
+Pratyush Kumar (@Im_Pratyush)
+IoT Accelerator for Salesforce
+Jan Malý, Michal Skrbek,
+Michal Bilíček, Charlie Isaacs
+Club B
+ General
+
+
+#CD22
+Real-time personalization at scale by Salesforce CDP & Interaction Studio
+Ekaterina Obolenskaya (@EkatObolenskaya) & Samuel Liska
+Real time marketing with Salesforce Marketing Cloud
+Anastasiya Penska
+Beyond Marketing Cloud Content Builder–Content Builder Block SDK
+Jakub Lysáček
+SFMC Customer Journey Case Study: How to scale a project for 
+the global leader in the automotive industry
+Kristýna Turner 
+Club C
+Marketers
+Known and unknown Salesforce Marketing Cloud limitations… and 
+some workarounds ;-)
+Cyril Louis (@cyril_louis)
+
+
+#CD22
+Don’t become your subscriber’s nightmare
+Václav Radoň & Matěj Zima
+All about Salesforce certifications: Are they worth it? 
+Tomáš Hnízdil
+Design in the wild! A look at Salesforce Designer in their natural habitat
+Katka Vokrinkova
+Talent Development in Central and Eastern Europe
+Katerina Jandikova
+Club C
+Marketers
+Skills for Success: The Skills Every Admin Needs to Succeed in 
+Their Career
+Mark Jones (@thisismarkjones)
+
+
+#CD22
+Managing Complexity in Salesforce
+David Felkel
+How to migrate to Apex Enterprise Patterns? 
+David Fernandez
+Build your apps everywhere with Lightning Web 
+Components Open Source 
+Fabien Taillon (@FabienTaillon)
+Start Building Slack Apps for Salesforce Now, 
+and what the Future Holds, 
+Todd Halfpenny (@toddhalfpenny)
+Club D
+ Developers
+
+
+#CD22
+Fraud detection using Chatter Connect ÀPI and Einstein
+Abhishek Kolipey (@AbhiKoliK)
+SFDX – Myth Buster
+Svatopluk Sejkora (@SvataSejkora),
+Modern JavaScript: Explain it like I’m an Apex developer
+Edith Valencia-Martinez (@edith_mxuk)
+Club D
+ Developers
+
+
+#CD22
+Having serious fun with lwc-datatable and Large Data Volume
+Christian Knapp (@ch_sz_knapp) & Christian Menzinger 
+(@chris_menzinger)
+How to work with risks in Salesforce projects?
+Tomáš Holý (@enehanosolution)
+As a Salesforce Developer I will… – 7 Ground Rules for Success
+Robert Sösemann (@rsoesemann)
+Run End-to-End Tests with the UI Testing Model (UTAM) 
+Phillipe Ozil (@PhilippeOzil)
+Club E
+ Developers
+
+
+#CD22
+What is Wrapper Class and How to use it with LWC
+Oleh Mykytyn (@Oleh_Mykytyn)
+Salesforce CI pipelines demystified
+Mariia Pyvovarchuk
+Code quality and its business value
+Nikita Belov
+Club E
+ Developers
+
+
+#CD22
+Diamond Sponsors
+Platinum Sponsors
+Silver Sponsors
+Gold Sponsors
+Entertainment Partners
+
+
+#CD22
+Enehano (Diamond sponsor)
+Enehano Solutions is purely Czech Salesforce 
+implementation partner. We focus on finance, 
+telecommunications, transportation, scalable startups, and 
+utilities customers. Since 2022, we have been the 
+Salesforce Summit Partner and have also been awarded 
+Salesforce Rising Star for 2018.
+Enehano is celebrating its 6th birthday this year and has 
+customers in CZ, SK, DE, USA, and the Nordic region.In the 
+Enehano team, more than 80 professionals have over 170 
+Salesforce certifications. We have already delivered more 
+than 45 implementations for all types of clients. We entered 
+the Slovak market in 2021. We solemnly opened our new 
+branches in Bratislava and the same year in Brno.
+
+
+#CD22
+PwC (Diamond sponsor)
+PwC Customer Technology is a leading IT consulting 
+company specializing in implementation of innovative IT 
+solutions in the area of Customer Experience and Customer 
+Relationship Management (CRM). The team consists of 
+over 400 specialists who have successfully completed 
+implementations in Poland, Germany, Great Britain, France, 
+USA and South Africa.
+PwC CTech also offers its own suite of products specialised 
+for telco, media and financial services industries in both 
+on-premises and SaaS in the Cloud models.
+
+
+#CD22
+Code Scan by Autorabit 
+(Platinum sponsor)
+CodeScan is a static code analysis solution that provides 
+total visibility into code health throughout the DevOps 
+pipeline.
+CodeScan enables DevOps teams to maintain high quality 
+code and avoid costly errors that can create data security 
+vulnerabilities. Built-in rules and standards support speedy 
+delivery, compliance, and reduce technical debt.
+This user-friendly tool is compatible with multiple coding 
+languages and supports popular IDE plugins. Integrate 
+CodeScan directly into AutoRABIT’s CI/CD pipeline to boost 
+productivity with automated code reviews.
+
+
+#CD22
+GetFeedback
+(Platinum sponsor)
+GetFeedback is a powerful yet agile CX platform that 
+empowers organizations to move at the speed of today’s 
+customers.
+With GetFeedback, organizations can listen to customers 
+across all channels, seamlessly connect feedback and 
+customer data to uncover insights, and drive action 
+across teams to improve the customer experience.
+Get up and running with GetFeedback in days, not 
+months – without having to hire a team of consultants. 
+Enable your team to focus less on technology and more 
+on what matters most—your customers.
+Check recording of their demojam
+
+
+#CD22
+hutte.io (Platinum sponsor)
+Collaboration among Salesforce Admins and Developers 
+when adopting SFDX can be painful and time-consuming.
+With Hutte.io Salesforce Admins can create, make changes 
+to and synchronize from Scratch Orgs to the git repository 
+without the need of a Developer. Everything with the click of 
+a button and fully web-based.
+Additionally, increase your team’s performance by simply 
+accessing anyone’s Scratch Org inside Hutte.io and our 
+award-winning progress overview.
+
+
+#CD22
+Prodly (Platinum sponsor)
+Prodly enables Salesforce teams to increase productivity 65 
+– 80 % while reducing risk up to 30 % by putting 
+next-generation DevOps into the hands of admins and 
+citizen developers. By reimagining the change management 
+experience, Prodly’s AppOps suite delivers greater business 
+agility and governance without straining IT. With solutions 
+for release management automation, version control, 
+sandbox seeding, data migration, and regression testing, 
+Prodly AppOps sets the standard for low-code DevOps and 
+can be implemented 20 times faster than traditional 
+applications.
+Prodly powers change management workflows for 
+high-growth and Fortune 100 companies, including Cardinal 
+Health, Nutanix, Johnson & Johnson, Splunk, and Verizon. 
+The company is privately-held and based in Palo Alto, 
+California with global operations. For more information, visit 
+prodly.co.
+
+
+#CD22
+Clouderia (Platinum sponsor)
+Clouderia provides CRM consulting and implementation 
+services for companies of all sizes to improve their 
+productivity and profitability.
+Our team has successfully delivered over 120 
+Salesforce.com projects with 10k+ users since we 
+established our first cloud practice in 2010. With our proven 
+track record in delivering Salesforce.com solutions, we 
+believe we are ideally placed to partner with you on your 
+CRM projects.
+
+
+#CD22
+Accenture has established its strategic 
+appliance partnership with Salesforce more 
+than ten years ago. Now we have more than 
+16,000 consultants who deliver Salesforce 
+implementations for more than 1,100 
+businesses. Accenture is also a top Salesforce 
+partner for CEE. Our Salesforce Danubia team 
+(CZ,SK,HU,RO) has over 100 team members.
+We implement Salesforce solutions for both 
+local and global clients. Our Salesforce team 
+members obtain first grade training support for 
+Salesforce trainings and certifications.
+Accenture (Gold sponsor)
+ Brighten Evo (Gold sponsor)
+We are a young and growing Czech company 
+with global delivery experience. We have a 
+team of over 20 internal experts in our HQ in 
+Prague, growing offshore development office 
+in Philippines and we’re part of Brighten family 
+with great support of other 40 top consultants 
+in the field of CRM, Marketing Automation, 
+Customer Identity and Integration. We focus 
+on mid-sized companies to large corporate 
+clients.
+
+
+#CD22
+flair is the flexible & customizable HR platform 
+for Salesforce that aligns all employees & 
+drives growth through efficiency. We‘re 
+creating a tool that gives you a powerful set of 
+features for managing your HR department 
+while allowing you to entirely tailor it to your 
+own needs.
+We believe great companies need to nurture 
+what sets them apart — their culture, 
+processes, and their people. With flair being 
+your holistic HR solution, you don’t need any 
+further software in this department.
+flair 
+(Gold & Ice Cream sponsor)
+Nubes tech 
+(Gold & Drinks sponsor)
+Nubes tech is Czech based salesforce partner 
+focusing on professional services for 
+enterprise customers and international 
+projects.With focus on B2B commerce, 
+experience cloud and platform we are 
+delivering solutions around the globe.
+
+
+#CD22
+Revenue Grid is the first-to-market Revenue 
+Intelligence platform that covers the full 
+revenue cycle with the most comprehensive 
+set of algorithmic Guided Selling capabilities. 
+Revenue Grid uses complete customer 
+journey data and sales teams’ unique 
+processes and playbooks to create a dynamic 
+guide fitting revenue org of any complexity.
+With over 15 years serving as the best sales 
+activity data-capture solution on the market, 
+Revenue Grid has unparalleled expertise in 
+data integration, advanced analytics, and 
+sales automation.
+Revenue Grid 
+(Gold sponsor)
+Provar 
+(Silver & VIP dinner sponsor)
+At Provar we’re the experts in Salesforce 
+testing. Pairing intuitive testing solutions with 
+world-class service, we help you deliver 
+robust, scalable and repeatable testing to 
+achieve release agility, drive down system 
+errors and get the maximum return on your 
+Salesforce investment.
+
+
+#CD22
+Validity’s industry-leading solution suites – 
+Validity for Email, Validity for Data 
+Management, and Validity for Sales 
+Productivity – bring together the best data 
+quality tools for business success.
+Combining products, such as DemandTools, 
+Trust Assessments and GridBuddy for CRM, 
+BriteVerify for email verification and Return 
+Path for email deliverability, Validity provides a 
+one-stop shop for marketing, sales and 
+operational professionals at thousands of 
+companies worldwide to get a holistic view of 
+their data.
+Validity 
+(Coffee & Tea sponsor)
+Merkle 
+(Photo Booth sponsor)
+Merkle is a leading data-driven customer 
+experience management (CXM) company that 
+specializes in the delivery of unique, 
+personalized customer experiences across 
+platforms and devices. The company’s 
+heritage in data, technology, and analytics 
+forms the foundation for its unmatched skills in 
+understanding consumer insights that drive 
+hyper-personalized marketing strategies.
+With 12,000+ employees worldwide and 200 in 
+the Czech Republic, Merkle drives improved 
+marketing results and competitive advantage 
+for the Top 500 companies throughout the 
+Central and Eastern Europe. 
+
+
+#CD22
+Join groups to learn Salesforce with peers, build your network, and find mentors.
+Salesforce is the Customer Success Platform. Our social and mobile cloud 
+technologies—including our flagship sales and CRM applications—help companies 
+connect with customers, partners, and employees in entirely new ways.
+Trailblazer Community
+
+
+#CD22
+Meet the team
+Martin Humpolec
+Captain 
+@mhumpolec
+Lukáš Razim
+Commander
+Michal 
+Furmanek
+Commander
+Petr Mudroch
+Commander
+@petrmudroch
+Kristyna Turner
+Commander
+@KristynaTurner
+
+
+#CD22
+JOIN US
+CzechDreamin 2023!
+Prague

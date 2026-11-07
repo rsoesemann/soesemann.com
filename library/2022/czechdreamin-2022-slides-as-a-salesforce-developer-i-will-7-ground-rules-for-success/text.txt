@@ -1,0 +1,155 @@
+As a Salesforce Developer I will... 7 Ground Rules for Success, Robert Sösemann
+AI-enhanced description
+Robert Sösemann outlines seven ground rules for success as a Salesforce developer, emphasizing continuous learning, minimizing custom code, and obtaining peer reviews to enhance code quality. He advocates for simplicity in rules and practices, with a focus on improving existing code and growing test coverage. The guidelines aim to promote efficiency and stakeholder satisfaction while avoiding the pitfalls of excessive regulations or chaotic environments.
+As a Salesforce Developer I will... 7 Ground Rules for Success, Robert Sösemann
+1.
+As a SalesforceDeveloper I will... –
+7 Ground Rules for Success
+Robert Sösemann
+Principal PDO Architect @
+2.
+#CD22
+What to expect…and what not to
+Set Expectations: No code or tricks, but many ideas and crowded slides.
+What is Success: Get things done. Be in scope and on time. Be fast now and flexible later.
+And yes, make your stakeholders smile.
+Status Quo: Teams tend to either
+– Have no rules at all → Fruitless discussions, fights, passive-aggressive behaviour OR
+– Drown in rules → rules get outdated, ignored, and tend to become opinionated
+Solution: Simple is better, but also much harder.
+Those rules have worked for me and they might work for you. Or come up with your own!
+#CD22
+As a SalesforceDeveloper I will…
+#1 Constantly learn & keep myself up-to-date
+➔ Know the basics: Release
+Notes, Trailhead
+➔ Go the extra mile: Do Certs
+➔ Widen your horizon: Industry
+trends, read paper books,
+become Polyglot
+➔ Participate in forums, contribute to
+OSS
+➔ Teach, coach, publicise
+5.
+#CD22
+As a SalesforceDeveloper I will…
+#2 Write as little code as possible
+➔ Leverage the native power of
+the platform
+➔ Embrace No-Code/Low-Code
+➔ SLDS, Base UI, Flexipages,
+Reporting
+➔ I leverage proven Open Source
+instead of relying on homegrown
+infrastructure code (triggers, HTTP,
+Security)
+➔ Aquiva built its own “stack” (AqLib)
+6.
+#CD22
+As a SalesforceDeveloper I will…
+#3 Ask for help, when stuck for too long
+➔ Before I waste anybody's time, I will do a thorough Google search.
+➔ After that, I create a wonderful question (= short, precise, reproducible) on
+StackExchange.
+➔ I pass the question link to my teammates that might be able to help in Chat(ter).
+➔ Sleep over it. Sometimes if you wait a day your brain will magically solve stuff for
+you.
+7.
+#CD22
+As a SalesforceDeveloper I will…
+#4 Leave the code cleaner than I found it
+➔ #CollectiveCodeOwnership
+not #DontTouchMyCode
+➔ You see messy code from a
+teammate? Improve it.
+➔ Constant unplanned mini Refactoring
+➔ “Divide & conquer” as a mantra
+8.
+#CD22
+As a SalesforceDeveloper I will…
+#5 Grow a safety net of awesome tests
+➔ Goal: Sleep well after a big
+refactoring of old code
+➔ Acceptance criteria and bugs
+drive test creation and scope
+➔ Readable, concise and stable.
+➔ Use lean Domain Builders
+instead of clunky Test Factories
+9.
+#CD22
+As a SalesforceDeveloper I will…
+#6 Let Tools & Peers constantly review my code
+➔ Code Review are proven to
+be #1 tool to enforce quality
+➔ Humans are better than
+tools, but expensive and
+subjective
+➔ Shift-left, Enforce in CD/CI
+➔ Simplify and formalize your rules
+➔ Monitor Tech Debt and plan for it
+10.
+#CD22
+As a SalesforceDeveloper I will…
+#7 Never forget about non-functional aspects
+➔ Governor Limits, Packaging
+behaviour, Security rules
+➔ Be ready for Real World Data
+(Ugliness and Volumes)
+➔ Don’t over-engineer. Keep it
+simple, but plan for Async / Events.
+➔ Be nice to your users. Improve, but
+don’t disrupt.
+11.
+#CD22
+1. Constantly learnand keep curious
+2. Minimize custom code
+3. Ask for help, when stuck for too long
+4. Leave the code cleaner than I found it (Boy scout rule)
+5. Grow a safety net of awesome tests
+6. Let peers & tools constantly review my code
+7. Always care about non-functional aspects
+Fewer rules - More success!
+Questions?
+https://twitter.com/rsoesemann
+#3 This is not a sophisticated technical talk. You will not hear any trick to overcome Governor limits or how to scale Flows. And I tell you why because knowing all those tricks didn’t make the big difference between success and failure for me. It was the soft, seemingly obvious things that made me and my teams successful. What do I mean when I say success. That what we all mean. Getting developments stuff done. Stay in scope. In time. Be fast without hacking, stay flexible and agile without technical debt. Sleep well, make your customers and fellow developer happy.
+You don’t get that for free. You need coordination, rules, processes and even more important values. I think that is the part that everybody understands but as with many things in live most teams jump from one extrem to the other. From no rules, chaos, politics, fruitless fights and mediocre outcomes to the other extreme which is a rigid system of detailed overcomplicated inflexible rules. I have seen many teams swing between those two poles. Teams that I was part of and even teams that I lead.
+I just want to ask the audience give me a quick show of hands, when you team currently is more on the chaotic inefficient side: SHOW OF HANDS? And how is in the other band? Teams that have a detailed, documented but overly complex, outdated or ignored process? Who feels a bit like a slave to controversial rules that feel random? SHOW OF HANDS?
+Perfect. My solution is less. Less rules but more stable ones. Rules people agree on and keep each other accountable. Rules that fit on a single Wiki page. Here is rule number 1…
+#4 13 years ago when the AppExchange just had started I joined the Salesforce community being a Java developer and consultant before. I built my first free AppExchange app, worked for small and very large ISVs, PDO partners, currently Aquiva. During that time I learned a lot about software and product development. In those 13 years I never customized a messy Org, had to cope with Happy Soup orgs. So I am really a niche player inside of Managed Packaged. So take things I say with an extra gran of salt when you are in such a world. Everything I learned I either learned from doing it and failing or from the community. So you mght know me from Stackexchange where I still ask question every week. I became a little bit famous 2016 when I ported the Static Code Analyser PMD from Java to Apex in 2016. Since then I had a few Dreamforce talk, created some online courses at Pluralsight and eventually became a Salesforce MVP. Despite being a opinionated loudmouth on Twitter. So but enough of me. I just wanted you to see that I can actually talk a bit about Salesforce…
+#5 As a Salesforce Developer I will CONSTANTLY LEAR & KEEP M;YSELF UP TO DATE.
+Our Industry moves lightning fast . If you dont keep up with the pace you will soon not have a job anymore. But this is even more true in the Salesforce ecosystem.
+What customers like with Salesforce and what lets them pay high licence fees is that Salesforce constantly grows in features, capabilities. And only if you as a developer actually know them well you can provide benefits to your customer. So read the release noted, do those simple trailheads, read the blogs, test out new features. Especially low code and declarative stuff as they have the most speed factor. Do those certs. Not to show of and brag, because they are hard and make you learn hard stuff.
+But also dont stay a Salesforce nerd. Look out whats there in the bigger context. Read those wonderful classic books about Software dev, design and architecture in general. I just want to mention books from Kent Beck, martin Fowler, Bob Martin.
+And for sure learning is not only reading. You can also learn by building something and sharing it as Open Source. Go to conference, present, write blogs or tweet on Twitter.
+#6 Number 2: As a Salesforce Developer I will WRITE AS FEW CODE AS POSSIBLE
+Why? Am I not a developer for coding. No at least not on Salesforce. Salesforce is a declarative Platform. Admins and Low Code are the theme since many years. So embrace Flow embrace standard UI, Think twice before you reinvent the wheel just because the native functionality feels a bit inflexible. The moment you custom code things that are already their you fight the platform and shot yourself into the knee badly. I know there are things that need to be coded, but sorry to say that: smarter people already have built all those trigger frameworks, HTTP libs and Security stuff before. Its open source, proven and improved by the community over many years. So stay lean and be happy: every line of code you dont write can definitely not contain bugs.
+#7 Rule #2 and #3 are so important as normal developers are not super social, they dont ask other and want to do everything on their own. But that us really dangerous and makes especially young developer super slow.
+They hide when they get stuck. Because the dont want to look stupid or lazy. But asking for help is great in many ways:
+So rule #3: As a Salesforce Developer I will reach out for help when stuck for too long Reach out for help in multiple way:
+Put your question on StackExchange before you go to lunch
+Ask a fellow developer for direct help or
+To pair with you. Explain your problem and learn that two people see more
+This NOT ONLY makes you faster, makes you learn more efficient (not by trial and error, but example from advanced peopel) And the most important thing: Asking helps with understanding. When you ask for help you realize that you often cannot really describe the issue. Since I started on Stackexchange many years ago I became better and better by describing my problem in a way that doesnt waste peoples time and guess what : I am in the top 10 of Stackexchange although I nearly never answered anyones else question directly. Stackexchange ius great but you also need to know and use Trailblazer or Partner community groups where you get direct access to people from Salesforce.If all of that doesn’t help, sleep over it. I got my best ideas and solved my hardest riddles when I was sleeping or not working.
+#8 Rule # 4. As A Salesforce Developer I will LEAVE THE CODE CLEANER THAN I FOUND IT
+I cannot overemphasize the importance of this so called Bouyscout Rule from the Book Clean Code. It was a rule of Boy Sscouts in the US to alway leave the campground a little bit cleaner than they found it. An having this mantra as a team and developer changes everything. By making that a rule everybody is collectively responsible for the codebase. Not “Dont touch my code”. If you see something ugly, hard to read, hard to understand you fix it. Sure you will get into fights or discussions. But in the end the team will grow a common language and understanding. Collective Code Ownership makes developers actually talk, collaborate with each others.
+You dont need big planned refactorings when you constantly improve the code base. Break thing down, add tests. You will see how much more successful you are when you stop discussing with Business people on when to do the BIG Refactor. Make it part of every day work. Trust me. I did it my whole career and it worked.
+#9 Rule #5 is like the big brother of #4 as is gives you confidence to touch the codebase. So As a Salesforce Developer I will GROW A SAFETY NET OF AWESOME TESTs.
+Many tests, test that run fast, test that you can run constantly. Test that not only cover 90% of the lines but also the risks. Test that you understand and that you trust. The words in this rule are important. I say GROW because it needs time and CONSTANT effort to have and keep such a safety net. Such tests need to originate from real world scenarios. They need to cover the acceptance tests of you customer. Every bug needs to be reproduced first by a failing test.
+And what is true for code is even more true for test., They need to be short, readable, fast, understandable. And there basically should never be a reason to change a test.
+Last comment: The biggest techjnical hurdle I had living that rule was speed and readability of Apex test. The Setup part was so verbose and lengthy AND slow that I came up with a Domainbuilder lib that you find on my Github repo and that is linked here in the slide. This library makes test super fast using Unit Of Work Dml and super readable and flexible making a fluent API concept. Building take took time and love and that is why I call it AWESOME
+#10 Test proved that you code is doing the right things. But you also need to ensure you are doing things right. I definitely encourage you to have a extra rules that you enforce when it comes to how to write, test, build and document code.
+But I tell you don’t write those rule into a wiki and wait until it begins to sting. Automate AS MANY OF YOUR RULES AS POSSIBLE. Better not have a rule when you are not able to enforce it every single change.
+When I say automation is key I am NOT saying manual code review is not important. I am saying quite the opposite. Having human eyes check you code is the single most successful way to improve and keep quality. Code Review by multiple fellow developers and pair programming are a MUST, but they are expensive. Time-wise and hard to sell to business people. So you need to automate everything to use humans for what humans are best in. Use static code analysers from the moment you code in your IDE, have such checkers run as Quality Gates in CDCI
+But also have tools that keep a history of you issues and technical debt. That curve needs to improve constantly. Otherwise your doomed. I recommend a tool like Clayton or Codacy to monitor your code over time.
+I do my best to write code where PMD, Reviewers, QA, and Salesforce Security Tean will not find any issue.
+I ask peers to pair-program with us if I are stuck or fear that I could over-engineer a solution
+The person who asked for the review must respond to ALL comments. Either click LIKE (which means I will improve it as defined) or discuss using comments.
+Nobody should ask for a Review before he committed, checked the Quality Tool results, and fixed them in a second commit. If PMD reports false positives that need to be documented and discussed in the review. Only if I discuss it I can adjust/deactivate certain rules in Codacy.
+I never test somebody's code during a PR review. Here is why: https://www.yegor256.com/2019/12/03/testing-in-code-review.html
+Reviewers NEVER MERGE PRs. That is the job of the developer.
+#11 The last rule, Rule #7 is about getting from the microscopic code view into a birds eye view. How does my code effect others. Customers, the Salesforce platform, the future flexibility of my team and the customer. So rule #6 mandates that As a Salesforce Developer I will never forget about non-functional aspects.
+Especially inexperience developer get passionate about new features and new capabilities. Make sure you understand their limitations. I am not only thinking about the obvious Governor Limits, I am also thinking about pricing licencing, how features will affect the User Experience. Very often Users are highly effected by developer optimizations. Especially in a Managed Package context. Who of you fell into the trap that apps where not upgradable because you removed a visualforce page or packaged something that was not working in the customer orgs.
+Make sure you think through things and test them out in the green field before you make you customers suffer.
+#12 Thats it. Seven simple rules. I made them 7 because we all know 7 is a magic number. 7 is the amount of things we can easily keep in our memory. A few years I had 10 and kicked 1 out and merged the others. I am not an idiot and think those rules are in any way scientific and might totally change you and you team, but I hope to convince you how powerful simplicity can be. Maybe you start with my rules and evolved them for your team. There is a public github repo with a README with those rule plus a few coding guidelines. Maybe you start from there and adapt.
+We now have a few minute left for questions?
+#13 Great. Thank you so much for your attendance, your curiosity. I wish you a great remaining day at this conference and in wonderful Prague. See you and Thank you!
