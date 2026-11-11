@@ -1,0 +1,44 @@
+name: Publish website
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'website/**'
+      - 'library/**'
+      - '.github/workflows/pages.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Check website export
+        run: python -m unittest discover -s library/tooling -p 'test_public_site.py'
+      - name: Build website
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python library/tooling/public_site.py --site-url "$SITE_URL"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: website/public
+      - uses: actions/deploy-pages@v4
+        id: deployment

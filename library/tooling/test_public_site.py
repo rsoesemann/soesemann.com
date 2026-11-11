@@ -50,6 +50,16 @@ class PublicWebsite(unittest.TestCase):
         self.assertEqual(build_public(self.root)["items"], [])
         self.assertFalse((self.root / "website/public/library").exists())
 
+    def test_published_urls_follow_the_pages_base_path_or_custom_domain(self):
+        self.save()
+        for url in ("https://rsoesemann.github.io/soesemann.com", "https://soesemann.com"):
+            with self.subTest(url=url):
+                build_public(self.root, url)
+                output = self.root / "website/public"
+                self.assertIn(f'<link rel="canonical" href="{url}/">', (output / "index.html").read_text())
+                self.assertIn(f'<loc>{url}/</loc>', (output / "sitemap.xml").read_text())
+                self.assertIn(f'Sitemap: {url}/sitemap.xml', (output / "robots.txt").read_text())
+
     def test_crawlers_get_readable_html_and_safe_links_without_private_notes(self):
         self.record["source"]["title"] = 'A <script> & "quoted" title'
         self.record["context"]["summary"] = "An original summary."

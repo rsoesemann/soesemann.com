@@ -1,7 +1,8 @@
 # Public persona
 
 Preserve and reuse Robert Sösemann’s public work, and generate new speech in his
-voice without a voice-service subscription. This repository is private.
+voice without a voice-service subscription. Robert made this repository public on
+11 November 2026. Tracked files and Git history are accessible through GitHub.
 
 ## What is here
 
@@ -55,7 +56,7 @@ uv run --project library/tooling python library/tooling/collect.py export
 This refreshes `library/index.md`, the agent exports and
 `website/data/timeline-data.js`. Edit catalogue records, not those generated files.
 Keep the three folders together so the archive's local file links work. Its data
-contains private notes and must not be published.
+contains review notes; the published website uses a smaller catalogue.
 
 The optional **Early years** switch shows the school, university and US study
 projects alongside the newer work. It is a website filter based on dates through
@@ -75,7 +76,7 @@ only Work needs the timeline scripts. No router or new framework is required.
 
 Open [website/public/index.html](website/public/index.html). This generated,
 ignored folder contains the public website only: selected cards, previews and
-explicitly listed originals. Private notes, captured article/transcript text,
+explicitly listed originals. Review notes, captured article/transcript text,
 voice files and the old repository backup stay outside it. Videos link directly to their publisher. No local recordings are copied to the
 public build. The Cookie presentation has a static ten-slide version rendered
 from its original Flash file, so it opens without a plugin.
@@ -83,7 +84,13 @@ from its original Flash file, so it opens without a plugin.
 Kept works are included by default. An item's `publication.include` can override
 that selection, but Ignore always excludes it. `publication.files` lists the
 original files to include, including any HTML dependencies. Building changes no
-GitHub settings. Publication and retiring the old repository await review.
+GitHub settings.
+
+The `Publish website` GitHub Actions workflow builds and deploys `website/public/`
+on pushes to `main` that change the website or library. It can also be run manually.
+The build uses Python’s standard library and does not download Git LFS recordings.
+Pages supplies the current site URL for canonical links and the sitemap.
+The former `rsoesemann.github.io` repository is unchanged.
 
 The public build includes ordinary HTML cards with titles, dates, summaries and
 content links; they are readable without JavaScript. JavaScript adds the timeline
@@ -95,9 +102,8 @@ and preserves third-party rights; it does not grant a reuse licence or prevent c
 
 Only publish `website/public/`, never the repository root or `website/`.
 Anything copied into that public folder, including selected originals, is publicly
-readable and downloadable. `robots.txt` is not access control. The private archive
-stays private because it is absent from the deployment and the repository remains
-private. Set the canonical URL and sitemap once the final hosting URL is chosen.
+readable and downloadable. The rest of the tracked archive is also accessible
+in the public GitHub repository. `robots.txt` is not access control.
 
 ## Local installation and Git
 

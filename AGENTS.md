@@ -1,6 +1,6 @@
 # Maintaining Public persona
 
-This private library helps Robert remember and reuse his public work. It serves
+This public library helps Robert remember and reuse his public work. It serves
 people through the timeline and agents through attributed original material.
 Never commit, push or publish without Robert’s explicit instruction. Never open
 his browser without explaining why; downloads and tests should run in the background.
@@ -58,7 +58,7 @@ Do not reintroduce a shared hidden data folder or a central `tools/` folder.
 - `website/assets/`: timeline CSS and JavaScript. Keep runtime setup out of the root.
   Each Python group owns its `pyproject.toml`, `uv.lock` and ignored `.venv/`.
 - `website/data/timeline-data.js`: generated data for the offline HTML;
-  rebuild with export after changing the library. It contains private notes.
+  rebuild with export after changing the library. It contains review notes.
 
 Do not reintroduce separate per-researcher libraries or hashed library folders.
 Do not encode early/late categories in library names. Those are website filters.

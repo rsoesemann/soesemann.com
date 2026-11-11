@@ -4,6 +4,7 @@ Run from the repository root: uv run --project library/tooling python library/to
 This creates website/public/ locally. It never publishes or changes GitHub settings.
 """
 
+import argparse
 import json
 from html import escape
 from pathlib import Path
@@ -62,7 +63,12 @@ def static_work_html(works):
     return "\n".join(sections)
 
 
-def build_public(root):
+def build_public(root, site_url=None):
+    if site_url:
+        parsed = urlsplit(site_url)
+        if parsed.scheme != "https" or not parsed.hostname or parsed.query or parsed.fragment:
+            raise ValueError("Site URL must be an HTTPS URL without a query or fragment")
+        site_url = site_url.rstrip("/") + "/"
     root = root.resolve()
     output = root / "website/public"
     if output.is_symlink():
@@ -87,7 +93,7 @@ def build_public(root):
         result = {key: source.get(key) for key in SOURCE_FIELDS}
         result["context"] = {key: source["context"][key] for key in CONTEXT_FIELDS if key in source["context"]}
         result["brand"] = {key: source["brand"][key] for key in ("name", "color") if key in source.get("brand", {})}
-        # Full captured articles, transcripts, notes and capture errors stay private.
+        # The website omits full captures, notes and capture errors.
         result["text"] = ""
         files = record.get("publication", {}).get("files", [])
         if files and source["context"].get("access"):
@@ -145,8 +151,13 @@ def build_public(root):
     index = output / "index.html"
     html = index.read_text().replace('<div id="timeline"></div>', '<div id="timeline">' + static_work_html(public_items) + '</div>')
     html = html.replace('</head>', '<noscript><style>.timeline-section, .filter-panel { display: none; }</style></noscript>\n</head>')
+    if site_url:
+        html = html.replace('</head>', f'<link rel="canonical" href="{escape(site_url, quote=True)}">\n</head>')
+        urls = [site_url if page == "index.html" else site_url + page for page in PAGES]
+        sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join(f'<url><loc>{escape(url)}</loc></url>' for url in urls) + '</urlset>\n'
+        (output / "sitemap.xml").write_text(sitemap)
     index.write_text(html)
-    (output / "robots.txt").write_text("User-agent: *\nAllow: /\n")
+    (output / "robots.txt").write_text("User-agent: *\nAllow: /\n" + (f"Sitemap: {site_url}sitemap.xml\n" if site_url else ""))
     (output / "data").mkdir(exist_ok=True)
     (output / "data/timeline-data.js").write_text("window.PERSONA_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n")
     (output / ".nojekyll").touch()
@@ -154,6 +165,9 @@ def build_public(root):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--site-url", help="Published HTTPS URL for canonical links and sitemap")
+    args = parser.parse_args()
     root = Path(__file__).resolve().parents[2]
-    data = build_public(root)
+    data = build_public(root, args.site_url)
     print(f"Built {len(data['items'])} public works at {root / 'website/public/index.html'}")
