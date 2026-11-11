@@ -1,6 +1,7 @@
 """Build the catalogue from saved sources, files and Robert’s review choices."""
 
 import json
+import mimetypes
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -55,6 +56,12 @@ def source_items(root):
                 assets[f"slide_{index}"] = {"path": str(asset.relative_to(root.resolve())),
                                             "bytes": asset.stat().st_size, "type": IMAGE_TYPES[asset.suffix.lower()],
                                             "slide": slide.get("slide", index), "source_id": record["id"]}
+        for index, attachment in enumerate(record.get("attachments", [])):
+            asset = safe_file(root, attachment.get("path"))
+            if asset:
+                assets[f"attachment_{index}"] = {"path": str(asset.relative_to(root.resolve())),
+                    "bytes": asset.stat().st_size, "type": mimetypes.guess_type(asset.name)[0] or "download",
+                    "label": attachment.get("label", asset.name), "source_id": record["id"]}
         review = reviews.get(record["id"], {"decision": "later", "note": ""})
         result.append({"id": record["id"], "url": record["url"], "title": record.get("work_title") or title,
                        "part_of": record.get("part_of"), "collection": record.get("collection", "work"),

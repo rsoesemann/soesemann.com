@@ -68,5 +68,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/article-the-fable-of-the-hare-and-the-hedgehog.webp",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/the-fable-of-the-hare-and-the-hedgehog.webp",
+    "source_path": "library/2026/the-fable-of-the-hare-and-the-hedgehog/original.html"
   }
 }

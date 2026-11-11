@@ -69,5 +69,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/article-dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i.jpg",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/dreamforce-2026-developer-keynote-hero-2.jpg",
+    "source_path": "library/2026/dreamforce-2026-dev-keynote-as-a-future-salesforce-developer-i/original.html"
   }
 }

@@ -88,5 +88,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive.png",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://pluralsight.imgix.net/course-images/play-by-play-automated-code-analysis-in-salesforce-v1.png",
+    "source_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/original.html"
   }
 }

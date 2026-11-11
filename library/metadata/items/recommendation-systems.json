@@ -1,0 +1,88 @@
+{
+  "id": "recommendation-systems",
+  "url": "https://rsoesemann.github.io/collab_filtering/collabfilter_ausarbeitung.pdf",
+  "source": {
+    "slug": "recommendation-systems",
+    "url": "https://rsoesemann.github.io/collab_filtering/collabfilter_ausarbeitung.pdf",
+    "title": "Vorstellung der Arbeit \"Recommendation systems: a probabilistic analysis\"",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2002-12 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2002/recommendation-systems",
+  "context": {
+    "format": "Seminararbeit",
+    "where": "Universität Tübingen",
+    "platform": "Universität Tübingen",
+    "when": "2002-12",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "Die vorliegende Seminararbeit versteht sich als zusammenfassender Überblick eines Artikels des IBM Almaden Research Centers. Unter dem Titel „Recommendation Systems: a probabilistic analysis - zu finden auf [www.almaden.ibm.com/cs/k53/algopapers/focs98rec.ps] - beschreiben dort die Autoren R. Kumar et al. ein einfaches und wahrscheinlichkeitstheoretisch fundiertes Modell für passives Collaboratives Filtering. Statt einer einfachen Wiederholung der Ergebnisse, liegen die Schwerpunkte dieser Ausarbeitung in der Einleitung und Motivation des Themenkomplexes und einer Vorstellung der beschriebenen Algorithmen.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Seminararbeit für die Veranstaltung \"Algorithmen für das WWW\" an der Universität Tübingen); original index date 2002-12"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Vorstellung der Arbeit \"Recommendation systems: a probabilistic analysis\"",
+    "raw": "library/2002/recommendation-systems/collabfilter_ausarbeitung.pdf",
+    "date": "2002-12",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Vorstellung der Arbeit \"Recommendation systems: a probabilistic analysis\"",
+    "raw": "library/2002/recommendation-systems/collabfilter_ausarbeitung.pdf",
+    "date": "2002-12",
+    "author": "Robert Sösemann"
+  },
+  "attachments": [
+    {
+      "path": "library/2002/recommendation-systems/collabfilter_präsentation.pdf",
+      "label": "Presentation PDF"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2002/recommendation-systems/collabfilter_ausarbeitung.pdf",
+        "original_path": "collab_filtering/collabfilter_ausarbeitung.pdf",
+        "sha256": "d2b6661561ff9f94c748f4908751ea7eb74b57992d64286eb8da6b8f77353e22",
+        "bytes": 261533
+      },
+      {
+        "path": "library/2002/recommendation-systems/collabfilter_präsentation.pdf",
+        "original_path": "collab_filtering/collabfilter_präsentation.pdf",
+        "sha256": "285b16893981870d135c2d053b7298bdb7cca3bb860f98f6d8b5083265814a16",
+        "bytes": 578986
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2002/recommendation-systems/collabfilter_ausarbeitung.pdf",
+      "library/2002/recommendation-systems/collabfilter_präsentation.pdf"
+    ]
+  },
+  "preview_path": "website/assets/previews/recommendation-systems.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2002/recommendation-systems/collabfilter_ausarbeitung.pdf",
+    "page": 1
+  }
+}

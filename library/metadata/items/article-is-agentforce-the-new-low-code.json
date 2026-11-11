@@ -69,5 +69,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/article-is-agentforce-the-new-low-code.webp",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/is-agentforce-the-new-low-code.webp",
+    "source_path": "library/2024/is-agentforce-the-new-low-code/original.html"
   }
 }

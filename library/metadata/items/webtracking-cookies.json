@@ -1,0 +1,193 @@
+{
+  "id": "webtracking-cookies",
+  "url": "https://rsoesemann.github.io/webtracking_cookies/webtracking_cookies.html",
+  "source": {
+    "slug": "webtracking-cookies",
+    "url": "https://rsoesemann.github.io/webtracking_cookies/webtracking_cookies.html",
+    "title": "Cookies - Current webtracking technology",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2001/webtracking-cookies",
+  "context": {
+    "format": "Mini-presentation",
+    "where": "Cal State Hayward · USA",
+    "platform": "Cal State Hayward · USA",
+    "when": "2001-02",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "What are cookie? Pros and Cons of Cookies. Ways to secure privacy Ressources.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Mini-Presentation for \"Telecomunication Design\" course at Cal State Hayward); original index date 2001-02"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Cookies - Current webtracking technology",
+    "raw": "library/2001/webtracking-cookies/webtracking_cookies.html",
+    "date": "2001-02",
+    "author": "Robert Sösemann",
+    "slides": [
+      {
+        "slide": 1,
+        "image_path": "library/2001/webtracking-cookies/slide-01.png"
+      },
+      {
+        "slide": 2,
+        "image_path": "library/2001/webtracking-cookies/slide-02.png"
+      },
+      {
+        "slide": 3,
+        "image_path": "library/2001/webtracking-cookies/slide-03.png"
+      },
+      {
+        "slide": 4,
+        "image_path": "library/2001/webtracking-cookies/slide-04.png"
+      },
+      {
+        "slide": 5,
+        "image_path": "library/2001/webtracking-cookies/slide-05.png"
+      },
+      {
+        "slide": 6,
+        "image_path": "library/2001/webtracking-cookies/slide-06.png"
+      },
+      {
+        "slide": 7,
+        "image_path": "library/2001/webtracking-cookies/slide-07.png"
+      },
+      {
+        "slide": 8,
+        "image_path": "library/2001/webtracking-cookies/slide-08.png"
+      },
+      {
+        "slide": 9,
+        "image_path": "library/2001/webtracking-cookies/slide-09.png"
+      },
+      {
+        "slide": 10,
+        "image_path": "library/2001/webtracking-cookies/slide-10.png"
+      }
+    ]
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Cookies - Current webtracking technology",
+    "raw": "library/2001/webtracking-cookies/webtracking_cookies.html",
+    "date": "2001-02",
+    "author": "Robert Sösemann",
+    "slides": [
+      {
+        "slide": 1,
+        "image_path": "library/2001/webtracking-cookies/slide-01.png"
+      },
+      {
+        "slide": 2,
+        "image_path": "library/2001/webtracking-cookies/slide-02.png"
+      },
+      {
+        "slide": 3,
+        "image_path": "library/2001/webtracking-cookies/slide-03.png"
+      },
+      {
+        "slide": 4,
+        "image_path": "library/2001/webtracking-cookies/slide-04.png"
+      },
+      {
+        "slide": 5,
+        "image_path": "library/2001/webtracking-cookies/slide-05.png"
+      },
+      {
+        "slide": 6,
+        "image_path": "library/2001/webtracking-cookies/slide-06.png"
+      },
+      {
+        "slide": 7,
+        "image_path": "library/2001/webtracking-cookies/slide-07.png"
+      },
+      {
+        "slide": 8,
+        "image_path": "library/2001/webtracking-cookies/slide-08.png"
+      },
+      {
+        "slide": 9,
+        "image_path": "library/2001/webtracking-cookies/slide-09.png"
+      },
+      {
+        "slide": 10,
+        "image_path": "library/2001/webtracking-cookies/slide-10.png"
+      }
+    ]
+  },
+  "attachments": [
+    {
+      "path": "library/2001/webtracking-cookies/webtracking_cookies.swf",
+      "label": "Original Flash file"
+    },
+    {
+      "path": "library/2001/webtracking-cookies/slides.html",
+      "label": "View slides"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2001/webtracking-cookies/webtracking_cookies.html",
+        "original_path": "webtracking_cookies/webtracking_cookies.html",
+        "sha256": "42029e37fe98c3d68705d17f538eb47ea53e801710b6d11cd91b836805402f94",
+        "bytes": 884
+      },
+      {
+        "path": "library/2001/webtracking-cookies/webtracking_cookies.swf",
+        "original_path": "webtracking_cookies/webtracking_cookies.swf",
+        "sha256": "f8f343191b1c5c6d26bda0223fbed755378ca256fbe012bee64157ed890ebeac",
+        "bytes": 38716
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2001/webtracking-cookies/webtracking_cookies.html",
+      "library/2001/webtracking-cookies/webtracking_cookies.swf",
+      "library/2001/webtracking-cookies/slides.html",
+      "library/2001/webtracking-cookies/slide-01.png",
+      "library/2001/webtracking-cookies/slide-02.png",
+      "library/2001/webtracking-cookies/slide-03.png",
+      "library/2001/webtracking-cookies/slide-04.png",
+      "library/2001/webtracking-cookies/slide-05.png",
+      "library/2001/webtracking-cookies/slide-06.png",
+      "library/2001/webtracking-cookies/slide-07.png",
+      "library/2001/webtracking-cookies/slide-08.png",
+      "library/2001/webtracking-cookies/slide-09.png",
+      "library/2001/webtracking-cookies/slide-10.png"
+    ]
+  },
+  "preview_path": "website/assets/previews/webtracking-cookies.png",
+  "preview_evidence": {
+    "method": "original SWF frame rendered with JPEXS 26.4.0",
+    "path": "library/2001/webtracking-cookies/webtracking_cookies.swf",
+    "frame": 1
+  },
+  "derived_from": {
+    "path": "library/2001/webtracking-cookies/webtracking_cookies.swf",
+    "sha256": "f8f343191b1c5c6d26bda0223fbed755378ca256fbe012bee64157ed890ebeac",
+    "method": "JPEXS 26.4.0 frame PNG export at 2x; ten frames; static HTML viewer",
+    "output_path": "library/2001/webtracking-cookies/slides.html"
+  }
+}

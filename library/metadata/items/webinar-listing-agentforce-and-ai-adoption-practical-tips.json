@@ -74,5 +74,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/webinar-listing-agentforce-and-ai-adoption-practical-tips.jpg",
+  "preview_evidence": {
+    "method": "frame from saved webinar recording",
+    "path": "library/2025/agentforce-and-ai-adoption-practical-tips/video.mp4",
+    "seconds": 30
   }
 }

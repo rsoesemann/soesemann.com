@@ -79,5 +79,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/podcast-page-7-clean-code-and-code-agility-robert-sosemann.jpg",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg",
+    "source_path": "library/2018/7-clean-code-and-code-agility-robert-sosemann/original.html"
   }
 }

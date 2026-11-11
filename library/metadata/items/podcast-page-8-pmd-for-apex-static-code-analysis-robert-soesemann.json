@@ -80,5 +80,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/podcast-page-8-pmd-for-apex-static-code-analysis-robert-soesemann.jpg",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://salesforceway.com/wp-content/uploads/2019/06/robert.jpg",
+    "source_path": "library/2018/8-pmd-for-apex-static-code-analysis-robert-soesemann/original.html"
   }
 }

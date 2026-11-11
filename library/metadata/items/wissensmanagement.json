@@ -1,0 +1,87 @@
+{
+  "id": "wissensmanagement",
+  "url": "https://rsoesemann.github.io/wissensmanagement_in_abteilungen.html",
+  "source": {
+    "slug": "wissensmanagement",
+    "url": "https://rsoesemann.github.io/wissensmanagement_in_abteilungen.html",
+    "title": "Wissensmanagement in der Abteilung - Austausch/Erhalt von unternehmenswertvollem Wissen",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2002-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2002/wissensmanagement",
+  "context": {
+    "format": "Case study",
+    "where": "Universität Tübingen",
+    "platform": "Universität Tübingen",
+    "when": "2002-02",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Hendrik Wehrum"
+    ],
+    "topics": [],
+    "summary": "Die folgende Case Study und der dazugehörige Vortrag, soll diese neuen Erfordernisse genauer erörtern und Methoden vorstellen, wie sowohl implizites als auch explizites Wissen nutzbringend innerhalb großer Abteilungen augetauscht, gespeichert und haltbar gemacht werden können. Die Persistenz(=personenungebunde Haltbarkeit) von Wissen, ist vor allem dann wichtig, wenn vermieden werden soll, dass mit Ausscheiden erfahrener Mitarbeiter das Unternehmen auch seine wertvolle Expertise verliert. Es werden Wege genannt, wie derartiges Wissen an neue Mitarbeiter weitergegeben werden kann. Auch wird auf die nötigen Änderungen in der Unternehmenskultur und -organisation eingegangen.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Case Study für Seminar \"Wissensmanagement in Unternehmen\" an der Universität Tübingen); original index date 2002-02"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Wissensmanagement in der Abteilung - Austausch/Erhalt von unternehmenswertvollem Wissen",
+    "raw": "library/2002/wissensmanagement/wissensmanagement_in_abteilungen.html",
+    "date": "2002-02",
+    "author": "Robert Sösemann, Hendrik Wehrum"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Wissensmanagement in der Abteilung - Austausch/Erhalt von unternehmenswertvollem Wissen",
+    "raw": "library/2002/wissensmanagement/wissensmanagement_in_abteilungen.html",
+    "date": "2002-02",
+    "author": "Robert Sösemann, Hendrik Wehrum"
+  },
+  "attachments": [
+    {
+      "path": "library/2002/wissensmanagement/wimapresentation.pdf",
+      "label": "Presentation PDF"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2002/wissensmanagement/wissensmanagement_in_abteilungen.html",
+        "original_path": "wissensmanagement_in_abteilungen.html",
+        "sha256": "a9e8f4c271885599e2c28812b64568d2e9b67fcb6f3f9ca574309afca5526bd9",
+        "bytes": 21617
+      },
+      {
+        "path": "library/2002/wissensmanagement/wimapresentation.pdf",
+        "original_path": "wimapresentation.pdf",
+        "sha256": "9c63a039c0c39f2fee8ab93132888852c21966f856695963a43dbd48a35eb446",
+        "bytes": 112507
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2002/wissensmanagement/wissensmanagement_in_abteilungen.html",
+      "library/2002/wissensmanagement/wimapresentation.pdf"
+    ]
+  },
+  "preview_path": "website/assets/previews/wissensmanagement.jpg",
+  "preview_evidence": {
+    "method": "browser screenshot of original page",
+    "source": "library/2002/wissensmanagement/wissensmanagement_in_abteilungen.html"
+  }
+}

@@ -66,5 +66,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/profile-employee-spotlight-robert-sosemann.webp",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/employee-spotlight-robert-sosemann.webp",
+    "source_path": "library/2022/employee-spotlight-robert-sosemann/original.html"
   }
 }

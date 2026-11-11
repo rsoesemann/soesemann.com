@@ -61,6 +61,8 @@ Do not reintroduce a shared hidden data folder or a central `tools/` folder.
   rebuild with export after changing the library. It contains private notes.
 
 Do not reintroduce separate per-researcher libraries or hashed library folders.
+Do not encode early/late categories in library names. Those are website filters.
+Keep short descriptions in item JSON; do not split them into extra text files.
 The timeline and index use the same grouping in `catalogue.items`.
 Keep existing source decisions and notes when grouping. Explicit primary decisions
 win; unanimous child decisions can be inherited, while conflicts stay visible.
@@ -137,9 +139,10 @@ Actual slide/video/book previews may use `preview_path` under `website/assets/pr
 with `preview_evidence`; publisher logos use `brand.logo_path` under `website/assets/brands/`.
 Honor explicit `context.employer` before overlapping career dates. Hide career
 periods with no collected work. Keep cards minimal: image, publisher, title,
-format, date and original link; additional context belongs in Details.
+format, date and original link; additional context stays in the catalogue. Cards and timeline previews open the
+content directly; do not reintroduce a detail modal or nested source disclosures.
 Store curated topics in `context.topics` and the publisher/show name in
-`context.platform`. Show content-type and topic pills on cards and in filters;
+`context.platform`. Keep content-type and topic controls in the filters;
 show the publisher as a plain label. Slides remain assets of conference talks,
 not a competing content type. These describe the work, not inferred personal values.
 Each card has a short `context.summary`. Preserve its source and method in
@@ -161,7 +164,7 @@ uv run --project library/tooling python -m unittest discover -s library/tooling 
 node --check website/assets/timeline.js
 ```
 
-For UI changes, test filtering, source details and opening local assets in an
+For UI changes, test filtering, direct content links and opening local assets in an
 isolated temporary library.
 Check desktop and phone layouts headlessly, including opening `website/index.html`
 through `file://` with no server. Do not alter Robert’s decisions or

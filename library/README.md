@@ -23,6 +23,13 @@ its recording can describe one performance. The same talk at another event is a
 separate work. Unknown dates stay under `undated/` until verified. Website previews
 are in `../website/assets/`; synthetic speech belongs in `../my-voice/generated/`.
 
+The former personal website's works use the same year/work folders. Its short
+descriptions are in each item's `context.summary`; there are no separate
+description files or early/late folder categories. Original filenames are retained
+where HTML pages depend on them. `metadata/references/old-website/repository.bundle`
+preserves the complete old Git repository, including history and the personal photo
+page, for restoration with `git clone repository.bundle <destination>`.
+
 ## How it was created
 
 Author pages, conference programmes, podcast pages and publisher links were checked

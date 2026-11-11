@@ -82,5 +82,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages.png",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://pluralsight.imgix.net/course-images/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages-v1.png",
+    "source_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/original.html"
   }
 }

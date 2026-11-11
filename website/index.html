@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Robert Sösemann · Public work</title>
+  <title>Robert Sösemann · Writing, talks & projects</title>
+  <meta name="description" content="Writing, talks and projects by and with Robert Sösemann (rsoesemann), including Salesforce, PMD, software craftsmanship and AI.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Robert Sösemann","alternateName":"rsoesemann","sameAs":["https://www.linkedin.com/in/rsoesemann/","https://github.com/rsoesemann","https://salesforce.stackexchange.com/users/256/","https://x.com/rsoesemann"]}</script>
   <link rel="stylesheet" href="assets/timeline.css">
   <script src="data/timeline-data.js" defer></script>
   <script src="assets/timeline.js" defer></script>
@@ -11,21 +13,34 @@
 <body>
   <header class="masthead">
     <div class="masthead-inner">
-      <div><p class="masthead-label">Public work</p><h1>Robert Sösemann</h1></div>
-      <span class="private-label">Private library</span>
+      <div class="identity">
+        <img class="profile-image" src="assets/profile.jpg" alt="Robert Sösemann" width="64" height="64">
+        <div><a class="site-name" href="index.html">rsoesemann</a><p class="masthead-label">Robert Sösemann</p></div>
+      </div>
+      <nav class="profile-links" aria-label="Find me elsewhere">
+        <a href="https://www.linkedin.com/in/rsoesemann/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/rsoesemann" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://salesforce.stackexchange.com/users/256/" target="_blank" rel="noopener noreferrer">Stack Exchange</a>
+        <a href="https://x.com/rsoesemann" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </nav>
     </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Work</a>
+    </nav>
   </header>
   <div class="page-scroll" id="page-scroll">
     <main>
+      <div class="page-heading"><h1>Work</h1><p>Writing, talks & projects.</p></div>
       <section class="timeline-section" aria-label="Activity and career timeline">
         <p class="timeline-hint">Activity & topics <span>Hover for a preview · click to jump to a year</span></p>
         <div id="wave-legend" class="wave-legend" aria-label="Topics in the activity wave"></div>
         <div class="timeline-axis">
           <nav id="years" class="years" aria-label="Jump to works by year"></nav>
-          <div id="career-bands" aria-label="Employment periods"></div>
+          <div id="career-bands" aria-label="School, university and career"></div>
         </div>
       </section>
       <section class="filter-panel" aria-label="Find work in the library">
+        <label class="early-years-toggle"><input id="early-years" type="checkbox"><span><strong>Early years</strong><small>School, Tübingen & California. Yes, the 1996 essay is here.</small></span><span class="early-years-count" id="early-years-count"></span></label>
         <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search the library" placeholder="Search a topic, person, or talk…"></label>
         <div class="filter-row"><span class="filter-label" id="format-label">Type</span><div id="filters" class="filters" aria-labelledby="format-label"></div></div>
         <div class="filter-row"><span class="filter-label" id="topic-label">Topic</span><div id="topic-filters" class="filters" aria-labelledby="topic-label"></div></div>
@@ -37,18 +52,8 @@
         <p id="error" class="error" role="alert" hidden></p>
       </section>
     </main>
+    <footer class="site-footer">© Robert Sösemann for his own contributions. All rights reserved unless otherwise stated.<br>Rights in collaborative and third-party material remain with the respective rights holders.</footer>
   </div>
   <section id="year-preview" class="year-preview" aria-label="Work previews" hidden></section>
-  <dialog id="reader">
-    <div class="reader-header"><span id="reader-format"></span><button id="close-reader" aria-label="Close item">✕</button></div>
-    <div class="reader-scroll">
-      <h2 id="reader-title"></h2><p id="reader-context"></p>
-      <div id="reader-media"></div>
-      <div id="reader-links" class="reader-links"></div>
-      <p id="reader-abstract" class="session-abstract" hidden></p>
-      <pre id="reader-text"></pre>
-      <section id="reader-sources"></section>
-    </div>
-  </dialog>
 </body>
 </html>

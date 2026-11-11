@@ -1,0 +1,102 @@
+{
+  "id": "letsstudyabroad",
+  "url": "https://rsoesemann.github.io/businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com.html",
+  "source": {
+    "slug": "letsstudyabroad",
+    "url": "https://rsoesemann.github.io/businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com.html",
+    "title": "Business Plan \"LetsStudyAbroad.com\"",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-03 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2001/letsstudyabroad",
+  "context": {
+    "format": "Business plan",
+    "where": "Cal State Hayward · USA",
+    "platform": "Cal State Hayward · USA",
+    "when": "2001-03",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Mark Malik"
+    ],
+    "topics": [],
+    "summary": "The company creates an Internet community attractive to international students (in the start-phase only European students) coming to the U.S. for educational purposes. Being by their sides as a strong guide and giving all the really helpful information, it is peace of mind what we offer to the students and their parents. Knowing the ropes first hand is our greatest assets. Timesaving is the second thing that comes to mind. We help in clearing the red tape and showing shortcuts to the most important to the least, almost luxurious tasks.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Project work for \"Management Of Multimedia Business\" course at Cal State Hayward); original index date 2001-03"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Business Plan \"LetsStudyAbroad.com\"",
+    "raw": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.html",
+    "date": "2001-03",
+    "author": "Robert Sösemann, Mark Malik"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Business Plan \"LetsStudyAbroad.com\"",
+    "raw": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.html",
+    "date": "2001-03",
+    "author": "Robert Sösemann, Mark Malik"
+  },
+  "attachments": [
+    {
+      "path": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.pdf",
+      "label": "Original PDF"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.html",
+        "original_path": "businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com.html",
+        "sha256": "07bdad9726ddf05e92d81da74a3c74a0cf94c81ccce3f8e70721e5faac2076e1",
+        "bytes": 49376
+      },
+      {
+        "path": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.pdf",
+        "original_path": "businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com.pdf",
+        "sha256": "1f2adb7e650e151f28eb32d8ebac4a4b02de9643ca665c64ac412f76a68e3d15",
+        "bytes": 209382
+      },
+      {
+        "path": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com_html_m30a8706f.gif",
+        "original_path": "businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com_html_m30a8706f.gif",
+        "sha256": "6e3ddf02f7266fed3fd20e07d72a502f22eb55ea093f924f76b52fb27b573266",
+        "bytes": 8397
+      },
+      {
+        "path": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com_html_m5bd19593.png",
+        "original_path": "businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com_html_m5bd19593.png",
+        "sha256": "3fc1b1e0dd8eed382edaec2222f375396f5ae126e3a52a1694ea1fb209fde82f",
+        "bytes": 2654
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.html",
+      "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.pdf",
+      "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com_html_m30a8706f.gif",
+      "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com_html_m5bd19593.png"
+    ]
+  },
+  "preview_path": "website/assets/previews/letsstudyabroad.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2001/letsstudyabroad/businessplan_letsstudyabroad_com.pdf",
+    "page": 1
+  }
+}

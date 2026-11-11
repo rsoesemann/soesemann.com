@@ -1,0 +1,456 @@
+{
+  "id": "java-servlets",
+  "url": "https://rsoesemann.github.io/servlet_presentation/servlet_presentation.html",
+  "source": {
+    "slug": "java-servlets",
+    "url": "https://rsoesemann.github.io/servlet_presentation/servlet_presentation.html",
+    "title": "Dynamische Webapplikationen mit Java Servlets",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2000-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2000/java-servlets",
+  "context": {
+    "format": "Projektarbeit",
+    "where": "Universität Tübingen",
+    "platform": "Universität Tübingen",
+    "when": "2000-02",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "Was sind Servlets und wie funktionieren sie Beschreibung des Projekts CD-Shopping Bestandteile der Applikation Kommunikationsmodel der Komponenten Ausblick/Fazit",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Projektarbeit für \"Programmieren im Internet\" an der Universität Tübingen); original index date 2000-02"
+      }
+    ],
+    "access": "HTML slides and source code ZIP are saved. The editable servlet_presentation.sdd linked by the original page is absent from the old repository."
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Dynamische Webapplikationen mit Java Servlets",
+    "raw": "library/2000/java-servlets/img0.html",
+    "date": "2000-02",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Dynamische Webapplikationen mit Java Servlets",
+    "raw": "library/2000/java-servlets/img0.html",
+    "date": "2000-02",
+    "author": "Robert Sösemann"
+  },
+  "attachments": [
+    {
+      "path": "library/2000/java-servlets/servlet_cdshop.zip",
+      "label": "Source code ZIP"
+    },
+    {
+      "path": "library/2000/java-servlets/servlet_presentation.html",
+      "label": "Presentation index"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2000/java-servlets/first0.gif",
+        "original_path": "servlet_presentation/first0.gif",
+        "sha256": "23128760943b6cf5142e12422f777f4cb77c26cb1c6950222809fbc881035a8f",
+        "bytes": 1205
+      },
+      {
+        "path": "library/2000/java-servlets/first1.gif",
+        "original_path": "servlet_presentation/first1.gif",
+        "sha256": "cd67009f31b2ba2a8a1db3d20ca6df02548baf07042cf55d1ecd0a6d84b71b3f",
+        "bytes": 1210
+      },
+      {
+        "path": "library/2000/java-servlets/img0.gif",
+        "original_path": "servlet_presentation/img0.gif",
+        "sha256": "72281fb32396e9ac3713d0505f9d88110985027d00d66834d2eba4f3449c962e",
+        "bytes": 15508
+      },
+      {
+        "path": "library/2000/java-servlets/img0.html",
+        "original_path": "servlet_presentation/img0.html",
+        "sha256": "52fb4ba8723811bd628cdca290122f9c2be1641dc655ad299f5eb2df21355f5d",
+        "bytes": 642
+      },
+      {
+        "path": "library/2000/java-servlets/img1.gif",
+        "original_path": "servlet_presentation/img1.gif",
+        "sha256": "e375ba2dbbde56604185e1331c02172962331107c9943c1f72f8a5a2dac4543a",
+        "bytes": 15909
+      },
+      {
+        "path": "library/2000/java-servlets/img1.html",
+        "original_path": "servlet_presentation/img1.html",
+        "sha256": "6eba88df42ea1fdf664cf3b7727e8ce86e828d97819a2d07382bdbe4d944c35a",
+        "bytes": 651
+      },
+      {
+        "path": "library/2000/java-servlets/img10.gif",
+        "original_path": "servlet_presentation/img10.gif",
+        "sha256": "4043edc12e75d144818c9b528cfbf462f97360d215547f860316e4a3acf8d3ee",
+        "bytes": 15981
+      },
+      {
+        "path": "library/2000/java-servlets/img10.html",
+        "original_path": "servlet_presentation/img10.html",
+        "sha256": "3ba2cab36733afc832b867bf3fa129b0c8eb7f78c59b90f9575a4cd0ce7284d6",
+        "bytes": 655
+      },
+      {
+        "path": "library/2000/java-servlets/img11.gif",
+        "original_path": "servlet_presentation/img11.gif",
+        "sha256": "fb176804561ee4b5ddc2e3dd9d6aa0b88340d364bd56e35230b3c215320810ee",
+        "bytes": 19548
+      },
+      {
+        "path": "library/2000/java-servlets/img11.html",
+        "original_path": "servlet_presentation/img11.html",
+        "sha256": "e99f68d6ba9f21ecf4be05ed929da0ae821ca9de302db9d1fe5bef74da57b1c3",
+        "bytes": 679
+      },
+      {
+        "path": "library/2000/java-servlets/img12.gif",
+        "original_path": "servlet_presentation/img12.gif",
+        "sha256": "1715fa42b8321e6b54690c31e5bee07c470485ab38568eea4d3f4df8d241c4c0",
+        "bytes": 15749
+      },
+      {
+        "path": "library/2000/java-servlets/img12.html",
+        "original_path": "servlet_presentation/img12.html",
+        "sha256": "ee83879922ee511aacad438488f1c4972f1734ee71cede633a43ea1066a94476",
+        "bytes": 656
+      },
+      {
+        "path": "library/2000/java-servlets/img13.gif",
+        "original_path": "servlet_presentation/img13.gif",
+        "sha256": "6a6b855a73a43e58d6764abf5a697c8f55eb79550006908f230ab3aec24d2b33",
+        "bytes": 15862
+      },
+      {
+        "path": "library/2000/java-servlets/img13.html",
+        "original_path": "servlet_presentation/img13.html",
+        "sha256": "506a8599538f69c687b2ef07b926abc48290ba88f078670e972eaf6c586faeeb",
+        "bytes": 612
+      },
+      {
+        "path": "library/2000/java-servlets/img2.gif",
+        "original_path": "servlet_presentation/img2.gif",
+        "sha256": "e9fbc4bed846daa40dfa6a4c2998e25983bedb4ac25ce0a51c787de4c383a4a4",
+        "bytes": 21336
+      },
+      {
+        "path": "library/2000/java-servlets/img2.html",
+        "original_path": "servlet_presentation/img2.html",
+        "sha256": "2fcbdd64a01f11abfbd379a84118bd18b329b784d3cbe8e2323a8373c09fb2e9",
+        "bytes": 665
+      },
+      {
+        "path": "library/2000/java-servlets/img3.gif",
+        "original_path": "servlet_presentation/img3.gif",
+        "sha256": "6c22d3bc6706628a5f30dba57bcfdb7bcbd68adec4a6b05de47ce8ba6afff58e",
+        "bytes": 14290
+      },
+      {
+        "path": "library/2000/java-servlets/img3.html",
+        "original_path": "servlet_presentation/img3.html",
+        "sha256": "769be7948b847ad5201712c5d542c35bb64ec8f882cfc936d9ea4fcdce5d7aa6",
+        "bytes": 672
+      },
+      {
+        "path": "library/2000/java-servlets/img4.gif",
+        "original_path": "servlet_presentation/img4.gif",
+        "sha256": "cc7d3ee01c274aee6b2cc27d9ac980095730e6f03dec0adc160cd52eb0e385ea",
+        "bytes": 13696
+      },
+      {
+        "path": "library/2000/java-servlets/img4.html",
+        "original_path": "servlet_presentation/img4.html",
+        "sha256": "e6fd229c970bcf356387a98a3ab930b0c53ff5025cfa1499d6f28d88bd583c10",
+        "bytes": 662
+      },
+      {
+        "path": "library/2000/java-servlets/img5.gif",
+        "original_path": "servlet_presentation/img5.gif",
+        "sha256": "2bbc5059e2eb2de04745b2f35a1f8c89beb66032f98e5c24b5c18b69cdd00092",
+        "bytes": 16002
+      },
+      {
+        "path": "library/2000/java-servlets/img5.html",
+        "original_path": "servlet_presentation/img5.html",
+        "sha256": "e2ddc3b7a4c8f2bde34900cf1e2e56a2d8c456bbb2a3878648e5ffc744995f47",
+        "bytes": 651
+      },
+      {
+        "path": "library/2000/java-servlets/img6.gif",
+        "original_path": "servlet_presentation/img6.gif",
+        "sha256": "25abf6216b3cbff01d88fd46e710f3a23cea122676346e9857b0e38987f5201a",
+        "bytes": 46923
+      },
+      {
+        "path": "library/2000/java-servlets/img6.html",
+        "original_path": "servlet_presentation/img6.html",
+        "sha256": "8bad0f69e46c541e443adccdf11e41033788f0025aca2f193620fdb303a79906",
+        "bytes": 663
+      },
+      {
+        "path": "library/2000/java-servlets/img7.gif",
+        "original_path": "servlet_presentation/img7.gif",
+        "sha256": "01563b632686504f1c1baabedc5d91c8937517629679271234dbf917283b122f",
+        "bytes": 15906
+      },
+      {
+        "path": "library/2000/java-servlets/img7.html",
+        "original_path": "servlet_presentation/img7.html",
+        "sha256": "5c6597c2033bb5d529c673a21436c3e6202585ce09c5a6db8444b1335c5fa002",
+        "bytes": 651
+      },
+      {
+        "path": "library/2000/java-servlets/img8.gif",
+        "original_path": "servlet_presentation/img8.gif",
+        "sha256": "fff71a3826d51e58e45da2fbf5170f8eb532bef38f3c04a8d537b9528778868d",
+        "bytes": 24486
+      },
+      {
+        "path": "library/2000/java-servlets/img8.html",
+        "original_path": "servlet_presentation/img8.html",
+        "sha256": "1afa0754790250026d64f365cd04f6db2933a864e37bbbde2c923d07c88b02d7",
+        "bytes": 672
+      },
+      {
+        "path": "library/2000/java-servlets/img9.gif",
+        "original_path": "servlet_presentation/img9.gif",
+        "sha256": "8ee468092b7c6da8591bbaa53031477d343be7795741c5de346fdee5a03a771f",
+        "bytes": 19921
+      },
+      {
+        "path": "library/2000/java-servlets/img9.html",
+        "original_path": "servlet_presentation/img9.html",
+        "sha256": "b0cc331c08317a39a3ec1c375dfd4bf51366838e22a658b160824e4dcfc5bbba",
+        "bytes": 653
+      },
+      {
+        "path": "library/2000/java-servlets/index.gif",
+        "original_path": "servlet_presentation/index.gif",
+        "sha256": "318a32ad9496febd4ccd10daec310405ee8182c54aa528d1ba216bbe428aa2bf",
+        "bytes": 1210
+      },
+      {
+        "path": "library/2000/java-servlets/last0.gif",
+        "original_path": "servlet_presentation/last0.gif",
+        "sha256": "7188de33b675168d1577a561149e8429e054944afa94324f485f697673031cd3",
+        "bytes": 1245
+      },
+      {
+        "path": "library/2000/java-servlets/last1.gif",
+        "original_path": "servlet_presentation/last1.gif",
+        "sha256": "12821ba226c82d0bc54def03a34695e6cb13405e54b1d020c4d1efab090c36f6",
+        "bytes": 1212
+      },
+      {
+        "path": "library/2000/java-servlets/next0.gif",
+        "original_path": "servlet_presentation/next0.gif",
+        "sha256": "9f8f7c7b5bbc05f24cac1bffd95c37452cc233d59be9ef5861fbfbf4d2447604",
+        "bytes": 1166
+      },
+      {
+        "path": "library/2000/java-servlets/next1.gif",
+        "original_path": "servlet_presentation/next1.gif",
+        "sha256": "01ccc9a341e5aa1a04c119706b31568d68c7500fb9cece364b21db3bd0e5c10e",
+        "bytes": 1171
+      },
+      {
+        "path": "library/2000/java-servlets/prev0.gif",
+        "original_path": "servlet_presentation/prev0.gif",
+        "sha256": "029393716d5146270b66d181b1cfca365e4e367cd14b23489332bdd4eeb52a6a",
+        "bytes": 1170
+      },
+      {
+        "path": "library/2000/java-servlets/prev1.gif",
+        "original_path": "servlet_presentation/prev1.gif",
+        "sha256": "3efcf386b47f062c54d8b47a95143239ecc8a79ce85281834d6f352612dbac7d",
+        "bytes": 1172
+      },
+      {
+        "path": "library/2000/java-servlets/servlet_cdshop.zip",
+        "original_path": "servlet_presentation/servlet_cdshop.zip",
+        "sha256": "0e6103d161a71af6fe450538dfe6e0200cc1f34fb9f091b9560796135fed0433",
+        "bytes": 108998
+      },
+      {
+        "path": "library/2000/java-servlets/servlet_presentation.html",
+        "original_path": "servlet_presentation/servlet_presentation.html",
+        "sha256": "267e2f638e33094641726b2212c8de6d0f60e82f97aa67e7cf718d51c397baef",
+        "bytes": 1656
+      },
+      {
+        "path": "library/2000/java-servlets/text.gif",
+        "original_path": "servlet_presentation/text.gif",
+        "sha256": "e67540421a6043aa76b0a5daa0ac3459004b4f8799caa3882121973fb583d392",
+        "bytes": 1270
+      },
+      {
+        "path": "library/2000/java-servlets/text0.html",
+        "original_path": "servlet_presentation/text0.html",
+        "sha256": "a9eee9216a020e444ed5189ea38ad00de8baa84f9e659004ce20ddbbf2e92052",
+        "bytes": 701
+      },
+      {
+        "path": "library/2000/java-servlets/text1.html",
+        "original_path": "servlet_presentation/text1.html",
+        "sha256": "e72a9e794c79b768a027ca78e2bc7e9c34ac2e4845dbdd45dab334e8cfcfa9bf",
+        "bytes": 719
+      },
+      {
+        "path": "library/2000/java-servlets/text10.html",
+        "original_path": "servlet_presentation/text10.html",
+        "sha256": "71d46f208e329c7fc8693c2c1003d200a98d242257338909cfeeaaf8f91aff29",
+        "bytes": 412
+      },
+      {
+        "path": "library/2000/java-servlets/text11.html",
+        "original_path": "servlet_presentation/text11.html",
+        "sha256": "fbd87dfc9b52209500f452b63b7813949816cc95fa6fa4856dfcbefd44f3546a",
+        "bytes": 474
+      },
+      {
+        "path": "library/2000/java-servlets/text12.html",
+        "original_path": "servlet_presentation/text12.html",
+        "sha256": "079b14679a42d583cfe1430ea8861e223face0ae2e359d59a74063d4ebd97a38",
+        "bytes": 745
+      },
+      {
+        "path": "library/2000/java-servlets/text13.html",
+        "original_path": "servlet_presentation/text13.html",
+        "sha256": "5550d58ca498fcc130f32d31e6daa478d11ee3160c1e0f7bd6bffe627c46fc96",
+        "bytes": 882
+      },
+      {
+        "path": "library/2000/java-servlets/text2.html",
+        "original_path": "servlet_presentation/text2.html",
+        "sha256": "e013ad36a10e1b8d305977561742a2396854df2e2b3b934b1d9d3368f3ee14a8",
+        "bytes": 865
+      },
+      {
+        "path": "library/2000/java-servlets/text3.html",
+        "original_path": "servlet_presentation/text3.html",
+        "sha256": "a2b01c7276f61b6803b81b813b87ad676b0423b019ddc237aab55b71b14a7b54",
+        "bytes": 430
+      },
+      {
+        "path": "library/2000/java-servlets/text4.html",
+        "original_path": "servlet_presentation/text4.html",
+        "sha256": "f6b297162f79ff14c3778dd2b932c70016954b943960cc250f63e21ebd7cd40f",
+        "bytes": 445
+      },
+      {
+        "path": "library/2000/java-servlets/text5.html",
+        "original_path": "servlet_presentation/text5.html",
+        "sha256": "6acd84ce37af6a5419fbf2ebca6cc5aeede89f27f9ded51fa97b1c1f792c19c8",
+        "bytes": 712
+      },
+      {
+        "path": "library/2000/java-servlets/text6.html",
+        "original_path": "servlet_presentation/text6.html",
+        "sha256": "1091004bddb4f39edb7131e9cee7389c6182878d516fcf374a1fd4ef6d11e97f",
+        "bytes": 729
+      },
+      {
+        "path": "library/2000/java-servlets/text7.html",
+        "original_path": "servlet_presentation/text7.html",
+        "sha256": "6f6742a3691d7bcdecb7ce9f778da9c8977bfaeb4238d8ce0c37f63536b65cdf",
+        "bytes": 719
+      },
+      {
+        "path": "library/2000/java-servlets/text8.html",
+        "original_path": "servlet_presentation/text8.html",
+        "sha256": "da609bc6d7be9deb1dcd3997566a361e7476ff3e38de3fa302ddf22ef3af0c12",
+        "bytes": 1139
+      },
+      {
+        "path": "library/2000/java-servlets/text9.html",
+        "original_path": "servlet_presentation/text9.html",
+        "sha256": "c17b61a52c85d2212936e2ec31ad8e833be5824b726a11abc893bf211e5114fb",
+        "bytes": 411
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2000/java-servlets/first0.gif",
+      "library/2000/java-servlets/first1.gif",
+      "library/2000/java-servlets/img0.gif",
+      "library/2000/java-servlets/img0.html",
+      "library/2000/java-servlets/img1.gif",
+      "library/2000/java-servlets/img1.html",
+      "library/2000/java-servlets/img10.gif",
+      "library/2000/java-servlets/img10.html",
+      "library/2000/java-servlets/img11.gif",
+      "library/2000/java-servlets/img11.html",
+      "library/2000/java-servlets/img12.gif",
+      "library/2000/java-servlets/img12.html",
+      "library/2000/java-servlets/img13.gif",
+      "library/2000/java-servlets/img13.html",
+      "library/2000/java-servlets/img2.gif",
+      "library/2000/java-servlets/img2.html",
+      "library/2000/java-servlets/img3.gif",
+      "library/2000/java-servlets/img3.html",
+      "library/2000/java-servlets/img4.gif",
+      "library/2000/java-servlets/img4.html",
+      "library/2000/java-servlets/img5.gif",
+      "library/2000/java-servlets/img5.html",
+      "library/2000/java-servlets/img6.gif",
+      "library/2000/java-servlets/img6.html",
+      "library/2000/java-servlets/img7.gif",
+      "library/2000/java-servlets/img7.html",
+      "library/2000/java-servlets/img8.gif",
+      "library/2000/java-servlets/img8.html",
+      "library/2000/java-servlets/img9.gif",
+      "library/2000/java-servlets/img9.html",
+      "library/2000/java-servlets/index.gif",
+      "library/2000/java-servlets/last0.gif",
+      "library/2000/java-servlets/last1.gif",
+      "library/2000/java-servlets/next0.gif",
+      "library/2000/java-servlets/next1.gif",
+      "library/2000/java-servlets/prev0.gif",
+      "library/2000/java-servlets/prev1.gif",
+      "library/2000/java-servlets/servlet_cdshop.zip",
+      "library/2000/java-servlets/servlet_presentation.html",
+      "library/2000/java-servlets/text.gif",
+      "library/2000/java-servlets/text0.html",
+      "library/2000/java-servlets/text1.html",
+      "library/2000/java-servlets/text10.html",
+      "library/2000/java-servlets/text11.html",
+      "library/2000/java-servlets/text12.html",
+      "library/2000/java-servlets/text13.html",
+      "library/2000/java-servlets/text2.html",
+      "library/2000/java-servlets/text3.html",
+      "library/2000/java-servlets/text4.html",
+      "library/2000/java-servlets/text5.html",
+      "library/2000/java-servlets/text6.html",
+      "library/2000/java-servlets/text7.html",
+      "library/2000/java-servlets/text8.html",
+      "library/2000/java-servlets/text9.html"
+    ]
+  },
+  "preview_path": "website/assets/previews/java-servlets.jpg",
+  "preview_evidence": {
+    "method": "browser screenshot of original page",
+    "source": "library/2000/java-servlets/img0.html"
+  }
+}

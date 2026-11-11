@@ -46,5 +46,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/talk-2022-code-analyzer-john-belo-roopa-mohan.jpg",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/appexchange-tech-talk-recap-why-every-isv-should-know-salesforce-code-analyser-and-the-new-graph-engine.jpg",
+    "source_path": "library/2022/2022-code-analyzer-john-belo-roopa-mohan/coverage.html"
   }
 }

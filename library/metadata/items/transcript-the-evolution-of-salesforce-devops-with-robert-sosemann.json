@@ -78,5 +78,10 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/transcript-the-evolution-of-salesforce-devops-with-robert-sosemann.jpg",
+  "preview_evidence": {
+    "method": "browser screenshot of original page",
+    "source": "https://hutte.io/company-blog/pragmatic-coding-to-ai-the-evolution-of-salesforce-devops/"
   }
 }

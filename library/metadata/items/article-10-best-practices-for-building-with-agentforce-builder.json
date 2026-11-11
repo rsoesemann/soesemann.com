@@ -76,5 +76,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/article-10-best-practices-for-building-with-agentforce-builder.webp",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/top-10-best-practices-for-building-with-agentforce.webp",
+    "source_path": "library/2025/10-best-practices-for-building-with-agentforce-builder/original.html"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "reference-old-website",
+  "url": "https://rsoesemann.github.io/",
+  "source": {
+    "slug": "reference-old-website",
+    "url": "https://rsoesemann.github.io/",
+    "title": "Original openproject website",
+    "kind": "profile",
+    "role": "reference",
+    "evidence": "Original repository snapshot and history preserved before migration."
+  },
+  "collection": "reference",
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Original openproject website",
+    "raw": "library/metadata/references/old-website/original.html"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Original openproject website",
+    "raw": "library/metadata/references/old-website/original.html"
+  },
+  "publication": {
+    "include": false
+  },
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "bundle_path": "library/metadata/references/old-website/repository.bundle",
+    "bundle_sha256": "ba74fdf166736f1e31dec5ac036bb662bdc3ae95fedc6543898f7a7031532fd0",
+    "tracked_files": 222
+  }
+}

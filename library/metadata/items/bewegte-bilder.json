@@ -1,0 +1,74 @@
+{
+  "id": "bewegte-bilder",
+  "url": "https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf",
+  "source": {
+    "slug": "bewegte-bilder",
+    "url": "https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf",
+    "title": "Redesign des Bewegte Bilder Webauftrittes",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "PDF cover credits Robert Sösemann and dates the presentation 30 April 2000; describes team project work."
+  },
+  "library_dir": "library/2000/bewegte-bilder",
+  "context": {
+    "format": "Projektpräsentation",
+    "where": "Seminar „Multimediale Firmenpräsentation im Internet“",
+    "platform": "Studium",
+    "when": "2000-04-30",
+    "date_label": "Presentation",
+    "with_whom": "Project team; names not established",
+    "topics": [],
+    "summary": "Multimediale Firmenpräsentation im Internet WS 99/00. Projektrückblick: Redesign des Bewegte Bilder Webauftrittes.",
+    "summary_basis": {
+      "method": "cover text, whitespace normalized",
+      "url": "https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf",
+      "page": 1
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf",
+        "detail": "Cover: seminar title, author and 30 April 2000. Institution not stated on cover."
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Redesign des Bewegte Bilder Webauftrittes",
+    "date": "2000-04-30",
+    "raw": "library/2000/bewegte-bilder/original.pdf",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Redesign des Bewegte Bilder Webauftrittes",
+    "date": "2000-04-30",
+    "raw": "library/2000/bewegte-bilder/original.pdf",
+    "author": "Robert Sösemann"
+  },
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2000/bewegte-bilder/original.pdf",
+        "original_path": "mmfirmenpraesentation/mmfirmenpraesentation.pdf",
+        "sha256": "bc381dafd62113d1455e9ac9185659bdb90b29615bb6a95e0fa4d9e90221bb66",
+        "bytes": 487808
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2000/bewegte-bilder/original.pdf"
+    ]
+  },
+  "preview_path": "website/assets/previews/bewegte-bilder.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2000/bewegte-bilder/original.pdf",
+    "page": 1
+  }
+}

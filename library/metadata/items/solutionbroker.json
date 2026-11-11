@@ -1,0 +1,82 @@
+{
+  "id": "solutionbroker",
+  "url": "https://rsoesemann.github.io/solbroker_final.pdf",
+  "source": {
+    "slug": "solutionbroker",
+    "url": "https://rsoesemann.github.io/solbroker_final.pdf",
+    "title": "SolutionBroker - Konzeption und Implementierung eines verteilten Hilfesystems",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2003-12 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2003/solutionbroker",
+  "context": {
+    "format": "Diplomarbeit",
+    "where": "IBM · Böblingen",
+    "platform": "IBM · Böblingen",
+    "when": "2003-12",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "Um als Anwender bei Softwareproblemen einfacher eigene Lösungen zur Verfügung stellen zu können oder auf existierende Lösungen zugreifen zu können, wurde ein neues Hilfesystem konzipiert und realisiert, dessen Grundidee von IBM stammt. Es sieht vor, Lösungen zentral und inklusive einer um Kontextinformation erweiterte Problembeschreibung abzulegen. Durch ein einheitliches und maschinenlesbares Format werden Unklarheiten vermieden und eine automatische Lösungssuche möglich. Ein automatischer Vergleich der Problembeschreibungen identifiziert dabei ähnliche Probleme und gibt nur potentiell relevante Lösungen aus.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Diplomarbeit bei IBM Entwicklung und Forschung, Böblingen); original index date 2003-12"
+      },
+      {
+        "path": "library/2003/solutionbroker/solbroker_final.pdf",
+        "page": 1,
+        "detail": "Cover names Universität Tübingen and IBM; submission deadline 13 November 2003. Original website lists December 2003; retained as listing date, not asserted as submission date."
+      }
+    ],
+    "employer": "IBM"
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "SolutionBroker - Konzeption und Implementierung eines verteilten Hilfesystems",
+    "raw": "library/2003/solutionbroker/solbroker_final.pdf",
+    "date": "2003-12",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "SolutionBroker - Konzeption und Implementierung eines verteilten Hilfesystems",
+    "raw": "library/2003/solutionbroker/solbroker_final.pdf",
+    "date": "2003-12",
+    "author": "Robert Sösemann"
+  },
+  "attachments": [],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2003/solutionbroker/solbroker_final.pdf",
+        "original_path": "solbroker_final.pdf",
+        "sha256": "ca0dd59d65de4872aabe9ec6b4040437d590f01d9d948892a23c412a3b86cedf",
+        "bytes": 1827576
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2003/solutionbroker/solbroker_final.pdf"
+    ]
+  },
+  "preview_path": "website/assets/previews/solutionbroker.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2003/solutionbroker/solbroker_final.pdf",
+    "page": 1
+  }
+}

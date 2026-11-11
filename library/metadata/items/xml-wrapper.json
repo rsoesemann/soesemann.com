@@ -1,0 +1,149 @@
+{
+  "id": "xml-wrapper",
+  "url": "https://rsoesemann.github.io/sa.html",
+  "source": {
+    "slug": "xml-wrapper",
+    "url": "https://rsoesemann.github.io/sa.html",
+    "title": "Entwurf und Implementierung eines konfigurierbaren Wrappers für XML-basierte Informationsquellen",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2002-04 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2002/xml-wrapper",
+  "context": {
+    "format": "Studienarbeit",
+    "where": "Universität Tübingen",
+    "platform": "Universität Tübingen",
+    "when": "2002-04",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "Neben der Implementierung des Wrappers in Java lagen die Schwerpunkte der Arbeit auf zwei Entwurfsentscheidungen: ! Syntax der Konfigurationsdateien (Welche Informationen muessen sie liefern, um Nutzeranfragen abzubilden?) ! Eignung verschiedener XML-Abfragemechanismen (Welche Sprache erfüllt die Erfordernisse besser - XSLT oder XQuery?)",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Studienarbeit am Lehrstuhl \"Datenbanken und Informationssysteme\" der Universität Tübingen); original index date 2002-04"
+      }
+    ],
+    "access": "The presentation.pdf linked by the old website is absent from its repository. The written work and implementation ZIP are preserved."
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Entwurf und Implementierung eines konfigurierbaren Wrappers für XML-basierte Informationsquellen",
+    "raw": "library/2002/xml-wrapper/sa.html",
+    "date": "2002-04",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Entwurf und Implementierung eines konfigurierbaren Wrappers für XML-basierte Informationsquellen",
+    "raw": "library/2002/xml-wrapper/sa.html",
+    "date": "2002-04",
+    "author": "Robert Sösemann"
+  },
+  "attachments": [
+    {
+      "path": "library/2002/xml-wrapper/ausarbeitung.pdf",
+      "label": "Original PDF"
+    },
+    {
+      "path": "library/2002/xml-wrapper/implementierung.zip",
+      "label": "Source code ZIP"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2002/xml-wrapper/sa.html",
+        "original_path": "sa.html",
+        "sha256": "f2833ceb2d45a188a052750caac49d2250d5a5b4f7b40b3d2c19aa5e7dba4046",
+        "bytes": 137598
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_2dbbe4d9.gif",
+        "original_path": "sa_html_2dbbe4d9.gif",
+        "sha256": "cb0350e33cf3c0c7c2f0f8e5ee6b05f9625e279dc4f6fd93d2dee02d30ebd21a",
+        "bytes": 25124
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_3b35fa59.gif",
+        "original_path": "sa_html_3b35fa59.gif",
+        "sha256": "cd98d79de803c18e1f5e5c9796a5fe8d2db54d576b7123fa4a619066cdd555fc",
+        "bytes": 843
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_43279beb.gif",
+        "original_path": "sa_html_43279beb.gif",
+        "sha256": "92db65e18be401f8958f5e4da84f2bd93cd980e7d567f8ebbb454ff083854c98",
+        "bytes": 843
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_54cfb406.gif",
+        "original_path": "sa_html_54cfb406.gif",
+        "sha256": "4d1762dc3bb27da26c99e9ff59ae1201d18c23508816d1add9ef37560b9c0861",
+        "bytes": 1421
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_m2840c989.png",
+        "original_path": "sa_html_m2840c989.png",
+        "sha256": "77cb8533e3b8681a311808857edb203653100ca323c2fe5b1501e3317a74bf2a",
+        "bytes": 3311
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_m2f939274.gif",
+        "original_path": "sa_html_m2f939274.gif",
+        "sha256": "a9e7e7fe1f79e4a283f941e4c5d9085c950d8b694abff22cbdb15121c8ee4dbd",
+        "bytes": 1091
+      },
+      {
+        "path": "library/2002/xml-wrapper/sa_html_m528af108.gif",
+        "original_path": "sa_html_m528af108.gif",
+        "sha256": "b77446b1f04314bf5d907da034cffb25527aa63764405019159ecceffd14d176",
+        "bytes": 4486
+      },
+      {
+        "path": "library/2002/xml-wrapper/ausarbeitung.pdf",
+        "original_path": "studienarbeit/ausarbeitung.pdf",
+        "sha256": "1a70aa89694c4c0995b0593bddaac95aaf5dcb1bc2b4730e1f9b230986edaad4",
+        "bytes": 373985
+      },
+      {
+        "path": "library/2002/xml-wrapper/implementierung.zip",
+        "original_path": "studienarbeit/implementierung.zip",
+        "sha256": "e0d8f613ee7a15222267325c8d2a74e4ab16dc90dd449441455d3b3a04c73a69",
+        "bytes": 4523479
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2002/xml-wrapper/sa.html",
+      "library/2002/xml-wrapper/sa_html_2dbbe4d9.gif",
+      "library/2002/xml-wrapper/sa_html_3b35fa59.gif",
+      "library/2002/xml-wrapper/sa_html_43279beb.gif",
+      "library/2002/xml-wrapper/sa_html_54cfb406.gif",
+      "library/2002/xml-wrapper/sa_html_m2840c989.png",
+      "library/2002/xml-wrapper/sa_html_m2f939274.gif",
+      "library/2002/xml-wrapper/sa_html_m528af108.gif",
+      "library/2002/xml-wrapper/ausarbeitung.pdf",
+      "library/2002/xml-wrapper/implementierung.zip"
+    ]
+  },
+  "preview_path": "website/assets/previews/xml-wrapper.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2002/xml-wrapper/ausarbeitung.pdf",
+    "page": 1
+  }
+}

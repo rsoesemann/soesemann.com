@@ -1,0 +1,125 @@
+{
+  "id": "nixgeht",
+  "url": "https://rsoesemann.github.io/basiskonzept_nixgeht_de/basiskonzept_nixgeht_de.html",
+  "source": {
+    "slug": "nixgeht",
+    "url": "https://rsoesemann.github.io/basiskonzept_nixgeht_de/basiskonzept_nixgeht_de.html",
+    "title": "Kurzkonzept Web Community \"nixgeht.de\"",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 1999-10 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/1999/nixgeht",
+  "context": {
+    "format": "Projektarbeit",
+    "where": "Universität Tübingen",
+    "platform": "Universität Tübingen",
+    "when": "1999-10",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Horst Rechner",
+      "Daniel Brintzinger"
+    ],
+    "topics": [],
+    "summary": "Das deutschsprachige Webangebot 'nixgeht.de' soll eine verlässliche Anlaufstelle für alle unbedarften Computeranfänger sein. In einer zeitgemäßen und unkomplizierten Form der Newsgroups im Web sollen sich die Neueinsteiger „verstanden“ und mit Hilfe von Gleichgesinnten Antworten auf ihre Fragen bezüglich Hard- und Software bekommen.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Projektarbeit für Seminar \"ZDF-Online\" an der Universität Tübingen); original index date 1999-10"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Kurzkonzept Web Community \"nixgeht.de\"",
+    "raw": "library/1999/nixgeht/basiskonzept_nixgeht_de.html",
+    "date": "1999-10",
+    "author": "Robert Sösemann, Horst Rechner, Daniel Brintzinger"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Kurzkonzept Web Community \"nixgeht.de\"",
+    "raw": "library/1999/nixgeht/basiskonzept_nixgeht_de.html",
+    "date": "1999-10",
+    "author": "Robert Sösemann, Horst Rechner, Daniel Brintzinger"
+  },
+  "attachments": [
+    {
+      "path": "library/1999/nixgeht/NixGeht.doc",
+      "label": "Editable original"
+    },
+    {
+      "path": "library/1999/nixgeht/NixGeht.sxw",
+      "label": "Editable original"
+    },
+    {
+      "path": "library/1999/nixgeht/basiskonzept_nixgeht_de.pdf",
+      "label": "Original PDF"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/1999/nixgeht/NixGeht.doc",
+        "original_path": "basiskonzept_nixgeht_de/NixGeht.doc",
+        "sha256": "53465a4c0a6ec5856053add158efc97535777d41ee4ed8c196f184722d503edb",
+        "bytes": 83283
+      },
+      {
+        "path": "library/1999/nixgeht/NixGeht.sxw",
+        "original_path": "basiskonzept_nixgeht_de/NixGeht.sxw",
+        "sha256": "594b2528369409b2ebe2e43c77fd63c16124099b0e325fcd8c001177cb49b89c",
+        "bytes": 17065
+      },
+      {
+        "path": "library/1999/nixgeht/basiskonzept_nixgeht_de.html",
+        "original_path": "basiskonzept_nixgeht_de/basiskonzept_nixgeht_de.html",
+        "sha256": "af7d5ce14e480460c85425c038adac31f316786a63fd85bdcf6079f7045b4c8d",
+        "bytes": 25408
+      },
+      {
+        "path": "library/1999/nixgeht/basiskonzept_nixgeht_de.pdf",
+        "original_path": "basiskonzept_nixgeht_de/basiskonzept_nixgeht_de.pdf",
+        "sha256": "455f200aae4f9ed97304ff634a45e02df1b659c026d13c0326548e39ef51c056",
+        "bytes": 85835
+      },
+      {
+        "path": "library/1999/nixgeht/basiskonzept_nixgeht_de_html_69e26fd9.gif",
+        "original_path": "basiskonzept_nixgeht_de/basiskonzept_nixgeht_de_html_69e26fd9.gif",
+        "sha256": "0d52ffe8f500afcd68ee836f190e203d146954400334d4e833fc87e12e5f396a",
+        "bytes": 37514
+      },
+      {
+        "path": "library/1999/nixgeht/basiskonzept_nixgeht_de_html_m1215b13c.png",
+        "original_path": "basiskonzept_nixgeht_de/basiskonzept_nixgeht_de_html_m1215b13c.png",
+        "sha256": "85464f83bc0cec7997139c13be44906a69f0930f8732dae1360fdc55a072cbf2",
+        "bytes": 2338
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/1999/nixgeht/NixGeht.doc",
+      "library/1999/nixgeht/NixGeht.sxw",
+      "library/1999/nixgeht/basiskonzept_nixgeht_de.html",
+      "library/1999/nixgeht/basiskonzept_nixgeht_de.pdf",
+      "library/1999/nixgeht/basiskonzept_nixgeht_de_html_69e26fd9.gif",
+      "library/1999/nixgeht/basiskonzept_nixgeht_de_html_m1215b13c.png"
+    ]
+  },
+  "preview_path": "website/assets/previews/nixgeht.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/1999/nixgeht/basiskonzept_nixgeht_de.pdf",
+    "page": 1
+  }
+}

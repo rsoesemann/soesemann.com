@@ -1,0 +1,75 @@
+{
+  "id": "utopia-and-antiutopia",
+  "url": "https://rsoesemann.github.io/facharbeit_utopia_and_antiutopia.html",
+  "source": {
+    "slug": "utopia-and-antiutopia",
+    "url": "https://rsoesemann.github.io/facharbeit_utopia_and_antiutopia.html",
+    "title": "Utopia and anti-utopia - Thomas Morus \"Utopia\" and George Orwell's \"1984\" compared",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 1996-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/1996/utopia-and-antiutopia",
+  "context": {
+    "format": "Facharbeit Englisch",
+    "where": "Albert-Einstein-Gymnasium · München",
+    "platform": "Albert-Einstein-Gymnasium · München",
+    "when": "1996-02",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "A Introduction: B About the two books: I.) Thomas Morus and his work \"Utopia\" 1.) Biography 2.) Surroundins and intentions for the book 3.) Summary of \"Utopia\" II.) George Orwell and his work \"1984\" 1.) Biography 2.) Surroundings and intentions for the book 3.) Summary of \"1984\" C Utopia and anti-utopia: I.) Definition of the term utopia II.) Detailled describtion of Morus positive world III.) Definintion of the term anti-utopia IV.) Detailled describtion of Orwells terrific world D Dependance of the authors points of view from time and experience I.) Comparison of seemingly different aspects 1.) Loss of Individuality 2.) Ideology II.) Short outline: What became reality and what not? E Annotations and Bibliography:",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Facharbeit LK Englisch, Albert-Einstein-Gymnasium, München); original index date 1996-02"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Utopia and anti-utopia - Thomas Morus \"Utopia\" and George Orwell's \"1984\" compared",
+    "raw": "library/1996/utopia-and-antiutopia/facharbeit_utopia_and_antiutopia.html",
+    "date": "1996-02",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Utopia and anti-utopia - Thomas Morus \"Utopia\" and George Orwell's \"1984\" compared",
+    "raw": "library/1996/utopia-and-antiutopia/facharbeit_utopia_and_antiutopia.html",
+    "date": "1996-02",
+    "author": "Robert Sösemann"
+  },
+  "attachments": [],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/1996/utopia-and-antiutopia/facharbeit_utopia_and_antiutopia.html",
+        "original_path": "facharbeit_utopia_and_antiutopia.html",
+        "sha256": "47dc4d5f58cf9e45bdb9d9ac027040ff166ad810d8da371f3f6f4c766bd174a8",
+        "bytes": 73011
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/1996/utopia-and-antiutopia/facharbeit_utopia_and_antiutopia.html"
+    ]
+  },
+  "preview_path": "website/assets/previews/utopia-and-antiutopia.jpg",
+  "preview_evidence": {
+    "method": "browser screenshot of original page",
+    "source": "library/1996/utopia-and-antiutopia/facharbeit_utopia_and_antiutopia.html"
+  }
+}

@@ -92,3 +92,45 @@ Generated from the catalogue. A source link does not mean its recording is saved
 | Work | Format | Saved recording | Sources |
 | --- | --- | --- | --- |
 | [Clean Apex Code with Automatic Code Metrics](2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=bW7m6y6bEug) |
+
+## 2003
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [SolutionBroker - Konzeption und Implementierung eines verteilten Hilfesystems](2003/solutionbroker/) | Diplomarbeit | Not applicable | [Source 1](https://rsoesemann.github.io/solbroker_final.pdf) |
+
+## 2002
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [Vorstellung der Arbeit "Recommendation systems: a probabilistic analysis"](2002/recommendation-systems/) | Seminararbeit | Not applicable | [Source 1](https://rsoesemann.github.io/collab_filtering/collabfilter_ausarbeitung.pdf) |
+| [Entwurf und Implementierung eines konfigurierbaren Wrappers für XML-basierte Informationsquellen](2002/xml-wrapper/) | Studienarbeit | Not applicable | [Source 1](https://rsoesemann.github.io/sa.html) |
+| [Wissensmanagement in der Abteilung - Austausch/Erhalt von unternehmenswertvollem Wissen](2002/wissensmanagement/) | Case study | Not applicable | [Source 1](https://rsoesemann.github.io/wissensmanagement_in_abteilungen.html) |
+
+## 2001
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [Das Semantic Web](2001/semantic-web/) | Seminararbeit | Not applicable | [Source 1](https://rsoesemann.github.io/seminar_semanticweb/seminar_semanticweb.html) |
+| [Business Plan "LetsStudyAbroad.com"](2001/letsstudyabroad/) | Business plan | Not applicable | [Source 1](https://rsoesemann.github.io/businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com.html) |
+| [Feasibility Study "requipper.com"](2001/requipper/) | Feasibility study | Not applicable | [Source 1](https://rsoesemann.github.io/feasibilitystudy_requipper_com/feasibilitystudy_requipper_com.html) |
+| [Cookies - Current webtracking technology](2001/webtracking-cookies/) | Mini-presentation | Not applicable | [Source 1](https://rsoesemann.github.io/webtracking_cookies/webtracking_cookies.html) |
+
+## 2000
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [Redesign des Bewegte Bilder Webauftrittes](2000/bewegte-bilder/) | Projektpräsentation | Not applicable | [Source 1](https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf) |
+| [Dynamische Webapplikationen mit Java Servlets](2000/java-servlets/) | Projektarbeit | Not applicable | [Source 1](https://rsoesemann.github.io/servlet_presentation/servlet_presentation.html) |
+
+## 1999
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [Kurzkonzept Web Community "nixgeht.de"](1999/nixgeht/) | Projektarbeit | Not applicable | [Source 1](https://rsoesemann.github.io/basiskonzept_nixgeht_de/basiskonzept_nixgeht_de.html) |
+
+## 1996
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [Utopia and anti-utopia - Thomas Morus "Utopia" and George Orwell's "1984" compared](1996/utopia-and-antiutopia/) | Facharbeit Englisch | Not applicable | [Source 1](https://rsoesemann.github.io/facharbeit_utopia_and_antiutopia.html) |

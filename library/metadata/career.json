@@ -58,5 +58,26 @@
       "evidence": "Read directly from LinkedIn Experience section in logged-in Safari. Year-only dates retained at source precision."
     }
   ],
-  "coverage": "Five employers visible on the main LinkedIn profile; earlier experience not yet inspected. Aquiva roles both shown as Present; neither end date inferred."
+  "coverage": "Five employers visible on the main LinkedIn profile; earlier experience not yet inspected. Aquiva roles both shown as Present; neither end date inferred.",
+  "life_stages": [
+    {
+      "name": "School",
+      "start": null,
+      "end": "1997",
+      "kind": "school"
+    },
+    {
+      "name": "University · Tübingen & San Francisco",
+      "start": "1997",
+      "end": "2003",
+      "kind": "university"
+    },
+    {
+      "name": "Other jobs",
+      "start": "2003",
+      "end": "2012",
+      "kind": "career"
+    }
+  ],
+  "life_stages_evidence": "Robert confirmed these broad stages on 2026-11-11, combining Tübingen and his USA exchange in one university band. Other jobs covers 2003 until the first named employer displayed, Up2Go in 2012. Year boundaries are schematic, not exact school or employment dates."
 }

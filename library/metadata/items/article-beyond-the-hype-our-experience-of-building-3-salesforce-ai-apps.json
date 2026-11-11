@@ -73,5 +73,10 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/article-beyond-the-hype-our-experience-of-building-3-salesforce-ai-apps.png",
+  "preview_evidence": {
+    "method": "publisher image loaded by original page",
+    "url": "https://www.salesforceben.com/wp-content/uploads/2024/03/Beyond-the-Hype-Our-Experience-of-Building-3-Salesforce-AI-Apps-768x432.png"
   }
 }

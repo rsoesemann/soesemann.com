@@ -445,5 +445,109 @@
     "role": "speech_unverified",
     "discovered_from": "https://www.youtube.com/results?search_query=Robert+Soesemann+Salesforce",
     "evidence": "YouTube publisher title and channel metadata explicitly identify Robert."
+  },
+  {
+    "slug": "solutionbroker",
+    "url": "https://rsoesemann.github.io/solbroker_final.pdf",
+    "title": "SolutionBroker - Konzeption und Implementierung eines verteilten Hilfesystems",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2003-12 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "recommendation-systems",
+    "url": "https://rsoesemann.github.io/collab_filtering/collabfilter_ausarbeitung.pdf",
+    "title": "Vorstellung der Arbeit \"Recommendation systems: a probabilistic analysis\"",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2002-12 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "xml-wrapper",
+    "url": "https://rsoesemann.github.io/sa.html",
+    "title": "Entwurf und Implementierung eines konfigurierbaren Wrappers für XML-basierte Informationsquellen",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2002-04 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "wissensmanagement",
+    "url": "https://rsoesemann.github.io/wissensmanagement_in_abteilungen.html",
+    "title": "Wissensmanagement in der Abteilung - Austausch/Erhalt von unternehmenswertvollem Wissen",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2002-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "semantic-web",
+    "url": "https://rsoesemann.github.io/seminar_semanticweb/seminar_semanticweb.html",
+    "title": "Das Semantic Web",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-06 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "letsstudyabroad",
+    "url": "https://rsoesemann.github.io/businessplan_letsstudyabroad_com/businessplan_letsstudyabroad_com.html",
+    "title": "Business Plan \"LetsStudyAbroad.com\"",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-03 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "requipper",
+    "url": "https://rsoesemann.github.io/feasibilitystudy_requipper_com/feasibilitystudy_requipper_com.html",
+    "title": "Feasibility Study \"requipper.com\"",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "webtracking-cookies",
+    "url": "https://rsoesemann.github.io/webtracking_cookies/webtracking_cookies.html",
+    "title": "Cookies - Current webtracking technology",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "java-servlets",
+    "url": "https://rsoesemann.github.io/servlet_presentation/servlet_presentation.html",
+    "title": "Dynamische Webapplikationen mit Java Servlets",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2000-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "nixgeht",
+    "url": "https://rsoesemann.github.io/basiskonzept_nixgeht_de/basiskonzept_nixgeht_de.html",
+    "title": "Kurzkonzept Web Community \"nixgeht.de\"",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 1999-10 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "utopia-and-antiutopia",
+    "url": "https://rsoesemann.github.io/facharbeit_utopia_and_antiutopia.html",
+    "title": "Utopia and anti-utopia - Thomas Morus \"Utopia\" and George Orwell's \"1984\" compared",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 1996-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  {
+    "slug": "bewegte-bilder",
+    "url": "https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf",
+    "title": "Redesign des Bewegte Bilder Webauftrittes",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "PDF cover credits Robert Sösemann and dates the presentation 30 April 2000; describes team project work."
+  },
+  {
+    "slug": "reference-old-website",
+    "url": "https://rsoesemann.github.io/",
+    "title": "Original openproject website",
+    "kind": "profile",
+    "role": "reference",
+    "evidence": "Original repository snapshot and history preserved before migration."
   }
 ]

@@ -1,0 +1,109 @@
+{
+  "id": "semantic-web",
+  "url": "https://rsoesemann.github.io/seminar_semanticweb/seminar_semanticweb.html",
+  "source": {
+    "slug": "semantic-web",
+    "url": "https://rsoesemann.github.io/seminar_semanticweb/seminar_semanticweb.html",
+    "title": "Das Semantic Web",
+    "kind": "document",
+    "role": "authored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-06 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2001/semantic-web",
+  "context": {
+    "format": "Seminararbeit",
+    "where": "Universität Tübingen",
+    "platform": "Universität Tübingen",
+    "when": "2001-06",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Robert Sösemann"
+    ],
+    "topics": [],
+    "summary": "A Abstract 2 B Szenario Warum wir ein besseres Web brauchen 2 1 Das WWW heute (2001) 2 2 Das WWW morgen (2010) 3 3 Motivation 3 C Das Semantic Web 4 1 Einführung 4 2 Wissensrepräsentation (Ontology) 5 3 Wissensverarbeitung (Logic) 5 4 Autom. Beweisführung (Proof) 6 5 Vertrauen/Sicherheit (Trust) 6 D Technische Umsetzungen 7 1 Ressourcendefinition mit XML/RDF 7 2 Ontologien mit RDF Schema/DAML+OIL 9 3 Weitere Umsetzungen (SHOE, Dublin Core) 11 E Ausblick und Fazit 12 F Semantic Web Tools & APIs 13 G Literaturangaben 14 H Empfohlene WWW-Resourcen zum Thema 14",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Ausarbeitung für Seminar \"Konzepte von Informationssystemen\" an der Universität Tübingen); original index date 2001-06"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Das Semantic Web",
+    "raw": "library/2001/semantic-web/seminar_semanticweb.html",
+    "date": "2001-06",
+    "author": "Robert Sösemann"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Das Semantic Web",
+    "raw": "library/2001/semantic-web/seminar_semanticweb.html",
+    "date": "2001-06",
+    "author": "Robert Sösemann"
+  },
+  "attachments": [
+    {
+      "path": "library/2001/semantic-web/seminar_semanticweb.pdf",
+      "label": "Original PDF"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2001/semantic-web/seminar_semanticweb.html",
+        "original_path": "seminar_semanticweb/seminar_semanticweb.html",
+        "sha256": "a2734484e64680b96c8f31b87484ad7c45f7b73a6a0386f5e03965790048248e",
+        "bytes": 75216
+      },
+      {
+        "path": "library/2001/semantic-web/seminar_semanticweb.pdf",
+        "original_path": "seminar_semanticweb/seminar_semanticweb.pdf",
+        "sha256": "b2ccd0975015a0c55c289ed59c75d69eee333f38327cb9b6756c40fe5779074b",
+        "bytes": 210014
+      },
+      {
+        "path": "library/2001/semantic-web/seminar_semanticweb_html_m2840c989.png",
+        "original_path": "seminar_semanticweb/seminar_semanticweb_html_m2840c989.png",
+        "sha256": "77cb8533e3b8681a311808857edb203653100ca323c2fe5b1501e3317a74bf2a",
+        "bytes": 3311
+      },
+      {
+        "path": "library/2001/semantic-web/seminar_semanticweb_html_mb26f73d.png",
+        "original_path": "seminar_semanticweb/seminar_semanticweb_html_mb26f73d.png",
+        "sha256": "e7682a7abdc0e67b36ae0c747f36ae24a9fd2e6ea6b956be81e447bc316aa2fc",
+        "bytes": 5456
+      },
+      {
+        "path": "library/2001/semantic-web/seminar_semanticweb_html_mc5d4c7f.png",
+        "original_path": "seminar_semanticweb/seminar_semanticweb_html_mc5d4c7f.png",
+        "sha256": "a83c0340539f39532301123b656f334596f6e84873153afbdc83333d9040e0fb",
+        "bytes": 7929
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2001/semantic-web/seminar_semanticweb.html",
+      "library/2001/semantic-web/seminar_semanticweb.pdf",
+      "library/2001/semantic-web/seminar_semanticweb_html_m2840c989.png",
+      "library/2001/semantic-web/seminar_semanticweb_html_mb26f73d.png",
+      "library/2001/semantic-web/seminar_semanticweb_html_mc5d4c7f.png"
+    ]
+  },
+  "preview_path": "website/assets/previews/semantic-web.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2001/semantic-web/seminar_semanticweb.pdf",
+    "page": 1
+  }
+}

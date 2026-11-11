@@ -1,0 +1,137 @@
+{
+  "id": "requipper",
+  "url": "https://rsoesemann.github.io/feasibilitystudy_requipper_com/feasibilitystudy_requipper_com.html",
+  "source": {
+    "slug": "requipper",
+    "url": "https://rsoesemann.github.io/feasibilitystudy_requipper_com/feasibilitystudy_requipper_com.html",
+    "title": "Feasibility Study \"requipper.com\"",
+    "kind": "document",
+    "role": "coauthored",
+    "evidence": "Original openproject index at 313fe077f2f01689d0f32f950d5978b3080e7152 states title, author(s), 2001-02 and course context; preserved at library/metadata/references/old-website/original.html."
+  },
+  "library_dir": "library/2001/requipper",
+  "context": {
+    "format": "Feasibility study",
+    "where": "Cal State Hayward · USA",
+    "platform": "Cal State Hayward · USA",
+    "when": "2001-02",
+    "date_label": "Original listing",
+    "with_whom": [
+      "Rolando Navaro"
+    ],
+    "topics": [],
+    "summary": "With our website requipper.com we want to create a business-to-business market place where companies, that quickly have to get rid of their office inventory and new founded start-ups can virtually meet and trade for the best price. Similar to B-to-C auction sites like e-Bay or yahoo auctions, we support and secure the whole process of easily finding, bidding and transacting the items and the money transactions. The following paper was written to prove the feasibility of a fictitious web-business called requipper.com. This covers definition of the target audience, their specific needs and how the service is going to fulfil those needs by describing the key features of the site.",
+    "summary_basis": {
+      "method": "verbatim original website description",
+      "url": "https://rsoesemann.github.io/"
+    },
+    "evidence": [
+      {
+        "url": "https://rsoesemann.github.io/",
+        "detail": "(Project work for \"ECommerce Marketing\" course at Cal State Hayward); original index date 2001-02"
+      }
+    ]
+  },
+  "latest_attempt": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Feasibility Study \"requipper.com\"",
+    "raw": "library/2001/requipper/feasibilitystudy_requipper_com.html",
+    "date": "2001-02",
+    "author": "Robert Sösemann, Rolando Navaro"
+  },
+  "last_success": {
+    "status": "captured",
+    "at": "2026-11-11T10:54:38.822309+00:00",
+    "title": "Feasibility Study \"requipper.com\"",
+    "raw": "library/2001/requipper/feasibilitystudy_requipper_com.html",
+    "date": "2001-02",
+    "author": "Robert Sösemann, Rolando Navaro"
+  },
+  "attachments": [
+    {
+      "path": "library/2001/requipper/feasibilitystudy_requipper_com.pdf",
+      "label": "Original PDF"
+    }
+  ],
+  "provenance": {
+    "repository": "https://github.com/rsoesemann/rsoesemann.github.io",
+    "commit": "313fe077f2f01689d0f32f950d5978b3080e7152",
+    "files": [
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com.html",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com.html",
+        "sha256": "785195f90637f6d1cbfcf87355616ddf249c256db8e34aff3a8b285aab5dd6ea",
+        "bytes": 33924
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com.pdf",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com.pdf",
+        "sha256": "8f67f38ce8ee628ad98bdf45f625f138c1fa5f82646e67675f630ed9f99b11de",
+        "bytes": 678570
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_2fa918ba.jpg",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_2fa918ba.jpg",
+        "sha256": "70135e2c663a5efde5787edb34f72c20f188ec48e568e66e30edd877df0f22a7",
+        "bytes": 85117
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_58b75ab.png",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_58b75ab.png",
+        "sha256": "0b752afc1958a2b8df55a608a1673603107027d4cdb7c43395cf11f7b9f7167e",
+        "bytes": 1858
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_6acbb9ad.jpg",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_6acbb9ad.jpg",
+        "sha256": "70c7658939e3f5764b80c73e0989eba4504311a4f2ee92cbfc77847227ea24c5",
+        "bytes": 96615
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_m2e8b2f93.jpg",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_m2e8b2f93.jpg",
+        "sha256": "d4c620df18a7f79cffe23671d1cb2c54aea3a733090b271fff3beb529a6c88c0",
+        "bytes": 91887
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_m58cca199.jpg",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_m58cca199.jpg",
+        "sha256": "3ed01ca314b42ff67e0c91ac9602718fe8e17d84242a18a6d4d53bdd1e5a67ab",
+        "bytes": 81347
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_m65c3bfb5.jpg",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_m65c3bfb5.jpg",
+        "sha256": "28246cf84be251950acfbf53bc925552855066d36af0c54fbd3a1186eaf91347",
+        "bytes": 80925
+      },
+      {
+        "path": "library/2001/requipper/feasibilitystudy_requipper_com_html_m710518ff.jpg",
+        "original_path": "feasibilitystudy_requipper_com/feasibilitystudy_requipper_com_html_m710518ff.jpg",
+        "sha256": "6105f469b7282611c56bd0ab4512f59cf56185b3ff0f5c3282cd15c495ddd395",
+        "bytes": 75265
+      }
+    ]
+  },
+  "publication": {
+    "include": true,
+    "files": [
+      "library/2001/requipper/feasibilitystudy_requipper_com.html",
+      "library/2001/requipper/feasibilitystudy_requipper_com.pdf",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_2fa918ba.jpg",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_58b75ab.png",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_6acbb9ad.jpg",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_m2e8b2f93.jpg",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_m58cca199.jpg",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_m65c3bfb5.jpg",
+      "library/2001/requipper/feasibilitystudy_requipper_com_html_m710518ff.jpg"
+    ]
+  },
+  "preview_path": "website/assets/previews/requipper.jpg",
+  "preview_evidence": {
+    "method": "rendered original PDF page",
+    "path": "library/2001/requipper/feasibilitystudy_requipper_com.pdf",
+    "page": 1
+  }
+}

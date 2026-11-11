@@ -68,5 +68,11 @@
     ".html": "original.html",
     ".pdf": "original.pdf",
     ".json3": "captions.json3"
+  },
+  "preview_path": "website/assets/previews/profile-robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet.jpg",
+  "preview_evidence": {
+    "method": "publisher og:image from saved source page",
+    "url": "https://aquiva.com/blog/robert-sosemann-salesforce-mvp.jpg",
+    "source_path": "library/2025/robert-sosemann-salesforce-mvp-where-passion-craftsmanship-and-candor-meet/original.html"
   }
 }

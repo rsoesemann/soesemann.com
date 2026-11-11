@@ -8,7 +8,7 @@ voice without a voice-service subscription. This repository is private.
 | Area | What it is | Start here |
 | --- | --- | --- |
 | `library/` | Original articles, talks, interviews, recordings and slides, grouped by year and work | [Browse works](library/index.md) · [Add or update material](library/README.md) |
-| `website/` | An offline interface for searching and exploring the library | [Open the timeline](website/index.html) |
+| `website/` | The archive timeline and a separate public website build | [Open the timeline](website/index.html) · [Public preview](website/public/index.html) |
 | `my-voice/` | A reusable voice profile, selected original speech clips and a local speech model | [Create audio and maintain the voice](my-voice/README.md) |
 
 Each area contains its own supporting files. Library sources and review decisions
@@ -43,8 +43,8 @@ commands you can run yourself. Detailed maintenance rules are in [AGENTS.md](AGE
 
 Open [website/index.html](website/index.html) directly from disk. Search and filters
 show matching works across all years. Hover over the activity wave for previews;
-click a year to scroll to its cards. Colors reflect nearby works' topics. Media
-plays after pressing Play; original publisher links require internet access.
+click a year to scroll to its cards. Colors reflect nearby works' topics. Click a cover, title or preview to open the content directly. Original publisher
+links require internet access.
 
 After changing library records, rebuild from the repository root:
 
@@ -54,8 +54,50 @@ uv run --project library/tooling python library/tooling/collect.py export
 
 This refreshes `library/index.md`, the agent exports and
 `website/data/timeline-data.js`. Edit catalogue records, not those generated files.
-Keep the three folders together so the website's local file links work. Its data
-contains private notes; it is not ready for public deployment.
+Keep the three folders together so the archive's local file links work. Its data
+contains private notes and must not be published.
+
+The optional **Early years** switch shows the school, university and US study
+projects alongside the newer work. It is a website filter based on dates through
+2003; the library uses ordinary year and work names for everything. Original
+descriptions from the old website live in the item JSON, alongside their sources.
+
+To build the public preview locally:
+
+```sh
+uv run --project library/tooling python library/tooling/public_site.py
+```
+
+The personal site currently opens on **Work**. To add a section such as Services,
+add its HTML page under `website/`, a link in the main navigation, and its filename
+to `PAGES` in `library/tooling/public_site.py`. Reuse the header and stylesheet;
+only Work needs the timeline scripts. No router or new framework is required.
+
+Open [website/public/index.html](website/public/index.html). This generated,
+ignored folder contains the public website only: selected cards, previews and
+explicitly listed originals. Private notes, captured article/transcript text,
+voice files and the old repository backup stay outside it. Videos link directly to their publisher. No local recordings are copied to the
+public build. The Cookie presentation has a static ten-slide version rendered
+from its original Flash file, so it opens without a plugin.
+
+Kept works are included by default. An item's `publication.include` can override
+that selection, but Ignore always excludes it. `publication.files` lists the
+original files to include, including any HTML dependencies. Building changes no
+GitHub settings. Publication and retiring the old repository await review.
+
+The public build includes ordinary HTML cards with titles, dates, summaries and
+content links; they are readable without JavaScript. JavaScript adds the timeline
+and filters. The header identifies Robert and his profiles with a small Person
+JSON-LD record. `robots.txt` allows crawlers, including search and AI crawlers.
+No special AI file or framework is needed. Crawling is not a guarantee of indexing
+or correct answers. The footer states copyright for Robert’s own contributions
+and preserves third-party rights; it does not grant a reuse licence or prevent copying.
+
+Only publish `website/public/`, never the repository root or `website/`.
+Anything copied into that public folder, including selected originals, is publicly
+readable and downloadable. `robots.txt` is not access control. The private archive
+stays private because it is absent from the deployment and the repository remains
+private. Set the canonical URL and sitemap once the final hosting URL is chosen.
 
 ## Local installation and Git
 
