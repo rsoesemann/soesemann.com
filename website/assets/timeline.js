@@ -87,7 +87,7 @@ function mediaEntry(item) { return Object.entries(item.assets).find(([,a]) => /^
 function excerpt(item) {
   const lines = (item.text || "").split(/\n+/).map(line => line.trim()).filter(line => line.length > 65 && line !== item.title && !/^(cookie|privacy|subscribe|sign up)/i.test(line));
   const text = lines[0] || item.abstract || "";
-  return text.length > 250 ? text.slice(0, 247).trimEnd() + "…" : text;
+  return text;
 }
 function workCard(item) {
   const card = element("article", "work"), context = item.context || {};
@@ -109,7 +109,19 @@ function workCard(item) {
   title.className = "work-title"; heading.append(title); body.append(heading);
   body.append(element("p","work-meta", `${interval(dateValue(item))?.year || "Undated"} · ${context.format || typeLabel(item)}`));
   const summary = context.summary || (item.kind === "article" && !recording ? excerpt(item) : "");
-  if (summary) body.append(element("p","work-summary",summary));
+  if (summary) {
+    const abstract = element("button", "work-summary", summary);
+    abstract.type = "button";
+    abstract.title = "Show full summary";
+    let pinned = false;
+    const expand = open => abstract.setAttribute("aria-expanded", String(open));
+    expand(false);
+    abstract.onpointerenter = event => { if (event.pointerType === "mouse") expand(true); };
+    abstract.onpointerleave = () => expand(pinned);
+    abstract.onclick = () => { pinned = !pinned; expand(pinned); };
+    abstract.onkeydown = event => { if (event.key === "Escape") { pinned = false; expand(false); } };
+    body.append(abstract);
+  }
   const links = element("div","card-links");
   const action = contentLink(item); action.className = "open-work"; links.append(action);
 
