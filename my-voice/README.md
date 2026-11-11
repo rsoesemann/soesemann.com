@@ -49,6 +49,35 @@ network access disabled. A JSON record in `metadata/generations/` preserves the
 text, reference, settings, timings and output hash. Generated audio remains
 separate from the library's original-speech corpus.
 
+## Voices by mood
+
+A voice here is a short clip plus its transcript, and the clone speaks in the tone of
+that clip. So there is one clip per mood. Choose it with `--reference <name>`.
+
+| Name | Mood | Use |
+| --- | --- | --- |
+| `en-demo-greeting` | Friendly, calm | Opening of a demo video |
+| `en-demo-explaining` | Calm, clear; **English default** | Main part of a demo video |
+| `en-demo-closing` | Warm, relaxed | Sign-off of a demo video |
+| `en-thoughtful` | Slow, reflective | |
+| `en-fast` | Quick, energetic | |
+| `en-sharp` | Firm, pointed | |
+| `en-funny` | Dry, smiling | |
+| `en-calm-explaining` | Calm podcast answer | Alternative to the default |
+| `en-talk-opening`, `en-talk-body`, `en-talk-closing` | Stage delivery, London's Calling 2024 | Conference-style videos; Robert found them too excited for demos |
+
+The first seven come from one recording Robert read for this purpose on 2026-11-11
+(`references/recording-2026-11-11.m4a`, and the same after Adobe Podcast Enhance in
+`references/recording-2026-11-11-enhanced.wav`). Robert approved them by ear as the best so far.
+
+Two things to keep when cutting a new clip:
+
+- End the clip right after the last word has decayed. A cut inside the last vowel makes
+  the clone repeat that sound before new sentences; half a second of trailing silence
+  makes the delivery sluggish.
+- Write abbreviations as words (`AI`, `PR`), not as spaced letters, and put one sentence
+  per line so the voice pauses between sentences.
+
 ## How the voice was created
 
 The [audio audit](metadata/audio-audit.json) checked hashes and stream metadata for
@@ -62,7 +91,7 @@ context and inspected video frames. These are the source ranges:
 
 | Reference | Recording and range | Why it was selected |
 | --- | --- | --- |
-| **English default:** [en-podcast.wav](references/en-podcast.wav) | [SalesforceWay: The AI Skills Salesforce Developers Need](https://www.youtube.com/watch?v=qhhUuCpK8Q0), 00:40.900–00:56.700 | Recent close-microphone self-introduction; visible speaker, quiet pauses and no clipped samples in the excerpt |
+| [en-podcast.wav](references/en-podcast.wav), the English default until 2026-11-11 | [SalesforceWay: The AI Skills Salesforce Developers Need](https://www.youtube.com/watch?v=qhhUuCpK8Q0), 00:40.900–00:56.700 | Recent close-microphone self-introduction; visible speaker, quiet pauses and no clipped samples in the excerpt |
 | **German default:** [de-interview.wav](references/de-interview.wav) | [Scavenger AI interview](https://www.youtube.com/watch?v=DR8byDJLGEI), 00:27.679–00:42.300 | Robert answers the introduction question in a continuous turn without the host speaking inside the range |
 | [en-conference.wav](references/en-conference.wav) | [London's Calling 2024](https://www.youtube.com/watch?v=M78lc9D5NIk), 01:31.119–01:59.800 | An attributed opening monologue, retained to compare conference delivery with the podcast reference |
 | [en-pmd.wav](references/en-pmd.wav) | [Custom PMD Rules for Any Metadata Within Minutes](https://www.youtube.com/watch?v=Qp49B4Baq4g), 00:16.260–00:29.050 | Continuous talk excerpt; the visible presenter holds the book discussed in the speech |

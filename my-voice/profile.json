@@ -26,7 +26,7 @@
     }
   },
   "defaults": {
-    "en": "en-podcast",
+    "en": "en-demo-explaining",
     "de": "de-interview"
   },
   "references": {
@@ -174,6 +174,131 @@
         "method": "Publisher attribution, self-introduction, transcript context and inspected video frame. No whole-recording diarization."
       },
       "listening_review": "Not performed; human review pending."
+    },
+    "en-talk-opening": {
+      "path": "my-voice/references/en-talk-opening.wav",
+      "source_id": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+      "source_url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+      "source_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "source_sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3",
+      "start_seconds": 7.7,
+      "end_seconds": 34.75,
+      "processing": "Cut on word boundaries found with Whisper small, cleaned with DeepFilterNet3 (deepfilternet 0.5.6), resampled to 24 kHz mono.",
+      "sha256": "55bb6a3a8dc7ec399d079c86738b276345a6106691bd3804061c78c20b2ae0fa",
+      "transcript": "I'm very impressed. I'm surprised and delighted that so many people come to a talk about a topic that I expected nobody wanted to hear anything anymore. I'm not sure how you feel, but I feel there is this constant bombardment with AI visions in social media, on conferences, a new better release, a new pilot, everything. So I'm really happy."
+    },
+    "en-talk-body": {
+      "path": "my-voice/references/en-talk-body.wav",
+      "source_id": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+      "source_url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+      "source_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "source_sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3",
+      "start_seconds": 953.95,
+      "end_seconds": 969.45,
+      "processing": "Cut on word boundaries found with Whisper small, cleaned with DeepFilterNet3 (deepfilternet 0.5.6), resampled to 24 kHz mono.",
+      "sha256": "d282fec53d31ee31e88d0edf5da1d500313e9592a004e93cda055a2ead4cf427",
+      "transcript": "It's just like a smarter search, because just imagine you put like a big document like the Bible into a vector database, you cannot really ask, can you summarize the whole story? Because it's really just searching."
+    },
+    "en-talk-closing": {
+      "path": "my-voice/references/en-talk-closing.wav",
+      "source_id": "video-londons-calling-2024-salesforce-ai-from-the-trenches",
+      "source_url": "https://www.youtube.com/watch?v=M78lc9D5NIk",
+      "source_path": "library/2024/londons-calling-2024-salesforce-ai-from-the-trenches/audio.m4a",
+      "source_sha256": "629e984274e37674326948091b28641efe4950552d41296da6fd4f1b956babc3",
+      "start_seconds": 1696.6,
+      "end_seconds": 1715.85,
+      "processing": "Cut on word boundaries found with Whisper small, cleaned with DeepFilterNet3 (deepfilternet 0.5.6), resampled to 24 kHz mono.",
+      "sha256": "1fd259edb3ba76a6a4e6951be736c3e8ce67286c249645f3680b448ea35b4df9",
+      "transcript": "For sure, I could not leave the stage without saying, if you need help, contact Aquiva. There is a few people here which you can directly talk to. We can help you with using native Salesforce AI, but also custom Salesforce AI. We have just proven we did it. Thank you."
+    },
+    "en-calm-explaining": {
+      "path": "my-voice/references/en-calm-explaining.wav",
+      "source_id": "video-the-ai-skills-salesforce-developers-need-robert-sosemann",
+      "source_url": "https://www.youtube.com/watch?v=qhhUuCpK8Q0",
+      "source_path": "library/2026/the-ai-skills-salesforce-developers-need-robert-sosemann/audio.m4a",
+      "source_sha256": "3404aad3edf8c7317f19817d6090421f7128f60449d8aaf99ad6ad9c1a4393d5",
+      "start_seconds": 580.85,
+      "end_seconds": 590.58,
+      "processing": "Cut on word boundaries, resampled to 24 kHz mono, 50 ms fade-out, not filtered. The clip must end right after the last word has decayed: a cut inside the last vowel made the clone repeat that sound before new sentences, and half a second of trailing silence made the delivery sluggish.",
+      "sha256": "04d213592026b9859c35d01294cbe26ba443b86024770096b22d0803c2cdac7c",
+      "transcript": "But in the end, it's not like a separate AI, it's just using all those large language models outside, so Anthropic, OpenAI, Gemini."
+    },
+    "en-demo-greeting": {
+      "path": "my-voice/references/en-demo-greeting.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 10.54,
+      "end_seconds": 25.99,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "187b9f2497b1eeaa734c645218f7c50303a4e78659e274c7737e67c2a05fd484",
+      "transcript": "Hi, this is Robert. In the next few minutes I want to show you something we have been working on at Aquiva. It's a pipeline that takes a ticket and turns it into a tested Salesforce pull request. Let me walk through it step by step."
+    },
+    "en-demo-explaining": {
+      "path": "my-voice/references/en-demo-explaining.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 29.34,
+      "end_seconds": 51.83,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "d925c83b4a8121be35db9b21bdb5ce211279adf3f5bc61fd142d43ed5cea5be8",
+      "transcript": "So here's how it works. You write down what you want in a ticket. The AI makes a plan and waits until you approve. Then it builds the feature in a scratch org, and the second AI checks the result. If something is wrong, it goes back and fixes it. Simple idea, but it took a while to get it right."
+    },
+    "en-thoughtful": {
+      "path": "my-voice/references/en-thoughtful.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 56.7,
+      "end_seconds": 72.87,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "8a87a4d0ddd7f44537a0ca626df5be27b5a2bf494c90b3f0276a04f9438c3a31",
+      "transcript": "You know, I have been thinking about this a lot lately. We can build software faster than ever, but are we building the right thing? I'm not sure. Maybe the hard part never was the code. Maybe it was understanding what people really need."
+    },
+    "en-fast": {
+      "path": "my-voice/references/en-fast.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 77.18,
+      "end_seconds": 100.15,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "e107a5fa485d222fbe610c9d7240785b94c61465e1e125f8ef6e5c70731a85d8",
+      "transcript": "Okay, quick update, because a lot has happened this week. We shipped three features, fixed the login bug, cleaned all the tests, and the demo is already working, is already recorded. The customer saw it yesterday, liked it, and asked for two small changes. Those are done as well. So we are ahead of the plan."
+    },
+    "en-sharp": {
+      "path": "my-voice/references/en-sharp.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 108.68,
+      "end_seconds": 126.11,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "19424f9341e1943f9d01ea542c98384511ec1bb247e1e82c5d91397df8bafe9f",
+      "transcript": "Let me be very clear about this. A test that only checks a mock is not a test. It is decoration. If the code breaks and the test stays green, we have learned nothing. So we delete those tests and we write real ones. No exceptions."
+    },
+    "en-funny": {
+      "path": "my-voice/references/en-funny.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 142.1,
+      "end_seconds": 163.01,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "832b6b580b9e2a04139e0f127b7df018eba26e5f9b8300850cf70d1345d7ec3e",
+      "transcript": "So I asked AI to write a short summary, and it gave me four pages, three headings, and a conclusion that started with: in conclusion. I said, shorter, please. It apologized in two more paragraphs. Honestly, it reminds me of some meetings I have been in."
+    },
+    "en-demo-closing": {
+      "path": "my-voice/references/en-demo-closing.wav",
+      "source_path": "my-voice/references/recording-2026-11-11-enhanced.wav",
+      "source_sha256": "b3054a7fe7c728b8a9d1b98e9277dab51cf550fac8237d91162eccee2f802c5b",
+      "start_seconds": 168.53,
+      "end_seconds": 184.45,
+      "recorded": "2026-11-11, read by Robert at his desk for this purpose, one paragraph per mood.",
+      "processing": "From the recording after Adobe Podcast Enhance (done by Robert). Cut by sound level so the clip ends right after the last word has decayed, 50 ms fade-out, resampled to 24 kHz mono.",
+      "sha256": "65d74228cf5b23f9838560ef578e75b5d0f5c91ba613ae4906077afbadeb60c2",
+      "transcript": "And that's it. You have seen the plan, the build and the review. If you want to try it yourself, the link is in the description. I'm really curious what you think about it. So let me know. Thanks for watching, and see you next time."
     }
   },
   "selection": {
@@ -195,5 +320,13 @@
       "my-voice/generated/netive-elevenlabs.wav"
     ],
     "basis": "User feedback in the repository conversation; subjective listening assessment, not an independent benchmark."
+  },
+  "sections": {
+    "note": "Delivery follows the reference clip, so a narrated video uses one reference per section. Pass the name to generate.py with --reference. The en-demo-* clips are from Robert's own recording of 2026-11-11 (Adobe Podcast Enhance); he approved them on 2026-11-11 as the best so far. Further moods from the same recording: en-thoughtful, en-fast, en-sharp, en-funny. Stage alternative: en-talk-*.",
+    "en": {
+      "opening": "en-demo-greeting",
+      "body": "en-demo-explaining",
+      "closing": "en-demo-closing"
+    }
   }
 }
