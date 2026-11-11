@@ -1,4 +1,4 @@
-# Maintaining Public persona
+# Maintaining soesemann.com
 
 This public library helps Robert remember and reuse his public work. It serves
 people through the timeline and agents through attributed original material.
@@ -7,9 +7,9 @@ his browser without explaining why; downloads and tests should run in the backgr
 
 ## Keep the structure simple
 
-The root has three products: `library/`, `website/` and `my-voice/`. The root README
-explains purpose, structure and website usage. Library and voice have detailed
-guides; do not add READMEs to every subfolder. Keep supporting metadata and tooling inside their product.
+The root has two products: `library/` and `website/`. The root README
+explains purpose, structure and website usage. The library has a detailed
+guide; do not add READMEs to every subfolder. Keep supporting metadata and tooling inside their product.
 Do not reintroduce a shared hidden data folder or a central `tools/` folder.
 
 - `library/<year>/<work-slug>/`: one public work's originals and derived text,
@@ -46,15 +46,8 @@ Do not reintroduce a shared hidden data folder or a central `tools/` folder.
   contains grouped works with their sources and original review notes;
   `kept.jsonl` contains selected works; `writing.jsonl` contains approved writing.
 - `website/index.html`: the human entry point, usable directly from disk.
-- `my-voice/generated/`: generated WAVs for listening and reuse; never mix them into `library/`
-  or the original-speech corpus. Corresponding records in `my-voice/metadata/generations/`
-  identify each output through `output_path` and retain its script, settings and timings.
-- `my-voice/profile.json` and `my-voice/references/`: reusable voice profile and
-  speaker-only clips. Model weights remain ignored in `my-voice/model/`.
-- `my-voice/metadata/`: reference evidence, audits, comparison inputs and generation records.
 - `library/tooling/`: discovery, source capture, media downloads, catalogue exports,
   tests and their Python dependencies.
-- `my-voice/tooling/`: `generate.py`, `audit.py`, `check.py` and their Python dependencies.
 - `website/assets/`: timeline CSS and JavaScript. Keep runtime setup out of the root.
   Each Python group owns its `pyproject.toml`, `uv.lock` and ignored `.venv/`.
 - `website/data/timeline-data.js`: generated data for the offline HTML;
@@ -85,9 +78,7 @@ win; unanimous child decisions can be inherited, while conflicts stay visible.
    `style_review_sha256` equal to the extracted `text_sha256`. Changed extraction
    loses approval. Coauthored work, translations and third-person profiles are not
    sole-author samples. Translation preserves someone else's ideas, not Robert's beliefs.
-6. For voice preparation, verify speaker identity and exact segments. Mixed-speaker
-   duration must never be reported as usable Robert-only audio. No paid transcription,
-   model training or ElevenLabs upload is authorized by the existence of this library.
+
 
 `uv run --project library/tooling python library/tooling/collect.py export` rebuilds exports and
 `library/index.md`. Keep `library/README.md` as the maintained guide; export must not overwrite it.

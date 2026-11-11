@@ -21,7 +21,7 @@ The index states which recordings are saved and which are still missing.
 Related sources share a work folder: a conference session page, its slides and
 its recording can describe one performance. The same talk at another event is a
 separate work. Unknown dates stay under `undated/` until verified. Website previews
-are in `../website/assets/`; synthetic speech belongs in `../my-voice/generated/`.
+are in `../website/assets/`.
 
 The former personal website's works use the same year/work folders. Its short
 descriptions are in each item's `context.summary`; there are no separate

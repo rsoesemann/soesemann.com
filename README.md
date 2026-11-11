@@ -1,8 +1,8 @@
-# Public persona
+# soesemann.com
 
-Preserve and reuse Robert Sösemann’s public work, and generate new speech in his
-voice without a voice-service subscription. Robert made this repository public on
-11 November 2026. Tracked files and Git history are accessible through GitHub.
+Robert Sösemann’s personal website and archive of public work.
+Browse the [published website](https://rsoesemann.github.io/soesemann.com/) or
+use the saved originals to revisit a talk, article or project.
 
 ## What is here
 
@@ -10,16 +10,9 @@ voice without a voice-service subscription. Robert made this repository public o
 | --- | --- | --- |
 | `library/` | Original articles, talks, interviews, recordings and slides, grouped by year and work | [Browse works](library/index.md) · [Add or update material](library/README.md) |
 | `website/` | The archive timeline and a separate public website build | [Open the timeline](website/index.html) · [Public preview](website/public/index.html) |
-| `my-voice/` | A reusable voice profile, selected original speech clips and a local speech model | [Create audio and maintain the voice](my-voice/README.md) |
 
-Each area contains its own supporting files. Library sources and review decisions
-are in `library/metadata/`; website images, code and display data are in
-`website/assets/` and `website/data/`. Voice evidence and generation records are
-in `my-voice/metadata/`. Programs belong in the relevant area's `tooling/` folder.
-
-`my-voice/generated/` contains two local listening samples: `aiden-clone-local.mp3`
-and `robert-clone-local.mp3`. Generated audio and its test records are ignored by
-Git. The clone's inputs are `profile.json`, `references/` and `model/`.
+Library sources and review decisions are in `library/metadata/`; website images,
+code and display data are in `website/assets/` and `website/data/`.
 
 ## How it was built
 
@@ -28,19 +21,13 @@ tools saved originals, extracted text and captions, and recorded attribution and
 capture status. Related pages, slides and recordings were grouped into works;
 Robert's review decisions determine what is kept. Coverage is still incomplete.
 
-The website was built as static HTML, CSS and JavaScript. Its data is exported
-from the library catalogue. The voice uses selected, attributed excerpts of
-Robert speaking with Qwen3-TTS through MLX on Apple Silicon; no personal model
-weights were trained. The [voice guide](my-voice/README.md#how-the-voice-was-created)
-lists the recordings, exact ranges and selection reasons.
+The website uses static HTML, CSS and JavaScript, generated from the library catalogue.
 
 ## Use and update it
 
 To add material, give an agent its URL and ask it to add the contribution to the
 library and update the website. The [library guide](library/README.md#add-a-contribution)
-describes the checks and commands. For speech, give the agent your text and the
-desired language; the [voice guide](my-voice/README.md#generate-speech) also provides
-commands you can run yourself. Detailed maintenance rules are in [AGENTS.md](AGENTS.md).
+describes the checks and commands. Detailed maintenance rules are in [AGENTS.md](AGENTS.md).
 
 Open [website/index.html](website/index.html) directly from disk. Search and filters
 show matching works across all years. Hover over the activity wave for previews;
@@ -55,7 +42,7 @@ uv run --project library/tooling python library/tooling/collect.py export
 
 This refreshes `library/index.md`, the agent exports and
 `website/data/timeline-data.js`. Edit catalogue records, not those generated files.
-Keep the three folders together so the archive's local file links work. Its data
+Keep both folders together so the archive's local file links work. Its data
 contains review notes; the published website uses a smaller catalogue.
 
 The optional **Early years** switch shows the school, university and US study
@@ -77,7 +64,7 @@ only Work needs the timeline scripts. No router or new framework is required.
 Open [website/public/index.html](website/public/index.html). This generated,
 ignored folder contains the public website only: selected cards, previews and
 explicitly listed originals. Review notes, captured article/transcript text,
-voice files and the old repository backup stay outside it. Videos link directly to their publisher. No local recordings are copied to the
+and the old repository backup stay outside it. Videos link directly to their publisher. No local recordings are copied to the
 public build. The Cookie presentation has a static ten-slide version rendered
 from its original Flash file, so it opens without a plugin.
 
@@ -107,16 +94,10 @@ in the public GitHub repository. `robots.txt` is not access control.
 
 ## Local installation and Git
 
-`my-voice/model/` is the approximately 2.9 GiB general speech model. It is required
-for generation but ignored by Git because it can be downloaded again at the pinned
-version. That ignore rule is why the folder may appear grey in the editor; it does
-not mean the model is unused or missing. The [restore commands](my-voice/README.md#restore-on-another-mac)
-download it. Personal references, transcripts, settings and provenance are tracked.
-
 Installed Python dependencies (`tooling/.venv/`), download scratch files and caches
 are also ignored. They are recreated when needed. `.sf/` is unrelated Salesforce
 tooling cache, not a project input; it has reappeared after deletion.
 
-Original recordings and saved audio outputs use Git LFS. After cloning, run
+Original recordings use Git LFS. After cloning, run
 `git lfs pull` to retrieve them. Commit, push and publication require Robert's
 explicit instruction.

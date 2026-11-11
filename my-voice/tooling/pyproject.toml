@@ -1,5 +1,0 @@
-[project]
-name = "robert-local-voice"
-version = "0.1.0"
-requires-python = ">=3.13,<3.14"
-dependencies = ["mlx-audio==0.6.4", "soundfile>=0.13,<0.14"]
