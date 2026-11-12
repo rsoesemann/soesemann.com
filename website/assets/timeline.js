@@ -1,5 +1,5 @@
 const $ = (id) => document.getElementById(id);
-const formats = ["All", "Conference talks", "Interviews", "Webinars", "Podcasts", "Blog & articles", "Courses", "Student work"];
+const formats = ["All", "Conference talks", "Interviews", "Webinars", "Podcasts", "Blog & articles", "Courses", "Books", "Student work"];
 const topicColors = {PMD:"violet", Craftsmanship:"amber", Agentforce:"blue", AI:"teal", DevOps:"rose"};
 const waveColors = {PMD:[151,113,195], Craftsmanship:[213,159,78], AI:[64,164,139], DevOps:[196,113,148], Other:[151,165,183]};
 let all = [], eras = [], lifeStages = [], selectedFormat = "All", selectedTopic = "All";
@@ -70,6 +70,7 @@ function when(item) {
 function contentType(item) {
   const context = item.context || {}, format = `${item.kind} ${context.format || ""}`.toLowerCase();
   if (isEarlyWork(item)) return "Student work";
+  if (item.kind === "book") return "Books";
   // Classify the work, not its attached slides, transcript or video file.
   if (/course/.test(format)) return "Courses";
   if (context.platform === "Conferences" || /conference/.test(format)) return "Conference talks";
@@ -79,7 +80,7 @@ function contentType(item) {
   return "Blog & articles";
 }
 function typeLabel(item) {
-  return {"Conference talks":"Conference talk", Interviews:"Interview", Webinars:"Webinar", Podcasts:"Podcast", "Blog & articles":"Article", Courses:"Course", "Student work":"Student work"}[contentType(item)];
+  return {"Conference talks":"Conference talk", Interviews:"Interview", Webinars:"Webinar", Podcasts:"Podcast", "Blog & articles":"Article", Courses:"Course", Books:"Book", "Student work":"Student work"}[contentType(item)];
 }
 function publisher(item) {
   const platform = item.context?.platform;
@@ -109,10 +110,10 @@ function workCard(item) {
   } else card.classList.add("work-text");
   const body = element("div","work-body"), brand = element("div","publisher");
   if (item.assets.brand_logo) { const logo = element("img"); logo.src = asset(item,"brand_logo"); logo.alt = ""; brand.append(logo); }
-  brand.append(element("span","",publisher(item))); body.append(brand);
+  brand.append(element("span","",item.card_label || publisher(item))); body.append(brand);
   const heading = element("h3"), title = contentLink(item, item.title);
   title.className = "work-title"; heading.append(title); body.append(heading);
-  body.append(element("p","work-meta", `${interval(dateValue(item))?.year || "Undated"} · ${context.format || typeLabel(item)}`));
+  body.append(element("p","work-meta", interval(dateValue(item))?.year || "Undated"));
   const summary = context.summary || (item.kind === "article" && !recording ? excerpt(item) : "");
   if (summary) {
     const abstract = element("button", "work-summary", summary);

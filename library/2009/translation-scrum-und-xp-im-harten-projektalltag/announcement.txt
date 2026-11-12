@@ -1,0 +1,4 @@
+A German translation of my book Scrum and XP from the Trenches is now available. Thanks Robert Sösemann & Andreas Schliep!
+Russian, French, Spanish, Japanese, Chinese, and Portuguese translations are also available. Korean, Italian, and Slovak translations are underway.
+I never cease to be impressed by the agile community! So far, every time I’ve blogged about a new translation it’s taken less than one day before someone offers to translate to the next language :o)
+All translations are listed on InfoQ as well. Feel free to email me (henrik.kniberg AT crisp.se) if you want to translate the book to your language.

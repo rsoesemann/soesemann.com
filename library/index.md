@@ -93,6 +93,12 @@ Generated from the catalogue. A source link does not mean its recording is saved
 | --- | --- | --- | --- |
 | [Clean Apex Code with Automatic Code Metrics](2016/dreamforce-2016-clean-apex-code-with-automatic-code-metrics/) | Conference talk (video) | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=bW7m6y6bEug) |
 
+## 2009
+
+| Work | Format | Saved recording | Sources |
+| --- | --- | --- | --- |
+| [Scrum und XP im harten Projektalltag](2009/translation-scrum-und-xp-im-harten-projektalltag/) | Book translation | Not applicable | [Source 1](https://res.infoq.com/news/2007/06/scrum-xp-book/en/resources/ScrumAndXpFromTheTrenchesonline_German.pdf) · [Source 2](https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000) |
+
 ## 2003
 
 | Work | Format | Saved recording | Sources |

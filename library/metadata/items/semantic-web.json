@@ -20,9 +20,12 @@
       "Robert Sösemann"
     ],
     "topics": [],
-    "summary": "A Abstract 2 B Szenario Warum wir ein besseres Web brauchen 2 1 Das WWW heute (2001) 2 2 Das WWW morgen (2010) 3 3 Motivation 3 C Das Semantic Web 4 1 Einführung 4 2 Wissensrepräsentation (Ontology) 5 3 Wissensverarbeitung (Logic) 5 4 Autom. Beweisführung (Proof) 6 5 Vertrauen/Sicherheit (Trust) 6 D Technische Umsetzungen 7 1 Ressourcendefinition mit XML/RDF 7 2 Ontologien mit RDF Schema/DAML+OIL 9 3 Weitere Umsetzungen (SHOE, Dublin Core) 11 E Ausblick und Fazit 12 F Semantic Web Tools & APIs 13 G Literaturangaben 14 H Empfohlene WWW-Resourcen zum Thema 14",
+    "summary": "A 2001 introduction to the Semantic Web and its promise of making online information usable by software. The paper explains ontologies, automated reasoning, and early standards such as RDF and DAML+OIL through a future web scenario.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "semantic-web",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

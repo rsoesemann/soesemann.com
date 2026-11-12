@@ -21,9 +21,12 @@
       "Daniel Brintzinger"
     ],
     "topics": [],
-    "summary": "Das deutschsprachige Webangebot 'nixgeht.de' soll eine verlässliche Anlaufstelle für alle unbedarften Computeranfänger sein. In einer zeitgemäßen und unkomplizierten Form der Newsgroups im Web sollen sich die Neueinsteiger „verstanden“ und mit Hilfe von Gleichgesinnten Antworten auf ihre Fragen bezüglich Hard- und Software bekommen.",
+    "summary": "A concept for a German online community where computer beginners can ask hardware and software questions. Web discussion groups let newcomers share problems and help each other find solutions.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "nixgeht",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

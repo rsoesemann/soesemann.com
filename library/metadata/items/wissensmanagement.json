@@ -20,9 +20,12 @@
       "Hendrik Wehrum"
     ],
     "topics": [],
-    "summary": "Die folgende Case Study und der dazugehörige Vortrag, soll diese neuen Erfordernisse genauer erörtern und Methoden vorstellen, wie sowohl implizites als auch explizites Wissen nutzbringend innerhalb großer Abteilungen augetauscht, gespeichert und haltbar gemacht werden können. Die Persistenz(=personenungebunde Haltbarkeit) von Wissen, ist vor allem dann wichtig, wenn vermieden werden soll, dass mit Ausscheiden erfahrener Mitarbeiter das Unternehmen auch seine wertvolle Expertise verliert. Es werden Wege genannt, wie derartiges Wissen an neue Mitarbeiter weitergegeben werden kann. Auch wird auf die nötigen Änderungen in der Unternehmenskultur und -organisation eingegangen.",
+    "summary": "A case study on sharing and preserving knowledge within large departments. It examines how teams can pass experience to new colleagues and retain expertise when employees leave, including changes to company culture and organization.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "wissensmanagement",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

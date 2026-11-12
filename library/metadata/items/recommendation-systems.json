@@ -20,9 +20,12 @@
       "Robert Sösemann"
     ],
     "topics": [],
-    "summary": "Die vorliegende Seminararbeit versteht sich als zusammenfassender Überblick eines Artikels des IBM Almaden Research Centers. Unter dem Titel „Recommendation Systems: a probabilistic analysis - zu finden auf [www.almaden.ibm.com/cs/k53/algopapers/focs98rec.ps] - beschreiben dort die Autoren R. Kumar et al. ein einfaches und wahrscheinlichkeitstheoretisch fundiertes Modell für passives Collaboratives Filtering. Statt einer einfachen Wiederholung der Ergebnisse, liegen die Schwerpunkte dieser Ausarbeitung in der Einleitung und Motivation des Themenkomplexes und einer Vorstellung der beschriebenen Algorithmen.",
+    "summary": "A seminar paper explaining a probabilistic approach to collaborative filtering from research by R. Kumar and colleagues at IBM Almaden. It introduces the recommendation problem and the proposed algorithms.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "recommendation-systems",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

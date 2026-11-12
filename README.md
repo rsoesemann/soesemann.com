@@ -47,8 +47,8 @@ contains review notes; the published website uses a smaller catalogue.
 
 The optional **Early years** switch shows the school, university and US study
 projects alongside the newer work. It is a website filter based on dates through
-2003; the library uses ordinary year and work names for everything. Original
-descriptions from the old website live in the item JSON, alongside their sources.
+2003; the library uses ordinary year and work names for everything. English teasers
+live in the item JSON and cite the preserved originals they summarize.
 
 To build the public preview locally:
 
@@ -56,10 +56,10 @@ To build the public preview locally:
 uv run --project library/tooling python library/tooling/public_site.py
 ```
 
-The personal site currently opens on **Work**. To add a section such as Services,
+The personal site currently opens on **Archive**. To add a section such as Services,
 add its HTML page under `website/`, a link in the main navigation, and its filename
 to `PAGES` in `library/tooling/public_site.py`. Reuse the header and stylesheet;
-only Work needs the timeline scripts. No router or new framework is required.
+only Archive needs the timeline scripts. No router or new framework is required.
 
 Open [website/public/index.html](website/public/index.html). This generated,
 ignored folder contains the public website only: selected cards, previews and

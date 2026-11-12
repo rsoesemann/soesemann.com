@@ -20,9 +20,12 @@
       "Rolando Navaro"
     ],
     "topics": [],
-    "summary": "With our website requipper.com we want to create a business-to-business market place where companies, that quickly have to get rid of their office inventory and new founded start-ups can virtually meet and trade for the best price. Similar to B-to-C auction sites like e-Bay or yahoo auctions, we support and secure the whole process of easily finding, bidding and transacting the items and the money transactions. The following paper was written to prove the feasibility of a fictitious web-business called requipper.com. This covers definition of the target audience, their specific needs and how the service is going to fulfil those needs by describing the key features of the site.",
+    "summary": "A feasibility study for a proposed online marketplace for used office equipment. It connects companies selling surplus inventory with startups looking to buy, and examines the audience, auction process, business model, and marketing plan.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "requipper",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

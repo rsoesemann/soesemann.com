@@ -20,9 +20,12 @@
       "Robert Sösemann"
     ],
     "topics": [],
-    "summary": "What are cookie? Pros and Cons of Cookies. Ways to secure privacy Ressources.",
+    "summary": "An introduction to browser cookies, how websites use them, and the privacy risks they create. The presentation weighs their benefits against tracking concerns and outlines ways to protect personal information.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "webtracking-cookies",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

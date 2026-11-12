@@ -20,9 +20,12 @@
       "Robert Sösemann"
     ],
     "topics": [],
-    "summary": "Neben der Implementierung des Wrappers in Java lagen die Schwerpunkte der Arbeit auf zwei Entwurfsentscheidungen: ! Syntax der Konfigurationsdateien (Welche Informationen muessen sie liefern, um Nutzeranfragen abzubilden?) ! Eignung verschiedener XML-Abfragemechanismen (Welche Sprache erfüllt die Erfordernisse besser - XSLT oder XQuery?)",
+    "summary": "The design and Java implementation of a configurable wrapper for querying XML information sources. The paper explains how configuration files map user queries to source data and compares XSLT with XQuery.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "xml-wrapper",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

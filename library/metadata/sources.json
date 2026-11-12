@@ -567,5 +567,30 @@
     "role": "interview",
     "discovered_from": "https://outformations.my.salesforce-sites.com/",
     "evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery."
+  },
+  {
+    "slug": "translation-scrum-und-xp-im-harten-projektalltag",
+    "url": "https://res.infoq.com/news/2007/06/scrum-xp-book/en/resources/ScrumAndXpFromTheTrenchesonline_German.pdf",
+    "title": "Scrum und XP im harten Projektalltag",
+    "kind": "book",
+    "role": "translation",
+    "evidence": "Henrik Kniberg’s announcement dated 2009-03-22 credits Robert Sösemann and Andreas Schliep for the German translation.",
+    "discovered_from": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+    "authors": [
+      "Henrik Kniberg"
+    ],
+    "translators": [
+      "Robert Sösemann",
+      "Andreas Schliep"
+    ]
+  },
+  {
+    "slug": "translation-scrum-und-xp-im-harten-projektalltag-announcement",
+    "url": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+    "title": "German version of Scrum and XP from the Trenches — author announcement",
+    "kind": "article",
+    "role": "about",
+    "evidence": "Henrik Kniberg’s announcement dated 2009-03-22 credits Robert Sösemann and Andreas Schliep for the German translation.",
+    "discovered_from": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000"
   }
 ]

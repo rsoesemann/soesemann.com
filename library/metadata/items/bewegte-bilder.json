@@ -18,9 +18,12 @@
     "date_label": "Presentation",
     "with_whom": "Project team; names not established",
     "topics": [],
-    "summary": "Multimediale Firmenpräsentation im Internet WS 99/00. Projektrückblick: Redesign des Bewegte Bilder Webauftrittes.",
+    "summary": "A project retrospective on redesigning the Bewegte Bilder company website. Created for a university course on presenting companies through multimedia on the web.",
     "summary_basis": {
-      "method": "cover text, whitespace normalized",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the original PDF cover",
+      "source_id": "bewegte-bilder",
+      "path": "library/2000/bewegte-bilder/original.pdf",
       "url": "https://rsoesemann.github.io/mmfirmenpraesentation/mmfirmenpraesentation.pdf",
       "page": 1
     },

@@ -1,0 +1,65 @@
+{
+  "id": "translation-scrum-und-xp-im-harten-projektalltag-announcement",
+  "url": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+  "source": {
+    "slug": "translation-scrum-und-xp-im-harten-projektalltag-announcement",
+    "url": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+    "title": "German version of Scrum and XP from the Trenches — author announcement",
+    "kind": "article",
+    "role": "about",
+    "evidence": "Henrik Kniberg’s announcement dated 2009-03-22 credits Robert Sösemann and Andreas Schliep for the German translation.",
+    "discovered_from": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000"
+  },
+  "library_dir": "library/2009/translation-scrum-und-xp-im-harten-projektalltag",
+  "publication": {
+    "include": true
+  },
+  "part_of": "translation-scrum-und-xp-im-harten-projektalltag",
+  "file_names": {
+    ".html": "announcement.html",
+    ".txt": "announcement.txt"
+  },
+  "grouping_evidence": {
+    "url": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+    "observation": "Author announces this German edition and names its translators."
+  },
+  "last_success": {
+    "at": "2026-11-12T22:54:38.041694+00:00",
+    "final_url": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2009/translation-scrum-und-xp-im-harten-projektalltag/announcement.html",
+    "title": "German version of Scrum and XP from the Trenches - Crisp’s Blog",
+    "author": "Henrik Kniberg",
+    "date": "2009-03-22",
+    "language": null,
+    "text_sha256": "5c126fe6f79fae1d34f6653b49b2635d6f9c2008300b94df956ac4fd0431f089",
+    "text_path": "library/2009/translation-scrum-und-xp-im-harten-projektalltag/announcement.txt",
+    "words": 101
+  },
+  "latest_attempt": {
+    "at": "2026-11-12T22:54:38.041694+00:00",
+    "final_url": "https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "captured",
+    "raw": "library/2009/translation-scrum-und-xp-im-harten-projektalltag/announcement.html",
+    "title": "German version of Scrum and XP from the Trenches - Crisp’s Blog",
+    "author": "Henrik Kniberg",
+    "date": "2009-03-22",
+    "language": null,
+    "text_sha256": "5c126fe6f79fae1d34f6653b49b2635d6f9c2008300b94df956ac4fd0431f089",
+    "text_path": "library/2009/translation-scrum-und-xp-im-harten-projektalltag/announcement.txt",
+    "words": 101
+  },
+  "context": {
+    "format": "Author announcement",
+    "where": "Crisp",
+    "platform": "Crisp",
+    "when": "2009-03-22",
+    "date_label": "Published",
+    "with_whom": [
+      "Henrik Kniberg"
+    ],
+    "evidence": "Henrik Kniberg announces the German edition and names both translators."
+  }
+}

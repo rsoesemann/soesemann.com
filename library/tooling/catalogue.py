@@ -2,6 +2,7 @@
 
 import json
 import mimetypes
+import re
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -10,6 +11,32 @@ MEDIA_TYPES = {".mp4": "video/mp4", ".webm": "video/webm", ".m4a": "audio/mp4",
                ".mp3": "audio/mpeg", ".wav": "audio/wav", ".ogg": "audio/ogg",
                ".opus": "audio/ogg", ".flac": "audio/flac"}
 IMAGE_TYPES = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp", ".ico": "image/x-icon"}
+
+
+def card_label(context):
+    """Name the venue and contribution, without capture details such as 'video'."""
+    format_name = context.get("format", "")
+    formats = {
+        "Article": "Blog article",
+        "Conference talk (video)": "Conference session", "Conference talk video": "Conference session",
+        "Podcast episode page": "Podcast", "Podcast / interview video": "Podcast interview",
+        "Podcast interview (video)": "Podcast interview", "Video interview": "Interview",
+        "Webinar event page": "Webinar", "Webinar page": "Webinar",
+        "Recorded presentation": "Webinar", "Live coding discussion (video)": "Live coding",
+        "Video course with Don Robins": "Video course", "Profile about Robert": "Profile",
+        "Diplomarbeit": "Diploma thesis", "Seminararbeit": "Seminar paper",
+        "Studienarbeit": "Research project", "Projektarbeit": "Student project",
+        "Projektpräsentation": "Project presentation", "Facharbeit Englisch": "School research paper",
+        "Mini-presentation": "Student presentation",
+    }
+    venue = context.get("platform") or context.get("where", "")
+    if venue in {"Conferences", "YouTube"} or format_name.startswith("Live coding"):
+        venue = context.get("where", venue)
+    if context.get("platform") == "Conferences":
+        venue = re.sub(r"\s+\d{4}.*$", "", venue)
+        if format_name == "Presentation slides":
+            format_name = "Conference session · Slides"
+    return " · ".join(value for value in (venue, formats.get(format_name, format_name)) if value)
 
 
 def load_json(path, default):
@@ -75,6 +102,7 @@ def source_items(root):
                        "media_error": record.get("media", {}).get("error") or record.get("media", {}).get("audio_error"),
                        "words": len(text.split()), "assets": assets, "review": review,
                        "context": record.get("context", {}),
+                       "card_label": card_label(record.get("context", {})),
                        "evidence": source.get("evidence"), "warning": latest.get("warning") or latest.get("error"),
                        "original_language": content.get("language"),
                        "caption_types": sorted({track.get("kind", "unknown") for track in content.get("tracks", [])})})

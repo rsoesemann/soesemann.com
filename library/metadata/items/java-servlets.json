@@ -20,9 +20,12 @@
       "Robert Sösemann"
     ],
     "topics": [],
-    "summary": "Was sind Servlets und wie funktionieren sie Beschreibung des Projekts CD-Shopping Bestandteile der Applikation Kommunikationsmodel der Komponenten Ausblick/Fazit",
+    "summary": "A Java servlet project built around an online CD shop. The presentation explains how servlets work, the application’s components, and how those components communicate.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "java-servlets",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [

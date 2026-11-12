@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>German version of Scrum and XP from the Trenches - Crisp’s Blog</title>
+    <!-- Start Wingify Common Smartcode -->
+    <script data-jetpack-boost="ignore" type='text/javascript'>
+        var _vwo_clicks = 10;
+    </script>
+    <!-- End Wingify Common Smartcode -->
+                    <!-- Start Wingify Async SmartCode -->
+        <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com"/>
+        <script type='text/javascript' id="vwoCode" data-jetpack-boost="ignore">
+        window._vwo_code ||
+        (function () {
+        var w=window,
+        d=document;
+        var account_id=37214,
+        version=2.2,
+        settings_tolerance=2000,
+        hide_element='body',
+        hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important';
+        /* DO NOT EDIT BELOW THIS LINE */
+        var f=0, v;
+        if(f=!1,v=d.querySelector('#vwoCode'),cc={},-1<d.URL.indexOf('__vwo_disable__')||w._vwo_code)return;try{var e=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=e&&'object'==typeof e?e:{}}catch(e){}function r(t){try{return decodeURIComponent(t)}catch(e){return t}}var s=function(){var e={combination:[],combinationChoose:[],split:[],exclude:[],uuid:null,consent:null,optOut:null},t=d.cookie||'';if(!t)return e;for(var n,i,o=/(?:^|;\s*)(?:(_vis_opt_exp_(\d+)_combi=([^;]*))|(_vis_opt_exp_(\d+)_combi_choose=([^;]*))|(_vis_opt_exp_(\d+)_split=([^:;]*))|(_vis_opt_exp_(\d+)_exclude=[^;]*)|(_vis_opt_out=([^;]*))|(_vwo_global_opt_out=[^;]*)|(_vwo_uuid=([^;]*))|(_vwo_consent=([^;]*)))/g;null!==(n=o.exec(t));)try{n[1]?e.combination.push({id:n[2],value:r(n[3])}):n[4]?e.combinationChoose.push({id:n[5],value:r(n[6])}):n[7]?e.split.push({id:n[8],value:r(n[9])}):n[10]?e.exclude.push({id:n[11]}):n[12]?e.optOut=r(n[13]):n[14]?e.optOut=!0:n[15]?e.uuid=r(n[16]):n[17]&&(i=r(n[18]),e.consent=i&&3<=i.length?i.substring(0,3):null)}catch(e){}return e}();function i(){var e=function(){if(w.VWO&&Array.isArray(w.VWO))for(var e=0;e<w.VWO.length;e++){var t=w.VWO[e];if(Array.isArray(t)&&('setVisitorId'===t[0]||'setSessionId'===t[0]))return!0}return!1}(),t='a='+account_id+'&u='+encodeURIComponent(w._vis_opt_url||d.URL)+'&vn='+version+'&ph=1'+('undefined'!=typeof platform?'&p='+platform:'')+'&st='+w.performance.now();e||((n=function(){var e,t=[],n={},i=w.VWO&&w.VWO.appliedCampaigns||{};for(e in i){var o=i[e]&&i[e].v;o&&(t.push(e+'-'+o+'-1'),n[e]=!0)}if(s&&s.combination)for(var r=0;r<s.combination.length;r++){var a=s.combination[r];n[a.id]||t.push(a.id+'-'+a.value)}return t.join('|')}())&&(t+='&c='+n),(n=function(){var e=[],t={};if(s&&s.combinationChoose)for(var n=0;n<s.combinationChoose.length;n++){var i=s.combinationChoose[n];e.push(i.id+'-'+i.value),t[i.id]=!0}if(s&&s.split)for(var o=0;o<s.split.length;o++)t[(i=s.split[o]).id]||e.push(i.id+'-'+i.value);return e.join('|')}())&&(t+='&cc='+n),(n=function(){var e={},t=[];if(w.VWO&&Array.isArray(w.VWO))for(var n=0;n<w.VWO.length;n++){var i=w.VWO[n];if(Array.isArray(i)&&'setVariation'===i[0]&&i[1]&&Array.isArray(i[1]))for(var o=0;o<i[1].length;o++){var r,a=i[1][o];a&&'object'==typeof a&&(r=a.e,a=a.v,r&&a&&(e[r]=a))}}for(r in e)t.push(r+'-'+e[r]);return t.join('|')}())&&(t+='&sv='+n)),s&&s.optOut&&(t+='&o='+s.optOut);var n=function(){var e=[],t={};if(s&&s.exclude)for(var n=0;n<s.exclude.length;n++){var i=s.exclude[n];t[i.id]||(e.push(i.id),t[i.id]=!0)}return e.join('|')}();return n&&(t+='&e='+n),s&&s.uuid&&(t+='&id='+s.uuid),s&&s.consent&&(t+='&consent='+s.consent),w.name&&-1<w.name.indexOf('_vis_preview')&&(t+='&pM=true'),w.VWO&&w.VWO.ed&&(t+='&ed='+w.VWO.ed),t}code={script:v,nonce:v&&v.nonce,library_tolerance:function(){return'undefined'!=typeof library_tolerance?library_tolerance:void 0},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){return performance.getEntriesByName('first-contentful-paint')[0]?'':'string'==typeof cc.hE?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){var t;f||(f=!0,(t=d.getElementById('_vis_opt_path_hides'))&&t.parentNode.removeChild(t),e&&((new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e))},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript',e.src?t.src=e.src:t.text=e.text,v&&t.setAttribute('nonce',v.nonce),d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){t=t||{};var n=new XMLHttpRequest;n.open('GET',e,!0),n.withCredentials=!t.dSC,n.responseType=t.responseType||'text',n.onload=function(){if(t.onloadCb)return t.onloadCb(n,e);200===n.status?_vwo_code.addScript({text:n.responseText}):_vwo_code.finish('&e=loading_failure:'+e)},n.onerror=function(){if(t.onerrorCb)return t.onerrorCb(e);_vwo_code.finish('&e=loading_failure:'+e)},n.send()},init:function(){var e,t=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish()},t),'body'!==this.hide_element()?(n=d.createElement('style'),e=(t=this.hide_element())?t+this.hide_element_style():'',t=d.getElementsByTagName('head')[0],n.setAttribute('id','_vis_opt_path_hides'),v&&n.setAttribute('nonce',v.nonce),n.setAttribute('type','text/css'),n.styleSheet?n.styleSheet.cssText=e:n.appendChild(d.createTextNode(e)),t.appendChild(n)):(n=d.getElementsByTagName('head')[0],(e=d.createElement('div')).style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;',e.setAttribute('id','_vis_opt_path_hides'),e.classList.add('_vis_hide_layer'),n.parentNode.insertBefore(e,n.nextSibling));var n='https://dev.visualwebsiteoptimizer.com/j.php?'+i();-1!==w.location.search.indexOf('_vwo_xhr')?this.addScript({src:n}):this.load(n+'&x=true',{l:1})}};w._vwo_code=code;code.init();})();
+        </script>
+        <!-- End Wingify Async SmartCode -->
+
+        
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1">
+<link rel="canonical" href="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000">
+<meta name="description" content="A German translation of my book Scrum and XP from the Trenches is now available. Thanks Robert Sösemann &amp; Andreas Schliep! Russian, French, Spanish, Japanese…">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Crisp&#039;s Blog">
+<meta property="og:title" content="German version of Scrum and XP from the Trenches - Crisp’s Blog">
+<meta property="og:description" content="A German translation of my book Scrum and XP from the Trenches is now available. Thanks Robert Sösemann &amp; Andreas Schliep! Russian, French, Spanish, Japanese, Chinese, and Portuguese translations are…">
+<meta property="og:url" content="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000">
+<meta property="og:image" content="https://blog.crisp.se/henrikkniberg/images/scrum-and-xp-from-the-trenches-german.jpg">
+<meta property="article:published_time" content="2009-03-22T08:58:00+00:00">
+<meta property="article:modified_time" content="2009-03-22T08:58:00+00:00">
+<meta property="article:publisher" content="https://www.facebook.com/crisp.se">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="German version of Scrum and XP from the Trenches - Crisp’s Blog">
+<meta name="twitter:description" content="A German translation of my book Scrum and XP from the Trenches is now available. Thanks Robert Sösemann &amp; Andreas Schliep! Russian, French, Spanish, Japanese, Chinese, and Portuguese translations are…">
+<meta name="twitter:image" content="https://blog.crisp.se/henrikkniberg/images/scrum-and-xp-from-the-trenches-german.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://blog.crisp.se/#/schema/WebSite","url":"https://blog.crisp.se/","name":"Crisp's Blog","description":"from the Crisp Consultants","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://blog.crisp.se/search/{search_term_string}"},"query-input":"required name=search_term_string"},"publisher":{"@type":"Organization","@id":"https://blog.crisp.se/#/schema/Organization","name":"Crisp's Blog","url":"https://blog.crisp.se/","logo":{"@type":"ImageObject","url":"https://blog.crisp.se/wp-content/uploads/2020/06/cropped-crisp-site-icon.png","contentUrl":"https://blog.crisp.se/wp-content/uploads/2020/06/cropped-crisp-site-icon.png","width":512,"height":512}}},{"@type":"WebPage","@id":"https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000","url":"https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000","name":"German version of Scrum and XP from the Trenches - Crisp’s Blog","description":"A German translation of my book Scrum and XP from the Trenches is now available. Thanks Robert Sösemann & Andreas Schliep! Russian, French, Spanish, Japanese…","inLanguage":"en-US","isPartOf":{"@id":"https://blog.crisp.se/#/schema/WebSite"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://blog.crisp.se/#/schema/BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":"https://blog.crisp.se/","name":"Crisp’s Blog"},{"@type":"ListItem","position":2,"item":"https://blog.crisp.se/category/uncategorized","name":"Uncategorized"},{"@type":"ListItem","position":3,"name":"German version of Scrum and XP from the Trenches"}]},"potentialAction":{"@type":"ReadAction","target":"https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000"},"datePublished":"2009-03-22T08:58:00+00:00","dateModified":"2009-03-22T08:58:00+00:00","author":{"@type":"Person","@id":"https://blog.crisp.se/#/schema/Person/ab1fd5e109a56f9128153b6322436724","name":"Henrik Kniberg","description":"I debug, refactor, and optimize IT companies. And jam alot too."}}]}</script>
+<!-- / The SEO Framework by Sybre Waaijer | 4.31ms meta | 0.08ms boot -->
+
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel="alternate" type="application/rss+xml" title="Crisp&#039;s Blog &raquo; Feed" href="https://blog.crisp.se/feed" />
+<link rel="alternate" type="application/rss+xml" title="Crisp&#039;s Blog &raquo; Comments Feed" href="https://blog.crisp.se/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Crisp&#039;s Blog &raquo; German version of Scrum and XP from the Trenches Comments Feed" href="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000/feed" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://blog.crisp.se/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.crisp.se%2F2009%2F03%2F22%2Fhenrikkniberg%2F1237708680000" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://blog.crisp.se/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.crisp.se%2F2009%2F03%2F22%2Fhenrikkniberg%2F1237708680000&#038;format=xml" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v11.3.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-X5S8FN8LMG"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '11.3.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/blog.crisp.se\/2009\/03\/22\/henrikkniberg\/1237708680000\/"};
+								MonsterInsightsDefaultLocations.page_location = window.location.href;
+								if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-X5S8FN8LMG',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-X5S8FN8LMG', {"forceSSL":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+							<!-- / Google Analytics by MonsterInsights -->
+		<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='crisp-css' href='https://blog.crisp.se/wp-content/themes/crisp-blog/assets/styles/css/crisp.css?ver=1781308054' media='all' />
+<script async data-wp-strategy="async" id="monsterinsights-frontend-script-js" src="https://blog.crisp.se/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=11.3.0"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/blog.crisp.se","hash_tracking":"false","v4_id":"G-X5S8FN8LMG"};/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://blog.crisp.se/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://blog.crisp.se/wp-json/wp/v2/posts/233" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.crisp.se/xmlrpc.php?rsd" />
+<link rel="icon" href="https://blog.crisp.se/wp-content/uploads/2020/06/cropped-crisp-site-icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://blog.crisp.se/wp-content/uploads/2020/06/cropped-crisp-site-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://blog.crisp.se/wp-content/uploads/2020/06/cropped-crisp-site-icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://blog.crisp.se/wp-content/uploads/2020/06/cropped-crisp-site-icon-270x270.png" />
+<link rel='stylesheet' id='gglcptch-css' href='https://blog.crisp.se/wp-content/plugins/google-captcha/css/gglcptch.css?ver=1.87' media='all' />
+<link rel='stylesheet' id='author-avatars-widget-css' href='https://blog.crisp.se/wp-content/plugins/author-avatars/css/widget.css?ver=2.2.0' media='all' />
+
+</head>
+	<body class="wp-singular post-template-default single single-post postid-233 single-format-standard wp-theme-crisp-blog" data-spy="scroll" data-target="#site-nav" data-offset="40">
+<header id="crisp-header" class="site-header">
+	<nav class="navbar navbar-light bg-light fixed-top" id="site-nav">
+			<a href="https://blog.crisp.se/" rel="home" tabindex="-1" class="navbar-brand-symbol">
+		<img src="https://blog.crisp.se/wp-content/themes/crisp-blog/assets/images/logos/crisp-logo-symbol.svg" class="brand-logo img-fluid" alt="Crisp&#039;s Blog" />
+	</a>
+		<a href="https://blog.crisp.se/" rel="home" tabindex="-1" class="navbar-brand">
+					<img src="https://blog.crisp.se/wp-content/themes/crisp-blog/assets/images/logos/crisp-logo.svg" class="brand-logo img-fluid" alt="Crisp&#039;s Blog" />
+			</a>
+	<a href="#1237708680000" class="nav-link nav-link-post-title">German version of Scrum and XP from the Trenches</a>				<div class="navbar-menu">
+			<div class="search-container">
+				<form action="/" method="get" class="navbar-search-form" id="wp-search-form" role="search">
+					<input class="form-control search-input input-round" id="navbar-search" type="text" name="s" value="" placeholder="Search" aria-label="Search" spellcheck="false" autocomplete="off" />
+					<label class="search-btn-label" for="navbar-search">
+						<span class="search-mglass">
+							<svg class="w-6 h-6" fill="none" stroke="currentColor" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+						</span>
+					</label>
+				</form>
+			</div>
+			<button class="btn btn-link btn-toggler" type="button" data-toggle="modal" data-target="#blog-menu" aria-controls="mobile-navbar" aria-label="Toggle navigation">
+				Menu
+			</button>
+		</div>
+	</nav>
+</header>
+	<main id="main" role="main">
+			<section>
+			<article id="post-233" class="post-233 post type-post status-publish format-standard hentry category-uncategorized tag-agile tag-books tag-german tag-scrum tag-xp">
+	<header class="header entry-header bg-light">	<div class="header-content flex-col-center">
+		<h1 class="header-title entry-title text-center" id="1237708680000">German version of Scrum and XP from the Trenches</h1>	<div class="entry-meta is-single-post">
+					<a href="https://blog.crisp.se/author/henrikkniberg" class="author-avatar-container">
+				<img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Henrik-Kniberg_avatar_1517164948-96x96.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Henrik-Kniberg_avatar_1517164948.png 2x' class='avatar avatar-96 photo' height='96' width='96' decoding='async'/>			</a>
+				<div class="entry-meta-data">
+			<span class="entry-meta-date"><span class="posted-on">Posted on <time class="entry-date published updated" datetime="2009-03-22T08:58:00+01:00">2009-03-22 &#8211; 08:58</time></span></span>
+			by 
+			<a href="https://blog.crisp.se/author/henrikkniberg" title="Posts by Henrik Kniberg" class="author url fn" rel="author">Henrik Kniberg</a>		</div>
+	</div>
+	</div>
+	</header>	<div class="entry-content">
+		<div class="container">	
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-8">
+				<p>A <a href="http://www.infoq.com/resource/news/2007/06/scrum-xp-book/en/resources/ScrumAndXpFromTheTrenchesonline_German.pdf">German translation</a> of my book <a href="http://www.crisp.se/henrik.kniberg/ScrumAndXpFromTheTrenches.html">Scrum and XP from the Trenches</a> is now available. Thanks Robert S&ouml;semann &amp; Andreas Schliep!</p>
+<p><a href="http://www.infoq.com/resource/news/2007/06/scrum-xp-book/en/resources/ScrumAndXpFromTheTrenchesonline_German.pdf"><img decoding="async" border="1" alt="Scrum and XP from the Trenches in German" src="/henrikkniberg/images/scrum-and-xp-from-the-trenches-german.jpg" /></a></p>
+<p><a href="http://scrum.org.ua/wp-content/uploads/2008/12/scrum_xp-from-the-trenches-rus-final.pdf">Russian</a>, <a href="http://www.infoq.com/resource/news/2007/06/scrum-xp-book/en/resources/ScrumAndXpFromTheTrenches_French.pdf">French</a>, <a href="http://www.proyectalis.com/2008/02/26/scrum-y-xp-desde-las-trincheras/">Spanish</a>, <a href="http://www.infoq.com/jp/minibooks/scrum-xp-from-the-trenches">Japanese</a>, <a href="http://www.infoq.com/cn/minibooks/scrum-xp-from-the-trenches">Chinese</a>, and <a href="http://www.infoq.com/br/minibooks/scrum-xp-from-the-trenches">Portuguese</a> translations are also available. Korean, Italian, and Slovak translations are underway. </p>
+<p>I never cease to be impressed by the agile community! So far, every time I&#8217;ve blogged about a new translation it&#8217;s taken less than one day before someone offers to translate to the next language :o)</p>
+<p>All translations are listed on <a href="http://www.infoq.com/minibooks/scrum-xp-from-the-trenches">InfoQ</a> as well. Feel free to email me (henrik.kniberg AT crisp.se) if you want to translate the book to your language.</p>
+				</div>
+									<div class="col-12 col-lg-8">
+						<div class="author-footer">
+								<div class="entry-meta is-single-post">
+					<a href="https://blog.crisp.se/author/henrikkniberg" class="author-avatar-container">
+				<img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Henrik-Kniberg_avatar_1517164948-96x96.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Henrik-Kniberg_avatar_1517164948.png 2x' class='avatar avatar-96 photo' height='96' width='96' decoding='async'/>			</a>
+				<div class="entry-meta-data">
+			<span class="entry-meta-date"><span class="posted-on">Posted on <time class="entry-date published updated" datetime="2009-03-22T08:58:00+01:00">2009-03-22 &#8211; 08:58</time></span></span>
+			by 
+			<a href="https://blog.crisp.se/author/henrikkniberg" title="Posts by Henrik Kniberg" class="author url fn" rel="author">Henrik Kniberg</a>		</div>
+	</div>
+<div class="badge-list entry-tags"><span class="badge badge-pill badge-outline-dark"><a href="https://blog.crisp.se/tag/agile" rel="tag">agile</a></span> <span class="badge badge-pill badge-outline-dark"><a href="https://blog.crisp.se/tag/books" rel="tag">books</a></span> <span class="badge badge-pill badge-outline-dark"><a href="https://blog.crisp.se/tag/german" rel="tag">german</a></span> <span class="badge badge-pill badge-outline-dark"><a href="https://blog.crisp.se/tag/scrum" rel="tag">Scrum</a></span> <span class="badge badge-pill badge-outline-dark"><a href="https://blog.crisp.se/tag/xp" rel="tag">xp</a></span></div>								<div class="author-rss-link">
+									<a class="rss-url" href="https://blog.crisp.se/author/henrikkniberg/feed/rss2/">Subscribe to Henrik's RSS feed</a>
+								</div>
+														</div>
+					</div>
+							</div>
+		</div>
+	</div>
+</article>
+		</section>
+		<div class="section section--comments bg-light">
+			<div class="container">	
+				<div class="row justify-content-center">
+					<div class="col col-lg-8">
+					
+<div id="comments" class="comments-area">
+		<h4 class="comments-title">
+		2 responses on &ldquo;<span>German version of Scrum and XP from the Trenches</span>&rdquo;		</h4>
+
+		
+		<ol class="comment-list">
+					<li id="comment-478" class="comment even thread-even depth-1">
+			<article id="div-comment-478" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/f1a9f6afc511b68d809237a688ef82fb861da473ebcb1cbd8cbf5e025bb0f72a?s=64&#038;r=g' srcset='https://secure.gravatar.com/avatar/f1a9f6afc511b68d809237a688ef82fb861da473ebcb1cbd8cbf5e025bb0f72a?s=128&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' decoding='async'/>						<b class="fn">Martin Liu</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000#comment-478"><time datetime="2009-06-02T10:59:46+02:00">2009-06-02 at 10:59</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Hi Henrik,<br />
+I am a software development manager from China, and I happended to read this book yesterday &#8212; it was a fantastic experience reading your book, and the great ideas in it realy made me exicting. Before i apply SCRUM to my work, i have a few questions:</p>
+<p>1. In my opinion, backlog is just a summary of requirements. Is it qualified for sharing requirements through different teams, such as R&#038;D, QA? It is too brief to be a real requirement, isn&#8217;t it?<br />
+2. You didn&#8217;t mention how design work is done in a SCRUM/Sprint process. I think a high-level/architecture design is needed before the first Sprint. And detail design should be done for each backlog, right? Does it need a design guy in the team?</p>
+<p>Hope you can spend a few minutes helping me, thank you!<br />
+Forgive my poor English 🙂</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000?replytocom=478#respond" data-commentid="478" data-postid="233" data-belowelement="div-comment-478" data-respondelement="respond" data-replyto="Reply to Martin Liu" aria-label="Reply to Martin Liu">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-479" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-479" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt='' src='https://secure.gravatar.com/avatar/28edb5ec965590d9a3e423d92e7936bce3e46b7ed85d61b42d8341a0f5ffd31a?s=64&#038;r=g' srcset='https://secure.gravatar.com/avatar/28edb5ec965590d9a3e423d92e7936bce3e46b7ed85d61b42d8341a0f5ffd31a?s=128&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' loading='lazy' decoding='async'/>						<b class="fn"><a href="http://www.crisp.se" class="url" rel="ugc external nofollow">Henrik Kniberg</a></b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000#comment-479"><time datetime="2009-06-02T03:37:55+02:00">2009-06-02 at 03:37</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Hi Martin! Glad you enjoyed the book! Unfortunately I can&#8217;t answer your questions without knowing your context. Good luck!</p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://blog.crisp.se/2009/03/22/henrikkniberg/1237708680000?replytocom=479#respond" data-commentid="479" data-postid="233" data-belowelement="div-comment-479" data-respondelement="respond" data-replyto="Reply to Henrik Kniberg" aria-label="Reply to Henrik Kniberg">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		</ol>
+
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2009/03/22/henrikkniberg/1237708680000#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://blog.crisp.se/wp-comments-post.php?wpe-comment-post=crispblog" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<div class="gglcptch gglcptch_v3"><input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" /><br /><div class="gglcptch_error_text">The reCAPTCHA verification period has expired. Please reload the page.</div></div><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='233' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="6bc9fcdfb3" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="121"/><script>
+document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+</script>
+</p></form>	</div><!-- #respond -->
+	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed.</a></p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="container posts-navigation-container">
+			<nav class="post-nav posts-navigation">
+				<ul class="nav-links post-nav-titles">
+					<li class="nav-previous truncate-link"><a class="link-arrow link-arrow--left" href="https://blog.crisp.se/2009/03/19/mattiasskarin/1237477804699" rel="prev">Getting management involvement in Scrum</a></li>
+					<li class="nav-next truncate-link"><a class="link-arrow" href="https://blog.crisp.se/2009/03/30/magnusaxelqvist/1238417361784" rel="next">The Wicket framework is not TDD-friendly</a></li>
+				</ul>
+			</nav>
+		</section>
+			</main>
+
+
+<footer id="crisp-footer" class="site-footer bg-light" role="contentinfo">
+	<div class="container-lg">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-10 col-lg-4 footer-brand">
+					<a href="https://blog.crisp.se/" rel="home" tabindex="-1" class="navbar-brand">
+					<svg width="110" height="46" viewBox="0 0 110 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="crisp-logo">
+<title>Crisp</title>
+<path d="M6.13864 34.5105C4.2494 33.5355 2.68121 32.0367 1.62183 30.1934C0.540608 28.3311 0 26.1852 0 23.7558C0 21.3264 0.540608 19.1805 1.62183 17.3181C2.68121 15.4749 4.2494 13.976 6.13864 13.001C8.06792 11.9853 10.2638 11.4778 12.7263 11.4785C15.5858 11.4588 18.3916 12.2553 20.8143 13.7744L18.1729 18.8153C16.4718 17.7531 14.6894 17.222 12.8256 17.222C10.9294 17.222 9.36609 17.8278 8.13554 19.0393C6.905 20.2508 6.28937 21.823 6.28867 23.7558C6.28867 25.6851 6.90394 27.2572 8.13448 28.4723C9.36503 29.6873 10.9287 30.2945 12.8256 30.2938C14.6894 30.2938 16.4697 29.7613 18.1666 28.6963L20.808 33.7371C18.3868 35.2541 15.5833 36.0491 12.7263 36.0288C10.261 36.0288 8.0651 35.5213 6.13864 34.5063" fill="#30596C"/>
+<path d="M37.7777 18.1158H37.0846C34.589 18.1158 32.7576 18.7145 31.5904 19.9119C30.4233 21.1094 29.8411 23.089 29.8439 25.8509V35.2892H23.7539V12.2276H29.7943V17.1163H29.8936C30.493 15.3187 31.4411 13.9378 32.7379 12.9735C34.0346 12.0092 35.6318 11.5267 37.5294 11.526H37.7787L37.7777 18.1158Z" fill="#30596C"/>
+<path d="M47.6031 1.17279C48.3835 1.95464 48.7745 2.94464 48.7759 4.14279C48.7759 5.30712 48.3849 6.28022 47.6031 7.06207C46.8212 7.84393 45.8312 8.23486 44.6331 8.23486C43.4681 8.23486 42.495 7.84393 41.7138 7.06207C40.9326 6.28022 40.5417 5.30712 40.541 4.14279C40.541 2.94535 40.9319 1.95535 41.7138 1.17279C42.4957 0.390225 43.4688 -0.000703426 44.6331 9.50147e-07C45.8305 9.50147e-07 46.8205 0.39093 47.6031 1.17279ZM41.5395 12.2266H47.6781V35.2892H41.5395V12.2266Z" fill="#30596C"/>
+<path d="M55.6811 35.434C54.0028 35.0549 52.389 34.4327 50.8906 33.5871L53.3862 28.3973C56.1143 29.9941 58.6926 30.7925 61.1213 30.7925C63.0182 30.7925 63.9663 30.2434 63.9656 29.1453C63.9727 28.9483 63.9361 28.7522 63.8585 28.571C63.7808 28.3898 63.6641 28.228 63.5166 28.0972C63.2179 27.8324 62.7023 27.5154 61.9698 27.1463L57.828 25.3501C56.0305 24.5528 54.7161 23.5889 53.8849 22.4583C53.0538 21.3278 52.6378 19.9969 52.6371 18.4656C52.6371 16.2038 53.4024 14.4735 54.933 13.2747C56.4636 12.0758 58.6761 11.4771 61.5704 11.4785C64.166 11.4785 66.8944 12.011 69.7556 13.076L67.709 18.2162C65.2134 17.1512 63.051 16.6187 61.2217 16.6187C60.3553 16.6187 59.7478 16.7353 59.3991 16.9684C59.0505 17.2016 58.8744 17.5509 58.8709 18.0165C58.8676 18.2227 58.9083 18.4272 58.99 18.6164C59.0718 18.8057 59.1929 18.9754 59.3452 19.1143C59.6615 19.4137 60.2356 19.7461 61.0674 20.1117L65.2092 21.9079C66.9067 22.6059 68.1795 23.4864 69.0276 24.5493C69.8757 25.6122 70.2983 26.9765 70.2955 28.6424C70.2955 31.1077 69.4471 32.9542 67.7502 34.182C66.0534 35.4097 63.7272 36.0253 60.7716 36.0288C59.0577 36.0244 57.3499 35.8248 55.6811 35.434Z" fill="#30596C"/>
+<path d="M73.8008 12.2276H79.8898V15.4713H79.9891C80.7268 14.2318 81.7854 13.2145 83.0531 12.5266C84.3337 11.8286 85.8724 11.4792 87.6692 11.4785C89.6276 11.4603 91.5561 11.9596 93.2595 12.926C94.9549 13.8917 96.2933 15.2973 97.2745 17.1427C98.2557 18.9882 98.7463 21.1926 98.7463 23.7558C98.7463 26.3183 98.2557 28.5223 97.2745 30.3678C96.2933 32.2132 94.9549 33.6192 93.2595 34.5856C91.5572 35.5496 89.6307 36.0474 87.6745 36.0288C85.8784 36.0288 84.3397 35.6795 83.0584 34.9807C81.7909 34.2925 80.7324 33.2753 79.9944 32.0361H79.895V45.2653H73.8008V12.2276ZM90.6445 28.4469C91.7919 27.2495 92.3657 25.6858 92.3657 23.7558C92.3657 21.8258 91.7919 20.2621 90.6445 19.0646C89.4964 17.8672 87.9908 17.2685 86.1277 17.2685C84.2646 17.2685 82.759 17.8672 81.6109 19.0646C80.4635 20.2621 79.8898 21.8258 79.8898 23.7558C79.8898 25.6858 80.4635 27.2495 81.6109 28.4469C82.7583 29.6444 84.2639 30.2431 86.1277 30.2431C87.9915 30.2431 89.4971 29.6444 90.6445 28.4469Z" fill="#30596C"/>
+<path d="M105.941 35.9833C106.744 35.9836 107.529 35.7457 108.196 35.2998C108.864 34.854 109.384 34.2202 109.691 33.4786C109.998 32.737 110.079 31.9209 109.922 31.1336C109.766 30.3463 109.379 29.6231 108.812 29.0555C108.244 28.4878 107.521 28.1013 106.734 27.9448C105.946 27.7882 105.13 27.8687 104.389 28.1759C103.647 28.4832 103.013 29.0036 102.567 29.6711C102.121 30.3386 101.884 31.1234 101.884 31.9261C101.884 33.0022 102.311 34.0341 103.072 34.795C103.833 35.5559 104.865 35.9833 105.941 35.9833Z" fill="#30596C"/>
+</svg>			</a>
+		<address>
+		Crisp AB<br>Sveavägen 31<br>SE-111 34 Stockholm<br>
+		<div class="address-link">
+			<a href="https://goo.gl/maps/RxVYpvEqKnZFbCb17" target="_blank" class="link-arrow">Show on map</a>
+		</div>
+		<div class="address-link">
+			<a href="https://crisp.se/" class="link-arrow">Contact us</a>
+		</div>
+	</address>
+	<div class="social-links">
+		<a href="https://www.facebook.com/crisp.se/" target="_blank">Facebook</a>
+		<a href="https://www.youtube.com/user/crispagileacademy/" target="_blank">YouTube</a>
+	</div>
+				</div>
+										<div class="col-12 col-md-10 col-lg-8 footer-menu-widgets widget-cols-1">
+					<aside id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title">About</h3><div class="menu-footer-links-container"><ul id="menu-footer-links" class="menu"><li id="menu-item-10538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10538"><a href="https://crisp.se">Crisp.se</a></li>
+<li id="menu-item-10539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10539"><a href="https://crisp.se/konsulter">Consultants</a></li>
+<li id="menu-item-10540" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10540"><a href="https://www.crisp.se/kurser">Courses</a></li>
+</ul></div></aside>				</div>
+					</div>
+	</div>
+</footer>
+
+<div class='modal modal-menu' id='blog-menu' role='dialog' tabindex='-1'>
+	<div class="modal-header border-0 fixed-top">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span class='sr-only'>Close navigation</span>
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	<div class='modal-dialog'>
+		<div class="modal-content">
+			<div class="modal-body">
+				<aside id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-main-navigation-container"><ul id="menu-main-navigation" class="menu"><li id="menu-item-10537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10537"><a href="https://crisp.se/konsulter">Consultants</a></li>
+</ul></div></aside><aside id="author_avatars-2" class="widget widget_author_avatars"><h3 class="widget-title">Blog Authors</h3><div class="author-list"><div class="user with-name name-group-0-m name-group-last-w user-18" style=""><a href="https://blog.crisp.se/author/maxwenzin" title="Max Wenzin"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2025/05/cropped-max-slack-profile-60x60.jpeg' srcset='https://blog.crisp.se/wp-content/uploads/2025/05/cropped-max-slack-profile-120x120.jpeg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Max Wenzin</span></a></div><div class="user with-name name-group-0-f name-group-last-l user-21" style=""><a href="https://blog.crisp.se/author/fredriklindgren" title="Fredrik Lindgren"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Fredrik-Lindgren_avatar_1517164800-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Fredrik-Lindgren_avatar_1517164800.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Fredrik Lindgren</span></a></div><div class="user with-name name-group-0-m name-group-last-a user-9" style=""><a href="https://blog.crisp.se/author/magnusaxelqvist" title="Magnus Axelqvist"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Magnus-Axelqvist_avatar_1517165075-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Magnus-Axelqvist_avatar_1517165075.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Magnus Axelqvist</span></a></div><div class="user with-name name-group-0-m name-group-last-g user-38" style=""><a href="https://blog.crisp.se/author/michaelgothe" title="Michael Göthe"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Michael-Göthe_avatar_1517165261-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Michael-Göthe_avatar_1517165261.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Michael Göthe</span></a></div><div class="user with-name name-group-0-h name-group-last-k user-8" style=""><a href="https://blog.crisp.se/author/henrikkniberg" title="Henrik Kniberg"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Henrik-Kniberg_avatar_1517164948-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Henrik-Kniberg_avatar_1517164948.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Henrik Kniberg</span></a></div><div class="user with-name name-group-0-d name-group-last-b user-14" style=""><a href="https://blog.crisp.se/author/davidbarnholdt" title="David Barnholdt"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2026/04/cropped-David-2023-vit-bakgrund-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2026/04/cropped-David-2023-vit-bakgrund-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">David Barnholdt</span></a></div><div class="user with-name name-group-0-h name-group-last-b user-15" style=""><a href="https://blog.crisp.se/author/hansbrattberg" title="Hans Brattberg"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2024/04/Hans-Brattberg-scaled-e1713127931532-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2024/04/Hans-Brattberg-scaled-e1713127931532-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Hans Brattberg</span></a></div><div class="user with-name name-group-0-t name-group-last-b user-12" style=""><a href="https://blog.crisp.se/author/tomasbjorkholm" title="Tomas Björkholm"><span class="avatar"><img alt='Tomas Björkholm' src='https://blog.crisp.se/wp-content/uploads/2023/08/IMG_2299-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2023/08/IMG_2299-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Tomas Björkholm</span></a></div><div class="user with-name name-group-0-a name-group-last-t user-46" style=""><a href="https://blog.crisp.se/author/alexandertarlinder" title="Alexander Tarlinder"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Alexander-Tarlinder_avatar_1517164381-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Alexander-Tarlinder_avatar_1517164381.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Alexander Tarlinder</span></a></div><div class="user with-name name-group-0-r name-group-last-f user-16" style=""><a href="https://blog.crisp.se/author/rezafarhang" title="Reza Farhang"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Reza-Farhang_avatar_1517165368-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Reza-Farhang_avatar_1517165368.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Reza Farhang</span></a></div><div class="user with-name name-group-0-e name-group-last-c user-27" style=""><a href="https://blog.crisp.se/author/evil-coach" title="Evil Coach"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Evil-Coach_avatar_1517164737-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Evil-Coach_avatar_1517164737-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Evil Coach</span></a></div></div></aside><aside id="author_avatars-3" class="widget widget_author_avatars"><h3 class="widget-title">Guest Contributors</h3><div class="author-list"><div class="user with-name name-group-0-r name-group-last-k name-group-0-r name-group-last-k user-67" style=""><a href="https://blog.crisp.se/author/ruben-klerkx" title="Ruben Klerkx"><span class="avatar"><img src='https://secure.gravatar.com/avatar/369023a65013fb4941239681b796314e9a95aed752e55db3b47ca0dc33432042?s=60&#038;r=g' srcset='https://secure.gravatar.com/avatar/369023a65013fb4941239681b796314e9a95aed752e55db3b47ca0dc33432042?s=120&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' alt="avatar for Ruben Klerkx"  style=""  loading="lazy" /></span><span class="name">Ruben Klerkx</span></a></div><div class="user with-name name-group-0-l name-group-last-c name-group-0-l name-group-last-c user-64" style=""><a href="https://blog.crisp.se/author/leadingcomplexity" title="Leading Complexity"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2023/02/Leading-Complexity_avatar_1675248094-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2023/02/Leading-Complexity_avatar_1675248094-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Leading Complexity</span></a></div><div class="user with-name name-group-0-t name-group-last-m name-group-0-t name-group-last-m user-56" style=""><a href="https://blog.crisp.se/author/troy-magennis" title="Troy Magennis"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2019/09/Troy-Magennis_avatar_1568270940-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2019/09/Troy-Magennis_avatar_1568270940-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Troy Magennis</span></a></div><div class="user with-name name-group-0-s name-group-last-b name-group-0-s name-group-last-b user-55" style=""><a href="https://blog.crisp.se/author/stephen-bungay" title="Stephen Bungay"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2019/08/Stephen-Bungay_avatar_1566544716-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2019/08/Stephen-Bungay_avatar_1566544716.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Stephen Bungay</span></a></div><div class="user with-name name-group-0-e name-group-last-g name-group-0-e name-group-last-g user-34" style=""><a href="https://blog.crisp.se/author/ellen-gottesdiener" title="Ellen Gottesdiener"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Ellen-Gottesdiener_avatar_1517164654-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Ellen-Gottesdiener_avatar_1517164654-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Ellen Gottesdiener</span></a></div><div class="user with-name name-group-0-a name-group-last-d name-group-0-a name-group-last-d user-50" style=""><a href="https://blog.crisp.se/author/andriidzynia" title="Andrii Dzynia"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Andrii-Dzynia_avatar_1517164454-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Andrii-Dzynia_avatar_1517164454.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Andrii Dzynia</span></a></div><div class="user with-name name-group-0-c name-group-last-l name-group-0-c name-group-last-l user-47" style=""><a href="https://blog.crisp.se/author/craig-larman" title="Craig Larman"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Craig-Larman_avatar_1517164512-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Craig-Larman_avatar_1517164512.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Craig Larman</span></a></div><div class="user with-name name-group-0-a name-group-last-r name-group-0-a name-group-last-r user-41" style=""><a href="https://blog.crisp.se/author/andersramsay" title="Anders Ramsay"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Anders-Ramsay_avatar_1517164438-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Anders-Ramsay_avatar_1517164438-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Anders Ramsay</span></a></div><div class="user with-name name-group-0-e name-group-last-d name-group-0-e name-group-last-d user-40" style=""><a href="https://blog.crisp.se/author/estherderby" title="Esther Derby"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Esther-Derby_avatar_1517164672-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Esther-Derby_avatar_1517164672.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Esther Derby</span></a></div><div class="user with-name name-group-0-j name-group-last-g name-group-0-j name-group-last-g user-31" style=""><a href="https://blog.crisp.se/author/jeff-gothelf" title="Jeff Gothelf"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Jeff-Gothelf_avatar_1517164992-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Jeff-Gothelf_avatar_1517164992.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Jeff Gothelf</span></a></div><div class="user with-name name-group-0-d name-group-last-e name-group-0-d name-group-last-e user-39" style=""><a href="https://blog.crisp.se/author/david-evans" title="David Evans"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/David-Evans_avatar_1517164566-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/David-Evans_avatar_1517164566-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">David Evans</span></a></div><div class="user with-name name-group-0-c name-group-last-a name-group-0-c name-group-last-a user-32" style=""><a href="https://blog.crisp.se/author/christopher-avery" title="Christopher Avery"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Christopher-Avery_avatar_1517164488-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Christopher-Avery_avatar_1517164488-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Christopher Avery</span></a></div><div class="user with-name name-group-0-g name-group-last-a name-group-0-g name-group-last-a user-36" style=""><a href="https://blog.crisp.se/author/gojkoadzic" title="Gojko Adzic"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Gojko-Adzic_avatar_1517170029-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Gojko-Adzic_avatar_1517170029-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Gojko Adzic</span></a></div><div class="user with-name name-group-0-n name-group-last-c name-group-0-n name-group-last-c user-57" style=""><a href="https://blog.crisp.se/author/neilcook" title="Neil Cook"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2019/12/Neil-Cook_avatar_1576477554-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2019/12/Neil-Cook_avatar_1576477554.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Neil Cook</span></a></div><div class="user with-name name-group-0-j name-group-last-m name-group-0-j name-group-last-m user-60" style=""><a href="https://blog.crisp.se/author/jenniemartensson" title="Jennie Mårtensson"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2025/06/cropped-IMG_1689-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2025/06/cropped-IMG_1689-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Jennie Mårtensson</span></a></div></div></aside><aside id="author_avatars-4" class="widget widget_author_avatars"><h3 class="widget-title">Crisp Alumni</h3><div class="author-list"><div class="user with-name name-group-0-a name-group-last-l name-group-0-a name-group-last-l name-group-0-a name-group-last-l user-4" style=""><a href="https://blog.crisp.se/author/anderslaestadius" title="Anders Laestadius"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Anders-Laestadius_avatar_1517164414-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Anders-Laestadius_avatar_1517164414.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Anders Laestadius</span></a></div><div class="user with-name name-group-0-a name-group-last-o name-group-0-a name-group-last-o name-group-0-a name-group-last-o user-48" style=""><a href="https://blog.crisp.se/author/anneliolsen" title="Anneli Olsen"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2020/06/39965357-AA82-47C1-8AB4-0A357C22BBC7-e1591192940230-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2020/06/39965357-AA82-47C1-8AB4-0A357C22BBC7-e1591192940230-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Anneli Olsen</span></a></div><div class="user with-name name-group-0-c name-group-last-a name-group-0-c name-group-last-a name-group-0-c name-group-last-a user-52" style=""><a href="https://blog.crisp.se/author/christopheachouiantz" title="Christophe Achouiantz"><span class="avatar"><img src='https://secure.gravatar.com/avatar/97d4ab4624f8314eaa841e3f0bf672a83cd9863606e874cabd3d73c4f3c8a069?s=60&#038;r=g' srcset='https://secure.gravatar.com/avatar/97d4ab4624f8314eaa841e3f0bf672a83cd9863606e874cabd3d73c4f3c8a069?s=120&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' alt="avatar for Christophe Achouiantz"  style=""  loading="lazy" /></span><span class="name">Christophe Achouiantz</span></a></div><div class="user with-name name-group-0-d name-group-last-s name-group-0-d name-group-last-s name-group-0-d name-group-last-s user-3" style=""><a href="https://blog.crisp.se/author/danielsundman" title="Daniel Sundman"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Daniel-Sundman_avatar_1517164545-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Daniel-Sundman_avatar_1517164545.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Daniel Sundman</span></a></div><div class="user with-name name-group-0-g name-group-last-b name-group-0-g name-group-last-b name-group-0-g name-group-last-b user-30" style=""><a href="https://blog.crisp.se/author/gustavbostrom" title="Gustav Boström"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Gustav-Boström_avatar_1517164855-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Gustav-Boström_avatar_1517164855.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Gustav Boström</span></a></div><div class="user with-name name-group-0-j name-group-last-g name-group-0-j name-group-last-g name-group-0-j name-group-last-g user-10" style=""><a href="https://blog.crisp.se/author/jangrape" title="Jan Grape"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Jan-Grape_avatar_1517164973-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Jan-Grape_avatar_1517164973.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Jan Grape</span></a></div><div class="user with-name name-group-0-j name-group-last-j name-group-0-j name-group-last-j name-group-0-j name-group-last-j user-25" style=""><a href="https://blog.crisp.se/author/jimmyjanlen" title="Jimmy Janlén"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Jimmy-Janlén_avatar_1517165011-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Jimmy-Janlén_avatar_1517165011.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Jimmy Janlén</span></a></div><div class="user with-name name-group-0-j name-group-last-s name-group-0-j name-group-last-s name-group-0-j name-group-last-s user-65" style=""><a href="https://blog.crisp.se/author/joakimsunden" title="Joakim Sundén"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2023/11/joakim-stor-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2023/11/joakim-stor-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Joakim Sundén</span></a></div><div class="user with-name name-group-0-m name-group-last-c name-group-0-m name-group-last-c name-group-0-m name-group-last-c user-54" style=""><a href="https://blog.crisp.se/author/marcuscastenfors" title="Marcus Castenfors"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2019/11/Marcus-Castenfors_avatar_1573657886-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2019/11/Marcus-Castenfors_avatar_1573657886-120x120.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Marcus Castenfors</span></a></div><div class="user with-name name-group-0-m name-group-last-c name-group-0-m name-group-last-c name-group-0-m name-group-last-c user-35" style=""><a href="https://blog.crisp.se/author/martinchristensen" title="Martin Christensen"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Martin-Christensen_avatar_1517165093-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Martin-Christensen_avatar_1517165093.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Martin Christensen</span></a></div><div class="user with-name name-group-0-m name-group-last-h name-group-0-m name-group-last-h name-group-0-m name-group-last-h user-51" style=""><a href="https://blog.crisp.se/author/mathiasholmgren" title="Mathias Holmgren"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Mathias-Holmgren_avatar_1517165863-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Mathias-Holmgren_avatar_1517165863-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Mathias Holmgren</span></a></div><div class="user with-name name-group-0-m name-group-last-h name-group-0-m name-group-last-h name-group-0-m name-group-last-h user-17" style=""><a href="https://blog.crisp.se/author/matshenricson" title="Mats Henricson"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Mats-Henricson_avatar_1517165134-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Mats-Henricson_avatar_1517165134.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Mats Henricson</span></a></div><div class="user with-name name-group-0-m name-group-last-s name-group-0-m name-group-last-s name-group-0-m name-group-last-s user-6" style=""><a href="https://blog.crisp.se/author/mattiasskarin" title="Mattias Skarin"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Mattias-Skarin_avatar_1517165202-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Mattias-Skarin_avatar_1517165202.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Mattias Skarin</span></a></div><div class="user with-name name-group-0-m name-group-last-k name-group-0-m name-group-last-k name-group-0-m name-group-last-k user-19" style=""><a href="https://blog.crisp.se/author/miakolmodin" title="Mia Kolmodin"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Mia-Kolmodin_avatar_1517165243-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Mia-Kolmodin_avatar_1517165243.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Mia Kolmodin</span></a></div><div class="user with-name name-group-0-m name-group-last-b name-group-0-m name-group-last-b name-group-0-m name-group-last-b user-11" style=""><a href="https://blog.crisp.se/author/mikaelbrodd" title="Mikael Brodd"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Mikael-Brodd_avatar_1517165277-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Mikael-Brodd_avatar_1517165277.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Mikael Brodd</span></a></div><div class="user with-name name-group-0-o name-group-last-h name-group-0-o name-group-last-h name-group-0-o name-group-last-h user-13" style=""><a href="https://blog.crisp.se/author/ollehallin" title="Olle Hallin"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Olle-Hallin_avatar_1517165293-60x60.jpg' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Olle-Hallin_avatar_1517165293.jpg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Olle Hallin</span></a></div><div class="user with-name name-group-0-o name-group-last-l name-group-0-o name-group-last-l name-group-0-o name-group-last-l user-26" style=""><a href="https://blog.crisp.se/author/oscarlantz" title="Oscar Lantz"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Oscar-Lantz_avatar_1517165310-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Oscar-Lantz_avatar_1517165310.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Oscar Lantz</span></a></div><div class="user with-name name-group-0-p name-group-last-l name-group-0-p name-group-last-l name-group-0-p name-group-last-l user-5" style=""><a href="https://blog.crisp.se/author/perlundholm" title="Per Lundholm"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Per-Lundholm_avatar_1517165334-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Per-Lundholm_avatar_1517165334.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Per Lundholm</span></a></div><div class="user with-name name-group-0-p name-group-last-a name-group-0-p name-group-last-a name-group-0-p name-group-last-a user-24" style=""><a href="https://blog.crisp.se/author/peterantman" title="Peter Antman"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Peter-Antman_avatar_1517165351-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Peter-Antman_avatar_1517165351.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Peter Antman</span></a></div><div class="user with-name name-group-0-t name-group-last-a name-group-0-t name-group-last-a name-group-0-t name-group-last-a user-42" style=""><a href="https://blog.crisp.se/author/thereseahlberg" title="Therese Ahlberg"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2016/04/Therese-Ahlberg_avatar_1461046610-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2016/04/Therese-Ahlberg_avatar_1461046610.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Therese Ahlberg</span></a></div><div class="user with-name name-group-0-t name-group-last-t name-group-0-t name-group-last-t name-group-0-t name-group-last-t user-28" style=""><a href="https://blog.crisp.se/author/thomasthyberg" title="Thomas Thyberg"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2018/01/Thomas-Thyberg_avatar_1517165404-60x60.png' srcset='https://blog.crisp.se/wp-content/uploads/2018/01/Thomas-Thyberg_avatar_1517165404-120x120.png 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Thomas Thyberg</span></a></div><div class="user with-name name-group-0-y name-group-last-s name-group-0-y name-group-last-s name-group-0-y name-group-last-s user-2" style=""><a href="https://blog.crisp.se/author/yassalsundman" title="Yassal Sundman"><span class="avatar"><img alt='Avatar photo' src='https://blog.crisp.se/wp-content/uploads/2020/12/profilepic-edit-square-small-60x60.jpeg' srcset='https://blog.crisp.se/wp-content/uploads/2020/12/profilepic-edit-square-small-120x120.jpeg 2x' class='avatar avatar-60 photo' height='60' width='60' loading='lazy' decoding='async' style=""  loading="lazy" /></span><span class="name">Yassal Sundman</span></a></div></div></aside>			</div>
+		</div>
+	</div>
+</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/crisp-blog/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="jquery-js" src="https://code.jquery.com/jquery-3.4.1.min.js?ver=7.1.4"></script>
+<script id="popper-js-js" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js?ver=7.1.4"></script>
+<script id="bootstrap-js-js" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js?ver=7.1.4"></script>
+<script defer id="akismet-frontend-js" src="https://blog.crisp.se/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1787155556"></script>
+<script id="gglcptch_api-js" data-cfasync="false" async="async" defer="defer" src="https://www.google.com/recaptcha/api.js?render=6LeiMZIqAAAAAKh7B8yMH2S8Yrd-KjsQBEIjkASO"></script>
+<script id="gglcptch_script-js-extra">
+var gglcptch = {"options":{"version":"v3","sitekey":"6LeiMZIqAAAAAKh7B8yMH2S8Yrd-KjsQBEIjkASO","error":"\u003Cstrong\u003EWarning\u003C/strong\u003E:&nbsp;More than one reCAPTCHA has been found in the current form. Please remove all unnecessary reCAPTCHA fields to make it work properly.","disable":0},"vars":{"visibility":false}};
+//# sourceURL=gglcptch_script-js-extra
+</script>
+<script id="gglcptch_script-js" src="https://blog.crisp.se/wp-content/plugins/google-captcha/js/script.js?ver=1.87"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://blog.crisp.se/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://blog.crisp.se/wp-includes/js/wp-emoji-loader.min.js
+</script>
+	<script>
+	if ( ! document.body.classList.contains('is-sticky') ) {
+		window.onscroll = function() { toggleNavbarInversed() };
+	}
+	var header = document.getElementsByClassName("navbar")[0];
+	var body = document.getElementsByTagName("BODY")[0]; 
+	var sticky = header.offsetTop;
+	function toggleNavbarInversed() {
+		if (window.pageYOffset > sticky) {
+			body.classList.add("is-sticky");
+		} else {
+			body.classList.remove("is-sticky");
+		}
+	}
+	</script>
+	
+</body>
+</html>

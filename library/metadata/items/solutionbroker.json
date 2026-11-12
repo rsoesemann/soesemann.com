@@ -13,16 +13,19 @@
   "context": {
     "format": "Diplomarbeit",
     "where": "IBM · Böblingen",
-    "platform": "IBM · Böblingen",
+    "platform": "IBM Research & Development",
     "when": "2003-12",
     "date_label": "Original listing",
     "with_whom": [
       "Robert Sösemann"
     ],
     "topics": [],
-    "summary": "Um als Anwender bei Softwareproblemen einfacher eigene Lösungen zur Verfügung stellen zu können oder auf existierende Lösungen zugreifen zu können, wurde ein neues Hilfesystem konzipiert und realisiert, dessen Grundidee von IBM stammt. Es sieht vor, Lösungen zentral und inklusive einer um Kontextinformation erweiterte Problembeschreibung abzulegen. Durch ein einheitliches und maschinenlesbares Format werden Unklarheiten vermieden und eine automatische Lösungssuche möglich. Ein automatischer Vergleich der Problembeschreibungen identifiziert dabei ähnliche Probleme und gibt nur potentiell relevante Lösungen aus.",
+    "summary": "A diploma thesis on a system for sharing solutions to software problems, based on an IBM concept. Structured problem descriptions include context so the system can compare cases and retrieve potentially relevant solutions.",
     "summary_basis": {
-      "method": "verbatim original website description",
+      "kind": "archive_summary",
+      "method": "AI-written English teaser based on the preserved original description",
+      "source_id": "solutionbroker",
+      "path": "library/metadata/references/old-website/original.html",
       "url": "https://rsoesemann.github.io/"
     },
     "evidence": [
