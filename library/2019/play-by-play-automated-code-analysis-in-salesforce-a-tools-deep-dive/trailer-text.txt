@@ -1,0 +1,48 @@
+[Music]
+welcome to this Salesforce play-by-play
+with floral site salesforce play-by-play
+is an interactive series where we sit
+down with Salesforce experts such as
+MVPs consultants developers and
+architects to discuss common challenges
+faced everyday by Salesforce customers
+in this course we challenge Lorenzo
+Frattini certified technical architect
+and founder of Clayton and Robert so
+psmith principal architect at logic line
+and creator of PMD for Apex to help us
+understand existing static code analysis
+tools and how to integrate them into a
+Salesforce development process to
+improve code quality first Lorenzo and
+Robert provide an overview and
+discussion of why code quality matters
+and explore the cost benefits of
+cultivating a clean code culture next
+they explain what static code analysis
+means describe how it works and identify
+key code analysis techniques and
+concepts they take us on a deep dive
+into two well-known but more than
+slightly different toolsets
+PMD and Clayton and you'll watch as they
+demonstrate how to build and configure
+code analysis rules in each and launched
+analysis of their sample project code
+along the way we explore where rules are
+best applied in Salesforce build and
+configure rules in both analysis tool
+sets and show how each toolset can be
+integrated into an application
+development pipeline by the time we're
+done you'll have a clear understanding
+of what static code analysis tools are
+how PMD and Clayton work and what the
+trade-offs are for choosing between them
+so whether you're a Salesforce developer
+or architect or just need to know more
+about static code analysis on the
+Salesforce platform please join us for
+automated code analysis in Salesforce
+tools deep dive we hope you enjoy it
+[Music]

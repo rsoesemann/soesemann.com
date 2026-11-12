@@ -132,6 +132,9 @@ Honor explicit `context.employer` before overlapping career dates. Hide career
 periods with no collected work. Keep cards minimal: image, publisher, title,
 format, date and original link; additional context stays in the catalogue. Cards and timeline previews open the
 content directly; do not reintroduce a detail modal or nested source disclosures.
+Video cards open the original online video, even when a local backup exists.
+Keep a separate link to the accompanying article or course. Label course trailers
+as trailers, including in archive availability; they are not full course recordings.
 Store curated topics in `context.topics` and the publisher/show name in
 `context.platform`. Keep content-type and topic controls in the filters;
 show the publisher as a plain label. Slides remain assets of conference talks,
@@ -174,7 +177,8 @@ partial and failed captures separately. Never claim complete web coverage.
   Salesforce Developers and Dreamforce appearances: the John Belo/Roopa Mohan recording is still blocked by a CAPTCHA at https://appsecurityandperformancemadeasy.splashthat.com/.
 - Pluralsight Play by Play with Don Robins: full recordings not saved. His gallery
   at https://outformations.my.salesforce-sites.com/ points to Pluralsight and two
-  YouTube trailers. The full courses still require an authorised copy.
+  YouTube trailers, now saved at their highest offered resolution (720p).
+  The full courses still require an authorised copy.
 - Scavenger AI recording: video and audio saved after retry on 2026-11-07.
 - Hutte interview video unavailable; edited article saved.
 - Salesforce Ben interview and Goldcast webinar: complete video and audio saved.

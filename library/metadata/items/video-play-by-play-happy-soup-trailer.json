@@ -1,0 +1,70 @@
+{
+  "id": "video-play-by-play-happy-soup-trailer",
+  "url": "https://www.youtube.com/watch?v=z0DJbKQSVRk",
+  "source": {
+    "slug": "video-play-by-play-happy-soup-trailer",
+    "url": "https://www.youtube.com/watch?v=z0DJbKQSVRk",
+    "title": "Sipping the Happy Soup - Untangle Production Orgs with DX Unlocked Packages — Trailer",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://outformations.my.salesforce-sites.com/",
+    "evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery."
+  },
+  "part_of": "course-play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages",
+  "library_dir": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages",
+  "file_names": {
+    ".txt": "trailer-text.txt",
+    ".json3": "trailer-captions.json3"
+  },
+  "grouping_evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery.",
+  "context": {
+    "format": "Course trailer",
+    "where": "Pluralsight · YouTube",
+    "published_at": "2019-10-29",
+    "date_label": "Trailer uploaded",
+    "with_whom": "Don Robins",
+    "platform": "Pluralsight"
+  },
+  "latest_attempt": {
+    "at": "2026-11-12T13:58:03.522911+00:00",
+    "title": "Sipping the Happy Soup - Untangle Production Orgs with DX Unlocked Packages",
+    "author": "Pluralsight",
+    "date": "20191029",
+    "raw": "library/metadata/providers/video-play-by-play-happy-soup-trailer/youtube.json",
+    "status": "partial",
+    "warning": "No identified original English/German caption track",
+    "video_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/video.mp4",
+    "audio_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/audio.m4a",
+    "media_duration_seconds": 173.011882
+  },
+  "media": {
+    "url": "https://www.youtube.com/watch?v=z0DJbKQSVRk",
+    "source_id": "video-play-by-play-happy-soup-trailer",
+    "at": "2026-11-12T13:59:21.894697+00:00",
+    "speaker_status": "unverified; may include hosts and audience",
+    "video_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/video.mp4",
+    "video_sha256": "b8c4c1864801d07f8f05ca97842769681d2823b1ec80f85623c24fc117d3ffb8",
+    "video_bytes": 14018804,
+    "audio_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/audio.m4a",
+    "audio_sha256": "a7642a10d221ea37f9a04ea662fcaf1ecaf5c55436626166bed928e8c78e056c",
+    "audio_bytes": 2798861,
+    "description_path": "library/2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/description.txt",
+    "status": "saved",
+    "media_duration_seconds": 173.011882,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "error": null,
+    "verification": "ffprobe streams and matching audio/video duration; SHA-256 files; audio copied without re-encoding",
+    "video_quality": "Highest offered resolution: 1280×720; YouTube formats 136 + 140 merged without re-encoding."
+  }
+}

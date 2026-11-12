@@ -549,5 +549,23 @@
     "kind": "profile",
     "role": "reference",
     "evidence": "Original repository snapshot and history preserved before migration."
+  },
+  {
+    "slug": "video-play-by-play-code-analysis-trailer",
+    "url": "https://www.youtube.com/watch?v=5Th40vzPOTc",
+    "title": "Automated Code Analysis in Salesforce - a Tools Deep-Dive — Trailer",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://outformations.my.salesforce-sites.com/",
+    "evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery."
+  },
+  {
+    "slug": "video-play-by-play-happy-soup-trailer",
+    "url": "https://www.youtube.com/watch?v=z0DJbKQSVRk",
+    "title": "Sipping the Happy Soup - Untangle Production Orgs with DX Unlocked Packages — Trailer",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://outformations.my.salesforce-sites.com/",
+    "evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery."
   }
 ]

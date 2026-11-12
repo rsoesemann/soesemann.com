@@ -1,0 +1,686 @@
+{
+  "id": "video-play-by-play-code-analysis-trailer",
+  "url": "https://www.youtube.com/watch?v=5Th40vzPOTc",
+  "source": {
+    "slug": "video-play-by-play-code-analysis-trailer",
+    "url": "https://www.youtube.com/watch?v=5Th40vzPOTc",
+    "title": "Automated Code Analysis in Salesforce - a Tools Deep-Dive — Trailer",
+    "kind": "video",
+    "role": "interview",
+    "discovered_from": "https://outformations.my.salesforce-sites.com/",
+    "evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery."
+  },
+  "part_of": "course-play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive",
+  "library_dir": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive",
+  "file_names": {
+    ".txt": "trailer-text.txt",
+    ".json3": "trailer-captions.json3"
+  },
+  "grouping_evidence": "Pluralsight YouTube upload describes this course and names Robert and Don Robins; linked as Preview in Don Robins’s gallery.",
+  "context": {
+    "format": "Course trailer",
+    "where": "Pluralsight · YouTube",
+    "published_at": "2019-06-28",
+    "date_label": "Trailer uploaded",
+    "with_whom": "Don Robins and Lorenzo Frattini",
+    "platform": "Pluralsight"
+  },
+  "last_success": {
+    "at": "2026-11-12T13:57:58.233052+00:00",
+    "title": "Automated Code Analysis in Salesforce - a Tools Deep-Dive",
+    "author": "Pluralsight",
+    "date": "20190628",
+    "duration_seconds": 140,
+    "raw": "library/metadata/providers/video-play-by-play-code-analysis-trailer/youtube.json",
+    "tracks": [
+      {
+        "language": "en-orig",
+        "kind": "automatic",
+        "raw": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/trailer-captions.json3",
+        "segments": [
+          {
+            "start_ms": 280,
+            "duration_ms": 11110,
+            "text": "[Music]",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 11509,
+            "duration_ms": 5561,
+            "text": "welcome to this Salesforce play-by-play",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 13920,
+            "duration_ms": 5490,
+            "text": "with floral site salesforce play-by-play",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 17070,
+            "duration_ms": 4709,
+            "text": "is an interactive series where we sit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 19410,
+            "duration_ms": 4770,
+            "text": "down with Salesforce experts such as",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 21779,
+            "duration_ms": 5191,
+            "text": "MVPs consultants developers and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 24180,
+            "duration_ms": 5220,
+            "text": "architects to discuss common challenges",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26970,
+            "duration_ms": 5880,
+            "text": "faced everyday by Salesforce customers",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 29400,
+            "duration_ms": 5730,
+            "text": "in this course we challenge Lorenzo",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 32850,
+            "duration_ms": 5070,
+            "text": "Frattini certified technical architect",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 35130,
+            "duration_ms": 4980,
+            "text": "and founder of Clayton and Robert so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 37920,
+            "duration_ms": 6120,
+            "text": "psmith principal architect at logic line",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 40110,
+            "duration_ms": 6420,
+            "text": "and creator of PMD for Apex to help us",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 44040,
+            "duration_ms": 5730,
+            "text": "understand existing static code analysis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 46530,
+            "duration_ms": 5400,
+            "text": "tools and how to integrate them into a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 49770,
+            "duration_ms": 6210,
+            "text": "Salesforce development process to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 51930,
+            "duration_ms": 6030,
+            "text": "improve code quality first Lorenzo and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 55980,
+            "duration_ms": 4770,
+            "text": "Robert provide an overview and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 57960,
+            "duration_ms": 5279,
+            "text": "discussion of why code quality matters",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 60750,
+            "duration_ms": 6210,
+            "text": "and explore the cost benefits of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 63239,
+            "duration_ms": 6331,
+            "text": "cultivating a clean code culture next",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66960,
+            "duration_ms": 5400,
+            "text": "they explain what static code analysis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 69570,
+            "duration_ms": 5339,
+            "text": "means describe how it works and identify",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 72360,
+            "duration_ms": 5310,
+            "text": "key code analysis techniques and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 74909,
+            "duration_ms": 5100,
+            "text": "concepts they take us on a deep dive",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 77670,
+            "duration_ms": 4170,
+            "text": "into two well-known but more than",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 80009,
+            "duration_ms": 5191,
+            "text": "slightly different toolsets",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 81840,
+            "duration_ms": 5610,
+            "text": "PMD and Clayton and you'll watch as they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 85200,
+            "duration_ms": 5160,
+            "text": "demonstrate how to build and configure",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 87450,
+            "duration_ms": 5059,
+            "text": "code analysis rules in each and launched",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 90360,
+            "duration_ms": 5219,
+            "text": "analysis of their sample project code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 92509,
+            "duration_ms": 5621,
+            "text": "along the way we explore where rules are",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 95579,
+            "duration_ms": 5161,
+            "text": "best applied in Salesforce build and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 98130,
+            "duration_ms": 5250,
+            "text": "configure rules in both analysis tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 100740,
+            "duration_ms": 4850,
+            "text": "sets and show how each toolset can be",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 103380,
+            "duration_ms": 5129,
+            "text": "integrated into an application",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 105590,
+            "duration_ms": 4360,
+            "text": "development pipeline by the time we're",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 108509,
+            "duration_ms": 4621,
+            "text": "done you'll have a clear understanding",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 109950,
+            "duration_ms": 6480,
+            "text": "of what static code analysis tools are",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 113130,
+            "duration_ms": 5699,
+            "text": "how PMD and Clayton work and what the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 116430,
+            "duration_ms": 4950,
+            "text": "trade-offs are for choosing between them",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 118829,
+            "duration_ms": 5220,
+            "text": "so whether you're a Salesforce developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 121380,
+            "duration_ms": 5099,
+            "text": "or architect or just need to know more",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 124049,
+            "duration_ms": 5341,
+            "text": "about static code analysis on the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 126479,
+            "duration_ms": 6241,
+            "text": "Salesforce platform please join us for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 129390,
+            "duration_ms": 7070,
+            "text": "automated code analysis in Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 132720,
+            "duration_ms": 6949,
+            "text": "tools deep dive we hope you enjoy it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 136460,
+            "duration_ms": 3209,
+            "text": "[Music]",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "e80fb53e5a9a51c2c73e728806894675509cd1b1b3757c8d2bfa4c9e583aaa7f",
+    "text_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/trailer-text.txt",
+    "words": 283,
+    "video_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/video.mp4",
+    "audio_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/audio.m4a",
+    "media_duration_seconds": 140.248526
+  },
+  "latest_attempt": {
+    "at": "2026-11-12T13:57:58.233052+00:00",
+    "title": "Automated Code Analysis in Salesforce - a Tools Deep-Dive",
+    "author": "Pluralsight",
+    "date": "20190628",
+    "duration_seconds": 140,
+    "raw": "library/metadata/providers/video-play-by-play-code-analysis-trailer/youtube.json",
+    "tracks": [
+      {
+        "language": "en-orig",
+        "kind": "automatic",
+        "raw": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/trailer-captions.json3",
+        "segments": [
+          {
+            "start_ms": 280,
+            "duration_ms": 11110,
+            "text": "[Music]",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 11509,
+            "duration_ms": 5561,
+            "text": "welcome to this Salesforce play-by-play",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 13920,
+            "duration_ms": 5490,
+            "text": "with floral site salesforce play-by-play",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 17070,
+            "duration_ms": 4709,
+            "text": "is an interactive series where we sit",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 19410,
+            "duration_ms": 4770,
+            "text": "down with Salesforce experts such as",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 21779,
+            "duration_ms": 5191,
+            "text": "MVPs consultants developers and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 24180,
+            "duration_ms": 5220,
+            "text": "architects to discuss common challenges",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 26970,
+            "duration_ms": 5880,
+            "text": "faced everyday by Salesforce customers",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 29400,
+            "duration_ms": 5730,
+            "text": "in this course we challenge Lorenzo",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 32850,
+            "duration_ms": 5070,
+            "text": "Frattini certified technical architect",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 35130,
+            "duration_ms": 4980,
+            "text": "and founder of Clayton and Robert so",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 37920,
+            "duration_ms": 6120,
+            "text": "psmith principal architect at logic line",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 40110,
+            "duration_ms": 6420,
+            "text": "and creator of PMD for Apex to help us",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 44040,
+            "duration_ms": 5730,
+            "text": "understand existing static code analysis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 46530,
+            "duration_ms": 5400,
+            "text": "tools and how to integrate them into a",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 49770,
+            "duration_ms": 6210,
+            "text": "Salesforce development process to",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 51930,
+            "duration_ms": 6030,
+            "text": "improve code quality first Lorenzo and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 55980,
+            "duration_ms": 4770,
+            "text": "Robert provide an overview and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 57960,
+            "duration_ms": 5279,
+            "text": "discussion of why code quality matters",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 60750,
+            "duration_ms": 6210,
+            "text": "and explore the cost benefits of",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 63239,
+            "duration_ms": 6331,
+            "text": "cultivating a clean code culture next",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 66960,
+            "duration_ms": 5400,
+            "text": "they explain what static code analysis",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 69570,
+            "duration_ms": 5339,
+            "text": "means describe how it works and identify",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 72360,
+            "duration_ms": 5310,
+            "text": "key code analysis techniques and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 74909,
+            "duration_ms": 5100,
+            "text": "concepts they take us on a deep dive",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 77670,
+            "duration_ms": 4170,
+            "text": "into two well-known but more than",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 80009,
+            "duration_ms": 5191,
+            "text": "slightly different toolsets",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 81840,
+            "duration_ms": 5610,
+            "text": "PMD and Clayton and you'll watch as they",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 85200,
+            "duration_ms": 5160,
+            "text": "demonstrate how to build and configure",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 87450,
+            "duration_ms": 5059,
+            "text": "code analysis rules in each and launched",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 90360,
+            "duration_ms": 5219,
+            "text": "analysis of their sample project code",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 92509,
+            "duration_ms": 5621,
+            "text": "along the way we explore where rules are",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 95579,
+            "duration_ms": 5161,
+            "text": "best applied in Salesforce build and",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 98130,
+            "duration_ms": 5250,
+            "text": "configure rules in both analysis tool",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 100740,
+            "duration_ms": 4850,
+            "text": "sets and show how each toolset can be",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 103380,
+            "duration_ms": 5129,
+            "text": "integrated into an application",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 105590,
+            "duration_ms": 4360,
+            "text": "development pipeline by the time we're",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 108509,
+            "duration_ms": 4621,
+            "text": "done you'll have a clear understanding",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 109950,
+            "duration_ms": 6480,
+            "text": "of what static code analysis tools are",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 113130,
+            "duration_ms": 5699,
+            "text": "how PMD and Clayton work and what the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 116430,
+            "duration_ms": 4950,
+            "text": "trade-offs are for choosing between them",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 118829,
+            "duration_ms": 5220,
+            "text": "so whether you're a Salesforce developer",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 121380,
+            "duration_ms": 5099,
+            "text": "or architect or just need to know more",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 124049,
+            "duration_ms": 5341,
+            "text": "about static code analysis on the",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 126479,
+            "duration_ms": 6241,
+            "text": "Salesforce platform please join us for",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 129390,
+            "duration_ms": 7070,
+            "text": "automated code analysis in Salesforce",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 132720,
+            "duration_ms": 6949,
+            "text": "tools deep dive we hope you enjoy it",
+            "speaker": "unverified"
+          },
+          {
+            "start_ms": 136460,
+            "duration_ms": 3209,
+            "text": "[Music]",
+            "speaker": "unverified"
+          }
+        ]
+      }
+    ],
+    "status": "captured",
+    "warning": null,
+    "quality": "Captions may repeat rolling text; languages and speakers require review",
+    "text_sha256": "e80fb53e5a9a51c2c73e728806894675509cd1b1b3757c8d2bfa4c9e583aaa7f",
+    "text_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/trailer-text.txt",
+    "words": 283,
+    "video_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/video.mp4",
+    "audio_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/audio.m4a",
+    "media_duration_seconds": 140.248526
+  },
+  "media": {
+    "url": "https://www.youtube.com/watch?v=5Th40vzPOTc",
+    "source_id": "video-play-by-play-code-analysis-trailer",
+    "at": "2026-11-12T13:59:17.504141+00:00",
+    "speaker_status": "unverified; may include hosts and audience",
+    "video_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/video.mp4",
+    "video_sha256": "8e49aae5faf2e869a534d9940e60b7bf2c370ad38cb627b97ae72e13997991a3",
+    "video_bytes": 10059734,
+    "audio_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/audio.m4a",
+    "audio_sha256": "d079bf444a6fc04671ce4007b30d115b0ec832d55ac2bef7dc90048fd74a2eec",
+    "audio_bytes": 2269064,
+    "description_path": "library/2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/description.txt",
+    "status": "saved",
+    "media_duration_seconds": 140.248526,
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      }
+    ],
+    "error": null,
+    "verification": "ffprobe streams and matching audio/video duration; SHA-256 files; audio copied without re-encoding",
+    "video_quality": "Highest offered resolution: 1280×720; YouTube formats 136 + 140 merged without re-encoding."
+  }
+}

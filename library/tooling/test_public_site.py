@@ -100,6 +100,24 @@ class PublicWebsite(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     build_public(self.root)
 
+    def test_course_trailer_and_full_course_have_separate_links_without_publishing_video(self):
+        self.record["source"]["kind"] = "course"
+        self.save()
+        video = self.root / "library/2000/project/video.mp4"
+        video.write_bytes(b"archived trailer")
+        trailer = {"id": "trailer", "url": "https://www.youtube.com/watch?v=5Th40vzPOTc",
+                   "source": {"title": "Trailer", "kind": "video"}, "part_of": "project",
+                   "context": {"format": "Course trailer"},
+                   "media": {"video_path": "library/2000/project/video.mp4"}}
+        (self.root / "library/metadata/items/trailer.json").write_text(json.dumps(trailer))
+        data = build_public(self.root)
+        self.assertEqual(len(data["items"]), 1)
+        self.assertEqual(data["items"][0]["content_link"], {"url": trailer["url"], "label": "Watch trailer"})
+        page = (self.root / "website/public/index.html").read_text()
+        self.assertIn(f'href="{trailer["url"]}"', page)
+        self.assertIn('href="https://example.org/project">View course', page)
+        self.assertFalse((self.root / "website/public/library/2000/project/video.mp4").exists())
+
 
 if __name__ == "__main__":
     unittest.main()

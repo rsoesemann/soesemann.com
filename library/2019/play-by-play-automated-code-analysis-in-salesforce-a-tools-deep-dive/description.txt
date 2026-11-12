@@ -1,0 +1,14 @@
+Salesforce Play by Play is an interactive series on Pluralsight.com, where we sit down with Salesforce experts to discuss common challenges faced every day by Salesforce customers. 
+
+In this course, Lorenzo Frattini, Robert Soessman and Don Robins discuss how teams can leverage existing Code Analysis tools to assess the quality of their existing codebase and make it an integral part of their development process. Along the way, we will get to know two famous tools in that space. The Open Source code analyzer PMD and the Cloud solution Clayton.io. 
+
+By the end of this course, you will be able to decide which steps to take first towards better code quality in your projects. You will have a good understanding of the core concepts and the breadth and diversity of the tools available. You will understand how to use, customize and extends them. View the entire course with a free trial Pluralsight subscription here: https://pluralsight.pxf.io/JvO5Q 
+
+Pluralsight content is localized into 50+ languages with machine translation.
+
+Visit us at:
+Facebook: https://www.facebook.com/pluralsight
+Twitter: https://twitter.com/pluralsight
+LinkedIn: https://www.linkedin.com/company/pluralsight
+Instagram: http://instagram.com/pluralsight
+Blog: https://www.pluralsight.com/blog

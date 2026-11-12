@@ -69,8 +69,8 @@ Generated from the catalogue. A source link does not mean its recording is saved
 
 | Work | Format | Saved recording | Sources |
 | --- | --- | --- | --- |
-| [Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages](2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/) | Video course with Don Robins | Recording not saved — Course page saved; full course not downloaded | [Source 1](https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages) |
-| [Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive](2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/) | Video course with Don Robins | Recording not saved — Course page saved; full course not downloaded | [Source 1](https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce) |
+| [Play by Play: Sipping the Happy Soup - Untangle Production Orgs with Salesforce DX Unlocked Packages](2019/play-by-play-sipping-the-happy-soup-untangle-production-orgs-with-salesforce-dx-unlocked-packages/) | Video course with Don Robins | Trailer saved; full course not saved | [Source 1](https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages) · [Source 2](https://www.youtube.com/watch?v=z0DJbKQSVRk) |
+| [Play by Play: Automated Code Analysis in Salesforce - a Tools Deep-Dive](2019/play-by-play-automated-code-analysis-in-salesforce-a-tools-deep-dive/) | Video course with Don Robins | Trailer saved; full course not saved | [Source 1](https://www.pluralsight.com/courses/play-by-play-automated-code-analysis-in-salesforce) · [Source 2](https://www.youtube.com/watch?v=5Th40vzPOTc) |
 | [Apex PMD  /  Code Analysis in Apex  /  Static code analysis Robert Sösemann](2019/apex-pmd-static-code-analysis-apex-hours/) | Recorded presentation | Video and audio saved | [Source 1](https://www.youtube.com/watch?v=34PxAHtAavU) · [Source 2](https://www.apexhours.com/apex-pmd-static-code-analysis/) |
 
 ## 2018

@@ -22,6 +22,10 @@ PAGES = ("index.html",)
 
 def content_link(item):
     """One destination for both the static HTML and interactive cards."""
+    recording = next((source for source in item["sources"] if source["kind"] in {"video", "audio"}), None)
+    if recording:
+        label = "Watch trailer" if recording["context"].get("format") == "Course trailer" else "Listen" if recording["kind"] == "audio" else "Watch"
+        return {"url": recording["url"], "label": label}
     if item["kind"] == "course":
         return {"url": item["url"], "label": "View course"}
     assets = item["assets"]
@@ -53,12 +57,16 @@ def static_work_html(works):
             url, title = escape(link["url"], quote=True), escape(item["title"])
             publisher = context.get("platform") or item.get("brand", {}).get("name") or context.get("where", "")
             image = item["assets"].get("thumbnail_path", {}).get("path")
+            page = next((source for source in item["sources"] if source["kind"] not in {"video", "audio"}
+                         and source["url"] != link["url"]), None)
+            original = (f'<a href="{escape(page["url"], quote=True)}">{"View course" if page["kind"] == "course" else "Original"} ↗</a>'
+                        if page else "")
             cover = f'<a class="cover" href="{url}" aria-label="Open {escape(item["title"], quote=True)}"><img src="{escape(image, quote=True)}" alt="" loading="lazy"></a>' if image else ""
             cards.append(f'<article class="work" id="work-{escape(item["id"], quote=True)}">{cover}<div class="work-body">'
                          f'<div class="publisher">{escape(publisher)}</div><h3><a class="work-title" href="{url}">{title}</a></h3>'
                          f'<p class="work-meta">{year} · {escape(context.get("format") or item["kind"])}</p>'
                          f'<p class="work-summary">{escape(context.get("summary", ""))}</p>'
-                         f'<div class="card-links"><a class="open-work" href="{url}">{escape(link["label"])}</a></div></div></article>')
+                         f'<div class="card-links"><a class="open-work" href="{url}">{escape(link["label"])}</a>{original}</div></div></article>')
         sections.append(f'<section class="year-group" id="year-{year}"><div class="year-heading"><h2>{year}</h2></div><div class="cards">' + "\n".join(cards) + '</div></section>')
     return "\n".join(sections)
 

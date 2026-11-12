@@ -53,6 +53,12 @@ class LibraryCatalogue(unittest.TestCase):
             self.assertIsNone(safe_file(root, "missing.mp4"))
             self.assertIsNone(safe_file(root, "../outside.mp4"))
 
+    def test_saved_trailer_does_not_imply_the_full_course_is_saved(self):
+        work = {"sources": [{"id": "course", "kind": "course"},
+                            {"id": "trailer", "kind": "video", "context": {"format": "Course trailer"}}],
+                "assets": {"video_path": {"type": "video/mp4", "source_id": "trailer"}}}
+        self.assertEqual(recording_status(work), {"summary": "Trailer saved; full course not saved", "missing": True})
+
 
 if __name__ == "__main__":
     unittest.main()

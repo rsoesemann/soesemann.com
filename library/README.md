@@ -42,6 +42,10 @@ Not every recording is available. Capture status distinguishes successful, parti
 and failed attempts and retains the last successful extraction. A publisher link,
 transcript or trailer does not imply the complete recording is saved.
 
+Video links on the website open the original online recording. Downloaded copies
+are archive backups; their resolution may be lower. The two Play by Play courses
+have saved 720p trailers and separate links to the complete courses.
+
 ## Add a contribution
 
 The simplest route is to give an agent the URL and say:

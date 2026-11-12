@@ -1,0 +1,15 @@
+Salesforce Play by Play is an interactive series on Pluralsight.com, where we sit down with Salesforce experts to discuss common challenges faced every day by Salesforce customers.
+
+In this course, Robert Sösemann and Don Robins will bust common myths that Salesforce DX is only helpful for ISVs using Managed Packages. Starting from a real-world scenario Robert will guide us in small riskless steps through the process of converting a Happy Soup Org full of tangled Metadata into a set of well-defined packages that can be versioned and worked on independently by different teams.
+
+View the entire course with a free trial Pluralsight subscription here:
+
+https://www.pluralsight.com/courses/play-by-play-untangle-production-orgs-salesforce-dx-unlocked-packages
+
+ Pluralsight content is localized into 50+ languages with machine translation.
+Visit us at:
+Facebook: https://www.facebook.com/pluralsight
+Twitter: https://twitter.com/pluralsight
+LinkedIn: https://www.linkedin.com/company/pluralsight
+Instagram: http://instagram.com/pluralsight
+Blog: https://www.pluralsight.com/blog

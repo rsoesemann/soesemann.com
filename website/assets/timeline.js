@@ -26,6 +26,11 @@ function contentLink(item, label) {
     link.href = item.content_link.url; link.target = "_blank"; link.rel = "noopener noreferrer";
     return link;
   }
+  const onlineRecording = sources(item).find(source => source.kind === "video" || source.kind === "audio");
+  if (onlineRecording) {
+    const action = onlineRecording.context?.format === "Course trailer" ? "Watch trailer" : onlineRecording.kind === "audio" ? "Listen" : "Watch";
+    return external(onlineRecording.url, label || action + " ↗");
+  }
   if (item.kind === "course") return external(item.url, label || "View course ↗");
   const recording = mediaEntry(item);
   const presentation = Object.entries(item.assets).find(([, info]) => info.label === "View slides");
@@ -124,7 +129,8 @@ function workCard(item) {
   }
   const links = element("div","card-links");
   const action = contentLink(item); action.className = "open-work"; links.append(action);
-
+  const page = sources(item).find(source => !["video", "audio"].includes(source.kind) && source.url !== action.href);
+  if (page) links.append(external(page.url, page.kind === "course" ? "View course ↗" : "Original ↗"));
   body.append(links); card.append(body); return card;
 }
 function matchesEra(item, era) {

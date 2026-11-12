@@ -118,6 +118,10 @@ def items(root, include_references=False):
 def recording_status(work):
     """Capture success for text never implies that a recording was saved."""
     sources = work["sources"]
+    trailers = {s["id"] for s in sources if s.get("context", {}).get("format") == "Course trailer"}
+    recordings = [a for a in work["assets"].values() if a["type"].startswith(("video/", "audio/"))]
+    if recordings and all(a.get("source_id") in trailers for a in recordings):
+        return {"summary": "Trailer saved; full course not saved", "missing": True}
     expected = any(s["kind"] in {"video", "audio", "course", "podcast_page", "webinar_listing", "slides"}
                    or "webinar" in s.get("context", {}).get("format", "").lower() for s in sources)
     video = any(a["type"].startswith("video/") for a in work["assets"].values())
